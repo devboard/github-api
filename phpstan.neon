@@ -1,9 +1,13 @@
 parameters:
 	bootstrap: tests/bootstrap.php
 	ignoreErrors:
+	    - '#Parameter .* Mockery\\MockInterface given.#'
+	    - '#Call to an undefined method Mockery\\ExpectationInterface|Mockery\\HigherOrderMessage::andReturn().#'
+	    - '#Call to an undefined method DevboardLib\\GitHubApi\\Auth\\GitHubApp\\JwtTokenBuilder|Mockery\\MockInterface::shouldReceive().#'
 	includes:
 	    - vendor/phpstan/phpstan-phpunit/extension.neon
 	    - vendor/phpstan/phpstan-phpunit/rules.neon
+
 
 
 
