@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b855bb55ab8cbc1a1fd94cc34416566",
+    "content-hash": "1a039f5c135ef785d1acf32cb044d851",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -1434,6 +1434,58 @@
                 "versioning"
             ],
             "time": "2016-08-30T16:08:34+00:00"
+        },
+        {
+            "name": "devboard/thesting-data-source",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/devboard/thesting-data-source.git",
+                "reference": "ee513a33b334d3eeea1de8b09294224437dedb48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devboard/thesting-data-source/zipball/ee513a33b334d3eeea1de8b09294224437dedb48",
+                "reference": "ee513a33b334d3eeea1de8b09294224437dedb48",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.2",
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "ciaranmcnulty/phpspec-typehintedmethods": "~2.0",
+                "codeclimate/php-test-reporter": "^0.4.2",
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "henrikbjorn/phpspec-code-coverage": "^3.0",
+                "humbug/humbug": "~1.0@dev",
+                "mockery/mockery": "~0.9",
+                "phing/phing": "^2.15",
+                "phpmd/phpmd": "~2.1",
+                "phpspec/phpspec": "~3.0",
+                "phpstan/phpstan": "^0.6.1",
+                "phpunit/phpunit": "^5",
+                "satooshi/php-coveralls": "^1",
+                "sebastian/phpcpd": "^3.0",
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "project",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DevboardLib\\Thesting\\Source\\": "src/",
+                    "tests\\DevboardLib\\Thesting\\Source\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "time": "2018-03-11T23:20:14+00:00"
         },
         {
             "name": "doctrine/annotations",
