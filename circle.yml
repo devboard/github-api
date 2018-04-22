@@ -1,0 +1,105 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: msvrtan/square:0.2.2
+    working_directory: /var/www
+    parallel: 1
+    steps:
+      - checkout
+
+      - restore_cache:
+          key: cache-v1-{{ checksum "composer.lock" }}
+      - run:
+          name: Disable xdebug
+          command: ./etc/circleci2/disable-xdebug.sh
+      - run:
+          name: Composer install
+          command: composer install --prefer-dist --no-interaction
+
+      - run:
+          name: Lint all PHP code files
+          command: git diff --name-only --diff-filter=ACMR 31aeea2a3c123b0e81e2d0552774a07e22b8bed3 | grep -E "^(spec|src|tests)\/.*php$" | xargs -n1 php -l 1> /dev/null
+
+      - run:
+          name: PHPSpec
+          command: ./vendor/bin/phpspec run
+      - run:
+          name: PHPUnit
+          command: ./vendor/bin/phpunit
+      - run:
+          name: PHPStan
+          command: ./vendor/bin/phing phpstan
+      - run:
+          name: Code standards
+          command: ./vendor/bin/phing check-codestandards
+
+      - save_cache:
+          key: cache-v4-{{ checksum "composer.lock" }}
+          paths:
+            - /var/www/vendor
+
+  infection:
+    docker:
+      - image: msvrtan/square:0.2.1
+    workDir: /var/www
+    steps:
+      - checkout
+
+      - restore_cache:
+          key: cache-v1-{{ checksum "composer.lock" }}
+      - run:
+          name: Composer install
+          command: composer install --prefer-dist --no-interaction
+      - run:
+          name: Composer install
+          command: composer install --no-interaction
+      - run:
+          name: Composer dump autoload (bug on autoload)
+          command: composer dump-autoload -o
+      - run:
+          name: Infection
+          command: ./vendor/bin/infection
+      - store_artifacts:
+          path: build
+          destination: build
+
+  codecoverage_phpunit:
+    docker:
+      - image: msvrtan/square:0.2.1
+    workDir: /var/www
+    steps:
+      - checkout
+
+      - restore_cache:
+          key: cache-v1-{{ checksum "composer.lock" }}
+      - run:
+          name: Composer install
+          command: composer install --no-interaction
+      - run:
+          name: Composer dump autoload (bug on autoload)
+          command: composer dump-autoload -o
+      - run:
+          name: PHPUnit
+          command: ./vendor/bin/phpunit --fail-on-warning --log-junit build/phpunit/junit.xml
+      - run:
+          name: Ship codecoverage to codecov.io
+          command: bash <(curl -s https://codecov.io/bash)
+      - type: artifacts-store
+        path: build
+        destination: build
+      - store_test_results:
+          path: build
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build
+      - infection:
+         requires:
+           - build
+      - codecoverage_phpunit:
+         requires:
+           - build
