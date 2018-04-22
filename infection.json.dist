@@ -1,0 +1,16 @@
+{
+    "source": {
+        "directories": [
+            "src",
+            "tests"
+        ],
+        "exclude": [
+            "Config",
+            "Folder/with/File.php"
+        ]
+    },
+    "timeout": 10,
+    "logs": {
+        "text": "build/infection-log.txt"
+    }
+}
