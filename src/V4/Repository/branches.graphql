@@ -1,0 +1,64 @@
+query ($owner: String!, $name: String!) {
+    repository(owner: $owner, name: $name) {
+        id
+        name
+        refs(refPrefix: "refs/heads/", first: 100) {
+            edges {
+                node {
+                    id
+                    name
+                    target {
+                        ... on Commit {
+                            oid
+                            message
+                            authoredDate
+                            author {
+                                name
+                                email
+                                date
+                                user {
+                                    id
+                                    login
+                                    name
+                                    __typename
+                                    avatarUrl
+                                    url
+                                    isSiteAdmin
+                                }
+                            }
+                            committer {
+                                name
+                                email
+                                date
+                                user {
+                                    id
+                                    login
+                                    name
+                                    __typename
+                                    avatarUrl
+                                    url
+                                    isSiteAdmin
+                                }
+                            }
+                            tree {
+                                oid
+                                commitUrl
+                                commitResourcePath
+                            }
+                            parents(first: 100) {
+                                edges {
+                                    node {
+                                        oid
+                                        url
+                                        commitUrl
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
