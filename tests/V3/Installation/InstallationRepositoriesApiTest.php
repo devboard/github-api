@@ -29,7 +29,7 @@ class InstallationRepositoriesApiTest extends TestCase
     {
         $appId          = getenv('GITHUB_TEST_APP_ID');
         $privateKeyPath = getenv('GITHUB_TEST_APP_PRIVATE_KEY_PATH');
-        $userId         = getenv('GITHUT_TEST_USER_ID');
+        $userId         = getenv('GITHUB_TEST_USER_ID');
 
         if (false === $appId) {
             self::markTestSkipped('No AppId');

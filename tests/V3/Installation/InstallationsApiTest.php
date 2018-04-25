@@ -27,7 +27,7 @@ class InstallationsApiTest extends TestCase
      */
     public function testInstallationFactoryLive()
     {
-        $token = getenv('GITHUT_TEST_TOKEN');
+        $token = getenv('GITHUB_TEST_TOKEN');
 
         if (false === $token) {
             self::markTestSkipped('No token');
