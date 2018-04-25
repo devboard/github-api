@@ -1,0 +1,59 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnk0NDg3OTcwMA==",
+            "name": "devboard-test",
+            "refs": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNDQ4Nzk3MDA6bWFzdGVy",
+                            "name": "master",
+                            "target": {
+                                "oid": "2b277679ae59aa428f7dc6601a4b5deb55d4df3f",
+                                "message": "Initial commit",
+                                "authoredDate": "2015-10-24T18:46:28Z",
+                                "author": {
+                                    "name": "devboard-test",
+                                    "email": "info@nulldevelopment.hr",
+                                    "date": "2015-10-24T18:46:28Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjEzNTA3NDEy",
+                                        "login": "devboard-test",
+                                        "name": null,
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/13507412?v=4",
+                                        "url": "https://github.com/devboard-test",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "devboard-test",
+                                    "email": "info@nulldevelopment.hr",
+                                    "date": "2015-10-24T20:46:28+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjEzNTA3NDEy",
+                                        "login": "devboard-test",
+                                        "name": null,
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/13507412?v=4",
+                                        "url": "https://github.com/devboard-test",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "5e0cc3bdd5927fbd22ebd1b89a34ae360c83dfc6",
+                                    "commitUrl": "https://github.com/devboard-test/devboard-test/commit/5e0cc3bdd5927fbd22ebd1b89a34ae360c83dfc6",
+                                    "commitResourcePath": "/devboard-test/devboard-test/commit/5e0cc3bdd5927fbd22ebd1b89a34ae360c83dfc6"
+                                },
+                                "parents": {
+                                    "edges": []
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

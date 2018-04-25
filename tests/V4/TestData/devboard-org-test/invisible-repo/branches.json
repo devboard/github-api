@@ -1,0 +1,59 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnk5NTk4NjIzMA==",
+            "name": "invisible-repo",
+            "refs": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDM6UmVmOTU5ODYyMzA6bWFzdGVy",
+                            "name": "master",
+                            "target": {
+                                "oid": "cd20eef35c11a51245b094db39229e9e8502a52a",
+                                "message": "Initial commit",
+                                "authoredDate": "2017-07-01T20:30:02Z",
+                                "author": {
+                                    "name": "Miro Svrtan",
+                                    "email": "msvrtan@users.noreply.github.com",
+                                    "date": "2017-07-01T20:30:02Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                        "login": "msvrtan",
+                                        "name": "Miro Svrtan",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                        "url": "https://github.com/msvrtan",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Miro Svrtan",
+                                    "email": "msvrtan@users.noreply.github.com",
+                                    "date": "2017-07-01T22:30:02+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                        "login": "msvrtan",
+                                        "name": "Miro Svrtan",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                        "url": "https://github.com/msvrtan",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "c8075cd3807dc0a926bd812209be29675d67bb68",
+                                    "commitUrl": "https://github.com/devboard-org-test/invisible-repo/commit/c8075cd3807dc0a926bd812209be29675d67bb68",
+                                    "commitResourcePath": "/devboard-org-test/invisible-repo/commit/c8075cd3807dc0a926bd812209be29675d67bb68"
+                                },
+                                "parents": {
+                                    "edges": []
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
