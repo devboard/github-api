@@ -1,0 +1,74 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnk0OTU2NzkxNQ==",
+            "name": "devboard",
+            "refs": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNDk1Njc5MTU6bWFzdGVy",
+                            "name": "master",
+                            "target": {
+                                "oid": "b460de0c73aa76b0d4ff1f70f856180a17a1adf5",
+                                "message": "Merge pull request #232 from msvrtan/speeding-up-travis\n\nSpeeding up travis",
+                                "authoredDate": "2016-01-13T09:27:22Z",
+                                "author": {
+                                    "name": "Miro Svrtan",
+                                    "email": "msvrtan@users.noreply.github.com",
+                                    "date": "2016-01-13T09:27:22Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                        "login": "msvrtan",
+                                        "name": "Miro Svrtan",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                        "url": "https://github.com/msvrtan",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Miro Svrtan",
+                                    "email": "msvrtan@users.noreply.github.com",
+                                    "date": "2016-01-13T10:27:22+01:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                        "login": "msvrtan",
+                                        "name": "Miro Svrtan",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                        "url": "https://github.com/msvrtan",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "36dbd2329567a5c5a5948a6812e2306ae39bf571",
+                                    "commitUrl": "https://github.com/devboard-test/devboard/commit/36dbd2329567a5c5a5948a6812e2306ae39bf571",
+                                    "commitResourcePath": "/devboard-test/devboard/commit/36dbd2329567a5c5a5948a6812e2306ae39bf571"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "7e893bcca9a4e03e5ec8b08500d26bb85baf5fa9",
+                                                "url": "https://github.com/devboard-test/devboard/commit/7e893bcca9a4e03e5ec8b08500d26bb85baf5fa9",
+                                                "commitUrl": "https://github.com/devboard-test/devboard/commit/7e893bcca9a4e03e5ec8b08500d26bb85baf5fa9"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "c1c87452f0568ce310b3ffcf532be444a29da800",
+                                                "url": "https://github.com/devboard-test/devboard/commit/c1c87452f0568ce310b3ffcf532be444a29da800",
+                                                "commitUrl": "https://github.com/devboard-test/devboard/commit/c1c87452f0568ce310b3ffcf532be444a29da800"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
