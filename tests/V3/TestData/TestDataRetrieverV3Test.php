@@ -15,16 +15,12 @@ use PHPUnit\Framework\TestCase;
 /**
  * @group fetch
  */
-class TestDataRetrieverTest extends TestCase
+class TestDataRetrieverV3Test extends TestCase
 {
     public function testInstallationFetch()
     {
-        $username = getenv('GITHUT_TEST_USERNAME');
-        $token    = getenv('GITHUT_TEST_TOKEN');
+        $token = getenv('GITHUB_TEST_TOKEN');
 
-        if (false === $username) {
-            self::markTestSkipped('No username');
-        }
         if (false === $token) {
             self::markTestSkipped('No token');
         }
@@ -37,15 +33,14 @@ class TestDataRetrieverTest extends TestCase
 
         self::assertCount(3, $data['installations']);
 
-        $this->writeJson($username, 'installations.json', $data);
+        $this->writeJson('devboard-test', 'installations.json', $data);
     }
 
     public function testInstallationRepositoriesFetch()
     {
         $appId          = getenv('GITHUB_TEST_APP_ID');
         $privateKeyPath = getenv('GITHUB_TEST_APP_PRIVATE_KEY_PATH');
-        $userId         = getenv('GITHUT_TEST_USER_ID');
-        $username       = getenv('GITHUT_TEST_USERNAME');
+        $userId         = getenv('GITHUB_TEST_USER_ID');
 
         if (false === $appId) {
             self::markTestSkipped('No AppId');
@@ -56,15 +51,10 @@ class TestDataRetrieverTest extends TestCase
         if (false === $userId) {
             self::markTestSkipped('No user id');
         }
-        if (false === $username) {
-            self::markTestSkipped('No username');
-        }
 
         $path = 'file://'.__DIR__.'/../../../'.$privateKeyPath;
 
-        $installationsContent = file_get_contents(__DIR__.'/'.$username.'/installations.json');
-
-        $installations = json_decode($installationsContent, true)['installations'];
+        $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
 
         self::assertCount(3, $installations);
 
@@ -92,5 +82,10 @@ class TestDataRetrieverTest extends TestCase
             mkdir($folder);
         }
         file_put_contents($folder.$filename, json_encode($data, $encodeOptions));
+    }
+
+    private function getInstallationsFileContent(): string
+    {
+        return file_get_contents(__DIR__.'/devboard-test/installations.json');
     }
 }
