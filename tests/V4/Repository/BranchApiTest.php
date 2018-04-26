@@ -90,7 +90,7 @@ class BranchApiTest extends TestCase
         }
     }
 
-    public function aaatestFetch()
+    public function testFetch()
     {
         $appId          = getenv('GITHUB_TEST_APP_ID');
         $privateKeyPath = getenv('GITHUB_TEST_APP_PRIVATE_KEY_PATH');
