@@ -1,0 +1,93 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+            "name": "lib-git",
+            "labels": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MDI5MzU1ODI=",
+                            "name": "bug",
+                            "color": "ee0701",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard/lib-git/labels/bug"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MDI5MzU1ODM=",
+                            "name": "duplicate",
+                            "color": "cccccc",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard/lib-git/labels/duplicate"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MDI5MzU1ODQ=",
+                            "name": "enhancement",
+                            "color": "84b6eb",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard/lib-git/labels/enhancement"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MDI5MzU1ODU=",
+                            "name": "help wanted",
+                            "color": "33aa3f",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard/lib-git/labels/help%20wanted"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MDI5MzU1ODY=",
+                            "name": "good first issue",
+                            "color": "7057ff",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard/lib-git/labels/good%20first%20issue"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MDI5MzU1ODc=",
+                            "name": "invalid",
+                            "color": "e6e6e6",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard/lib-git/labels/invalid"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MDI5MzU1ODg=",
+                            "name": "question",
+                            "color": "cc317c",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard/lib-git/labels/question"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MDI5MzU1ODk=",
+                            "name": "wontfix",
+                            "color": "ffffff",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard/lib-git/labels/wontfix"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4NDg4MDQxNzk=",
+                            "name": "dependencies",
+                            "color": "0025ff",
+                            "isDefault": false,
+                            "url": "https://github.com/devboard/lib-git/labels/dependencies"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

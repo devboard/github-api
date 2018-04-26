@@ -1,0 +1,18 @@
+query ($owner: String!, $name: String!) {
+    repository(owner: $owner, name: $name) {
+        id
+        name
+        labels(first: 100) {
+            edges {
+                node {
+                    id
+                    name
+                    color
+                    isDefault
+                    url
+                }
+            }
+        }
+    }
+}
+

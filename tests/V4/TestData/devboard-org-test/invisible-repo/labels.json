@@ -1,0 +1,75 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnk5NTk4NjIzMA==",
+            "name": "invisible-repo",
+            "labels": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2MzgyNTEyNjk=",
+                            "name": "bug",
+                            "color": "ee0701",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard-org-test/invisible-repo/labels/bug"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2MzgyNTEyNzA=",
+                            "name": "duplicate",
+                            "color": "cccccc",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard-org-test/invisible-repo/labels/duplicate"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2MzgyNTEyNzE=",
+                            "name": "enhancement",
+                            "color": "84b6eb",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard-org-test/invisible-repo/labels/enhancement"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2MzgyNTEyNzI=",
+                            "name": "help wanted",
+                            "color": "128A0C",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard-org-test/invisible-repo/labels/help%20wanted"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2MzgyNTEyNzM=",
+                            "name": "invalid",
+                            "color": "e6e6e6",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard-org-test/invisible-repo/labels/invalid"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2MzgyNTEyNzQ=",
+                            "name": "question",
+                            "color": "cc317c",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard-org-test/invisible-repo/labels/question"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2MzgyNTEyNzU=",
+                            "name": "wontfix",
+                            "color": "ffffff",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard-org-test/invisible-repo/labels/wontfix"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

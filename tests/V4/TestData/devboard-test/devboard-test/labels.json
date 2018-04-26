@@ -1,0 +1,75 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnk0NDg3OTcwMA==",
+            "name": "devboard-test",
+            "labels": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNzc0Mzg2Nzc=",
+                            "name": "bug",
+                            "color": "fc2929",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard-test/devboard-test/labels/bug"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNzc0Mzg2Nzg=",
+                            "name": "duplicate",
+                            "color": "cccccc",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard-test/devboard-test/labels/duplicate"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNzc0Mzg2Nzk=",
+                            "name": "enhancement",
+                            "color": "84b6eb",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard-test/devboard-test/labels/enhancement"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNzc0Mzg2ODA=",
+                            "name": "help wanted",
+                            "color": "159818",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard-test/devboard-test/labels/help%20wanted"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNzc0Mzg2ODE=",
+                            "name": "invalid",
+                            "color": "e6e6e6",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard-test/devboard-test/labels/invalid"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNzc0Mzg2ODI=",
+                            "name": "question",
+                            "color": "cc317c",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard-test/devboard-test/labels/question"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNzc0Mzg2ODM=",
+                            "name": "wontfix",
+                            "color": "ffffff",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard-test/devboard-test/labels/wontfix"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
