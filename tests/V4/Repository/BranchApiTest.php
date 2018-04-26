@@ -28,12 +28,6 @@ class BranchApiTest extends TestCase
     public function testGetBranches(
         InstallationId $installationId, UserId $userId, RepoFullName $repoFullName, $inputData
     ) {
-        $username = getenv('GITHUB_TEST_USERNAME');
-
-        if (false === $username) {
-            self::markTestSkipped('No username');
-        }
-
         $clientFactory = Mockery::mock(GitHubClientFactory::class);
         $client        = Mockery::mock(Client::class);
         $graphQlApi    = Mockery::mock(GraphQL::class);
