@@ -1,0 +1,93 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTY0NjI=",
+            "name": "lib-generix",
+            "labels": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MDI5Mzc2NDM=",
+                            "name": "bug",
+                            "color": "ee0701",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard/lib-generix/labels/bug"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MDI5Mzc2NDQ=",
+                            "name": "duplicate",
+                            "color": "cccccc",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard/lib-generix/labels/duplicate"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MDI5Mzc2NDU=",
+                            "name": "enhancement",
+                            "color": "84b6eb",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard/lib-generix/labels/enhancement"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MDI5Mzc2NDY=",
+                            "name": "help wanted",
+                            "color": "33aa3f",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard/lib-generix/labels/help%20wanted"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MDI5Mzc2NDc=",
+                            "name": "good first issue",
+                            "color": "7057ff",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard/lib-generix/labels/good%20first%20issue"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MDI5Mzc2NDg=",
+                            "name": "invalid",
+                            "color": "e6e6e6",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard/lib-generix/labels/invalid"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MDI5Mzc2NDk=",
+                            "name": "question",
+                            "color": "cc317c",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard/lib-generix/labels/question"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MDI5Mzc2NTA=",
+                            "name": "wontfix",
+                            "color": "ffffff",
+                            "isDefault": true,
+                            "url": "https://github.com/devboard/lib-generix/labels/wontfix"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4NDg4MDQ5MjM=",
+                            "name": "dependencies",
+                            "color": "0025ff",
+                            "isDefault": false,
+                            "url": "https://github.com/devboard/lib-generix/labels/dependencies"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
