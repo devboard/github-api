@@ -19,12 +19,12 @@ class LabelApi
     /**
      * @var LabelFactory
      */
-    private $branchFactory;
+    private $labelFactory;
 
-    public function __construct(GitHubClientFactory $clientFactory, LabelFactory $branchFactory)
+    public function __construct(GitHubClientFactory $clientFactory, LabelFactory $labelFactory)
     {
         $this->clientFactory = $clientFactory;
-        $this->branchFactory = $branchFactory;
+        $this->labelFactory  = $labelFactory;
     }
 
     /** @return array|GitHubLabel[] */
@@ -35,7 +35,7 @@ class LabelApi
         $results = [];
 
         foreach ($data['data']['repository']['labels']['edges'] as $item) {
-            $results[] = $this->branchFactory->create($item['node']);
+            $results[] = $this->labelFactory->create($item['node']);
         }
 
         return $results;
