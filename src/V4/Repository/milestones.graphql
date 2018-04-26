@@ -1,0 +1,33 @@
+query ($owner: String!, $name: String!) {
+    repository(owner: $owner, name: $name) {
+        id
+        name
+        milestones(first: 100) {
+            edges {
+                node {
+                    id
+                    title
+                    description
+                    dueOn
+                    state
+                    number
+                    creator {
+                        ... on User {
+                            id
+                            login
+                            name
+                            __typename
+                            avatarUrl
+                            url
+                            isSiteAdmin
+                        }
+                    }
+                    closedAt
+                    createdAt
+                    updatedAt
+                }
+            }
+        }
+    }
+}
+
