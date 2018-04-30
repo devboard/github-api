@@ -12,9 +12,9 @@
     ],
     "require": {
         "php": "^7.1",
-        "devboard/lib-generix": "0.4.*@dev",
-        "devboard/lib-git": "0.4.*@dev",
-        "devboard/lib-github": "0.4.*@dev",
+        "devboard/lib-generix": "0.5.*@dev",
+        "devboard/lib-git": "0.5.*@dev",
+        "devboard/lib-github": "0.5.*@dev",
         "guzzlehttp/guzzle": "^6.3",
         "knplabs/github-api": "^2.8",
         "lcobucci/jwt": "^3.2",
