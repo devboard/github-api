@@ -10,9 +10,7 @@ use DevboardLib\Git\Commit\Committer\CommitterName;
 use DevboardLib\GitHub\Account\AccountType;
 use DevboardLib\GitHub\Commit\CommitCommitter;
 use DevboardLib\GitHub\Commit\CommitCommitterDetails;
-use DevboardLib\GitHub\User\UserApiUrl;
 use DevboardLib\GitHub\User\UserAvatarUrl;
-use DevboardLib\GitHub\User\UserHtmlUrl;
 use DevboardLib\GitHub\User\UserId;
 use DevboardLib\GitHub\User\UserLogin;
 
@@ -32,9 +30,6 @@ class CommitCommitterFactory
                 new UserLogin($data['user']['login']),
                 new AccountType($data['user']['__typename']),
                 new UserAvatarUrl($data['user']['avatarUrl']),
-                null,
-                new UserHtmlUrl('TODO'),
-                new UserApiUrl('TODO'),
                 $data['user']['isSiteAdmin']
             );
         }

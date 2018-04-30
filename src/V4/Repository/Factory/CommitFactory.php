@@ -7,8 +7,6 @@ namespace DevboardLib\GitHubApi\V4\Repository\Factory;
 use DevboardLib\Git\Commit\CommitDate;
 use DevboardLib\Git\Commit\CommitMessage;
 use DevboardLib\Git\Commit\CommitSha;
-use DevboardLib\GitHub\Commit\CommitApiUrl;
-use DevboardLib\GitHub\Commit\CommitHtmlUrl;
 use DevboardLib\GitHub\Commit\CommitParent;
 use DevboardLib\GitHub\Commit\CommitParentCollection;
 use DevboardLib\GitHub\Commit\CommitTree;
@@ -57,9 +55,7 @@ class CommitFactory
             $this->committerFactory->createFromBranchData($data['committer']),
             new CommitTree(new CommitSha($data['tree']['oid']), new TreeApiUrl('TODO')),
             $this->createParentCollection($data['parents']['edges']),
-            $verification,
-            new CommitApiUrl('TODO'),
-            new CommitHtmlUrl('TODO')
+            $verification
         );
     }
 
