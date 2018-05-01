@@ -1,0 +1,174 @@
+query ($owner: String!, $name: String!, $cursor: String) {
+    repository(owner: $owner, name: $name) {
+        id
+        name
+        pullRequests(last: 50, after: $cursor) {
+            pageInfo {
+                hasNextPage
+                endCursor
+            }
+            edges {
+                node {
+                    id
+                    number
+                    title
+                    body
+                    state
+                    mergedAt
+                    mergedBy {
+                        ... on User {
+                            id
+                            login
+                            name
+                            __typename
+                            avatarUrl
+                            url
+                            isSiteAdmin
+                        }
+                    }
+                    additions
+                    changedFiles
+                    deletions
+                    headRepository {
+                        id
+                        owner {
+                            ... on User {
+                                id
+                                login
+                                name
+                                __typename
+                                avatarUrl
+                                url
+                                isSiteAdmin
+                            }
+                        }
+                        name
+                        isPrivate
+                        defaultBranchRef {
+                            name
+                        }
+                        isFork
+                        parent {
+                            id
+                            nameWithOwner
+                        }
+                        description
+                        homepageUrl
+                        primaryLanguage {
+                            name
+                        }
+                        mirrorUrl
+                        isArchived
+                        forkCount
+                        pushedAt
+                        updatedAt
+                        createdAt
+                    }
+                    author {
+                        ... on User {
+                            id
+                            login
+                            name
+                            __typename
+                            avatarUrl
+                            url
+                            isSiteAdmin
+                        }
+                    }
+                    assignees(first: 100) {
+                        edges {
+                            node {
+                                id
+                                login
+                                name
+                                __typename
+                                avatarUrl
+                                url
+                                isSiteAdmin
+                            }
+                        }
+                    }
+                    reviewRequests(first: 100) {
+                        edges {
+                            node {
+                                id
+                                requestedReviewer {
+                                    ... on User {
+                                        id
+                                        login
+                                        name
+                                        __typename
+                                        avatarUrl
+                                        url
+                                        isSiteAdmin
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    reviews(first: 100) {
+                        edges {
+                            node {
+                                id
+                                body
+                                author {
+                                    ... on User {
+                                        id
+                                        login
+                                        name
+                                        __typename
+                                        avatarUrl
+                                        url
+                                        isSiteAdmin
+                                    }
+                                }
+                                state
+                                commit {
+                                    oid
+                                }
+                                submittedAt
+                            }
+                        }
+                    }
+                    labels(first: 100) {
+                        edges {
+                            node {
+                                id
+                                name
+                                color
+                                isDefault
+                                url
+                            }
+                        }
+                    }
+                    milestone {
+                        id
+                        title
+                        description
+                        dueOn
+                        state
+                        number
+                        creator {
+                            ... on User {
+                                id
+                                login
+                                name
+                                __typename
+                                avatarUrl
+                                url
+                                isSiteAdmin
+                            }
+                        }
+                        closedAt
+                        createdAt
+                        updatedAt
+                    }
+                    closedAt
+                    createdAt
+                    updatedAt
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,17 @@
+[
+    {
+        "data": {
+            "repository": {
+                "id": "MDEwOlJlcG9zaXRvcnk5NTk4NjIzMA==",
+                "name": "invisible-repo",
+                "pullRequests": {
+                    "pageInfo": {
+                        "hasNextPage": false,
+                        "endCursor": null
+                    },
+                    "edges": []
+                }
+            }
+        }
+    }
+]

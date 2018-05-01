@@ -12,12 +12,15 @@ use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 use DevboardLib\GitHubApi\V4\Repository\BranchApi;
 use DevboardLib\GitHubApi\V4\Repository\LabelApi;
 use DevboardLib\GitHubApi\V4\Repository\MilestoneApi;
+use DevboardLib\GitHubApi\V4\Repository\PullRequestApi;
 use PHPUnit\Framework\TestCase;
 use Tests\DevboardLib\GitHubApi\V4\Repository\Factory\BranchFactoryTest;
 use Tests\DevboardLib\GitHubApi\V4\Repository\Factory\LabelFactoryTest;
 use Tests\DevboardLib\GitHubApi\V4\Repository\Factory\MilestoneFactoryTest;
+use Tests\DevboardLib\GitHubApi\V4\Repository\Factory\PullRequestFactoryTest;
 
 /**
+ * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  * @group fetch
  */
 class TestDataRetrieverV4Test extends TestCase
@@ -129,6 +132,46 @@ class TestDataRetrieverV4Test extends TestCase
                 $data = $api->getRawMilestones($repoFullName, $installationId, new UserId((int) $userId));
 
                 $this->writeJson($repository['full_name'], 'milestones.json', $data);
+            }
+        }
+    }
+
+    /**
+     * @group wip2
+     */
+    public function testPullRequestsFetch()
+    {
+        $userId   = getenv('GITHUB_TEST_USER_ID');
+        $username = getenv('GITHUB_TEST_USERNAME');
+
+        if (false === $userId) {
+            self::markTestSkipped('No user id');
+        }
+
+        if (false === $username) {
+            self::markTestSkipped('No username');
+        }
+
+        $clientFactory = $this->getClientFactory();
+
+        $api = new PullRequestApi($clientFactory, PullRequestFactoryTest::instance());
+
+        $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
+
+        self::assertCount(3, $installations);
+
+        foreach ($installations as $installation) {
+            $installationId = new InstallationId((int) $installation['id']);
+            $vendorName     = $installation['account']['login'];
+
+            $repositories = json_decode($this->getInstallationRepositoriesFileContent($vendorName), true);
+
+            foreach ($repositories['repositories'] as $repository) {
+                $repoFullName = RepoFullName::createFromString($repository['full_name']);
+
+                $data = $api->getRawPullRequests($repoFullName, $installationId, new UserId((int) $userId));
+
+                $this->writeJson($repository['full_name'], 'pullrequests.json', $data);
             }
         }
     }
