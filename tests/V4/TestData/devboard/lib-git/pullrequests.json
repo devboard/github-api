@@ -1,0 +1,1980 @@
+[
+    {
+        "data": {
+            "repository": {
+                "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                "name": "lib-git",
+                "pullRequests": {
+                    "pageInfo": {
+                        "hasNextPage": false,
+                        "endCursor": "Y3Vyc29yOnYyOpHOCwc4fQ=="
+                    },
+                    "edges": [
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTYyNjY1MTYw",
+                                "number": 1,
+                                "title": "Setting up project",
+                                "body": "..",
+                                "state": "MERGED",
+                                "mergedAt": "2018-01-12T16:05:11Z",
+                                "mergedBy": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "additions": 6350,
+                                "changedFiles": 47,
+                                "deletions": 0,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": []
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-01-12T16:05:11Z",
+                                "createdAt": "2018-01-12T16:02:00Z",
+                                "updatedAt": "2018-01-12T16:05:15Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTYyNjc5ODAx",
+                                "number": 2,
+                                "title": "Add code coverage",
+                                "body": "..",
+                                "state": "MERGED",
+                                "mergedAt": "2018-01-12T17:06:45Z",
+                                "mergedBy": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "additions": 406,
+                                "changedFiles": 6,
+                                "deletions": 2,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": []
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-01-12T17:06:45Z",
+                                "createdAt": "2018-01-12T17:04:23Z",
+                                "updatedAt": "2018-01-12T17:06:47Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTYyODIwMTU4",
+                                "number": 3,
+                                "title": "Add missing PHPSpec configuration",
+                                "body": "",
+                                "state": "MERGED",
+                                "mergedAt": "2018-01-14T11:14:26Z",
+                                "mergedBy": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "additions": 14,
+                                "changedFiles": 5,
+                                "deletions": 0,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": []
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-01-14T11:14:26Z",
+                                "createdAt": "2018-01-14T11:08:13Z",
+                                "updatedAt": "2018-01-14T11:14:28Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTY4MjU2OTY0",
+                                "number": 4,
+                                "title": "Update composer.lock, package updates",
+                                "body": "- ocramius/package-versions (1.2.0 => 1.3.0)\n - devboard/lib-generix (0.1.0 => 0.1.1)\n - symfony/stopwatch (v4.0.3 => v4.0.4)\n - symfony/process (v4.0.3 => v4.0.4)\n - symfony/polyfill-php72 (v1.6.0 => v1.7.0)\n - symfony/polyfill-php70 (v1.6.0 => v1.7.0)\n - symfony/options-resolver (v4.0.3 => v4.0.4)\n - symfony/finder (v4.0.3 => v4.0.4)\n - symfony/filesystem (v4.0.3 => v4.0.4)\n - symfony/event-dispatcher (v4.0.3 => v4.0.4)\n - symfony/polyfill-mbstring (v1.6.0 => v1.7.0)\n - symfony/console (v4.0.3 => v4.0.4)\n - php-cs-fixer/diff (v1.2.0 => v1.2.1)\n - gecko-packages/gecko-php-unit (v3.0 => v3.1)\n - friendsofphp/php-cs-fixer (v2.10.0 => v2.10.2)\n - symfony/yaml (v3.4.3 => v4.0.4)\n - pimple/pimple (v3.2.2 => v3.2.3)\n - nikic/php-parser (v3.1.3 => v3.1.4)\n - infection/infection (0.7.0 => 0.7.1)\n - phing/phing (2.16.0 => 2.16.1)\n - phpstan/phpdoc-parser (0.1 => 0.2)\n - sebastian/comparator (2.1.2 => 2.1.3)\n - webmozart/assert (1.2.0 => 1.3.0)\n - phpdocumentor/reflection-docblock (4.2.0 => 4.3.0)\n - phpunit/phpunit (6.5.5 => 6.5.6)\n - nette/utils (v2.4.8 => v2.4.9)\n - nette/robot-loader (v3.0.2 => v3.0.3)\n - nette/php-generator (v3.0.1 => v3.0.2)\n - jean85/pretty-package-versions (1.0.3 => 1.1)\n - phpstan/phpstan (0.9.1 => 0.9.2)\n - phpstan/phpstan-phpunit (0.9.3 => 0.9.4)\n - slevomat/coding-standard (4.3.0 => 4.4.4)\n - symfony/config (v4.0.3 => v4.0.4)\n - symfony/dependency-injection (v4.0.3 => v4.0.4)",
+                                "state": "MERGED",
+                                "mergedAt": "2018-02-09T14:47:21Z",
+                                "mergedBy": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "additions": 211,
+                                "changedFiles": 1,
+                                "deletions": 183,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": []
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-02-09T14:47:21Z",
+                                "createdAt": "2018-02-09T14:44:57Z",
+                                "updatedAt": "2018-02-09T14:47:24Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTcxMTM2MjY0",
+                                "number": 5,
+                                "title": "Update composer.lock, package updates",
+                                "body": "- Removing gecko-packages/gecko-php-unit (v3.1)\n  - Updating php-cs-fixer/diff (v1.2.1 => v1.3.0): Loading from cache\n  - Updating friendsofphp/php-cs-fixer (v2.10.2 => v2.10.3): Downloading (100%)\n  - Installing composer/ca-bundle (1.1.0): Loading from cache\n  - Updating padraic/humbug_get_contents (1.0.4 => 1.1.2): Loading from cache\n  - Updating padraic/phar-updater (1.0.4 => v1.0.5): Loading from cache\n  - Updating nette/utils (v2.4.9 => v2.5.1): Loading from cache\n  - Updating phpspec/prophecy (1.7.3 => 1.7.5): Loading from cache\n  - Updating squizlabs/php_codesniffer (3.2.2 => 3.2.3): Loading from cache\n  - Updating slevomat/coding-standard (4.4.4 => 4.4.6): Loading from cache",
+                                "state": "MERGED",
+                                "mergedAt": "2018-02-23T23:02:45Z",
+                                "mergedBy": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "additions": 123,
+                                "changedFiles": 1,
+                                "deletions": 104,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": []
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-02-23T23:02:45Z",
+                                "createdAt": "2018-02-23T22:57:35Z",
+                                "updatedAt": "2018-02-23T23:02:48Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTcxMzMzMjM1",
+                                "number": 6,
+                                "title": "Bump phpunit/phpunit from 6.5.6 to 6.5.7",
+                                "body": "Bumps [phpunit/phpunit](https://github.com/sebastianbergmann/phpunit) from 6.5.6 to 6.5.7.\n- [Changelog](https://github.com/sebastianbergmann/phpunit/blob/master/ChangeLog-5.7.md)\n- [Commits](https://github.com/sebastianbergmann/phpunit/compare/6.5.6...6.5.7)\n\n[![Dependabot compatibility score](https://api.dependabot.com/badges/ci_status?dependency-name=phpunit/phpunit&package-manager=composer&previous-version=6.5.6&new-version=6.5.7)](https://dependabot.com/compatibility-score.html?dependency-name=phpunit/phpunit&package-manager=composer&previous-version=6.5.6&new-version=6.5.7)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\nIf you'd like to skip this version, you can just close this PR. If you have any feedback just mention @dependabot in the comments below.",
+                                "state": "CLOSED",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 5,
+                                "changedFiles": 1,
+                                "deletions": 5,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": [],
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "id": "MDU6TGFiZWw4NDg4MDQxNzk=",
+                                                "name": "dependencies",
+                                                "color": "0025ff",
+                                                "isDefault": false,
+                                                "url": "https://github.com/devboard/lib-git/labels/dependencies"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-02-28T10:39:06Z",
+                                "createdAt": "2018-02-26T10:21:38Z",
+                                "updatedAt": "2018-02-28T10:39:07Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTcxOTA4ODg3",
+                                "number": 7,
+                                "title": "Bump infection/infection from 0.7.1 to 0.8.0",
+                                "body": "Bumps [infection/infection](https://github.com/infection/infection) from 0.7.1 to 0.8.0.\n- [Release notes](https://github.com/infection/infection/releases/tag/0.8.0)\n- [Changelog](https://github.com/infection/infection/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/infection/infection/compare/0.7.1...0.8.0)\n\n[![Dependabot compatibility score](https://api.dependabot.com/badges/ci_status?dependency-name=infection/infection&package-manager=composer&previous-version=0.7.1&new-version=0.8.0)](https://dependabot.com/compatibility-score.html?dependency-name=infection/infection&package-manager=composer&previous-version=0.7.1&new-version=0.8.0)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`..\n\nIf you'd like to skip this version, you can just close this PR. If you have any feedback just mention @dependabot in the comments below.",
+                                "state": "CLOSED",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 8,
+                                "changedFiles": 2,
+                                "deletions": 7,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": [],
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "id": "MDU6TGFiZWw4NDg4MDQxNzk=",
+                                                "name": "dependencies",
+                                                "color": "0025ff",
+                                                "isDefault": false,
+                                                "url": "https://github.com/devboard/lib-git/labels/dependencies"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-03-01T10:16:29Z",
+                                "createdAt": "2018-02-28T10:15:05Z",
+                                "updatedAt": "2018-03-01T10:16:30Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTcxOTA4OTc2",
+                                "number": 8,
+                                "title": "Bump slevomat/coding-standard from 4.4.6 to 4.4.7",
+                                "body": "Bumps [slevomat/coding-standard](https://github.com/slevomat/coding-standard) from 4.4.6 to 4.4.7.\n- [Release notes](https://github.com/slevomat/coding-standard/releases/tag/4.4.7)\n- [Commits](https://github.com/slevomat/coding-standard/compare/4.4.6...4.4.7)\n\n[![Dependabot compatibility score](https://api.dependabot.com/badges/ci_status?dependency-name=slevomat/coding-standard&package-manager=composer&previous-version=4.4.6&new-version=4.4.7)](https://dependabot.com/compatibility-score.html?dependency-name=slevomat/coding-standard&package-manager=composer&previous-version=4.4.6&new-version=4.4.7)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`..\n\nIf you'd like to skip this version, you can just close this PR. If you have any feedback just mention @dependabot in the comments below.",
+                                "state": "CLOSED",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 5,
+                                "changedFiles": 1,
+                                "deletions": 5,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": [],
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "id": "MDU6TGFiZWw4NDg4MDQxNzk=",
+                                                "name": "dependencies",
+                                                "color": "0025ff",
+                                                "isDefault": false,
+                                                "url": "https://github.com/devboard/lib-git/labels/dependencies"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-02-28T10:38:54Z",
+                                "createdAt": "2018-02-28T10:15:25Z",
+                                "updatedAt": "2018-02-28T10:38:55Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTcxOTE0MjIy",
+                                "number": 9,
+                                "title": "Update composer.lock, package updates",
+                                "body": "",
+                                "state": "MERGED",
+                                "mergedAt": "2018-02-28T10:38:07Z",
+                                "mergedBy": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "additions": 10,
+                                "changedFiles": 1,
+                                "deletions": 10,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": []
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-02-28T10:38:07Z",
+                                "createdAt": "2018-02-28T10:35:47Z",
+                                "updatedAt": "2018-02-28T10:38:10Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTcyMTk0MjE0",
+                                "number": 10,
+                                "title": "Bump slevomat/coding-standard from 4.4.7 to 4.4.8",
+                                "body": "Bumps [slevomat/coding-standard](https://github.com/slevomat/coding-standard) from 4.4.7 to 4.4.8.\n- [Release notes](https://github.com/slevomat/coding-standard/releases/tag/4.4.8)\n- [Commits](https://github.com/slevomat/coding-standard/compare/4.4.7...4.4.8)\n\n[![Dependabot compatibility score](https://api.dependabot.com/badges/ci_status?dependency-name=slevomat/coding-standard&package-manager=composer&previous-version=4.4.7&new-version=4.4.8)](https://dependabot.com/compatibility-score.html?dependency-name=slevomat/coding-standard&package-manager=composer&previous-version=4.4.7&new-version=4.4.8)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`..\n\nIf you'd like to skip this version, you can just close this PR. If you have any feedback just mention @dependabot in the comments below.",
+                                "state": "CLOSED",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 5,
+                                "changedFiles": 1,
+                                "deletions": 5,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": [],
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "id": "MDU6TGFiZWw4NDg4MDQxNzk=",
+                                                "name": "dependencies",
+                                                "color": "0025ff",
+                                                "isDefault": false,
+                                                "url": "https://github.com/devboard/lib-git/labels/dependencies"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-03-05T10:17:54Z",
+                                "createdAt": "2018-03-01T10:16:03Z",
+                                "updatedAt": "2018-03-05T10:17:55Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTcyMTk0Mjk4",
+                                "number": 11,
+                                "title": "Bump infection/infection from 0.7.1 to 0.8.1",
+                                "body": "Bumps [infection/infection](https://github.com/infection/infection) from 0.7.1 to 0.8.1.\n- [Release notes](https://github.com/infection/infection/releases)\n- [Changelog](https://github.com/infection/infection/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/infection/infection/compare/0.7.1...0.8.1)\n\n[![Dependabot compatibility score](https://api.dependabot.com/badges/ci_status?dependency-name=infection/infection&package-manager=composer&previous-version=0.7.1&new-version=0.8.1)](https://dependabot.com/compatibility-score.html?dependency-name=infection/infection&package-manager=composer&previous-version=0.7.1&new-version=0.8.1)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`..\n\nIf you'd like to skip this version, you can just close this PR. If you have any feedback just mention @dependabot in the comments below.",
+                                "state": "CLOSED",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 1,
+                                "changedFiles": 1,
+                                "deletions": 1,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": [],
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "id": "MDU6TGFiZWw4NDg4MDQxNzk=",
+                                                "name": "dependencies",
+                                                "color": "0025ff",
+                                                "isDefault": false,
+                                                "url": "https://github.com/devboard/lib-git/labels/dependencies"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-04-04T16:23:43Z",
+                                "createdAt": "2018-03-01T10:16:27Z",
+                                "updatedAt": "2018-04-04T16:23:44Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTcyODI0OTMw",
+                                "number": 12,
+                                "title": "Bump slevomat/coding-standard from 4.4.7 to 4.5.0",
+                                "body": "Bumps [slevomat/coding-standard](https://github.com/slevomat/coding-standard) from 4.4.7 to 4.5.0.\n- [Release notes](https://github.com/slevomat/coding-standard/releases)\n- [Commits](https://github.com/slevomat/coding-standard/compare/4.4.7...4.5.0)\n\n[![Dependabot compatibility score](https://api.dependabot.com/badges/ci_status?dependency-name=slevomat/coding-standard&package-manager=composer&previous-version=4.4.7&new-version=4.5.0)](https://dependabot.com/compatibility-score.html?dependency-name=slevomat/coding-standard&package-manager=composer&previous-version=4.4.7&new-version=4.5.0)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\nIf you'd like to skip this version, you can just close this PR. If you have any feedback just mention @dependabot in the comments below.",
+                                "state": "CLOSED",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 8,
+                                "changedFiles": 1,
+                                "deletions": 8,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": [],
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "id": "MDU6TGFiZWw4NDg4MDQxNzk=",
+                                                "name": "dependencies",
+                                                "color": "0025ff",
+                                                "isDefault": false,
+                                                "url": "https://github.com/devboard/lib-git/labels/dependencies"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-03-06T10:16:15Z",
+                                "createdAt": "2018-03-05T10:17:52Z",
+                                "updatedAt": "2018-03-06T10:16:17Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTczMTEyODE4",
+                                "number": 13,
+                                "title": "Bump slevomat/coding-standard from 4.4.7 to 4.5.1",
+                                "body": "Bumps [slevomat/coding-standard](https://github.com/slevomat/coding-standard) from 4.4.7 to 4.5.1.\n- [Release notes](https://github.com/slevomat/coding-standard/releases)\n- [Commits](https://github.com/slevomat/coding-standard/compare/4.4.7...4.5.1)\n\n[![Dependabot compatibility score](https://api.dependabot.com/badges/ci_status?dependency-name=slevomat/coding-standard&package-manager=composer&previous-version=4.4.7&new-version=4.5.1)](https://dependabot.com/compatibility-score.html?dependency-name=slevomat/coding-standard&package-manager=composer&previous-version=4.4.7&new-version=4.5.1)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\nIf you'd like to skip this version, you can just close this PR. If you have any feedback just mention @dependabot in the comments below.",
+                                "state": "CLOSED",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 8,
+                                "changedFiles": 1,
+                                "deletions": 8,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": [],
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "id": "MDU6TGFiZWw4NDg4MDQxNzk=",
+                                                "name": "dependencies",
+                                                "color": "0025ff",
+                                                "isDefault": false,
+                                                "url": "https://github.com/devboard/lib-git/labels/dependencies"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-03-08T10:15:28Z",
+                                "createdAt": "2018-03-06T10:16:14Z",
+                                "updatedAt": "2018-03-08T10:15:29Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTczNjk1NTYy",
+                                "number": 14,
+                                "title": "Bump slevomat/coding-standard from 4.4.7 to 4.5.2",
+                                "body": "Bumps [slevomat/coding-standard](https://github.com/slevomat/coding-standard) from 4.4.7 to 4.5.2.\n- [Release notes](https://github.com/slevomat/coding-standard/releases)\n- [Commits](https://github.com/slevomat/coding-standard/compare/4.4.7...4.5.2)\n\n[![Dependabot compatibility score](https://api.dependabot.com/badges/ci_status?dependency-name=slevomat/coding-standard&package-manager=composer&previous-version=4.4.7&new-version=4.5.2)](https://dependabot.com/compatibility-score.html?dependency-name=slevomat/coding-standard&package-manager=composer&previous-version=4.4.7&new-version=4.5.2)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\nIf you'd like to skip this version, you can just close this PR. If you have any feedback just mention @dependabot in the comments below.",
+                                "state": "CLOSED",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 8,
+                                "changedFiles": 1,
+                                "deletions": 8,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": [],
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "id": "MDU6TGFiZWw4NDg4MDQxNzk=",
+                                                "name": "dependencies",
+                                                "color": "0025ff",
+                                                "isDefault": false,
+                                                "url": "https://github.com/devboard/lib-git/labels/dependencies"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-03-19T11:19:29Z",
+                                "createdAt": "2018-03-08T10:15:26Z",
+                                "updatedAt": "2018-03-19T11:19:30Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTczOTY2Njgy",
+                                "number": 15,
+                                "title": "Bump friendsofphp/php-cs-fixer from 2.10.3 to 2.10.4",
+                                "body": "Bumps [friendsofphp/php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) from 2.10.3 to 2.10.4.\n- [Release notes](https://github.com/FriendsOfPHP/PHP-CS-Fixer/releases)\n- [Changelog](https://github.com/FriendsOfPHP/PHP-CS-Fixer/blob/2.10/CHANGELOG.md)\n- [Commits](https://github.com/FriendsOfPHP/PHP-CS-Fixer/compare/v2.10.3...v2.10.4)\n\n[![Dependabot compatibility score](https://api.dependabot.com/badges/ci_status?dependency-name=friendsofphp/php-cs-fixer&package-manager=composer&previous-version=2.10.3&new-version=2.10.4)](https://dependabot.com/compatibility-score.html?dependency-name=friendsofphp/php-cs-fixer&package-manager=composer&previous-version=2.10.3&new-version=2.10.4)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\nIf you'd like to skip this version, you can just close this PR. If you have any feedback just mention @dependabot in the comments below.",
+                                "state": "CLOSED",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 7,
+                                "changedFiles": 1,
+                                "deletions": 7,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": [],
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "id": "MDU6TGFiZWw4NDg4MDQxNzk=",
+                                                "name": "dependencies",
+                                                "color": "0025ff",
+                                                "isDefault": false,
+                                                "url": "https://github.com/devboard/lib-git/labels/dependencies"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-03-19T11:19:38Z",
+                                "createdAt": "2018-03-09T10:14:33Z",
+                                "updatedAt": "2018-03-19T11:19:39Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc1ODU3Mzk1",
+                                "number": 16,
+                                "title": "Bump leanphp/phpspec-code-coverage from 4.0.0 to 4.1.1",
+                                "body": "Bumps [leanphp/phpspec-code-coverage](https://github.com/leanphp/phpspec-code-coverage) from 4.0.0 to 4.1.1.\n<details>\n<summary>Changelog</summary>\n\n*Sourced from leanphp/phpspec-code-coverage's [changelog](https://github.com/leanphp/phpspec-code-coverage/blob/master/CHANGELOG.md).*\n\n> ## [4.1.1] - 2018-03-19\n> \n> - Added `--no-coverage` option which can skip code coverage generation during\n>   PhpSpec test run.\n> \n> ## [4.1.0] - 2018-03-17\n> \n> - `phpunit/php-code-coverage` dependency version requirement has been updated\n>   from `~4.0|~5.0` to `~5.0` as we do not support version `4.0` anymore.\n> - Updated README with information regarding `memory_limit` when generating code\n>   coverage reports.\n> - PHP 7.2 has been added to travis test matrix\n</details>\n<details>\n<summary>Commits</summary>\n\n- [`e1e9e04`](https://github.com/leanphp/phpspec-code-coverage/commit/e1e9e0429ef86c90e867af87bce2040e04a86d30) v4.1.1\n- [`2071874`](https://github.com/leanphp/phpspec-code-coverage/commit/2071874bfb35f03c5524d3e7bcb70426fb11092f) Merge pull request [#24](https://github.com/leanphp/phpspec-code-coverage/issues/24) from leanphp/skip-coverage\n- [`48f6630`](https://github.com/leanphp/phpspec-code-coverage/commit/48f6630af1adbba9c6fa135c9ab917e0435a8fa9) rename --skip-coverage to --no-coverage\n- [`42cfd2c`](https://github.com/leanphp/phpspec-code-coverage/commit/42cfd2ce55195e6b64dd86822dfbddae9be68ca4) add --skip-coverage - fixes [#11](https://github.com/leanphp/phpspec-code-coverage/issues/11)\n- [`122dd46`](https://github.com/leanphp/phpspec-code-coverage/commit/122dd46ac33955079925097dfa40e883fccd86a5) Merge pull request [#22](https://github.com/leanphp/phpspec-code-coverage/issues/22) from leanphp/appveyor\n- [`b0d82fe`](https://github.com/leanphp/phpspec-code-coverage/commit/b0d82fe1f47f16c1381977bff44143ff33a38c83) appveyor: update dir structure to phpspec-code-coverage\n- [`e10ae4c`](https://github.com/leanphp/phpspec-code-coverage/commit/e10ae4c01a0a5628b9523332f286d1c83a5ea205) appveyor: run standard tests before lowdep tests\n- [`daf107a`](https://github.com/leanphp/phpspec-code-coverage/commit/daf107a4074efd6e3526e041f5b4a9ef821cc41f) fix minimum dependency\n- [`c84b2fa`](https://github.com/leanphp/phpspec-code-coverage/commit/c84b2fa9b7ea049fb4b47ad35bbf102c14d21e63) appveoyr: fix --prefer-lowest\n- [`5b84237`](https://github.com/leanphp/phpspec-code-coverage/commit/5b84237e73cb3edd2bcf576f43c5eb4db0589f8b) appveyor: fix composer argument\n- Additional commits viewable in [compare view](https://github.com/leanphp/phpspec-code-coverage/compare/v4.0.0...v4.1.1)\n</details>\n<br />\n\n[![Dependabot compatibility score](https://api.dependabot.com/badges/ci_status?dependency-name=leanphp/phpspec-code-coverage&package-manager=composer&previous-version=4.0.0&new-version=4.1.1)](https://dependabot.com/compatibility-score.html?dependency-name=leanphp/phpspec-code-coverage&package-manager=composer&previous-version=4.0.0&new-version=4.1.1)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\nIf you'd like to skip this version, you can just close this PR. If you have any feedback just mention @dependabot in the comments below.",
+                                "state": "CLOSED",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 8,
+                                "changedFiles": 1,
+                                "deletions": 7,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": [],
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "id": "MDU6TGFiZWw4NDg4MDQxNzk=",
+                                                "name": "dependencies",
+                                                "color": "0025ff",
+                                                "isDefault": false,
+                                                "url": "https://github.com/devboard/lib-git/labels/dependencies"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-03-19T11:19:53Z",
+                                "createdAt": "2018-03-19T10:27:21Z",
+                                "updatedAt": "2018-03-19T11:19:55Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc1ODY4OTY3",
+                                "number": 17,
+                                "title": "Update composer.lock, package updates",
+                                "body": "- symfony/yaml (v4.0.4 => v4.0.6)\n - symfony/process (v4.0.4 => v4.0.6)\n - symfony/finder (v4.0.4 => v4.0.6)\n - symfony/event-dispatcher (v4.0.4 => v4.0.6)\n - symfony/console (v4.0.4 => v4.0.6)\n - leanphp/phpspec-code-coverage (v4.0.0 => v4.1.1)\n - slevomat/coding-standard (4.4.7 => 4.5.2)\n - nikic/php-parser (v3.1.4 => v3.1.5)\n - symfony/stopwatch (v4.0.4 => v4.0.6)\n - symfony/options-resolver (v4.0.4 => v4.0.6)\n - symfony/filesystem (v4.0.4 => v4.0.6)\n - friendsofphp/php-cs-fixer (v2.10.3 => v2.10.4)\n - symfony/config (v4.0.4 => v4.0.6)\n - symfony/dependency-injection (v4.0.4 => v4.0.6)",
+                                "state": "MERGED",
+                                "mergedAt": "2018-03-19T11:18:38Z",
+                                "mergedBy": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "additions": 75,
+                                "changedFiles": 1,
+                                "deletions": 72,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": []
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-03-19T11:18:38Z",
+                                "createdAt": "2018-03-19T11:17:23Z",
+                                "updatedAt": "2018-03-19T11:18:40Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc2MTQyNDI0",
+                                "number": 18,
+                                "title": "Bump devboard/lib-generix from 0.1.1 to 0.1.2",
+                                "body": "Bumps [devboard/lib-generix](https://github.com/devboard/lib-generix) from 0.1.1 to 0.1.2.\n<details>\n<summary>Commits</summary>\n\n- [`c4c9491`](https://github.com/devboard/lib-generix/commit/c4c9491f3fa696ba73554b52ef8603cb6f5076ca) Update composer.lock, package updates\n- [`bd23c51`](https://github.com/devboard/lib-generix/commit/bd23c519156270fd952310e2121234f25474d5fd) Bump leanphp/phpspec-code-coverage from 4.0.0 to 4.1.1\n- [`a59f31a`](https://github.com/devboard/lib-generix/commit/a59f31a7350c014df925a7d110e98b4e9c219b03) Bump friendsofphp/php-cs-fixer from 2.10.3 to 2.10.4\n- [`3e2ca8c`](https://github.com/devboard/lib-generix/commit/3e2ca8c086cd4b98b0c46fe53b68d21b5eebe3b0) Bump slevomat/coding-standard from 4.4.7 to 4.5.2\n- [`6f905a9`](https://github.com/devboard/lib-generix/commit/6f905a9e583504fd7a1bed7527c459117ac47dc6) Update composer.lock, package updates\n- [`5a687be`](https://github.com/devboard/lib-generix/commit/5a687bef155da79c61dda17add79272a5853958d) Update composer.lock, package updates\n- [`1d97554`](https://github.com/devboard/lib-generix/commit/1d9755457759dbefed3ee789917430af04cf1bb8) Update composer.lock, package updates\n- [`71837af`](https://github.com/devboard/lib-generix/commit/71837afb1d457b6d1144a1071078b6813d6aa721) Add build folder\n- [`b62379d`](https://github.com/devboard/lib-generix/commit/b62379d0967c69501aa1ec7e3755818fef9279ca) Add missing PHPSpec configuration\n- See full diff in [compare view](https://github.com/devboard/lib-generix/compare/0.1.1...0.1.2)\n</details>\n<br />\n\n[![Dependabot compatibility score](https://api.dependabot.com/badges/ci_status?dependency-name=devboard/lib-generix&package-manager=composer&previous-version=0.1.1&new-version=0.1.2)](https://dependabot.com/compatibility-score.html?dependency-name=devboard/lib-generix&package-manager=composer&previous-version=0.1.1&new-version=0.1.2)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\nIf you'd like to skip this version, you can just close this PR. If you have any feedback just mention @dependabot in the comments below.",
+                                "state": "CLOSED",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 7,
+                                "changedFiles": 1,
+                                "deletions": 7,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": [],
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "id": "MDU6TGFiZWw4NDg4MDQxNzk=",
+                                                "name": "dependencies",
+                                                "color": "0025ff",
+                                                "isDefault": false,
+                                                "url": "https://github.com/devboard/lib-git/labels/dependencies"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-04-04T16:09:35Z",
+                                "createdAt": "2018-03-20T10:14:22Z",
+                                "updatedAt": "2018-04-04T16:09:37Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc2MTQyNTM3",
+                                "number": 19,
+                                "title": "Bump devboard/git-interfaces from 0.1.0 to 0.1.1",
+                                "body": "Bumps [devboard/git-interfaces](https://github.com/devboard/git-interfaces) from 0.1.0 to 0.1.1.\n<details>\n<summary>Commits</summary>\n\n- [`c501264`](https://github.com/devboard/git-interfaces/commit/c50126411b25ff21f9e0e7cbd1dd344e17ee4d89) Update composer.lock, package updates\n- [`5c707d3`](https://github.com/devboard/git-interfaces/commit/5c707d30b75c8f1d28e14bf48366c799c5ba0e82) Bump friendsofphp/php-cs-fixer from 2.10.2 to 2.10.3\n- [`eb14758`](https://github.com/devboard/git-interfaces/commit/eb147588b0a83c0cbdaee97a063ef40637f9d686) Update composer.locks, package updates\n- See full diff in [compare view](https://github.com/devboard/git-interfaces/compare/0.1.0...0.1.1)\n</details>\n<br />\n\n[![Dependabot compatibility score](https://api.dependabot.com/badges/ci_status?dependency-name=devboard/git-interfaces&package-manager=composer&previous-version=0.1.0&new-version=0.1.1)](https://dependabot.com/compatibility-score.html?dependency-name=devboard/git-interfaces&package-manager=composer&previous-version=0.1.0&new-version=0.1.1)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\nIf you'd like to skip this version, you can just close this PR. If you have any feedback just mention @dependabot in the comments below.",
+                                "state": "CLOSED",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 7,
+                                "changedFiles": 1,
+                                "deletions": 7,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": [],
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "id": "MDU6TGFiZWw4NDg4MDQxNzk=",
+                                                "name": "dependencies",
+                                                "color": "0025ff",
+                                                "isDefault": false,
+                                                "url": "https://github.com/devboard/lib-git/labels/dependencies"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-04-04T16:09:53Z",
+                                "createdAt": "2018-03-20T10:14:46Z",
+                                "updatedAt": "2018-04-04T16:09:54Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc2NDI5ODky",
+                                "number": 20,
+                                "title": "Bump friendsofphp/php-cs-fixer from 2.10.4 to 2.11.0",
+                                "body": "Bumps [friendsofphp/php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) from 2.10.4 to 2.11.0.\n<details>\n<summary>Release notes</summary>\n\n*Sourced from friendsofphp/php-cs-fixer's [releases](https://github.com/FriendsOfPHP/PHP-CS-Fixer/releases).*\n\n> ## v2.11.0 Grey Devil\n> * feature [#3135](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3135) Add ArrayIndentationFixer (julienfalque)\r\n> * feature [#3235](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3235) Implement StandardizeIncrementFixer (ntzm, SpacePossum)\r\n> * feature [#3260](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3260) Add DateTimeImmutableFixer (kubawerlos)\r\n> * feature [#3276](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3276) Transform Fully Qualified parameters and return types to short version (veewee, keradus)\r\n> * feature [#3299](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3299) SingleQuoteFixer - fix single quote char (Slamdunk)\r\n> * feature [#3340](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3340) Verbose LintingException after fixing (Slamdunk)\r\n> * feature [#3423](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3423) FunctionToConstantFixer - add fix \"get_called_class\" option (SpacePossum)\r\n> * feature [#3434](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3434) Add PhpUnitSetUpTearDownVisibilityFixer (BackEndTea, SpacePossum)\r\n> * feature [#3442](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3442) Add CommentToPhpdocFixer (kubawerlos, keradus)\r\n> * feature [#3448](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3448) OrderedClassElementsFixer - added sortAlgorithm option (meridius)\r\n> * feature [#3454](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3454) Add StringLineEndingFixer (iluuu1994, SpacePossum, keradus, julienfalque)\r\n> * feature [#3477](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3477) PhpUnitStrictFixer: handle static calls (Slamdunk)\r\n> * feature [#3479](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3479) PhpUnitConstructFixer: handle static calls (Slamdunk)\r\n> * feature [#3507](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3507) Add PhpUnitOrderedCoversFixer (Slamdunk)\r\n> * feature [#3545](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3545) Add the 'none' sort algorithm to OrderedImportsFixer (EvgenyOrekhov)\r\n> * feature [#3588](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3588) Add NoAlternativeSyntaxFixer (eddmash, keradus)\r\n> * minor [#3414](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3414) DescribeCommand: add fixer class when verbose (Slamdunk)\r\n> * minor [#3432](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3432) ConfigurationDefinitionFixerInterface - fix deprecation notice (keradus)\r\n> * minor [#3527](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3527) Deprecate last param of Tokens::findBlockEnd (ntzm, keradus)\r\n> * minor [#3539](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3539) Update UnifiedDiffOutputBuilder from gecko-packages/gecko-diff-output-builder usage after it was incorporated into sebastian/diff (keradus)\r\n> * minor [#3549](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3549) DescribeCommand - use our Differ wrapper class, not external one directly (keradus)\r\n> * minor [#3592](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3592) Support PHPUnit 7 (keradus)\r\n> * minor [#3619](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3619) Travis - extend additional files list (keradus)\n> \n> ## v2.10.5 Bowling Bear\n> * bug [#3344](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3344) Fix method chaining indentation in HTML (julienfalque)\r\n> * bug [#3594](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3594) ElseifFixer - Bug with alternative syntax (kubawerlos)\r\n> * bug [#3600](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3600) StrictParamFixer - Fix issue when functions are imported (ntzm, keradus)\r\n> * minor [#3589](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3589) FixerFactoryTest - add missing test (SpacePossum, keradus)\r\n> * minor [#3610](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3610) make phar extension optional (Tom Klingenberg, keradus)\r\n> * minor [#3612](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3612) Travis - allow for hhvm failures (keradus)\r\n> * minor [#3615](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3615) Detect fabbot.io (julienfalque, keradus)\r\n> * minor [#3616](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3616) FixerFactoryTest - Don't rely on autovivification (keradus)\r\n> * minor [#3621](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3621) FixerFactoryTest - apply CS (keradus)\n</details>\n<details>\n<summary>Changelog</summary>\n\n*Sourced from friendsofphp/php-cs-fixer's [changelog](https://github.com/FriendsOfPHP/PHP-CS-Fixer/blob/2.10/CHANGELOG.md).*\n\n> CHANGELOG for PHP CS Fixer\n> ==========================\n> \n> This file contains changelogs for stable releases only.\n> \n> Changelog for v2.10.5\n> ---------------------\n> \n> * bug [#3344](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3344) Fix method chaining indentation in HTML (julienfalque)\n> * bug [#3594](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3594) ElseifFixer - Bug with alternative syntax (kubawerlos)\n> * bug [#3600](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3600) StrictParamFixer - Fix issue when functions are imported (ntzm, keradus)\n> * minor [#3589](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3589) FixerFactoryTest - add missing test (SpacePossum, keradus)\n> * minor [#3610](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3610) make phar extension optional (Tom Klingenberg, keradus)\n> * minor [#3612](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3612) Travis - allow for hhvm failures (keradus)\n> * minor [#3615](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3615) Detect fabbot.io (julienfalque, keradus)\n> * minor [#3616](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3616) FixerFactoryTest - Don't rely on autovivification (keradus)\n> * minor [#3621](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3621) FixerFactoryTest - apply CS (keradus)\n</details>\n<details>\n<summary>Commits</summary>\n\n- [`2ac8def`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/2ac8defbe07599b79005cca764bfffe7aeac0bf2) prepared the 2.11.0 release\n- [`0d3fad6`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/0d3fad65c10a939f5ffc3827216ac03780af00b5) Merge branch '2.10'\n- [`e49993d`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/e49993dfb9b96ec8b8d9964c4627599b050a6e99) prepared the 2.10.5 release\n- [`c133e0d`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/c133e0d973dde0260c2f6188f76751f3d671278f) Merge branch '2.2' into 2.10\n- [`b137384`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/b137384dc72b1d6757df6f49fb25be0ec3416c28) bumped version\n- [`2de0ac9`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/2de0ac9c1d0d48a9b969814f43698223c6e03d6d) prepared the 2.2.19 release\n- [`60b8d46`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/60b8d46d4a1a349c08599e4bfc7a51cde18e4d09) Merge branch '2.10'\n- [`5875b9b`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/5875b9b1b0cd9d74ed848987756d01b2d4d390d3) minor [#3621](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3621) FixerFactoryTest - apply CS (keradus)\n- [`63d2afa`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/63d2afa62dbeb202afffa113150732cf39c2c67b) FixerFactoryTest - apply CS\n- [`f222390`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/f2223904c55ee4c9444ffc068b03a184c242cd02) feature [#3545](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3545) Add the 'none' sort algorithm to OrderedImportsFixer (EvgenyOre...\n- Additional commits viewable in [compare view](https://github.com/FriendsOfPHP/PHP-CS-Fixer/compare/v2.10.4...v2.11.0)\n</details>\n<br />\n\n[![Dependabot compatibility score](https://api.dependabot.com/badges/ci_status?dependency-name=friendsofphp/php-cs-fixer&package-manager=composer&previous-version=2.10.4&new-version=2.11.0)](https://dependabot.com/compatibility-score.html?dependency-name=friendsofphp/php-cs-fixer&package-manager=composer&previous-version=2.10.4&new-version=2.11.0)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\nIf you'd like to skip this version, you can just close this PR. If you have any feedback just mention @dependabot in the comments below.",
+                                "state": "CLOSED",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 16,
+                                "changedFiles": 1,
+                                "deletions": 9,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": [],
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "id": "MDU6TGFiZWw4NDg4MDQxNzk=",
+                                                "name": "dependencies",
+                                                "color": "0025ff",
+                                                "isDefault": false,
+                                                "url": "https://github.com/devboard/lib-git/labels/dependencies"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-03-22T10:21:21Z",
+                                "createdAt": "2018-03-21T10:16:41Z",
+                                "updatedAt": "2018-03-22T10:21:23Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc2NzMxNDE1",
+                                "number": 21,
+                                "title": "Bump leanphp/phpspec-code-coverage from 4.1.1 to 4.1.2",
+                                "body": "Bumps [leanphp/phpspec-code-coverage](https://github.com/leanphp/phpspec-code-coverage) from 4.1.1 to 4.1.2.\n<details>\n<summary>Changelog</summary>\n\n*Sourced from leanphp/phpspec-code-coverage's [changelog](https://github.com/leanphp/phpspec-code-coverage/blob/master/CHANGELOG.md).*\n\n> ## [4.1.2] - 2018-03-21\n> \n> - Fix `--no-coverage` option introducing errors when running non `run` commands.\n> - `--no-coverage` option is now available to all phpspec commands (not only\n>   `run`). ([#30](https://github.com/leanphp/phpspec-code-coverage/issues/30))\n</details>\n<details>\n<summary>Commits</summary>\n\n- [`8e04b67`](https://github.com/leanphp/phpspec-code-coverage/commit/8e04b67d053865833fc671d32ffa75b4ac328317) Merge pull request [#32](https://github.com/leanphp/phpspec-code-coverage/issues/32) from leanphp/4.1.2-patch\n- [`ebb7777`](https://github.com/leanphp/phpspec-code-coverage/commit/ebb7777fcc64173f5b13eff7b2579a63f58fb0ad) CHANGELOG v4.1.2\n- [`82495f5`](https://github.com/leanphp/phpspec-code-coverage/commit/82495f5326638f3bdc43c0a878df3965feffb032) Add --no-coverage to all phpspec commands - fixes [#30](https://github.com/leanphp/phpspec-code-coverage/issues/30)\n- [`d5042cf`](https://github.com/leanphp/phpspec-code-coverage/commit/d5042cf839d21af49b296531ae1e19a84d7471f0) Fix missing check for 'no-coverage' option\n- See full diff in [compare view](https://github.com/leanphp/phpspec-code-coverage/compare/v4.1.1...v4.1.2)\n</details>\n<br />\n\n[![Dependabot compatibility score](https://api.dependabot.com/badges/ci_status?dependency-name=leanphp/phpspec-code-coverage&package-manager=composer&previous-version=4.1.1&new-version=4.1.2)](https://dependabot.com/compatibility-score.html?dependency-name=leanphp/phpspec-code-coverage&package-manager=composer&previous-version=4.1.1&new-version=4.1.2)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot ignore this [minor|major] version` with close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot use [this|these] label[s]` will set the current labels as the default for future PRs for this repo and language\n\nAdditionally, you can set the following in your Dependabot [dashboard](https://app.dependabot.com):\n- Update frequency (including time of day and day of week)\n- Automerge options (never/patch/minor, and dev/runtime dependencies)\n- Out-of-range updates (receive only lockfile updates, if desired)\n\nFinally, you can contact us by mentioning @dependabot.\n\n</details>",
+                                "state": "CLOSED",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 7,
+                                "changedFiles": 1,
+                                "deletions": 7,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": [],
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "id": "MDU6TGFiZWw4NDg4MDQxNzk=",
+                                                "name": "dependencies",
+                                                "color": "0025ff",
+                                                "isDefault": false,
+                                                "url": "https://github.com/devboard/lib-git/labels/dependencies"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-03-23T10:19:15Z",
+                                "createdAt": "2018-03-22T10:20:55Z",
+                                "updatedAt": "2018-03-23T10:19:17Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc2NzMxNTI0",
+                                "number": 22,
+                                "title": "Bump friendsofphp/php-cs-fixer from 2.10.4 to 2.11.1",
+                                "body": "Bumps [friendsofphp/php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) from 2.10.4 to 2.11.1.\n<details>\n<summary>Release notes</summary>\n\n*Sourced from friendsofphp/php-cs-fixer's [releases](https://github.com/FriendsOfPHP/PHP-CS-Fixer/releases).*\n\n> ## v2.11.1 Grey Devil\n> * bug [#3626](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3626) ArrayIndentationFixer: priority bug with BinaryOperatorSpacesFixer and MethodChainingIndentationFixer (Slamdunk)\r\n> * bug [#3632](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3632) DateTimeImmutableFixer bug with adding tokens while iterating over them (kubawerlos)\r\n> * minor [#3478](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3478) PhpUnitDedicateAssertFixer: handle static calls (Slamdunk)\r\n> * minor [#3618](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3618) DateTimeImmutableFixer - grooming (keradus)\n> \n> ## v2.11.0 Grey Devil\n> * feature [#3135](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3135) Add ArrayIndentationFixer (julienfalque)\r\n> * feature [#3235](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3235) Implement StandardizeIncrementFixer (ntzm, SpacePossum)\r\n> * feature [#3260](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3260) Add DateTimeImmutableFixer (kubawerlos)\r\n> * feature [#3276](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3276) Transform Fully Qualified parameters and return types to short version (veewee, keradus)\r\n> * feature [#3299](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3299) SingleQuoteFixer - fix single quote char (Slamdunk)\r\n> * feature [#3340](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3340) Verbose LintingException after fixing (Slamdunk)\r\n> * feature [#3423](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3423) FunctionToConstantFixer - add fix \"get_called_class\" option (SpacePossum)\r\n> * feature [#3434](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3434) Add PhpUnitSetUpTearDownVisibilityFixer (BackEndTea, SpacePossum)\r\n> * feature [#3442](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3442) Add CommentToPhpdocFixer (kubawerlos, keradus)\r\n> * feature [#3448](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3448) OrderedClassElementsFixer - added sortAlgorithm option (meridius)\r\n> * feature [#3454](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3454) Add StringLineEndingFixer (iluuu1994, SpacePossum, keradus, julienfalque)\r\n> * feature [#3477](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3477) PhpUnitStrictFixer: handle static calls (Slamdunk)\r\n> * feature [#3479](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3479) PhpUnitConstructFixer: handle static calls (Slamdunk)\r\n> * feature [#3507](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3507) Add PhpUnitOrderedCoversFixer (Slamdunk)\r\n> * feature [#3545](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3545) Add the 'none' sort algorithm to OrderedImportsFixer (EvgenyOrekhov)\r\n> * feature [#3588](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3588) Add NoAlternativeSyntaxFixer (eddmash, keradus)\r\n> * minor [#3414](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3414) DescribeCommand: add fixer class when verbose (Slamdunk)\r\n> * minor [#3432](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3432) ConfigurationDefinitionFixerInterface - fix deprecation notice (keradus)\r\n> * minor [#3527](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3527) Deprecate last param of Tokens::findBlockEnd (ntzm, keradus)\r\n> * minor [#3539](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3539) Update UnifiedDiffOutputBuilder from gecko-packages/gecko-diff-output-builder usage after it was incorporated into sebastian/diff (keradus)\r\n> * minor [#3549](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3549) DescribeCommand - use our Differ wrapper class, not external one directly (keradus)\r\n> * minor [#3592](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3592) Support PHPUnit 7 (keradus)\r\n> * minor [#3619](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3619) Travis - extend additional files list (keradus)\n> \n> ## v2.10.5 Bowling Bear\n> * bug [#3344](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3344) Fix method chaining indentation in HTML (julienfalque)\r\n> * bug [#3594](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3594) ElseifFixer - Bug with alternative syntax (kubawerlos)\r\n> * bug [#3600](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3600) StrictParamFixer - Fix issue when functions are imported (ntzm, keradus)\r\n> * minor [#3589](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3589) FixerFactoryTest - add missing test (SpacePossum, keradus)\r\n> * minor [#3610](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3610) make phar extension optional (Tom Klingenberg, keradus)\r\n> * minor [#3612](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3612) Travis - allow for hhvm failures (keradus)\r\n> * minor [#3615](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3615) Detect fabbot.io (julienfalque, keradus)\r\n> * minor [#3616](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3616) FixerFactoryTest - Don't rely on autovivification (keradus)\r\n> * minor [#3621](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3621) FixerFactoryTest - apply CS (keradus)\n</details>\n<details>\n<summary>Changelog</summary>\n\n*Sourced from friendsofphp/php-cs-fixer's [changelog](https://github.com/FriendsOfPHP/PHP-CS-Fixer/blob/2.10/CHANGELOG.md).*\n\n> CHANGELOG for PHP CS Fixer\n> ==========================\n> \n> This file contains changelogs for stable releases only.\n> \n> Changelog for v2.10.5\n> ---------------------\n> \n> * bug [#3344](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3344) Fix method chaining indentation in HTML (julienfalque)\n> * bug [#3594](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3594) ElseifFixer - Bug with alternative syntax (kubawerlos)\n> * bug [#3600](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3600) StrictParamFixer - Fix issue when functions are imported (ntzm, keradus)\n> * minor [#3589](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3589) FixerFactoryTest - add missing test (SpacePossum, keradus)\n> * minor [#3610](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3610) make phar extension optional (Tom Klingenberg, keradus)\n> * minor [#3612](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3612) Travis - allow for hhvm failures (keradus)\n> * minor [#3615](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3615) Detect fabbot.io (julienfalque, keradus)\n> * minor [#3616](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3616) FixerFactoryTest - Don't rely on autovivification (keradus)\n> * minor [#3621](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3621) FixerFactoryTest - apply CS (keradus)\n</details>\n<details>\n<summary>Commits</summary>\n\n- [`ad94441`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/ad94441c17b8ef096e517acccdbf3238af8a2da8) prepared the 2.11.1 release\n- [`8624e28`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/8624e28aed79a5394ea73a024ba61a6b779a774c) bug [#3632](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3632) DateTimeImmutableFixer bug with adding tokens while iterating over ...\n- [`1db16d1`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/1db16d1f916ad1da6a182cbf850d05efaae9d710) minor [#3618](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3618) DateTimeImmutableFixer - grooming (keradus)\n- [`b988d91`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/b988d91e32c7acea74778b43ad527f00602602ab) DateTimeImmutableFixer - grooming\n- [`9089ad6`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/9089ad6b0d99a2e1093f7a305744afbf8f20b67b) DateTimeImmutableFixer - fix for changing tokens count\n- [`bd59e2b`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/bd59e2baa0f10171e5fda3bc3b7ccbe4a1f81113) bug [#3626](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3626) ArrayIndentationFixer: priority bug with BinaryOperatorSpacesFixer ...\n- [`02e9a36`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/02e9a36c97348cced56c21a4eb100a53976aac43) ArrayIndentationFixer: priority bug with BinaryOperatorSpacesFixer and Method...\n- [`ffe8677`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/ffe86779d3eca389678755daa53d797d6467f170) minor [#3478](https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3478) PhpUnitDedicateAssertFixer: handle static calls (Slamdunk)\n- [`4c549a3`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/4c549a3e7ad8b82be272261f9de54bdcab7f0cfd) PhpUnitDedicateAssertFixer: handle static calls\n- [`dca246e`](https://github.com/FriendsOfPHP/PHP-CS-Fixer/commit/dca246eedcf5628cf1c64dc575e74847a980b88a) bumped version\n- Additional commits viewable in [compare view](https://github.com/FriendsOfPHP/PHP-CS-Fixer/compare/v2.10.4...v2.11.1)\n</details>\n<br />\n\n[![Dependabot compatibility score](https://api.dependabot.com/badges/ci_status?dependency-name=friendsofphp/php-cs-fixer&package-manager=composer&previous-version=2.10.4&new-version=2.11.1)](https://dependabot.com/compatibility-score.html?dependency-name=friendsofphp/php-cs-fixer&package-manager=composer&previous-version=2.10.4&new-version=2.11.1)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot ignore this [minor|major] version` with close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot use [this|these] label[s]` will set the current labels as the default for future PRs for this repo and language\n\nAdditionally, you can set the following in your Dependabot [dashboard](https://app.dependabot.com):\n- Update frequency (including time of day and day of week)\n- Automerge options (never/patch/minor, and dev/runtime dependencies)\n- Out-of-range updates (receive only lockfile updates, if desired)\n\nFinally, you can contact us by mentioning @dependabot.\n\n</details>",
+                                "state": "CLOSED",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 16,
+                                "changedFiles": 1,
+                                "deletions": 9,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": [],
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "id": "MDU6TGFiZWw4NDg4MDQxNzk=",
+                                                "name": "dependencies",
+                                                "color": "0025ff",
+                                                "isDefault": false,
+                                                "url": "https://github.com/devboard/lib-git/labels/dependencies"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-04-04T16:09:46Z",
+                                "createdAt": "2018-03-22T10:21:19Z",
+                                "updatedAt": "2018-04-04T16:09:48Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc3MDI1MjM3",
+                                "number": 23,
+                                "title": "Bump leanphp/phpspec-code-coverage from 4.1.1 to 4.2.2",
+                                "body": "Bumps [leanphp/phpspec-code-coverage](https://github.com/leanphp/phpspec-code-coverage) from 4.1.1 to 4.2.2.\n<details>\n<summary>Changelog</summary>\n\n*Sourced from leanphp/phpspec-code-coverage's [changelog](https://github.com/leanphp/phpspec-code-coverage/blob/master/CHANGELOG.md).*\n\n> ## [4.2.2] - 2018-03-22\n> \n> - Bugfix: loosen up `phpunit/php-code-coverage` from `^6.0` to `^5.0||^6.0`\n> - PHP 7.1 specific code improvements\n> \n> ## [4.2.1] - 2018-03-21\n> \n> - Integrate fixes from 4.1.2 (`--no-coverage` option bugfix)\n> - Cleanup development dependencies\n> - Minor code improvements\n> \n> ## [4.2.0] - 2018-03-19\n> \n> - Updated `phpunit/php-code-coverage` dependency from `~5.0` to `~6.0`.\n> - Updated PHP requirement from `^7.0` to `^7.1`\n> - Updated `phpspec/phpspec` dependency from `~4.0` to `^4.2`\n> \n> ## [4.1.2] - 2018-03-21\n> \n> - Fix `--no-coverage` option introducing errors when running non `run` commands.\n> - `--no-coverage` option is now available to all phpspec commands (not only\n>   `run`). ([#30](https://github-redirect.dependabot.com/leanphp/phpspec-code-coverage/issues/30))\n</details>\n<details>\n<summary>Commits</summary>\n\n- [`9dc509e`](https://github.com/leanphp/phpspec-code-coverage/commit/9dc509ed354f64ea9f4be6748bd1efcb32d1630b) v4.2.2 - php-code-coverage '^5.0||^6.0'\n- [`f97204b`](https://github.com/leanphp/phpspec-code-coverage/commit/f97204ba31086d4be1cb4122ad21296245facd0d) composer.json change php-code-coverage dependency to ^6.0\n- [`263f7a8`](https://github.com/leanphp/phpspec-code-coverage/commit/263f7a8c649734843497efed9dbe4d7f06020460) Add Void return types (PHP 7.1)\n- [`5ebc647`](https://github.com/leanphp/phpspec-code-coverage/commit/5ebc6478cb467cdf10d245f27b9fea614e7cf536) v4.2.1\n- [`90a3fe2`](https://github.com/leanphp/phpspec-code-coverage/commit/90a3fe26b36caf2eaef5a6643f800fde9029acf5) Merge branch 'v4.1'\n- [`8e04b67`](https://github.com/leanphp/phpspec-code-coverage/commit/8e04b67d053865833fc671d32ffa75b4ac328317) Merge pull request [#32](https://github-redirect.dependabot.com/leanphp/phpspec-code-coverage/issues/32) from leanphp/4.1.2-patch\n- [`ebb7777`](https://github.com/leanphp/phpspec-code-coverage/commit/ebb7777fcc64173f5b13eff7b2579a63f58fb0ad) CHANGELOG v4.1.2\n- [`82495f5`](https://github.com/leanphp/phpspec-code-coverage/commit/82495f5326638f3bdc43c0a878df3965feffb032) Add --no-coverage to all phpspec commands - fixes [#30](https://github-redirect.dependabot.com/leanphp/phpspec-code-coverage/issues/30)\n- [`d5042cf`](https://github.com/leanphp/phpspec-code-coverage/commit/d5042cf839d21af49b296531ae1e19a84d7471f0) Fix missing check for 'no-coverage' option\n- [`c7eab61`](https://github.com/leanphp/phpspec-code-coverage/commit/c7eab6104d4b8f0fb1f8f4d13f3e63c4b4d65a11) appveyor: cache vendor dir\n- Additional commits viewable in [compare view](https://github.com/leanphp/phpspec-code-coverage/compare/v4.1.1...v4.2.2)\n</details>\n<br />\n\n[![Dependabot compatibility score](https://api.dependabot.com/badges/ci_status?dependency-name=leanphp/phpspec-code-coverage&package-manager=composer&previous-version=4.1.1&new-version=4.2.2)](https://dependabot.com/compatibility-score.html?dependency-name=leanphp/phpspec-code-coverage&package-manager=composer&previous-version=4.1.1&new-version=4.2.2)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot ignore this [minor|major] version` with close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot use [this|these] label[s]` will set the current labels as the default for future PRs for this repo and language\n\nAdditionally, you can set the following in your Dependabot [dashboard](https://app.dependabot.com):\n- Update frequency (including time of day and day of week)\n- Automerge options (never/patch/minor, and dev/runtime dependencies)\n- Out-of-range updates (receive only lockfile updates, if desired)\n\nFinally, you can contact us by mentioning @dependabot.\n\n</details>",
+                                "state": "CLOSED",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 12,
+                                "changedFiles": 1,
+                                "deletions": 12,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": [],
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "id": "MDU6TGFiZWw4NDg4MDQxNzk=",
+                                                "name": "dependencies",
+                                                "color": "0025ff",
+                                                "isDefault": false,
+                                                "url": "https://github.com/devboard/lib-git/labels/dependencies"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-04-04T16:09:44Z",
+                                "createdAt": "2018-03-23T10:19:13Z",
+                                "updatedAt": "2018-04-04T16:09:46Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc5NDM4NTE4",
+                                "number": 24,
+                                "title": "Dont track composer.lock",
+                                "body": "Remove & ignore composer.lock",
+                                "state": "MERGED",
+                                "mergedAt": "2018-04-04T16:08:31Z",
+                                "mergedBy": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "additions": 4,
+                                "changedFiles": 3,
+                                "deletions": 4435,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": []
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-04-04T16:08:31Z",
+                                "createdAt": "2018-04-04T16:02:23Z",
+                                "updatedAt": "2018-04-04T16:08:35Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc5NDQyNTMy",
+                                "number": 25,
+                                "title": "Upgrade infection to 0.8.1",
+                                "body": "+ fix infection config file",
+                                "state": "MERGED",
+                                "mergedAt": "2018-04-04T16:22:18Z",
+                                "mergedBy": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "additions": 1,
+                                "changedFiles": 2,
+                                "deletions": 5,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": []
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-04-04T16:22:18Z",
+                                "createdAt": "2018-04-04T16:17:10Z",
+                                "updatedAt": "2018-04-04T16:22:20Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc5NDU1Nzgz",
+                                "number": 26,
+                                "title": "Switch to using devboard/lib-generix:0.4.*@dev",
+                                "body": "..",
+                                "state": "MERGED",
+                                "mergedAt": "2018-04-04T17:12:00Z",
+                                "mergedBy": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "additions": 1,
+                                "changedFiles": 1,
+                                "deletions": 1,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": []
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-04-04T17:12:00Z",
+                                "createdAt": "2018-04-04T17:10:35Z",
+                                "updatedAt": "2018-04-04T17:12:02Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc5NDU2Njc3",
+                                "number": 27,
+                                "title": "Start v0.4 dev as master",
+                                "body": "..",
+                                "state": "MERGED",
+                                "mergedAt": "2018-04-04T17:15:15Z",
+                                "mergedBy": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "additions": 5,
+                                "changedFiles": 1,
+                                "deletions": 0,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": []
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-04-04T17:15:15Z",
+                                "createdAt": "2018-04-04T17:14:19Z",
+                                "updatedAt": "2018-04-04T17:15:17Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc5NjMwODky",
+                                "number": 28,
+                                "title": "Update phpunit/phpunit requirement to ^7.0",
+                                "body": "Updates the requirements on [phpunit/phpunit](https://github.com/sebastianbergmann/phpunit) to permit the latest version.\n<details>\n<summary>Changelog</summary>\n\n*Sourced from phpunit/phpunit's [changelog](https://github.com/sebastianbergmann/phpunit/blob/master/ChangeLog-5.7.md).*\n\n> # Changes in PHPUnit 5.7\n> \n> All notable changes of the PHPUnit 5.7 release series are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.\n> \n> ## [5.7.27] - 2018-02-01\n> \n> ### Fixed\n> \n> * Fixed [#2236](https://github-redirect.dependabot.com/sebastianbergmann/phpunit/issues/2236): Exceptions in `tearDown()` do not affect `getStatus()`\n> * Fixed [#2950](https://github-redirect.dependabot.com/sebastianbergmann/phpunit/issues/2950): Class extending `PHPUnit\\Framework\\TestSuite` does not extend `PHPUnit\\FrameworkTestCase`\n> * Fixed [#2972](https://github-redirect.dependabot.com/sebastianbergmann/phpunit/issues/2972): PHPUnit crashes when test suite contains both `.phpt` files and unconventionally named tests\n> \n> ## [5.7.26] - 2017-12-17\n> \n> ### Fixed\n> \n> * Fixed [#2472](https://github-redirect.dependabot.com/sebastianbergmann/phpunit/issues/2472): `PHPUnit\\Util\\Getopt` uses deprecated `each()` function\n> * Fixed [#2833](https://github-redirect.dependabot.com/sebastianbergmann/phpunit/issues/2833): Test class loaded during data provider execution is not discovered\n> * Fixed [#2922](https://github-redirect.dependabot.com/sebastianbergmann/phpunit/issues/2922): Test class is not discovered when there is a test class with `[**group**](https://github.com/group)` and provider throwing exception in it, tests are run with `--exclude-group` for that group, there is another class called later (after the class from above), and the name of that another class does not match its filename\n> \n> ## [5.7.25] - 2017-11-14\n> \n> ### Fixed\n> \n> * Fixed [#2859](https://github-redirect.dependabot.com/sebastianbergmann/phpunit/issues/2859): Regression caused by fix for [#2833](https://github-redirect.dependabot.com/sebastianbergmann/phpunit/issues/2833)\n> \n> ## [5.7.24] - 2017-11-14\n> \n> ### Fixed\n> \n> * Fixed [#2833](https://github-redirect.dependabot.com/sebastianbergmann/phpunit/issues/2833): Test class loaded during data provider execution is not discovered\n> \n> ## [5.7.23] - 2017-10-15\n> \n> ### Fixed\n> \n> * Fixed [#2731](https://github-redirect.dependabot.com/sebastianbergmann/phpunit/issues/2731): Empty exception message cannot be expected\n> \n> ## [5.7.22] - 2017-09-24\n> \n> ### Fixed\n> \n> * Fixed [#2769](https://github-redirect.dependabot.com/sebastianbergmann/phpunit/issues/2769): Usage of `setUseErrorHandler()` produces `Undefined variable` error\n> \n> ## [5.7.21] - 2017-06-21\n> \n> ### Added\n> \n> * Added `PHPUnit\\Framework\\AssertionFailedError`, `PHPUnit\\Framework\\Test`, and `PHPUnit\\Framework\\TestSuite` to the forward compatibility layer for PHPUnit 6\n> \n> ... (truncated)\n</details>\n<details>\n<summary>Commits</summary>\n\n- See full diff in [compare view](https://github.com/sebastianbergmann/phpunit/commits/7.0.3)\n</details>\n<br />\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot ignore this [minor|major] version` will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot use [this|these] label[s]` will set the current labels as the default for future PRs for this repo and language\n\nAdditionally, you can set the following in your Dependabot [dashboard](https://app.dependabot.com):\n- Update frequency (including time of day and day of week)\n- Automerge options (never/patch/minor, and dev/runtime dependencies)\n- Out-of-range updates (receive only lockfile updates, if desired)\n\nFinally, you can contact us by mentioning @dependabot.\n\n</details>",
+                                "state": "MERGED",
+                                "mergedAt": "2018-04-05T15:57:58Z",
+                                "mergedBy": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "additions": 1,
+                                "changedFiles": 1,
+                                "deletions": 1,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": [],
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "id": "MDU6TGFiZWw4NDg4MDQxNzk=",
+                                                "name": "dependencies",
+                                                "color": "0025ff",
+                                                "isDefault": false,
+                                                "url": "https://github.com/devboard/lib-git/labels/dependencies"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-04-05T15:57:58Z",
+                                "createdAt": "2018-04-05T10:15:42Z",
+                                "updatedAt": "2018-04-05T15:58:01Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc5NjMxMjUw",
+                                "number": 29,
+                                "title": "Update devboard/lib-generix requirement to 0.1.*@dev",
+                                "body": "Updates the requirements on [devboard/lib-generix](https://github.com/devboard/lib-generix) to permit the latest version.\n<details>\n<summary>Commits</summary>\n\n- See full diff in [compare view](https://github.com/devboard/lib-generix/commits/0.1.3)\n</details>\n<br />\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot ignore this [minor|major] version` will close this PR and stop Dependabot creating any more for this minor/major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot use [this|these] label[s]` will set the current labels as the default for future PRs for this repo and language\n\nAdditionally, you can set the following in your Dependabot [dashboard](https://app.dependabot.com):\n- Update frequency (including time of day and day of week)\n- Automerge options (never/patch/minor, and dev/runtime dependencies)\n- Out-of-range updates (receive only lockfile updates, if desired)\n\nFinally, you can contact us by mentioning @dependabot.\n\n</details>",
+                                "state": "CLOSED",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 1,
+                                "changedFiles": 1,
+                                "deletions": 1,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": [],
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "id": "MDU6TGFiZWw4NDg4MDQxNzk=",
+                                                "name": "dependencies",
+                                                "color": "0025ff",
+                                                "isDefault": false,
+                                                "url": "https://github.com/devboard/lib-git/labels/dependencies"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-04-05T15:57:43Z",
+                                "createdAt": "2018-04-05T10:17:08Z",
+                                "updatedAt": "2018-04-05T15:57:56Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTg1MDIyNTg5",
+                                "number": 30,
+                                "title": "Stability check",
+                                "body": "This PR is here just for stability check...",
+                                "state": "OPEN",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 4447,
+                                "changedFiles": 3,
+                                "deletions": 5,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
+                                    "owner": [],
+                                    "name": "lib-git",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "master"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Git interfaces",
+                                    "homepageUrl": null,
+                                    "primaryLanguage": {
+                                        "name": "PHP"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-01T10:54:11Z",
+                                    "updatedAt": "2018-04-30T19:58:11Z",
+                                    "createdAt": "2018-01-12T15:20:01Z"
+                                },
+                                "author": {
+                                    "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                    "login": "msvrtan",
+                                    "name": "Miro Svrtan",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                    "url": "https://github.com/msvrtan",
+                                    "isSiteAdmin": false
+                                },
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": []
+                                },
+                                "milestone": null,
+                                "closedAt": null,
+                                "createdAt": "2018-04-30T17:59:47Z",
+                                "updatedAt": "2018-05-01T10:54:11Z"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+]
