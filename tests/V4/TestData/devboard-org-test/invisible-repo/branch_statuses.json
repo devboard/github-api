@@ -1,0 +1,22 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnk5NTk4NjIzMA==",
+            "name": "invisible-repo",
+            "refs": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDM6UmVmOTU5ODYyMzA6bWFzdGVy",
+                            "name": "master",
+                            "target": {
+                                "oid": "cd20eef35c11a51245b094db39229e9e8502a52a",
+                                "status": null
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

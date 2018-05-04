@@ -1,0 +1,22 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnk4MDU1MTQyNQ==",
+            "name": "super-library",
+            "refs": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDM6UmVmODA1NTE0MjU6bWFzdGVy",
+                            "name": "master",
+                            "target": {
+                                "oid": "5cf3f07ac9684bbb473abcc600b053d129504ed9",
+                                "status": null
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
