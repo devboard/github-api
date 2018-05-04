@@ -13,14 +13,10 @@ use DevboardLib\GitHubApi\V4\Raw\Repository\LabelApi;
 
 class LabelObjectApi
 {
-    /**
-     * @var \DevboardLib\GitHubApi\V4\Raw\Repository\LabelApi
-     */
+    /** @var LabelApi */
     private $labelApi;
 
-    /**
-     * @var LabelFactory
-     */
+    /** @var LabelFactory */
     private $labelFactory;
 
     public function __construct(LabelApi $labelApi, LabelFactory $labelFactory)

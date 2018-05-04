@@ -13,14 +13,10 @@ use DevboardLib\GitHubApi\V4\Raw\Repository\MilestoneApi;
 
 class MilestoneObjectApi
 {
-    /**
-     * @var MilestoneApi
-     */
+    /** @var MilestoneApi */
     private $milestoneApi;
 
-    /**
-     * @var MilestoneFactory
-     */
+    /** @var MilestoneFactory */
     private $milestoneFactory;
 
     public function __construct(MilestoneApi $milestoneApi, MilestoneFactory $milestoneFactory)

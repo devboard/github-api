@@ -10,9 +10,7 @@ namespace DevboardLib\GitHubApi\Auth;
  */
 class JwtTokenAuth implements AuthMethod
 {
-    /**
-     * @var string
-     */
+    /** @var string */
     private $token;
 
     public function __construct(string $token)

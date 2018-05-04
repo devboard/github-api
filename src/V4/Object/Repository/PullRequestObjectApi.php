@@ -13,14 +13,10 @@ use DevboardLib\GitHubApi\V4\Raw\Repository\PullRequestApi;
 
 class PullRequestObjectApi
 {
-    /**
-     * @var PullRequestApi
-     */
+    /** @var PullRequestApi */
     private $pullRequestApi;
 
-    /**
-     * @var PullRequestFactory
-     */
+    /** @var PullRequestFactory */
     private $pullRequestFactory;
 
     public function __construct(PullRequestApi $pullRequestApi, PullRequestFactory $pullRequestFactory)
