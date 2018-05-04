@@ -1,0 +1,22 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnk4NzYzMTUyNA==",
+            "name": "first",
+            "refs": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDM6UmVmODc2MzE1MjQ6bWFzdGVy",
+                            "name": "master",
+                            "target": {
+                                "oid": "16fb2a3ea0d592a68befd7e0094561c40ae5d95d",
+                                "status": null
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

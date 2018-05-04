@@ -1,0 +1,22 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnk0NDg3OTcwMA==",
+            "name": "devboard-test",
+            "refs": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNDQ4Nzk3MDA6bWFzdGVy",
+                            "name": "master",
+                            "target": {
+                                "oid": "2b277679ae59aa428f7dc6601a4b5deb55d4df3f",
+                                "status": null
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
