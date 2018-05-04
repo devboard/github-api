@@ -13,14 +13,10 @@ use DevboardLib\GitHubApi\V4\Raw\Repository\BranchApi;
 
 class BranchObjectApi
 {
-    /**
-     * @var BranchApi
-     */
+    /** @var BranchApi */
     private $branchApi;
 
-    /**
-     * @var BranchFactory
-     */
+    /** @var BranchFactory */
     private $branchFactory;
 
     public function __construct(BranchApi $branchApi, BranchFactory $branchFactory)

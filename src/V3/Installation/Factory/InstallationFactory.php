@@ -26,9 +26,7 @@ use Throwable;
  */
 class InstallationFactory
 {
-    /**
-     * @var \DevboardLib\GitHubApi\V3\Installation\Factory\Installation\InstallationAccountFactory
-     */
+    /** @var InstallationAccountFactory */
     private $installationAccountFactory;
 
     public function __construct(InstallationAccountFactory $installationAccountFactory)
