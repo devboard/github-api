@@ -9,15 +9,11 @@ use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHub\User\UserId;
 use DevboardLib\GitHubApi\Auth\GitHubApp\JwtTokenBuilder;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
-use DevboardLib\GitHubApi\V4\Repository\BranchApi;
-use DevboardLib\GitHubApi\V4\Repository\LabelApi;
-use DevboardLib\GitHubApi\V4\Repository\MilestoneApi;
-use DevboardLib\GitHubApi\V4\Repository\PullRequestApi;
+use DevboardLib\GitHubApi\V4\Raw\Repository\BranchApi;
+use DevboardLib\GitHubApi\V4\Raw\Repository\LabelApi;
+use DevboardLib\GitHubApi\V4\Raw\Repository\MilestoneApi;
+use DevboardLib\GitHubApi\V4\Raw\Repository\PullRequestApi;
 use PHPUnit\Framework\TestCase;
-use Tests\DevboardLib\GitHubApi\V4\Repository\Factory\BranchFactoryTest;
-use Tests\DevboardLib\GitHubApi\V4\Repository\Factory\LabelFactoryTest;
-use Tests\DevboardLib\GitHubApi\V4\Repository\Factory\MilestoneFactoryTest;
-use Tests\DevboardLib\GitHubApi\V4\Repository\Factory\PullRequestFactoryTest;
 
 /**
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
@@ -40,7 +36,7 @@ class TestDataRetrieverV4Test extends TestCase
 
         $clientFactory = $this->getClientFactory();
 
-        $api = new BranchApi($clientFactory, BranchFactoryTest::instance());
+        $api = new BranchApi($clientFactory);
 
         $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
 
@@ -55,7 +51,7 @@ class TestDataRetrieverV4Test extends TestCase
             foreach ($repositories['repositories'] as $repository) {
                 $repoFullName = RepoFullName::createFromString($repository['full_name']);
 
-                $data = $api->getRawBranches($repoFullName, $installationId, new UserId((int) $userId));
+                $data = $api->getBranches($repoFullName, $installationId, new UserId((int) $userId));
 
                 $this->writeJson($repository['full_name'], 'branches.json', $data);
             }
@@ -77,7 +73,7 @@ class TestDataRetrieverV4Test extends TestCase
 
         $clientFactory = $this->getClientFactory();
 
-        $api = new LabelApi($clientFactory, LabelFactoryTest::instance());
+        $api = new LabelApi($clientFactory);
 
         $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
 
@@ -92,7 +88,7 @@ class TestDataRetrieverV4Test extends TestCase
             foreach ($repositories['repositories'] as $repository) {
                 $repoFullName = RepoFullName::createFromString($repository['full_name']);
 
-                $data = $api->getRawLabels($repoFullName, $installationId, new UserId((int) $userId));
+                $data = $api->getLabels($repoFullName, $installationId, new UserId((int) $userId));
 
                 $this->writeJson($repository['full_name'], 'labels.json', $data);
             }
@@ -114,7 +110,7 @@ class TestDataRetrieverV4Test extends TestCase
 
         $clientFactory = $this->getClientFactory();
 
-        $api = new MilestoneApi($clientFactory, MilestoneFactoryTest::instance());
+        $api = new MilestoneApi($clientFactory);
 
         $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
 
@@ -129,7 +125,7 @@ class TestDataRetrieverV4Test extends TestCase
             foreach ($repositories['repositories'] as $repository) {
                 $repoFullName = RepoFullName::createFromString($repository['full_name']);
 
-                $data = $api->getRawMilestones($repoFullName, $installationId, new UserId((int) $userId));
+                $data = $api->getMilestones($repoFullName, $installationId, new UserId((int) $userId));
 
                 $this->writeJson($repository['full_name'], 'milestones.json', $data);
             }
@@ -154,7 +150,7 @@ class TestDataRetrieverV4Test extends TestCase
 
         $clientFactory = $this->getClientFactory();
 
-        $api = new PullRequestApi($clientFactory, PullRequestFactoryTest::instance());
+        $api = new PullRequestApi($clientFactory);
 
         $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
 
@@ -169,7 +165,7 @@ class TestDataRetrieverV4Test extends TestCase
             foreach ($repositories['repositories'] as $repository) {
                 $repoFullName = RepoFullName::createFromString($repository['full_name']);
 
-                $data = $api->getRawPullRequests($repoFullName, $installationId, new UserId((int) $userId));
+                $data = $api->getPullRequests($repoFullName, $installationId, new UserId((int) $userId));
 
                 $this->writeJson($repository['full_name'], 'pullrequests.json', $data);
             }
