@@ -7,41 +7,25 @@ namespace Tests\DevboardLib\GitHubApi\V4\Raw\Repository;
 use DevboardLib\GitHub\Installation\InstallationId;
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHub\User\UserId;
-use DevboardLib\GitHubApi\Auth\GitHubApp\JwtTokenBuilder;
-use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 use DevboardLib\GitHubApi\V4\Raw\Repository\PullRequestApi;
-use PHPUnit\Framework\TestCase;
 
 /**
  * @covers \DevboardLib\GitHubApi\V4\Raw\Repository\PullRequestApi
  * @group live
  */
-class PullRequestApiTest extends TestCase
+class PullRequestApiTest extends BaseTestCase
 {
     public function testFetch()
     {
-        $appId          = getenv('GITHUB_TEST_APP_ID');
-        $privateKeyPath = getenv('GITHUB_TEST_APP_PRIVATE_KEY_PATH');
-        $userId         = getenv('GITHUB_TEST_USER_ID');
-
-        if (false === $appId) {
-            self::markTestSkipped('No AppId');
-        }
-        if (false === $privateKeyPath) {
-            self::markTestSkipped('No PrivateKeyPath');
-        }
-        if (false === $userId) {
+        if (false === getenv('GITHUB_TEST_USER_ID')) {
             self::markTestSkipped('No user id');
         }
+        $userId = (int) getenv('GITHUB_TEST_USER_ID');
 
-        $path = 'file://'.__DIR__.'/../../../../'.$privateKeyPath;
-
-        $clientFactory = new GitHubClientFactory(new JwtTokenBuilder((int) $appId, $path));
-
-        $api = new PullRequestApi($clientFactory);
+        $api = new PullRequestApi($this->getClientFactory());
 
         $repoFullName = RepoFullName::createFromString('devboard/git-interfaces');
-        $data         = $api->getPullRequests($repoFullName, new InstallationId(125958), new UserId((int) $userId));
+        $data         = $api->getPullRequests($repoFullName, new InstallationId(125958), new UserId($userId));
 
         self::assertNotNull($data);
         self::assertEquals(1, count($data));
