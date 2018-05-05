@@ -17,7 +17,7 @@ use PHPUnit\Framework\TestCase;
  */
 class StatusApiTest extends TestCase
 {
-    public function testFetch()
+    public function testGetBranches()
     {
         $appId          = getenv('GITHUB_TEST_APP_ID');
         $privateKeyPath = getenv('GITHUB_TEST_APP_PRIVATE_KEY_PATH');
@@ -48,6 +48,41 @@ class StatusApiTest extends TestCase
 
         $repoFullName = RepoFullName::createFromString('devboard/git-interfaces');
         $data         = $api->getBranches($repoFullName, new InstallationId(125958), new UserId((int) $userId));
+
+        self::assertNotNull($data);
+    }
+
+    public function testGetPullRequests()
+    {
+        $appId          = getenv('GITHUB_TEST_APP_ID');
+        $privateKeyPath = getenv('GITHUB_TEST_APP_PRIVATE_KEY_PATH');
+        $userId         = getenv('GITHUB_TEST_USER_ID');
+        $username       = getenv('GITHUB_TEST_USERNAME');
+        $token          = getenv('GITHUB_TEST_TOKEN');
+
+        if (false === $appId) {
+            self::markTestSkipped('No AppId');
+        }
+        if (false === $privateKeyPath) {
+            self::markTestSkipped('No PrivateKeyPath');
+        }
+        if (false === $userId) {
+            self::markTestSkipped('No user id');
+        }
+        if (false === $username) {
+            self::markTestSkipped('No username');
+        }
+        if (false === $token) {
+            self::markTestSkipped('No token');
+        }
+        $path = 'file://'.__DIR__.'/../../../../'.$privateKeyPath;
+
+        $clientFactory = new GitHubClientFactory(new JwtTokenBuilder((int) $appId, $path));
+
+        $api = new StatusApi($clientFactory);
+
+        $repoFullName = RepoFullName::createFromString('devboard/git-interfaces');
+        $data         = $api->getPullRequests($repoFullName, new InstallationId(125958), new UserId((int) $userId));
 
         self::assertNotNull($data);
     }

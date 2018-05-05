@@ -170,9 +170,6 @@ class TestDataRetrieverV4Test extends TestCase
         }
     }
 
-    /**
-     * @group wip2
-     */
     public function testStatusBranchesFetch()
     {
         $userId   = getenv('GITHUB_TEST_USER_ID');
@@ -206,6 +203,46 @@ class TestDataRetrieverV4Test extends TestCase
                 $data = $api->getBranches($repoFullName, $installationId, new UserId((int) $userId));
 
                 $this->writeJson($repository['full_name'], 'branch_statuses.json', $data);
+            }
+        }
+    }
+
+    /**
+     * @group wip2
+     */
+    public function testStatusPullRequestFetch()
+    {
+        $userId   = getenv('GITHUB_TEST_USER_ID');
+        $username = getenv('GITHUB_TEST_USERNAME');
+
+        if (false === $userId) {
+            self::markTestSkipped('No user id');
+        }
+
+        if (false === $username) {
+            self::markTestSkipped('No username');
+        }
+
+        $clientFactory = $this->getClientFactory();
+
+        $api = new StatusApi($clientFactory);
+
+        $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
+
+        self::assertCount(3, $installations);
+
+        foreach ($installations as $installation) {
+            $installationId = new InstallationId((int) $installation['id']);
+            $vendorName     = $installation['account']['login'];
+
+            $repositories = json_decode($this->getInstallationRepositoriesFileContent($vendorName), true);
+
+            foreach ($repositories['repositories'] as $repository) {
+                $repoFullName = RepoFullName::createFromString($repository['full_name']);
+
+                $data = $api->getPullRequests($repoFullName, $installationId, new UserId((int) $userId));
+
+                $this->writeJson($repository['full_name'], 'pullrequest_statuses.json', $data);
             }
         }
     }
