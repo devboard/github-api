@@ -1,0 +1,17 @@
+[
+    {
+        "data": {
+            "repository": {
+                "id": "MDEwOlJlcG9zaXRvcnk0NDg3OTcwMA==",
+                "name": "devboard-test",
+                "pullRequests": {
+                    "pageInfo": {
+                        "hasNextPage": false,
+                        "endCursor": null
+                    },
+                    "edges": []
+                }
+            }
+        }
+    }
+]

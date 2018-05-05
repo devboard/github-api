@@ -1,0 +1,31 @@
+[
+    {
+        "data": {
+            "repository": {
+                "id": "MDEwOlJlcG9zaXRvcnk4MDU1MTQyNQ==",
+                "name": "super-library",
+                "pullRequests": {
+                    "pageInfo": {
+                        "hasNextPage": false,
+                        "endCursor": "Y3Vyc29yOnYyOpHOB4913g=="
+                    },
+                    "edges": [
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTI2ODQyMzM0",
+                                "number": 1,
+                                "headRef": {
+                                    "id": "MDM6UmVmOTUwMzg3MTk6cGF0Y2gtMQ==",
+                                    "target": {
+                                        "oid": "5d36a8e548651e6483edb40183844948b7d26746",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+]
