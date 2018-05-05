@@ -4,17 +4,15 @@ declare(strict_types=1);
 
 namespace Tests\DevboardLib\GitHubApi\V4\Raw\Repository;
 
-use DevboardLib\GitHub\Installation\InstallationId;
-use DevboardLib\GitHub\Repo\RepoFullName;
-use DevboardLib\GitHub\User\UserId;
 use DevboardLib\GitHubApi\Auth\GitHubApp\JwtTokenBuilder;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
+use DevboardLib\GitHubApi\V4\Query\Repository\AllBranchesQuery;
 use DevboardLib\GitHubApi\V4\Raw\Repository\BranchApi;
 use PHPUnit\Framework\TestCase;
 
 /**
  * @covers \DevboardLib\GitHubApi\V4\Raw\Repository\BranchApi
- * @group live
+ * @group  live
  */
 class BranchApiTest extends TestCase
 {
@@ -47,8 +45,9 @@ class BranchApiTest extends TestCase
 
         $api = new BranchApi($clientFactory);
 
-        $repoFullName = RepoFullName::createFromString('devboard/git-interfaces');
-        $data         = $api->getBranches($repoFullName, new InstallationId(125958), new UserId((int) $userId));
+        $allBranchesQuery = AllBranchesQuery::create('devboard/git-interfaces', 125958, (int) $userId);
+
+        $data = $api->getBranches($allBranchesQuery);
 
         self::assertNotNull($data);
     }
