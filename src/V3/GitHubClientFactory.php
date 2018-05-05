@@ -8,6 +8,7 @@ use DevboardLib\GitHub\Installation\InstallationId;
 use DevboardLib\GitHub\User\UserId;
 use DevboardLib\GitHubApi\Auth\AuthMethod;
 use DevboardLib\GitHubApi\Auth\GitHubApp\JwtTokenBuilder;
+use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
 use Github\Client;
 use Github\HttpClient\Builder;
 
@@ -52,6 +53,18 @@ class GitHubClientFactory
 
         $personalToken = $client->apps()
             ->createInstallationToken($installationId->getId(), $githubUserId->getId());
+
+        $client->authenticate($personalToken['token'], null, Client::AUTH_HTTP_TOKEN);
+
+        return $client;
+    }
+
+    public function createAppAndUserAuthenticatedClient2(InstallationCredentials $credentials): Client
+    {
+        $client = $this->createAppAuthenticatedClient();
+
+        $personalToken = $client->apps()
+            ->createInstallationToken($credentials->getInstallationIdValue(), $credentials->getUserIdValue());
 
         $client->authenticate($personalToken['token'], null, Client::AUTH_HTTP_TOKEN);
 
