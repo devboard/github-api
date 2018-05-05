@@ -14,6 +14,7 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * @covers \DevboardLib\GitHubApi\V4\Raw\Repository\LabelApi
+ * @group live
  */
 class LabelApiTest extends TestCase
 {

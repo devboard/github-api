@@ -14,6 +14,7 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * @covers \DevboardLib\GitHubApi\V4\Raw\Repository\PullRequestApi
+ * @group live
  */
 class PullRequestApiTest extends TestCase
 {
