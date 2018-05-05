@@ -28,6 +28,9 @@ class TestDataRetrieverV4Test extends TestCase
     /** @var string */
     private $username;
 
+    /** @var GitHubClientFactory */
+    private $clientFactory;
+
     public function setUp()
     {
         parent::setUp();
@@ -35,20 +38,25 @@ class TestDataRetrieverV4Test extends TestCase
         if (false === getenv('GITHUB_TEST_USER_ID')) {
             self::markTestSkipped('No user id');
         }
-
         if (false === getenv('GITHUB_TEST_USERNAME')) {
             self::markTestSkipped('No username');
+        }
+        if (false === getenv('GITHUB_TEST_APP_ID')) {
+            self::markTestSkipped('No AppId');
+        }
+        if (false === getenv('GITHUB_TEST_APP_PRIVATE_KEY_PATH')) {
+            self::markTestSkipped('No PrivateKeyPath');
         }
 
         $this->userId   = new UserId((int) getenv('GITHUB_TEST_USER_ID'));
         $this->username = getenv('GITHUB_TEST_USERNAME');
+
+        $this->clientFactory = $this->getClientFactory();
     }
 
     public function testBranchesFetch()
     {
-        $clientFactory = $this->getClientFactory();
-
-        $api = new BranchApi($clientFactory);
+        $api = new BranchApi($this->clientFactory);
 
         $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
 
@@ -72,9 +80,7 @@ class TestDataRetrieverV4Test extends TestCase
 
     public function testLabelsFetch()
     {
-        $clientFactory = $this->getClientFactory();
-
-        $api = new LabelApi($clientFactory);
+        $api = new LabelApi($this->clientFactory);
 
         $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
 
@@ -98,9 +104,7 @@ class TestDataRetrieverV4Test extends TestCase
 
     public function testMilestonesFetch()
     {
-        $clientFactory = $this->getClientFactory();
-
-        $api = new MilestoneApi($clientFactory);
+        $api = new MilestoneApi($this->clientFactory);
 
         $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
 
@@ -124,9 +128,7 @@ class TestDataRetrieverV4Test extends TestCase
 
     public function testPullRequestsFetch()
     {
-        $clientFactory = $this->getClientFactory();
-
-        $api = new PullRequestApi($clientFactory);
+        $api = new PullRequestApi($this->clientFactory);
 
         $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
 
@@ -150,9 +152,7 @@ class TestDataRetrieverV4Test extends TestCase
 
     public function testStatusBranchesFetch()
     {
-        $clientFactory = $this->getClientFactory();
-
-        $api = new StatusApi($clientFactory);
+        $api = new StatusApi($this->clientFactory);
 
         $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
 
@@ -176,9 +176,7 @@ class TestDataRetrieverV4Test extends TestCase
 
     public function testStatusPullRequestFetch()
     {
-        $clientFactory = $this->getClientFactory();
-
-        $api = new StatusApi($clientFactory);
+        $api = new StatusApi($this->clientFactory);
 
         $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
 
@@ -215,21 +213,12 @@ class TestDataRetrieverV4Test extends TestCase
 
     private function getClientFactory(): GitHubClientFactory
     {
-        $appId          = getenv('GITHUB_TEST_APP_ID');
+        $appId          = (int) getenv('GITHUB_TEST_APP_ID');
         $privateKeyPath = getenv('GITHUB_TEST_APP_PRIVATE_KEY_PATH');
-
-        if (false === $appId) {
-            self::markTestSkipped('No AppId');
-        }
-        if (false === $privateKeyPath) {
-            self::markTestSkipped('No PrivateKeyPath');
-        }
 
         $path = 'file://'.__DIR__.'/../../../'.$privateKeyPath;
 
-        $clientFactory = new GitHubClientFactory(new JwtTokenBuilder((int) $appId, $path));
-
-        return $clientFactory;
+        return new GitHubClientFactory(new JwtTokenBuilder($appId, $path));
     }
 
     private function getInstallationsFileContent(): string
