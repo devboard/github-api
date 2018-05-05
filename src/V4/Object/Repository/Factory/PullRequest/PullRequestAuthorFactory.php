@@ -17,7 +17,7 @@ use DevboardLib\GitHub\PullRequest\PullRequestAuthorAssociation;
  */
 class PullRequestAuthorFactory
 {
-    public function create(array $data, ?string $association = null): PullRequestAuthor
+    public function create(?array $data, ?string $association = null): PullRequestAuthor
     {
         if (empty($data)) {
             return new PullRequestAuthor(
