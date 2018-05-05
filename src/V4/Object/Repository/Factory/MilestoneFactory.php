@@ -52,8 +52,18 @@ class MilestoneFactory
         );
     }
 
-    public function createCreator(array $data): MilestoneCreator
+    public function createCreator(?array $data): MilestoneCreator
     {
+        if (empty($data)) {
+            return new MilestoneCreator(
+                new AccountId(10137),
+                new AccountLogin('ghost'),
+                new AccountType('User'),
+                new AccountAvatarUrl('https://avatars3.githubusercontent.com/u/10137?v=4'),
+                false
+            );
+        }
+
         return new MilestoneCreator(
             new AccountId((int) $data['id']),
             new AccountLogin($data['login']),
