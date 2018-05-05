@@ -21,11 +21,11 @@ class PullRequestAuthorFactory
     {
         if (empty($data)) {
             return new PullRequestAuthor(
-                new AccountId(0),
-                new AccountLogin('UNKNOWN'),
+                new AccountId(10137),
+                new AccountLogin('ghost'),
                 new AccountType('User'),
                 null,
-                new AccountAvatarUrl('UNKNOWN'),
+                new AccountAvatarUrl('https://avatars3.githubusercontent.com/u/10137?v=4'),
                 false
             );
         }
