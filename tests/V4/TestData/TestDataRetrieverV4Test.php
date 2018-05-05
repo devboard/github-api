@@ -22,19 +22,30 @@ use PHPUnit\Framework\TestCase;
  */
 class TestDataRetrieverV4Test extends TestCase
 {
-    public function testBranchesFetch()
-    {
-        $userId   = getenv('GITHUB_TEST_USER_ID');
-        $username = getenv('GITHUB_TEST_USERNAME');
+    /** @var UserId */
+    private $userId;
 
-        if (false === $userId) {
+    /** @var string */
+    private $username;
+
+    public function setUp()
+    {
+        parent::setUp();
+
+        if (false === getenv('GITHUB_TEST_USER_ID')) {
             self::markTestSkipped('No user id');
         }
 
-        if (false === $username) {
+        if (false === getenv('GITHUB_TEST_USERNAME')) {
             self::markTestSkipped('No username');
         }
 
+        $this->userId   = new UserId((int) getenv('GITHUB_TEST_USER_ID'));
+        $this->username = getenv('GITHUB_TEST_USERNAME');
+    }
+
+    public function testBranchesFetch()
+    {
         $clientFactory = $this->getClientFactory();
 
         $api = new BranchApi($clientFactory);
@@ -52,7 +63,7 @@ class TestDataRetrieverV4Test extends TestCase
             foreach ($repositories['repositories'] as $repository) {
                 $repoFullName = RepoFullName::createFromString($repository['full_name']);
 
-                $data = $api->getBranches($repoFullName, $installationId, new UserId((int) $userId));
+                $data = $api->getBranches($repoFullName, $installationId, $this->userId);
 
                 $this->writeJson($repository['full_name'], 'branches.json', $data);
             }
@@ -61,17 +72,6 @@ class TestDataRetrieverV4Test extends TestCase
 
     public function testLabelsFetch()
     {
-        $userId   = getenv('GITHUB_TEST_USER_ID');
-        $username = getenv('GITHUB_TEST_USERNAME');
-
-        if (false === $userId) {
-            self::markTestSkipped('No user id');
-        }
-
-        if (false === $username) {
-            self::markTestSkipped('No username');
-        }
-
         $clientFactory = $this->getClientFactory();
 
         $api = new LabelApi($clientFactory);
@@ -89,7 +89,7 @@ class TestDataRetrieverV4Test extends TestCase
             foreach ($repositories['repositories'] as $repository) {
                 $repoFullName = RepoFullName::createFromString($repository['full_name']);
 
-                $data = $api->getLabels($repoFullName, $installationId, new UserId((int) $userId));
+                $data = $api->getLabels($repoFullName, $installationId, $this->userId);
 
                 $this->writeJson($repository['full_name'], 'labels.json', $data);
             }
@@ -98,17 +98,6 @@ class TestDataRetrieverV4Test extends TestCase
 
     public function testMilestonesFetch()
     {
-        $userId   = getenv('GITHUB_TEST_USER_ID');
-        $username = getenv('GITHUB_TEST_USERNAME');
-
-        if (false === $userId) {
-            self::markTestSkipped('No user id');
-        }
-
-        if (false === $username) {
-            self::markTestSkipped('No username');
-        }
-
         $clientFactory = $this->getClientFactory();
 
         $api = new MilestoneApi($clientFactory);
@@ -126,7 +115,7 @@ class TestDataRetrieverV4Test extends TestCase
             foreach ($repositories['repositories'] as $repository) {
                 $repoFullName = RepoFullName::createFromString($repository['full_name']);
 
-                $data = $api->getMilestones($repoFullName, $installationId, new UserId((int) $userId));
+                $data = $api->getMilestones($repoFullName, $installationId, $this->userId);
 
                 $this->writeJson($repository['full_name'], 'milestones.json', $data);
             }
@@ -135,17 +124,6 @@ class TestDataRetrieverV4Test extends TestCase
 
     public function testPullRequestsFetch()
     {
-        $userId   = getenv('GITHUB_TEST_USER_ID');
-        $username = getenv('GITHUB_TEST_USERNAME');
-
-        if (false === $userId) {
-            self::markTestSkipped('No user id');
-        }
-
-        if (false === $username) {
-            self::markTestSkipped('No username');
-        }
-
         $clientFactory = $this->getClientFactory();
 
         $api = new PullRequestApi($clientFactory);
@@ -163,7 +141,7 @@ class TestDataRetrieverV4Test extends TestCase
             foreach ($repositories['repositories'] as $repository) {
                 $repoFullName = RepoFullName::createFromString($repository['full_name']);
 
-                $data = $api->getPullRequests($repoFullName, $installationId, new UserId((int) $userId));
+                $data = $api->getPullRequests($repoFullName, $installationId, $this->userId);
 
                 $this->writeJson($repository['full_name'], 'pullrequests.json', $data);
             }
@@ -172,17 +150,6 @@ class TestDataRetrieverV4Test extends TestCase
 
     public function testStatusBranchesFetch()
     {
-        $userId   = getenv('GITHUB_TEST_USER_ID');
-        $username = getenv('GITHUB_TEST_USERNAME');
-
-        if (false === $userId) {
-            self::markTestSkipped('No user id');
-        }
-
-        if (false === $username) {
-            self::markTestSkipped('No username');
-        }
-
         $clientFactory = $this->getClientFactory();
 
         $api = new StatusApi($clientFactory);
@@ -200,7 +167,7 @@ class TestDataRetrieverV4Test extends TestCase
             foreach ($repositories['repositories'] as $repository) {
                 $repoFullName = RepoFullName::createFromString($repository['full_name']);
 
-                $data = $api->getBranches($repoFullName, $installationId, new UserId((int) $userId));
+                $data = $api->getBranches($repoFullName, $installationId, $this->userId);
 
                 $this->writeJson($repository['full_name'], 'branch_statuses.json', $data);
             }
@@ -209,17 +176,6 @@ class TestDataRetrieverV4Test extends TestCase
 
     public function testStatusPullRequestFetch()
     {
-        $userId   = getenv('GITHUB_TEST_USER_ID');
-        $username = getenv('GITHUB_TEST_USERNAME');
-
-        if (false === $userId) {
-            self::markTestSkipped('No user id');
-        }
-
-        if (false === $username) {
-            self::markTestSkipped('No username');
-        }
-
         $clientFactory = $this->getClientFactory();
 
         $api = new StatusApi($clientFactory);
@@ -237,7 +193,7 @@ class TestDataRetrieverV4Test extends TestCase
             foreach ($repositories['repositories'] as $repository) {
                 $repoFullName = RepoFullName::createFromString($repository['full_name']);
 
-                $data = $api->getPullRequests($repoFullName, $installationId, new UserId((int) $userId));
+                $data = $api->getPullRequests($repoFullName, $installationId, $this->userId);
 
                 $this->writeJson($repository['full_name'], 'pullrequest_statuses.json', $data);
             }
