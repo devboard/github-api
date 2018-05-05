@@ -39,6 +39,7 @@ class StatusObjectApi
 
         foreach ($data['data']['repository']['refs']['edges'] as $edge) {
             $branchName = new BranchName($edge['node']['name']);
+            $sha        = new CommitSha($edge['node']['target']['oid']);
             $statuses   = [];
 
             if (null !== $edge['node']['target']['status']) {
@@ -46,7 +47,7 @@ class StatusObjectApi
                     $statuses[] = $this->statusFactory->create($context);
                 }
             }
-            $results[] = new BranchStatusCollection($branchName, $statuses);
+            $results[] = new BranchStatusCollection($branchName, $sha, $statuses);
         }
 
         return $results;
