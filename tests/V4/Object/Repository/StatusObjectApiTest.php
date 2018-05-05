@@ -7,13 +7,10 @@ namespace Tests\DevboardLib\GitHubApi\V4\Object\Repository;
 use DevboardLib\GitHub\Installation\InstallationId;
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHub\User\UserId;
-use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\Response\BranchStatusCollection;
 use DevboardLib\GitHubApi\V4\Object\Repository\Response\PullRequestStatusCollection;
 use DevboardLib\GitHubApi\V4\Object\Repository\StatusObjectApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\StatusApi;
-use Github\Api\GraphQL;
-use Github\Client;
 use Mockery;
 use PHPUnit\Framework\TestCase;
 use Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory\StatusFactoryTest;
@@ -29,15 +26,10 @@ class StatusObjectApiTest extends TestCase
     public function testGetBranches(
         InstallationId $installationId, UserId $userId, RepoFullName $repoFullName, $inputData
     ) {
-        $clientFactory = Mockery::mock(GitHubClientFactory::class);
-        $client        = Mockery::mock(Client::class);
-        $graphQlApi    = Mockery::mock(GraphQL::class);
+        $api = Mockery::mock(StatusApi::class);
+        $api->shouldReceive('getBranches')->andReturn($inputData);
 
-        $clientFactory->shouldReceive('createAppAndUserAuthenticatedClient')->andReturn($client);
-        $client->shouldReceive('graphql')->andReturn($graphQlApi);
-        $graphQlApi->shouldReceive('execute')->andReturn($inputData);
-
-        $api = new StatusObjectApi(new StatusApi($clientFactory), StatusFactoryTest::instance());
+        $api = new StatusObjectApi($api, StatusFactoryTest::instance());
 
         $data = $api->getBranches($repoFullName, $installationId, $userId);
 
