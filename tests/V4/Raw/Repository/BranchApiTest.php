@@ -23,8 +23,6 @@ class BranchApiTest extends TestCase
         $appId          = getenv('GITHUB_TEST_APP_ID');
         $privateKeyPath = getenv('GITHUB_TEST_APP_PRIVATE_KEY_PATH');
         $userId         = getenv('GITHUB_TEST_USER_ID');
-        $username       = getenv('GITHUB_TEST_USERNAME');
-        $token          = getenv('GITHUB_TEST_TOKEN');
 
         if (false === $appId) {
             self::markTestSkipped('No AppId');
@@ -34,12 +32,6 @@ class BranchApiTest extends TestCase
         }
         if (false === $userId) {
             self::markTestSkipped('No user id');
-        }
-        if (false === $username) {
-            self::markTestSkipped('No username');
-        }
-        if (false === $token) {
-            self::markTestSkipped('No token');
         }
         $path = 'file://'.__DIR__.'/../../../../'.$privateKeyPath;
 
