@@ -55,22 +55,16 @@ class TestDataRetrieverV4Test extends TestCase
         $this->clientFactory = $this->getClientFactory();
     }
 
-    /** @dataProvider provideInstallationsData */
-    public function testBranchesFetch(InstallationId $installationId, string $vendorName)
+    /** @dataProvider provideRepositoriesData */
+    public function testBranchesFetch(InstallationId $installationId, RepoFullName $repoFullName)
     {
         $api = new BranchApi($this->clientFactory);
 
-        $repositories = json_decode($this->getInstallationRepositoriesFileContent($vendorName), true);
+        $data = $api->getBranches($repoFullName, $installationId, $this->userId);
 
-        foreach ($repositories['repositories'] as $repository) {
-            $repoFullName = RepoFullName::createFromString($repository['full_name']);
+        self::assertNotEmpty($data);
 
-            $data = $api->getBranches($repoFullName, $installationId, $this->userId);
-
-            self::assertNotEmpty($data);
-
-            $this->writeJson($repository['full_name'], 'branches.json', $data);
-        }
+        $this->writeJson($repoFullName->__toString(), 'branches.json', $data);
     }
 
     /** @dataProvider provideRepositoriesData */
@@ -131,19 +125,6 @@ class TestDataRetrieverV4Test extends TestCase
         self::assertNotEmpty($data);
 
         $this->writeJson($repoFullName->__toString(), 'pullrequest_statuses.json', $data);
-    }
-
-    public function provideInstallationsData(): Generator
-    {
-        $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
-        self::assertCount(3, $installations);
-
-        foreach ($installations as $installation) {
-            $installationId = new InstallationId((int) $installation['id']);
-            $vendorName     = $installation['account']['login'];
-
-            yield [$installationId, $vendorName];
-        }
     }
 
     public function provideRepositoriesData(): Generator
