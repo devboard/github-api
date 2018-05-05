@@ -14,6 +14,7 @@ use DevboardLib\GitHubApi\V4\Raw\Repository\StatusApi;
 use Mockery;
 use PHPUnit\Framework\TestCase;
 use Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory\StatusFactoryTest;
+use Tests\DevboardLib\GitHubApi\V4\TestData\TestDataProvider;
 
 /**
  * @covers \DevboardLib\GitHubApi\V4\Object\Repository\StatusObjectApi
@@ -39,41 +40,13 @@ class StatusObjectApiTest extends TestCase
 
     public function provideBranchesData()
     {
-        $userId   = getenv('GITHUB_TEST_USER_ID');
-        $username = getenv('GITHUB_TEST_USERNAME');
+        $provider       = new TestDataProvider();
+        $repoFullName   = RepoFullName::createFromString('who/cares');
+        $installationId = new InstallationId(12345666);
+        $userId         = new UserId(123);
 
-        if (false === $userId) {
-            self::markTestSkipped('No user id');
-        }
-
-        if (false === $username) {
-            self::markTestSkipped('No username');
-        }
-        $userId = new UserId((int) $userId);
-
-        $installations = json_decode(
-            file_get_contents(__DIR__.'/../../../V3/TestData/'.$username.'/installations.json'), true
-        );
-
-        foreach ($installations['installations'] as $installation) {
-            $installationId = new InstallationId((int) $installation['id']);
-            $vendorName     = $installation['account']['login'];
-
-            $repositories = json_decode(
-                file_get_contents(__DIR__.'/../../../V3/TestData/'.$vendorName.'/installation-repositories.json'),
-                true
-            );
-
-            foreach ($repositories['repositories'] as $repository) {
-                $repoFullName = RepoFullName::createFromString($repository['full_name']);
-
-                $data = json_decode(
-                    file_get_contents(__DIR__.'/../../TestData/'.$repository['full_name'].'/branch_statuses.json'),
-                    true
-                );
-
-                yield[$installationId, $userId, $repoFullName, $data];
-            }
+        foreach ($provider->getGitHubV4BranchStatusData() as $data) {
+            yield[$installationId, $userId, $repoFullName, $data];
         }
     }
 
@@ -95,41 +68,13 @@ class StatusObjectApiTest extends TestCase
 
     public function providePullRequestsData()
     {
-        $userId   = getenv('GITHUB_TEST_USER_ID');
-        $username = getenv('GITHUB_TEST_USERNAME');
+        $provider       = new TestDataProvider();
+        $repoFullName   = RepoFullName::createFromString('who/cares');
+        $installationId = new InstallationId(12345666);
+        $userId         = new UserId(123);
 
-        if (false === $userId) {
-            self::markTestSkipped('No user id');
-        }
-
-        if (false === $username) {
-            self::markTestSkipped('No username');
-        }
-        $userId = new UserId((int) $userId);
-
-        $installations = json_decode(
-            file_get_contents(__DIR__.'/../../../V3/TestData/'.$username.'/installations.json'), true
-        );
-
-        foreach ($installations['installations'] as $installation) {
-            $installationId = new InstallationId((int) $installation['id']);
-            $vendorName     = $installation['account']['login'];
-
-            $repositories = json_decode(
-                file_get_contents(__DIR__.'/../../../V3/TestData/'.$vendorName.'/installation-repositories.json'),
-                true
-            );
-
-            foreach ($repositories['repositories'] as $repository) {
-                $repoFullName = RepoFullName::createFromString($repository['full_name']);
-
-                $data = json_decode(
-                    file_get_contents(__DIR__.'/../../TestData/'.$repository['full_name'].'/pullrequest_statuses.json'),
-                    true
-                );
-
-                yield[$installationId, $userId, $repoFullName, $data];
-            }
+        foreach ($provider->getGitHubV4PullRequestStatusData() as $data) {
+            yield[$installationId, $userId, $repoFullName, $data];
         }
     }
 }
