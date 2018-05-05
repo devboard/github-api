@@ -8,7 +8,9 @@ use DevboardLib\GitHub\Installation\InstallationId;
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHub\User\UserId;
 use DevboardLib\GitHubApi\Auth\GitHubApp\JwtTokenBuilder;
+use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
+use DevboardLib\GitHubApi\V4\Query\Repository\AllBranchesQuery;
 use DevboardLib\GitHubApi\V4\Raw\Repository\BranchApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\LabelApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\MilestoneApi;
@@ -60,7 +62,9 @@ class TestDataRetrieverV4Test extends TestCase
     {
         $api = new BranchApi($this->clientFactory);
 
-        $data = $api->getBranches($repoFullName, $installationId, $this->userId);
+        $query = new AllBranchesQuery($repoFullName, new InstallationCredentials($installationId, $this->userId));
+
+        $data = $api->getBranches($query);
 
         self::assertNotEmpty($data);
 

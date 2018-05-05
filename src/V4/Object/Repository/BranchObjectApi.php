@@ -5,10 +5,8 @@ declare(strict_types=1);
 namespace DevboardLib\GitHubApi\V4\Object\Repository;
 
 use DevboardLib\GitHub\GitHubBranch;
-use DevboardLib\GitHub\Installation\InstallationId;
-use DevboardLib\GitHub\Repo\RepoFullName;
-use DevboardLib\GitHub\User\UserId;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\BranchFactory;
+use DevboardLib\GitHubApi\V4\Query\Repository\AllBranchesQuery;
 use DevboardLib\GitHubApi\V4\Raw\Repository\BranchApi;
 
 class BranchObjectApi
@@ -26,14 +24,14 @@ class BranchObjectApi
     }
 
     /** @return array|GitHubBranch[] */
-    public function getBranches(RepoFullName $repoFullName, InstallationId $installationId, UserId $githubUserId): array
+    public function getBranches(AllBranchesQuery $query): array
     {
-        $data = $this->branchApi->getBranches($repoFullName, $installationId, $githubUserId);
+        $data = $this->branchApi->getBranches($query);
 
         $results = [];
 
         foreach ($data['data']['repository']['refs']['edges'] as $item) {
-            $results[] = $this->branchFactory->createFromBranchData($repoFullName, $item['node']);
+            $results[] = $this->branchFactory->createFromBranchData($query->getRepoFullName(), $item['node']);
         }
 
         return $results;

@@ -4,10 +4,8 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubApi\V4\Raw\Repository;
 
-use DevboardLib\GitHub\Installation\InstallationId;
-use DevboardLib\GitHub\Repo\RepoFullName;
-use DevboardLib\GitHub\User\UserId;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
+use DevboardLib\GitHubApi\V4\Query\Repository\AllBranchesQuery;
 
 class BranchApi
 {
@@ -19,15 +17,12 @@ class BranchApi
         $this->clientFactory = $clientFactory;
     }
 
-    public function getBranches(RepoFullName $repoFullName, InstallationId $installationId, UserId $githubUserId): array
+    public function getBranches(AllBranchesQuery $input): array
     {
         $query = file_get_contents(__DIR__.'/branches.graphql');
 
-        $variables = [
-            'owner' => $repoFullName->getOwner()->getValue(),
-            'name'  => $repoFullName->getRepoName()->getValue(),
-        ];
-        $client = $this->clientFactory->createAppAndUserAuthenticatedClient($installationId, $githubUserId);
+        $variables = ['owner' => $input->getOwnerName(), 'name' => $input->getRepoName()];
+        $client    = $this->clientFactory->createAppAndUserAuthenticatedClient2($input->getCredentials());
 
         $data = $client->graphql()->execute($query, $variables);
 
