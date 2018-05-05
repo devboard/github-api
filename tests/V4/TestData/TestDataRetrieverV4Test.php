@@ -207,9 +207,6 @@ class TestDataRetrieverV4Test extends TestCase
         }
     }
 
-    /**
-     * @group wip2
-     */
     public function testStatusPullRequestFetch()
     {
         $userId   = getenv('GITHUB_TEST_USER_ID');
