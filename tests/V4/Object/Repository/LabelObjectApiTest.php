@@ -8,11 +8,8 @@ use DevboardLib\GitHub\GitHubLabel;
 use DevboardLib\GitHub\Installation\InstallationId;
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHub\User\UserId;
-use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\LabelObjectApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\LabelApi;
-use Github\Api\GraphQL;
-use Github\Client;
 use Mockery;
 use PHPUnit\Framework\TestCase;
 use Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory\LabelFactoryTest;
@@ -28,15 +25,10 @@ class LabelObjectApiTest extends TestCase
     public function testGetLabels(
         InstallationId $installationId, UserId $userId, RepoFullName $repoFullName, $inputData
     ) {
-        $clientFactory = Mockery::mock(GitHubClientFactory::class);
-        $client        = Mockery::mock(Client::class);
-        $graphQlApi    = Mockery::mock(GraphQL::class);
+        $api = Mockery::mock(LabelApi::class);
+        $api->shouldReceive('getLabels')->andReturn($inputData);
 
-        $clientFactory->shouldReceive('createAppAndUserAuthenticatedClient')->andReturn($client);
-        $client->shouldReceive('graphql')->andReturn($graphQlApi);
-        $graphQlApi->shouldReceive('execute')->andReturn($inputData);
-
-        $api = new LabelObjectApi(new LabelApi($clientFactory), LabelFactoryTest::instance());
+        $api = new LabelObjectApi($api, LabelFactoryTest::instance());
 
         $data = $api->getLabels($repoFullName, $installationId, $userId);
 
