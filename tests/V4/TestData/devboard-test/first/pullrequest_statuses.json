@@ -1,0 +1,25 @@
+[
+    {
+        "data": {
+            "repository": {
+                "id": "MDEwOlJlcG9zaXRvcnk4NzYzMTUzMA==",
+                "name": "first",
+                "pullRequests": {
+                    "pageInfo": {
+                        "hasNextPage": false,
+                        "endCursor": "Y3Vyc29yOnYyOpHOBtnltQ=="
+                    },
+                    "edges": [
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTE0OTQzNDEz",
+                                "number": 1,
+                                "headRef": null
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+]

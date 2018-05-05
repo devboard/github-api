@@ -1,0 +1,426 @@
+[
+    {
+        "data": {
+            "repository": {
+                "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTY0NjI=",
+                "name": "lib-generix",
+                "pullRequests": {
+                    "pageInfo": {
+                        "hasNextPage": false,
+                        "endCursor": "Y3Vyc29yOnYyOpHOCwc9pA=="
+                    },
+                    "edges": [
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTYyNjYwOTY5",
+                                "number": 1,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTYyNjc3NDUw",
+                                "number": 2,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTYyODIwMzI3",
+                                "number": 3,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTY4MjU3Njg5",
+                                "number": 4,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTcxMTM2NDYz",
+                                "number": 5,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTcxMzMzMzk0",
+                                "number": 6,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTcxOTA4OTgw",
+                                "number": 7,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTcxOTA5MDA2",
+                                "number": 8,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTcxOTE0NDA2",
+                                "number": 9,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTcyMTk0MjUx",
+                                "number": 10,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTcyMTk0MzYw",
+                                "number": 11,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTcyODI1MjE1",
+                                "number": 12,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTczMTEyODAy",
+                                "number": 13,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTczNjk1NTE4",
+                                "number": 14,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTczOTY2NjA5",
+                                "number": 15,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc1ODU3NDEy",
+                                "number": 16,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc1ODY4Mzk3",
+                                "number": 17,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc2NDI5OTY5",
+                                "number": 18,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc2NzMxNTIy",
+                                "number": 19,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc2NzMxNTk3",
+                                "number": 20,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc3MDI0OTkx",
+                                "number": 21,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc5NDM3MTU0",
+                                "number": 22,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc5NDUzNzM2",
+                                "number": 23,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc5NDU0NzY4",
+                                "number": 24,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTE3MjU2NDYyOmdyYXZhdGFyLWlkLWNhbnQtYmUtZW1wdHk=",
+                                    "target": {
+                                        "oid": "5ef253334e21a076731c00b9700f37c86c10c922",
+                                        "status": {
+                                            "id": "MDY6U3RhdHVzMTE3MjU2NDYyOjVlZjI1MzMzNGUyMWEwNzY3MzFjMDBiOTcwMGYzN2M4NmMxMGM5MjI=",
+                                            "state": "SUCCESS",
+                                            "contexts": [
+                                                {
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0NzkyNzk0NzY0",
+                                                    "context": "ci/circleci: build",
+                                                    "description": "Your tests passed on CircleCI!",
+                                                    "state": "SUCCESS",
+                                                    "targetUrl": "https://circleci.com/gh/devboard/lib-generix/157?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                                    "createdAt": "2018-04-04T17:06:59Z",
+                                                    "creator": {
+                                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                                        "login": "msvrtan",
+                                                        "name": "Miro Svrtan",
+                                                        "__typename": "User",
+                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                                        "url": "https://github.com/msvrtan",
+                                                        "isSiteAdmin": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0NzkyNzk4NjEw",
+                                                    "context": "ci/circleci: codecoverage_phpspec",
+                                                    "description": "Your tests passed on CircleCI!",
+                                                    "state": "SUCCESS",
+                                                    "targetUrl": "https://circleci.com/gh/devboard/lib-generix/161?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                                    "createdAt": "2018-04-04T17:07:44Z",
+                                                    "creator": {
+                                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                                        "login": "msvrtan",
+                                                        "name": "Miro Svrtan",
+                                                        "__typename": "User",
+                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                                        "url": "https://github.com/msvrtan",
+                                                        "isSiteAdmin": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0NzkyODAwMjg3",
+                                                    "context": "ci/circleci: codecoverage_phpunit",
+                                                    "description": "Your tests passed on CircleCI!",
+                                                    "state": "SUCCESS",
+                                                    "targetUrl": "https://circleci.com/gh/devboard/lib-generix/162?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                                    "createdAt": "2018-04-04T17:08:05Z",
+                                                    "creator": {
+                                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                                        "login": "msvrtan",
+                                                        "name": "Miro Svrtan",
+                                                        "__typename": "User",
+                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                                        "url": "https://github.com/msvrtan",
+                                                        "isSiteAdmin": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0NzkyNzk5MzQ4",
+                                                    "context": "ci/circleci: infection",
+                                                    "description": "Your tests passed on CircleCI!",
+                                                    "state": "SUCCESS",
+                                                    "targetUrl": "https://circleci.com/gh/devboard/lib-generix/163?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                                    "createdAt": "2018-04-04T17:07:54Z",
+                                                    "creator": {
+                                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                                        "login": "msvrtan",
+                                                        "name": "Miro Svrtan",
+                                                        "__typename": "User",
+                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                                        "url": "https://github.com/msvrtan",
+                                                        "isSiteAdmin": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0NzkyODAxNDg3",
+                                                    "context": "codecov/patch",
+                                                    "description": "Coverage not affected.",
+                                                    "state": "SUCCESS",
+                                                    "targetUrl": "https://codecov.io/gh/devboard/lib-generix/commit/5ef253334e21a076731c00b9700f37c86c10c922",
+                                                    "createdAt": "2018-04-04T17:08:17Z",
+                                                    "creator": {
+                                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                                        "login": "msvrtan",
+                                                        "name": "Miro Svrtan",
+                                                        "__typename": "User",
+                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                                        "url": "https://github.com/msvrtan",
+                                                        "isSiteAdmin": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0NzkyODAxNDUy",
+                                                    "context": "codecov/project",
+                                                    "description": "No report found to compare against",
+                                                    "state": "SUCCESS",
+                                                    "targetUrl": "https://codecov.io/gh/devboard/lib-generix/commit/5ef253334e21a076731c00b9700f37c86c10c922",
+                                                    "createdAt": "2018-04-04T17:08:17Z",
+                                                    "creator": {
+                                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                                        "login": "msvrtan",
+                                                        "name": "Miro Svrtan",
+                                                        "__typename": "User",
+                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                                        "url": "https://github.com/msvrtan",
+                                                        "isSiteAdmin": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTc5NjMxMjU2",
+                                "number": 25,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTg1MDIzOTA4",
+                                "number": 26,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTE3MjU2NDYyOmNoZWNrLXN0YWJpbGl0eQ==",
+                                    "target": {
+                                        "oid": "49cfbefe7410728247f31190e9fedc5d671d8fbe",
+                                        "status": {
+                                            "id": "MDY6U3RhdHVzMTE3MjU2NDYyOjQ5Y2ZiZWZlNzQxMDcyODI0N2YzMTE5MGU5ZmVkYzVkNjcxZDhmYmU=",
+                                            "state": "SUCCESS",
+                                            "contexts": [
+                                                {
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE0MDM3ODcw",
+                                                    "context": "ci/circleci: build",
+                                                    "description": "Your tests passed on CircleCI!",
+                                                    "state": "SUCCESS",
+                                                    "targetUrl": "https://circleci.com/gh/devboard/lib-generix/212?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                                    "createdAt": "2018-05-04T16:39:41Z",
+                                                    "creator": {
+                                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                                        "login": "msvrtan",
+                                                        "name": "Miro Svrtan",
+                                                        "__typename": "User",
+                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                                        "url": "https://github.com/msvrtan",
+                                                        "isSiteAdmin": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE0MDQ2NTYy",
+                                                    "context": "ci/circleci: codecoverage_phpspec",
+                                                    "description": "Your tests passed on CircleCI!",
+                                                    "state": "SUCCESS",
+                                                    "targetUrl": "https://circleci.com/gh/devboard/lib-generix/215?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                                    "createdAt": "2018-05-04T16:41:44Z",
+                                                    "creator": {
+                                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                                        "login": "msvrtan",
+                                                        "name": "Miro Svrtan",
+                                                        "__typename": "User",
+                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                                        "url": "https://github.com/msvrtan",
+                                                        "isSiteAdmin": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE0MDQ2MTY1",
+                                                    "context": "ci/circleci: codecoverage_phpunit",
+                                                    "description": "Your tests passed on CircleCI!",
+                                                    "state": "SUCCESS",
+                                                    "targetUrl": "https://circleci.com/gh/devboard/lib-generix/214?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                                    "createdAt": "2018-05-04T16:41:38Z",
+                                                    "creator": {
+                                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                                        "login": "msvrtan",
+                                                        "name": "Miro Svrtan",
+                                                        "__typename": "User",
+                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                                        "url": "https://github.com/msvrtan",
+                                                        "isSiteAdmin": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE0MDQ1Mjc2",
+                                                    "context": "ci/circleci: infection",
+                                                    "description": "Your tests passed on CircleCI!",
+                                                    "state": "SUCCESS",
+                                                    "targetUrl": "https://circleci.com/gh/devboard/lib-generix/213?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                                    "createdAt": "2018-05-04T16:41:27Z",
+                                                    "creator": {
+                                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                                        "login": "msvrtan",
+                                                        "name": "Miro Svrtan",
+                                                        "__typename": "User",
+                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                                        "url": "https://github.com/msvrtan",
+                                                        "isSiteAdmin": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE0MDQ3ODYw",
+                                                    "context": "codecov/patch",
+                                                    "description": "Coverage not affected when comparing e5ebbd5...49cfbef",
+                                                    "state": "SUCCESS",
+                                                    "targetUrl": "https://codecov.io/gh/devboard/lib-generix/compare/e5ebbd5d00dd60c5d5411a7351d557ae1fc7f90c...49cfbefe7410728247f31190e9fedc5d671d8fbe",
+                                                    "createdAt": "2018-05-04T16:42:02Z",
+                                                    "creator": {
+                                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                                        "login": "msvrtan",
+                                                        "name": "Miro Svrtan",
+                                                        "__typename": "User",
+                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                                        "url": "https://github.com/msvrtan",
+                                                        "isSiteAdmin": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE0MDQ3ODgz",
+                                                    "context": "codecov/project",
+                                                    "description": "100% remains the same compared to e5ebbd5",
+                                                    "state": "SUCCESS",
+                                                    "targetUrl": "https://codecov.io/gh/devboard/lib-generix/compare/e5ebbd5d00dd60c5d5411a7351d557ae1fc7f90c...49cfbefe7410728247f31190e9fedc5d671d8fbe",
+                                                    "createdAt": "2018-05-04T16:42:02Z",
+                                                    "creator": {
+                                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                                        "login": "msvrtan",
+                                                        "name": "Miro Svrtan",
+                                                        "__typename": "User",
+                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                                        "url": "https://github.com/msvrtan",
+                                                        "isSiteAdmin": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+]
