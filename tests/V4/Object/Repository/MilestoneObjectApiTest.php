@@ -8,11 +8,8 @@ use DevboardLib\GitHub\GitHubMilestone;
 use DevboardLib\GitHub\Installation\InstallationId;
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHub\User\UserId;
-use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\MilestoneObjectApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\MilestoneApi;
-use Github\Api\GraphQL;
-use Github\Client;
 use Mockery;
 use PHPUnit\Framework\TestCase;
 use Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory\MilestoneFactoryTest;
@@ -28,15 +25,10 @@ class MilestoneObjectApiTest extends TestCase
     public function testGetMilestones(
         InstallationId $installationId, UserId $userId, RepoFullName $repoFullName, $inputData
     ) {
-        $clientFactory = Mockery::mock(GitHubClientFactory::class);
-        $client        = Mockery::mock(Client::class);
-        $graphQlApi    = Mockery::mock(GraphQL::class);
+        $api = Mockery::mock(MilestoneApi::class);
+        $api->shouldReceive('getMilestones')->andReturn($inputData);
 
-        $clientFactory->shouldReceive('createAppAndUserAuthenticatedClient')->andReturn($client);
-        $client->shouldReceive('graphql')->andReturn($graphQlApi);
-        $graphQlApi->shouldReceive('execute')->andReturn($inputData);
-
-        $api = new MilestoneObjectApi(new MilestoneApi($clientFactory), MilestoneFactoryTest::instance());
+        $api = new MilestoneObjectApi($api, MilestoneFactoryTest::instance());
 
         $data = $api->getMilestones($repoFullName, $installationId, $userId);
 
