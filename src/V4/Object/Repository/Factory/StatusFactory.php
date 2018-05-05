@@ -37,7 +37,7 @@ class StatusFactory
             new StatusId((int) $data['id']),
             StatusState::create(strtolower($data['state'])),
             new StatusDescription($data['description']),
-            new StatusTargetUrl($data['targetUrl']),
+            new StatusTargetUrl((string) $data['targetUrl']),
             $context,
             $this->externalServiceFactory->create($context),
             $this->statusCreatorFactory->create($data['creator']),
