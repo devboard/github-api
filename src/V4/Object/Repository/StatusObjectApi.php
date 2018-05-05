@@ -5,11 +5,14 @@ declare(strict_types=1);
 namespace DevboardLib\GitHubApi\V4\Object\Repository;
 
 use DevboardLib\Git\Branch\BranchName;
+use DevboardLib\Git\Commit\CommitSha;
 use DevboardLib\GitHub\Installation\InstallationId;
+use DevboardLib\GitHub\PullRequest\PullRequestNumber;
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHub\User\UserId;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\StatusFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\Response\BranchStatusCollection;
+use DevboardLib\GitHubApi\V4\Object\Repository\Response\PullRequestStatusCollection;
 use DevboardLib\GitHubApi\V4\Raw\Repository\StatusApi;
 
 class StatusObjectApi
@@ -48,6 +51,31 @@ class StatusObjectApi
                 }
             }
             $results[] = new BranchStatusCollection($branchName, $sha, $statuses);
+        }
+
+        return $results;
+    }
+
+    /** @return array|PullRequestStatusCollection[] */
+    public function getPullRequests(RepoFullName $repoFullName, InstallationId $installationId, UserId $githubUserId): array
+    {
+        $dataLists = $this->branchApi->getPullRequests($repoFullName, $installationId, $githubUserId);
+
+        $results = [];
+        foreach ($dataLists as $data) {
+            foreach ($data['data']['repository']['pullRequests']['edges'] as $edge) {
+                $number   = new PullRequestNumber($edge['node']['number']);
+                $statuses = [];
+
+                if (null !== $edge['node']['headRef']) {
+                    if (null !== $edge['node']['headRef']['target']['status']) {
+                        foreach ($edge['node']['headRef']['target']['status']['contexts'] as $context) {
+                            $statuses[] = $this->statusFactory->create($context);
+                        }
+                    }
+                }
+                $results[] = new PullRequestStatusCollection($number, $statuses);
+            }
         }
 
         return $results;

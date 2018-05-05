@@ -1,0 +1,50 @@
+query ($owner: String!, $name: String!, $cursor: String) {
+    repository(owner: $owner, name: $name) {
+        id
+        name
+        pullRequests(first: 50, after: $cursor) {
+            pageInfo {
+                hasNextPage
+                endCursor
+            }
+            edges {
+                node {
+                    id
+                    number
+                    headRef {
+                        id
+                        target {
+                            ... on Commit {
+                                oid
+                                status {
+                                    id
+                                    state
+                                    contexts {
+                                        id
+                                        context
+                                        description
+                                        state
+                                        targetUrl
+                                        createdAt
+                                        creator {
+                                            ... on User {
+                                                id
+                                                login
+                                                name
+                                                __typename
+                                                avatarUrl
+                                                url
+                                                isSiteAdmin
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

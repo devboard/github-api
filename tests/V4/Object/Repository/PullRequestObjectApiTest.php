@@ -8,11 +8,8 @@ use DevboardLib\GitHub\GitHubPullRequest;
 use DevboardLib\GitHub\Installation\InstallationId;
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHub\User\UserId;
-use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\PullRequestObjectApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\PullRequestApi;
-use Github\Api\GraphQL;
-use Github\Client;
 use Mockery;
 use PHPUnit\Framework\TestCase;
 use Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequestFactoryTest;
@@ -28,18 +25,10 @@ class PullRequestObjectApiTest extends TestCase
     public function testGetPullRequests(
         InstallationId $installationId, UserId $userId, RepoFullName $repoFullName, $inputData
     ) {
-        $clientFactory = Mockery::mock(GitHubClientFactory::class);
-        $client        = Mockery::mock(Client::class);
-        $graphQlApi    = Mockery::mock(GraphQL::class);
+        $api = Mockery::mock(PullRequestApi::class);
+        $api->shouldReceive('getPullRequests')->andReturn($inputData);
 
-        $clientFactory->shouldReceive('createAppAndUserAuthenticatedClient')->andReturn($client);
-        $client->shouldReceive('graphql')->andReturn($graphQlApi);
-
-        foreach ($inputData as $inputDatum) {
-            $graphQlApi->shouldReceive('execute')->andReturn($inputDatum);
-        }
-
-        $api = new PullRequestObjectApi(new PullRequestApi($clientFactory), PullRequestFactoryTest::instance());
+        $api = new PullRequestObjectApi($api, PullRequestFactoryTest::instance());
 
         $data = $api->getPullRequests($repoFullName, $installationId, $userId);
 
