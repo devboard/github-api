@@ -14,6 +14,7 @@ use DevboardLib\GitHubApi\V4\Raw\Repository\LabelApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\MilestoneApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\PullRequestApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\StatusApi;
+use Generator;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -54,132 +55,100 @@ class TestDataRetrieverV4Test extends TestCase
         $this->clientFactory = $this->getClientFactory();
     }
 
-    public function testBranchesFetch()
+    /** @dataProvider provideInstallationsData */
+    public function testBranchesFetch(InstallationId $installationId, string $vendorName)
     {
         $api = new BranchApi($this->clientFactory);
 
-        $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
+        $repositories = json_decode($this->getInstallationRepositoriesFileContent($vendorName), true);
 
-        self::assertCount(3, $installations);
+        foreach ($repositories['repositories'] as $repository) {
+            $repoFullName = RepoFullName::createFromString($repository['full_name']);
 
-        foreach ($installations as $installation) {
-            $installationId = new InstallationId((int) $installation['id']);
-            $vendorName     = $installation['account']['login'];
+            $data = $api->getBranches($repoFullName, $installationId, $this->userId);
 
-            $repositories = json_decode($this->getInstallationRepositoriesFileContent($vendorName), true);
+            self::assertNotEmpty($data);
 
-            foreach ($repositories['repositories'] as $repository) {
-                $repoFullName = RepoFullName::createFromString($repository['full_name']);
-
-                $data = $api->getBranches($repoFullName, $installationId, $this->userId);
-
-                $this->writeJson($repository['full_name'], 'branches.json', $data);
-            }
+            $this->writeJson($repository['full_name'], 'branches.json', $data);
         }
     }
 
-    public function testLabelsFetch()
+    /** @dataProvider provideRepositoriesData */
+    public function testLabelsFetch(InstallationId $installationId, RepoFullName $repoFullName)
     {
         $api = new LabelApi($this->clientFactory);
 
-        $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
+        $data = $api->getLabels($repoFullName, $installationId, $this->userId);
 
-        self::assertCount(3, $installations);
+        self::assertNotEmpty($data);
 
-        foreach ($installations as $installation) {
-            $installationId = new InstallationId((int) $installation['id']);
-            $vendorName     = $installation['account']['login'];
-
-            $repositories = json_decode($this->getInstallationRepositoriesFileContent($vendorName), true);
-
-            foreach ($repositories['repositories'] as $repository) {
-                $repoFullName = RepoFullName::createFromString($repository['full_name']);
-
-                $data = $api->getLabels($repoFullName, $installationId, $this->userId);
-
-                $this->writeJson($repository['full_name'], 'labels.json', $data);
-            }
-        }
+        $this->writeJson($repoFullName->__toString(), 'labels.json', $data);
     }
 
-    public function testMilestonesFetch()
+    /** @dataProvider provideRepositoriesData */
+    public function testMilestonesFetch(InstallationId $installationId, RepoFullName $repoFullName)
     {
         $api = new MilestoneApi($this->clientFactory);
 
-        $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
+        $data = $api->getMilestones($repoFullName, $installationId, $this->userId);
 
-        self::assertCount(3, $installations);
+        self::assertNotEmpty($data);
 
-        foreach ($installations as $installation) {
-            $installationId = new InstallationId((int) $installation['id']);
-            $vendorName     = $installation['account']['login'];
-
-            $repositories = json_decode($this->getInstallationRepositoriesFileContent($vendorName), true);
-
-            foreach ($repositories['repositories'] as $repository) {
-                $repoFullName = RepoFullName::createFromString($repository['full_name']);
-
-                $data = $api->getMilestones($repoFullName, $installationId, $this->userId);
-
-                $this->writeJson($repository['full_name'], 'milestones.json', $data);
-            }
-        }
+        $this->writeJson($repoFullName->__toString(), 'milestones.json', $data);
     }
 
-    public function testPullRequestsFetch()
+    /** @dataProvider provideRepositoriesData */
+    public function testPullRequestsFetch(InstallationId $installationId, RepoFullName $repoFullName)
     {
         $api = new PullRequestApi($this->clientFactory);
 
-        $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
+        $data = $api->getPullRequests($repoFullName, $installationId, $this->userId);
 
-        self::assertCount(3, $installations);
+        self::assertNotEmpty($data);
 
-        foreach ($installations as $installation) {
-            $installationId = new InstallationId((int) $installation['id']);
-            $vendorName     = $installation['account']['login'];
-
-            $repositories = json_decode($this->getInstallationRepositoriesFileContent($vendorName), true);
-
-            foreach ($repositories['repositories'] as $repository) {
-                $repoFullName = RepoFullName::createFromString($repository['full_name']);
-
-                $data = $api->getPullRequests($repoFullName, $installationId, $this->userId);
-
-                $this->writeJson($repository['full_name'], 'pullrequests.json', $data);
-            }
-        }
+        $this->writeJson($repoFullName->__toString(), 'pullrequests.json', $data);
     }
 
-    public function testStatusBranchesFetch()
+    /** @dataProvider provideRepositoriesData */
+    public function testStatusBranchesFetch(InstallationId $installationId, RepoFullName $repoFullName)
     {
         $api = new StatusApi($this->clientFactory);
 
-        $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
+        $data = $api->getBranches($repoFullName, $installationId, $this->userId);
 
-        self::assertCount(3, $installations);
+        self::assertNotEmpty($data);
 
-        foreach ($installations as $installation) {
-            $installationId = new InstallationId((int) $installation['id']);
-            $vendorName     = $installation['account']['login'];
-
-            $repositories = json_decode($this->getInstallationRepositoriesFileContent($vendorName), true);
-
-            foreach ($repositories['repositories'] as $repository) {
-                $repoFullName = RepoFullName::createFromString($repository['full_name']);
-
-                $data = $api->getBranches($repoFullName, $installationId, $this->userId);
-
-                $this->writeJson($repository['full_name'], 'branch_statuses.json', $data);
-            }
-        }
+        $this->writeJson($repoFullName->__toString(), 'branch_statuses.json', $data);
     }
 
-    public function testStatusPullRequestFetch()
+    /** @dataProvider provideRepositoriesData */
+    public function testStatusPullRequestFetch(InstallationId $installationId, RepoFullName $repoFullName)
     {
         $api = new StatusApi($this->clientFactory);
 
-        $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
+        $data = $api->getPullRequests($repoFullName, $installationId, $this->userId);
 
+        self::assertNotEmpty($data);
+
+        $this->writeJson($repoFullName->__toString(), 'pullrequest_statuses.json', $data);
+    }
+
+    public function provideInstallationsData(): Generator
+    {
+        $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
+        self::assertCount(3, $installations);
+
+        foreach ($installations as $installation) {
+            $installationId = new InstallationId((int) $installation['id']);
+            $vendorName     = $installation['account']['login'];
+
+            yield [$installationId, $vendorName];
+        }
+    }
+
+    public function provideRepositoriesData(): Generator
+    {
+        $installations = json_decode($this->getInstallationsFileContent(), true)['installations'];
         self::assertCount(3, $installations);
 
         foreach ($installations as $installation) {
@@ -191,9 +160,7 @@ class TestDataRetrieverV4Test extends TestCase
             foreach ($repositories['repositories'] as $repository) {
                 $repoFullName = RepoFullName::createFromString($repository['full_name']);
 
-                $data = $api->getPullRequests($repoFullName, $installationId, $this->userId);
-
-                $this->writeJson($repository['full_name'], 'pullrequest_statuses.json', $data);
+                yield [$installationId, $repoFullName];
             }
         }
     }
