@@ -4,40 +4,25 @@ declare(strict_types=1);
 
 namespace Tests\DevboardLib\GitHubApi\V4\Raw\Repository;
 
-use DevboardLib\GitHubApi\Auth\GitHubApp\JwtTokenBuilder;
-use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 use DevboardLib\GitHubApi\V4\Query\Repository\AllBranchesQuery;
 use DevboardLib\GitHubApi\V4\Raw\Repository\BranchApi;
-use PHPUnit\Framework\TestCase;
 
 /**
  * @covers \DevboardLib\GitHubApi\V4\Raw\Repository\BranchApi
  * @group  live
  */
-class BranchApiTest extends TestCase
+class BranchApiTest extends BaseTestCase
 {
-    public function testFetch()
+    public function testGetBranches()
     {
-        $appId          = getenv('GITHUB_TEST_APP_ID');
-        $privateKeyPath = getenv('GITHUB_TEST_APP_PRIVATE_KEY_PATH');
-        $userId         = getenv('GITHUB_TEST_USER_ID');
-
-        if (false === $appId) {
-            self::markTestSkipped('No AppId');
-        }
-        if (false === $privateKeyPath) {
-            self::markTestSkipped('No PrivateKeyPath');
-        }
-        if (false === $userId) {
+        if (false === getenv('GITHUB_TEST_USER_ID')) {
             self::markTestSkipped('No user id');
         }
-        $path = 'file://'.__DIR__.'/../../../../'.$privateKeyPath;
+        $userId = (int) getenv('GITHUB_TEST_USER_ID');
 
-        $clientFactory = new GitHubClientFactory(new JwtTokenBuilder((int) $appId, $path));
+        $api = new BranchApi($this->getClientFactory());
 
-        $api = new BranchApi($clientFactory);
-
-        $allBranchesQuery = AllBranchesQuery::create('devboard/git-interfaces', 125958, (int) $userId);
+        $allBranchesQuery = AllBranchesQuery::create('devboard/git-interfaces', 125958, $userId);
 
         $data = $api->getBranches($allBranchesQuery);
 
