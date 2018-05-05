@@ -41,7 +41,7 @@ class MilestoneFactory
         return new GitHubMilestone(
             new MilestoneId((int) $data['id']),
             new MilestoneTitle($data['title']),
-            new MilestoneDescription($data['description']),
+            new MilestoneDescription((string) $data['description']),
             $dueOn,
             new MilestoneState(strtolower($data['state'])),
             new MilestoneNumber($data['number']),
