@@ -33,8 +33,10 @@ class StatusFactory
     {
         $context = new StatusContext($data['context']);
 
+        $id = str_replace('013:StatusContext', '', base64_decode($data['id']));
+
         return new GitHubStatus(
-            new StatusId((int) $data['id']),
+            new StatusId((int) $id),
             StatusState::create(strtolower($data['state'])),
             new StatusDescription($data['description']),
             new StatusTargetUrl((string) $data['targetUrl']),

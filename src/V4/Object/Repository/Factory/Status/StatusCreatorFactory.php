@@ -14,8 +14,10 @@ class StatusCreatorFactory
 {
     public function create(array $data): StatusCreator
     {
+        $id = str_replace('04:User', '', base64_decode($data['id']));
+
         return new StatusCreator(
-            new AccountId((int) $data['id']),
+            new AccountId((int) $id),
             new AccountLogin($data['login']),
             new AccountType($data['__typename']),
             new AccountAvatarUrl($data['avatarUrl']),

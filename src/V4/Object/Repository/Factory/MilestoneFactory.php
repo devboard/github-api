@@ -38,8 +38,10 @@ class MilestoneFactory
             $closedAt = new MilestoneClosedAt($data['closedAt']);
         }
 
+        $id = str_replace('09:Milestone', '', base64_decode($data['id']));
+
         return new GitHubMilestone(
-            new MilestoneId((int) $data['id']),
+            new MilestoneId((int) $id),
             new MilestoneTitle($data['title']),
             new MilestoneDescription((string) $data['description']),
             $dueOn,
@@ -63,9 +65,10 @@ class MilestoneFactory
                 false
             );
         }
+        $id = str_replace('04:User', '', base64_decode($data['id']));
 
         return new MilestoneCreator(
-            new AccountId((int) $data['id']),
+            new AccountId((int) $id),
             new AccountLogin($data['login']),
             new AccountType($data['__typename']),
             new AccountAvatarUrl($data['avatarUrl']),

@@ -25,8 +25,9 @@ class CommitAuthorFactory
         if (null === $data['user']) {
             $authorDetails = null;
         } else {
+            $id            = str_replace('04:User', '', base64_decode($data['user']['id']));
             $authorDetails = new CommitAuthorDetails(
-                new UserId((int) $data['user']['id']),
+                new UserId((int) $id),
                 new UserLogin($data['user']['login']),
                 new AccountType($data['user']['__typename']),
                 new UserAvatarUrl($data['user']['avatarUrl']),
