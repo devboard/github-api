@@ -53,7 +53,7 @@ class InstallationRepositoriesApiTest extends TestCase
     }
 
     /**
-     * @group unit2
+     * @group        unit
      * @dataProvider provideInstallationRepositoriesData
      */
     public function testInstallationFactory($data)
