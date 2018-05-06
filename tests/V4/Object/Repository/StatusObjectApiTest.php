@@ -8,8 +8,7 @@ use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
 use DevboardLib\GitHubApi\Query\Repository\AllBranchStatusesQuery;
 use DevboardLib\GitHubApi\Query\Repository\AllPullRequestStatusesQuery;
-use DevboardLib\GitHubApi\V4\Object\Repository\Response\BranchStatusCollection;
-use DevboardLib\GitHubApi\V4\Object\Repository\Response\PullRequestStatusCollection;
+use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllPullRequestStatusesResult;
 use DevboardLib\GitHubApi\V4\Object\Repository\StatusObjectApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\StatusApi;
 use Mockery;
@@ -32,10 +31,9 @@ class StatusObjectApiTest extends TestCase
 
         $api = new StatusObjectApi($api, StatusFactoryTest::instance());
 
-        $data = $api->getBranches($query);
+        $result = $api->getBranches($query);
 
-        self::assertNotEmpty($data);
-        self::assertContainsOnlyInstancesOf(BranchStatusCollection::class, $data);
+        self::assertNotEmpty($result->getBranchStatusCollections());
     }
 
     public function provideBranchesData()
@@ -60,9 +58,9 @@ class StatusObjectApiTest extends TestCase
 
         $api = new StatusObjectApi($api, StatusFactoryTest::instance());
 
-        $data = $api->getPullRequests($query);
+        $result = $api->getPullRequests($query);
 
-        self::assertContainsOnlyInstancesOf(PullRequestStatusCollection::class, $data);
+        self::assertInstanceOf(AllPullRequestStatusesResult::class, $result);
     }
 
     public function providePullRequestsData()
