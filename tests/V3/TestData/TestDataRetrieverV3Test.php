@@ -4,10 +4,9 @@ declare(strict_types=1);
 
 namespace Tests\DevboardLib\GitHubApi\V3\TestData;
 
-use DevboardLib\GitHub\Installation\InstallationId;
-use DevboardLib\GitHub\User\UserId;
 use DevboardLib\GitHubApi\Auth\GitHubApp\JwtTokenBuilder;
 use DevboardLib\GitHubApi\Auth\JwtTokenAuth;
+use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 use Mockery;
 use PHPUnit\Framework\TestCase;
@@ -61,8 +60,8 @@ class TestDataRetrieverV3Test extends TestCase
         $clientFactory = new GitHubClientFactory(new JwtTokenBuilder((int) $appId, $path));
 
         foreach ($installations as $installation) {
-            $client = $clientFactory->createAppAndUserAuthenticatedClient(
-                new InstallationId($installation['id']), new UserId((int) $userId)
+            $client = $clientFactory->createAppAndUserAuthenticatedClient2(
+                InstallationCredentials::create($installation['id'], (int) $userId)
             );
 
             $data = $client->apps()->listRepositories();
