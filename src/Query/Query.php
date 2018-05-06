@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DevboardLib\GitHubApi\V4\Query;
+namespace DevboardLib\GitHubApi\Query;
 
 interface Query
 {

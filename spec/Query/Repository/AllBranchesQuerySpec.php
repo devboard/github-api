@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace spec\DevboardLib\GitHubApi\V4\Query\Repository;
+namespace spec\DevboardLib\GitHubApi\Query\Repository;
 
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
-use DevboardLib\GitHubApi\V4\Query\Repository\AllBranchesQuery;
+use DevboardLib\GitHubApi\Query\Repository\AllBranchesQuery;
 use PhpSpec\ObjectBehavior;
 
 class AllBranchesQuerySpec extends ObjectBehavior

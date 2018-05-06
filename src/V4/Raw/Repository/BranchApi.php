@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubApi\V4\Raw\Repository;
 
+use DevboardLib\GitHubApi\Query\Repository\AllBranchesQuery;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
-use DevboardLib\GitHubApi\V4\Query\Repository\AllBranchesQuery;
 
 class BranchApi
 {
