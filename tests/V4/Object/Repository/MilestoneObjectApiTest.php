@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Tests\DevboardLib\GitHubApi\V4\Object\Repository;
 
-use DevboardLib\GitHub\GitHubMilestone;
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
 use DevboardLib\GitHubApi\Query\Repository\AllMilestonesQuery;
 use DevboardLib\GitHubApi\V4\Object\Repository\MilestoneObjectApi;
+use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllMilestonesResult;
 use DevboardLib\GitHubApi\V4\Raw\Repository\MilestoneApi;
 use Mockery;
 use PHPUnit\Framework\TestCase;
@@ -30,9 +30,9 @@ class MilestoneObjectApiTest extends TestCase
 
         $api = new MilestoneObjectApi($api, MilestoneFactoryTest::instance());
 
-        $data = $api->getMilestones($query);
+        $result = $api->getMilestones($query);
 
-        self::assertContainsOnlyInstancesOf(GitHubMilestone::class, $data);
+        self::assertInstanceOf(AllMilestonesResult::class, $result);
     }
 
     public function provideData()

@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubApi\V4\Object\Repository;
 
-use DevboardLib\GitHub\GitHubMilestone;
 use DevboardLib\GitHubApi\Query\Repository\AllMilestonesQuery;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\MilestoneFactory;
+use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllMilestonesResult;
 use DevboardLib\GitHubApi\V4\Raw\Repository\MilestoneApi;
 
 class MilestoneObjectApi
@@ -23,8 +23,7 @@ class MilestoneObjectApi
         $this->milestoneFactory = $milestoneFactory;
     }
 
-    /** @return array|GitHubMilestone[] */
-    public function getMilestones(AllMilestonesQuery $query): array
+    public function getMilestones(AllMilestonesQuery $query): AllMilestonesResult
     {
         $data = $this->milestoneApi->getMilestones($query);
 
@@ -34,6 +33,6 @@ class MilestoneObjectApi
             $results[] = $this->milestoneFactory->create($item['node']);
         }
 
-        return $results;
+        return new AllMilestonesResult($query->getRepoFullName(), $results);
     }
 }
