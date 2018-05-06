@@ -5,9 +5,6 @@ declare(strict_types=1);
 namespace Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory;
 
 use DevboardLib\GitHub\GitHubPullRequest;
-use DevboardLib\GitHubApi\V4\Object\Repository\Factory\LabelFactory;
-use DevboardLib\GitHubApi\V4\Object\Repository\Factory\MilestoneFactory;
-use DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequest\PullRequestAssigneeFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequest\PullRequestAuthorFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequestFactory;
 use PHPUnit\Framework\TestCase;
@@ -50,11 +47,6 @@ class PullRequestFactoryTest extends TestCase
 
     public static function instance(): PullRequestFactory
     {
-        return new PullRequestFactory(
-            new PullRequestAuthorFactory(),
-            new PullRequestAssigneeFactory(),
-            new MilestoneFactory(),
-            new LabelFactory()
-        );
+        return new PullRequestFactory(new PullRequestAuthorFactory());
     }
 }
