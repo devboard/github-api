@@ -6,10 +6,9 @@ namespace DevboardLib\GitHubApi\V4\Object\Repository;
 
 use DevboardLib\Git\Branch\BranchName;
 use DevboardLib\Git\Commit\CommitSha;
-use DevboardLib\GitHub\Installation\InstallationId;
 use DevboardLib\GitHub\PullRequest\PullRequestNumber;
-use DevboardLib\GitHub\Repo\RepoFullName;
-use DevboardLib\GitHub\User\UserId;
+use DevboardLib\GitHubApi\Query\Repository\AllBranchStatusesQuery;
+use DevboardLib\GitHubApi\Query\Repository\AllPullRequestStatusesQuery;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\StatusFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\Response\BranchStatusCollection;
 use DevboardLib\GitHubApi\V4\Object\Repository\Response\PullRequestStatusCollection;
@@ -34,9 +33,9 @@ class StatusObjectApi
     }
 
     /** @return array|BranchStatusCollection[] */
-    public function getBranches(RepoFullName $repoFullName, InstallationId $installationId, UserId $githubUserId): array
+    public function getBranches(AllBranchStatusesQuery $query): array
     {
-        $data = $this->branchApi->getBranches($repoFullName, $installationId, $githubUserId);
+        $data = $this->branchApi->getBranches($query);
 
         $results = [];
 
@@ -57,9 +56,9 @@ class StatusObjectApi
     }
 
     /** @return array|PullRequestStatusCollection[] */
-    public function getPullRequests(RepoFullName $repoFullName, InstallationId $installationId, UserId $githubUserId): array
+    public function getPullRequests(AllPullRequestStatusesQuery $query): array
     {
-        $dataLists = $this->branchApi->getPullRequests($repoFullName, $installationId, $githubUserId);
+        $dataLists = $this->branchApi->getPullRequests($query);
 
         $results = [];
         foreach ($dataLists as $data) {

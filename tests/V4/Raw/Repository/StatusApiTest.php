@@ -4,14 +4,13 @@ declare(strict_types=1);
 
 namespace Tests\DevboardLib\GitHubApi\V4\Raw\Repository;
 
-use DevboardLib\GitHub\Installation\InstallationId;
-use DevboardLib\GitHub\Repo\RepoFullName;
-use DevboardLib\GitHub\User\UserId;
+use DevboardLib\GitHubApi\Query\Repository\AllBranchStatusesQuery;
+use DevboardLib\GitHubApi\Query\Repository\AllPullRequestStatusesQuery;
 use DevboardLib\GitHubApi\V4\Raw\Repository\StatusApi;
 
 /**
  * @covers \DevboardLib\GitHubApi\V4\Raw\Repository\StatusApi
- * @group live
+ * @group  live
  */
 class StatusApiTest extends BaseTestCase
 {
@@ -24,8 +23,8 @@ class StatusApiTest extends BaseTestCase
 
         $api = new StatusApi($this->getClientFactory());
 
-        $repoFullName = RepoFullName::createFromString('devboard/git-interfaces');
-        $data         = $api->getBranches($repoFullName, new InstallationId(125958), new UserId($userId));
+        $query = AllBranchStatusesQuery::create('devboard/git-interfaces', 125958, $userId);
+        $data  = $api->getBranches($query);
 
         self::assertNotNull($data);
     }
@@ -39,8 +38,8 @@ class StatusApiTest extends BaseTestCase
 
         $api = new StatusApi($this->getClientFactory());
 
-        $repoFullName = RepoFullName::createFromString('devboard/git-interfaces');
-        $data         = $api->getPullRequests($repoFullName, new InstallationId(125958), new UserId($userId));
+        $query = AllPullRequestStatusesQuery::create('devboard/git-interfaces', 125958, $userId);
+        $data  = $api->getPullRequests($query);
 
         self::assertNotNull($data);
     }

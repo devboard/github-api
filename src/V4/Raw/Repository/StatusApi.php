@@ -4,9 +4,8 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubApi\V4\Raw\Repository;
 
-use DevboardLib\GitHub\Installation\InstallationId;
-use DevboardLib\GitHub\Repo\RepoFullName;
-use DevboardLib\GitHub\User\UserId;
+use DevboardLib\GitHubApi\Query\Repository\AllBranchStatusesQuery;
+use DevboardLib\GitHubApi\Query\Repository\AllPullRequestStatusesQuery;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 
 class StatusApi
@@ -19,37 +18,29 @@ class StatusApi
         $this->clientFactory = $clientFactory;
     }
 
-    public function getBranches(RepoFullName $repoFullName, InstallationId $installationId, UserId $githubUserId): array
+    public function getBranches(AllBranchStatusesQuery $query): array
     {
-        $query = file_get_contents(__DIR__.'/branch_statuses.graphql');
+        $queryDefinition = file_get_contents(__DIR__.'/branch_statuses.graphql');
 
-        $variables = [
-            'owner' => $repoFullName->getOwner()->getValue(),
-            'name'  => $repoFullName->getRepoName()->getValue(),
-        ];
-        $client = $this->clientFactory->createAppAndUserAuthenticatedClient($installationId, $githubUserId);
+        $variables = ['owner' => $query->getOwnerName(), 'name' => $query->getRepoName()];
+        $client    = $this->clientFactory->createAppAndUserAuthenticatedClient2($query->getCredentials());
 
-        $data = $client->graphql()->execute($query, $variables);
+        $data = $client->graphql()->execute($queryDefinition, $variables);
 
         return $data;
     }
 
-    public function getPullRequests(RepoFullName $repoFullName, InstallationId $installationId, UserId $githubUserId): array
+    public function getPullRequests(AllPullRequestStatusesQuery $query): array
     {
-        $query = file_get_contents(__DIR__.'/pull_request_statuses.graphql');
+        $queryDefinition = file_get_contents(__DIR__.'/pull_request_statuses.graphql');
 
-        $variables = [
-            'owner'  => $repoFullName->getOwner()->getValue(),
-            'name'   => $repoFullName->getRepoName()->getValue(),
-            'cursor' => null,
-        ];
-
-        $client = $this->clientFactory->createAppAndUserAuthenticatedClient($installationId, $githubUserId);
+        $variables = ['owner' => $query->getOwnerName(), 'name' => $query->getRepoName(), 'cursor' => null];
+        $client    = $this->clientFactory->createAppAndUserAuthenticatedClient2($query->getCredentials());
 
         $results = [];
 
         do {
-            $data = $client->graphql()->execute($query, $variables);
+            $data = $client->graphql()->execute($queryDefinition, $variables);
 
             $results[] = $data;
 
