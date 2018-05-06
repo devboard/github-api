@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DevboardLib\GitHubApi\V4\Query\Repository;
+namespace DevboardLib\GitHubApi\Query\Repository;
 
 use DevboardLib\GitHub\Account\AccountLogin;
 use DevboardLib\GitHub\Repo\RepoFullName;
