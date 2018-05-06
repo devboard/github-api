@@ -22,7 +22,11 @@ class PullRequestApi
     {
         $queryDefinition = file_get_contents(__DIR__.'/pull_requests.graphql');
 
-        $variables = ['owner' => $query->getOwnerName(), 'name' => $query->getRepoName(), 'cursor' => null];
+        $variables = [
+            'owner'  => (string) $query->getOwnerName(),
+            'name'   => (string) $query->getRepoName(),
+            'cursor' => null,
+        ];
 
         $client = $this->clientFactory->createAppAndUserAuthenticatedClient($query->getCredentials());
 

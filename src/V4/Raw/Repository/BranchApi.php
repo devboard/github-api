@@ -21,7 +21,7 @@ class BranchApi
     {
         $queryDefinition = file_get_contents(__DIR__.'/branches.graphql');
 
-        $variables = ['owner' => $query->getOwnerName(), 'name' => $query->getRepoName()];
+        $variables = ['owner' => (string) $query->getOwnerName(), 'name' => (string) $query->getRepoName()];
         $client    = $this->clientFactory->createAppAndUserAuthenticatedClient($query->getCredentials());
 
         $data = $client->graphql()->execute($queryDefinition, $variables);
