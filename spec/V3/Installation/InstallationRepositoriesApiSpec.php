@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace spec\DevboardLib\GitHubApi\V3\Installation;
 
-use DevboardLib\GitHub\Installation\InstallationId;
-use DevboardLib\GitHub\User\UserId;
+use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 use DevboardLib\GitHubApi\V3\Installation\Factory\GitHubRepoFactory;
 use DevboardLib\GitHubApi\V3\Installation\InstallationRepositoriesApi;
@@ -26,13 +25,9 @@ class InstallationRepositoriesApiSpec extends ObjectBehavior
     }
 
     public function it_retrieves_installation_repositories_accessible_by_user(
-        InstallationId $installationId,
-        UserId $githubUserId,
-        GitHubClientFactory $clientFactory,
-        Client $client,
-        AppsApi $appsApi
+        InstallationCredentials $credentials, GitHubClientFactory $clientFactory, Client $client, AppsApi $appsApi
     ) {
-        $clientFactory->createAppAndUserAuthenticatedClient($installationId, $githubUserId)
+        $clientFactory->createAppAndUserAuthenticatedClient2($credentials)
             ->shouldBeCalled()
             ->willReturn($client);
 
@@ -44,6 +39,6 @@ class InstallationRepositoriesApiSpec extends ObjectBehavior
             ->shouldBeCalled()
             ->willReturn(['repositories' => []]);
 
-        $this->fetch($installationId, $githubUserId);
+        $this->fetch($credentials);
     }
 }

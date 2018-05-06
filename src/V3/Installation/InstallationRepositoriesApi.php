@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubApi\V3\Installation;
 
-use DevboardLib\GitHub\Installation\InstallationId;
-use DevboardLib\GitHub\User\UserId;
+use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 use DevboardLib\GitHubApi\V3\Installation\Factory\GitHubRepoFactory;
 
@@ -27,9 +26,9 @@ class InstallationRepositoriesApi
         $this->gitHubRepoFactory = $gitHubRepoFactory;
     }
 
-    public function fetch(InstallationId $installationId, UserId $githubUserId)
+    public function fetch(InstallationCredentials $credentials)
     {
-        $client = $this->clientFactory->createAppAndUserAuthenticatedClient($installationId, $githubUserId);
+        $client = $this->clientFactory->createAppAndUserAuthenticatedClient2($credentials);
 
         $data = $client->apps()->listRepositories();
 
