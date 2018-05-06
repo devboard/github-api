@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Tests\DevboardLib\GitHubApi\V4\Object\Repository;
 
-use DevboardLib\GitHub\GitHubLabel;
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
 use DevboardLib\GitHubApi\Query\Repository\AllLabelsQuery;
@@ -30,10 +29,9 @@ class LabelObjectApiTest extends TestCase
 
         $api = new LabelObjectApi($api, LabelFactoryTest::instance());
 
-        $data = $api->getLabels($query);
+        $result = $api->getLabels($query);
 
-        self::assertNotEmpty($data);
-        self::assertContainsOnlyInstancesOf(GitHubLabel::class, $data);
+        self::assertNotEmpty($result->getLabels());
     }
 
     public function provideData()

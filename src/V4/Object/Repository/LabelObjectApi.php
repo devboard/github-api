@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubApi\V4\Object\Repository;
 
-use DevboardLib\GitHub\GitHubLabel;
 use DevboardLib\GitHubApi\Query\Repository\AllLabelsQuery;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\LabelFactory;
+use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllLabelsResult;
 use DevboardLib\GitHubApi\V4\Raw\Repository\LabelApi;
 
 class LabelObjectApi
@@ -23,8 +23,7 @@ class LabelObjectApi
         $this->labelFactory = $labelFactory;
     }
 
-    /** @return array|GitHubLabel[] */
-    public function getLabels(AllLabelsQuery $query): array
+    public function getLabels(AllLabelsQuery $query): AllLabelsResult
     {
         $data = $this->labelApi->getLabels($query);
 
@@ -34,6 +33,6 @@ class LabelObjectApi
             $results[] = $this->labelFactory->create($item['node']);
         }
 
-        return $results;
+        return new AllLabelsResult($query->getRepoFullName(), $results);
     }
 }
