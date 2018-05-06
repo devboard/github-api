@@ -42,10 +42,9 @@ class BranchObjectApiTest extends TestCase
         $provider     = new TestDataProvider();
         $repoFullName = RepoFullName::createFromString('who/cares');
         $credentials  = Mockery::mock(InstallationCredentials::class);
+        $query        = new AllBranchesQuery($repoFullName, $credentials);
 
         foreach ($provider->getGitHubV4BranchData() as $data) {
-            $query = new AllBranchesQuery($repoFullName, $credentials);
-
             yield[$query, $data];
         }
     }
