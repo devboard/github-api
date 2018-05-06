@@ -18,14 +18,10 @@ use DevboardLib\GitHubApi\V4\Raw\Repository\StatusApi;
 
 class StatusObjectApi
 {
-    /**
-     * @var StatusApi
-     */
+    /** @var StatusApi */
     private $branchApi;
 
-    /**
-     * @var StatusFactory
-     */
+    /** @var StatusFactory */
     private $statusFactory;
 
     public function __construct(StatusApi $branchApi, StatusFactory $statusFactory)
