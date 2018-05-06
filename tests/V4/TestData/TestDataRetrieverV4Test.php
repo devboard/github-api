@@ -11,6 +11,7 @@ use DevboardLib\GitHubApi\Auth\GitHubApp\JwtTokenBuilder;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
 use DevboardLib\GitHubApi\Query\Repository\AllBranchesQuery;
 use DevboardLib\GitHubApi\Query\Repository\AllLabelsQuery;
+use DevboardLib\GitHubApi\Query\Repository\AllMilestonesQuery;
 use DevboardLib\GitHubApi\Query\Repository\AllPullRequestsQuery;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 use DevboardLib\GitHubApi\V4\Raw\Repository\BranchApi;
@@ -88,9 +89,9 @@ class TestDataRetrieverV4Test extends TestCase
     /** @dataProvider provideRepositoriesData */
     public function testMilestonesFetch(InstallationId $installationId, RepoFullName $repoFullName)
     {
-        $api = new MilestoneApi($this->clientFactory);
-
-        $data = $api->getMilestones($repoFullName, $installationId, $this->userId);
+        $api   = new MilestoneApi($this->clientFactory);
+        $query = new AllMilestonesQuery($repoFullName, new InstallationCredentials($installationId, $this->userId));
+        $data  = $api->getMilestones($query);
 
         self::assertNotEmpty($data);
 
