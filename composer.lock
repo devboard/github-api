@@ -199,12 +199,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/lib-github.git",
-                "reference": "dabd559a684124ce17e197a6f8a65ba91a8e2a1b"
+                "reference": "7ecb5707ce5b91d93721bea77949568f8fde338d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/lib-github/zipball/dabd559a684124ce17e197a6f8a65ba91a8e2a1b",
-                "reference": "dabd559a684124ce17e197a6f8a65ba91a8e2a1b",
+                "url": "https://api.github.com/repos/devboard/lib-github/zipball/7ecb5707ce5b91d93721bea77949568f8fde338d",
+                "reference": "7ecb5707ce5b91d93721bea77949568f8fde338d",
                 "shasum": ""
             },
             "require": {
@@ -245,7 +245,7 @@
                 "proprietary"
             ],
             "description": "Devboard lib for GitHub",
-            "time": "2018-05-06T15:50:15+00:00"
+            "time": "2018-05-06T19:03:23+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
