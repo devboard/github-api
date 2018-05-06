@@ -12,6 +12,8 @@ use DevboardLib\GitHubApi\Query\Repository\AllPullRequestStatusesQuery;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\StatusFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\Response\BranchStatusCollection;
 use DevboardLib\GitHubApi\V4\Object\Repository\Response\PullRequestStatusCollection;
+use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllBranchStatusesResult;
+use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllPullRequestStatusesResult;
 use DevboardLib\GitHubApi\V4\Raw\Repository\StatusApi;
 
 class StatusObjectApi
@@ -32,8 +34,7 @@ class StatusObjectApi
         $this->statusFactory = $statusFactory;
     }
 
-    /** @return array|BranchStatusCollection[] */
-    public function getBranches(AllBranchStatusesQuery $query): array
+    public function getBranches(AllBranchStatusesQuery $query): AllBranchStatusesResult
     {
         $data = $this->branchApi->getBranches($query);
 
@@ -52,11 +53,10 @@ class StatusObjectApi
             $results[] = new BranchStatusCollection($branchName, $sha, $statuses);
         }
 
-        return $results;
+        return new AllBranchStatusesResult($query->getRepoFullName(), $results);
     }
 
-    /** @return array|PullRequestStatusCollection[] */
-    public function getPullRequests(AllPullRequestStatusesQuery $query): array
+    public function getPullRequests(AllPullRequestStatusesQuery $query): AllPullRequestStatusesResult
     {
         $dataLists = $this->branchApi->getPullRequests($query);
 
@@ -77,6 +77,6 @@ class StatusObjectApi
             }
         }
 
-        return $results;
+        return new AllPullRequestStatusesResult($query->getRepoFullName(), $results);
     }
 }
