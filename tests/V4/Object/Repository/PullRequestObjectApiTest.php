@@ -12,7 +12,7 @@ use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllPullRequestsResult;
 use DevboardLib\GitHubApi\V4\Raw\Repository\PullRequestApi;
 use Mockery;
 use PHPUnit\Framework\TestCase;
-use Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequestFactoryTest;
+use Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequestDetailedResponseFactoryTest;
 use Tests\DevboardLib\GitHubApi\V4\TestData\TestDataProvider;
 
 /**
@@ -28,7 +28,7 @@ class PullRequestObjectApiTest extends TestCase
         $api = Mockery::mock(PullRequestApi::class);
         $api->shouldReceive('getPullRequests')->andReturn($inputData);
 
-        $api = new PullRequestObjectApi($api, PullRequestFactoryTest::instance());
+        $api = new PullRequestObjectApi($api, PullRequestDetailedResponseFactoryTest::instance());
 
         $result = $api->getPullRequests($query);
 
