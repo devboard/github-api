@@ -5,9 +5,7 @@ declare(strict_types=1);
 namespace DevboardLib\GitHubApi\V4\Object\Repository;
 
 use DevboardLib\GitHub\GitHubPullRequest;
-use DevboardLib\GitHub\Installation\InstallationId;
-use DevboardLib\GitHub\Repo\RepoFullName;
-use DevboardLib\GitHub\User\UserId;
+use DevboardLib\GitHubApi\Query\Repository\AllPullRequestsQuery;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequestFactory;
 use DevboardLib\GitHubApi\V4\Raw\Repository\PullRequestApi;
 
@@ -26,9 +24,9 @@ class PullRequestObjectApi
     }
 
     /** @return array|GitHubPullRequest[] */
-    public function getPullRequests(RepoFullName $repoFullName, InstallationId $installationId, UserId $githubUserId): array
+    public function getPullRequests(AllPullRequestsQuery $query): array
     {
-        $dataLists = $this->pullRequestApi->getPullRequests($repoFullName, $installationId, $githubUserId);
+        $dataLists = $this->pullRequestApi->getPullRequests($query);
 
         $results = [];
 
