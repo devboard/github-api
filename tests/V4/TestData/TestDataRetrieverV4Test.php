@@ -10,6 +10,7 @@ use DevboardLib\GitHub\User\UserId;
 use DevboardLib\GitHubApi\Auth\GitHubApp\JwtTokenBuilder;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
 use DevboardLib\GitHubApi\Query\Repository\AllBranchesQuery;
+use DevboardLib\GitHubApi\Query\Repository\AllPullRequestsQuery;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 use DevboardLib\GitHubApi\V4\Raw\Repository\BranchApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\LabelApi;
@@ -100,7 +101,9 @@ class TestDataRetrieverV4Test extends TestCase
     {
         $api = new PullRequestApi($this->clientFactory);
 
-        $data = $api->getPullRequests($repoFullName, $installationId, $this->userId);
+        $query = new AllPullRequestsQuery($repoFullName, new InstallationCredentials($installationId, $this->userId));
+
+        $data = $api->getPullRequests($query);
 
         self::assertNotEmpty($data);
 

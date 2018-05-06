@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Tests\DevboardLib\GitHubApi\V4\Object\Repository;
 
 use DevboardLib\GitHub\GitHubPullRequest;
-use DevboardLib\GitHub\Installation\InstallationId;
 use DevboardLib\GitHub\Repo\RepoFullName;
-use DevboardLib\GitHub\User\UserId;
+use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
+use DevboardLib\GitHubApi\Query\Repository\AllPullRequestsQuery;
 use DevboardLib\GitHubApi\V4\Object\Repository\PullRequestObjectApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\PullRequestApi;
 use Mockery;
@@ -23,28 +23,27 @@ class PullRequestObjectApiTest extends TestCase
     /**
      * @dataProvider provideData
      */
-    public function testGetPullRequests(
-        InstallationId $installationId, UserId $userId, RepoFullName $repoFullName, $inputData
-    ) {
+    public function testGetPullRequests(AllPullRequestsQuery $query, $inputData)
+    {
         $api = Mockery::mock(PullRequestApi::class);
         $api->shouldReceive('getPullRequests')->andReturn($inputData);
 
         $api = new PullRequestObjectApi($api, PullRequestFactoryTest::instance());
 
-        $data = $api->getPullRequests($repoFullName, $installationId, $userId);
+        $data = $api->getPullRequests($query);
 
         self::assertContainsOnlyInstancesOf(GitHubPullRequest::class, $data);
     }
 
     public function provideData()
     {
-        $provider       = new TestDataProvider();
-        $repoFullName   = RepoFullName::createFromString('who/cares');
-        $installationId = new InstallationId(12345666);
-        $userId         = new UserId(123);
+        $provider     = new TestDataProvider();
+        $repoFullName = RepoFullName::createFromString('who/cares');
+        $credentials  = Mockery::mock(InstallationCredentials::class);
 
         foreach ($provider->getGitHubV4PullRequestData() as $data) {
-            yield[$installationId, $userId, $repoFullName, $data];
+            $query = new AllPullRequestsQuery($repoFullName, $credentials);
+            yield[$query, $data];
         }
     }
 }

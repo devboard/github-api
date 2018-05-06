@@ -17,14 +17,14 @@ class BranchApi
         $this->clientFactory = $clientFactory;
     }
 
-    public function getBranches(AllBranchesQuery $input): array
+    public function getBranches(AllBranchesQuery $query): array
     {
-        $query = file_get_contents(__DIR__.'/branches.graphql');
+        $queryDefinition = file_get_contents(__DIR__.'/branches.graphql');
 
-        $variables = ['owner' => $input->getOwnerName(), 'name' => $input->getRepoName()];
-        $client    = $this->clientFactory->createAppAndUserAuthenticatedClient2($input->getCredentials());
+        $variables = ['owner' => $query->getOwnerName(), 'name' => $query->getRepoName()];
+        $client    = $this->clientFactory->createAppAndUserAuthenticatedClient2($query->getCredentials());
 
-        $data = $client->graphql()->execute($query, $variables);
+        $data = $client->graphql()->execute($queryDefinition, $variables);
 
         return $data;
     }
