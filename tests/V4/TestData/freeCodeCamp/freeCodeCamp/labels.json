@@ -1,0 +1,381 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnkyODQ1NzgyMw==",
+            "name": "freeCodeCamp",
+            "labels": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNjA2Mjk5MjI=",
+                            "name": "bug",
+                            "color": "fc2929",
+                            "isDefault": true,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/bug"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNjA2Mjk5MjQ=",
+                            "name": "enhancement",
+                            "color": "84b6eb",
+                            "isDefault": true,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/enhancement"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNjA2Mjk5MjU=",
+                            "name": "help wanted",
+                            "color": "159818",
+                            "isDefault": true,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/help%20wanted"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNjA2Mjk5MjY=",
+                            "name": "invalid",
+                            "color": "000000",
+                            "isDefault": true,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/invalid"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNjA2Mjk5Mjc=",
+                            "name": "type: question",
+                            "color": "cc317c",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/type%3A%20question"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNjA2Mjk5Mjg=",
+                            "name": "status: wontfix",
+                            "color": "000000",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/status%3A%20wontfix"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxODA5NDE3NTA=",
+                            "name": "status: in progress",
+                            "color": "c2e0c6",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/status%3A%20in%20progress"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxODQ2NDYxMjc=",
+                            "name": "status: confirmed",
+                            "color": "ededed",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/status%3A%20confirmed"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxOTk4MzU1Nzk=",
+                            "name": "status: discussing",
+                            "color": "f9d0c4",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/status%3A%20discussing"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxOTk4NTY5MzA=",
+                            "name": "status: ready for QA",
+                            "color": "006b75",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/status%3A%20ready%20for%20QA"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyMTY0ODIwNTE=",
+                            "name": "status: blocked",
+                            "color": "424242",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/status%3A%20blocked"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyMTY4NjYwMDI=",
+                            "name": "feature request",
+                            "color": "84b6eb",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/feature%20request"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNDM2MTIzNjY=",
+                            "name": "beta",
+                            "color": "fbca04",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/beta"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNTI2NjE3Njk=",
+                            "name": "type: curriculum",
+                            "color": "d4c5f9",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/type%3A%20curriculum"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNTI2ODY4NzQ=",
+                            "name": "first timers welcome",
+                            "color": "c5def5",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/first%20timers%20welcome"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNTI2ODk1ODE=",
+                            "name": "type: tests",
+                            "color": "cc317c",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/type%3A%20tests"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNTI3NTg2OTM=",
+                            "name": "other: device specific",
+                            "color": "e99695",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/other%3A%20device%20specific"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNTI4ODMxMDA=",
+                            "name": "ux: accessibility",
+                            "color": "5319e7",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/ux%3A%20accessibility"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNTI5NzE0NzQ=",
+                            "name": "ux",
+                            "color": "5319e7",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/ux"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNTYxODk3MDM=",
+                            "name": "support: accounts",
+                            "color": "0052cc",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/support%3A%20accounts"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNzE4MTg4MDY=",
+                            "name": "on the roadmap",
+                            "color": "006400",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/on%20the%20roadmap"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyODMyNzEyODY=",
+                            "name": "other: bike shedding",
+                            "color": "f9d0c4",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/other%3A%20bike%20shedding"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyODg2NzkzMDA=",
+                            "name": "ux: translation",
+                            "color": "5319e7",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/ux%3A%20translation"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzNTExNTYzNjc=",
+                            "name": "greenkeeper",
+                            "color": "c2e0c6",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/greenkeeper"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0MTIzMjM3MzI=",
+                            "name": "type: codepen/projects",
+                            "color": "d4c5f9",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/type%3A%20codepen%2Fprojects"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0MTQ2OTE3Mjk=",
+                            "name": "other: decayed",
+                            "color": "e99695",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/other%3A%20decayed"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0NTE2MTkzNzk=",
+                            "name": "critical path",
+                            "color": "b60205",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/critical%20path"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0NTQ1NjI4MzI=",
+                            "name": "type: documentation",
+                            "color": "722872",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/type%3A%20documentation"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0NjI0NTcyOTQ=",
+                            "name": "status: resolved in staging",
+                            "color": "9ed361",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/status%3A%20resolved%20in%20staging"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3ODYzMjA2OTc=",
+                            "name": "status: needs update",
+                            "color": "fef2c0",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/status%3A%20needs%20update"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3OTA5MTM2NTg=",
+                            "name": "type: interview prep",
+                            "color": "b0d4fc",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/type%3A%20interview%20prep"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MDIxMjIyMDA=",
+                            "name": "platform: server",
+                            "color": "59d683",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/platform%3A%20server"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MDIxMjIzNjk=",
+                            "name": "platform: client",
+                            "color": "59d683",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/platform%3A%20client"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MDc5NjY2NzU=",
+                            "name": "status: needs analysis",
+                            "color": "8b9fef",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/status%3A%20needs%20analysis"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MzExODU0OTM=",
+                            "name": "production",
+                            "color": "0e8a16",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/production"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4Mzg3MjYzMzk=",
+                            "name": "status: blocked for beta",
+                            "color": "424242",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/status%3A%20blocked%20for%20beta"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4NTE2MDk0MTk=",
+                            "name": "chrome",
+                            "color": "ff89ff",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/chrome"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4NTE2MTAyODI=",
+                            "name": "ie/edge",
+                            "color": "ff89ff",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/ie%2Fedge"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4NTE2MTA0ODQ=",
+                            "name": "firefox",
+                            "color": "ff89ff",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/firefox"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4NTE2MTA2NjI=",
+                            "name": "iOS",
+                            "color": "ff89ff",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/iOS"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4NTE2MTA4MTY=",
+                            "name": "android",
+                            "color": "ff89ff",
+                            "isDefault": false,
+                            "url": "https://github.com/freeCodeCamp/freeCodeCamp/labels/android"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

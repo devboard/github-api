@@ -1,0 +1,22 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnkxNTkxNzEzMg==",
+            "name": "ProgrammingAssignment2",
+            "refs": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTU5MTcxMzI6bWFzdGVy",
+                            "name": "master",
+                            "target": {
+                                "oid": "7f657dd22ac20d22698c53b23f0057e1a12c09b7",
+                                "status": null
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

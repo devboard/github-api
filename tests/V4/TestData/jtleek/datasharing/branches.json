@@ -1,0 +1,66 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnkxNDIwNDM0Mg==",
+            "name": "datasharing",
+            "refs": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTQyMDQzNDI6bWFzdGVy",
+                            "name": "master",
+                            "target": {
+                                "oid": "df97230f037c212d8a07cdaf9216348c63644c9b",
+                                "message": "Merge pull request #464 from Amherst-Statistics/master\n\nOffered suggestions to Jeff for the TAS DSS submission",
+                                "authoredDate": "2016-11-08T19:44:57Z",
+                                "author": {
+                                    "name": "Jeff L",
+                                    "email": "jtleek@users.noreply.github.com",
+                                    "date": "2016-11-08T19:44:57Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE1NzE2NzQ=",
+                                        "login": "jtleek",
+                                        "name": "Jeff L.",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/1571674?v=4",
+                                        "url": "https://github.com/jtleek",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2016-11-08T11:44:57-08:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "444e0fb0ad2384d48c91524fb5af5e97522b0a21",
+                                    "commitUrl": "https://github.com/jtleek/datasharing/commit/444e0fb0ad2384d48c91524fb5af5e97522b0a21",
+                                    "commitResourcePath": "/jtleek/datasharing/commit/444e0fb0ad2384d48c91524fb5af5e97522b0a21"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "c179250410139c62c1af03fafa4916822de8b30a",
+                                                "url": "https://github.com/jtleek/datasharing/commit/c179250410139c62c1af03fafa4916822de8b30a",
+                                                "commitUrl": "https://github.com/jtleek/datasharing/commit/c179250410139c62c1af03fafa4916822de8b30a"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "305c199c74131a646f61c54a9d5857eaa9b93435",
+                                                "url": "https://github.com/jtleek/datasharing/commit/305c199c74131a646f61c54a9d5857eaa9b93435",
+                                                "commitUrl": "https://github.com/jtleek/datasharing/commit/305c199c74131a646f61c54a9d5857eaa9b93435"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,597 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnkzMjEyNzg=",
+            "name": "npm",
+            "labels": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMTk3Nw==",
+                            "name": "registry",
+                            "color": "871646",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/registry"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMzM4NA==",
+                            "name": "documentation",
+                            "color": "5A1991",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/documentation"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0MTYxNg==",
+                            "name": "bug",
+                            "color": "A328B3",
+                            "isDefault": true,
+                            "url": "https://github.com/npm/npm/labels/bug"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMDMxMzg=",
+                            "name": "patch-welcome",
+                            "color": "BEEB71",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/patch-welcome"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNzIwNzY=",
+                            "name": "windows",
+                            "color": "00177D",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/windows"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxODk4ODI=",
+                            "name": "node-bug",
+                            "color": "6AB417",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/node-bug"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0NDkxMzUwNg==",
+                            "name": "needs-repro",
+                            "color": "BDFFCA",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/needs-repro"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3NzYzODMyMQ==",
+                            "name": "faq",
+                            "color": "E2C9FF",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/faq"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3OTM2Mjg0OA==",
+                            "name": "needs-tests",
+                            "color": "71A6A1",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/needs-tests"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw5MzY5NDMyNQ==",
+                            "name": "ember-asks",
+                            "color": "CF3C71",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/ember-asks"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMDE2NDU3OTU=",
+                            "name": "needs-discussion",
+                            "color": "0A98AC",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/needs-discussion"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMDQyOTg5MDY=",
+                            "name": "feature-request",
+                            "color": "98DCFF",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/feature-request"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMDQzMDQ4NDM=",
+                            "name": "support",
+                            "color": "000000",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/support"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMTUxMTkyNzg=",
+                            "name": "in-progress",
+                            "color": "FF82CE",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/in-progress"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMTU0Njg5NzA=",
+                            "name": "ready",
+                            "color": "7B7B7B",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/ready"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMTU2NjgyNzc=",
+                            "name": "review",
+                            "color": "343434",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/review"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMTYzODM5NTQ=",
+                            "name": "browser-cache",
+                            "color": "F68F37",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/browser-cache"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMTY0MzkwMDM=",
+                            "name": "shrinkwrap",
+                            "color": "20B562",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/shrinkwrap"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMTY0NDExNjM=",
+                            "name": "peerdependencies",
+                            "color": "F5B784",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/peerdependencies"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMTY0NDE0ODQ=",
+                            "name": "dedupe",
+                            "color": "939717",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/dedupe"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMTY0NTM0MjE=",
+                            "name": "npx",
+                            "color": "0e8a16",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/npx"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMjY1NDk1MjQ=",
+                            "name": "error-handling",
+                            "color": "139D08",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/error-handling"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMjk3NjY2NTM=",
+                            "name": "yeoman",
+                            "color": "D59CFC",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/yeoman"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMzAzMzEwODI=",
+                            "name": "shasum",
+                            "color": "211640",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/shasum"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMzEzNTE3ODY=",
+                            "name": "enterprise",
+                            "color": "024ACA",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/enterprise"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMzIwNjQ1OTI=",
+                            "name": "lifecycle",
+                            "color": "C59782",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/lifecycle"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMzU2MzI1ODE=",
+                            "name": "tests",
+                            "color": "E18289",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/tests"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNDM1NTYwMjU=",
+                            "name": "starter",
+                            "color": "58D332",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/starter"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxODEwMjI1MDc=",
+                            "name": "scopes",
+                            "color": "AD4E1A",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/scopes"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxODEwMjUwNzE=",
+                            "name": "local",
+                            "color": "00604B",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/local"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxOTQzMzU4ODU=",
+                            "name": "git",
+                            "color": "DA655E",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/git"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyMjU4MTkyNjk=",
+                            "name": "proxy",
+                            "color": "005280",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/proxy"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNjIyNTQ2Njc=",
+                            "name": "big-bug",
+                            "color": "E03C28",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/big-bug"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNjY0MjIyMDc=",
+                            "name": "link",
+                            "color": "5C3C0D",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/link"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNjY0MjQzMzI=",
+                            "name": "ux",
+                            "color": "9BA0EF",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/ux"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNjkxNzE1OTc=",
+                            "name": "dependencies",
+                            "color": "EEFFA9",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/dependencies"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNjkxNzU0MzY=",
+                            "name": "native-build",
+                            "color": "376D03",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/native-build"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNzcxNjQwMjA=",
+                            "name": "package-json",
+                            "color": "B6C121",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/package-json"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNzcxNzU4NjA=",
+                            "name": "performance",
+                            "color": "0084FF",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/performance"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNzkzMjU1MDE=",
+                            "name": "transactional-installs",
+                            "color": "004E00",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/transactional-installs"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNzkzMjc4OTU=",
+                            "name": "footgun",
+                            "color": "FFE737",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/footgun"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyODUwMTEzNzU=",
+                            "name": "flat-dependencies",
+                            "color": "FFBB31",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/flat-dependencies"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyODYxMjcxMDA=",
+                            "name": "merge-to-lts",
+                            "color": "D7D7D7",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/merge-to-lts"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyODYxMjcxMjI=",
+                            "name": "merge-to-latest",
+                            "color": "FFFFFF",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/merge-to-latest"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyODgxMjAwMDM=",
+                            "name": "es2015-modules",
+                            "color": "E2D7B5",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/es2015-modules"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyOTEyNTIyNzE=",
+                            "name": "supportability",
+                            "color": "A675FE",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/supportability"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyOTU1ODgzNjU=",
+                            "name": "platform-integration",
+                            "color": "5BA8FF",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/platform-integration"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMDA1MzA0NzU=",
+                            "name": "installer",
+                            "color": "823C3D",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/installer"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMDczOTkwMTA=",
+                            "name": "search",
+                            "color": "6A31CA",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/search"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMTEwNDgyNzE=",
+                            "name": "cache",
+                            "color": "8CD612",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/cache"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMTE5NjQ2MTA=",
+                            "name": "needs-docs",
+                            "color": "25E2CD",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/needs-docs"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMTIwNDExNDM=",
+                            "name": "breaking",
+                            "color": "AE6C37",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/breaking"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMTQ4MDQ5Nzk=",
+                            "name": "release",
+                            "color": "231712",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/release"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMTgyNTc1ODA=",
+                            "name": "security",
+                            "color": "415D66",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/security"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMTg4MDQ0NTU=",
+                            "name": "front-end",
+                            "color": "CC8F15",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/front-end"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMjAwNjI1NjM=",
+                            "name": "network",
+                            "color": "6264DC",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/network"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMjc3OTUzMzI=",
+                            "name": "already-looked-at",
+                            "color": "FEC9ED",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/already-looked-at"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzNjY0MzI1NjI=",
+                            "name": "semver",
+                            "color": "CC69E4",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/semver"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzNzAwMDU1NTY=",
+                            "name": "debian-ubuntu",
+                            "color": "3D34A5",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/debian-ubuntu"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzNzM0Mzc3NTQ=",
+                            "name": "target-latest",
+                            "color": "172808",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/target-latest"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzNzM0Mzc5MjQ=",
+                            "name": "target-lts",
+                            "color": "0D2030",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/target-lts"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0OTM0NDk4NTY=",
+                            "name": "docker",
+                            "color": "FFE9C5",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/docker"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw1OTc1MTQxOTU=",
+                            "name": "npm5",
+                            "color": "b60205",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/npm5"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2MjgzMjUwMjk=",
+                            "name": "bot-closed",
+                            "color": "fef2c0",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/bot-closed"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw5MTI5MTUzNjI=",
+                            "name": "rfc",
+                            "color": "6038a5",
+                            "isDefault": false,
+                            "url": "https://github.com/npm/npm/labels/rfc"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnkxNTkxNzEzMg==",
+            "name": "ProgrammingAssignment2",
+            "labels": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3NTAzMTExMg==",
+                            "name": "bug",
+                            "color": "fc2929",
+                            "isDefault": true,
+                            "url": "https://github.com/rdpeng/ProgrammingAssignment2/labels/bug"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3NTAzMTExMw==",
+                            "name": "duplicate",
+                            "color": "cccccc",
+                            "isDefault": true,
+                            "url": "https://github.com/rdpeng/ProgrammingAssignment2/labels/duplicate"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3NTAzMTExNA==",
+                            "name": "enhancement",
+                            "color": "84b6eb",
+                            "isDefault": true,
+                            "url": "https://github.com/rdpeng/ProgrammingAssignment2/labels/enhancement"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3NTAzMTExNQ==",
+                            "name": "invalid",
+                            "color": "e6e6e6",
+                            "isDefault": true,
+                            "url": "https://github.com/rdpeng/ProgrammingAssignment2/labels/invalid"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3NTAzMTExNg==",
+                            "name": "question",
+                            "color": "cc317c",
+                            "isDefault": true,
+                            "url": "https://github.com/rdpeng/ProgrammingAssignment2/labels/question"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3NTAzMTExNw==",
+                            "name": "wontfix",
+                            "color": "ffffff",
+                            "isDefault": true,
+                            "url": "https://github.com/rdpeng/ProgrammingAssignment2/labels/wontfix"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

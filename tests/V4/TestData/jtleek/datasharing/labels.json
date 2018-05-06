@@ -1,0 +1,66 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnkxNDIwNDM0Mg==",
+            "name": "datasharing",
+            "labels": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2NDY5Nzc4MQ==",
+                            "name": "bug",
+                            "color": "fc2929",
+                            "isDefault": true,
+                            "url": "https://github.com/jtleek/datasharing/labels/bug"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2NDY5Nzc4Mg==",
+                            "name": "duplicate",
+                            "color": "cccccc",
+                            "isDefault": true,
+                            "url": "https://github.com/jtleek/datasharing/labels/duplicate"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2NDY5Nzc4Mw==",
+                            "name": "enhancement",
+                            "color": "84b6eb",
+                            "isDefault": true,
+                            "url": "https://github.com/jtleek/datasharing/labels/enhancement"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2NDY5Nzc4NA==",
+                            "name": "invalid",
+                            "color": "e6e6e6",
+                            "isDefault": true,
+                            "url": "https://github.com/jtleek/datasharing/labels/invalid"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2NDY5Nzc4NQ==",
+                            "name": "question",
+                            "color": "cc317c",
+                            "isDefault": true,
+                            "url": "https://github.com/jtleek/datasharing/labels/question"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2NDY5Nzc4Ng==",
+                            "name": "wontfix",
+                            "color": "ffffff",
+                            "isDefault": true,
+                            "url": "https://github.com/jtleek/datasharing/labels/wontfix"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnkxODYzMzI5",
+            "name": "laravel",
+            "labels": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2NjAzMDk2",
+                            "name": "Test - Queue",
+                            "color": "F27A18",
+                            "isDefault": false,
+                            "url": "https://github.com/laravel/laravel/labels/Test%20-%20Queue"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2NjAzMTIx",
+                            "name": "Tested - Working",
+                            "color": "02e10c",
+                            "isDefault": false,
+                            "url": "https://github.com/laravel/laravel/labels/Tested%20-%20Working"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2NjAzMTM0",
+                            "name": "Tested - Broken",
+                            "color": "e10c02",
+                            "isDefault": false,
+                            "url": "https://github.com/laravel/laravel/labels/Tested%20-%20Broken"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2NjAzMTc3",
+                            "name": "Feature - Pending",
+                            "color": "e102d8",
+                            "isDefault": false,
+                            "url": "https://github.com/laravel/laravel/labels/Feature%20-%20Pending"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2NjAzMjA4",
+                            "name": "Feature - Confirmed",
+                            "color": "0b02e1",
+                            "isDefault": false,
+                            "url": "https://github.com/laravel/laravel/labels/Feature%20-%20Confirmed"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2NjAzMzQ4",
+                            "name": "Bug",
+                            "color": "444444",
+                            "isDefault": false,
+                            "url": "https://github.com/laravel/laravel/labels/Bug"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4ODEwNzE5",
+                            "name": "Support",
+                            "color": "02d7e1",
+                            "isDefault": false,
+                            "url": "https://github.com/laravel/laravel/labels/Support"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0NjAzMjI1MDk=",
+                            "name": "invalid",
+                            "color": "c2e0c6",
+                            "isDefault": true,
+                            "url": "https://github.com/laravel/laravel/labels/invalid"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

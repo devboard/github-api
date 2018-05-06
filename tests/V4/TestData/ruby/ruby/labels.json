@@ -1,0 +1,75 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnk1Mzg3NDY=",
+            "name": "ruby",
+            "labels": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzNTIyMzM2ODc=",
+                            "name": "OpenSSL",
+                            "color": "c5def5",
+                            "isDefault": false,
+                            "url": "https://github.com/ruby/ruby/labels/OpenSSL"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2NzA4MzI5NTM=",
+                            "name": "Bug",
+                            "color": "b60205",
+                            "isDefault": false,
+                            "url": "https://github.com/ruby/ruby/labels/Bug"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2NzA4MzI5NjE=",
+                            "name": "Doc",
+                            "color": "0e8a16",
+                            "isDefault": false,
+                            "url": "https://github.com/ruby/ruby/labels/Doc"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2NzA4MzMwMTg=",
+                            "name": "Performance",
+                            "color": "d4c5f9",
+                            "isDefault": false,
+                            "url": "https://github.com/ruby/ruby/labels/Performance"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2NzA4MzQyNTY=",
+                            "name": "Feature",
+                            "color": "0052cc",
+                            "isDefault": false,
+                            "url": "https://github.com/ruby/ruby/labels/Feature"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2NzA4MzUwOTg=",
+                            "name": "Feedback needed",
+                            "color": "e99695",
+                            "isDefault": false,
+                            "url": "https://github.com/ruby/ruby/labels/Feedback%20needed"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2NzA4MzUzMzA=",
+                            "name": "Reviewed",
+                            "color": "c5def5",
+                            "isDefault": false,
+                            "url": "https://github.com/ruby/ruby/labels/Reviewed"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

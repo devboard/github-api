@@ -1,0 +1,678 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnk0NTgwNTg=",
+            "name": "symfony",
+            "labels": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw5OTU5NA==",
+                            "name": "Form",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Form"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw5OTU5OQ==",
+                            "name": "Validator",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Validator"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw5OTYwMA==",
+                            "name": "Security",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Security"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw5OTg2Mw==",
+                            "name": "DependencyInjection",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/DependencyInjection"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw5OTkzOQ==",
+                            "name": "Serializer",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Serializer"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMDAwNzk=",
+                            "name": "Bug",
+                            "color": "e10c02",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Bug"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMDAwODQ=",
+                            "name": "Enhancement",
+                            "color": "02d7e1",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Enhancement"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMDAzNzg=",
+                            "name": "Feature",
+                            "color": "02e10c",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Feature"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMDM5ODc=",
+                            "name": "Doctrine",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Doctrine"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMTEyNTQ=",
+                            "name": "Routing",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Routing"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMjUzNjM=",
+                            "name": "Templating",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Templating"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMjUzNjY=",
+                            "name": "HttpFoundation",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/HttpFoundation"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMjUzODg=",
+                            "name": "Console",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Console"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMjUzOTc=",
+                            "name": "Process",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Process"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMjU0MDE=",
+                            "name": "Translator",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Translator"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMjU0MDY=",
+                            "name": "Config",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Config"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMzA4MTc=",
+                            "name": "ClassLoader",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/ClassLoader"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMzE1MDc=",
+                            "name": "HttpKernel",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/HttpKernel"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNDg0MTY=",
+                            "name": "FrameworkBundle",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/FrameworkBundle"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNDg0MTg=",
+                            "name": "Finder",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Finder"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNDk4NDA=",
+                            "name": "DomCrawler",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/DomCrawler"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNTE1MTk=",
+                            "name": "EventDispatcher",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/EventDispatcher"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNTM1Njc=",
+                            "name": "Intl",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Intl"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNTUyMzM=",
+                            "name": "BrowserKit",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/BrowserKit"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxOTk3Nzk=",
+                            "name": "WebProfilerBundle",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/WebProfilerBundle"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyMzE2Nzc=",
+                            "name": "BC Break",
+                            "color": "e10c02",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/BC%20Break"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw5MDQ3Mzc=",
+                            "name": "CssSelector",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/CssSelector"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyOTMyODQ1",
+                            "name": "Unconfirmed",
+                            "color": "444444",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Unconfirmed"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMTEzOTQ5",
+                            "name": "good first issue",
+                            "color": "7057ff",
+                            "isDefault": true,
+                            "url": "https://github.com/symfony/symfony/labels/good%20first%20issue"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzNTM2ODc0",
+                            "name": "Yaml",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Yaml"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw1MDY5NTA0",
+                            "name": "OptionsResolver",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/OptionsResolver"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMDc4NjU5MA==",
+                            "name": "TwigBundle",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/TwigBundle"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxODUxNDI0NA==",
+                            "name": "Critical",
+                            "color": "e10c02",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Critical"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxODgzMjcyMw==",
+                            "name": "Filesystem",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Filesystem"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyODUwMjE1Mg==",
+                            "name": "PropertyAccess",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/PropertyAccess"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0OTEyNTg3NQ==",
+                            "name": "Debug",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Debug"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw1NjI0MTMyOQ==",
+                            "name": "Locale",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Locale"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw1ODc1MjM5Ng==",
+                            "name": "SecurityBundle",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/SecurityBundle"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2Nzc4OTM3MA==",
+                            "name": "ExpressionLanguage",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/ExpressionLanguage"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3NzIxMTkzMg==",
+                            "name": "Stopwatch",
+                            "color": "dddddd",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Stopwatch"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MzkzNDAzNA==",
+                            "name": "RFC",
+                            "color": "fbca04",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/RFC"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw5NTY3NDUzNA==",
+                            "name": "MonologBridge",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/MonologBridge"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMDc1MTI0Mzk=",
+                            "name": "DX",
+                            "color": "5319e7",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/DX"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMzI0NjU3NDQ=",
+                            "name": "VarDumper",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/VarDumper"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMzI0NjYxNzU=",
+                            "name": "DebugBundle",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/DebugBundle"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNDk3NDA5NDA=",
+                            "name": "Drupal related",
+                            "color": "d4c5f9",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Drupal%20related"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyMDU1ODcxNjE=",
+                            "name": "PhpUnitBridge",
+                            "color": "dddddd",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/PhpUnitBridge"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyMDc0Mzk3MjI=",
+                            "name": "Ready",
+                            "color": "0e8a16",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Ready"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyMTMzNzQyMjM=",
+                            "name": "Asset",
+                            "color": "dddddd",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Asset"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyMzcwMDM3OTI=",
+                            "name": "Status: Needs Review",
+                            "color": "ededed",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Status%3A%20Needs%20Review"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyMzc1NTA0NjU=",
+                            "name": "Status: Reviewed",
+                            "color": "bfe5bf",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Status%3A%20Reviewed"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyMzg5MDk4NTc=",
+                            "name": "Status: Needs Work",
+                            "color": "fad8c7",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Status%3A%20Needs%20Work"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNTU4NzQ3MTg=",
+                            "name": "Status: Works for me",
+                            "color": "ededed",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Status%3A%20Works%20for%20me"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyOTczMDU0MTY=",
+                            "name": "PropertyInfo",
+                            "color": "dddddd",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/PropertyInfo"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyOTc5MDAxMTU=",
+                            "name": "Ldap",
+                            "color": "dddddd",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Ldap"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMTM2NTg0NjM=",
+                            "name": "Cache",
+                            "color": "dddddd",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Cache"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMzcxODY5MjI=",
+                            "name": "Deprecation",
+                            "color": "f1c40f",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Deprecation"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMzcxODc3MDM=",
+                            "name": "DoctrineBridge",
+                            "color": "dddddd",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/DoctrineBridge"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMzcxODc4MDI=",
+                            "name": "TwigBridge",
+                            "color": "dddddd",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/TwigBridge"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMzkyNTU1MzE=",
+                            "name": "Hack Day",
+                            "color": "207de5",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Hack%20Day"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzNzk4OTUzMDQ=",
+                            "name": "Inflector",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Inflector"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzOTc5OTU5Njg=",
+                            "name": "Workflow",
+                            "color": "dddddd",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Workflow"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw1MjAzMDAyNTc=",
+                            "name": "Status: Waiting feedback",
+                            "color": "fef2c0",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Status%3A%20Waiting%20feedback"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw1MjQwNjMyODI=",
+                            "name": "WebServerBundle",
+                            "color": "DDDDDD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/WebServerBundle"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw1MzMxMjcyMjA=",
+                            "name": "Dotenv",
+                            "color": "dddddd",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Dotenv"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw1ODEzMTQwNzI=",
+                            "name": "Lock",
+                            "color": "dddddd",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Lock"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw1ODEzMTQzNTM=",
+                            "name": "WebLink",
+                            "color": "dddddd",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/WebLink"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2MDk3NDcxNDI=",
+                            "name": "ProxyManagerBridge",
+                            "color": "dddddd",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/ProxyManagerBridge"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3Mzk2MTc3MjQ=",
+                            "name": "Performance",
+                            "color": "ff9500",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Performance"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4NDQ3MjI5NDk=",
+                            "name": "help wanted",
+                            "color": "0e8a16",
+                            "isDefault": true,
+                            "url": "https://github.com/symfony/symfony/labels/help%20wanted"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4NTg5NjE2OTk=",
+                            "name": "diversity",
+                            "color": "0052cc",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/diversity"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4NjQxMjYyNzY=",
+                            "name": ":snowflake: Feature Freeze",
+                            "color": "F2F8FD",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/%3Asnowflake%3A%20Feature%20Freeze"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4NzcwODU2OTA=",
+                            "name": "Messenger",
+                            "color": "dddddd",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Messenger"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4OTQ0NjAwNzA=",
+                            "name": "Webpack Encore",
+                            "color": "dddddd",
+                            "isDefault": false,
+                            "url": "https://github.com/symfony/symfony/labels/Webpack%20Encore"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

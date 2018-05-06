@@ -1,0 +1,540 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnkyODQ1NzgyMw==",
+            "name": "freeCodeCamp",
+            "milestones": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lOTk2MTA0",
+                            "title": "react",
+                            "description": "Moving to React.js Isomorphic SPA app. \r\nOwner: @berkeleytrue\r\n\r\n* This involves generating API using Loopback.js (done)\r\n* Creating React.js Components.\r\n* Design Flux Structure (done)\r\n\r\nSections of FCC will be ported overs starting with Challenges and ending with landing page.\r\n",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 1,
+                            "creator": {
+                                "id": "MDQ6VXNlcjY3NzU5MTk=",
+                                "login": "BerkeleyTrue",
+                                "name": "Berkeley Martinez",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars3.githubusercontent.com/u/6775919?v=4",
+                                "url": "https://github.com/BerkeleyTrue",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-10-13T19:45:28Z",
+                            "createdAt": "2015-02-26T00:46:32Z",
+                            "updatedAt": "2017-03-14T09:58:11Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTAwMzUyMQ==",
+                            "title": "News",
+                            "description": "",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 2,
+                            "creator": {
+                                "id": "MDQ6VXNlcjk4NTE5Nw==",
+                                "login": "QuincyLarson",
+                                "name": "Quincy Larson",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/985197?v=4",
+                                "url": "https://github.com/QuincyLarson",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2015-07-31T21:24:47Z",
+                            "createdAt": "2015-03-03T06:59:26Z",
+                            "updatedAt": "2015-07-31T21:24:47Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTAxMjU4OQ==",
+                            "title": "Nonprofit Projects",
+                            "description": "Move our nonprofit project infrastructure from our Google forms and Trello board infrastructure into our main database and update the touch points for campers and nonprofit project stakeholders.",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 3,
+                            "creator": {
+                                "id": "MDQ6VXNlcjk4NTE5Nw==",
+                                "login": "QuincyLarson",
+                                "name": "Quincy Larson",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/985197?v=4",
+                                "url": "https://github.com/QuincyLarson",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2015-07-31T21:24:50Z",
+                            "createdAt": "2015-03-09T15:38:29Z",
+                            "updatedAt": "2015-07-31T21:24:50Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTAzMjQxMg==",
+                            "title": "Ziplines",
+                            "description": "",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 4,
+                            "creator": {
+                                "id": "MDQ6VXNlcjk4NTE5Nw==",
+                                "login": "QuincyLarson",
+                                "name": "Quincy Larson",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/985197?v=4",
+                                "url": "https://github.com/QuincyLarson",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2015-07-31T21:25:03Z",
+                            "createdAt": "2015-03-21T23:16:00Z",
+                            "updatedAt": "2015-07-31T21:25:03Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTA0NTQ2Nw==",
+                            "title": "Refactor resources",
+                            "description": "",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 5,
+                            "creator": {
+                                "id": "MDQ6VXNlcjk4NTE5Nw==",
+                                "login": "QuincyLarson",
+                                "name": "Quincy Larson",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/985197?v=4",
+                                "url": "https://github.com/QuincyLarson",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2015-07-31T21:25:00Z",
+                            "createdAt": "2015-03-30T19:24:29Z",
+                            "updatedAt": "2015-07-31T21:25:00Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTEwMTQyNw==",
+                            "title": "Release New Curriculum",
+                            "description": "We will be interlocking ourselves a lot more to Github as we have involved ourselves with Gitter so thoroughly.\r\n\r\nWe will also be moving from Express.js to Loopback.js(which runs on top of Express). At the same time we will also be using NGINX in production.\r\n\r\nThis move involves:\r\n\r\n* moving to loopback(done)\r\n* Add NGINX into production stack(done)\r\n* Migrating users to new db format(script ready)\r\n* Fixing various challenge bugs.\r\n* Finishing up jQuery Curriculum.\r\n* Finalize JavaScript Curriculum.\r\n* Github auth locking\r\n* Launching Camperbot!(almost done)\r\n* Launching Hikes! Our new (OTG) on-the-go curriculum (almost done!)\r\n\r\n\r\n\r\n",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 6,
+                            "creator": {
+                                "id": "MDQ6VXNlcjY3NzU5MTk=",
+                                "login": "BerkeleyTrue",
+                                "name": "Berkeley Martinez",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars3.githubusercontent.com/u/6775919?v=4",
+                                "url": "https://github.com/BerkeleyTrue",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-01-04T06:56:43Z",
+                            "createdAt": "2015-05-08T06:35:34Z",
+                            "updatedAt": "2016-01-04T06:56:43Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTI3ODM4MQ==",
+                            "title": "Follow mode",
+                            "description": "As a user, I can follow other users. \r\nAs a user, I can easily click through to their public profiles.\r\nAs a user, I can unfollow them.\r\nAs a user, I can choose to lock down my profile by switching from \"Showcase mode\" to \"Lockdown mode\"\r\nAs a user, I cannot be followed while in \"Lockdown Mode\"\r\nAs a user, if I am in \"Showcase Mode\", all of my Free Code Camp challenge activity will be publicly accessible.\r\n\r\n\r\nNote: This is essentially teacher mode. It just creates a list of other campers that one can easily peruse.",
+                            "dueOn": "2015-09-08T07:00:00Z",
+                            "state": "CLOSED",
+                            "number": 8,
+                            "creator": {
+                                "id": "MDQ6VXNlcjY3NzU5MTk=",
+                                "login": "BerkeleyTrue",
+                                "name": "Berkeley Martinez",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars3.githubusercontent.com/u/6775919?v=4",
+                                "url": "https://github.com/BerkeleyTrue",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-01-04T07:20:30Z",
+                            "createdAt": "2015-08-28T22:23:23Z",
+                            "updatedAt": "2016-01-04T07:20:30Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTQzOTAzNg==",
+                            "title": "jan2016",
+                            "description": "Here\u2019s what we\u2019re thinking for the new challenges:\r\n\r\nReact + SASS Ziplines:\r\nChoose your own adventure game\r\nConway's game of life\r\nCalendar (with Google Calendar API?): https://developers.google.com/google-apps/calendar/?hl=en\r\nAlternate Twitter Interface (tweet, read stream, search)\r\nGitter client (using Gitter's API)\r\n\r\nFor each of the 5 D3 Ziplines, we choose a visualization type that looks compelling (https://github.com/mbostock/d3/wiki/Gallery) and recommend a dataset (http://www.data.gov/ or host a JSON file ourselves on FCC)\r\nAPI + Microservice Basejumps\r\nPhoto API (maybe pulling data from imagur?)\r\nAPI on top of one of the large .gov datasets\r\nMicroservice that involves sockets / pubsub\r\nother ideas?\r\n\r\nOnce we\u2019ve firmed these ideas up, we can create GitHub issues and assign them to people. We plan to coordinate the creation of these challenges completely on GitHub (no Trello this time).\r\n\r\nFor each challenge we need a set of agile user stories and a working demo (should minimize the number of tools from outside those covered in our curriculum) - on CodePen for Ziplines, and on Heroku/GitHub for full stack challenges",
+                            "dueOn": "2015-12-31T06:00:00Z",
+                            "state": "CLOSED",
+                            "number": 9,
+                            "creator": {
+                                "id": "MDQ6VXNlcjk4NTE5Nw==",
+                                "login": "QuincyLarson",
+                                "name": "Quincy Larson",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/985197?v=4",
+                                "url": "https://github.com/QuincyLarson",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-01-04T06:56:39Z",
+                            "createdAt": "2015-12-02T07:33:12Z",
+                            "updatedAt": "2016-01-04T06:56:39Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTQ4MTcyNg==",
+                            "title": "Data Visualization Waypoints",
+                            "description": "Our goal is to build at least skeletal waypoints for the following:\r\n- Sass\r\n- React\r\n- D3\r\n- Testing (framework TBD)\r\n\r\nI've created a GitHub issue for each of these.\r\n\r\nFor each of these, we need to:\r\n1. create rough list (using checkboxes) of which concepts we want to teach, in what order\r\n2. start building the challenges\r\n3. QA the challenges and refine their copy\r\n\r\nBlocking milestones: https://github.com/FreeCodeCamp/FreeCodeCamp/milestones/Reactify%20FCC",
+                            "dueOn": "2016-05-06T07:00:00Z",
+                            "state": "CLOSED",
+                            "number": 10,
+                            "creator": {
+                                "id": "MDQ6VXNlcjk4NTE5Nw==",
+                                "login": "QuincyLarson",
+                                "name": "Quincy Larson",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/985197?v=4",
+                                "url": "https://github.com/QuincyLarson",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-09-23T05:55:33Z",
+                            "createdAt": "2016-01-04T07:20:20Z",
+                            "updatedAt": "2016-09-23T05:55:33Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTUzNzIxNQ==",
+                            "title": "Night Mode",
+                            "description": "We want an alternate version of Free Code Camp's CSS designed for low-light environments.",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 11,
+                            "creator": {
+                                "id": "MDQ6VXNlcjk4NTE5Nw==",
+                                "login": "QuincyLarson",
+                                "name": "Quincy Larson",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/985197?v=4",
+                                "url": "https://github.com/QuincyLarson",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-10-13T19:28:27Z",
+                            "createdAt": "2016-01-22T23:26:56Z",
+                            "updatedAt": "2017-09-02T01:06:09Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTUzNzIxOQ==",
+                            "title": "Real-time pair programming on challenges",
+                            "description": "- Campers can pair program right on FreeCodeCamp.com\r\n- Campers can navigate from one challenge to the next together. \r\n- Campers can talk via VOIP\r\n- Campers can easily find other campers who are working on the same challenge as them and initiate a pair session.\r\n\r\nNote that we've already tried Together.js and other kitchen sink solutions. We need to build a custom solution specific to Free Code Camp's use cases.\r\n\r\nBlocking milestones: https://github.com/FreeCodeCamp/FreeCodeCamp/milestones/Reactify%20FCC",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 12,
+                            "creator": {
+                                "id": "MDQ6VXNlcjk4NTE5Nw==",
+                                "login": "QuincyLarson",
+                                "name": "Quincy Larson",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/985197?v=4",
+                                "url": "https://github.com/QuincyLarson",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-10-13T19:29:48Z",
+                            "createdAt": "2016-01-22T23:30:15Z",
+                            "updatedAt": "2016-10-13T19:29:48Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTUzNzIyMg==",
+                            "title": "Teacher mode",
+                            "description": "This set of features makes it easier for teachers to manage learners who are working through Free Code Camp as a part of an academic program. \r\n- As a teacher, I can view my learners' progress in a leaderboard-form.\r\n- As a teacher, I can get notifications as my learners progress.\r\n- As a teacher, I have access to an analytics dashboard that gives me high level summaries of how my learners are progressing.\r\n- As a learner, I can see the progress of the other learners in my class.",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 13,
+                            "creator": {
+                                "id": "MDQ6VXNlcjk4NTE5Nw==",
+                                "login": "QuincyLarson",
+                                "name": "Quincy Larson",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/985197?v=4",
+                                "url": "https://github.com/QuincyLarson",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-10-13T19:29:56Z",
+                            "createdAt": "2016-01-22T23:33:46Z",
+                            "updatedAt": "2016-10-13T19:29:56Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTUzNzIyOQ==",
+                            "title": "Collaborative CodePen-like Editor",
+                            "description": "We want campers to be able to build their front end and data visualization projects right on FreeCodeCamp.com. \r\n\r\n- I can edit JavaScript, HTML and CSS each in their own file or files\r\n- Libraries like jQuery, React, Animate.css and D3.js are available right off the bat.\r\n- I can code in ES6 and Sass.\r\n- I can refresh the preview of my code at any time.\r\n- I can share a link to the current version of my project and people can arrive and interact with it.\r\n- Other campers can fork my project, creating a clear chain of authorship.\r\n- I can export my project to GitHub.\r\n\r\nNote that we are not aiming to compete with CodePen, JSBin, JSFiddle or Plunkr. This will be much less featured than those tools. Our goal is to build something that is specifically useful for campers building front end and data visualization projects - without supporting all the additional use cases of those tools.\r\n\r\nBlocking milestones: https://github.com/FreeCodeCamp/FreeCodeCamp/milestones/Reactify%20FCC",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 14,
+                            "creator": {
+                                "id": "MDQ6VXNlcjk4NTE5Nw==",
+                                "login": "QuincyLarson",
+                                "name": "Quincy Larson",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/985197?v=4",
+                                "url": "https://github.com/QuincyLarson",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-10-13T19:41:28Z",
+                            "createdAt": "2016-01-22T23:40:24Z",
+                            "updatedAt": "2016-10-13T19:41:28Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTUzNzIzNw==",
+                            "title": "Offline Mode with syncing",
+                            "description": "Our goal is to create a downloadable, offline experience that campers can use while unable to connect to the internet. Here's a good example of how to do offline mode right: http://devdocs.io/offline\r\n\r\n- I can visit Free Code Camp and download all the challenges.\r\n- I can complete all of Free Code Camp's challenges.\r\n- When I connect to the internet, I can push my local progress up to Free Code Camp's servers.\r\n\r\nBlocking milestones: https://github.com/FreeCodeCamp/FreeCodeCamp/milestones/Reactify%20FCC",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 15,
+                            "creator": {
+                                "id": "MDQ6VXNlcjk4NTE5Nw==",
+                                "login": "QuincyLarson",
+                                "name": "Quincy Larson",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/985197?v=4",
+                                "url": "https://github.com/QuincyLarson",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-10-13T19:31:56Z",
+                            "createdAt": "2016-01-22T23:49:31Z",
+                            "updatedAt": "2016-10-28T05:56:52Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTUzNzI0MQ==",
+                            "title": "Hotkeys",
+                            "description": "We'd like to enable hotkeys for power users of FreeCodeCamp.com.\r\n\r\n- I can toggle hotkeys on my code portfolio page\r\n- I can navigate around Free Code Camp using my keyboard only\r\n- I can edit and run code using my keyboard only\r\n- None of the hotkeys conflict with popular system command/control hotkeys for Windows, Mac or Linux.",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 16,
+                            "creator": {
+                                "id": "MDQ6VXNlcjk4NTE5Nw==",
+                                "login": "QuincyLarson",
+                                "name": "Quincy Larson",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/985197?v=4",
+                                "url": "https://github.com/QuincyLarson",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-09-23T05:56:55Z",
+                            "createdAt": "2016-01-22T23:52:44Z",
+                            "updatedAt": "2016-11-28T23:43:58Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTU1MjcyMg==",
+                            "title": "Spanish Internationalization",
+                            "description": "To not only get everything translated into Spanish, which @vtamara is heading, but get our route infrastructure and everything set so we can index it on our sitemap.\r\n\r\nIf we can finish this by February 5, @vtamara can announce it at Saturday's Summit.",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 17,
+                            "creator": {
+                                "id": "MDQ6VXNlcjk4NTE5Nw==",
+                                "login": "QuincyLarson",
+                                "name": "Quincy Larson",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/985197?v=4",
+                                "url": "https://github.com/QuincyLarson",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-10-13T19:40:55Z",
+                            "createdAt": "2016-01-30T11:52:42Z",
+                            "updatedAt": "2016-10-13T19:40:55Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTU3MjE3Ng==",
+                            "title": "GitHub export tool",
+                            "description": "User story: I can conveniently export my Free Code Camp challenge solutions to GitHub.\r\n\r\nIt is possible to leverage the GitHub API to export the solutions to a repository of user's Choice.\r\n\r\nWorkflow:\r\n1. User \"Clicks Save Solution to GitHub\" button (available only when logged in)\r\n2. If Save button is clicked for first time (Setup the GitHub)\r\n    i. Go through the steps of requesting additional permissions (write access to repository).\r\n    ii. Create a repo \"Free-Code-Camp-Solutions\" (ask user for a name, store it in user object)\r\n    iii. Create a new file for each challenge \"Challenge-Name-Solution-Submission-Date-Time.md\" (let's keep it markdown).\r\n3. If Setup the GitHub is done,\r\n    i. Add a new file as shown above.\r\n    ii. If submitting a second time, that date/time stamped file will automatically handle such scenarios for us.\r\n\r\nLet's keep this flow as simple as we can, we do not need separate challenge category folders to avoid handling renaming them each time our curriculum changes, also we would want campers to be able to save multiple edition of their solutions (time stamped versioned files), so that the on us is on them to delete/keep them later in their repository.",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 18,
+                            "creator": {
+                                "id": "MDQ6VXNlcjk4NTE5Nw==",
+                                "login": "QuincyLarson",
+                                "name": "Quincy Larson",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/985197?v=4",
+                                "url": "https://github.com/QuincyLarson",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-10-13T19:41:09Z",
+                            "createdAt": "2016-02-09T08:56:19Z",
+                            "updatedAt": "2016-10-14T17:53:25Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTY1NDMzOQ==",
+                            "title": "Move from Less to Sass (Waiting for Bootstrap 4 stable)",
+                            "description": "",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 19,
+                            "creator": {
+                                "id": "MDQ6VXNlcjk4NTE5Nw==",
+                                "login": "QuincyLarson",
+                                "name": "Quincy Larson",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/985197?v=4",
+                                "url": "https://github.com/QuincyLarson",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-10-13T19:41:38Z",
+                            "createdAt": "2016-03-18T20:44:59Z",
+                            "updatedAt": "2017-09-02T01:02:15Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTY2MTUwMA==",
+                            "title": "Public API",
+                            "description": "This milestone is for organizing specific features that need to be built to facilitate the external tools described on other milestones. This effort is being lead by @berkeleytrue and @roelver.\r\n\r\nThe REST API should expose the user data as shown on the FCC user page. Additionally the API provides summary counts of completed challenges. Basic user stories are:\r\n-  I can retrieve a list of summary user data with filter / sort options\r\n- I can retrieve detailed info for a single user, including all submitted challenges and solutions\r\n\r\nUpdate 3/29/2016: First API release is running on [Heroku](https://fccapi.herokuapp.com)",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 20,
+                            "creator": {
+                                "id": "MDQ6VXNlcjk4NTE5Nw==",
+                                "login": "QuincyLarson",
+                                "name": "Quincy Larson",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/985197?v=4",
+                                "url": "https://github.com/QuincyLarson",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-10-13T19:29:39Z",
+                            "createdAt": "2016-03-23T08:21:47Z",
+                            "updatedAt": "2016-10-13T19:29:39Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTcwNTI1Mg==",
+                            "title": "Wiki Improvements",
+                            "description": "",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 21,
+                            "creator": {
+                                "id": "MDQ6VXNlcjk4NTE5Nw==",
+                                "login": "QuincyLarson",
+                                "name": "Quincy Larson",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/985197?v=4",
+                                "url": "https://github.com/QuincyLarson",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-07-20T11:50:45Z",
+                            "createdAt": "2016-04-14T06:18:58Z",
+                            "updatedAt": "2016-07-20T11:50:45Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTcwNTMyMQ==",
+                            "title": "authentication",
+                            "description": "One of the complaints we hear most is \"I logged in and all my progress was gone! Free Code Camp lost my data!\"\r\n\r\n99% of the time, what actually happened is that the camper originally signed in with one auth option (Facebook) and forgot which option they used and signed in with another, accidentally creating a duplicate account.\r\n\r\nIn order to prevent this frustrating misunderstanding from happening, we'd like to reduce our auth options to just two: email and GitHub.\r\n\r\nAnd while we're at it, we'd like to get rid of passwords and at the same time prevent people from using fake email addresses (which can result in accounts that can't be recovered without special help).\r\n\r\nThe way we plan to do this is to do what Twitter and Slack are now doing and send an email with a link that logs a camper in directly. This way, they don't have to remember a password, and their password can't be cracked so it is in theory much more secure.\r\n\r\nOur road map for doing this transition is:\r\n1) Separate the \"log in\" and the \"create an account\" actions into two separate views.\r\n2) When a user signs in with an email address for the first time, we ask for a password. Then we tell them we need to verify their email before they can go on, and give them an opportunity to change their email address in case they used a fake one before.\r\n3) When a returning user signs in with an auth option other than GitHub or email, we explain that we are removing the old auth options and force them to verify an email address before they can progress.\r\n4) After a while, we change the log in page to have a \"if you originally signed in with a different service, click here\" and that takes people to the old sign in page, where they can sign in with one of those services and verify their email.\r\n\r\nThis should ultimately make FCC more secure for everyone and more convenient for the majority of people who are bad with passwords.",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 22,
+                            "creator": {
+                                "id": "MDQ6VXNlcjk4NTE5Nw==",
+                                "login": "QuincyLarson",
+                                "name": "Quincy Larson",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/985197?v=4",
+                                "url": "https://github.com/QuincyLarson",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-10-13T19:48:02Z",
+                            "createdAt": "2016-04-14T07:36:16Z",
+                            "updatedAt": "2017-03-01T22:12:21Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTcxMTIyNw==",
+                            "title": "Serve images using CloudFlare",
+                            "description": "",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 23,
+                            "creator": {
+                                "id": "MDQ6VXNlcjY3NzU5MTk=",
+                                "login": "BerkeleyTrue",
+                                "name": "Berkeley Martinez",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars3.githubusercontent.com/u/6775919?v=4",
+                                "url": "https://github.com/BerkeleyTrue",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-10-13T19:33:09Z",
+                            "createdAt": "2016-04-16T06:45:10Z",
+                            "updatedAt": "2016-10-13T19:33:09Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMjAxMjczOA==",
+                            "title": "support",
+                            "description": "Fixing these issues will clear up about 90% of all support tickets I receive and give campers considerably more power over their accounts.",
+                            "dueOn": null,
+                            "state": "CLOSED",
+                            "number": 24,
+                            "creator": {
+                                "id": "MDQ6VXNlcjk4NTE5Nw==",
+                                "login": "QuincyLarson",
+                                "name": "Quincy Larson",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/985197?v=4",
+                                "url": "https://github.com/QuincyLarson",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-10-13T19:48:39Z",
+                            "createdAt": "2016-09-19T06:09:50Z",
+                            "updatedAt": "2017-03-01T22:12:49Z"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMjAxNjA0NA==",
+                            "title": "Curriculum Expansion",
+                            "description": "",
+                            "dueOn": "2016-09-30T00:00:00Z",
+                            "state": "CLOSED",
+                            "number": 25,
+                            "creator": {
+                                "id": "MDQ6VXNlcjExMTk4OTEy",
+                                "login": "vietnamkong",
+                                "name": "Vietnamese Donkey",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars1.githubusercontent.com/u/11198912?v=4",
+                                "url": "https://github.com/vietnamkong",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": "2016-10-13T19:41:17Z",
+                            "createdAt": "2016-09-20T09:36:27Z",
+                            "updatedAt": "2016-10-13T19:41:17Z"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

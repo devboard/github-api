@@ -1,0 +1,34 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnk0NTcxNzI1MA==",
+            "name": "tensorflow",
+            "milestones": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDk6TWlsZXN0b25lMTY2MjM1Nw==",
+                            "title": "mrry",
+                            "description": null,
+                            "dueOn": null,
+                            "state": "OPEN",
+                            "number": 1,
+                            "creator": {
+                                "id": "MDQ6VXNlcjQ2MzczNw==",
+                                "login": "vrv",
+                                "name": "Vijay Vasudevan",
+                                "__typename": "User",
+                                "avatarUrl": "https://avatars0.githubusercontent.com/u/463737?v=4",
+                                "url": "https://github.com/vrv",
+                                "isSiteAdmin": false
+                            },
+                            "closedAt": null,
+                            "createdAt": "2016-03-23T17:17:09Z",
+                            "updatedAt": "2017-02-27T22:41:03Z"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
