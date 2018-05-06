@@ -22,7 +22,7 @@ class MilestoneApi
         $queryDefinition = file_get_contents(__DIR__.'/milestones.graphql');
 
         $variables = ['owner' => $query->getOwnerName(), 'name' => $query->getRepoName()];
-        $client    = $this->clientFactory->createAppAndUserAuthenticatedClient2($query->getCredentials());
+        $client    = $this->clientFactory->createAppAndUserAuthenticatedClient($query->getCredentials());
 
         $data = $client->graphql()->execute($queryDefinition, $variables);
 

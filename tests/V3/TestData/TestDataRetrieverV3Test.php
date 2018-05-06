@@ -60,7 +60,7 @@ class TestDataRetrieverV3Test extends TestCase
         $clientFactory = new GitHubClientFactory(new JwtTokenBuilder((int) $appId, $path));
 
         foreach ($installations as $installation) {
-            $client = $clientFactory->createAppAndUserAuthenticatedClient2(
+            $client = $clientFactory->createAppAndUserAuthenticatedClient(
                 InstallationCredentials::create($installation['id'], (int) $userId)
             );
 

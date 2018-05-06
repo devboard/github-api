@@ -27,7 +27,7 @@ class InstallationRepositoriesApiSpec extends ObjectBehavior
     public function it_retrieves_installation_repositories_accessible_by_user(
         InstallationCredentials $credentials, GitHubClientFactory $clientFactory, Client $client, AppsApi $appsApi
     ) {
-        $clientFactory->createAppAndUserAuthenticatedClient2($credentials)
+        $clientFactory->createAppAndUserAuthenticatedClient($credentials)
             ->shouldBeCalled()
             ->willReturn($client);
 

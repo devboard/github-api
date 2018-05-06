@@ -24,7 +24,7 @@ class PullRequestApi
 
         $variables = ['owner' => $query->getOwnerName(), 'name' => $query->getRepoName(), 'cursor' => null];
 
-        $client = $this->clientFactory->createAppAndUserAuthenticatedClient2($query->getCredentials());
+        $client = $this->clientFactory->createAppAndUserAuthenticatedClient($query->getCredentials());
 
         $results = [];
 

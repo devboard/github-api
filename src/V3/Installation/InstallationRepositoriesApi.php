@@ -28,7 +28,7 @@ class InstallationRepositoriesApi
 
     public function fetch(InstallationCredentials $credentials)
     {
-        $client = $this->clientFactory->createAppAndUserAuthenticatedClient2($credentials);
+        $client = $this->clientFactory->createAppAndUserAuthenticatedClient($credentials);
 
         $data = $client->apps()->listRepositories();
 
