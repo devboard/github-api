@@ -7,8 +7,8 @@
                 "edges": [
                     {
                         "node": {
-                            "id": "MDM6UmVmMTE3MjU2MjA1Om1hc3Rlcg==",
-                            "name": "master",
+                            "id": "MDM6UmVmMTE3MjU2MjA1OjAuNA==",
+                            "name": "0.4",
                             "target": {
                                 "oid": "bc27fea008888bfad4313533d32f959f819db96d",
                                 "message": "Update phpunit/phpunit requirement to ^7.0\n\nUpdates the requirements on [phpunit/phpunit](https://github.com/sebastianbergmann/phpunit) to permit the latest version.\n- [Release notes](https://github.com/sebastianbergmann/phpunit/releases)\n- [Changelog](https://github.com/sebastianbergmann/phpunit/blob/master/ChangeLog-5.7.md)\n- [Commits](https://github.com/sebastianbergmann/phpunit/commits/7.0.3)\n\nSigned-off-by: dependabot[bot] <support@dependabot.com>",
@@ -53,6 +53,116 @@
                                                 "oid": "7b106233d8f04f316dac68c6fb72586d9599789c",
                                                 "url": "https://github.com/devboard/lib-git/commit/7b106233d8f04f316dac68c6fb72586d9599789c",
                                                 "commitUrl": "https://github.com/devboard/lib-git/commit/7b106233d8f04f316dac68c6fb72586d9599789c"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTE3MjU2MjA1OmNoZWNrLXN0YWJpbGl0eQ==",
+                            "name": "check-stability",
+                            "target": {
+                                "oid": "b740b5ffdc908adff87c9325bea43e1175b89dda",
+                                "message": "Update composer.lock",
+                                "authoredDate": "2018-05-04T16:38:14Z",
+                                "author": {
+                                    "name": "Miro Svrtan",
+                                    "email": "miro@mirosvrtan.me",
+                                    "date": "2018-05-04T16:38:14Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                        "login": "msvrtan",
+                                        "name": "Miro Svrtan",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                        "url": "https://github.com/msvrtan",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Miro Svrtan",
+                                    "email": "miro@mirosvrtan.me",
+                                    "date": "2018-05-04T18:38:14+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                        "login": "msvrtan",
+                                        "name": "Miro Svrtan",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                        "url": "https://github.com/msvrtan",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "e0ceab53eb5716fc4784061eada3d3cc474e4477",
+                                    "commitUrl": "https://github.com/devboard/lib-git/commit/e0ceab53eb5716fc4784061eada3d3cc474e4477",
+                                    "commitResourcePath": "/devboard/lib-git/commit/e0ceab53eb5716fc4784061eada3d3cc474e4477"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "f15951a2b4c47a045438fa0f58485aea1ad0cfee",
+                                                "url": "https://github.com/devboard/lib-git/commit/f15951a2b4c47a045438fa0f58485aea1ad0cfee",
+                                                "commitUrl": "https://github.com/devboard/lib-git/commit/f15951a2b4c47a045438fa0f58485aea1ad0cfee"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTE3MjU2MjA1Om1hc3Rlcg==",
+                            "name": "master",
+                            "target": {
+                                "oid": "54b8f3eefb835607acfb27eba22c1f27e54dc040",
+                                "message": "Switch libraries to 0.5",
+                                "authoredDate": "2018-04-30T19:57:58Z",
+                                "author": {
+                                    "name": "Miro Svrtan",
+                                    "email": "miro@mirosvrtan.me",
+                                    "date": "2018-04-30T19:57:58Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                        "login": "msvrtan",
+                                        "name": "Miro Svrtan",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                        "url": "https://github.com/msvrtan",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Miro Svrtan",
+                                    "email": "miro@mirosvrtan.me",
+                                    "date": "2018-04-30T21:57:58+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                        "login": "msvrtan",
+                                        "name": "Miro Svrtan",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                        "url": "https://github.com/msvrtan",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "a714ade54cb1c9dd1beb6994a2837a563f4a49d4",
+                                    "commitUrl": "https://github.com/devboard/lib-git/commit/a714ade54cb1c9dd1beb6994a2837a563f4a49d4",
+                                    "commitResourcePath": "/devboard/lib-git/commit/a714ade54cb1c9dd1beb6994a2837a563f4a49d4"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "94004ee895f2e07dba6fa11040ee026a7eb2344c",
+                                                "url": "https://github.com/devboard/lib-git/commit/94004ee895f2e07dba6fa11040ee026a7eb2344c",
+                                                "commitUrl": "https://github.com/devboard/lib-git/commit/94004ee895f2e07dba6fa11040ee026a7eb2344c"
                                             }
                                         }
                                     ]

@@ -7,6 +7,116 @@
                 "edges": [
                     {
                         "node": {
+                            "id": "MDM6UmVmMTE3MjU2NDYyOjAuNA==",
+                            "name": "0.4",
+                            "target": {
+                                "oid": "7bdebd053a42cde300e874ce737b09ebd38f6be3",
+                                "message": "Bump infection/infection from 0.7.1 to 0.8.1\n\nBumps [infection/infection](https://github.com/infection/infection) from 0.7.1 to 0.8.1.\n- [Release notes](https://github.com/infection/infection/releases)\n- [Changelog](https://github.com/infection/infection/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/infection/infection/compare/0.7.1...0.8.1)",
+                                "authoredDate": "2018-04-04T16:03:35Z",
+                                "author": {
+                                    "name": "dependabot[bot]",
+                                    "email": "support@dependabot.com",
+                                    "date": "2018-04-04T16:03:35Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjM2MjA3MTE3",
+                                        "login": "dependabot-bot",
+                                        "name": "Dependabot",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/36207117?v=4",
+                                        "url": "https://github.com/dependabot-bot",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Miro Svrtan",
+                                    "email": "msvrtan@users.noreply.github.com",
+                                    "date": "2018-04-05T17:57:18+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                        "login": "msvrtan",
+                                        "name": "Miro Svrtan",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                        "url": "https://github.com/msvrtan",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "046e75b9da3c27106b64b40d837c0b3f86f4ad5b",
+                                    "commitUrl": "https://github.com/devboard/lib-generix/commit/046e75b9da3c27106b64b40d837c0b3f86f4ad5b",
+                                    "commitResourcePath": "/devboard/lib-generix/commit/046e75b9da3c27106b64b40d837c0b3f86f4ad5b"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "54b960e41dc32bf6bb819592febb361015b4c184",
+                                                "url": "https://github.com/devboard/lib-generix/commit/54b960e41dc32bf6bb819592febb361015b4c184",
+                                                "commitUrl": "https://github.com/devboard/lib-generix/commit/54b960e41dc32bf6bb819592febb361015b4c184"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTE3MjU2NDYyOmNoZWNrLXN0YWJpbGl0eQ==",
+                            "name": "check-stability",
+                            "target": {
+                                "oid": "49cfbefe7410728247f31190e9fedc5d671d8fbe",
+                                "message": "Update composer.lock",
+                                "authoredDate": "2018-05-04T16:38:24Z",
+                                "author": {
+                                    "name": "Miro Svrtan",
+                                    "email": "miro@mirosvrtan.me",
+                                    "date": "2018-05-04T16:38:24Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                        "login": "msvrtan",
+                                        "name": "Miro Svrtan",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                        "url": "https://github.com/msvrtan",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Miro Svrtan",
+                                    "email": "miro@mirosvrtan.me",
+                                    "date": "2018-05-04T18:38:24+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                        "login": "msvrtan",
+                                        "name": "Miro Svrtan",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                        "url": "https://github.com/msvrtan",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "9a6a01d55ea4d4c238aaaf62fd4137bec7b25219",
+                                    "commitUrl": "https://github.com/devboard/lib-generix/commit/9a6a01d55ea4d4c238aaaf62fd4137bec7b25219",
+                                    "commitResourcePath": "/devboard/lib-generix/commit/9a6a01d55ea4d4c238aaaf62fd4137bec7b25219"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "dc5cf78507a2232fd327f4c5301e784f17045a93",
+                                                "url": "https://github.com/devboard/lib-generix/commit/dc5cf78507a2232fd327f4c5301e784f17045a93",
+                                                "commitUrl": "https://github.com/devboard/lib-generix/commit/dc5cf78507a2232fd327f4c5301e784f17045a93"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
                             "id": "MDM6UmVmMTE3MjU2NDYyOmdyYXZhdGFyLWlkLWNhbnQtYmUtZW1wdHk=",
                             "name": "gravatar-id-cant-be-empty",
                             "target": {
@@ -65,27 +175,27 @@
                             "id": "MDM6UmVmMTE3MjU2NDYyOm1hc3Rlcg==",
                             "name": "master",
                             "target": {
-                                "oid": "7bdebd053a42cde300e874ce737b09ebd38f6be3",
-                                "message": "Bump infection/infection from 0.7.1 to 0.8.1\n\nBumps [infection/infection](https://github.com/infection/infection) from 0.7.1 to 0.8.1.\n- [Release notes](https://github.com/infection/infection/releases)\n- [Changelog](https://github.com/infection/infection/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/infection/infection/compare/0.7.1...0.8.1)",
-                                "authoredDate": "2018-04-04T16:03:35Z",
+                                "oid": "e5ebbd5d00dd60c5d5411a7351d557ae1fc7f90c",
+                                "message": "Switch master to 0.5-dev",
+                                "authoredDate": "2018-04-30T19:57:17Z",
                                 "author": {
-                                    "name": "dependabot[bot]",
-                                    "email": "support@dependabot.com",
-                                    "date": "2018-04-04T16:03:35Z",
+                                    "name": "Miro Svrtan",
+                                    "email": "miro@mirosvrtan.me",
+                                    "date": "2018-04-30T19:57:17Z",
                                     "user": {
-                                        "id": "MDQ6VXNlcjM2MjA3MTE3",
-                                        "login": "dependabot-bot",
-                                        "name": "Dependabot",
+                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                        "login": "msvrtan",
+                                        "name": "Miro Svrtan",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/36207117?v=4",
-                                        "url": "https://github.com/dependabot-bot",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                        "url": "https://github.com/msvrtan",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
                                     "name": "Miro Svrtan",
-                                    "email": "msvrtan@users.noreply.github.com",
-                                    "date": "2018-04-05T17:57:18+02:00",
+                                    "email": "miro@mirosvrtan.me",
+                                    "date": "2018-04-30T21:57:17+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjE3ODA1NzI=",
                                         "login": "msvrtan",
@@ -97,17 +207,17 @@
                                     }
                                 },
                                 "tree": {
-                                    "oid": "046e75b9da3c27106b64b40d837c0b3f86f4ad5b",
-                                    "commitUrl": "https://github.com/devboard/lib-generix/commit/046e75b9da3c27106b64b40d837c0b3f86f4ad5b",
-                                    "commitResourcePath": "/devboard/lib-generix/commit/046e75b9da3c27106b64b40d837c0b3f86f4ad5b"
+                                    "oid": "3af0ffa16a80c51f214d49dd0b68b85109e5df94",
+                                    "commitUrl": "https://github.com/devboard/lib-generix/commit/3af0ffa16a80c51f214d49dd0b68b85109e5df94",
+                                    "commitResourcePath": "/devboard/lib-generix/commit/3af0ffa16a80c51f214d49dd0b68b85109e5df94"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "54b960e41dc32bf6bb819592febb361015b4c184",
-                                                "url": "https://github.com/devboard/lib-generix/commit/54b960e41dc32bf6bb819592febb361015b4c184",
-                                                "commitUrl": "https://github.com/devboard/lib-generix/commit/54b960e41dc32bf6bb819592febb361015b4c184"
+                                                "oid": "7bdebd053a42cde300e874ce737b09ebd38f6be3",
+                                                "url": "https://github.com/devboard/lib-generix/commit/7bdebd053a42cde300e874ce737b09ebd38f6be3",
+                                                "commitUrl": "https://github.com/devboard/lib-generix/commit/7bdebd053a42cde300e874ce737b09ebd38f6be3"
                                             }
                                         }
                                     ]
