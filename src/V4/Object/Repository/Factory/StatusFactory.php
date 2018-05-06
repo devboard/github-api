@@ -38,7 +38,7 @@ class StatusFactory
         return new GitHubStatus(
             new StatusId((int) $id),
             StatusState::create(strtolower($data['state'])),
-            new StatusDescription($data['description']),
+            new StatusDescription((string) $data['description']),
             new StatusTargetUrl((string) $data['targetUrl']),
             $context,
             $this->externalServiceFactory->create($context),
