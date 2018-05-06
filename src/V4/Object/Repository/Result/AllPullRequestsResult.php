@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubApi\V4\Object\Repository\Result;
 
-use DevboardLib\GitHub\GitHubPullRequest;
 use DevboardLib\GitHub\Repo\RepoFullName;
+use DevboardLib\GitHubApi\V4\Object\Repository\Response\PullRequestDetailedResponse;
 use Webmozart\Assert\Assert;
 
 class AllPullRequestsResult implements RepositoryResult
@@ -14,13 +14,13 @@ class AllPullRequestsResult implements RepositoryResult
     private $repoFullName;
 
     /** @var array */
-    private $pullRequests;
+    private $pullRequestDetailedResponses;
 
-    public function __construct(RepoFullName $repoFullName, array $pullRequests)
+    public function __construct(RepoFullName $repoFullName, array $pullRequestDetailedResponses)
     {
-        Assert::allIsInstanceOf($pullRequests, GitHubPullRequest::class);
-        $this->repoFullName = $repoFullName;
-        $this->pullRequests = $pullRequests;
+        Assert::allIsInstanceOf($pullRequestDetailedResponses, PullRequestDetailedResponse::class);
+        $this->repoFullName                 = $repoFullName;
+        $this->pullRequestDetailedResponses = $pullRequestDetailedResponses;
     }
 
     public function getRepoFullName(): RepoFullName
@@ -28,8 +28,8 @@ class AllPullRequestsResult implements RepositoryResult
         return $this->repoFullName;
     }
 
-    public function getPullRequests(): array
+    public function getPullRequestDetailedResponses(): array
     {
-        return $this->pullRequests;
+        return $this->pullRequestDetailedResponses;
     }
 }
