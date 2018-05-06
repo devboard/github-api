@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Tests\DevboardLib\GitHubApi\V4\Object\Repository;
 
-use DevboardLib\GitHub\GitHubBranch;
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
 use DevboardLib\GitHubApi\Query\Repository\AllBranchesQuery;
@@ -31,10 +30,9 @@ class BranchObjectApiTest extends TestCase
 
         $api = new BranchObjectApi($api, BranchFactoryTest::instance());
 
-        $data = $api->getBranches($query);
+        $result = $api->getBranches($query);
 
-        self::assertNotEmpty($data);
-        self::assertContainsOnlyInstancesOf(GitHubBranch::class, $data);
+        self::assertNotEmpty($result->getBranches());
     }
 
     public function provideData()

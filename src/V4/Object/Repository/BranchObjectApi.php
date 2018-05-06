@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubApi\V4\Object\Repository;
 
-use DevboardLib\GitHub\GitHubBranch;
 use DevboardLib\GitHubApi\Query\Repository\AllBranchesQuery;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\BranchFactory;
+use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllBranchesResult;
 use DevboardLib\GitHubApi\V4\Raw\Repository\BranchApi;
 
 class BranchObjectApi
@@ -23,8 +23,7 @@ class BranchObjectApi
         $this->branchFactory = $branchFactory;
     }
 
-    /** @return array|GitHubBranch[] */
-    public function getBranches(AllBranchesQuery $query): array
+    public function getBranches(AllBranchesQuery $query): AllBranchesResult
     {
         $data = $this->branchApi->getBranches($query);
 
@@ -34,6 +33,6 @@ class BranchObjectApi
             $results[] = $this->branchFactory->createFromBranchData($query->getRepoFullName(), $item['node']);
         }
 
-        return $results;
+        return new AllBranchesResult($query->getRepoFullName(), $results);
     }
 }
