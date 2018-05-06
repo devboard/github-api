@@ -5,9 +5,7 @@ declare(strict_types=1);
 namespace DevboardLib\GitHubApi\V4\Object\Repository;
 
 use DevboardLib\GitHub\GitHubLabel;
-use DevboardLib\GitHub\Installation\InstallationId;
-use DevboardLib\GitHub\Repo\RepoFullName;
-use DevboardLib\GitHub\User\UserId;
+use DevboardLib\GitHubApi\Query\Repository\AllLabelsQuery;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\LabelFactory;
 use DevboardLib\GitHubApi\V4\Raw\Repository\LabelApi;
 
@@ -26,9 +24,9 @@ class LabelObjectApi
     }
 
     /** @return array|GitHubLabel[] */
-    public function getLabels(RepoFullName $repoFullName, InstallationId $installationId, UserId $githubUserId): array
+    public function getLabels(AllLabelsQuery $query): array
     {
-        $data = $this->labelApi->getLabels($repoFullName, $installationId, $githubUserId);
+        $data = $this->labelApi->getLabels($query);
 
         $results = [];
 
