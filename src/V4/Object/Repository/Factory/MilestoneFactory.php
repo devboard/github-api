@@ -25,8 +25,12 @@ use DevboardLib\GitHub\Milestone\MilestoneUpdatedAt;
  */
 class MilestoneFactory
 {
-    public function create(array $data): GitHubMilestone
+    public function create(?array $data): ?GitHubMilestone
     {
+        if (true === empty($data)) {
+            return null;
+        }
+
         if (null === $data['dueOn']) {
             $dueOn = null;
         } else {
