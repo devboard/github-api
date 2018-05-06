@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubApi\V3;
 
-use DevboardLib\GitHub\Installation\InstallationId;
-use DevboardLib\GitHub\User\UserId;
 use DevboardLib\GitHubApi\Auth\AuthMethod;
 use DevboardLib\GitHubApi\Auth\GitHubApp\JwtTokenBuilder;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
@@ -47,19 +45,7 @@ class GitHubClientFactory
         return $this->createAuthenticatedClient($appToken);
     }
 
-    public function createAppAndUserAuthenticatedClient(InstallationId $installationId, UserId $githubUserId): Client
-    {
-        $client = $this->createAppAuthenticatedClient();
-
-        $personalToken = $client->apps()
-            ->createInstallationToken($installationId->getId(), $githubUserId->getId());
-
-        $client->authenticate($personalToken['token'], null, Client::AUTH_HTTP_TOKEN);
-
-        return $client;
-    }
-
-    public function createAppAndUserAuthenticatedClient2(InstallationCredentials $credentials): Client
+    public function createAppAndUserAuthenticatedClient(InstallationCredentials $credentials): Client
     {
         $client = $this->createAppAuthenticatedClient();
 

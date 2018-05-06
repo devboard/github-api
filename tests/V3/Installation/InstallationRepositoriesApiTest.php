@@ -61,7 +61,7 @@ class InstallationRepositoriesApiTest extends TestCase
         $client        = Mockery::mock(Client::class);
         $appsApi       = Mockery::mock(Apps::class);
 
-        $clientFactory->shouldReceive('createAppAndUserAuthenticatedClient2')->andReturn($client);
+        $clientFactory->shouldReceive('createAppAndUserAuthenticatedClient')->andReturn($client);
         $client->shouldReceive('apps')->andReturn($appsApi);
         $appsApi->shouldReceive('listRepositories')->andReturn($data);
 
