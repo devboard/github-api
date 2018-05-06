@@ -97,12 +97,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/lib-generix.git",
-                "reference": "e5ebbd5d00dd60c5d5411a7351d557ae1fc7f90c"
+                "reference": "1b1a0cc624b06a902d336d74ec7b44f4eb40ec7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/lib-generix/zipball/e5ebbd5d00dd60c5d5411a7351d557ae1fc7f90c",
-                "reference": "e5ebbd5d00dd60c5d5411a7351d557ae1fc7f90c",
+                "url": "https://api.github.com/repos/devboard/lib-generix/zipball/1b1a0cc624b06a902d336d74ec7b44f4eb40ec7c",
+                "reference": "1b1a0cc624b06a902d336d74ec7b44f4eb40ec7c",
                 "shasum": ""
             },
             "require": {
@@ -139,7 +139,7 @@
                 "proprietary"
             ],
             "description": "Devboard lib with generix",
-            "time": "2018-04-30T19:57:17+00:00"
+            "time": "2018-05-06T22:31:09+00:00"
         },
         {
             "name": "devboard/lib-git",
