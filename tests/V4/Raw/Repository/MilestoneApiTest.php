@@ -4,14 +4,12 @@ declare(strict_types=1);
 
 namespace Tests\DevboardLib\GitHubApi\V4\Raw\Repository;
 
-use DevboardLib\GitHub\Installation\InstallationId;
-use DevboardLib\GitHub\Repo\RepoFullName;
-use DevboardLib\GitHub\User\UserId;
+use DevboardLib\GitHubApi\Query\Repository\AllMilestonesQuery;
 use DevboardLib\GitHubApi\V4\Raw\Repository\MilestoneApi;
 
 /**
  * @covers \DevboardLib\GitHubApi\V4\Raw\Repository\MilestoneApi
- * @group live
+ * @group  live
  */
 class MilestoneApiTest extends BaseTestCase
 {
@@ -24,8 +22,8 @@ class MilestoneApiTest extends BaseTestCase
 
         $api = new MilestoneApi($this->getClientFactory());
 
-        $repoFullName = RepoFullName::createFromString('devboard/git-interfaces');
-        $data         = $api->getMilestones($repoFullName, new InstallationId(125958), new UserId($userId));
+        $query = AllMilestonesQuery::create('devboard/git-interfaces', 125958, $userId);
+        $data  = $api->getMilestones($query);
 
         self::assertNotNull($data);
     }
