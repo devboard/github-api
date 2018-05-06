@@ -10,9 +10,11 @@ use DevboardLib\GitHub\User\UserId;
 use DevboardLib\GitHubApi\Auth\GitHubApp\JwtTokenBuilder;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
 use DevboardLib\GitHubApi\Query\Repository\AllBranchesQuery;
+use DevboardLib\GitHubApi\Query\Repository\AllBranchStatusesQuery;
 use DevboardLib\GitHubApi\Query\Repository\AllLabelsQuery;
 use DevboardLib\GitHubApi\Query\Repository\AllMilestonesQuery;
 use DevboardLib\GitHubApi\Query\Repository\AllPullRequestsQuery;
+use DevboardLib\GitHubApi\Query\Repository\AllPullRequestStatusesQuery;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 use DevboardLib\GitHubApi\V4\Raw\Repository\BranchApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\LabelApi;
@@ -117,7 +119,9 @@ class TestDataRetrieverV4Test extends TestCase
     {
         $api = new StatusApi($this->clientFactory);
 
-        $data = $api->getBranches($repoFullName, $installationId, $this->userId);
+        $query = new AllBranchStatusesQuery($repoFullName, new InstallationCredentials($installationId, $this->userId));
+
+        $data = $api->getBranches($query);
 
         self::assertNotEmpty($data);
 
@@ -129,7 +133,11 @@ class TestDataRetrieverV4Test extends TestCase
     {
         $api = new StatusApi($this->clientFactory);
 
-        $data = $api->getPullRequests($repoFullName, $installationId, $this->userId);
+        $query = new AllPullRequestStatusesQuery(
+            $repoFullName, new InstallationCredentials($installationId, $this->userId)
+        );
+
+        $data = $api->getPullRequests($query);
 
         self::assertNotEmpty($data);
 
