@@ -1,0 +1,516 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnkxODYzMzI5",
+            "name": "laravel",
+            "refs": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTg2MzMyOTozLjA=",
+                            "name": "3.0",
+                            "target": {
+                                "oid": "b566cd25350206cc377e93f518593fee4c5e9778",
+                                "message": "Merge pull request #2384 from ccovey/3.0\n\n3.0",
+                                "authoredDate": "2013-10-30T13:28:51Z",
+                                "author": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylorotwell@gmail.com",
+                                    "date": "2013-10-30T13:28:51Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "url": "https://github.com/taylorotwell",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylorotwell@gmail.com",
+                                    "date": "2013-10-30T06:28:51-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "url": "https://github.com/taylorotwell",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "3b749dea357a5d2855584214bdf86cdf2e23c702",
+                                    "commitUrl": "https://github.com/laravel/laravel/commit/3b749dea357a5d2855584214bdf86cdf2e23c702",
+                                    "commitResourcePath": "/laravel/laravel/commit/3b749dea357a5d2855584214bdf86cdf2e23c702"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "58d6b112a7d805db2702ae4697914776e0bb939e",
+                                                "url": "https://github.com/laravel/laravel/commit/58d6b112a7d805db2702ae4697914776e0bb939e",
+                                                "commitUrl": "https://github.com/laravel/laravel/commit/58d6b112a7d805db2702ae4697914776e0bb939e"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "b956efe29f86ad1059387b54b31e01133e8aa2a8",
+                                                "url": "https://github.com/laravel/laravel/commit/b956efe29f86ad1059387b54b31e01133e8aa2a8",
+                                                "commitUrl": "https://github.com/laravel/laravel/commit/b956efe29f86ad1059387b54b31e01133e8aa2a8"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTg2MzMyOTo1LjA=",
+                            "name": "5.0",
+                            "target": {
+                                "oid": "6df868a123a8445de1aceba1349c550b1247aff0",
+                                "message": "Merge pull request #3409 from antonybudianto/patch-1\n\nUpdate latest CDN",
+                                "authoredDate": "2015-06-08T03:28:19Z",
+                                "author": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylorotwell@gmail.com",
+                                    "date": "2015-06-08T03:28:19Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "url": "https://github.com/taylorotwell",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylorotwell@gmail.com",
+                                    "date": "2015-06-07T22:28:19-05:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "url": "https://github.com/taylorotwell",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "8156bbe3d0d56e3419f87ee3dc5e3f80d93061c9",
+                                    "commitUrl": "https://github.com/laravel/laravel/commit/8156bbe3d0d56e3419f87ee3dc5e3f80d93061c9",
+                                    "commitResourcePath": "/laravel/laravel/commit/8156bbe3d0d56e3419f87ee3dc5e3f80d93061c9"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "bb6c23c2eb4749739a1e98e3c339f133c389aecd",
+                                                "url": "https://github.com/laravel/laravel/commit/bb6c23c2eb4749739a1e98e3c339f133c389aecd",
+                                                "commitUrl": "https://github.com/laravel/laravel/commit/bb6c23c2eb4749739a1e98e3c339f133c389aecd"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "6ab4004af9a6dce1f59278bf1134bfd7dd035907",
+                                                "url": "https://github.com/laravel/laravel/commit/6ab4004af9a6dce1f59278bf1134bfd7dd035907",
+                                                "commitUrl": "https://github.com/laravel/laravel/commit/6ab4004af9a6dce1f59278bf1134bfd7dd035907"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTg2MzMyOTo1LjE=",
+                            "name": "5.1",
+                            "target": {
+                                "oid": "2c834ad59c63535ea6e22c659ede67c0ddce1874",
+                                "message": "Respect PSR-2",
+                                "authoredDate": "2016-04-15T21:49:14Z",
+                                "author": {
+                                    "name": "Graham Campbell",
+                                    "email": "graham@alt-three.com",
+                                    "date": "2016-04-15T21:49:14Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjI4Mjk2MDA=",
+                                        "login": "GrahamCampbell",
+                                        "name": "Graham Campbell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/2829600?v=4",
+                                        "url": "https://github.com/GrahamCampbell",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Graham Campbell",
+                                    "email": "graham@alt-three.com",
+                                    "date": "2016-04-15T22:49:14+01:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjI4Mjk2MDA=",
+                                        "login": "GrahamCampbell",
+                                        "name": "Graham Campbell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/2829600?v=4",
+                                        "url": "https://github.com/GrahamCampbell",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "2f3cca09a6359be03c3ab9b729f7fd32ce5070e8",
+                                    "commitUrl": "https://github.com/laravel/laravel/commit/2f3cca09a6359be03c3ab9b729f7fd32ce5070e8",
+                                    "commitResourcePath": "/laravel/laravel/commit/2f3cca09a6359be03c3ab9b729f7fd32ce5070e8"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "70f8bb6e08f0232c306826282b995bb5670a0efa",
+                                                "url": "https://github.com/laravel/laravel/commit/70f8bb6e08f0232c306826282b995bb5670a0efa",
+                                                "commitUrl": "https://github.com/laravel/laravel/commit/70f8bb6e08f0232c306826282b995bb5670a0efa"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTg2MzMyOTo1LjI=",
+                            "name": "5.2",
+                            "target": {
+                                "oid": "982e769d2aaa9b8a4121ac933ee1360246a43a3f",
+                                "message": "Merge pull request #3874 from lancepioch/patch-1\n\n[5.2] Add TokenMismatchException to the dontReport array",
+                                "authoredDate": "2016-08-16T00:21:15Z",
+                                "author": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2016-08-16T00:21:15Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "url": "https://github.com/taylorotwell",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2016-08-15T19:21:15-05:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "d9d725fcf651439cf084d94404a3d27f5e903297",
+                                    "commitUrl": "https://github.com/laravel/laravel/commit/d9d725fcf651439cf084d94404a3d27f5e903297",
+                                    "commitResourcePath": "/laravel/laravel/commit/d9d725fcf651439cf084d94404a3d27f5e903297"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "b6a1152baf0b31417ef0fce630fd4e2af80eb823",
+                                                "url": "https://github.com/laravel/laravel/commit/b6a1152baf0b31417ef0fce630fd4e2af80eb823",
+                                                "commitUrl": "https://github.com/laravel/laravel/commit/b6a1152baf0b31417ef0fce630fd4e2af80eb823"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "05235ee6bff52926b266ce0a295f3f2fc35451e0",
+                                                "url": "https://github.com/laravel/laravel/commit/05235ee6bff52926b266ce0a295f3f2fc35451e0",
+                                                "commitUrl": "https://github.com/laravel/laravel/commit/05235ee6bff52926b266ce0a295f3f2fc35451e0"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTg2MzMyOTo1LjM=",
+                            "name": "5.3",
+                            "target": {
+                                "oid": "c72a0de96f0b1e5cbc84e2164c1bc5d4f1916a09",
+                                "message": "Merge pull request #4178 from wskc/5.3\n\nupdate laravel-elixir-vue-2 to 0.3.0",
+                                "authoredDate": "2017-03-15T19:34:55Z",
+                                "author": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2017-03-15T19:34:55Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "url": "https://github.com/taylorotwell",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2017-03-15T14:34:55-05:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "915380c90d817c55cbbe1a75de654c216f41991f",
+                                    "commitUrl": "https://github.com/laravel/laravel/commit/915380c90d817c55cbbe1a75de654c216f41991f",
+                                    "commitResourcePath": "/laravel/laravel/commit/915380c90d817c55cbbe1a75de654c216f41991f"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "a9fad67e1fb369779f4c5ebe454524a24e3698b7",
+                                                "url": "https://github.com/laravel/laravel/commit/a9fad67e1fb369779f4c5ebe454524a24e3698b7",
+                                                "commitUrl": "https://github.com/laravel/laravel/commit/a9fad67e1fb369779f4c5ebe454524a24e3698b7"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "95d3ab99025e9fb65bfd95632b59faf8c714d793",
+                                                "url": "https://github.com/laravel/laravel/commit/95d3ab99025e9fb65bfd95632b59faf8c714d793",
+                                                "commitUrl": "https://github.com/laravel/laravel/commit/95d3ab99025e9fb65bfd95632b59faf8c714d793"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTg2MzMyOTo1LjQ=",
+                            "name": "5.4",
+                            "target": {
+                                "oid": "2ec34b6f04fb48fd6d3c14a9018c9aadd2dce85a",
+                                "message": "Merge pull request #4495 from andrey-helldar/patch-5\n\n[5.4] Added \"-Indexes\" option",
+                                "authoredDate": "2017-11-21T13:35:51Z",
+                                "author": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2017-11-21T13:35:51Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "url": "https://github.com/taylorotwell",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2017-11-21T07:35:51-06:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "b1808acbf3507aa07641cd7c97745070cee77cba",
+                                    "commitUrl": "https://github.com/laravel/laravel/commit/b1808acbf3507aa07641cd7c97745070cee77cba",
+                                    "commitResourcePath": "/laravel/laravel/commit/b1808acbf3507aa07641cd7c97745070cee77cba"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "bc91dcab93a0784efde5fcf4fba6696c95c8e1ae",
+                                                "url": "https://github.com/laravel/laravel/commit/bc91dcab93a0784efde5fcf4fba6696c95c8e1ae",
+                                                "commitUrl": "https://github.com/laravel/laravel/commit/bc91dcab93a0784efde5fcf4fba6696c95c8e1ae"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "01f4eda5b1ea420af749db7f86d8f740bbcf3a2f",
+                                                "url": "https://github.com/laravel/laravel/commit/01f4eda5b1ea420af749db7f86d8f740bbcf3a2f",
+                                                "commitUrl": "https://github.com/laravel/laravel/commit/01f4eda5b1ea420af749db7f86d8f740bbcf3a2f"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTg2MzMyOTo1LjU=",
+                            "name": "5.5",
+                            "target": {
+                                "oid": "3a50f43c3be644f6168bf888af272425efb8f65c",
+                                "message": "Merge pull request #4580 from laurencei/revert-4573-defaults-55\n\nRevert \"[5.5] Use composer platform config\"",
+                                "authoredDate": "2018-02-17T14:51:47Z",
+                                "author": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2018-02-17T14:51:47Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "url": "https://github.com/taylorotwell",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-02-17T08:51:47-06:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "80cc3ed03f71c775708fba4e86faf442d581bac3",
+                                    "commitUrl": "https://github.com/laravel/laravel/commit/80cc3ed03f71c775708fba4e86faf442d581bac3",
+                                    "commitResourcePath": "/laravel/laravel/commit/80cc3ed03f71c775708fba4e86faf442d581bac3"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "b6d00dba46f3adebca8dbf46fb35839cd5f18d44",
+                                                "url": "https://github.com/laravel/laravel/commit/b6d00dba46f3adebca8dbf46fb35839cd5f18d44",
+                                                "commitUrl": "https://github.com/laravel/laravel/commit/b6d00dba46f3adebca8dbf46fb35839cd5f18d44"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "4464101c5aee82315faf7259b399ed57a0342403",
+                                                "url": "https://github.com/laravel/laravel/commit/4464101c5aee82315faf7259b399ed57a0342403",
+                                                "commitUrl": "https://github.com/laravel/laravel/commit/4464101c5aee82315faf7259b399ed57a0342403"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTg2MzMyOTpkZXZlbG9w",
+                            "name": "develop",
+                            "target": {
+                                "oid": "a14e62325cbe82a615ccd2e80925c75cb0bf1eaf",
+                                "message": "customizable redirect on auth failure",
+                                "authoredDate": "2018-03-13T21:09:47Z",
+                                "author": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2018-03-13T21:09:47Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "url": "https://github.com/taylorotwell",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2018-03-13T16:09:47-05:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "url": "https://github.com/taylorotwell",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "7505ea44d8845e2306d00acaf39a8d5b6137d064",
+                                    "commitUrl": "https://github.com/laravel/laravel/commit/7505ea44d8845e2306d00acaf39a8d5b6137d064",
+                                    "commitResourcePath": "/laravel/laravel/commit/7505ea44d8845e2306d00acaf39a8d5b6137d064"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "c30adc88c1cf3f30618145c8b698734cbe03b19c",
+                                                "url": "https://github.com/laravel/laravel/commit/c30adc88c1cf3f30618145c8b698734cbe03b19c",
+                                                "commitUrl": "https://github.com/laravel/laravel/commit/c30adc88c1cf3f30618145c8b698734cbe03b19c"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTg2MzMyOTptYXN0ZXI=",
+                            "name": "master",
+                            "target": {
+                                "oid": "479d02b0948fc3d6f244b1fe9f7ab54c09a5df05",
+                                "message": "Merge pull request #4643 from DojoGeekRA/refactor/hashing-config\n\n[5.6] Set bcrypt rounds using the hashing config",
+                                "authoredDate": "2018-04-19T01:50:01Z",
+                                "author": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2018-04-19T01:50:01Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "url": "https://github.com/taylorotwell",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-04-18T20:50:01-05:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "06f50a7255ad2ac51294e436964c6887c79880c5",
+                                    "commitUrl": "https://github.com/laravel/laravel/commit/06f50a7255ad2ac51294e436964c6887c79880c5",
+                                    "commitResourcePath": "/laravel/laravel/commit/06f50a7255ad2ac51294e436964c6887c79880c5"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "0b89e2ff2016ea129adecb64b22f93ab1a81d8d5",
+                                                "url": "https://github.com/laravel/laravel/commit/0b89e2ff2016ea129adecb64b22f93ab1a81d8d5",
+                                                "commitUrl": "https://github.com/laravel/laravel/commit/0b89e2ff2016ea129adecb64b22f93ab1a81d8d5"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "dc320c894253a4c18541bf27447e0066b16c825d",
+                                                "url": "https://github.com/laravel/laravel/commit/dc320c894253a4c18541bf27447e0066b16c825d",
+                                                "commitUrl": "https://github.com/laravel/laravel/commit/dc320c894253a4c18541bf27447e0066b16c825d"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

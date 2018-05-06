@@ -1,0 +1,111 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnkxODY0MzYz",
+            "name": "composer",
+            "labels": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyMzczNDA=",
+                            "name": "Solver",
+                            "color": "e102d8",
+                            "isDefault": false,
+                            "url": "https://github.com/composer/composer/labels/Solver"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyMzczNDE=",
+                            "name": "Feature",
+                            "color": "0e8a16",
+                            "isDefault": false,
+                            "url": "https://github.com/composer/composer/labels/Feature"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyMzczNDI=",
+                            "name": "Bug",
+                            "color": "b60205",
+                            "isDefault": false,
+                            "url": "https://github.com/composer/composer/labels/Bug"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNDIwNTg=",
+                            "name": "Documentation",
+                            "color": "0052cc",
+                            "isDefault": false,
+                            "url": "https://github.com/composer/composer/labels/Documentation"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0OTI5MjI2",
+                            "name": "Easy Pick",
+                            "color": "c2e0c6",
+                            "isDefault": false,
+                            "url": "https://github.com/composer/composer/labels/Easy%20Pick"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2NjgxNDg4Nw==",
+                            "name": "Support",
+                            "color": "fef2c0",
+                            "isDefault": false,
+                            "url": "https://github.com/composer/composer/labels/Support"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyMzM5MDMyODU=",
+                            "name": "Needs Test",
+                            "color": "f9d0c4",
+                            "isDefault": false,
+                            "url": "https://github.com/composer/composer/labels/Needs%20Test"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNjIwODg3NDY=",
+                            "name": "Question",
+                            "color": "d4c5f9",
+                            "isDefault": false,
+                            "url": "https://github.com/composer/composer/labels/Question"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNjIxMDcyMzQ=",
+                            "name": "Needs Benchmark",
+                            "color": "bfdadc",
+                            "isDefault": false,
+                            "url": "https://github.com/composer/composer/labels/Needs%20Benchmark"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMDkwOTk0OTM=",
+                            "name": "Needs Work",
+                            "color": "c5def5",
+                            "isDefault": false,
+                            "url": "https://github.com/composer/composer/labels/Needs%20Work"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0NzM4Mzg1ODE=",
+                            "name": "Refactoring",
+                            "color": "fbca04",
+                            "isDefault": false,
+                            "url": "https://github.com/composer/composer/labels/Refactoring"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

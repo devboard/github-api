@@ -1,0 +1,110 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnkxODY0MzYz",
+            "name": "composer",
+            "refs": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTg2NDM2MzoxLjY=",
+                            "name": "1.6",
+                            "target": {
+                                "oid": "b540ce264c6396a4fb491c861f29dcb0fb5ed737",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzMTg2NDM2MzpiNTQwY2UyNjRjNjM5NmE0ZmI0OTFjODYxZjI5ZGNiMGZiNWVkNzM3",
+                                    "state": "SUCCESS",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTEyMzc0NzY3",
+                                            "context": "continuous-integration/appveyor/branch",
+                                            "description": "AppVeyor build succeeded",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://ci.appveyor.com/project/Seldaek/composer/build/2729",
+                                            "createdAt": "2018-05-04T09:52:16Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE4MzY3OA==",
+                                                "login": "Seldaek",
+                                                "name": "Jordi Boggiano",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/183678?v=4",
+                                                "url": "https://github.com/Seldaek",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTEyNDEyMDgy",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/composer/composer/builds/374807175?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-05-04T10:02:12Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE4MzY3OA==",
+                                                "login": "Seldaek",
+                                                "name": "Jordi Boggiano",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/183678?v=4",
+                                                "url": "https://github.com/Seldaek",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTg2NDM2MzptYXN0ZXI=",
+                            "name": "master",
+                            "target": {
+                                "oid": "22025f2e29dbcae962efaec49e3c8677edde8a6f",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzMTg2NDM2MzoyMjAyNWYyZTI5ZGJjYWU5NjJlZmFlYzQ5ZTNjODY3N2VkZGU4YTZm",
+                                    "state": "SUCCESS",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTEyMzg1MTU0",
+                                            "context": "continuous-integration/appveyor/branch",
+                                            "description": "AppVeyor build succeeded",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://ci.appveyor.com/project/Seldaek/composer/build/2730",
+                                            "createdAt": "2018-05-04T09:55:05Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE4MzY3OA==",
+                                                "login": "Seldaek",
+                                                "name": "Jordi Boggiano",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/183678?v=4",
+                                                "url": "https://github.com/Seldaek",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTEyMzk2ODYz",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/composer/composer/builds/374807165?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-05-04T09:58:17Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE4MzY3OA==",
+                                                "login": "Seldaek",
+                                                "name": "Jordi Boggiano",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/183678?v=4",
+                                                "url": "https://github.com/Seldaek",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

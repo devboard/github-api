@@ -1,0 +1,22 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnkxNDIwNDM0Mg==",
+            "name": "datasharing",
+            "refs": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTQyMDQzNDI6bWFzdGVy",
+                            "name": "master",
+                            "target": {
+                                "oid": "df97230f037c212d8a07cdaf9216348c63644c9b",
+                                "status": null
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnkxMTk4MTEwMTA=",
+            "name": "tabler",
+            "labels": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MjM1MDkzNDA=",
+                            "name": "bug",
+                            "color": "d73a4a",
+                            "isDefault": true,
+                            "url": "https://github.com/tabler/tabler/labels/bug"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MjM1MDkzNDM=",
+                            "name": "duplicate",
+                            "color": "cfd3d7",
+                            "isDefault": true,
+                            "url": "https://github.com/tabler/tabler/labels/duplicate"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MjM1MDkzNDU=",
+                            "name": "enhancement",
+                            "color": "a2eeef",
+                            "isDefault": true,
+                            "url": "https://github.com/tabler/tabler/labels/enhancement"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MjM1MDkzNDc=",
+                            "name": "help wanted",
+                            "color": "008672",
+                            "isDefault": true,
+                            "url": "https://github.com/tabler/tabler/labels/help%20wanted"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MjM1MDkzNTA=",
+                            "name": "invalid",
+                            "color": "e4e669",
+                            "isDefault": true,
+                            "url": "https://github.com/tabler/tabler/labels/invalid"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MjM1MDkzNTI=",
+                            "name": "question",
+                            "color": "d876e3",
+                            "isDefault": true,
+                            "url": "https://github.com/tabler/tabler/labels/question"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4MjM1MDkzNTQ=",
+                            "name": "wontfix",
+                            "color": "ffffff",
+                            "isDefault": true,
+                            "url": "https://github.com/tabler/tabler/labels/wontfix"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4ODAyMTI3NDc=",
+                            "name": "waiting to new version",
+                            "color": "1d76db",
+                            "isDefault": false,
+                            "url": "https://github.com/tabler/tabler/labels/waiting%20to%20new%20version"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4OTUwMjMwODc=",
+                            "name": "integration",
+                            "color": "51a9e8",
+                            "isDefault": false,
+                            "url": "https://github.com/tabler/tabler/labels/integration"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4OTUwMjYzNDg=",
+                            "name": "contributions: up for grabs!",
+                            "color": "0e8a16",
+                            "isDefault": false,
+                            "url": "https://github.com/tabler/tabler/labels/contributions%3A%20up%20for%20grabs%21"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4OTUwMjg3MzA=",
+                            "name": "component",
+                            "color": "f9d0c4",
+                            "isDefault": false,
+                            "url": "https://github.com/tabler/tabler/labels/component"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

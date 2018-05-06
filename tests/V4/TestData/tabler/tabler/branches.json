@@ -1,0 +1,277 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnkxMTk4MTEwMTA=",
+            "name": "tabler",
+            "refs": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTE5ODExMDEwOmRldg==",
+                            "name": "dev",
+                            "target": {
+                                "oid": "0d9443a84fdca1797a0cdd4c27e903fe4db01de4",
+                                "message": "Merge pull request #113 from dhayab/feat-selectgroup-vertical\n\nAdd vertical layout for selectgroup",
+                                "authoredDate": "2018-04-26T06:40:27Z",
+                                "author": {
+                                    "name": "Pawe\u0142 Kuna",
+                                    "email": "1282324+codecalm@users.noreply.github.com",
+                                    "date": "2018-04-26T06:40:27Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjEyODIzMjQ=",
+                                        "login": "codecalm",
+                                        "name": "Pawe\u0142 Kuna",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
+                                        "url": "https://github.com/codecalm",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-04-26T08:40:27+02:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "25f4c9558b7a652b189a66e2c089525fc085bfbd",
+                                    "commitUrl": "https://github.com/tabler/tabler/commit/25f4c9558b7a652b189a66e2c089525fc085bfbd",
+                                    "commitResourcePath": "/tabler/tabler/commit/25f4c9558b7a652b189a66e2c089525fc085bfbd"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "2e42505dd0ef058a7ef7bdfc5ec9a74979c2bd2b",
+                                                "url": "https://github.com/tabler/tabler/commit/2e42505dd0ef058a7ef7bdfc5ec9a74979c2bd2b",
+                                                "commitUrl": "https://github.com/tabler/tabler/commit/2e42505dd0ef058a7ef7bdfc5ec9a74979c2bd2b"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "c3abea39e38d2196c69163b55c369beb52868fdf",
+                                                "url": "https://github.com/tabler/tabler/commit/c3abea39e38d2196c69163b55c369beb52868fdf",
+                                                "commitUrl": "https://github.com/tabler/tabler/commit/c3abea39e38d2196c69163b55c369beb52868fdf"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTE5ODExMDEwOmdoLXBhZ2Vz",
+                            "name": "gh-pages",
+                            "target": {
+                                "oid": "faa7648168e91d703f685871562d42c84b27dbac",
+                                "message": "version 0.0.32",
+                                "authoredDate": "2018-04-16T07:29:07Z",
+                                "author": {
+                                    "name": "chomik",
+                                    "email": "codecalm@gmail.com",
+                                    "date": "2018-04-16T07:29:07Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjEyODIzMjQ=",
+                                        "login": "codecalm",
+                                        "name": "Pawe\u0142 Kuna",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
+                                        "url": "https://github.com/codecalm",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "chomik",
+                                    "email": "codecalm@gmail.com",
+                                    "date": "2018-04-16T09:29:07+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjEyODIzMjQ=",
+                                        "login": "codecalm",
+                                        "name": "Pawe\u0142 Kuna",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
+                                        "url": "https://github.com/codecalm",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "8052f7ffa68d5249c61ed178badf2c0bfdd6d834",
+                                    "commitUrl": "https://github.com/tabler/tabler/commit/8052f7ffa68d5249c61ed178badf2c0bfdd6d834",
+                                    "commitResourcePath": "/tabler/tabler/commit/8052f7ffa68d5249c61ed178badf2c0bfdd6d834"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "7e83d9702c3cd2c412b48525a6f4ff29f66dc196",
+                                                "url": "https://github.com/tabler/tabler/commit/7e83d9702c3cd2c412b48525a6f4ff29f66dc196",
+                                                "commitUrl": "https://github.com/tabler/tabler/commit/7e83d9702c3cd2c412b48525a6f4ff29f66dc196"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTE5ODExMDEwOm1hc3Rlcg==",
+                            "name": "master",
+                            "target": {
+                                "oid": "748028000ba6603090c1f5a741e906b59ed934b2",
+                                "message": "Merge pull request #102 from johnunclesam/patch-1\n\n\"dimmer-content\" opacity too much.",
+                                "authoredDate": "2018-04-21T15:49:14Z",
+                                "author": {
+                                    "name": "Pawe\u0142 Kuna",
+                                    "email": "1282324+codecalm@users.noreply.github.com",
+                                    "date": "2018-04-21T15:49:14Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjEyODIzMjQ=",
+                                        "login": "codecalm",
+                                        "name": "Pawe\u0142 Kuna",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
+                                        "url": "https://github.com/codecalm",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-04-21T17:49:14+02:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "afb9522a985f69c3118f3aca5c973d45e10262dd",
+                                    "commitUrl": "https://github.com/tabler/tabler/commit/afb9522a985f69c3118f3aca5c973d45e10262dd",
+                                    "commitResourcePath": "/tabler/tabler/commit/afb9522a985f69c3118f3aca5c973d45e10262dd"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "a811ad1489360d0d443d9e8a0d1a0c292777c4a6",
+                                                "url": "https://github.com/tabler/tabler/commit/a811ad1489360d0d443d9e8a0d1a0c292777c4a6",
+                                                "commitUrl": "https://github.com/tabler/tabler/commit/a811ad1489360d0d443d9e8a0d1a0c292777c4a6"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "d7eb39c4bd43254676619eecf5bcd0a1ee8dd209",
+                                                "url": "https://github.com/tabler/tabler/commit/d7eb39c4bd43254676619eecf5bcd0a1ee8dd209",
+                                                "commitUrl": "https://github.com/tabler/tabler/commit/d7eb39c4bd43254676619eecf5bcd0a1ee8dd209"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTE5ODExMDEwOm5ldy1pbnB1dHM=",
+                            "name": "new-inputs",
+                            "target": {
+                                "oid": "74f06831f3fbd2b26d5b1599d3ac563f5250b37a",
+                                "message": "datalist input",
+                                "authoredDate": "2018-04-12T11:43:16Z",
+                                "author": {
+                                    "name": "chomik",
+                                    "email": "codecalm@gmail.com",
+                                    "date": "2018-04-12T11:43:16Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjEyODIzMjQ=",
+                                        "login": "codecalm",
+                                        "name": "Pawe\u0142 Kuna",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
+                                        "url": "https://github.com/codecalm",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "chomik",
+                                    "email": "codecalm@gmail.com",
+                                    "date": "2018-04-12T13:43:16+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjEyODIzMjQ=",
+                                        "login": "codecalm",
+                                        "name": "Pawe\u0142 Kuna",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
+                                        "url": "https://github.com/codecalm",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "0d389aa6446497ab454dba8d8d265cd2a3e57a9d",
+                                    "commitUrl": "https://github.com/tabler/tabler/commit/0d389aa6446497ab454dba8d8d265cd2a3e57a9d",
+                                    "commitResourcePath": "/tabler/tabler/commit/0d389aa6446497ab454dba8d8d265cd2a3e57a9d"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "0b0b9b1d4ba9e6f96f09dc90e86fd22f9e6f6848",
+                                                "url": "https://github.com/tabler/tabler/commit/0b0b9b1d4ba9e6f96f09dc90e86fd22f9e6f6848",
+                                                "commitUrl": "https://github.com/tabler/tabler/commit/0b0b9b1d4ba9e6f96f09dc90e86fd22f9e6f6848"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTE5ODExMDEwOnJldmVydC00My1tYXN0ZXI=",
+                            "name": "revert-43-master",
+                            "target": {
+                                "oid": "e3b837b4c5bf1dfb889518b2a41b3495a146c540",
+                                "message": "Revert \"Update README for content / readability \"",
+                                "authoredDate": "2018-04-04T08:49:01Z",
+                                "author": {
+                                    "name": "Pawe\u0142 Kuna",
+                                    "email": "1282324+codecalm@users.noreply.github.com",
+                                    "date": "2018-04-04T08:49:01Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjEyODIzMjQ=",
+                                        "login": "codecalm",
+                                        "name": "Pawe\u0142 Kuna",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
+                                        "url": "https://github.com/codecalm",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-04-04T10:49:01+02:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "4e9b80097d23a2d72428919e77981943e7609a1f",
+                                    "commitUrl": "https://github.com/tabler/tabler/commit/4e9b80097d23a2d72428919e77981943e7609a1f",
+                                    "commitResourcePath": "/tabler/tabler/commit/4e9b80097d23a2d72428919e77981943e7609a1f"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "0f7b572b94434eee997753830b86213e1eff6d6d",
+                                                "url": "https://github.com/tabler/tabler/commit/0f7b572b94434eee997753830b86213e1eff6d6d",
+                                                "commitUrl": "https://github.com/tabler/tabler/commit/0f7b572b94434eee997753830b86213e1eff6d6d"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

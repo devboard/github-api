@@ -1,0 +1,237 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnk0NTcxNzI1MA==",
+            "name": "tensorflow",
+            "labels": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyODQyODUxODQ=",
+                            "name": "comp:tensorboard",
+                            "color": "5319e7",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/comp%3Atensorboard"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyODQ0NDMxNTY=",
+                            "name": "type:docs",
+                            "color": "c7def8",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/type%3Adocs"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyODQ0NDM3NjY=",
+                            "name": "languages",
+                            "color": "bfe5bf",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/languages"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyODQ0NjM3NDQ=",
+                            "name": "cuda",
+                            "color": "f7c6c7",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/cuda"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyOTk2NDM5Mjg=",
+                            "name": "stat:contributions welcome",
+                            "color": "009800",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/stat%3Acontributions%20welcome"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMDAxMzY1ODc=",
+                            "name": "cla: yes",
+                            "color": "009800",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/cla%3A%20yes"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMDAxMzY2MTM=",
+                            "name": "cla: no",
+                            "color": "eb6420",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/cla%3A%20no"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzODYxOTE4ODc=",
+                            "name": "stat:awaiting response",
+                            "color": "5319e7",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/stat%3Aawaiting%20response"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzOTA0ODIxNDg=",
+                            "name": "awaiting review",
+                            "color": "fef2c0",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/awaiting%20review"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0MDQ1ODY1NTg=",
+                            "name": "stat:community support",
+                            "color": "c2e0c6",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/stat%3Acommunity%20support"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0MDQ1ODY1OTQ=",
+                            "name": "stat:awaiting tensorflower",
+                            "color": "b60205",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/stat%3Aawaiting%20tensorflower"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0MTk4NDAyNjM=",
+                            "name": "awaiting testing (then merge)",
+                            "color": "c2e0c6",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/awaiting%20testing%20%28then%20merge%29"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0NzMxNzI5ODg=",
+                            "name": "type:bug/performance",
+                            "color": "fbca04",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/type%3Abug%2Fperformance"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0NzMxNzMyNzI=",
+                            "name": "type:feature",
+                            "color": "c2e0c6",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/type%3Afeature"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0NzMxNzMzNTE=",
+                            "name": "type:build/install",
+                            "color": "c5def5",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/type%3Abuild%2Finstall"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0NzMxODQxNjE=",
+                            "name": "type:support",
+                            "color": "b60205",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/type%3Asupport"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0NzQ3MjU5Mzg=",
+                            "name": "stalled",
+                            "color": "d4c5f9",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/stalled"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw1MjI2MjM4NTY=",
+                            "name": "API review",
+                            "color": "d4c5f9",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/API%20review"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw1Mzk3MDk4NTE=",
+                            "name": "tag:awaiting response",
+                            "color": "ededed",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/tag%3Aawaiting%20response"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3MDM2OTg0NzU=",
+                            "name": "kokoro:run",
+                            "color": "bfdadc",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/kokoro%3Arun"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3MDM4MTI5MTQ=",
+                            "name": "kokoro:force-run",
+                            "color": "1d76db",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/kokoro%3Aforce-run"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3MzY2NTM0NTk=",
+                            "name": "comp:eager",
+                            "color": "8cf260",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/comp%3Aeager"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3NTA2MTY1MDY=",
+                            "name": "comp:lite",
+                            "color": "e99695",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/comp%3Alite"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3NzkxOTU0NTQ=",
+                            "name": "pending merge internally",
+                            "color": "efad99",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/pending%20merge%20internally"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3OTQ5NTYyMjk=",
+                            "name": "graph_editor",
+                            "color": "35f4ee",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/graph_editor"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

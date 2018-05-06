@@ -1,0 +1,390 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
+            "name": "react",
+            "labels": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0MDkyOTE1MQ==",
+                            "name": "Type: Bug",
+                            "color": "b60205",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Type%3A%20Bug"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0MDkyOTE1Mg==",
+                            "name": "Resolution: Duplicate",
+                            "color": "cccccc",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Resolution%3A%20Duplicate"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0MDkyOTE1Mw==",
+                            "name": "Type: Enhancement",
+                            "color": "84b6eb",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Type%3A%20Enhancement"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0MDkyOTE1NA==",
+                            "name": "Resolution: Invalid",
+                            "color": "e6e6e6",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Resolution%3A%20Invalid"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0MDkyOTE1NQ==",
+                            "name": "Type: Question",
+                            "color": "cc317c",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Type%3A%20Question"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0MDkyOTE1Ng==",
+                            "name": "Resolution: Wontfix",
+                            "color": "ffffff",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Resolution%3A%20Wontfix"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw1MjA3OTI1OA==",
+                            "name": "Difficulty: starter",
+                            "color": "94ce52",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Difficulty%3A%20starter"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2OTEwNTM1OA==",
+                            "name": "Browser: Safari",
+                            "color": "c7def8",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Browser%3A%20Safari"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2OTEwNTM4Mw==",
+                            "name": "Browser: IE",
+                            "color": "c7def8",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Browser%3A%20IE"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3MTUwMjI3MA==",
+                            "name": "Component: Build Infrastructure",
+                            "color": "f9d0c4",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Component%3A%20Build%20Infrastructure"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3NDM1OTQ1Mw==",
+                            "name": "Type: Release",
+                            "color": "00D8EA",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Type%3A%20Release"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMjE3MDk5MjE=",
+                            "name": "Type: Feature Request",
+                            "color": "c7def8",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Type%3A%20Feature%20Request"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMjYzODIyMzY=",
+                            "name": "SVG",
+                            "color": "f7c6c7",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/SVG"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMjc4OTM5MTE=",
+                            "name": "Component: DOM",
+                            "color": "fef2c0",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Component%3A%20DOM"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMzk2NTM3MjQ=",
+                            "name": "Component: Core Utilities",
+                            "color": "c5def5",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Component%3A%20Core%20Utilities"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxMzk3MzQzNDQ=",
+                            "name": "Component: Test Utils",
+                            "color": "eb6420",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Component%3A%20Test%20Utils"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNTU5ODQxNjA=",
+                            "name": "Status: Unconfirmed",
+                            "color": "d4c5f9",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Status%3A%20Unconfirmed"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNTU5ODQyMjU=",
+                            "name": "Status: New",
+                            "color": "006b75",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Status%3A%20New"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNzg3NjExNTk=",
+                            "name": "Type: Regression",
+                            "color": "e11d21",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Type%3A%20Regression"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxODA2MTYzMzA=",
+                            "name": "Component: Optimizing Compiler",
+                            "color": "bfdadc",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Component%3A%20Optimizing%20Compiler"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxOTY4NTgzNzQ=",
+                            "name": "CLA Signed",
+                            "color": "e7e7e7",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/CLA%20Signed"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyMDQ5NDUzNTc=",
+                            "name": "Component: Shallow Renderer",
+                            "color": "eb6420",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Component%3A%20Shallow%20Renderer"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNzA5ODY1MTM=",
+                            "name": "Type: Big Picture",
+                            "color": "61dafb",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Type%3A%20Big%20Picture"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzMzI3MjA2Mjk=",
+                            "name": "HTML",
+                            "color": "f7c6c7",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/HTML"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzNDc5NjgzOTc=",
+                            "name": "Resolution: Unsolved",
+                            "color": "fef2c0",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Resolution%3A%20Unsolved"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwzODYwOTM5MTI=",
+                            "name": "Status: Reverted",
+                            "color": "d93f0b",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Status%3A%20Reverted"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw1ODg4MzM1Mjg=",
+                            "name": "Difficulty: medium",
+                            "color": "fbca04",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Difficulty%3A%20medium"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2MjAzNjg0MDc=",
+                            "name": "Resolution: Needs More Information",
+                            "color": "fffde7",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Resolution%3A%20Needs%20More%20Information"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3MTAzMzIyOTQ=",
+                            "name": "Component: Server Rendering",
+                            "color": "d4c5f9",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Component%3A%20Server%20Rendering"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3MTAzNzU3OTI=",
+                            "name": "Type: Discussion",
+                            "color": "fef2c0",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Type%3A%20Discussion"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3MTA0MDA3MDQ=",
+                            "name": "Component: Test Renderer",
+                            "color": "006b75",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Component%3A%20Test%20Renderer"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3MTA1NzM1OTU=",
+                            "name": "Component: Developer Tools",
+                            "color": "fbca04",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Component%3A%20Developer%20Tools"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3MTA2MTUzNDI=",
+                            "name": "Type: Umbrella",
+                            "color": "5319e7",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Type%3A%20Umbrella"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3MTA3MjIwOTM=",
+                            "name": "Type: Needs Investigation",
+                            "color": "fbca04",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Type%3A%20Needs%20Investigation"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3MTcwMzEzOTA=",
+                            "name": "good first issue",
+                            "color": "6ce26a",
+                            "isDefault": true,
+                            "url": "https://github.com/facebook/react/labels/good%20first%20issue"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3MjUxNTYyNTU=",
+                            "name": "good first issue (taken)",
+                            "color": "b60205",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/good%20first%20issue%20%28taken%29"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3Mzk3NjEwMTY=",
+                            "name": "Component: Reconciler",
+                            "color": "f9a798",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Component%3A%20Reconciler"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3Mzk3Nzc2NzU=",
+                            "name": "Component: Component API",
+                            "color": "d4c5f9",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Component%3A%20Component%20API"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3NjA3NTExNzE=",
+                            "name": "Difficulty: challenging",
+                            "color": "f2687c",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Difficulty%3A%20challenging"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3NjM3NDI0OTk=",
+                            "name": "Type: Breaking Change",
+                            "color": "aa2608",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Type%3A%20Breaking%20Change"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3OTE5MjE4MDE=",
+                            "name": "\u2764\ufe0f",
+                            "color": "ffffff",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/%E2%9D%A4%EF%B8%8F"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4Nzc0ODEyMjQ=",
+                            "name": "mentorship",
+                            "color": "3B5998",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/mentorship"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

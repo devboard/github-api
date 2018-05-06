@@ -1,0 +1,183 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnkyMTI2MjQ0",
+            "name": "bootstrap",
+            "labels": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNDM1OTc=",
+                            "name": "docs",
+                            "color": "007bff",
+                            "isDefault": false,
+                            "url": "https://github.com/twbs/bootstrap/labels/docs"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNDM2NDM=",
+                            "name": "js",
+                            "color": "ffc40d",
+                            "isDefault": false,
+                            "url": "https://github.com/twbs/bootstrap/labels/js"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNDgyMzA=",
+                            "name": "feature",
+                            "color": "4bb14b",
+                            "isDefault": false,
+                            "url": "https://github.com/twbs/bootstrap/labels/feature"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyMTA1NTY=",
+                            "name": "css",
+                            "color": "563d7c",
+                            "isDefault": false,
+                            "url": "https://github.com/twbs/bootstrap/labels/css"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNjM4Nzk0MQ==",
+                            "name": "meta",
+                            "color": "444444",
+                            "isDefault": false,
+                            "url": "https://github.com/twbs/bootstrap/labels/meta"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0OTIzOTQzNA==",
+                            "name": "confirmed",
+                            "color": "b94a48",
+                            "isDefault": false,
+                            "url": "https://github.com/twbs/bootstrap/labels/confirmed"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw1MjM4MjgxOA==",
+                            "name": "examples",
+                            "color": "005299",
+                            "isDefault": false,
+                            "url": "https://github.com/twbs/bootstrap/labels/examples"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw2OTY4ODk5OA==",
+                            "name": "build",
+                            "color": "eeeeee",
+                            "isDefault": false,
+                            "url": "https://github.com/twbs/bootstrap/labels/build"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw5NDYxMTA3OA==",
+                            "name": "help wanted",
+                            "color": "bfe5bf",
+                            "isDefault": true,
+                            "url": "https://github.com/twbs/bootstrap/labels/help%20wanted"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNDI1MDM5MzE=",
+                            "name": "browser bug",
+                            "color": "00abe1",
+                            "isDefault": false,
+                            "url": "https://github.com/twbs/bootstrap/labels/browser%20bug"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwxNDQ0ODQ3NTk=",
+                            "name": "accessibility",
+                            "color": "bfd4f2",
+                            "isDefault": false,
+                            "url": "https://github.com/twbs/bootstrap/labels/accessibility"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyMDQ4ODk2MzM=",
+                            "name": "awaiting reply",
+                            "color": "d4c5f9",
+                            "isDefault": false,
+                            "url": "https://github.com/twbs/bootstrap/labels/awaiting%20reply"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNTAxNzY4ODI=",
+                            "name": "v4",
+                            "color": "563d7c",
+                            "isDefault": false,
+                            "url": "https://github.com/twbs/bootstrap/labels/v4"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyNTAxNzY5NDY=",
+                            "name": "v3",
+                            "color": "d9534f",
+                            "isDefault": false,
+                            "url": "https://github.com/twbs/bootstrap/labels/v3"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyODYxNDQ5ODM=",
+                            "name": "on-hold",
+                            "color": "eb6420",
+                            "isDefault": false,
+                            "url": "https://github.com/twbs/bootstrap/labels/on-hold"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWwyOTA4NDAzMDM=",
+                            "name": "ship list",
+                            "color": "000000",
+                            "isDefault": false,
+                            "url": "https://github.com/twbs/bootstrap/labels/ship%20list"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw0Njc0NzEwOTE=",
+                            "name": "has-pr",
+                            "color": "666666",
+                            "isDefault": false,
+                            "url": "https://github.com/twbs/bootstrap/labels/has-pr"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw3MjYxMDE3MzM=",
+                            "name": "js-without-jquery",
+                            "color": "d93f0b",
+                            "isDefault": false,
+                            "url": "https://github.com/twbs/bootstrap/labels/js-without-jquery"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw4OTQ5MDg4MzA=",
+                            "name": "release",
+                            "color": "222222",
+                            "isDefault": false,
+                            "url": "https://github.com/twbs/bootstrap/labels/release"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
