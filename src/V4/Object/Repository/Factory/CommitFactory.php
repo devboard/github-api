@@ -11,7 +11,6 @@ use DevboardLib\GitHub\Commit\CommitParent;
 use DevboardLib\GitHub\Commit\CommitParentCollection;
 use DevboardLib\GitHub\Commit\CommitTree;
 use DevboardLib\GitHub\Commit\CommitVerification;
-use DevboardLib\GitHub\Commit\Tree\TreeApiUrl;
 use DevboardLib\GitHub\Commit\Verification\VerificationPayload;
 use DevboardLib\GitHub\Commit\Verification\VerificationReason;
 use DevboardLib\GitHub\Commit\Verification\VerificationSignature;
@@ -53,7 +52,7 @@ class CommitFactory
             new CommitDate($data['authoredDate']),
             $this->authorFactory->createFromBranchData($data['author']),
             $this->committerFactory->createFromBranchData($data['committer']),
-            new CommitTree(new CommitSha($data['tree']['oid']), new TreeApiUrl('TODO')),
+            new CommitTree(new CommitSha($data['tree']['oid'])),
             $this->createParentCollection($data['parents']['edges']),
             $verification
         );
@@ -85,11 +84,7 @@ class CommitFactory
         $commitParentCollection = new CommitParentCollection();
 
         foreach ($data as $parentData) {
-            $parent = new CommitParent(
-                new CommitSha($parentData['node']['oid']),
-                new CommitParent\ParentApiUrl('TODO'),
-                new CommitParent\ParentHtmlUrl($parentData['node']['commitUrl'])
-            );
+            $parent = new CommitParent(new CommitSha($parentData['node']['oid']));
 
             $commitParentCollection->add($parent);
         }
