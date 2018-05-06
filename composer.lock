@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7dc89a3d703c19b95177cee3bd76f5cd",
+    "content-hash": "f8fdafe3b0d7093a7a3e888195404b10",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -199,12 +199,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/lib-github.git",
-                "reference": "46813720f15599bd149192f186e5b6fe41f63a5b"
+                "reference": "dabd559a684124ce17e197a6f8a65ba91a8e2a1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/lib-github/zipball/46813720f15599bd149192f186e5b6fe41f63a5b",
-                "reference": "46813720f15599bd149192f186e5b6fe41f63a5b",
+                "url": "https://api.github.com/repos/devboard/lib-github/zipball/dabd559a684124ce17e197a6f8a65ba91a8e2a1b",
+                "reference": "dabd559a684124ce17e197a6f8a65ba91a8e2a1b",
                 "shasum": ""
             },
             "require": {
@@ -232,7 +232,7 @@
             "type": "project",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.5-dev"
+                    "dev-master": "0.6-dev"
                 }
             },
             "autoload": {
@@ -245,7 +245,7 @@
                 "proprietary"
             ],
             "description": "Devboard lib for GitHub",
-            "time": "2018-05-05T16:31:48+00:00"
+            "time": "2018-05-06T15:50:15+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -2708,7 +2708,7 @@
             ],
             "authors": [
                 {
-                    "name": "Padraic Brady",
+                    "name": "Pádraic Brady",
                     "email": "padraic.brady@gmail.com",
                     "homepage": "http://blog.astrumfutura.com"
                 }
