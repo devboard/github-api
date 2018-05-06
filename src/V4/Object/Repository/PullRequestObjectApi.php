@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubApi\V4\Object\Repository;
 
-use DevboardLib\GitHub\GitHubPullRequest;
 use DevboardLib\GitHubApi\Query\Repository\AllPullRequestsQuery;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequestFactory;
+use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllPullRequestsResult;
 use DevboardLib\GitHubApi\V4\Raw\Repository\PullRequestApi;
 
 class PullRequestObjectApi
@@ -23,8 +23,7 @@ class PullRequestObjectApi
         $this->pullRequestFactory = $pullRequestFactory;
     }
 
-    /** @return array|GitHubPullRequest[] */
-    public function getPullRequests(AllPullRequestsQuery $query): array
+    public function getPullRequests(AllPullRequestsQuery $query): AllPullRequestsResult
     {
         $dataLists = $this->pullRequestApi->getPullRequests($query);
 
@@ -36,6 +35,6 @@ class PullRequestObjectApi
             }
         }
 
-        return $results;
+        return new AllPullRequestsResult($query->getRepoFullName(), $results);
     }
 }
