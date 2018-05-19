@@ -53,4 +53,26 @@ class InstallationCredentials implements Credentials
 
         return $this->userId->getId();
     }
+
+    public function serialize(): array
+    {
+        if (null === $this->userId) {
+            $userId = null;
+        } else {
+            $userId = $this->userId->serialize();
+        }
+
+        return ['installationId' => $this->installationId->serialize(), 'userId' => $userId];
+    }
+
+    public static function deserialize(array $data): self
+    {
+        if (null === $data['userId']) {
+            $userId = null;
+        } else {
+            $userId = UserId::deserialize($data['userId']);
+        }
+
+        return new self(InstallationId::deserialize($data['installationId']), $userId);
+    }
 }
