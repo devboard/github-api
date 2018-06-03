@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DevboardLib\GitHubApi\Query\Repository;
+namespace DevboardLib\GitHubApi\Query\Repository\Request;
 
 use DevboardLib\Generix\QueryRequest;
 use DevboardLib\GitHub\Account\AccountLogin;

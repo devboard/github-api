@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace spec\DevboardLib\GitHubApi\Query\Repository;
+namespace spec\DevboardLib\GitHubApi\Query\Repository\Request;
 
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
-use DevboardLib\GitHubApi\Query\Repository\AllMilestonesQuery;
+use DevboardLib\GitHubApi\Query\Repository\Request\AllPullRequestStatusesQuery;
 use PhpSpec\ObjectBehavior;
 
-class AllMilestonesQuerySpec extends ObjectBehavior
+class AllPullRequestStatusesQuerySpec extends ObjectBehavior
 {
     public function let(RepoFullName $repoFullName, InstallationCredentials $credentials)
     {
@@ -18,6 +18,6 @@ class AllMilestonesQuerySpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType(AllMilestonesQuery::class);
+        $this->shouldHaveType(AllPullRequestStatusesQuery::class);
     }
 }

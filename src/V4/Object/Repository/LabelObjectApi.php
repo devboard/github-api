@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubApi\V4\Object\Repository;
 
-use DevboardLib\GitHubApi\Query\Repository\AllLabelsQuery;
+use DevboardLib\GitHubApi\Query\Repository\Request\AllLabelsQuery;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\LabelFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllLabelsResult;
 use DevboardLib\GitHubApi\V4\Raw\Repository\LabelApi;

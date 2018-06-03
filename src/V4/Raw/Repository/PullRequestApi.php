@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubApi\V4\Raw\Repository;
 
-use DevboardLib\GitHubApi\Query\Repository\AllPullRequestsQuery;
+use DevboardLib\GitHubApi\Query\Repository\Request\AllPullRequestsQuery;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 use Github\Api\GraphQL;
 

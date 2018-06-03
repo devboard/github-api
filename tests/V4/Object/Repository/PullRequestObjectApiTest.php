@@ -6,7 +6,7 @@ namespace Tests\DevboardLib\GitHubApi\V4\Object\Repository;
 
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
-use DevboardLib\GitHubApi\Query\Repository\AllPullRequestsQuery;
+use DevboardLib\GitHubApi\Query\Repository\Request\AllPullRequestsQuery;
 use DevboardLib\GitHubApi\V4\Object\Repository\PullRequestObjectApi;
 use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllPullRequestsResult;
 use DevboardLib\GitHubApi\V4\Raw\Repository\PullRequestApi;

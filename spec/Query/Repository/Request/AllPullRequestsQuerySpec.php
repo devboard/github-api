@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace spec\DevboardLib\GitHubApi\Query\Repository;
+namespace spec\DevboardLib\GitHubApi\Query\Repository\Request;
 
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
-use DevboardLib\GitHubApi\Query\Repository\AllPullRequestsQuery;
-use DevboardLib\GitHubApi\Query\Repository\RepositoryQuery;
+use DevboardLib\GitHubApi\Query\Repository\Request\AllPullRequestsQuery;
+use DevboardLib\GitHubApi\Query\Repository\Request\RepositoryQuery;
 use PhpSpec\ObjectBehavior;
 
 class AllPullRequestsQuerySpec extends ObjectBehavior

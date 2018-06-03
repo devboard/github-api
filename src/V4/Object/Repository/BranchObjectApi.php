@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubApi\V4\Object\Repository;
 
-use DevboardLib\GitHubApi\Query\Repository\AllBranchesQuery;
+use DevboardLib\GitHubApi\Query\Repository\Request\AllBranchesQuery;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\BranchFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllBranchesResult;
 use DevboardLib\GitHubApi\V4\Raw\Repository\BranchApi;

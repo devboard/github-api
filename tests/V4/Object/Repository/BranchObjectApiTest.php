@@ -6,7 +6,7 @@ namespace Tests\DevboardLib\GitHubApi\V4\Object\Repository;
 
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
-use DevboardLib\GitHubApi\Query\Repository\AllBranchesQuery;
+use DevboardLib\GitHubApi\Query\Repository\Request\AllBranchesQuery;
 use DevboardLib\GitHubApi\V4\Object\Repository\BranchObjectApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\BranchApi;
 use Mockery;
