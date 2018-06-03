@@ -24,7 +24,7 @@ class StatusApiTest extends BaseTestCase
         $api = new StatusApi($this->getClientFactory());
 
         $query = AllBranchStatusesQuery::create('devboard/git-interfaces', 125958, $userId);
-        $data  = $api->getBranches($query);
+        $data  = $api->handleAllBranchStatusesQuery($query);
 
         self::assertNotNull($data);
     }
@@ -39,7 +39,7 @@ class StatusApiTest extends BaseTestCase
         $api = new StatusApi($this->getClientFactory());
 
         $query = AllPullRequestStatusesQuery::create('devboard/git-interfaces', 125958, $userId);
-        $data  = $api->getPullRequests($query);
+        $data  = $api->handleAllPullRequestStatusesQuery($query);
 
         self::assertNotNull($data);
     }

@@ -17,7 +17,7 @@ class BranchApi
         $this->clientFactory = $clientFactory;
     }
 
-    public function getBranches(AllBranchesQuery $query): array
+    public function handleAllBranchesQuery(AllBranchesQuery $query): array
     {
         $queryDefinition = file_get_contents(__DIR__.'/branches.graphql');
 

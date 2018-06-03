@@ -27,11 +27,11 @@ class StatusObjectApiTest extends TestCase
     public function testGetBranches(AllBranchStatusesQuery $query, $inputData)
     {
         $api = Mockery::mock(StatusApi::class);
-        $api->shouldReceive('getBranches')->andReturn($inputData);
+        $api->shouldReceive('handleAllBranchStatusesQuery')->andReturn($inputData);
 
         $api = new StatusObjectApi($api, StatusFactoryTest::instance());
 
-        $result = $api->getBranches($query);
+        $result = $api->handleAllBranchStatusesQuery($query);
 
         self::assertNotEmpty($result->getBranchStatusCollections());
     }
@@ -54,11 +54,11 @@ class StatusObjectApiTest extends TestCase
     public function testGetPullRequests(AllPullRequestStatusesQuery $query, $inputData)
     {
         $api = Mockery::mock(StatusApi::class);
-        $api->shouldReceive('getPullRequests')->andReturn($inputData);
+        $api->shouldReceive('handleAllPullRequestStatusesQuery')->andReturn($inputData);
 
         $api = new StatusObjectApi($api, StatusFactoryTest::instance());
 
-        $result = $api->getPullRequests($query);
+        $result = $api->handleAllPullRequestStatusesQuery($query);
 
         self::assertInstanceOf(AllPullRequestStatusesResult::class, $result);
     }

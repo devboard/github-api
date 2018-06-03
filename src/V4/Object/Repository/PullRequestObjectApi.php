@@ -25,9 +25,9 @@ class PullRequestObjectApi
         $this->responseFactory = $responseFactory;
     }
 
-    public function getPullRequests(AllPullRequestsQuery $query): AllPullRequestsResult
+    public function handleAllPullRequestsQuery(AllPullRequestsQuery $query): AllPullRequestsResult
     {
-        $dataLists = $this->pullRequestApi->getPullRequests($query);
+        $dataLists = $this->pullRequestApi->handleAllPullRequestsQuery($query);
 
         $results = [];
 

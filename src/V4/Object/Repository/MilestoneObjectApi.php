@@ -23,9 +23,9 @@ class MilestoneObjectApi
         $this->milestoneFactory = $milestoneFactory;
     }
 
-    public function getMilestones(AllMilestonesQuery $query): AllMilestonesResult
+    public function handleAllMilestonesQuery(AllMilestonesQuery $query): AllMilestonesResult
     {
-        $data = $this->milestoneApi->getMilestones($query);
+        $data = $this->milestoneApi->handleAllMilestonesQuery($query);
 
         $results = [];
 

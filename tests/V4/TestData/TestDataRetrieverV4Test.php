@@ -69,7 +69,7 @@ class TestDataRetrieverV4Test extends TestCase
 
         $query = new AllBranchesQuery($repoFullName, new InstallationCredentials($installationId, $this->userId));
 
-        $data = $api->getBranches($query);
+        $data = $api->handleAllBranchesQuery($query);
 
         self::assertNotEmpty($data);
 
@@ -81,7 +81,7 @@ class TestDataRetrieverV4Test extends TestCase
     {
         $api   = new LabelApi($this->clientFactory);
         $query = new AllLabelsQuery($repoFullName, new InstallationCredentials($installationId, $this->userId));
-        $data  = $api->getLabels($query);
+        $data  = $api->handleAllLabelsQuery($query);
 
         self::assertNotEmpty($data);
 
@@ -93,7 +93,7 @@ class TestDataRetrieverV4Test extends TestCase
     {
         $api   = new MilestoneApi($this->clientFactory);
         $query = new AllMilestonesQuery($repoFullName, new InstallationCredentials($installationId, $this->userId));
-        $data  = $api->getMilestones($query);
+        $data  = $api->handleAllMilestonesQuery($query);
 
         self::assertNotEmpty($data);
 
@@ -107,7 +107,7 @@ class TestDataRetrieverV4Test extends TestCase
 
         $query = new AllPullRequestsQuery($repoFullName, new InstallationCredentials($installationId, $this->userId));
 
-        $data = $api->getPullRequests($query);
+        $data = $api->handleAllPullRequestsQuery($query);
 
         self::assertNotEmpty($data);
 
@@ -121,7 +121,7 @@ class TestDataRetrieverV4Test extends TestCase
 
         $query = new AllBranchStatusesQuery($repoFullName, new InstallationCredentials($installationId, $this->userId));
 
-        $data = $api->getBranches($query);
+        $data = $api->handleAllBranchStatusesQuery($query);
 
         self::assertNotEmpty($data);
 
@@ -137,7 +137,7 @@ class TestDataRetrieverV4Test extends TestCase
             $repoFullName, new InstallationCredentials($installationId, $this->userId)
         );
 
-        $data = $api->getPullRequests($query);
+        $data = $api->handleAllPullRequestStatusesQuery($query);
 
         self::assertNotEmpty($data);
 

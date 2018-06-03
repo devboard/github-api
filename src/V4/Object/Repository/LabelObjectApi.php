@@ -23,9 +23,9 @@ class LabelObjectApi
         $this->labelFactory = $labelFactory;
     }
 
-    public function getLabels(AllLabelsQuery $query): AllLabelsResult
+    public function handleAllLabelsQuery(AllLabelsQuery $query): AllLabelsResult
     {
-        $data = $this->labelApi->getLabels($query);
+        $data = $this->labelApi->handleAllLabelsQuery($query);
 
         $results = [];
 

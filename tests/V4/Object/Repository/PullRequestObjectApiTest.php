@@ -26,11 +26,11 @@ class PullRequestObjectApiTest extends TestCase
     public function testGetPullRequests(AllPullRequestsQuery $query, $inputData)
     {
         $api = Mockery::mock(PullRequestApi::class);
-        $api->shouldReceive('getPullRequests')->andReturn($inputData);
+        $api->shouldReceive('handleAllPullRequestsQuery')->andReturn($inputData);
 
         $api = new PullRequestObjectApi($api, PullRequestDetailedResponseFactoryTest::instance());
 
-        $result = $api->getPullRequests($query);
+        $result = $api->handleAllPullRequestsQuery($query);
 
         self::assertInstanceOf(AllPullRequestsResult::class, $result);
     }

@@ -23,9 +23,9 @@ class BranchObjectApi
         $this->branchFactory = $branchFactory;
     }
 
-    public function getBranches(AllBranchesQuery $query): AllBranchesResult
+    public function handleAllBranchesQuery(AllBranchesQuery $query): AllBranchesResult
     {
-        $data = $this->branchApi->getBranches($query);
+        $data = $this->branchApi->handleAllBranchesQuery($query);
 
         $results = [];
 

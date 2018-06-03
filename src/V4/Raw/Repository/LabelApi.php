@@ -17,7 +17,7 @@ class LabelApi
         $this->clientFactory = $clientFactory;
     }
 
-    public function getLabels(AllLabelsQuery $query): array
+    public function handleAllLabelsQuery(AllLabelsQuery $query): array
     {
         $queryDefinition = file_get_contents(__DIR__.'/labels.graphql');
 

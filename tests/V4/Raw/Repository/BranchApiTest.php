@@ -24,7 +24,7 @@ class BranchApiTest extends BaseTestCase
 
         $query = AllBranchesQuery::create('devboard/git-interfaces', 125958, $userId);
 
-        $data = $api->getBranches($query);
+        $data = $api->handleAllBranchesQuery($query);
 
         self::assertNotNull($data);
     }

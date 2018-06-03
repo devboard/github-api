@@ -25,11 +25,11 @@ class LabelObjectApiTest extends TestCase
     public function testGetLabels(AllLabelsQuery $query, $inputData)
     {
         $api = Mockery::mock(LabelApi::class);
-        $api->shouldReceive('getLabels')->andReturn($inputData);
+        $api->shouldReceive('handleAllLabelsQuery')->andReturn($inputData);
 
         $api = new LabelObjectApi($api, LabelFactoryTest::instance());
 
-        $result = $api->getLabels($query);
+        $result = $api->handleAllLabelsQuery($query);
 
         self::assertNotEmpty($result->getLabels());
     }
