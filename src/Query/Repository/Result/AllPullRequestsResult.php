@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace DevboardLib\GitHubApi\Query\Repository\Result;
 
 use DevboardLib\GitHub\Repo\RepoFullName;
-use DevboardLib\GitHubApi\V4\Object\Repository\Response\PullRequestDetailedResponse;
+use DevboardLib\GitHubApi\Query\Repository\Result\Response\PullRequestDetailedResponse;
 use Webmozart\Assert\Assert;
 
 class AllPullRequestsResult implements RepositoryResult

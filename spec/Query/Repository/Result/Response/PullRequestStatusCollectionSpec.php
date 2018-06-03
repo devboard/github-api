@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace spec\DevboardLib\GitHubApi\V4\Object\Repository\Response;
+namespace spec\DevboardLib\GitHubApi\Query\Repository\Result\Response;
 
 use DevboardLib\GitHub\GitHubStatus;
 use DevboardLib\GitHub\PullRequest\PullRequestNumber;
-use DevboardLib\GitHubApi\V4\Object\Repository\Response\PullRequestStatusCollection;
+use DevboardLib\GitHubApi\Query\Repository\Result\Response\PullRequestStatusCollection;
 use PhpSpec\ObjectBehavior;
 
 class PullRequestStatusCollectionSpec extends ObjectBehavior

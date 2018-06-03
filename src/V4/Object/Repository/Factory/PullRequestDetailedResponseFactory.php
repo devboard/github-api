@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubApi\V4\Object\Repository\Factory;
 
+use DevboardLib\GitHubApi\Query\Repository\Result\Response\PullRequestDetailedResponse;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequest\PullRequestAssigneeCollectionFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequest\PullRequestRequestedReviewerCollectionFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequest\PullRequestReviewCollectionFactory;
-use DevboardLib\GitHubApi\V4\Object\Repository\Response\PullRequestDetailedResponse;
 
 class PullRequestDetailedResponseFactory
 {

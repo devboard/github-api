@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace DevboardLib\GitHubApi\Query\Repository\Result;
 
 use DevboardLib\GitHub\Repo\RepoFullName;
-use DevboardLib\GitHubApi\V4\Object\Repository\Response\BranchStatusCollection;
+use DevboardLib\GitHubApi\Query\Repository\Result\Response\BranchStatusCollection;
 use Webmozart\Assert\Assert;
 
 class AllBranchStatusesResult implements RepositoryResult

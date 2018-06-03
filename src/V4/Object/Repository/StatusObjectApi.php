@@ -11,9 +11,9 @@ use DevboardLib\GitHubApi\Query\Repository\Request\AllBranchStatusesQuery;
 use DevboardLib\GitHubApi\Query\Repository\Request\AllPullRequestStatusesQuery;
 use DevboardLib\GitHubApi\Query\Repository\Result\AllBranchStatusesResult;
 use DevboardLib\GitHubApi\Query\Repository\Result\AllPullRequestStatusesResult;
+use DevboardLib\GitHubApi\Query\Repository\Result\Response\BranchStatusCollection;
+use DevboardLib\GitHubApi\Query\Repository\Result\Response\PullRequestStatusCollection;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\StatusFactory;
-use DevboardLib\GitHubApi\V4\Object\Repository\Response\BranchStatusCollection;
-use DevboardLib\GitHubApi\V4\Object\Repository\Response\PullRequestStatusCollection;
 use DevboardLib\GitHubApi\V4\Raw\Repository\StatusApi;
 
 class StatusObjectApi

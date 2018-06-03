@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace spec\DevboardLib\GitHubApi\V4\Object\Repository\Response;
+namespace spec\DevboardLib\GitHubApi\Query\Repository\Result\Response;
 
 use DevboardLib\Git\Branch\BranchName;
 use DevboardLib\Git\Commit\CommitSha;
 use DevboardLib\GitHub\GitHubStatus;
-use DevboardLib\GitHubApi\V4\Object\Repository\Response\BranchStatusCollection;
+use DevboardLib\GitHubApi\Query\Repository\Result\Response\BranchStatusCollection;
 use PhpSpec\ObjectBehavior;
 
 class BranchStatusCollectionSpec extends ObjectBehavior

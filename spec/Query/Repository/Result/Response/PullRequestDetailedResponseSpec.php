@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace spec\DevboardLib\GitHubApi\V4\Object\Repository\Response;
+namespace spec\DevboardLib\GitHubApi\Query\Repository\Result\Response;
 
 use DevboardLib\GitHub\GitHubLabelCollection;
 use DevboardLib\GitHub\GitHubMilestone;
@@ -10,7 +10,7 @@ use DevboardLib\GitHub\GitHubPullRequest;
 use DevboardLib\GitHub\GitHubPullRequestReviewCollection;
 use DevboardLib\GitHub\PullRequest\PullRequestAssigneeCollection;
 use DevboardLib\GitHub\PullRequest\PullRequestRequestedReviewerCollection;
-use DevboardLib\GitHubApi\V4\Object\Repository\Response\PullRequestDetailedResponse;
+use DevboardLib\GitHubApi\Query\Repository\Result\Response\PullRequestDetailedResponse;
 use PhpSpec\ObjectBehavior;
 
 class PullRequestDetailedResponseSpec extends ObjectBehavior
