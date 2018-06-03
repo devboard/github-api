@@ -32,4 +32,29 @@ class AllPullRequestsResult implements RepositoryResult
     {
         return $this->pullRequestDetailedResponses;
     }
+
+    public function serialize(): array
+    {
+        $pullRequestDetailedResponses = [];
+
+        foreach ($this->pullRequestDetailedResponses as $pullRequestDetailedResponse) {
+            $pullRequestDetailedResponses[] = $pullRequestDetailedResponse->serialize();
+        }
+
+        return [
+            'repoFullName'                 => $this->repoFullName->serialize(),
+            'pullRequestDetailedResponses' => $pullRequestDetailedResponses,
+        ];
+    }
+
+    public static function deserialize(array $data): self
+    {
+        $pullRequestDetailedResponses = [];
+
+        foreach ($data['pullRequestDetailedResponses'] as $pullRequestDetailedResponse) {
+            $pullRequestDetailedResponses[] = PullRequestDetailedResponse::deserialize($pullRequestDetailedResponse);
+        }
+
+        return new self(RepoFullName::deserialize($data['repoFullName']), $pullRequestDetailedResponses);
+    }
 }

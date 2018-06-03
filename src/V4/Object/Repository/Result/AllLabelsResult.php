@@ -32,4 +32,26 @@ class AllLabelsResult implements RepositoryResult
     {
         return $this->labels;
     }
+
+    public function serialize(): array
+    {
+        $labels = [];
+
+        foreach ($this->labels as $label) {
+            $labels[] = $label->serialize();
+        }
+
+        return ['repoFullName' => $this->repoFullName->serialize(), 'labels' => $labels];
+    }
+
+    public static function deserialize(array $data): self
+    {
+        $labels = [];
+
+        foreach ($data['labels'] as $label) {
+            $labels[] = GitHubLabel::deserialize($label);
+        }
+
+        return new self(RepoFullName::deserialize($data['repoFullName']), $labels);
+    }
 }

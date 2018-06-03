@@ -33,4 +33,26 @@ class AllBranchesResult implements RepositoryResult
     {
         return $this->branches;
     }
+
+    public function serialize(): array
+    {
+        $branches = [];
+
+        foreach ($this->branches as $branch) {
+            $branches[] = $branch->serialize();
+        }
+
+        return ['repoFullName' => $this->repoFullName->serialize(), 'branches' => $branches];
+    }
+
+    public static function deserialize(array $data): self
+    {
+        $branches = [];
+
+        foreach ($data['branches'] as $branch) {
+            $branches[] = GitHubBranch::deserialize($branch);
+        }
+
+        return new self(RepoFullName::deserialize($data['repoFullName']), $branches);
+    }
 }
