@@ -49,4 +49,20 @@ class AllPullRequestStatusesQuery implements RepositoryQuery
     {
         return $this->repoFullName;
     }
+
+    public function serialize(): array
+    {
+        return [
+            'repoFullName'            => $this->repoFullName->serialize(),
+            'installationCredentials' => $this->installationCredentials->serialize(),
+        ];
+    }
+
+    public static function deserialize(array $data): self
+    {
+        return new self(
+            RepoFullName::deserialize($data['repoFullName']),
+            InstallationCredentials::deserialize($data['installationCredentials'])
+        );
+    }
 }
