@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace spec\DevboardLib\GitHubApi\V4\Object\Repository\Result;
+namespace spec\DevboardLib\GitHubApi\Query\Repository\Result;
 
 use DevboardLib\GitHub\Repo\RepoFullName;
+use DevboardLib\GitHubApi\Query\Repository\Result\AllBranchStatusesResult;
+use DevboardLib\GitHubApi\Query\Repository\Result\RepositoryResult;
 use DevboardLib\GitHubApi\V4\Object\Repository\Response\BranchStatusCollection;
-use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllBranchStatusesResult;
-use DevboardLib\GitHubApi\V4\Object\Repository\Result\RepositoryResult;
 use PhpSpec\ObjectBehavior;
 
 class AllBranchStatusesResultSpec extends ObjectBehavior

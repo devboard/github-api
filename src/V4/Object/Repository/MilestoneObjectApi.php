@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace DevboardLib\GitHubApi\V4\Object\Repository;
 
 use DevboardLib\GitHubApi\Query\Repository\Request\AllMilestonesQuery;
+use DevboardLib\GitHubApi\Query\Repository\Result\AllMilestonesResult;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\MilestoneFactory;
-use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllMilestonesResult;
 use DevboardLib\GitHubApi\V4\Raw\Repository\MilestoneApi;
 
 class MilestoneObjectApi
