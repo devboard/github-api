@@ -7,7 +7,7 @@ namespace spec\DevboardLib\GitHubApi\Query\Repository\Result;
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHubApi\Query\Repository\Result\AllPullRequestsResult;
 use DevboardLib\GitHubApi\Query\Repository\Result\RepositoryResult;
-use DevboardLib\GitHubApi\V4\Object\Repository\Response\PullRequestDetailedResponse;
+use DevboardLib\GitHubApi\Query\Repository\Result\Response\PullRequestDetailedResponse;
 use PhpSpec\ObjectBehavior;
 
 class AllPullRequestsResultSpec extends ObjectBehavior

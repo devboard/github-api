@@ -7,7 +7,7 @@ namespace spec\DevboardLib\GitHubApi\Query\Repository\Result;
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHubApi\Query\Repository\Result\AllBranchStatusesResult;
 use DevboardLib\GitHubApi\Query\Repository\Result\RepositoryResult;
-use DevboardLib\GitHubApi\V4\Object\Repository\Response\BranchStatusCollection;
+use DevboardLib\GitHubApi\Query\Repository\Result\Response\BranchStatusCollection;
 use PhpSpec\ObjectBehavior;
 
 class AllBranchStatusesResultSpec extends ObjectBehavior

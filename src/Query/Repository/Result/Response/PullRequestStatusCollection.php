@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DevboardLib\GitHubApi\V4\Object\Repository\Response;
+namespace DevboardLib\GitHubApi\Query\Repository\Result\Response;
 
 use DevboardLib\GitHub\GitHubStatus;
 use DevboardLib\GitHub\PullRequest\PullRequestNumber;

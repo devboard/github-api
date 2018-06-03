@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory;
 
+use DevboardLib\GitHubApi\Query\Repository\Result\Response\PullRequestDetailedResponse;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\MilestoneFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequestDetailedResponseFactory;
-use DevboardLib\GitHubApi\V4\Object\Repository\Response\PullRequestDetailedResponse;
 use PHPUnit\Framework\TestCase;
 use Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequest\PullRequestAssigneeCollectionFactoryTest;
 use Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequest\PullRequestRequestedReviewerCollectionFactoryTest;
