@@ -17,7 +17,7 @@ class MilestoneApi
         $this->clientFactory = $clientFactory;
     }
 
-    public function getMilestones(AllMilestonesQuery $query): array
+    public function handleAllMilestonesQuery(AllMilestonesQuery $query): array
     {
         $queryDefinition = file_get_contents(__DIR__.'/milestones.graphql');
 

@@ -18,7 +18,7 @@ class PullRequestApi
         $this->clientFactory = $clientFactory;
     }
 
-    public function getPullRequests(AllPullRequestsQuery $query): array
+    public function handleAllPullRequestsQuery(AllPullRequestsQuery $query): array
     {
         $queryDefinition = file_get_contents(__DIR__.'/pull_requests.graphql');
 

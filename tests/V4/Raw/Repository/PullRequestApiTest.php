@@ -24,7 +24,7 @@ class PullRequestApiTest extends BaseTestCase
 
         $query = AllPullRequestsQuery::create('devboard/git-interfaces', 125958, $userId);
 
-        $data = $api->getPullRequests($query);
+        $data = $api->handleAllPullRequestsQuery($query);
 
         self::assertNotNull($data);
         self::assertEquals(1, count($data));

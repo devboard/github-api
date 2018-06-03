@@ -26,11 +26,11 @@ class BranchObjectApiTest extends TestCase
     public function testGetBranches(AllBranchesQuery $query, $inputData)
     {
         $api = Mockery::mock(BranchApi::class);
-        $api->shouldReceive('getBranches')->andReturn($inputData);
+        $api->shouldReceive('handleAllBranchesQuery')->andReturn($inputData);
 
         $api = new BranchObjectApi($api, BranchFactoryTest::instance());
 
-        $result = $api->getBranches($query);
+        $result = $api->handleAllBranchesQuery($query);
 
         self::assertNotEmpty($result->getBranches());
     }

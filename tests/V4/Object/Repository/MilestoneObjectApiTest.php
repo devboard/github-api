@@ -26,11 +26,11 @@ class MilestoneObjectApiTest extends TestCase
     public function testGetMilestones(AllMilestonesQuery $query, $inputData)
     {
         $api = Mockery::mock(MilestoneApi::class);
-        $api->shouldReceive('getMilestones')->andReturn($inputData);
+        $api->shouldReceive('handleAllMilestonesQuery')->andReturn($inputData);
 
         $api = new MilestoneObjectApi($api, MilestoneFactoryTest::instance());
 
-        $result = $api->getMilestones($query);
+        $result = $api->handleAllMilestonesQuery($query);
 
         self::assertInstanceOf(AllMilestonesResult::class, $result);
     }

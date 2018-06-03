@@ -23,7 +23,7 @@ class MilestoneApiTest extends BaseTestCase
         $api = new MilestoneApi($this->getClientFactory());
 
         $query = AllMilestonesQuery::create('devboard/git-interfaces', 125958, $userId);
-        $data  = $api->getMilestones($query);
+        $data  = $api->handleAllMilestonesQuery($query);
 
         self::assertNotNull($data);
     }

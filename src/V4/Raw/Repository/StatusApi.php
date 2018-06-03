@@ -18,7 +18,7 @@ class StatusApi
         $this->clientFactory = $clientFactory;
     }
 
-    public function getBranches(AllBranchStatusesQuery $query): array
+    public function handleAllBranchStatusesQuery(AllBranchStatusesQuery $query): array
     {
         $queryDefinition = file_get_contents(__DIR__.'/branch_statuses.graphql');
 
@@ -30,7 +30,7 @@ class StatusApi
         return $data;
     }
 
-    public function getPullRequests(AllPullRequestStatusesQuery $query): array
+    public function handleAllPullRequestStatusesQuery(AllPullRequestStatusesQuery $query): array
     {
         $queryDefinition = file_get_contents(__DIR__.'/pull_request_statuses.graphql');
 

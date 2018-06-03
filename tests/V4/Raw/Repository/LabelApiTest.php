@@ -23,7 +23,7 @@ class LabelApiTest extends BaseTestCase
         $api = new LabelApi($this->getClientFactory());
 
         $query = AllLabelsQuery::create('devboard/git-interfaces', 125958, $userId);
-        $data  = $api->getLabels($query);
+        $data  = $api->handleAllLabelsQuery($query);
 
         self::assertNotNull($data);
     }

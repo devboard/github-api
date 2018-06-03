@@ -30,9 +30,9 @@ class StatusObjectApi
         $this->statusFactory = $statusFactory;
     }
 
-    public function getBranches(AllBranchStatusesQuery $query): AllBranchStatusesResult
+    public function handleAllBranchStatusesQuery(AllBranchStatusesQuery $query): AllBranchStatusesResult
     {
-        $data = $this->branchApi->getBranches($query);
+        $data = $this->branchApi->handleAllBranchStatusesQuery($query);
 
         $results = [];
 
@@ -52,9 +52,9 @@ class StatusObjectApi
         return new AllBranchStatusesResult($query->getRepoFullName(), $results);
     }
 
-    public function getPullRequests(AllPullRequestStatusesQuery $query): AllPullRequestStatusesResult
+    public function handleAllPullRequestStatusesQuery(AllPullRequestStatusesQuery $query): AllPullRequestStatusesResult
     {
-        $dataLists = $this->branchApi->getPullRequests($query);
+        $dataLists = $this->branchApi->handleAllPullRequestStatusesQuery($query);
 
         $results = [];
         foreach ($dataLists as $data) {
