@@ -32,4 +32,29 @@ class AllBranchStatusesResult implements RepositoryResult
     {
         return $this->branchStatusCollections;
     }
+
+    public function serialize(): array
+    {
+        $branchStatusCollections = [];
+
+        foreach ($this->branchStatusCollections as $branchStatusCollection) {
+            $branchStatusCollections[] = $branchStatusCollection->serialize();
+        }
+
+        return [
+            'repoFullName'            => $this->repoFullName->serialize(),
+            'branchStatusCollections' => $branchStatusCollections,
+        ];
+    }
+
+    public static function deserialize(array $data): self
+    {
+        $branchStatusCollections = [];
+
+        foreach ($data['branchStatusCollections'] as $branchStatusCollection) {
+            $branchStatusCollections[] = BranchStatusCollection::deserialize($branchStatusCollection);
+        }
+
+        return new self(RepoFullName::deserialize($data['repoFullName']), $branchStatusCollections);
+    }
 }

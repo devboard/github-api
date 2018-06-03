@@ -32,4 +32,26 @@ class AllMilestonesResult implements RepositoryResult
     {
         return $this->milestones;
     }
+
+    public function serialize(): array
+    {
+        $milestones = [];
+
+        foreach ($this->milestones as $milestone) {
+            $milestones[] = $milestone->serialize();
+        }
+
+        return ['repoFullName' => $this->repoFullName->serialize(), 'milestones' => $milestones];
+    }
+
+    public static function deserialize(array $data): self
+    {
+        $milestones = [];
+
+        foreach ($data['milestones'] as $milestone) {
+            $milestones[] = GitHubMilestone::deserialize($milestone);
+        }
+
+        return new self(RepoFullName::deserialize($data['repoFullName']), $milestones);
+    }
 }

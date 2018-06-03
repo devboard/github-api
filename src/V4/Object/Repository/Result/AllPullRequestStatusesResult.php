@@ -32,4 +32,29 @@ class AllPullRequestStatusesResult implements RepositoryResult
     {
         return $this->pullRequestStatusCollections;
     }
+
+    public function serialize(): array
+    {
+        $pullRequestStatusCollections = [];
+
+        foreach ($this->pullRequestStatusCollections as $pullRequestStatusCollection) {
+            $pullRequestStatusCollections[] = $pullRequestStatusCollection->serialize();
+        }
+
+        return [
+            'repoFullName'                 => $this->repoFullName->serialize(),
+            'pullRequestStatusCollections' => $pullRequestStatusCollections,
+        ];
+    }
+
+    public static function deserialize(array $data): self
+    {
+        $pullRequestStatusCollections = [];
+
+        foreach ($data['pullRequestStatusCollections'] as $pullRequestStatusCollection) {
+            $pullRequestStatusCollections[] = PullRequestStatusCollection::deserialize($pullRequestStatusCollection);
+        }
+
+        return new self(RepoFullName::deserialize($data['repoFullName']), $pullRequestStatusCollections);
+    }
 }
