@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace DevboardLib\GitHubApi\V4\Object\Repository;
 
 use DevboardLib\GitHubApi\Query\Repository\Request\AllPullRequestsQuery;
+use DevboardLib\GitHubApi\Query\Repository\Result\AllPullRequestsResult;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequestDetailedResponseFactory;
-use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllPullRequestsResult;
 use DevboardLib\GitHubApi\V4\Raw\Repository\PullRequestApi;
 
 class PullRequestObjectApi

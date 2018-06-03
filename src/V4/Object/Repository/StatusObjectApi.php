@@ -9,11 +9,11 @@ use DevboardLib\Git\Commit\CommitSha;
 use DevboardLib\GitHub\PullRequest\PullRequestNumber;
 use DevboardLib\GitHubApi\Query\Repository\Request\AllBranchStatusesQuery;
 use DevboardLib\GitHubApi\Query\Repository\Request\AllPullRequestStatusesQuery;
+use DevboardLib\GitHubApi\Query\Repository\Result\AllBranchStatusesResult;
+use DevboardLib\GitHubApi\Query\Repository\Result\AllPullRequestStatusesResult;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\StatusFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\Response\BranchStatusCollection;
 use DevboardLib\GitHubApi\V4\Object\Repository\Response\PullRequestStatusCollection;
-use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllBranchStatusesResult;
-use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllPullRequestStatusesResult;
 use DevboardLib\GitHubApi\V4\Raw\Repository\StatusApi;
 
 class StatusObjectApi

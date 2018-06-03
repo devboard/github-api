@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace spec\DevboardLib\GitHubApi\V4\Object\Repository\Result;
+namespace spec\DevboardLib\GitHubApi\Query\Repository\Result;
 
 use DevboardLib\GitHub\GitHubMilestone;
 use DevboardLib\GitHub\Repo\RepoFullName;
-use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllMilestonesResult;
-use DevboardLib\GitHubApi\V4\Object\Repository\Result\RepositoryResult;
+use DevboardLib\GitHubApi\Query\Repository\Result\AllMilestonesResult;
+use DevboardLib\GitHubApi\Query\Repository\Result\RepositoryResult;
 use PhpSpec\ObjectBehavior;
 
 class AllMilestonesResultSpec extends ObjectBehavior
