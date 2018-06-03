@@ -43,4 +43,32 @@ class BranchStatusCollection
     {
         return $this->statuses;
     }
+
+    public function serialize(): array
+    {
+        $statuses = [];
+
+        foreach ($this->statuses as $label) {
+            $statuses[] = $label->serialize();
+        }
+
+        return [
+            'branchName' => $this->branchName->serialize(),
+            'sha'        => $this->sha->serialize(),
+            'statuses'   => $statuses,
+        ];
+    }
+
+    public static function deserialize(array $data): self
+    {
+        $statuses = [];
+
+        foreach ($data['statuses'] as $label) {
+            $statuses[] = GitHubStatus::deserialize($label);
+        }
+
+        return new self(
+            BranchName::deserialize($data['branchName']), CommitSha::deserialize($data['sha']), $statuses
+        );
+    }
 }
