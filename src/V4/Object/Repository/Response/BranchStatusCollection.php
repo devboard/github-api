@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace DevboardLib\GitHubApi\V4\Object\Repository\Response;
 
 use DevboardLib\Git\Branch\BranchName;
+use DevboardLib\Git\Commit\CommitSha;
 use DevboardLib\GitHub\GitHubStatus;
-use Git\Commit\CommitSha;
 use Webmozart\Assert\Assert;
 
 class BranchStatusCollection

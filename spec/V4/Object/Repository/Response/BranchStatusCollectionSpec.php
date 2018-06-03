@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace spec\DevboardLib\GitHubApi\V4\Object\Repository\Response;
 
 use DevboardLib\Git\Branch\BranchName;
+use DevboardLib\Git\Commit\CommitSha;
 use DevboardLib\GitHub\GitHubStatus;
 use DevboardLib\GitHubApi\V4\Object\Repository\Response\BranchStatusCollection;
-use Git\Commit\CommitSha;
 use PhpSpec\ObjectBehavior;
 
 class BranchStatusCollectionSpec extends ObjectBehavior
