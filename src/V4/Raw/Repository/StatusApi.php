@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubApi\V4\Raw\Repository;
 
-use DevboardLib\GitHubApi\Query\Repository\AllBranchStatusesQuery;
-use DevboardLib\GitHubApi\Query\Repository\AllPullRequestStatusesQuery;
+use DevboardLib\GitHubApi\Query\Repository\Request\AllBranchStatusesQuery;
+use DevboardLib\GitHubApi\Query\Repository\Request\AllPullRequestStatusesQuery;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 
 class StatusApi

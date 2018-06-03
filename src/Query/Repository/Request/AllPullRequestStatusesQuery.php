@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace DevboardLib\GitHubApi\Query\Repository;
+namespace DevboardLib\GitHubApi\Query\Repository\Request;
 
 use DevboardLib\GitHub\Account\AccountLogin;
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHub\Repo\RepoName;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
 
-class AllLabelsQuery implements RepositoryQuery
+class AllPullRequestStatusesQuery implements RepositoryQuery
 {
     /** @var RepoFullName */
     private $repoFullName;

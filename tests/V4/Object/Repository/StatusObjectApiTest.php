@@ -6,8 +6,8 @@ namespace Tests\DevboardLib\GitHubApi\V4\Object\Repository;
 
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
-use DevboardLib\GitHubApi\Query\Repository\AllBranchStatusesQuery;
-use DevboardLib\GitHubApi\Query\Repository\AllPullRequestStatusesQuery;
+use DevboardLib\GitHubApi\Query\Repository\Request\AllBranchStatusesQuery;
+use DevboardLib\GitHubApi\Query\Repository\Request\AllPullRequestStatusesQuery;
 use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllPullRequestStatusesResult;
 use DevboardLib\GitHubApi\V4\Object\Repository\StatusObjectApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\StatusApi;

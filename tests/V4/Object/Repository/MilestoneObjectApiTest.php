@@ -6,7 +6,7 @@ namespace Tests\DevboardLib\GitHubApi\V4\Object\Repository;
 
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
-use DevboardLib\GitHubApi\Query\Repository\AllMilestonesQuery;
+use DevboardLib\GitHubApi\Query\Repository\Request\AllMilestonesQuery;
 use DevboardLib\GitHubApi\V4\Object\Repository\MilestoneObjectApi;
 use DevboardLib\GitHubApi\V4\Object\Repository\Result\AllMilestonesResult;
 use DevboardLib\GitHubApi\V4\Raw\Repository\MilestoneApi;

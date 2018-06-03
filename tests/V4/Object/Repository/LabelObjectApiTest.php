@@ -6,7 +6,7 @@ namespace Tests\DevboardLib\GitHubApi\V4\Object\Repository;
 
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
-use DevboardLib\GitHubApi\Query\Repository\AllLabelsQuery;
+use DevboardLib\GitHubApi\Query\Repository\Request\AllLabelsQuery;
 use DevboardLib\GitHubApi\V4\Object\Repository\LabelObjectApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\LabelApi;
 use Mockery;
