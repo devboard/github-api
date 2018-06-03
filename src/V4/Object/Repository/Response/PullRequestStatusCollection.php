@@ -33,4 +33,26 @@ class PullRequestStatusCollection
     {
         return $this->statuses;
     }
+
+    public function serialize(): array
+    {
+        $statuses = [];
+
+        foreach ($this->statuses as $label) {
+            $statuses[] = $label->serialize();
+        }
+
+        return ['number' => $this->number->serialize(), 'statuses' => $statuses];
+    }
+
+    public static function deserialize(array $data): self
+    {
+        $statuses = [];
+
+        foreach ($data['statuses'] as $label) {
+            $statuses[] = GitHubStatus::deserialize($label);
+        }
+
+        return new self(PullRequestNumber::deserialize($data['number']), $statuses);
+    }
 }

@@ -76,4 +76,40 @@ class PullRequestDetailedResponse
     {
         return $this->milestone;
     }
+
+    public function serialize(): array
+    {
+        if (null === $this->milestone) {
+            $milestone = null;
+        } else {
+            $milestone = $this->milestone->serialize();
+        }
+
+        return [
+            'pullRequest'        => $this->pullRequest->serialize(),
+            'assignees'          => $this->assignees->serialize(),
+            'requestedReviewers' => $this->requestedReviewers->serialize(),
+            'reviews'            => $this->reviews->serialize(),
+            'labels'             => $this->labels->serialize(),
+            'milestone'          => $milestone,
+        ];
+    }
+
+    public static function deserialize(array $data): self
+    {
+        if (null === $data['milestone']) {
+            $milestone = null;
+        } else {
+            $milestone = GitHubMilestone::deserialize($data['milestone']);
+        }
+
+        return new self(
+            GitHubPullRequest::deserialize($data['pullRequest']),
+            PullRequestAssigneeCollection::deserialize($data['assignees']),
+            PullRequestRequestedReviewerCollection::deserialize($data['requestedReviewers']),
+            GitHubPullRequestReviewCollection::deserialize($data['reviews']),
+            GitHubLabelCollection::deserialize($data['labels']),
+            $milestone
+        );
+    }
 }
