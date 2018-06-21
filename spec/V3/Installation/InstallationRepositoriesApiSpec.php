@@ -24,6 +24,24 @@ class InstallationRepositoriesApiSpec extends ObjectBehavior
         $this->shouldHaveType(InstallationRepositoriesApi::class);
     }
 
+    public function it_retrieves_all_repositories_of_installation(
+        InstallationCredentials $credentials, GitHubClientFactory $clientFactory, Client $client, AppsApi $appsApi
+    ) {
+        $clientFactory->createAppAndUserAuthenticatedClient($credentials)
+            ->shouldBeCalled()
+            ->willReturn($client);
+
+        $client->apps()
+            ->shouldBeCalled()
+            ->willReturn($appsApi);
+
+        $appsApi->listRepositories()
+            ->shouldBeCalled()
+            ->willReturn(['repositories' => []]);
+
+        $this->allInstallationRepositories($credentials)->shouldReturn([]);
+    }
+
     public function it_retrieves_installation_repositories_accessible_by_user(
         InstallationCredentials $credentials, GitHubClientFactory $clientFactory, Client $client, AppsApi $appsApi
     ) {
