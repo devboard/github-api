@@ -35,6 +35,9 @@ class InstallationRepositoriesApi
         return $data['repositories'];
     }
 
+    /**
+     * @deprecated Remove this in version 2.0 (together with GitHubRepoFactory)
+     */
     public function fetch(InstallationCredentials $credentials)
     {
         $client = $this->clientFactory->createAppAndUserAuthenticatedClient($credentials);
