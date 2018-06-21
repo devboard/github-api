@@ -43,4 +43,14 @@ class JwtTokenAuth implements AuthMethod
         // This is value of Github\Client::AUTH_JWT
         return 'jwt';
     }
+
+    public function serialize(): string
+    {
+        return $this->token;
+    }
+
+    public static function deserialize(string $token): self
+    {
+        return new self($token);
+    }
 }
