@@ -49,4 +49,14 @@ class JwtTokenAuthTest extends TestCase
     {
         self::assertEquals('jwt', $this->jwtTokenAuth->getAuthMethod());
     }
+
+    public function testSerialize()
+    {
+        self::assertEquals($this->token, $this->jwtTokenAuth->serialize());
+    }
+
+    public function testDeserialize()
+    {
+        self::assertEquals($this->jwtTokenAuth, JwtTokenAuth::deserialize($this->token));
+    }
 }

@@ -45,4 +45,15 @@ class JwtTokenAuthSpec extends ObjectBehavior
     {
         $this->getAuthMethod()->shouldReturn('jwt');
     }
+
+    public function it_can_be_serialized()
+    {
+        $this->serialize()->shouldReturn('a1b2c3d4-fake-jwt-github-token');
+    }
+
+    public function it_can_be_deserialized()
+    {
+        $this->deserialize('a1b2c3d4-fake-jwt-github-token')
+            ->shouldReturnAnInstanceOf(JwtTokenAuth::class);
+    }
 }
