@@ -24,6 +24,56 @@ class InstallationRepositoriesApiTest extends TestCase
     /**
      * @group live
      */
+    public function testAllInstallationRepositoriesLive()
+    {
+        $appId          = getenv('GITHUB_TEST_APP_ID');
+        $privateKeyPath = getenv('GITHUB_TEST_APP_PRIVATE_KEY_PATH');
+        $userId         = getenv('GITHUB_TEST_USER_ID');
+
+        if (false === $appId) {
+            self::markTestSkipped('No AppId');
+        }
+        if (false === $privateKeyPath) {
+            self::markTestSkipped('No PrivateKeyPath');
+        }
+        if (false === $userId) {
+            self::markTestSkipped('No user id');
+        }
+        $path = 'file://'.__DIR__.'/../../../'.$privateKeyPath;
+
+        $api = new InstallationRepositoriesApi(
+            new GitHubClientFactory(new JwtTokenBuilder((int) $appId, $path)), GitHubRepoFactoryTest::instance()
+        );
+
+        $results = $api->allInstallationRepositories(InstallationCredentials::create(125958, (int) $userId));
+
+        self::assertCount(30, $results);
+    }
+
+    /**
+     * @group        unit
+     * @dataProvider provideInstallationRepositoriesData
+     */
+    public function testAllInstallationRepositories($data)
+    {
+        $clientFactory = Mockery::mock(GitHubClientFactory::class);
+        $client        = Mockery::mock(Client::class);
+        $appsApi       = Mockery::mock(Apps::class);
+
+        $clientFactory->shouldReceive('createAppAndUserAuthenticatedClient')->andReturn($client);
+        $client->shouldReceive('apps')->andReturn($appsApi);
+        $appsApi->shouldReceive('listRepositories')->andReturn($data);
+
+        $api = new InstallationRepositoriesApi($clientFactory, GitHubRepoFactoryTest::instance());
+
+        $results = $api->allInstallationRepositories(InstallationCredentials::create(125958, 123));
+
+        self::assertGreaterThan(1, count($results));
+    }
+
+    /**
+     * @group live
+     */
     public function testInstallationFactoryLive()
     {
         $appId          = getenv('GITHUB_TEST_APP_ID');

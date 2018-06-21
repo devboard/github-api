@@ -26,6 +26,15 @@ class InstallationRepositoriesApi
         $this->gitHubRepoFactory = $gitHubRepoFactory;
     }
 
+    public function allInstallationRepositories(InstallationCredentials $credentials): array
+    {
+        $client = $this->clientFactory->createAppAndUserAuthenticatedClient($credentials);
+
+        $data = $client->apps()->listRepositories();
+
+        return $data['repositories'];
+    }
+
     public function fetch(InstallationCredentials $credentials)
     {
         $client = $this->clientFactory->createAppAndUserAuthenticatedClient($credentials);
