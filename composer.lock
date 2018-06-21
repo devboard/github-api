@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8fdafe3b0d7093a7a3e888195404b10",
+    "content-hash": "a2092b93cf81fafdb1115e94f273a2b2",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -93,16 +93,16 @@
         },
         {
             "name": "devboard/lib-generix",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/lib-generix.git",
-                "reference": "ea1967846635501b8da1161c379c7d42e88c436e"
+                "reference": "7493922e3fac170cba323b53f8ef0c0a2db4c446"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/lib-generix/zipball/ea1967846635501b8da1161c379c7d42e88c436e",
-                "reference": "ea1967846635501b8da1161c379c7d42e88c436e",
+                "url": "https://api.github.com/repos/devboard/lib-generix/zipball/7493922e3fac170cba323b53f8ef0c0a2db4c446",
+                "reference": "7493922e3fac170cba323b53f8ef0c0a2db4c446",
                 "shasum": ""
             },
             "require": {
@@ -124,11 +124,6 @@
                 "squizlabs/php_codesniffer": "^3.1"
             },
             "type": "project",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.5-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "DevboardLib\\Generix\\": "src/"
@@ -139,7 +134,7 @@
                 "proprietary"
             ],
             "description": "Devboard lib with generix",
-            "time": "2018-05-31T18:32:10+00:00"
+            "time": "2018-06-21T09:09:08+00:00"
         },
         {
             "name": "devboard/lib-git",
@@ -147,17 +142,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/lib-git.git",
-                "reference": "54b8f3eefb835607acfb27eba22c1f27e54dc040"
+                "reference": "206e2a307330fbf077fbe46f76b4ba8393168c74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/lib-git/zipball/54b8f3eefb835607acfb27eba22c1f27e54dc040",
-                "reference": "54b8f3eefb835607acfb27eba22c1f27e54dc040",
+                "url": "https://api.github.com/repos/devboard/lib-git/zipball/206e2a307330fbf077fbe46f76b4ba8393168c74",
+                "reference": "206e2a307330fbf077fbe46f76b4ba8393168c74",
                 "shasum": ""
             },
             "require": {
                 "devboard/git-interfaces": "^0.1.0",
-                "devboard/lib-generix": "0.5.*@dev",
+                "devboard/lib-generix": "^1.0",
                 "php": "^7.1"
             },
             "require-dev": {
@@ -191,7 +186,7 @@
                 "proprietary"
             ],
             "description": "Devboard lib for git",
-            "time": "2018-04-30T19:57:58+00:00"
+            "time": "2018-06-21T09:14:35+00:00"
         },
         {
             "name": "devboard/lib-github",
@@ -199,16 +194,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/lib-github.git",
-                "reference": "1a96dd11c18c55460d397916dc6cdf0c07116f82"
+                "reference": "3587cab06f67dd4febc65b16996e6ccabc490828"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/lib-github/zipball/1a96dd11c18c55460d397916dc6cdf0c07116f82",
-                "reference": "1a96dd11c18c55460d397916dc6cdf0c07116f82",
+                "url": "https://api.github.com/repos/devboard/lib-github/zipball/3587cab06f67dd4febc65b16996e6ccabc490828",
+                "reference": "3587cab06f67dd4febc65b16996e6ccabc490828",
                 "shasum": ""
             },
             "require": {
-                "devboard/lib-generix": "0.5.*@dev",
                 "devboard/lib-git": "0.5.*@dev",
                 "myclabs/php-enum": "^1.5",
                 "php": "^7.1",
@@ -245,7 +239,7 @@
                 "proprietary"
             ],
             "description": "Devboard lib for GitHub",
-            "time": "2018-05-24T20:05:26+00:00"
+            "time": "2018-06-21T09:18:04+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -5543,7 +5537,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "devboard/lib-generix": 20,
         "devboard/lib-git": 20,
         "devboard/lib-github": 20,
         "friendsofphp/php-cs-fixer": 20
