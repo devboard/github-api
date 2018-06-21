@@ -26,6 +26,15 @@ class InstallationsApi
         $this->installationFactory = $installationFactory;
     }
 
+    public function allUserInstallations(AuthMethod $authMethod): array
+    {
+        $client = $this->clientFactory->createAuthenticatedClient($authMethod);
+
+        $data = $client->currentUser()->installations();
+
+        return $data['installations'];
+    }
+
     public function fetch(AuthMethod $authMethod): array
     {
         $client = $this->clientFactory->createAuthenticatedClient($authMethod);

@@ -25,6 +25,48 @@ class InstallationsApiTest extends TestCase
     /**
      * @group live
      */
+    public function testAllUserInstallationsLive()
+    {
+        $token = getenv('GITHUB_TEST_TOKEN');
+
+        if (false === $token) {
+            self::markTestSkipped('No token');
+        }
+
+        $api = new InstallationsApi(
+            new GitHubClientFactory(Mockery::mock(JwtTokenBuilder::class)), InstallationFactoryTest::instance()
+        );
+
+        $results = $api->allUserInstallations(new JwtTokenAuth($token));
+
+        self::assertCount(3, $results);
+    }
+
+    /**
+     * @group        unit
+     * @dataProvider provideInstallationsData
+     */
+    public function testAllUserInstallations($data)
+    {
+        $token          = new JwtTokenAuth('123');
+        $clientFactory  = Mockery::mock(GitHubClientFactory::class);
+        $client         = Mockery::mock(Client::class);
+        $currentUserApi = Mockery::mock(CurrentUser::class);
+
+        $clientFactory->shouldReceive('createAuthenticatedClient')->andReturn($client);
+        $client->shouldReceive('currentUser')->andReturn($currentUserApi);
+        $currentUserApi->shouldReceive('installations')->andReturn($data);
+
+        $api = new InstallationsApi($clientFactory, InstallationFactoryTest::instance());
+
+        $results = $api->allUserInstallations($token);
+
+        self::assertCount(3, $results);
+    }
+
+    /**
+     * @group live
+     */
     public function testInstallationFactoryLive()
     {
         $token = getenv('GITHUB_TEST_TOKEN');

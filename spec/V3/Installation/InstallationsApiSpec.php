@@ -25,6 +25,24 @@ class InstallationsApiSpec extends ObjectBehavior
         $this->shouldHaveType(InstallationsApi::class);
     }
 
+    public function it_should_fetch_all_of_the_user_installations(
+        AuthMethod $authMethod, GitHubClientFactory $clientFactory, Client $client, CurrentUserApi $currentUserApi
+    ) {
+        $clientFactory->createAuthenticatedClient($authMethod)
+            ->shouldBeCalled()
+            ->willReturn($client);
+
+        $client->currentUser()
+            ->shouldBeCalled()
+            ->willReturn($currentUserApi);
+
+        $currentUserApi->installations()
+            ->shouldBeCalled()
+            ->willReturn(['installations' => [['installation1-data'], ['installation2-data']]]);
+
+        $this->allUserInstallations($authMethod);
+    }
+
     public function it_should_fetch_user_installations(
         AuthMethod $authMethod,
         GitHubClientFactory $clientFactory,
