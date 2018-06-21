@@ -35,6 +35,9 @@ class InstallationsApi
         return $data['installations'];
     }
 
+    /**
+     * @deprecated Remove this in version 2.0 (together with InstallationFactory)
+     */
     public function fetch(AuthMethod $authMethod): array
     {
         $client = $this->clientFactory->createAuthenticatedClient($authMethod);
