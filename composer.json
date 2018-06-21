@@ -52,10 +52,5 @@
             "spec\\DevboardLib\\GitHubApi\\": "spec/",
             "Tests\\DevboardLib\\GitHubApi\\": "tests/"
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.6-dev"
-        }
     }
 }
