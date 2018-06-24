@@ -43,21 +43,34 @@ class TestDataRetrieverV4Test extends TestCase
     {
         parent::setUp();
 
-        if (false === getenv('GITHUB_TEST_USER_ID')) {
+        $githubTestUserId            = getenv('GITHUB_TEST_USER_ID');
+        $githubTestUsername          = getenv('GITHUB_TEST_USERNAME');
+        $githubTestAppId             = getenv('GITHUB_TEST_APP_ID');
+        $githubTestAppPrivateKeyPath = getenv('GITHUB_TEST_APP_PRIVATE_KEY_PATH');
+
+        if (false === $githubTestUserId) {
             self::markTestSkipped('No user id');
+
+            return;
         }
-        if (false === getenv('GITHUB_TEST_USERNAME')) {
+        if (false === $githubTestUsername) {
             self::markTestSkipped('No username');
+
+            return;
         }
-        if (false === getenv('GITHUB_TEST_APP_ID')) {
+        if (false === $githubTestAppId) {
             self::markTestSkipped('No AppId');
+
+            return;
         }
-        if (false === getenv('GITHUB_TEST_APP_PRIVATE_KEY_PATH')) {
+        if (false === $githubTestAppPrivateKeyPath) {
             self::markTestSkipped('No PrivateKeyPath');
+
+            return;
         }
 
-        $this->userId   = new UserId((int) getenv('GITHUB_TEST_USER_ID'));
-        $this->username = getenv('GITHUB_TEST_USERNAME');
+        $this->userId   = new UserId((int) $githubTestUserId);
+        $this->username = $githubTestUsername;
 
         $this->clientFactory = $this->getClientFactory();
     }
