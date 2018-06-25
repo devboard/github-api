@@ -1,5 +1,13 @@
 CHANGELOG
 
+Version 1.2.0 [2018-06-25]:
+ - Ugpgrading phpstan (0.10) & infection (0.9dev)
+ - Upgrade devboard/lib-github, min is now 1.1
+ - PHPStan: Ignore json decode expectations
+ - Ignore errors with reading json file content in tests
+ - Insure datetime is given as integer
+ - Save environment variables to local variables and use them to check existance
+
 Version 1.1.0 [2018-06-21]:
 
  - JwtTokenAuth should be serializable
