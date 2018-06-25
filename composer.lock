@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "56ebd9233054f16ec8f6828832da583a",
+    "content-hash": "d0a0d2d87fcb30f420a40d60f8e2ca39",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -93,16 +93,16 @@
         },
         {
             "name": "devboard/lib-generix",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/lib-generix.git",
-                "reference": "06150c6b5a12eea50c799c4676be736ba0d536b4"
+                "reference": "fdd9617f0c3048a951d16a3d1bab2a0c41351537"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/lib-generix/zipball/06150c6b5a12eea50c799c4676be736ba0d536b4",
-                "reference": "06150c6b5a12eea50c799c4676be736ba0d536b4",
+                "url": "https://api.github.com/repos/devboard/lib-generix/zipball/fdd9617f0c3048a951d16a3d1bab2a0c41351537",
+                "reference": "fdd9617f0c3048a951d16a3d1bab2a0c41351537",
                 "shasum": ""
             },
             "require": {
@@ -112,14 +112,14 @@
             "require-dev": {
                 "ciaranmcnulty/phpspec-typehintedmethods": "^3.0",
                 "friendsofphp/php-cs-fixer": "^2.10",
-                "infection/infection": "^0.8.1",
+                "infection/infection": "^0.9@dev",
                 "leanphp/phpspec-code-coverage": "^4.0",
                 "mockery/mockery": "^1.0",
                 "phing/phing": "^2.16",
                 "phpmd/phpmd": "^2.6",
                 "phpspec/phpspec": "^4.2",
-                "phpstan/phpstan": "^0.9.0",
-                "phpstan/phpstan-phpunit": "^0.9.0",
+                "phpstan/phpstan": "^0.10.0",
+                "phpstan/phpstan-phpunit": "^0.10.0",
                 "phpunit/phpunit": "^7.0",
                 "slevomat/coding-standard": "^4.0",
                 "squizlabs/php_codesniffer": "^3.1"
@@ -135,38 +135,38 @@
                 "proprietary"
             ],
             "description": "Devboard lib with generix",
-            "time": "2018-06-21T14:35:14+00:00"
+            "time": "2018-06-25T08:44:17+00:00"
         },
         {
             "name": "devboard/lib-git",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/lib-git.git",
-                "reference": "947ed9e806116fa03a75cb189f0ef4d4f7a79a6e"
+                "reference": "80b38b92e875e105b0852056ac6503d0930a2881"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/lib-git/zipball/947ed9e806116fa03a75cb189f0ef4d4f7a79a6e",
-                "reference": "947ed9e806116fa03a75cb189f0ef4d4f7a79a6e",
+                "url": "https://api.github.com/repos/devboard/lib-git/zipball/80b38b92e875e105b0852056ac6503d0930a2881",
+                "reference": "80b38b92e875e105b0852056ac6503d0930a2881",
                 "shasum": ""
             },
             "require": {
                 "devboard/git-interfaces": "^1.0",
-                "devboard/lib-generix": "^1.0",
+                "devboard/lib-generix": "^1.2",
                 "php": "^7.1"
             },
             "require-dev": {
                 "ciaranmcnulty/phpspec-typehintedmethods": "^3.0",
                 "friendsofphp/php-cs-fixer": "^2.10",
-                "infection/infection": "^0.8.1",
+                "infection/infection": "^0.9@dev",
                 "leanphp/phpspec-code-coverage": "^4.0",
                 "mockery/mockery": "^1.0",
                 "phing/phing": "^2.16",
                 "phpmd/phpmd": "^2.6",
                 "phpspec/phpspec": "^4.2",
-                "phpstan/phpstan": "^0.9.0",
-                "phpstan/phpstan-phpunit": "^0.9.0",
+                "phpstan/phpstan": "^0.10.0",
+                "phpstan/phpstan-phpunit": "^0.10.0",
                 "phpunit/phpunit": "^7.0",
                 "slevomat/coding-standard": "^4.0",
                 "squizlabs/php_codesniffer": "^3.1"
@@ -182,24 +182,24 @@
                 "proprietary"
             ],
             "description": "Devboard lib for git",
-            "time": "2018-06-21T09:51:56+00:00"
+            "time": "2018-06-25T08:48:10+00:00"
         },
         {
             "name": "devboard/lib-github",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/lib-github.git",
-                "reference": "7f1765bb55cccfbd9105188401ffd95fcd37ca75"
+                "reference": "9bc2c8d65b2ffe360c23ed3b507ecf94c7269083"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/lib-github/zipball/7f1765bb55cccfbd9105188401ffd95fcd37ca75",
-                "reference": "7f1765bb55cccfbd9105188401ffd95fcd37ca75",
+                "url": "https://api.github.com/repos/devboard/lib-github/zipball/9bc2c8d65b2ffe360c23ed3b507ecf94c7269083",
+                "reference": "9bc2c8d65b2ffe360c23ed3b507ecf94c7269083",
                 "shasum": ""
             },
             "require": {
-                "devboard/lib-git": "^1.0",
+                "devboard/lib-git": "^1.1",
                 "myclabs/php-enum": "^1.5",
                 "php": "^7.1",
                 "webmozart/assert": "^1.2"
@@ -207,14 +207,14 @@
             "require-dev": {
                 "ciaranmcnulty/phpspec-typehintedmethods": "^3.0",
                 "friendsofphp/php-cs-fixer": "dev-long-line-fixers2",
-                "infection/infection": "^0.8.1",
+                "infection/infection": "^0.9@dev",
                 "leanphp/phpspec-code-coverage": "^4.0",
                 "mockery/mockery": "^1.0",
                 "phing/phing": "^2.16",
                 "phpmd/phpmd": "^2.6",
                 "phpspec/phpspec": "^4.2",
-                "phpstan/phpstan": "^0.9.0",
-                "phpstan/phpstan-phpunit": "^0.9.0",
+                "phpstan/phpstan": "^0.10.0",
+                "phpstan/phpstan-phpunit": "^0.10.0",
                 "phpunit/phpunit": "^7.0",
                 "slevomat/coding-standard": "^4.0",
                 "squizlabs/php_codesniffer": "^3.1"
@@ -230,7 +230,7 @@
                 "proprietary"
             ],
             "description": "Devboard lib for GitHub",
-            "time": "2018-06-21T10:00:01+00:00"
+            "time": "2018-06-25T08:51:58+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
