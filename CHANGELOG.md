@@ -1,5 +1,13 @@
 CHANGELOG
 
+
+Version 1.3.0 [2018-07-01]:
+ - Adding allBranchStatuses() && allPullRequestStatuses() + deprecating old ones
+ - Adding allPullRequests() and deprecating old one
+ - Adding allMilestones() and deprecating old one
+ - Adding allLabels() and deprecating old one
+ - Adding allBranches() and deprecating old one
+
 Version 1.2.0 [2018-06-25]:
  - Ugpgrading phpstan (0.10) & infection (0.9dev)
  - Upgrade devboard/lib-github, min is now 1.1
