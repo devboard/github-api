@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnkyODQ1NzgyMw==",
             "name": "freeCodeCamp",
             "milestones": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Y3Vyc29yOnYyOpHOAB7DLA=="
+                },
                 "edges": [
                     {
                         "node": {
@@ -519,15 +523,7 @@
                             "dueOn": "2016-09-30T00:00:00Z",
                             "state": "CLOSED",
                             "number": 25,
-                            "creator": {
-                                "id": "MDQ6VXNlcjExMTk4OTEy",
-                                "login": "vietnamkong",
-                                "name": "Vietnamese Donkey",
-                                "__typename": "User",
-                                "avatarUrl": "https://avatars1.githubusercontent.com/u/11198912?v=4",
-                                "url": "https://github.com/vietnamkong",
-                                "isSiteAdmin": false
-                            },
+                            "creator": null,
                             "closedAt": "2016-10-13T19:41:17Z",
                             "createdAt": "2016-09-20T09:36:27Z",
                             "updatedAt": "2016-10-13T19:41:17Z"
