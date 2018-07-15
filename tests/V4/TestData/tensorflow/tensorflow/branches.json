@@ -1,13 +1,14 @@
 {
     "data": {
         "repository": {
-            "id": "MDEwOlJlcG9zaXRvcnk0NTcxNzI1MA==",
-            "name": "tensorflow",
             "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "MzM="
+                },
                 "edges": [
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6MC42LjA=",
                             "name": "0.6.0",
                             "target": {
                                 "oid": "4be56f381cd000e91f79209aaf150636db6fb840",
@@ -16,14 +17,13 @@
                                 "author": {
                                     "name": "Vijay Vasudevan",
                                     "email": "vrv@google.com",
-                                    "date": "2016-02-13T21:47:45Z",
+                                    "date": "2016-02-13T13:47:45-08:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjQ2MzczNw==",
                                         "login": "vrv",
                                         "name": "Vijay Vasudevan",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/463737?v=4",
-                                        "url": "https://github.com/vrv",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -37,39 +37,438 @@
                                         "name": "Vijay Vasudevan",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/463737?v=4",
-                                        "url": "https://github.com/vrv",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "6e618663b68f60cd51f2f200a06c6363a2c34aa4",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/6e618663b68f60cd51f2f200a06c6363a2c34aa4",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/6e618663b68f60cd51f2f200a06c6363a2c34aa4"
+                                    "oid": "6e618663b68f60cd51f2f200a06c6363a2c34aa4"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "09e2e823bdbcb86542acef851c42754578be3f6c",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/09e2e823bdbcb86542acef851c42754578be3f6c",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/09e2e823bdbcb86542acef851c42754578be3f6c"
+                                                "oid": "09e2e823bdbcb86542acef851c42754578be3f6c"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "c98c91b53074fa7697303e95e7e1e8b8941c59e9",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/c98c91b53074fa7697303e95e7e1e8b8941c59e9",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/c98c91b53074fa7697303e95e7e1e8b8941c59e9"
+                                                "oid": "c98c91b53074fa7697303e95e7e1e8b8941c59e9"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "achowdhery-patch-1",
+                            "target": {
+                                "oid": "ea497b5cc37da9a07e0ce259445b4ab0432a8c69",
+                                "message": "Add pets_labels_list.txt to Android assets directory for TensorFlow Lite Object Detection app.",
+                                "authoredDate": "2018-07-08T22:46:15Z",
+                                "author": {
+                                    "name": "achowdhery",
+                                    "email": "4723042+achowdhery@users.noreply.github.com",
+                                    "date": "2018-07-08T15:46:15-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ3MjMwNDI=",
+                                        "login": "achowdhery",
+                                        "name": "achowdhery",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/4723042?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-07-08T15:46:15-07:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "3343bd4b8bbc6d66bc1d7ed0ddabb1d197ff01da"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "35287be3bb7daa0448af064f5d005a25201d6853"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 3343bd4b8bbc6d66bc1d7ed0ddabb1d197ff01da\nparent 35287be3bb7daa0448af064f5d005a25201d6853\nauthor achowdhery <4723042+achowdhery@users.noreply.github.com> 1531089975 -0700\ncommitter GitHub <noreply@github.com> 1531089975 -0700\n\nAdd pets_labels_list.txt to Android assets directory for TensorFlow Lite Object Detection app.",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbQpQ3CRBK7hj4Ov3rIwAAdHIIAA6xeb977Z/Il4as0EwHgA2C\nrzbSuSQjc7kd0CQATn98fkDzTtJ3ArjZH1YinKHH8tECurZolYGBAXpQ6MLGfFOL\nXooD4y6fzmae8SZu6d/dgyW8X4vywS9+isJjTNJ8qVxcLEQSW3pMBa9kGx4NGxE2\no8YecTZfWBR27YAKDwYXGVhorBYx54l0U1h5OioCfnS+gnCvJc4kYAEMiDTGDqjE\nQnhkFsDAIXbU80CGE7LyQRhduLUFB1qOmKXMpgmNr3VXbDEMKy1yOOdIuOGDThYS\ngmF1YyvRD6arZLAtSh8LT1Ylk0uQmmN9c3dtmcP+R7URMK+aPdineJJRdmPoOho=\n=LmBW\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6YW5kcmV3aGFycC1wYXRjaC0x",
+                            "name": "achowdhery-patch-2-1",
+                            "target": {
+                                "oid": "d6dc6c9d48c328199e6444e1a52480548073a595",
+                                "message": "Update README.md",
+                                "authoredDate": "2018-07-12T02:32:23Z",
+                                "author": {
+                                    "name": "achowdhery",
+                                    "email": "4723042+achowdhery@users.noreply.github.com",
+                                    "date": "2018-07-11T19:32:23-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ3MjMwNDI=",
+                                        "login": "achowdhery",
+                                        "name": "achowdhery",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/4723042?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-07-11T19:32:23-07:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "a0397b97cea5d2db22b05c480501f6f34c5a25d5"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "8160eb37c78ae935f35884152f5d859e3ef428cc"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree a0397b97cea5d2db22b05c480501f6f34c5a25d5\nparent 8160eb37c78ae935f35884152f5d859e3ef428cc\nauthor achowdhery <4723042+achowdhery@users.noreply.github.com> 1531362743 -0700\ncommitter GitHub <noreply@github.com> 1531362743 -0700\n\nUpdate README.md",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbRr23CRBK7hj4Ov3rIwAAdHIIAHVdWT46fsG6L9mhvxwne7t6\noBAbdwhdmOs1YDJDKAj/3C8v1Nur2XokqCLCP7GP2kPIvTF6GUEDNQtWIvZjdnFS\nUGx19v3SdRmu+5YJAq2qnFGOdKX4BA3xV8s2RIjbtKG5p0pZSz0zb4ymTx4Qwyh0\nY+ZuLJnuIJDKZSXR8sOjblRc2hYyKoUSzSRuMZB2Dy6YWlab+pjDYd00ZOMUC/tc\nDEG0tJhzj1OHbBUa2Z6XOxR5s4LjKUFuQKNTI5msfzwRJsbfYPvUpkXpqzmjrs7Y\nALO2WAuXualNbssHEDsFnbn+IP7edQERQ5cz3im/g7sIKUQvXaXlEhniuPaq3Os=\n=X0Id\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "achowdhery-patch-2",
+                            "target": {
+                                "oid": "ec6d17219c786b5e144219b8be9481989a980133",
+                                "message": "Update README.md\n\nAdd 64 bit support flag in instructions for building the mobile app",
+                                "authoredDate": "2018-07-12T01:37:16Z",
+                                "author": {
+                                    "name": "achowdhery",
+                                    "email": "4723042+achowdhery@users.noreply.github.com",
+                                    "date": "2018-07-11T18:37:16-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ3MjMwNDI=",
+                                        "login": "achowdhery",
+                                        "name": "achowdhery",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/4723042?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-07-11T18:37:16-07:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "9e4c1d08ad5e06b7c9b04351dfad9755bd05b5ac"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "4ddcd6999a68335daf225fbd170d70f3d733b74f"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 9e4c1d08ad5e06b7c9b04351dfad9755bd05b5ac\nparent 4ddcd6999a68335daf225fbd170d70f3d733b74f\nauthor achowdhery <4723042+achowdhery@users.noreply.github.com> 1531359436 -0700\ncommitter GitHub <noreply@github.com> 1531359436 -0700\n\nUpdate README.md\n\nAdd 64 bit support flag in instructions for building the mobile app",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbRrDMCRBK7hj4Ov3rIwAAdHIIADs/JnyF4r/+/gOU/4+hdRJm\n1B0/VZg2TDGNmOoYprgwQhNE4sV9heVvnuFaJjNr6SvY7Vq5a8kIjhzQLjVt0UhA\naKi+slgpKgNc3lcDuQPyEcY3Ge3At7QbZHG1QlhdAimiO46Jiu+9H/w9V/6xOhJF\n2GgNmvdWcVFAg71Vgwp8ZiJVeFM2QEpL88DMN683+VwWemgOEnMMZYvYJofAl9j2\nHlIxgghTuKso2ZBMk7KGQfJaGBCD7P7pzKEwbZo6kIzijoDq5hppIugH/GXajU7N\nvDYMHfVQabFy1Bl1BPrZxjCo0rkFRn66NVCjGCW/6Aw2EkBlTDWeCIpUNm13khg=\n=F3Mx\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "achowdhery-patch-3",
+                            "target": {
+                                "oid": "bec9c597d8d2bd25bf9b4fa3ad971ce6580f850d",
+                                "message": "Update README.md",
+                                "authoredDate": "2018-07-12T02:33:14Z",
+                                "author": {
+                                    "name": "achowdhery",
+                                    "email": "4723042+achowdhery@users.noreply.github.com",
+                                    "date": "2018-07-11T19:33:14-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ3MjMwNDI=",
+                                        "login": "achowdhery",
+                                        "name": "achowdhery",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/4723042?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-07-11T19:33:14-07:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "daf8bdb10f6602230474a30ecce0e8dfd7fb0766"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "6e359e1de763eafad9c1aec6a80c14b8e4a97767"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree daf8bdb10f6602230474a30ecce0e8dfd7fb0766\nparent 6e359e1de763eafad9c1aec6a80c14b8e4a97767\nauthor achowdhery <4723042+achowdhery@users.noreply.github.com> 1531362794 -0700\ncommitter GitHub <noreply@github.com> 1531362794 -0700\n\nUpdate README.md",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbRr3qCRBK7hj4Ov3rIwAAdHIIAEN6npA6oHxCinG9D5YKhTjn\nMyEM1wNz9vsKXwsKMB6RJY4qlyHU7Zx7tifrYpwcYUVHOxTNKKs3x8nVcO5Ty3+y\nZJoRnhgAebbDBrJ6xFm76TlbRdyEuAjfi8KGjIenjVOarnbpV1urgqiMkWCKJ+zm\n90KfQ3Tru5vc2knu0RTYgrjQ/dvWLjcyLOdpc1AYvM83TceSzVXAbF4t6/uxtSuR\nP854NUFjthHawfLM4Db7GeS9I9a94gGAWBhcF1lqDJZyOCOXYZfCSkQzpeszNxKX\nyb6dG2J1U1P19Lhdbgpsk5a3NcRGY5KhTLcT6ch8E8yW/Q7pX6Q5E5hBPGzvJ2k=\n=RsBi\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "achowdhery-patch-4",
+                            "target": {
+                                "oid": "e73533ef3aa0e4dbab72c728662f33d364c7ec9c",
+                                "message": "Update README.md",
+                                "authoredDate": "2018-07-12T02:30:56Z",
+                                "author": {
+                                    "name": "achowdhery",
+                                    "email": "4723042+achowdhery@users.noreply.github.com",
+                                    "date": "2018-07-11T19:30:56-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ3MjMwNDI=",
+                                        "login": "achowdhery",
+                                        "name": "achowdhery",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/4723042?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-07-11T19:30:56-07:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "abe9a3abd315248b5b17488b142853a7cf5d0387"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "fb00bcaf5dcdb1b96fd10e8fd2c5c99bfe903dd2"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree abe9a3abd315248b5b17488b142853a7cf5d0387\nparent fb00bcaf5dcdb1b96fd10e8fd2c5c99bfe903dd2\nauthor achowdhery <4723042+achowdhery@users.noreply.github.com> 1531362656 -0700\ncommitter GitHub <noreply@github.com> 1531362656 -0700\n\nUpdate README.md",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbRr1gCRBK7hj4Ov3rIwAAdHIIAD+tc3lYW7iHJte13mO0Ruoi\nRltYILDtiWxblQHt22ehF6ZpcKsVCy3l0638P6l4D8S1AwfEC8jRKuwqQiybRt0L\na9uIY4x4iKdyJ4Krr6XxH9XwZnQv8qN45nPqkP4vAmDvF9VaqL9cl82vlH+hoSLy\nxHZCS2lmyxlNAO0BPHvFUjrhCnlbj16mhZomjZKobZOXEGNr5dn0t8qhwp2nWQ1r\nJY27gDN9nTvqmEPmHod1YlonHeOMmtw0QmpNMJgeGcAYgLTpwE8GeoE7gjMNukB4\nlbPijGhqOmu4RdWFKkQMTG9MbRnovzvshGKgayKrD5Xo1tz9am7p5KqEz3GESKo=\n=fANc\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "alextp-patch-1",
+                            "target": {
+                                "oid": "fbc80b7731f4bc1a0c816da97208dd2b2e0ea996",
+                                "message": "Fix notebook json",
+                                "authoredDate": "2018-07-09T18:52:28Z",
+                                "author": {
+                                    "name": "Alexandre Passos",
+                                    "email": "apassos@google.com",
+                                    "date": "2018-07-09T11:52:28-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjUwNjE=",
+                                        "login": "alextp",
+                                        "name": "Alexandre Passos",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/5061?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-07-09T11:52:28-07:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "56e15f9c32c1952bcb655fe0b398612662f8f851"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "bcf7e315b4031b3c355af12ca2a4961bcd25c248"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 56e15f9c32c1952bcb655fe0b398612662f8f851\nparent bcf7e315b4031b3c355af12ca2a4961bcd25c248\nauthor Alexandre Passos <apassos@google.com> 1531162348 -0700\ncommitter GitHub <noreply@github.com> 1531162348 -0700\n\nFix notebook json",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbQ67sCRBK7hj4Ov3rIwAAdHIIAFIUj0C4OYtRDLf+5ITBu9R5\nvDx/JUyHU50uSHNe+u5javtQM1mCyqjQyGj7YG/djwLjlFA40wPYNaCm4OVst172\nTtuR9wbwD1Y5dw5cU/astFUsYXu2aY6kFDOh0tIBbWIGmxIQOJfIeTZSltV211vd\n2oJJ2RVa43GzOTwHpRWagw3MQ0cn0pxAy7v0esLBSIYT/VNyMcVq9flereq6SXHG\nh+xggWXCT3VIxAuCUPpjZYQ/SYqEuMODSnTVlQC6Ei2bKdfRBa1f6Bg+37t5bSJo\nv6ijdJ+DnrVii+g/vfX1APiU6BXmaccrOsQgc6BD8mVtXUe9A8BIu0G25kdJLe0=\n=Vafk\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "alextp-patch-2",
+                            "target": {
+                                "oid": "f598f874edb60b6b273d3ce39442d1571883ee45",
+                                "message": "Update 1_basic.ipynb",
+                                "authoredDate": "2018-07-09T18:53:15Z",
+                                "author": {
+                                    "name": "Alexandre Passos",
+                                    "email": "apassos@google.com",
+                                    "date": "2018-07-09T11:53:15-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjUwNjE=",
+                                        "login": "alextp",
+                                        "name": "Alexandre Passos",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/5061?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-07-09T11:53:15-07:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "56e15f9c32c1952bcb655fe0b398612662f8f851"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "bcf7e315b4031b3c355af12ca2a4961bcd25c248"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 56e15f9c32c1952bcb655fe0b398612662f8f851\nparent bcf7e315b4031b3c355af12ca2a4961bcd25c248\nauthor Alexandre Passos <apassos@google.com> 1531162395 -0700\ncommitter GitHub <noreply@github.com> 1531162395 -0700\n\nUpdate 1_basic.ipynb",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbQ68bCRBK7hj4Ov3rIwAAdHIIAGzBtBKXXVSRR8asffql4FDU\nYjU2hLlAn0Lf0+VazzSVspeqxqCH2y4AW+5Kku7lkESuRU1JYtGasPmpONd5xHs/\n6efwKEoNnel8u5IZDf8o+uAqAvC8mHcNVpofatP91Oy6+/N2d2zJv04LU//ykEPS\nw0ij6jQoZMQrqBLuIv1JQP6Zb9LIV/lFOFZ9N7fuNsVqo6Yu4bqtmAOxcDB94AFf\nJTyzr/bPVa83BqovrmyneXs6FZbGqUi6RH9iLuIevPVo6EiP3PzAtaxAG2h5Gx7o\nErP6HaocXLo73NDKPG/mBUf8e5/urpXCJEM+Bj10Vpry9KEx2RnFH1xC57CL1NE=\n=wfm7\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
                             "name": "andrewharp-patch-1",
                             "target": {
                                 "oid": "f632dab4c90029c219fe650abbd9810993490348",
@@ -78,14 +477,13 @@
                                 "author": {
                                     "name": "Andrew Harp",
                                     "email": "andrewharp@users.noreply.github.com",
-                                    "date": "2018-03-31T23:08:04Z",
+                                    "date": "2018-03-31T19:08:04-04:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjMzNzY4MTc=",
                                         "login": "andrewharp",
                                         "name": "Andrew Harp",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/3376817?v=4",
-                                        "url": "https://github.com/andrewharp",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -96,293 +494,97 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "c5a47bee7f6f0180fc8a1069479dcbd8401be2c2",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/c5a47bee7f6f0180fc8a1069479dcbd8401be2c2",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/c5a47bee7f6f0180fc8a1069479dcbd8401be2c2"
+                                    "oid": "c5a47bee7f6f0180fc8a1069479dcbd8401be2c2"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "f16b50e388543d2c05698926aa1ef265090dda6b",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/f16b50e388543d2c05698926aa1ef265090dda6b",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/f16b50e388543d2c05698926aa1ef265090dda6b"
+                                                "oid": "f16b50e388543d2c05698926aa1ef265090dda6b"
                                             }
                                         }
                                     ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6YnJhbmNoXzE4OTA0MTQyMQ==",
-                            "name": "branch_189041421",
-                            "target": {
-                                "oid": "1b184b8043e80705c57ce1ec2e824d3bb1fb6911",
-                                "message": "Fix broken link of TensorFlow Debugger (tfdbg) in layers tutorials (#17711)\n\n* Fix broken link of TensorFlow Debugger (tfdbg) in layers tutorials",
-                                "authoredDate": "2018-03-14T16:38:21Z",
-                                "author": {
-                                    "name": "ImSheridan",
-                                    "email": "xiaoyudong-512@163.com",
-                                    "date": "2018-03-14T16:38:21Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjE2ODA5Nzc=",
-                                        "login": "imsheridan",
-                                        "name": "ImSheridan",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/1680977?v=4",
-                                        "url": "https://github.com/imsheridan",
-                                        "isSiteAdmin": false
-                                    }
                                 },
-                                "committer": {
-                                    "name": "Shanqing Cai",
-                                    "email": "cais@google.com",
-                                    "date": "2018-03-14T12:38:21-04:00",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjE2ODI0NzAy",
-                                        "login": "caisq",
-                                        "name": "Shanqing Cai",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/16824702?v=4",
-                                        "url": "https://github.com/caisq",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "tree": {
-                                    "oid": "2d5399650d27e4e5177cdcc14a86daa11b3f2383",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/2d5399650d27e4e5177cdcc14a86daa11b3f2383",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/2d5399650d27e4e5177cdcc14a86daa11b3f2383"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "841646787402fe4c273857fbc59457dd15f7c102",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/841646787402fe4c273857fbc59457dd15f7c102",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/841646787402fe4c273857fbc59457dd15f7c102"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6Y2hlcnJ5cGlja3NfM083NE8=",
-                            "name": "cherrypicks_3O74O",
-                            "target": {
-                                "oid": "d5f69aac5bcae725c560a89ddb6829839e604d39",
-                                "message": "Merge branch 'r1.8' into cherrypicks_3O74O",
-                                "authoredDate": "2018-04-24T17:43:57Z",
-                                "author": {
-                                    "name": "Yifei Feng",
-                                    "email": "1192265+yifeif@users.noreply.github.com",
-                                    "date": "2018-04-24T17:43:57Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjExOTIyNjU=",
-                                        "login": "yifeif",
-                                        "name": "Yifei Feng",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/1192265?v=4",
-                                        "url": "https://github.com/yifeif",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
-                                    "name": "GitHub",
+                                "signature": {
                                     "email": "noreply@github.com",
-                                    "date": "2018-04-24T10:43:57-07:00",
-                                    "user": null
-                                },
-                                "tree": {
-                                    "oid": "1b8778e645358f95443063b88c921cec25921f58",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/1b8778e645358f95443063b88c921cec25921f58",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/1b8778e645358f95443063b88c921cec25921f58"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "89208c803a3f748af947bb0edbb8aab6f826db63",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/89208c803a3f748af947bb0edbb8aab6f826db63",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/89208c803a3f748af947bb0edbb8aab6f826db63"
-                                            }
-                                        },
-                                        {
-                                            "node": {
-                                                "oid": "eb6fba5db757739a342d7710590caa5e9887d03a",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/eb6fba5db757739a342d7710590caa5e9887d03a",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/eb6fba5db757739a342d7710590caa5e9887d03a"
-                                            }
-                                        }
-                                    ]
+                                    "isValid": true,
+                                    "payload": "tree c5a47bee7f6f0180fc8a1069479dcbd8401be2c2\nparent f16b50e388543d2c05698926aa1ef265090dda6b\nauthor Andrew Harp <andrewharp@users.noreply.github.com> 1522537684 -0400\ncommitter GitHub <noreply@github.com> 1522537684 -0400\n\nUpdate build.gradle",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJawBTUCRBK7hj4Ov3rIwAAdHIIAAZAx2tAGS/gV0kWFUi+m5tT\nKFgm7XoabIMkSm736u0/OdYypH0thuXNRqbJY5dQ19Ln2M8Twb+ONxn+7bZa22UC\nbFVUuKawUqV3YpnZlT2N0dRso15FMJ98cA/2dvx2TYBdlidQ8B8xPoN0hhJdCwu5\n6p77GYgFIU+u+/s4lVbNxpe3CMGPEGCe/r1Ri8b2k2XTv4qsSDY7s86mOg+VhUVT\nOclhCE9flRsAqFDwu/rdPDnQFIbgMt/q4wT8NMB53W2RloAkLxdMfEOWAA1+X4/d\nV59dQinZW21HKVMUwjB+u5wKoaR8zP5dPVhZWYmcGvQ36GEm/OCmk0aeIud+GI4=\n=4tX4\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6ZnJhbmtjaG4tcjEuNQ==",
-                            "name": "frankchn-r1.5",
-                            "target": {
-                                "oid": "87795fe4319d9ac6d895b004b7bb6c2f91b91b39",
-                                "message": "Enable branch prediction in TensorFlow\n\nPiperOrigin-RevId: 191788253",
-                                "authoredDate": "2018-04-05T20:23:08Z",
-                                "author": {
-                                    "name": "Justine Tunney",
-                                    "email": "jart@google.com",
-                                    "date": "2018-04-05T20:23:08Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjQ5MjYy",
-                                        "login": "jart",
-                                        "name": "Justine Tunney",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/49262?v=4",
-                                        "url": "https://github.com/jart",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
-                                    "name": "Frank Chen",
-                                    "email": "frankchn@google.com",
-                                    "date": "2018-04-17T23:07:13Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjY5MTYyOA==",
-                                        "login": "frankchn",
-                                        "name": "Frank Chen",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/691628?v=4",
-                                        "url": "https://github.com/frankchn",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "tree": {
-                                    "oid": "3f7d36bfa6adf5916f5ffb4e13b98dfa1c68557b",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/3f7d36bfa6adf5916f5ffb4e13b98dfa1c68557b",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/3f7d36bfa6adf5916f5ffb4e13b98dfa1c68557b"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "48aeacaebc11e986cc6678a9db22826ee8fcb36a",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/48aeacaebc11e986cc6678a9db22826ee8fcb36a",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/48aeacaebc11e986cc6678a9db22826ee8fcb36a"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6ZnJhbmtjaG4tcjEuNg==",
-                            "name": "frankchn-r1.6",
-                            "target": {
-                                "oid": "1b6531fe224868b4fa841b9363b03c0e0bbe1113",
-                                "message": "Enable branch prediction in TensorFlow\n\nPiperOrigin-RevId: 191788253",
-                                "authoredDate": "2018-04-05T20:23:08Z",
-                                "author": {
-                                    "name": "Justine Tunney",
-                                    "email": "jart@google.com",
-                                    "date": "2018-04-05T20:23:08Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjQ5MjYy",
-                                        "login": "jart",
-                                        "name": "Justine Tunney",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/49262?v=4",
-                                        "url": "https://github.com/jart",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
-                                    "name": "Frank Chen",
-                                    "email": "frankchn@google.com",
-                                    "date": "2018-04-17T22:47:37Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjY5MTYyOA==",
-                                        "login": "frankchn",
-                                        "name": "Frank Chen",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/691628?v=4",
-                                        "url": "https://github.com/frankchn",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "tree": {
-                                    "oid": "a454c5f31e314624481ae122993583ee6370018a",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/a454c5f31e314624481ae122993583ee6370018a",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/a454c5f31e314624481ae122993583ee6370018a"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "161dda3e4f352a5c74d29e12cdef150b8ca877a9",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/161dda3e4f352a5c74d29e12cdef150b8ca877a9",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/161dda3e4f352a5c74d29e12cdef150b8ca877a9"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6bWFydGlud2lja2UtcGF0Y2gtMQ==",
                             "name": "martinwicke-patch-1",
                             "target": {
-                                "oid": "24a31d2b59feb1fde519ea36a2fa9cda8860ccf9",
-                                "message": "Kill all the tabs",
-                                "authoredDate": "2018-02-15T19:27:23Z",
+                                "oid": "5ffb63addaebda5757ae67bc7bcab99a25588537",
+                                "message": "Fix code block formatting",
+                                "authoredDate": "2018-06-26T23:53:25Z",
                                 "author": {
                                     "name": "Martin Wicke",
                                     "email": "577277+martinwicke@users.noreply.github.com",
-                                    "date": "2018-02-15T19:27:23Z",
+                                    "date": "2018-06-26T16:53:25-07:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjU3NzI3Nw==",
                                         "login": "martinwicke",
                                         "name": "Martin Wicke",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/577277?v=4",
-                                        "url": "https://github.com/martinwicke",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
                                     "name": "GitHub",
                                     "email": "noreply@github.com",
-                                    "date": "2018-02-15T11:27:23-08:00",
+                                    "date": "2018-06-26T16:53:25-07:00",
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "d57fe447d62a6d7ce1c5060bf4f8acf301f2a9da",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/d57fe447d62a6d7ce1c5060bf4f8acf301f2a9da",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/d57fe447d62a6d7ce1c5060bf4f8acf301f2a9da"
+                                    "oid": "0fccf6a1f4566cda33ada021d28ed23efadebb87"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "18bb356e5c0d61f5c0df78ba2948a26165048eb6",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/18bb356e5c0d61f5c0df78ba2948a26165048eb6",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/18bb356e5c0d61f5c0df78ba2948a26165048eb6"
+                                                "oid": "44a1f241bca223c99bf51fd1d744e79aa271d52f"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 0fccf6a1f4566cda33ada021d28ed23efadebb87\nparent 44a1f241bca223c99bf51fd1d744e79aa271d52f\nauthor Martin Wicke <577277+martinwicke@users.noreply.github.com> 1530057205 -0700\ncommitter GitHub <noreply@github.com> 1530057205 -0700\n\nFix code block formatting",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbMtH1CRBK7hj4Ov3rIwAAdHIIAH4aLbHCyMsyuTRi7Ve0lv1I\nxWe81q8cLxX2rXZHfExQV6XRzvTzMBtGJtDdkptf0JAcbQw40ViX/XP4iaiIdSDA\n3fpl4HX4WtQ0ElteQNF9r+4hp8LHwEKAIxtBqh27QDdN3bMO3rKDzieY57M+oNw7\nHI/LVLEJSg56Y1xYV8yEYWxRCVAgxCX4tzhWf5wU/N8D7yrqUxIkCArHBX3mUO9C\n6HdyIMVXxQvfLLn/ksK7xZ/heAEWMeUPgrUrBvXVwXoSN5ag9N6ptUggkzLrEc1r\nYwBQcwb7glihvLtyUF45RGZvLUhYGm1RO47gICB6CxG463GLXJznd66mePHu67k=\n=hGzW\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6bWFydGlud2lja2UtcGF0Y2gtMg==",
                             "name": "martinwicke-patch-2",
                             "target": {
                                 "oid": "2676aeb1e931a48a58d1fd25f39059955a943324",
@@ -391,14 +593,13 @@
                                 "author": {
                                     "name": "Martin Wicke",
                                     "email": "577277+martinwicke@users.noreply.github.com",
-                                    "date": "2018-02-26T17:02:29Z",
+                                    "date": "2018-02-26T09:02:29-08:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjU3NzI3Nw==",
                                         "login": "martinwicke",
                                         "name": "Martin Wicke",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/577277?v=4",
-                                        "url": "https://github.com/martinwicke",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -409,175 +610,88 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "b977b219225b9a7a6c0a71ae30305649f8d68755",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/b977b219225b9a7a6c0a71ae30305649f8d68755",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/b977b219225b9a7a6c0a71ae30305649f8d68755"
+                                    "oid": "b977b219225b9a7a6c0a71ae30305649f8d68755"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "26ae3287a12c71fccaec9ea74f55b6a51a3d33c6",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/26ae3287a12c71fccaec9ea74f55b6a51a3d33c6",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/26ae3287a12c71fccaec9ea74f55b6a51a3d33c6"
+                                                "oid": "26ae3287a12c71fccaec9ea74f55b6a51a3d33c6"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree b977b219225b9a7a6c0a71ae30305649f8d68755\nparent 26ae3287a12c71fccaec9ea74f55b6a51a3d33c6\nauthor Martin Wicke <577277+martinwicke@users.noreply.github.com> 1519664549 -0800\ncommitter GitHub <noreply@github.com> 1519664549 -0800\n\nFix bad wrong jpeg/nasm mirror",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJalD2lCRBK7hj4Ov3rIwAAdHIIAKMvXo3PjVo39bG9TEMSwP0T\n6xgFLZ1nAFmD/oGZq6dREY3U12grMKERmsJoFSZIjNswf4OAyLI3zKEm741JunEC\nc8wSJyOcbBOEG4iBVw4nsB1oOhf11PFoBjinWWeAPrc4pFsgIKZRNciNbFmZhmmN\nw5vijQ07rp8vbomA5ZJliUnVgIIRkQoruWDKuktaCpTbJus/DsOipnc4FTRKqhPO\nq3XLG7luqv2qaEWvguDRmds6piOERLH/hPkp42uOQdoGvshmvRU9P606uYekdWia\nwqT8D/qRc92XJEHstn+SgiO5Nz/Jf47huGyANRhZy8X6BMaEKbZEqaSROEA5jDs=\n=uHQW\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6bWFzdGVy",
                             "name": "master",
                             "target": {
-                                "oid": "eeab2c867faa0f10dfea8635d1e87009844f902e",
-                                "message": "Merge pull request #19090 from caisq/branch_195443326\n\nBranch 195443326",
-                                "authoredDate": "2018-05-05T01:34:58Z",
+                                "oid": "fe7d1d9447a31562acb26aad7a9ffca60686c38a",
+                                "message": "Update default cuda compute capability while installing from sources to cover up to Volta\n\nPiperOrigin-RevId: 204606836",
+                                "authoredDate": "2018-07-14T20:16:58Z",
                                 "author": {
-                                    "name": "Shanqing Cai",
-                                    "email": "cais@google.com",
-                                    "date": "2018-05-05T01:34:58Z",
+                                    "name": "Smit Hinsu",
+                                    "email": "hinsu@google.com",
+                                    "date": "2018-07-14T13:16:58-07:00",
                                     "user": {
-                                        "id": "MDQ6VXNlcjE2ODI0NzAy",
-                                        "login": "caisq",
-                                        "name": "Shanqing Cai",
+                                        "id": "MDQ6VXNlcjE5OTAwNzk=",
+                                        "login": "smit-hinsu",
+                                        "name": "Smit Hinsu",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/16824702?v=4",
-                                        "url": "https://github.com/caisq",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/1990079?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
-                                    "name": "GitHub",
-                                    "email": "noreply@github.com",
-                                    "date": "2018-05-04T21:34:58-04:00",
-                                    "user": null
+                                    "name": "TensorFlower Gardener",
+                                    "email": "gardener@tensorflow.org",
+                                    "date": "2018-07-14T13:20:25-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE3MTUxODky",
+                                        "login": "tensorflower-gardener",
+                                        "name": "TensorFlower Gardener",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/17151892?v=4",
+                                        "isSiteAdmin": false
+                                    }
                                 },
                                 "tree": {
-                                    "oid": "962e015b7b0f2840df3f08ccc3b0c2840afa254f",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/962e015b7b0f2840df3f08ccc3b0c2840afa254f",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/962e015b7b0f2840df3f08ccc3b0c2840afa254f"
+                                    "oid": "5592806f46f206bd896ab643e9ff0336d2875b33"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "daecc72653e81d3c4592ad4ab246275a2cbd2712",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/daecc72653e81d3c4592ad4ab246275a2cbd2712",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/daecc72653e81d3c4592ad4ab246275a2cbd2712"
-                                            }
-                                        },
-                                        {
-                                            "node": {
-                                                "oid": "9a4879660f45e9237aeeee122b9aa0cc89cb097a",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/9a4879660f45e9237aeeee122b9aa0cc89cb097a",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/9a4879660f45e9237aeeee122b9aa0cc89cb097a"
+                                                "oid": "85aae3795775bf648d2e8baa56331f952d12e3e0"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6bXJyeS1wYXRjaC0x",
-                            "name": "mrry-patch-1",
-                            "target": {
-                                "oid": "58ed8383780fe1c726ec4d1cdf4a900a2cc309b9",
-                                "message": "Add release note: sparse tensor support in `tf.data`",
-                                "authoredDate": "2018-01-05T18:26:22Z",
-                                "author": {
-                                    "name": "Derek Murray",
-                                    "email": "derek.murray@gmail.com",
-                                    "date": "2018-01-05T18:26:22Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjE5MjE0Mg==",
-                                        "login": "mrry",
-                                        "name": "Derek Murray",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/192142?v=4",
-                                        "url": "https://github.com/mrry",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
-                                    "name": "GitHub",
-                                    "email": "noreply@github.com",
-                                    "date": "2018-01-05T10:26:22-08:00",
-                                    "user": null
-                                },
-                                "tree": {
-                                    "oid": "36c82618a7ca87767424f3eb478c1382d19582a2",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/36c82618a7ca87767424f3eb478c1382d19582a2",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/36c82618a7ca87767424f3eb478c1382d19582a2"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "ce5c1226bbe1f9770fc7ff89b446d0db48b5e2d3",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/ce5c1226bbe1f9770fc7ff89b446d0db48b5e2d3",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/ce5c1226bbe1f9770fc7ff89b446d0db48b5e2d3"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6cHIvMTgwMTk=",
-                            "name": "pr/18019",
-                            "target": {
-                                "oid": "3771b5b0d9cbd5a9d34f1d579454b78012cb0bb4",
-                                "message": "Update BUILD",
-                                "authoredDate": "2018-03-27T19:22:49Z",
-                                "author": {
-                                    "name": "Rasmus Munk Larsen",
-                                    "email": "rmlarsen@google.com",
-                                    "date": "2018-03-27T19:22:49Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjE2OTA3NTM0",
-                                        "login": "rmlarsen",
-                                        "name": "Rasmus Munk Larsen",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/16907534?v=4",
-                                        "url": "https://github.com/rmlarsen",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
-                                    "name": "GitHub",
-                                    "email": "noreply@github.com",
-                                    "date": "2018-03-27T12:22:49-07:00",
-                                    "user": null
-                                },
-                                "tree": {
-                                    "oid": "6691bf36682dc4e946b9a5d41ec470ad71891376",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/6691bf36682dc4e946b9a5d41ec470ad71891376",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/6691bf36682dc4e946b9a5d41ec470ad71891376"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "d876cce0fabf5a6e1a19991d669a20d4211317f0",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/d876cce0fabf5a6e1a19991d669a20d4211317f0",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/d876cce0fabf5a6e1a19991d669a20d4211317f0"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6cjAuNw==",
                             "name": "r0.7",
                             "target": {
                                 "oid": "5028bc54faac4a1efb3a019c4c0b5f31cfef6188",
@@ -586,14 +700,13 @@
                                 "author": {
                                     "name": "Eddie J",
                                     "email": "eddie@onefoldmedia.com",
-                                    "date": "2017-05-01T19:12:49Z",
+                                    "date": "2017-05-01T13:12:49-06:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjE4MzUxNTY=",
                                         "login": "EddieOne",
                                         "name": "Eddie J",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/1835156?v=4",
-                                        "url": "https://github.com/EddieOne",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -607,32 +720,27 @@
                                         "name": "Vijay Vasudevan",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/463737?v=4",
-                                        "url": "https://github.com/vrv",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "e10b297cf9e84d4aa2815dc4ae65c421cb0e1c2a",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/e10b297cf9e84d4aa2815dc4ae65c421cb0e1c2a",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/e10b297cf9e84d4aa2815dc4ae65c421cb0e1c2a"
+                                    "oid": "e10b297cf9e84d4aa2815dc4ae65c421cb0e1c2a"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "657f1d987aca211e775acbccf719e67864a0be70",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/657f1d987aca211e775acbccf719e67864a0be70",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/657f1d987aca211e775acbccf719e67864a0be70"
+                                                "oid": "657f1d987aca211e775acbccf719e67864a0be70"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6cjAuOA==",
                             "name": "r0.8",
                             "target": {
                                 "oid": "9b69ec3960cf9225df557fdc1ab673bd36bde4fb",
@@ -641,14 +749,13 @@
                                 "author": {
                                     "name": "breandan",
                                     "email": "breandan.considine@gmail.com",
-                                    "date": "2016-06-06T20:54:44Z",
+                                    "date": "2016-06-07T02:24:44+05:30",
                                     "user": {
                                         "id": "MDQ6VXNlcjE3NTcxNg==",
                                         "login": "breandan",
                                         "name": "breandan",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/175716?v=4",
-                                        "url": "https://github.com/breandan",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -662,32 +769,27 @@
                                         "name": "Vijay Vasudevan",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/463737?v=4",
-                                        "url": "https://github.com/vrv",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "9cc10c3d0b9336638b2bbe1e9b6e5d70685e949f",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/9cc10c3d0b9336638b2bbe1e9b6e5d70685e949f",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/9cc10c3d0b9336638b2bbe1e9b6e5d70685e949f"
+                                    "oid": "9cc10c3d0b9336638b2bbe1e9b6e5d70685e949f"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "4b7bc3174ed67b4a0eb1803537c9d00f132e9ae7",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/4b7bc3174ed67b4a0eb1803537c9d00f132e9ae7",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/4b7bc3174ed67b4a0eb1803537c9d00f132e9ae7"
+                                                "oid": "4b7bc3174ed67b4a0eb1803537c9d00f132e9ae7"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6cjAuOQ==",
                             "name": "r0.9",
                             "target": {
                                 "oid": "3976aab26b7495428e343c0b6c1c51a7681f500c",
@@ -696,14 +798,13 @@
                                 "author": {
                                     "name": "Justine Tunney",
                                     "email": "jart@google.com",
-                                    "date": "2017-01-20T21:29:13Z",
+                                    "date": "2017-01-20T13:29:13-08:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjQ5MjYy",
                                         "login": "jart",
                                         "name": "Justine Tunney",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/49262?v=4",
-                                        "url": "https://github.com/jart",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -717,32 +818,27 @@
                                         "name": "Gunhan Gulsoy",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/7946809?v=4",
-                                        "url": "https://github.com/gunan",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "fd3ec45ada93f01ae36a4f3441003023e0be69ce",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/fd3ec45ada93f01ae36a4f3441003023e0be69ce",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/fd3ec45ada93f01ae36a4f3441003023e0be69ce"
+                                    "oid": "fd3ec45ada93f01ae36a4f3441003023e0be69ce"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "9454b9015567ae0641250004fd2fafccede54a93",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/9454b9015567ae0641250004fd2fafccede54a93",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/9454b9015567ae0641250004fd2fafccede54a93"
+                                                "oid": "9454b9015567ae0641250004fd2fafccede54a93"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6cjAuMTA=",
                             "name": "r0.10",
                             "target": {
                                 "oid": "bf1ad52e8f5c682fa78f025ab819c9d2d6249b0e",
@@ -751,14 +847,13 @@
                                 "author": {
                                     "name": "Justine Tunney",
                                     "email": "jart@google.com",
-                                    "date": "2017-01-20T21:09:53Z",
+                                    "date": "2017-01-20T13:09:53-08:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjQ5MjYy",
                                         "login": "jart",
                                         "name": "Justine Tunney",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/49262?v=4",
-                                        "url": "https://github.com/jart",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -772,32 +867,27 @@
                                         "name": "Gunhan Gulsoy",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/7946809?v=4",
-                                        "url": "https://github.com/gunan",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "93b8100b0b87531744511a6e3c1fea10a2007c5b",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/93b8100b0b87531744511a6e3c1fea10a2007c5b",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/93b8100b0b87531744511a6e3c1fea10a2007c5b"
+                                    "oid": "93b8100b0b87531744511a6e3c1fea10a2007c5b"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "931ff427f3a55a9c6c734a4c325d6af1b53665c3",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/931ff427f3a55a9c6c734a4c325d6af1b53665c3",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/931ff427f3a55a9c6c734a4c325d6af1b53665c3"
+                                                "oid": "931ff427f3a55a9c6c734a4c325d6af1b53665c3"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6cjAuMTE=",
                             "name": "r0.11",
                             "target": {
                                 "oid": "50575842c3a44cd6a05e57027dd592a64a3ffa52",
@@ -813,7 +903,6 @@
                                         "name": "Shanqing Cai",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/16824702?v=4",
-                                        "url": "https://github.com/caisq",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -824,34 +913,28 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "3eb560aa9c961226d015c71b1bb803e0c30a51d5",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/3eb560aa9c961226d015c71b1bb803e0c30a51d5",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/3eb560aa9c961226d015c71b1bb803e0c30a51d5"
+                                    "oid": "3eb560aa9c961226d015c71b1bb803e0c30a51d5"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "96e3e6f70ad9c441be46fcf70449e810a4b36896",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/96e3e6f70ad9c441be46fcf70449e810a4b36896",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/96e3e6f70ad9c441be46fcf70449e810a4b36896"
+                                                "oid": "96e3e6f70ad9c441be46fcf70449e810a4b36896"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "3f8eca8f7d6c6f3cb13c34dddb33987f64e74858",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/3f8eca8f7d6c6f3cb13c34dddb33987f64e74858",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/3f8eca8f7d6c6f3cb13c34dddb33987f64e74858"
+                                                "oid": "3f8eca8f7d6c6f3cb13c34dddb33987f64e74858"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6cjAuMTI=",
                             "name": "r0.12",
                             "target": {
                                 "oid": "b5e5120c586298b05654d6f46964b9cde169a866",
@@ -867,7 +950,6 @@
                                         "name": "Shanqing Cai",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/16824702?v=4",
-                                        "url": "https://github.com/caisq",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -878,34 +960,28 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "dbdd5603a6eb2008e33ef6bd47d0cb3961a0324b",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/dbdd5603a6eb2008e33ef6bd47d0cb3961a0324b",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/dbdd5603a6eb2008e33ef6bd47d0cb3961a0324b"
+                                    "oid": "dbdd5603a6eb2008e33ef6bd47d0cb3961a0324b"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "45ab528211c962b19e12f6b77165848310271624",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/45ab528211c962b19e12f6b77165848310271624",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/45ab528211c962b19e12f6b77165848310271624"
+                                                "oid": "45ab528211c962b19e12f6b77165848310271624"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "87dfdc5180845adc44fe508629f0c25c0b2895f1",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/87dfdc5180845adc44fe508629f0c25c0b2895f1",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/87dfdc5180845adc44fe508629f0c25c0b2895f1"
+                                                "oid": "87dfdc5180845adc44fe508629f0c25c0b2895f1"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6cjEuMA==",
                             "name": "r1.0",
                             "target": {
                                 "oid": "905662a1c047f314ad295e27d2e2a00b4aa51e90",
@@ -914,7 +990,7 @@
                                 "author": {
                                     "name": "Jingtian Peng",
                                     "email": "pengjingtian@huawei.com",
-                                    "date": "2017-05-02T21:30:48Z",
+                                    "date": "2017-05-03T05:30:48+08:00",
                                     "user": null
                                 },
                                 "committer": {
@@ -927,32 +1003,27 @@
                                         "name": "Vijay Vasudevan",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/463737?v=4",
-                                        "url": "https://github.com/vrv",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "0605626336eea77606f7881a1b4919b3ea52e223",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/0605626336eea77606f7881a1b4919b3ea52e223",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/0605626336eea77606f7881a1b4919b3ea52e223"
+                                    "oid": "0605626336eea77606f7881a1b4919b3ea52e223"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "250e72cbed42efb5c1dfeafe8b7b1071ca8e7d7c",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/250e72cbed42efb5c1dfeafe8b7b1071ca8e7d7c",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/250e72cbed42efb5c1dfeafe8b7b1071ca8e7d7c"
+                                                "oid": "250e72cbed42efb5c1dfeafe8b7b1071ca8e7d7c"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6cjEuMQ==",
                             "name": "r1.1",
                             "target": {
                                 "oid": "8ddd727a4a43c0fba11550f3abc277a6e8d9f8c0",
@@ -961,14 +1032,13 @@
                                 "author": {
                                     "name": "Neal Wu",
                                     "email": "neal@nealwu.com",
-                                    "date": "2017-05-18T15:48:38Z",
+                                    "date": "2017-05-18T08:48:38-07:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjcyNjA3NQ==",
                                         "login": "nealwu",
                                         "name": "Neal Wu",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/726075?v=4",
-                                        "url": "https://github.com/nealwu",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -982,32 +1052,27 @@
                                         "name": "Rasmus Munk Larsen",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/16907534?v=4",
-                                        "url": "https://github.com/rmlarsen",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "51a920f7704aeb8621eee07760a99877caa6dd1e",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/51a920f7704aeb8621eee07760a99877caa6dd1e",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/51a920f7704aeb8621eee07760a99877caa6dd1e"
+                                    "oid": "51a920f7704aeb8621eee07760a99877caa6dd1e"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "1d287f909724042bd4359dbbff6c999b44c34d0f",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/1d287f909724042bd4359dbbff6c999b44c34d0f",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/1d287f909724042bd4359dbbff6c999b44c34d0f"
+                                                "oid": "1d287f909724042bd4359dbbff6c999b44c34d0f"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6cjEuMg==",
                             "name": "r1.2",
                             "target": {
                                 "oid": "030279306903241c8317a738c0aede55760088ee",
@@ -1016,14 +1081,13 @@
                                 "author": {
                                     "name": "Derek Murray",
                                     "email": "mrry@google.com",
-                                    "date": "2018-02-03T01:09:16Z",
+                                    "date": "2018-02-02T17:09:16-08:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjE5MjE0Mg==",
                                         "login": "mrry",
                                         "name": "Derek Murray",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/192142?v=4",
-                                        "url": "https://github.com/mrry",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1037,32 +1101,27 @@
                                         "name": "Gunhan Gulsoy",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/7946809?v=4",
-                                        "url": "https://github.com/gunan",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "1fcaa9284ff05f97e4cf17c1fbca647bc116412c",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/1fcaa9284ff05f97e4cf17c1fbca647bc116412c",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/1fcaa9284ff05f97e4cf17c1fbca647bc116412c"
+                                    "oid": "1fcaa9284ff05f97e4cf17c1fbca647bc116412c"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "168de7f6587a1fc90cfa300c746e24faced4c59f",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/168de7f6587a1fc90cfa300c746e24faced4c59f",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/168de7f6587a1fc90cfa300c746e24faced4c59f"
+                                                "oid": "168de7f6587a1fc90cfa300c746e24faced4c59f"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6cjEuMw==",
                             "name": "r1.3",
                             "target": {
                                 "oid": "408fd454d7d2a16269576ea12bcd516e25a6b0c5",
@@ -1071,14 +1130,13 @@
                                 "author": {
                                     "name": "LuwinLiao",
                                     "email": "1219810894@qq.com",
-                                    "date": "2017-10-17T19:22:45Z",
+                                    "date": "2017-10-17T14:22:45-05:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjgyNTY5ODY=",
                                         "login": "liaolushen",
                                         "name": "LuwinLiao",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/8256986?v=4",
-                                        "url": "https://github.com/liaolushen",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1092,32 +1150,27 @@
                                         "name": "Vijay Vasudevan",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/463737?v=4",
-                                        "url": "https://github.com/vrv",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "109045885ef0dfd2aec979801d3aff59ef383227",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/109045885ef0dfd2aec979801d3aff59ef383227",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/109045885ef0dfd2aec979801d3aff59ef383227"
+                                    "oid": "109045885ef0dfd2aec979801d3aff59ef383227"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "624bcfe409601910951789325f0b97f520c0b1ee",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/624bcfe409601910951789325f0b97f520c0b1ee",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/624bcfe409601910951789325f0b97f520c0b1ee"
+                                                "oid": "624bcfe409601910951789325f0b97f520c0b1ee"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6cjEuNA==",
                             "name": "r1.4",
                             "target": {
                                 "oid": "81012dcd91770dc8113cd5beb4f854968c27e272",
@@ -1126,14 +1179,13 @@
                                 "author": {
                                     "name": "Amit Patankar",
                                     "email": "amitpatankar@google.com",
-                                    "date": "2018-03-27T23:01:27Z",
+                                    "date": "2018-03-27T16:01:27-07:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjU1ODgyNzI=",
                                         "login": "av8ramit",
                                         "name": "Amit Patankar",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/5588272?v=4",
-                                        "url": "https://github.com/av8ramit",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1144,676 +1196,615 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "1ce72cc63585babe34dca3459e8a4284bf0e5758",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/1ce72cc63585babe34dca3459e8a4284bf0e5758",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/1ce72cc63585babe34dca3459e8a4284bf0e5758"
+                                    "oid": "1ce72cc63585babe34dca3459e8a4284bf0e5758"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "03ce04cadf1c5bf241dd0bf47b285b1a08203177",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/03ce04cadf1c5bf241dd0bf47b285b1a08203177",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/03ce04cadf1c5bf241dd0bf47b285b1a08203177"
+                                                "oid": "03ce04cadf1c5bf241dd0bf47b285b1a08203177"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "71f2b48930401abc684e19ac59e63554d125ff95",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/71f2b48930401abc684e19ac59e63554d125ff95",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/71f2b48930401abc684e19ac59e63554d125ff95"
+                                                "oid": "71f2b48930401abc684e19ac59e63554d125ff95"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 1ce72cc63585babe34dca3459e8a4284bf0e5758\nparent 03ce04cadf1c5bf241dd0bf47b285b1a08203177\nparent 71f2b48930401abc684e19ac59e63554d125ff95\nauthor Amit Patankar <amitpatankar@google.com> 1522191687 -0700\ncommitter GitHub <noreply@github.com> 1522191687 -0700\n\nMerge pull request #18030 from angersson/releasenotes\n\nUpdate RELEASE.md with 1.4.2 change notes",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJaus1HCRBK7hj4Ov3rIwAAdHIIAAQcMgjR3HfaZNrVczBBdf4a\nmyW/WPwkeJodeoUx/O5nOfN54r74xvh+Qj8ZeQqd97j9GdNrKOU0O2hRO3FGUjno\ngG6swCZFj5xxis+TjhnPqlkIX8xQEy8UDHB4iNCdlLVX93L3CN64PwvvL8T9oXDZ\nMpN93odp8y0BwvkXVf9tfUj0IGPTwZPBmFPa+i4N6/XbsM1qH5N4Mp16FC+5k5AT\nsVCbpe5HskjnP2Rqzziaim8tOVYiNmxYUSaMSS9R4IUtilFtX5Qdtvsn5htR2cQI\nxe7yKrfUfdDxwYaakwK10KroB0/x2P7PR1B/ibtXoW46CeHRNii+VXNinWJ2VF4=\n=sM3j\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6cjEuNQ==",
                             "name": "r1.5",
                             "target": {
-                                "oid": "6a1ec9deeb2b04dc698db385ea582f6949b4f8bc",
-                                "message": "Merge pull request #17865 from av8ramit/fix_mac2\n\nDisable one more flaky test on mac.",
-                                "authoredDate": "2018-03-20T19:51:33Z",
+                                "oid": "285c6a0fa1d5a3d2a96507ac9f707ce5c0e3ac1f",
+                                "message": "Merge pull request #18810 from tensorflow/frankchn-r1.5\n\nPatches for Release 1.5",
+                                "authoredDate": "2018-05-18T17:52:50Z",
                                 "author": {
                                     "name": "Amit Patankar",
                                     "email": "amitpatankar@google.com",
-                                    "date": "2018-03-20T19:51:33Z",
+                                    "date": "2018-05-18T10:52:50-07:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjU1ODgyNzI=",
                                         "login": "av8ramit",
                                         "name": "Amit Patankar",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/5588272?v=4",
-                                        "url": "https://github.com/av8ramit",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
                                     "name": "GitHub",
                                     "email": "noreply@github.com",
-                                    "date": "2018-03-20T12:51:33-07:00",
+                                    "date": "2018-05-18T10:52:50-07:00",
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "6d51bba9af6aad55c3bdd0be73ff3a6fe5e5edd9",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/6d51bba9af6aad55c3bdd0be73ff3a6fe5e5edd9",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/6d51bba9af6aad55c3bdd0be73ff3a6fe5e5edd9"
+                                    "oid": "50f59eeb3fa2bc41c3a82a1d075de6ac47929a41"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "cd6b5ecb77795229e7ed47fbcf62ffebc6992920",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/cd6b5ecb77795229e7ed47fbcf62ffebc6992920",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/cd6b5ecb77795229e7ed47fbcf62ffebc6992920"
+                                                "oid": "fd8b2a415114dff5b74d726f008afd4086ed3d7c"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "52f91669165eba750b89864394db797d26790700",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/52f91669165eba750b89864394db797d26790700",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/52f91669165eba750b89864394db797d26790700"
+                                                "oid": "48a5e252e89eadb73057b18baf468b98f667fd1f"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 50f59eeb3fa2bc41c3a82a1d075de6ac47929a41\nparent fd8b2a415114dff5b74d726f008afd4086ed3d7c\nparent 48a5e252e89eadb73057b18baf468b98f667fd1f\nauthor Amit Patankar <amitpatankar@google.com> 1526665970 -0700\ncommitter GitHub <noreply@github.com> 1526665970 -0700\n\nMerge pull request #18810 from tensorflow/frankchn-r1.5\n\nPatches for Release 1.5",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJa/xLyCRBK7hj4Ov3rIwAAdHIIAIh+J5YJk5iJhPQ1bIstk9r7\njPRf6fDzqtoOSIZC1isGqejwTygVujTHHDo9e2KH675scntuYX9yPg63kYpxL7af\nnHuXTrjXAMK5tllBRIV0UvegPXVjoWm3Bgd28QXQ4Zvr5WAyaidJbjLZtRca6kZG\nHCpcEln4d05dLHfBtJKgORypFD0nHCRZqRcM7afvUN10taUKC+VNct6BeIgKnCnD\nhl31UykWB0O/+Ki7K4yiV2tRYtHTpdj9TK/pELiTvgxv8yEE/suK6mDX/XzKXCM+\ndqExl0zeBg5XRmgnDj41HYvcCYIroB9Gum8P7mtaIepLGXmIlWz3Dygtvc2SAbY=\n=Kqbu\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6cjEuNg==",
                             "name": "r1.6",
                             "target": {
-                                "oid": "cbc658095ae228f2f557af47e4901d552573aa15",
-                                "message": "Correct curly brace typo (#17574)\n\nCurly brace required instead of right bracket for code display on getting started guide",
-                                "authoredDate": "2018-03-11T06:14:36Z",
+                                "oid": "080d59b76ca27b184f0fce605db7f5339ea5a8cf",
+                                "message": "Fix setuptools version to avoid a bad release. (#19656)",
+                                "authoredDate": "2018-05-30T23:16:06Z",
                                 "author": {
-                                    "name": "J.P. Anderson-Young",
-                                    "email": "jpayoung@users.noreply.github.com",
-                                    "date": "2018-03-11T06:14:36Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjQyNjc3MTA=",
-                                        "login": "jpayoung",
-                                        "name": "J.P. Anderson-Young",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/4267710?v=4",
-                                        "url": "https://github.com/jpayoung",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
                                     "name": "Gunhan Gulsoy",
                                     "email": "gunan@google.com",
-                                    "date": "2018-03-10T22:14:36-08:00",
+                                    "date": "2018-05-30T16:16:06-07:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjc5NDY4MDk=",
                                         "login": "gunan",
                                         "name": "Gunhan Gulsoy",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/7946809?v=4",
-                                        "url": "https://github.com/gunan",
                                         "isSiteAdmin": false
                                     }
                                 },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-05-30T16:16:06-07:00",
+                                    "user": null
+                                },
                                 "tree": {
-                                    "oid": "4851cf4527f718037c5c0746a79c1a251d0550dd",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/4851cf4527f718037c5c0746a79c1a251d0550dd",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/4851cf4527f718037c5c0746a79c1a251d0550dd"
+                                    "oid": "47213eeb6550e719a2264b924c79f23c361a4413"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "5aee07fd0462d00c52efb5d3c86bfb955a9d976e",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/5aee07fd0462d00c52efb5d3c86bfb955a9d976e",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/5aee07fd0462d00c52efb5d3c86bfb955a9d976e"
+                                                "oid": "d1981265ec874b0d6807fa9fc656f5db53716e7a"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 47213eeb6550e719a2264b924c79f23c361a4413\nparent d1981265ec874b0d6807fa9fc656f5db53716e7a\nauthor Gunhan Gulsoy <gunan@google.com> 1527722166 -0700\ncommitter GitHub <noreply@github.com> 1527722166 -0700\n\nFix setuptools version to avoid a bad release. (#19656)\n\n",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbDzC2CRBK7hj4Ov3rIwAAdHIIAK0HQzx61sMapgRyL9wQXn/7\nA6xfbjioKXMamPBvrfaVsVhIrGPohIlvCS3LoQ4eTpEaD8Fe1DHPZnu5Cfnhsbpb\n13AYnZy05TFMFxr+rR40Fw2ytwYNGS7YdgPpiy3xPh2Aht/ZfbAwPRn+YI3kdAS8\n+slLUDRsmq6F/o3TD5TR0zVI7SKiBm7BZwjOOUtecvsuX9t58YbeuFmYLQJGG0aP\nCIvUSUwn+fEhcOEHPWzdFtasYQiK75+dRpKBmehViRmwnM5kF1UmylYBtLld01UN\nk+5h9PosIEmT9VNpcJeG0cm3/rFMG0pXyUYA6ZhYcI8N2P2N+o7yZa9LbeYFonQ=\n=ylLp\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6cjEuNw==",
                             "name": "r1.7",
                             "target": {
-                                "oid": "c8137f3a8e1a22b6e274d0ffc84013624523df59",
-                                "message": "Merge pull request #19089 from annarev/update_release_notes\n\nAdding release notes for 1.7.1 release",
-                                "authoredDate": "2018-05-04T19:13:34Z",
+                                "oid": "9156fcc7a8a901ca9e553297da8237a313255bd8",
+                                "message": "Merge pull request #19132 from av8ramit/fix_avx_devel_docker_17\n\nBuilding development docker files with AVX as well. (#19130)",
+                                "authoredDate": "2018-05-07T22:08:34Z",
                                 "author": {
                                     "name": "Amit Patankar",
                                     "email": "amitpatankar@google.com",
-                                    "date": "2018-05-04T19:13:34Z",
+                                    "date": "2018-05-07T15:08:34-07:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjU1ODgyNzI=",
                                         "login": "av8ramit",
                                         "name": "Amit Patankar",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/5588272?v=4",
-                                        "url": "https://github.com/av8ramit",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
                                     "name": "GitHub",
                                     "email": "noreply@github.com",
-                                    "date": "2018-05-04T12:13:34-07:00",
+                                    "date": "2018-05-07T15:08:34-07:00",
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "d9ca9b24611895818d9c00675469cf9a2c2962cd",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/d9ca9b24611895818d9c00675469cf9a2c2962cd",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/d9ca9b24611895818d9c00675469cf9a2c2962cd"
+                                    "oid": "d83878a8613a66eca6021d4e9e4dc1fd244ceb7b"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "792edf63e021d7b24ab5ad4283f923689d59ec31",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/792edf63e021d7b24ab5ad4283f923689d59ec31",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/792edf63e021d7b24ab5ad4283f923689d59ec31"
+                                                "oid": "c8137f3a8e1a22b6e274d0ffc84013624523df59"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "8cda66f1239b0282401eaf02d55f06c91d829dd4",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/8cda66f1239b0282401eaf02d55f06c91d829dd4",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/8cda66f1239b0282401eaf02d55f06c91d829dd4"
+                                                "oid": "74e81836027c0f28d12069a6a32af18da287e59f"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree d83878a8613a66eca6021d4e9e4dc1fd244ceb7b\nparent c8137f3a8e1a22b6e274d0ffc84013624523df59\nparent 74e81836027c0f28d12069a6a32af18da287e59f\nauthor Amit Patankar <amitpatankar@google.com> 1525730914 -0700\ncommitter GitHub <noreply@github.com> 1525730914 -0700\n\nMerge pull request #19132 from av8ramit/fix_avx_devel_docker_17\n\nBuilding development docker files with AVX as well. (#19130)",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJa8M5iCRBK7hj4Ov3rIwAAdHIIAB4j3fM7n7OUQihAzvsdEMd1\nUMxar4+rBte5t0S8Iug70SqDrRKytQBH5VDxWlVlY4nryzPZYjr93WK9RcEd520E\nFUZnzpbVW0GGOkHGqCwjHACgUoLyBSDn8UfRD6WMpWY5EG+GiOjN8uwZ7ZQvIEpG\nODMKwmVwhQ8l7BfsFFtVVLaZApBYNCpIHyLJVtVXCMuvrT7QLAoPD84uJKM7zlE1\ncWssJ4ruLd8L1zLN+WSaOi/Tjr21UsuV6Z0gMpQlCMY5lw1A/KXABRfvJSgOoeTw\n5z0mZX6RvLhhPNt9KWCNZ9WpbaUt4cOrFLc+0l+7t+GpYQl9GML952Xt9coOSNA=\n=BcFM\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6cjEuOA==",
                             "name": "r1.8",
                             "target": {
-                                "oid": "8753e2ebde6c58b56675cc19ab7ff83072824a62",
-                                "message": "Fixing the mock import error for devel docker. (#18940)\n\n* Fixing the mock import error for devel docker.\r\n\r\nSame as #18843",
-                                "authoredDate": "2018-04-28T00:05:02Z",
+                                "oid": "23c218785eac5bfe737eec4f8081fd0ef8e0684d",
+                                "message": "fix docstring (#19221)",
+                                "authoredDate": "2018-06-04T05:10:06Z",
                                 "author": {
-                                    "name": "Yifei Feng",
-                                    "email": "1192265+yifeif@users.noreply.github.com",
-                                    "date": "2018-04-28T00:05:02Z",
+                                    "name": "Amund Vedal",
+                                    "email": "amundv@users.noreply.github.com",
+                                    "date": "2018-06-04T07:10:06+02:00",
                                     "user": {
-                                        "id": "MDQ6VXNlcjExOTIyNjU=",
-                                        "login": "yifeif",
-                                        "name": "Yifei Feng",
+                                        "id": "MDQ6VXNlcjIyMDA0MDAw",
+                                        "login": "amundv",
+                                        "name": "Amund Vedal",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/1192265?v=4",
-                                        "url": "https://github.com/yifeif",
+                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/22004000?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Gunhan Gulsoy",
+                                    "email": "gunan@google.com",
+                                    "date": "2018-06-03T22:10:06-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjc5NDY4MDk=",
+                                        "login": "gunan",
+                                        "name": "Gunhan Gulsoy",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/7946809?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "b99cbc7690a7ee6b997d90a25a5bbace8553fc91"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "3b85959a57ef2656cdcf2cfac62d68713948ba54"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "r1.9",
+                            "target": {
+                                "oid": "25c197e02393bd44f50079945409009dd4d434f8",
+                                "message": "Merge pull request #20455 from lygztq/r1.9\n\nfix bug in maxout function",
+                                "authoredDate": "2018-07-09T20:38:25Z",
+                                "author": {
+                                    "name": "Michael Case",
+                                    "email": "mikecase@google.com",
+                                    "date": "2018-07-09T13:38:25-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjEyOTk2MzY=",
+                                        "login": "case540",
+                                        "name": "Michael Case",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/1299636?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
                                     "name": "GitHub",
                                     "email": "noreply@github.com",
-                                    "date": "2018-04-27T17:05:02-07:00",
+                                    "date": "2018-07-09T13:38:25-07:00",
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "056605858c978ebb93eeed49a8e77aadf04f0fff",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/056605858c978ebb93eeed49a8e77aadf04f0fff",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/056605858c978ebb93eeed49a8e77aadf04f0fff"
+                                    "oid": "8c921bf3b46d092d819b0d55ec8e49821d84ec3d"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "93bc2e2072e0daccbcff7a90d397b704a9e8f778",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/93bc2e2072e0daccbcff7a90d397b704a9e8f778",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/93bc2e2072e0daccbcff7a90d397b704a9e8f778"
+                                                "oid": "45fc11c76b1e5755086432ea8bda6ae3300e542a"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "eb6c0cbe460e6deafbe4252abed7e57bf9c4d133"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 8c921bf3b46d092d819b0d55ec8e49821d84ec3d\nparent 45fc11c76b1e5755086432ea8bda6ae3300e542a\nparent eb6c0cbe460e6deafbe4252abed7e57bf9c4d133\nauthor Michael Case <mikecase@google.com> 1531168705 -0700\ncommitter GitHub <noreply@github.com> 1531168705 -0700\n\nMerge pull request #20455 from lygztq/r1.9\n\nfix bug in maxout function",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbQ8fBCRBK7hj4Ov3rIwAAdHIIAAIffNUrwGGCdZq5+h1qG257\n8iZlgeOXDVtn5V+h14PpDN+h1AGk8WpR6I4XzG5VNMIaiyQWiQPxB66vA53w0oNa\n1pQNR5qJulg5+g3hlGzdx8WZfvNw9BJ+Tsfkcx/aZcR16CCxCUtnjQYYf3xCgMn8\nHpXjxCcAwTkAJI7/FscB0zaUGEpDtKfKo0xanTyFHxK755EjPzE/tgTrZuVmpbEK\nTwXJbloWZ5N6appxkoAlECqk0pFd42Zzhw3c49jHbZHoFrldgWOj+jae/Kp87Qmm\nNXlOFZkKAdsk89G9bOjRvsYT+j1cYLqlhkXni62oJQd6HKiOhtzZ2NMA4zPi1uc=\n=M1MP\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6cmVsZWFzZS1wYXRjaC00LTE=",
-                            "name": "release-patch-4-1",
+                            "name": "r1.10",
                             "target": {
-                                "oid": "4dee7b57a47817ec8c972cbb117868463ef15cdf",
-                                "message": "Update tf_tests.cmake",
-                                "authoredDate": "2018-04-27T14:46:49Z",
+                                "oid": "4424e3270e4056ef7318fbdd83727cb93bec6858",
+                                "message": "[XLA] Move implementation of ThreeFry stateless PRNG into xla/client/lib\n\nPiperOrigin-RevId: 204557470",
+                                "authoredDate": "2018-07-14T01:18:12Z",
                                 "author": {
-                                    "name": "Yifei Feng",
-                                    "email": "1192265+yifeif@users.noreply.github.com",
-                                    "date": "2018-04-27T14:46:49Z",
+                                    "name": "Peter Hawkins",
+                                    "email": "phawkins@google.com",
+                                    "date": "2018-07-13T18:18:12-07:00",
                                     "user": {
-                                        "id": "MDQ6VXNlcjExOTIyNjU=",
-                                        "login": "yifeif",
-                                        "name": "Yifei Feng",
+                                        "id": "MDQ6VXNlcjM0ODkzMg==",
+                                        "login": "hawkinsp",
+                                        "name": "Peter Hawkins",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/1192265?v=4",
-                                        "url": "https://github.com/yifeif",
+                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/348932?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "TensorFlower Gardener",
+                                    "email": "gardener@tensorflow.org",
+                                    "date": "2018-07-13T18:21:51-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE3MTUxODky",
+                                        "login": "tensorflower-gardener",
+                                        "name": "TensorFlower Gardener",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/17151892?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "ca9171110968f2eb01f59491c8c74d4c46495267"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "d722c3e93fa180e4dad7678cf32868ed18f6ef84"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "release-notes-1.9-tfdbg",
+                            "target": {
+                                "oid": "b57b7bdbbf02abd0bb441615d710e734dac7b7b4",
+                                "message": "Update RELEASE.md for tfdbg bug fix in 1.9.0",
+                                "authoredDate": "2018-06-08T02:59:32Z",
+                                "author": {
+                                    "name": "Shanqing Cai",
+                                    "email": "cais@google.com",
+                                    "date": "2018-06-07T22:59:32-04:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE2ODI0NzAy",
+                                        "login": "caisq",
+                                        "name": "Shanqing Cai",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/16824702?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
                                     "name": "GitHub",
                                     "email": "noreply@github.com",
-                                    "date": "2018-04-27T07:46:49-07:00",
+                                    "date": "2018-06-07T22:59:32-04:00",
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "55ad3c74d547ef11fc44f7144c14e92b434d97c2",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/55ad3c74d547ef11fc44f7144c14e92b434d97c2",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/55ad3c74d547ef11fc44f7144c14e92b434d97c2"
+                                    "oid": "71536c8c6fdaa454129797c180cd460f5b322ae9"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "905898ac93e2f723c454d16231758ef39777e79d",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/905898ac93e2f723c454d16231758ef39777e79d",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/905898ac93e2f723c454d16231758ef39777e79d"
+                                                "oid": "54757685ae8db0396b843de5c7450ead4dd7edb2"
                                             }
                                         }
                                     ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6cmVsZWFzZS1wYXRjaC00",
-                            "name": "release-patch-4",
-                            "target": {
-                                "oid": "09fc850e988e71983e9d0eb4e874f998b3a480e6",
-                                "message": "Update build_pip_package.sh",
-                                "authoredDate": "2018-04-27T01:47:07Z",
-                                "author": {
-                                    "name": "Yifei Feng",
-                                    "email": "1192265+yifeif@users.noreply.github.com",
-                                    "date": "2018-04-27T01:47:07Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjExOTIyNjU=",
-                                        "login": "yifeif",
-                                        "name": "Yifei Feng",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/1192265?v=4",
-                                        "url": "https://github.com/yifeif",
-                                        "isSiteAdmin": false
-                                    }
                                 },
-                                "committer": {
-                                    "name": "GitHub",
+                                "signature": {
                                     "email": "noreply@github.com",
-                                    "date": "2018-04-26T18:47:07-07:00",
-                                    "user": null
-                                },
-                                "tree": {
-                                    "oid": "f49134ba63096d15e8b3a130025283e6f9bc6e5b",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/f49134ba63096d15e8b3a130025283e6f9bc6e5b",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/f49134ba63096d15e8b3a130025283e6f9bc6e5b"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "e886ca1359a88aa6e421a05519e4134f7ee6569a",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/e886ca1359a88aa6e421a05519e4134f7ee6569a",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/e886ca1359a88aa6e421a05519e4134f7ee6569a"
-                                            }
-                                        }
-                                    ]
+                                    "isValid": true,
+                                    "payload": "tree 71536c8c6fdaa454129797c180cd460f5b322ae9\nparent 54757685ae8db0396b843de5c7450ead4dd7edb2\nauthor Shanqing Cai <cais@google.com> 1528426772 -0400\ncommitter GitHub <noreply@github.com> 1528426772 -0400\n\nUpdate RELEASE.md for tfdbg bug fix in 1.9.0",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbGfEUCRBK7hj4Ov3rIwAAdHIIAE/Tf7Co4XxIRFQh4vZPHJbc\n5597EdYXqn9kPslumSViBLJsA5vjR6dCX9cEAut5KemG8G7FnXch0rWjukBGs6g6\n4Z3PoAqy6WOU0m86mr3USRYalplc2u/qSrBtnRycFp3IEM1DZ5ii4zuaCmWvMiD4\nmFVVSkEvy/6pwcfmmY22UN4O3xhahnOwno8qoxBgLVj/JMBC1qb8fga06fxKBZno\nfKgclz7hNAAhPkMBlBGZtST2mGfNXA/EvgoqFKdGNuk41XZVmj2DdgqWmjWdN2DO\nCdVsRsr7G3If3eSBex8q5iu9rvnkfFLXYqZMwnggpegQKc9L/ndjKGRWZMyafC4=\n=QALK\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6cmVvcmRlcl9jb25k",
-                            "name": "reorder_cond",
-                            "target": {
-                                "oid": "cfaa49f392bc4335a73854875490765c104631ec",
-                                "message": "Implement a faster rejection sampling method.\n\nThis method leverages an observation: if we allow ourselves to either sample from a filtered distribution OR the original distribution, we can reduce the amount of data rejected during rejection sampling.\n\nI implemented this 'conditional filtering' in a sort-of hacky way by internally creating an iterator and sticking it in a tf.cond branch.\n\nI also added unit tests to verify that the new sampler works and is faster than the original, and I added benchmarks.\n\nTested:\nbazel test :resample_test",
-                                "authoredDate": "2018-03-29T16:37:30Z",
-                                "author": {
-                                    "name": "joel-shor",
-                                    "email": "shor.joel@gmail.com",
-                                    "date": "2018-03-29T16:37:30Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjYwMjA5ODg=",
-                                        "login": "joel-shor",
-                                        "name": "Joel Shor",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/6020988?v=4",
-                                        "url": "https://github.com/joel-shor",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
-                                    "name": "joel-shor",
-                                    "email": "shor.joel@gmail.com",
-                                    "date": "2018-03-29T09:37:30-07:00",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjYwMjA5ODg=",
-                                        "login": "joel-shor",
-                                        "name": "Joel Shor",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/6020988?v=4",
-                                        "url": "https://github.com/joel-shor",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "tree": {
-                                    "oid": "206668631c4028b36dce10bcc43f5854fe31008a",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/206668631c4028b36dce10bcc43f5854fe31008a",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/206668631c4028b36dce10bcc43f5854fe31008a"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "58e4b92f2ebc346c6599484959d4263672352e87",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/58e4b92f2ebc346c6599484959d4263672352e87",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/58e4b92f2ebc346c6599484959d4263672352e87"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6c21pdC1oaW5zdS1hYnNlaWw=",
-                            "name": "smit-hinsu-abseil",
-                            "target": {
-                                "oid": "1a849a7b417497b605bc3ce60c0b769151c85091",
-                                "message": "Create abseil_cpp.cmake",
-                                "authoredDate": "2018-04-03T20:25:17Z",
-                                "author": {
-                                    "name": "Smit Hinsu",
-                                    "email": "1990079+smit-hinsu@users.noreply.github.com",
-                                    "date": "2018-04-03T20:25:17Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjE5OTAwNzk=",
-                                        "login": "smit-hinsu",
-                                        "name": "Smit Hinsu",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/1990079?v=4",
-                                        "url": "https://github.com/smit-hinsu",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
-                                    "name": "GitHub",
-                                    "email": "noreply@github.com",
-                                    "date": "2018-04-03T13:25:17-07:00",
-                                    "user": null
-                                },
-                                "tree": {
-                                    "oid": "c8193240d8a7c31ea3dcfe504658cbdf57eb9c6b",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/c8193240d8a7c31ea3dcfe504658cbdf57eb9c6b",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/c8193240d8a7c31ea3dcfe504658cbdf57eb9c6b"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "261cc8c5b68981cc770d89053000da53a5bd1abe",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/261cc8c5b68981cc770d89053000da53a5bd1abe",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/261cc8c5b68981cc770d89053000da53a5bd1abe"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6dG9vbGNoYWlucy5jbGFuZzYuQ09SU1NUT09MLnRwbA==",
-                            "name": "toolchains.clang6.CORSSTOOL.tpl",
-                            "target": {
-                                "oid": "06d5ca2ae097c08c886759dd27f90b19e4c6f49d",
-                                "message": "Fix tfcompile module label. (#16582)",
-                                "authoredDate": "2018-04-23T19:32:35Z",
-                                "author": {
-                                    "name": "Andy Kernahan",
-                                    "email": "andrew.kernahan@gmail.com",
-                                    "date": "2018-04-23T19:32:35Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjYzMzk4",
-                                        "login": "andykernahan",
-                                        "name": "Andy Kernahan",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/63398?v=4",
-                                        "url": "https://github.com/andykernahan",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
-                                    "name": "Jonathan Hseu",
-                                    "email": "vomjom@vomjom.net",
-                                    "date": "2018-04-23T12:32:35-07:00",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjE3MDE3OQ==",
-                                        "login": "jhseu",
-                                        "name": "Jonathan Hseu",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/170179?v=4",
-                                        "url": "https://github.com/jhseu",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "tree": {
-                                    "oid": "753fe4874fe11cc8907f20eae7456767b5c75848",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/753fe4874fe11cc8907f20eae7456767b5c75848",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/753fe4874fe11cc8907f20eae7456767b5c75848"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "f318765ad5a50b2fbd7cc08dd4ebc249b3924270",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/f318765ad5a50b2fbd7cc08dd4ebc249b3924270",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/f318765ad5a50b2fbd7cc08dd4ebc249b3924270"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6eWlmZWlmLXBhdGNoLTE=",
                             "name": "yifeif-patch-1",
                             "target": {
-                                "oid": "be903d84071c0162fab8b14e9ebf25d41d78111b",
-                                "message": "TESTING DO NOT MERGE",
-                                "authoredDate": "2018-02-12T19:09:12Z",
+                                "oid": "e93aa55f213af3e2305c302e48e081a37aace770",
+                                "message": "Reapplying #20295",
+                                "authoredDate": "2018-07-01T22:58:36Z",
                                 "author": {
                                     "name": "Yifei Feng",
-                                    "email": "fengyifei2026@gmail.com",
-                                    "date": "2018-02-12T19:09:12Z",
+                                    "email": "1192265+yifeif@users.noreply.github.com",
+                                    "date": "2018-07-01T15:58:36-07:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjExOTIyNjU=",
                                         "login": "yifeif",
                                         "name": "Yifei Feng",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/1192265?v=4",
-                                        "url": "https://github.com/yifeif",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
                                     "name": "GitHub",
                                     "email": "noreply@github.com",
-                                    "date": "2018-02-12T11:09:12-08:00",
+                                    "date": "2018-07-01T15:58:36-07:00",
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "1e4922e899f2d970f0549b3a45db5bd14c1058c2",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/1e4922e899f2d970f0549b3a45db5bd14c1058c2",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/1e4922e899f2d970f0549b3a45db5bd14c1058c2"
+                                    "oid": "bdd32ca9bd7c94e5d592a594b7abec371193a99c"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "3ee1721b46d0e61097d0ee72f01e3de9739f0b6f",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/3ee1721b46d0e61097d0ee72f01e3de9739f0b6f",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/3ee1721b46d0e61097d0ee72f01e3de9739f0b6f"
+                                                "oid": "bfcfad55b7b3fa4a1093fa748d4241f9457b2a84"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree bdd32ca9bd7c94e5d592a594b7abec371193a99c\nparent bfcfad55b7b3fa4a1093fa748d4241f9457b2a84\nauthor Yifei Feng <1192265+yifeif@users.noreply.github.com> 1530485916 -0700\ncommitter GitHub <noreply@github.com> 1530485916 -0700\n\nReapplying #20295",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbOVycCRBK7hj4Ov3rIwAAdHIIAEoFgZVpaS3sIyXNvz7IGGop\n8nRFRBuYbaOqOaKaIGKgq+zDIPJrTuoJSlpJCXNu/ZK8YAD12icL3eEGILDO7VHV\n2gv2VhqRZ2uJokHIi1ecR4V1jE1qV8QGPUXoHjkLIcksKtUB5f31czo3BbkSRDEO\nGhYL+sULzVS9CcstgQZTcpEkqbT31QyWvk/mKtVZ2N5AgypWUrgXd7lGgYdC9Y/7\njZp+3Cb6Hi7sp8T6qFP+BDKeKKOXTMMesrIwAfuhTEaYWS+IeA9M0Ng7YUVjkCv3\nUPftbIY+phufcLRbw1hR6e3dhaa/a6psRGNK61GVvrT8vIBT6bvX5DhC8TaM5XU=\n=yBBT\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6eWlmZWlmLXBhdGNoLTI=",
                             "name": "yifeif-patch-2",
                             "target": {
-                                "oid": "529c56d88f27337d6be263b6f61a2a7a1994bb2d",
-                                "message": "Add --test_output=errors as default",
-                                "authoredDate": "2018-04-18T22:33:39Z",
+                                "oid": "4664191b73959387c190f969d7f1fe3480a585f4",
+                                "message": "Match for path instead of name",
+                                "authoredDate": "2018-07-03T00:10:20Z",
                                 "author": {
                                     "name": "Yifei Feng",
                                     "email": "1192265+yifeif@users.noreply.github.com",
-                                    "date": "2018-04-18T22:33:39Z",
+                                    "date": "2018-07-02T17:10:20-07:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjExOTIyNjU=",
                                         "login": "yifeif",
                                         "name": "Yifei Feng",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/1192265?v=4",
-                                        "url": "https://github.com/yifeif",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
                                     "name": "GitHub",
                                     "email": "noreply@github.com",
-                                    "date": "2018-04-18T15:33:39-07:00",
+                                    "date": "2018-07-02T17:10:20-07:00",
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "13ed1b5c16d98f195546f068083be25b57f4d5c5",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/13ed1b5c16d98f195546f068083be25b57f4d5c5",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/13ed1b5c16d98f195546f068083be25b57f4d5c5"
+                                    "oid": "1fd3caba2f90d038629e7d0975a3437284402777"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "ec3566d06ef7133b3b045cf01667abf07f47a48e",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/ec3566d06ef7133b3b045cf01667abf07f47a48e",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/ec3566d06ef7133b3b045cf01667abf07f47a48e"
+                                                "oid": "f09aaf0dd33869253020b095d7c44840d1b430fe"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 1fd3caba2f90d038629e7d0975a3437284402777\nparent f09aaf0dd33869253020b095d7c44840d1b430fe\nauthor Yifei Feng <1192265+yifeif@users.noreply.github.com> 1530576620 -0700\ncommitter GitHub <noreply@github.com> 1530576620 -0700\n\nMatch for path instead of name",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbOr7sCRBK7hj4Ov3rIwAAdHIIABRPk82LSvGVW3ZnZerOHhoy\nflqHxckOwXPtZfTco5FBGGgUYv0xw5JX/LBLBtJTWEcU6DYHJ9DQueDqJyCtOSbH\ntR4Ej3KfABKRm+EjXnGeo4okGiUIzC11zxMCUZb4HgRpLYYXyO4ugpgeOP3hD3hU\nbD/EsW6N4cP7oe+QqGx0brFiNJMDXjKno/P7Xo5/3s7C/0vGKe2WR6AO5C6sy/QN\n70Z0Zud9xCx0E9kWIhjY+18c6Add01k/V9ezVMn4xpIM9CseliISOfcSgiioKwNs\nldPJwDkAiJOKPO53rJz1Re8dyi5Q0oTWNl+Nk29Cyvecb+x+Hq+GpDUwtBs8Rts=\n=Y09s\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6eWlmZWlmLXBhdGNoLTM=",
                             "name": "yifeif-patch-3",
                             "target": {
-                                "oid": "c3f5d8c53295d9740c622f5221464c23559747ad",
-                                "message": "Update install_python3.5_pip_packages.sh",
-                                "authoredDate": "2018-04-19T23:02:09Z",
+                                "oid": "c34b35f6ff737e5da5935842dd895fdfed0a714c",
+                                "message": "Delete 3_datasets.ipynb",
+                                "authoredDate": "2018-07-08T21:01:43Z",
                                 "author": {
                                     "name": "Yifei Feng",
                                     "email": "1192265+yifeif@users.noreply.github.com",
-                                    "date": "2018-04-19T23:02:09Z",
+                                    "date": "2018-07-08T14:01:43-07:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjExOTIyNjU=",
                                         "login": "yifeif",
                                         "name": "Yifei Feng",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/1192265?v=4",
-                                        "url": "https://github.com/yifeif",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
                                     "name": "GitHub",
                                     "email": "noreply@github.com",
-                                    "date": "2018-04-19T16:02:09-07:00",
+                                    "date": "2018-07-08T14:01:43-07:00",
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "8b43d9f73e8a8110728a2039362d4928e773c261",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/8b43d9f73e8a8110728a2039362d4928e773c261",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/8b43d9f73e8a8110728a2039362d4928e773c261"
+                                    "oid": "a304c77ead1bcc1458e942c43e1cbad5aaf10c17"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "cf9afc9467b12013d93c4fe779c4158944c85e93",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/cf9afc9467b12013d93c4fe779c4158944c85e93",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/cf9afc9467b12013d93c4fe779c4158944c85e93"
+                                                "oid": "35287be3bb7daa0448af064f5d005a25201d6853"
                                             }
                                         }
                                     ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmNDU3MTcyNTA6eWlmZWlmLXBhdGNoLTQ=",
-                            "name": "yifeif-patch-4",
-                            "target": {
-                                "oid": "dc1997fe05e63179704b589b224ccad3b38c7c8a",
-                                "message": "Update Dockerfile.devel-gpu",
-                                "authoredDate": "2018-04-27T23:56:50Z",
-                                "author": {
-                                    "name": "Yifei Feng",
-                                    "email": "1192265+yifeif@users.noreply.github.com",
-                                    "date": "2018-04-27T23:56:50Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjExOTIyNjU=",
-                                        "login": "yifeif",
-                                        "name": "Yifei Feng",
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree a304c77ead1bcc1458e942c43e1cbad5aaf10c17\nparent 35287be3bb7daa0448af064f5d005a25201d6853\nauthor Yifei Feng <1192265+yifeif@users.noreply.github.com> 1531083703 -0700\ncommitter GitHub <noreply@github.com> 1531083703 -0700\n\nDelete 3_datasets.ipynb",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbQnu3CRBK7hj4Ov3rIwAAdHIIAH+oHg0Qt9TWX1mO8C3k10hK\nRtqXK+nEcc3Ryqb7STICPQwb8Ts3gD17h87EkfJjfGkUEkCDxzj9DM4u55lhD8Yb\nmB2i8Dc/NttD31oAbLmT4it0EzTe87NU6fh7/0Pw70+teugHsGMs/Ce3iqxGSHrE\naRZvJ5vA/eE125o+F5+/NJ7eUVp+VH6pBC3m+Dpjy56eGReYA9BkUAVdH5X6dM3w\nCS5fUFqMxQ2fQUUBrKAv4bPWwqgaiyfEzaVVOb/xurz6WFEPgj8mepgtlm/diF5s\naDxOBfcjQA3CdkN3kAl8Z9XjIlFBIUlztuGYS/+zlA5YycrQq/6DyMCTTvCllJQ=\n=aHQU\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/1192265?v=4",
-                                        "url": "https://github.com/yifeif",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
                                         "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
-                                    "name": "GitHub",
-                                    "email": "noreply@github.com",
-                                    "date": "2018-04-27T16:56:50-07:00",
-                                    "user": null
-                                },
-                                "tree": {
-                                    "oid": "056605858c978ebb93eeed49a8e77aadf04f0fff",
-                                    "commitUrl": "https://github.com/tensorflow/tensorflow/commit/056605858c978ebb93eeed49a8e77aadf04f0fff",
-                                    "commitResourcePath": "/tensorflow/tensorflow/commit/056605858c978ebb93eeed49a8e77aadf04f0fff"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "b2c70d0d0bcb44c6f94ed6b01fba6abb051cc598",
-                                                "url": "https://github.com/tensorflow/tensorflow/commit/b2c70d0d0bcb44c6f94ed6b01fba6abb051cc598",
-                                                "commitUrl": "https://github.com/tensorflow/tensorflow/commit/b2c70d0d0bcb44c6f94ed6b01fba6abb051cc598"
-                                            }
-                                        }
-                                    ]
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }

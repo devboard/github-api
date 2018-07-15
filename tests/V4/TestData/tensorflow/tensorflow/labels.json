@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnk0NTcxNzI1MA==",
             "name": "tensorflow",
             "labels": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Y3Vyc29yOnYyOpHOOzQWYg=="
+                },
                 "edges": [
                     {
                         "node": {
@@ -228,6 +232,42 @@
                             "color": "35f4ee",
                             "isDefault": false,
                             "url": "https://github.com/tensorflow/tensorflow/labels/graph_editor"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw5MjgyNTYwMTU=",
+                            "name": "comp:tflite (use comp:lite instead)",
+                            "color": "ededed",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/comp%3Atflite%20%28use%20comp%3Alite%20instead%29"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw5Njk4MzE4MDY=",
+                            "name": "WIP",
+                            "color": "f4c77f",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/WIP"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw5ODc2NjY0MTQ=",
+                            "name": "ready to pull",
+                            "color": "2cd643",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/ready%20to%20pull"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw5OTMyNjkzNDY=",
+                            "name": "comp:tflite",
+                            "color": "ededed",
+                            "isDefault": false,
+                            "url": "https://github.com/tensorflow/tensorflow/labels/comp%3Atflite"
                         }
                     }
                 ]
