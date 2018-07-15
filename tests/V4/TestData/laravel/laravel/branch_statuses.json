@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnkxODYzMzI5",
             "name": "laravel",
             "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "OQ=="
+                },
                 "edges": [
                     {
                         "node": {
@@ -171,12 +175,12 @@
                                     "state": "SUCCESS",
                                     "contexts": [
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0NjU3NjcxMDU4",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTgxMDI5ODM2",
                                             "context": "continuous-integration/styleci/pr",
-                                            "description": "The StyleCI analysis has passed",
+                                            "description": "The analysis has passed",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://styleci.io/analyses/qJ9d7b",
-                                            "createdAt": "2018-03-01T03:23:53Z",
+                                            "targetUrl": "https://github.styleci.io/analyses/8m3jNE?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                            "createdAt": "2018-07-07T01:16:54Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjQ2MzIzMA==",
                                                 "login": "taylorotwell",
@@ -263,35 +267,18 @@
                             "id": "MDM6UmVmMTg2MzMyOTpkZXZlbG9w",
                             "name": "develop",
                             "target": {
-                                "oid": "a14e62325cbe82a615ccd2e80925c75cb0bf1eaf",
+                                "oid": "736c5cadf41a2a4e0399bf02336162e17a2d0fe9",
                                 "status": {
-                                    "id": "MDY6U3RhdHVzMTg2MzMyOTphMTRlNjIzMjVjYmU4MmE2MTVjY2QyZTgwOTI1Yzc1Y2IwYmYxZWFm",
+                                    "id": "MDY6U3RhdHVzMTg2MzMyOTo3MzZjNWNhZGY0MWEyYTRlMDM5OWJmMDIzMzYxNjJlMTdhMmQwZmU5",
                                     "state": "SUCCESS",
                                     "contexts": [
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0ODQwOTI0NjI0",
-                                            "context": "continuous-integration/styleci/pr",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTkxMTY5Mzkx",
+                                            "context": "continuous-integration/styleci/push",
                                             "description": "The analysis has passed",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://styleci.io/analyses/q1ADMA",
-                                            "createdAt": "2018-04-17T05:49:26Z",
-                                            "creator": {
-                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
-                                                "login": "taylorotwell",
-                                                "name": "Taylor Otwell",
-                                                "__typename": "User",
-                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
-                                                "url": "https://github.com/taylorotwell",
-                                                "isSiteAdmin": false
-                                            }
-                                        },
-                                        {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0NzA3NzgzMDU5",
-                                            "context": "continuous-integration/styleci/push",
-                                            "description": "The StyleCI analysis has passed",
-                                            "state": "SUCCESS",
-                                            "targetUrl": "https://styleci.io/analyses/q5Q9Z2",
-                                            "createdAt": "2018-03-13T21:09:56Z",
+                                            "targetUrl": "https://github.styleci.io/analyses/87nVvk?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                            "createdAt": "2018-07-10T13:18:33Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjQ2MzIzMA==",
                                                 "login": "taylorotwell",
@@ -312,18 +299,18 @@
                             "id": "MDM6UmVmMTg2MzMyOTptYXN0ZXI=",
                             "name": "master",
                             "target": {
-                                "oid": "479d02b0948fc3d6f244b1fe9f7ab54c09a5df05",
+                                "oid": "fa81e36841ee25c3440fc430ed8d6b66c641062b",
                                 "status": {
-                                    "id": "MDY6U3RhdHVzMTg2MzMyOTo0NzlkMDJiMDk0OGZjM2Q2ZjI0NGIxZmU5ZjdhYjU0YzA5YTVkZjA1",
+                                    "id": "MDY6U3RhdHVzMTg2MzMyOTpmYTgxZTM2ODQxZWUyNWMzNDQwZmM0MzBlZDhkNmI2NmM2NDEwNjJi",
                                     "state": "SUCCESS",
                                     "contexts": [
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0ODUxMjMzMjI3",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjAzMTc3MzA3",
                                             "context": "continuous-integration/styleci/push",
                                             "description": "The analysis has passed",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://styleci.io/analyses/qMO7kM",
-                                            "createdAt": "2018-04-19T01:50:08Z",
+                                            "targetUrl": "https://github.styleci.io/analyses/86K7dP?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                            "createdAt": "2018-07-12T14:01:15Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjQ2MzIzMA==",
                                                 "login": "taylorotwell",
