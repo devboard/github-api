@@ -796,12 +796,12 @@
                                             }
                                         },
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyMDEwNzA3",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEzMDkyNDg4",
                                             "context": "continuous-integration/travis-ci/push",
                                             "description": "The Travis CI build passed",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://travis-ci.org/ruby/ruby/builds/403873864?utm_source=github_status&utm_medium=notification",
-                                            "createdAt": "2018-07-14T11:12:59Z",
+                                            "targetUrl": "https://travis-ci.org/ruby/ruby/builds/404100295?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-07-15T11:14:17Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjEzNDIz",
                                                 "login": "nurse",
@@ -854,18 +854,18 @@
                             "id": "MDM6UmVmNTM4NzQ2OnRydW5r",
                             "name": "trunk",
                             "target": {
-                                "oid": "a70d5ff0aba89e889c7b63e80be2384306c33e83",
+                                "oid": "7b98385dd1da7f9e8f664ab7a7bf8bae3cfa926d",
                                 "status": {
-                                    "id": "MDY6U3RhdHVzNTM4NzQ2OmE3MGQ1ZmYwYWJhODllODg5YzdiNjNlODBiZTIzODQzMDZjMzNlODM=",
+                                    "id": "MDY6U3RhdHVzNTM4NzQ2OjdiOTgzODVkZDFkYTdmOWU4ZjY2NGFiN2E3YmY4YmFlM2NmYTkyNmQ=",
                                     "state": "SUCCESS",
                                     "contexts": [
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyMzI3MDUw",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEzMTUwMjEx",
                                             "context": "continuous-integration/appveyor/branch",
                                             "description": "AppVeyor build succeeded",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://ci.appveyor.com/project/ruby/ruby/build/1.0.8886",
-                                            "createdAt": "2018-07-14T17:26:35Z",
+                                            "targetUrl": "https://ci.appveyor.com/project/ruby/ruby/build/1.0.8893",
+                                            "createdAt": "2018-07-15T12:25:42Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjEyMzAx",
                                                 "login": "hsbt",
@@ -877,12 +877,12 @@
                                             }
                                         },
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyOTEyMjY4",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEzMTIzNjY3",
                                             "context": "continuous-integration/travis-ci/push",
                                             "description": "The Travis CI build passed",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://travis-ci.org/ruby/ruby/builds/404064044?utm_source=github_status&utm_medium=notification",
-                                            "createdAt": "2018-07-15T07:06:06Z",
+                                            "targetUrl": "https://travis-ci.org/ruby/ruby/builds/404107160?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-07-15T11:54:28Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjEzNDIz",
                                                 "login": "nurse",
