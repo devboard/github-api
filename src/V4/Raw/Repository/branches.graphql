@@ -3,6 +3,10 @@ query ($owner: String!, $name: String!) {
         id
         name
         refs(refPrefix: "refs/heads/", first: 100) {
+            pageInfo {
+                hasNextPage
+                endCursor
+            }
             edges {
                 node {
                     id
