@@ -1,13 +1,14 @@
 {
     "data": {
         "repository": {
-            "id": "MDEwOlJlcG9zaXRvcnkxNTkxNzEzMg==",
-            "name": "ProgrammingAssignment2",
             "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "MQ=="
+                },
                 "edges": [
                     {
                         "node": {
-                            "id": "MDM6UmVmMTU5MTcxMzI6bWFzdGVy",
                             "name": "master",
                             "target": {
                                 "oid": "7f657dd22ac20d22698c53b23f0057e1a12c09b7",
@@ -16,14 +17,13 @@
                                 "author": {
                                     "name": "Roger D. Peng [amelia]",
                                     "email": "rdpeng@gmail.com",
-                                    "date": "2014-04-22T14:09:22Z",
+                                    "date": "2014-04-22T10:09:22-04:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjk2MTI=",
                                         "login": "rdpeng",
                                         "name": "Roger D. Peng",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/9612?v=4",
-                                        "url": "https://github.com/rdpeng",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -37,26 +37,22 @@
                                         "name": "Roger D. Peng",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/9612?v=4",
-                                        "url": "https://github.com/rdpeng",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "fba09d72a2efb6f351f42266aa59d327d9391038",
-                                    "commitUrl": "https://github.com/rdpeng/ProgrammingAssignment2/commit/fba09d72a2efb6f351f42266aa59d327d9391038",
-                                    "commitResourcePath": "/rdpeng/ProgrammingAssignment2/commit/fba09d72a2efb6f351f42266aa59d327d9391038"
+                                    "oid": "fba09d72a2efb6f351f42266aa59d327d9391038"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "873d883cbbc6de667b66349c96148203cdbbb8b1",
-                                                "url": "https://github.com/rdpeng/ProgrammingAssignment2/commit/873d883cbbc6de667b66349c96148203cdbbb8b1",
-                                                "commitUrl": "https://github.com/rdpeng/ProgrammingAssignment2/commit/873d883cbbc6de667b66349c96148203cdbbb8b1"
+                                                "oid": "873d883cbbc6de667b66349c96148203cdbbb8b1"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     }

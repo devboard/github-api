@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnkxNTkxNzEzMg==",
             "name": "ProgrammingAssignment2",
             "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "MQ=="
+                },
                 "edges": [
                     {
                         "node": {
