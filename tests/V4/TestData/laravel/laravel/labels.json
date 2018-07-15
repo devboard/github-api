@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnkxODYzMzI5",
             "name": "laravel",
             "labels": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Y3Vyc29yOnYyOpHOG2/2zQ=="
+                },
                 "edges": [
                     {
                         "node": {
