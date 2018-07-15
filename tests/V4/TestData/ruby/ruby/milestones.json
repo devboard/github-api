@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnk1Mzg3NDY=",
             "name": "ruby",
             "milestones": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": null
+                },
                 "edges": []
             }
         }

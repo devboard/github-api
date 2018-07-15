@@ -1,13 +1,14 @@
 {
     "data": {
         "repository": {
-            "id": "MDEwOlJlcG9zaXRvcnk1Mzg3NDY=",
-            "name": "ruby",
             "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Mzc="
+                },
                 "edges": [
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OktFSUpV",
                             "name": "KEIJU",
                             "target": {
                                 "oid": "9c8e2a1084647c9f9b7159384a4b34f2020bbfc9",
@@ -23,7 +24,6 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -37,32 +37,27 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "51892dfdcb7c67674f81c9ad196dde0952f233ad",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/51892dfdcb7c67674f81c9ad196dde0952f233ad",
-                                    "commitResourcePath": "/ruby/ruby/commit/51892dfdcb7c67674f81c9ad196dde0952f233ad"
+                                    "oid": "51892dfdcb7c67674f81c9ad196dde0952f233ad"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "c47d7e78ec03111d04fcd6e8b41b928d967a414e",
-                                                "url": "https://github.com/ruby/ruby/commit/c47d7e78ec03111d04fcd6e8b41b928d967a414e",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/c47d7e78ec03111d04fcd6e8b41b928d967a414e"
+                                                "oid": "c47d7e78ec03111d04fcd6e8b41b928d967a414e"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OktPU0FLTw==",
                             "name": "KOSAKO",
                             "target": {
                                 "oid": "2129115fded23a6551c7648a9524e37fd7886ab7",
@@ -78,7 +73,6 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -92,32 +86,27 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "5a3747c4654973ed4f460d8c41876a9c10caaf3d",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/5a3747c4654973ed4f460d8c41876a9c10caaf3d",
-                                    "commitResourcePath": "/ruby/ruby/commit/5a3747c4654973ed4f460d8c41876a9c10caaf3d"
+                                    "oid": "5a3747c4654973ed4f460d8c41876a9c10caaf3d"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "4e05473028b7809b4827c63a2b8add388c43e985",
-                                                "url": "https://github.com/ruby/ruby/commit/4e05473028b7809b4827c63a2b8add388c43e985",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/4e05473028b7809b4827c63a2b8add388c43e985"
+                                                "oid": "4e05473028b7809b4827c63a2b8add388c43e985"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OlJVQlk=",
                             "name": "RUBY",
                             "target": {
                                 "oid": "2551bbef07d5b49b50e26b340f0ee1b48035df61",
@@ -133,7 +122,6 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -147,32 +135,27 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "9708892ece92e860d81559ab55e6b1f9400d7ffc",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/9708892ece92e860d81559ab55e6b1f9400d7ffc",
-                                    "commitResourcePath": "/ruby/ruby/commit/9708892ece92e860d81559ab55e6b1f9400d7ffc"
+                                    "oid": "9708892ece92e860d81559ab55e6b1f9400d7ffc"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "62e648e148b3cb9f96dcce808c55c02b7ccb4486",
-                                                "url": "https://github.com/ruby/ruby/commit/62e648e148b3cb9f96dcce808c55c02b7ccb4486",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/62e648e148b3cb9f96dcce808c55c02b7ccb4486"
+                                                "oid": "62e648e148b3cb9f96dcce808c55c02b7ccb4486"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OlNFUg==",
                             "name": "SER",
                             "target": {
                                 "oid": "9fb7e98ce67ae0d7a2aa3d95220f60e0f26689f9",
@@ -188,7 +171,6 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -202,32 +184,27 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "5c7a14dd38c32ec13ff612f83a5396c1066bccaa",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/5c7a14dd38c32ec13ff612f83a5396c1066bccaa",
-                                    "commitResourcePath": "/ruby/ruby/commit/5c7a14dd38c32ec13ff612f83a5396c1066bccaa"
+                                    "oid": "5c7a14dd38c32ec13ff612f83a5396c1066bccaa"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "1684b1736f51b99bde1cfc42b96f27a0cb23a46c",
-                                                "url": "https://github.com/ruby/ruby/commit/1684b1736f51b99bde1cfc42b96f27a0cb23a46c",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/1684b1736f51b99bde1cfc42b96f27a0cb23a46c"
+                                                "oid": "1684b1736f51b99bde1cfc42b96f27a0cb23a46c"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OlNISUdFTw==",
                             "name": "SHIGEO",
                             "target": {
                                 "oid": "00f8120e3ad2b9149b000afdb7c7bde77321fd8f",
@@ -243,7 +220,6 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -257,32 +233,27 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "8d73df58a238e3a123be05e138451e8a6373725d",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/8d73df58a238e3a123be05e138451e8a6373725d",
-                                    "commitResourcePath": "/ruby/ruby/commit/8d73df58a238e3a123be05e138451e8a6373725d"
+                                    "oid": "8d73df58a238e3a123be05e138451e8a6373725d"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "7dc80f4f9c42752a6c870cff8a908f283b37cffa",
-                                                "url": "https://github.com/ruby/ruby/commit/7dc80f4f9c42752a6c870cff8a908f283b37cffa",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/7dc80f4f9c42752a6c870cff8a908f283b37cffa"
+                                                "oid": "7dc80f4f9c42752a6c870cff8a908f283b37cffa"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OlNQQ09MVFJJTg==",
                             "name": "SPCOLTRIN",
                             "target": {
                                 "oid": "a5aef960128892bddc195eb0a63fe3f3897d0392",
@@ -298,7 +269,6 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -312,32 +282,27 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "170715b3f1f0544e6766c2904cdd9cd2544b11f4",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/170715b3f1f0544e6766c2904cdd9cd2544b11f4",
-                                    "commitResourcePath": "/ruby/ruby/commit/170715b3f1f0544e6766c2904cdd9cd2544b11f4"
+                                    "oid": "170715b3f1f0544e6766c2904cdd9cd2544b11f4"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "33db014304a287d18f7d04f5fbdfa23b80454bd3",
-                                                "url": "https://github.com/ruby/ruby/commit/33db014304a287d18f7d04f5fbdfa23b80454bd3",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/33db014304a287d18f7d04f5fbdfa23b80454bd3"
+                                                "oid": "33db014304a287d18f7d04f5fbdfa23b80454bd3"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OmhhbGYtYmFrZWQtMS45",
                             "name": "half-baked-1.9",
                             "target": {
                                 "oid": "e469bcd0784a005c3760be56d25171f8e7a073bc",
@@ -356,27 +321,23 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "374907f48b8dc2be76ea7f5a640aa8baf0ab6297",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/374907f48b8dc2be76ea7f5a640aa8baf0ab6297",
-                                    "commitResourcePath": "/ruby/ruby/commit/374907f48b8dc2be76ea7f5a640aa8baf0ab6297"
+                                    "oid": "374907f48b8dc2be76ea7f5a640aa8baf0ab6297"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "10860cf3f31d0e5689c4211c1edce49af0223cb3",
-                                                "url": "https://github.com/ruby/ruby/commit/10860cf3f31d0e5689c4211c1edce49af0223cb3",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/10860cf3f31d0e5689c4211c1edce49af0223cb3"
+                                                "oid": "10860cf3f31d0e5689c4211c1edce49af0223cb3"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2Om1hdHpydWJ5",
                             "name": "matzruby",
                             "target": {
                                 "oid": "ea891fd153721c4a1d370c3870ff26b9ab95f703",
@@ -392,7 +353,6 @@
                                         "name": "Yukihiro \"Matz\" Matsumoto",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/30733?v=4",
-                                        "url": "https://github.com/matz",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -406,32 +366,27 @@
                                         "name": "Yukihiro \"Matz\" Matsumoto",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/30733?v=4",
-                                        "url": "https://github.com/matz",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "b80384e34ccbfcb2f10109b8eccfd10c24b76bc5",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/b80384e34ccbfcb2f10109b8eccfd10c24b76bc5",
-                                    "commitResourcePath": "/ruby/ruby/commit/b80384e34ccbfcb2f10109b8eccfd10c24b76bc5"
+                                    "oid": "b80384e34ccbfcb2f10109b8eccfd10c24b76bc5"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "29fc9b04b1b685fed53b0c764ba9b01eb2d67597",
-                                                "url": "https://github.com/ruby/ruby/commit/29fc9b04b1b685fed53b0c764ba9b01eb2d67597",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/29fc9b04b1b685fed53b0c764ba9b01eb2d67597"
+                                                "oid": "29fc9b04b1b685fed53b0c764ba9b01eb2d67597"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2Om12bQ==",
                             "name": "mvm",
                             "target": {
                                 "oid": "d3fe41350020b4cc4938908bd5cb03ff478c8858",
@@ -447,7 +402,6 @@
                                         "name": "Nobuyoshi Nakada",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/16700?v=4",
-                                        "url": "https://github.com/nobu",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -461,32 +415,27 @@
                                         "name": "Nobuyoshi Nakada",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/16700?v=4",
-                                        "url": "https://github.com/nobu",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "353c3ffaa2ce40568bba398576aa07080e96e981",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/353c3ffaa2ce40568bba398576aa07080e96e981",
-                                    "commitResourcePath": "/ruby/ruby/commit/353c3ffaa2ce40568bba398576aa07080e96e981"
+                                    "oid": "353c3ffaa2ce40568bba398576aa07080e96e981"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "6abd0f4c87c5d070cadfeb55730b7981d1935017",
-                                                "url": "https://github.com/ruby/ruby/commit/6abd0f4c87c5d070cadfeb55730b7981d1935017",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/6abd0f4c87c5d070cadfeb55730b7981d1935017"
+                                                "oid": "6abd0f4c87c5d070cadfeb55730b7981d1935017"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2Om5ld19nYw==",
                             "name": "new_gc",
                             "target": {
                                 "oid": "05cef62fd286071ad9a8a27b84bb7e2cdb2885ae",
@@ -502,7 +451,6 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -516,32 +464,27 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "1bbe3d63eaaefbb41fc76af5d5f8f4643c14b1e1",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/1bbe3d63eaaefbb41fc76af5d5f8f4643c14b1e1",
-                                    "commitResourcePath": "/ruby/ruby/commit/1bbe3d63eaaefbb41fc76af5d5f8f4643c14b1e1"
+                                    "oid": "1bbe3d63eaaefbb41fc76af5d5f8f4643c14b1e1"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "d43ca2487196eafa51d2d13e47bd7f25400e2b61",
-                                                "url": "https://github.com/ruby/ruby/commit/d43ca2487196eafa51d2d13e47bd7f25400e2b61",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/d43ca2487196eafa51d2d13e47bd7f25400e2b61"
+                                                "oid": "d43ca2487196eafa51d2d13e47bd7f25400e2b61"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnJleG1sX2FkZHNfdGVzdHM=",
                             "name": "rexml_adds_tests",
                             "target": {
                                 "oid": "8b53e39a2e6110cf13827c88673a3ef2667991cf",
@@ -560,27 +503,23 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "eb1fa37c2a675b75c295285b5c313ba05801c2b8",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/eb1fa37c2a675b75c295285b5c313ba05801c2b8",
-                                    "commitResourcePath": "/ruby/ruby/commit/eb1fa37c2a675b75c295285b5c313ba05801c2b8"
+                                    "oid": "eb1fa37c2a675b75c295285b5c313ba05801c2b8"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "f36a3f0ea57aa05a72cb58937c7a737455a98a38",
-                                                "url": "https://github.com/ruby/ruby/commit/f36a3f0ea57aa05a72cb58937c7a737455a98a38",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/f36a3f0ea57aa05a72cb58937c7a737455a98a38"
+                                                "oid": "f36a3f0ea57aa05a72cb58937c7a737455a98a38"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnJpY3Npbg==",
                             "name": "ricsin",
                             "target": {
                                 "oid": "1a8f63b143f2e05cf24650e90e7a8d9f83c508c6",
@@ -596,7 +535,6 @@
                                         "name": "Koichi Sasada",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/9558?v=4",
-                                        "url": "https://github.com/ko1",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -610,32 +548,27 @@
                                         "name": "Koichi Sasada",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/9558?v=4",
-                                        "url": "https://github.com/ko1",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "2e836b66e579a06b7382d6deb53dc3339be1b75b",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/2e836b66e579a06b7382d6deb53dc3339be1b75b",
-                                    "commitResourcePath": "/ruby/ruby/commit/2e836b66e579a06b7382d6deb53dc3339be1b75b"
+                                    "oid": "2e836b66e579a06b7382d6deb53dc3339be1b75b"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "ddbf9c4a452a6c1ea2c016b761b0d8bc8c61c5fa",
-                                                "url": "https://github.com/ruby/ruby/commit/ddbf9c4a452a6c1ea2c016b761b0d8bc8c61c5fa",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/ddbf9c4a452a6c1ea2c016b761b0d8bc8c61c5fa"
+                                                "oid": "ddbf9c4a452a6c1ea2c016b761b0d8bc8c61c5fa"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfbTE3bg==",
                             "name": "ruby_m17n",
                             "target": {
                                 "oid": "e0d7e24c2abed5f46e5a97c72df1ea31942c1a30",
@@ -651,7 +584,6 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -665,32 +597,27 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "722a07b93029d42c4c3d50733603c46f7dbfde30",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/722a07b93029d42c4c3d50733603c46f7dbfde30",
-                                    "commitResourcePath": "/ruby/ruby/commit/722a07b93029d42c4c3d50733603c46f7dbfde30"
+                                    "oid": "722a07b93029d42c4c3d50733603c46f7dbfde30"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "11466a5e5a063fd7f0125be815d90d8ee36df7de",
-                                                "url": "https://github.com/ruby/ruby/commit/11466a5e5a063fd7f0125be815d90d8ee36df7de",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/11466a5e5a063fd7f0125be815d90d8ee36df7de"
+                                                "oid": "11466a5e5a063fd7f0125be815d90d8ee36df7de"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfMV8z",
                             "name": "ruby_1_3",
                             "target": {
                                 "oid": "ab681f1534f8a6dfdc1ae405e78c7353818bca26",
@@ -706,7 +633,6 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -720,32 +646,27 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "3361160df7517a16c7f69add1a73bbd71c29b874",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/3361160df7517a16c7f69add1a73bbd71c29b874",
-                                    "commitResourcePath": "/ruby/ruby/commit/3361160df7517a16c7f69add1a73bbd71c29b874"
+                                    "oid": "3361160df7517a16c7f69add1a73bbd71c29b874"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "6b7db6c7c4ee4f4f09e0a1c63bd3ffcb061ee18c",
-                                                "url": "https://github.com/ruby/ruby/commit/6b7db6c7c4ee4f4f09e0a1c63bd3ffcb061ee18c",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/6b7db6c7c4ee4f4f09e0a1c63bd3ffcb061ee18c"
+                                                "oid": "6b7db6c7c4ee4f4f09e0a1c63bd3ffcb061ee18c"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfMV80",
                             "name": "ruby_1_4",
                             "target": {
                                 "oid": "136234a35da07f0c1e4df54551c8df5afdc97d6e",
@@ -761,7 +682,6 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -775,32 +695,27 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "a75cb3e5d2726f6b77b2dc25dbd3af7274ebf6b3",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/a75cb3e5d2726f6b77b2dc25dbd3af7274ebf6b3",
-                                    "commitResourcePath": "/ruby/ruby/commit/a75cb3e5d2726f6b77b2dc25dbd3af7274ebf6b3"
+                                    "oid": "a75cb3e5d2726f6b77b2dc25dbd3af7274ebf6b3"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "db73cfedc4d6528eab067019ff1c5c7c76a8de01",
-                                                "url": "https://github.com/ruby/ruby/commit/db73cfedc4d6528eab067019ff1c5c7c76a8de01",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/db73cfedc4d6528eab067019ff1c5c7c76a8de01"
+                                                "oid": "db73cfedc4d6528eab067019ff1c5c7c76a8de01"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfMV82",
                             "name": "ruby_1_6",
                             "target": {
                                 "oid": "e247c4e598dd7807c24173a6c4b92a8dfe0b1caf",
@@ -816,7 +731,6 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -830,32 +744,27 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "f6e0588d039715d3f4ab4c9f42352fae5e344aa0",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/f6e0588d039715d3f4ab4c9f42352fae5e344aa0",
-                                    "commitResourcePath": "/ruby/ruby/commit/f6e0588d039715d3f4ab4c9f42352fae5e344aa0"
+                                    "oid": "f6e0588d039715d3f4ab4c9f42352fae5e344aa0"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "c8d1c38a8fc4e638bade6493a0dd4758a62d85a2",
-                                                "url": "https://github.com/ruby/ruby/commit/c8d1c38a8fc4e638bade6493a0dd4758a62d85a2",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/c8d1c38a8fc4e638bade6493a0dd4758a62d85a2"
+                                                "oid": "c8d1c38a8fc4e638bade6493a0dd4758a62d85a2"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfMV84",
                             "name": "ruby_1_8",
                             "target": {
                                 "oid": "50783b870e31259ed5c91badbd5c8e41f8e56273",
@@ -871,7 +780,6 @@
                                         "name": null,
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/29403229?v=4",
-                                        "url": "https://github.com/matzbot",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -885,32 +793,27 @@
                                         "name": null,
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/29403229?v=4",
-                                        "url": "https://github.com/matzbot",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "9fd62f76c4e6685d4e62b44ca0968acde14f402a",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/9fd62f76c4e6685d4e62b44ca0968acde14f402a",
-                                    "commitResourcePath": "/ruby/ruby/commit/9fd62f76c4e6685d4e62b44ca0968acde14f402a"
+                                    "oid": "9fd62f76c4e6685d4e62b44ca0968acde14f402a"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "fcec1aa6e24aa92b8afb139f86a92459fc299d74",
-                                                "url": "https://github.com/ruby/ruby/commit/fcec1aa6e24aa92b8afb139f86a92459fc299d74",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/fcec1aa6e24aa92b8afb139f86a92459fc299d74"
+                                                "oid": "fcec1aa6e24aa92b8afb139f86a92459fc299d74"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfMV84XzU=",
                             "name": "ruby_1_8_5",
                             "target": {
                                 "oid": "82ea308dcf767a779c7b3efd930f8d13ea50a5aa",
@@ -926,7 +829,6 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -940,32 +842,27 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "20925c753a77b76e43f8580cdbccbb76ab3387dc",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/20925c753a77b76e43f8580cdbccbb76ab3387dc",
-                                    "commitResourcePath": "/ruby/ruby/commit/20925c753a77b76e43f8580cdbccbb76ab3387dc"
+                                    "oid": "20925c753a77b76e43f8580cdbccbb76ab3387dc"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "407d2fb2980e338dc25903800fd56080ad5b7c6f",
-                                                "url": "https://github.com/ruby/ruby/commit/407d2fb2980e338dc25903800fd56080ad5b7c6f",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/407d2fb2980e338dc25903800fd56080ad5b7c6f"
+                                                "oid": "407d2fb2980e338dc25903800fd56080ad5b7c6f"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfMV84XzY=",
                             "name": "ruby_1_8_6",
                             "target": {
                                 "oid": "75b6d084a58085b470f47948659bcff10d0a55d2",
@@ -981,7 +878,6 @@
                                         "name": null,
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/29403229?v=4",
-                                        "url": "https://github.com/matzbot",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -995,32 +891,27 @@
                                         "name": null,
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/29403229?v=4",
-                                        "url": "https://github.com/matzbot",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "bf1bfeea258dd6f782526e6c32e5b6c228ef4cd1",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/bf1bfeea258dd6f782526e6c32e5b6c228ef4cd1",
-                                    "commitResourcePath": "/ruby/ruby/commit/bf1bfeea258dd6f782526e6c32e5b6c228ef4cd1"
+                                    "oid": "bf1bfeea258dd6f782526e6c32e5b6c228ef4cd1"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "8271144e65c86a863c75eeec4599b83047005676",
-                                                "url": "https://github.com/ruby/ruby/commit/8271144e65c86a863c75eeec4599b83047005676",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/8271144e65c86a863c75eeec4599b83047005676"
+                                                "oid": "8271144e65c86a863c75eeec4599b83047005676"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfMV84Xzc=",
                             "name": "ruby_1_8_7",
                             "target": {
                                 "oid": "f48ae0d10c5b586db5748b0d4b645c7e9ff5d52e",
@@ -1036,7 +927,6 @@
                                         "name": "NARUSE, Yui",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/13423?v=4",
-                                        "url": "https://github.com/nurse",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1050,32 +940,27 @@
                                         "name": "NARUSE, Yui",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/13423?v=4",
-                                        "url": "https://github.com/nurse",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "03c429887961bbd09af63e1a02c1930b9fed72a9",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/03c429887961bbd09af63e1a02c1930b9fed72a9",
-                                    "commitResourcePath": "/ruby/ruby/commit/03c429887961bbd09af63e1a02c1930b9fed72a9"
+                                    "oid": "03c429887961bbd09af63e1a02c1930b9fed72a9"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "b912e1d2c02a038818aac2a82a1dc927a70e0750",
-                                                "url": "https://github.com/ruby/ruby/commit/b912e1d2c02a038818aac2a82a1dc927a70e0750",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/b912e1d2c02a038818aac2a82a1dc927a70e0750"
+                                                "oid": "b912e1d2c02a038818aac2a82a1dc927a70e0750"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfMV85XzE=",
                             "name": "ruby_1_9_1",
                             "target": {
                                 "oid": "1306ae8a461b30fbc59aedea7262958cc5775137",
@@ -1091,7 +976,6 @@
                                         "name": null,
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/29403229?v=4",
-                                        "url": "https://github.com/matzbot",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1105,32 +989,27 @@
                                         "name": null,
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/29403229?v=4",
-                                        "url": "https://github.com/matzbot",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "687b92d1bc9025619c111baf9e5632c765128586",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/687b92d1bc9025619c111baf9e5632c765128586",
-                                    "commitResourcePath": "/ruby/ruby/commit/687b92d1bc9025619c111baf9e5632c765128586"
+                                    "oid": "687b92d1bc9025619c111baf9e5632c765128586"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "baf7c8593260210dce2b0a050ca0d65f5655b10d",
-                                                "url": "https://github.com/ruby/ruby/commit/baf7c8593260210dce2b0a050ca0d65f5655b10d",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/baf7c8593260210dce2b0a050ca0d65f5655b10d"
+                                                "oid": "baf7c8593260210dce2b0a050ca0d65f5655b10d"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfMV85XzI=",
                             "name": "ruby_1_9_2",
                             "target": {
                                 "oid": "5d9f08f3d91e609866f43aa1f04e264157722cbe",
@@ -1146,7 +1025,6 @@
                                         "name": "Terence Lee",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/16457?v=4",
-                                        "url": "https://github.com/hone",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1160,32 +1038,27 @@
                                         "name": "Terence Lee",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/16457?v=4",
-                                        "url": "https://github.com/hone",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "d2d4945414c8049049c9592dd000e511bf4ccead",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/d2d4945414c8049049c9592dd000e511bf4ccead",
-                                    "commitResourcePath": "/ruby/ruby/commit/d2d4945414c8049049c9592dd000e511bf4ccead"
+                                    "oid": "d2d4945414c8049049c9592dd000e511bf4ccead"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "7b9354af8805c02ed968765abe300162e0fcc943",
-                                                "url": "https://github.com/ruby/ruby/commit/7b9354af8805c02ed968765abe300162e0fcc943",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/7b9354af8805c02ed968765abe300162e0fcc943"
+                                                "oid": "7b9354af8805c02ed968765abe300162e0fcc943"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfMV85XzM=",
                             "name": "ruby_1_9_3",
                             "target": {
                                 "oid": "23ccbdf52188b78427f41d75b1a4b81959ac9876",
@@ -1201,7 +1074,6 @@
                                         "name": "usa",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/17790?v=4",
-                                        "url": "https://github.com/unak",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1215,32 +1087,27 @@
                                         "name": "usa",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/17790?v=4",
-                                        "url": "https://github.com/unak",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "6299f0aecb2ce602282b1343ac0cb57fda4a18e6",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/6299f0aecb2ce602282b1343ac0cb57fda4a18e6",
-                                    "commitResourcePath": "/ruby/ruby/commit/6299f0aecb2ce602282b1343ac0cb57fda4a18e6"
+                                    "oid": "6299f0aecb2ce602282b1343ac0cb57fda4a18e6"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "10f820b18d8c6011a7f98e56ac859903c56b15e6",
-                                                "url": "https://github.com/ruby/ruby/commit/10f820b18d8c6011a7f98e56ac859903c56b15e6",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/10f820b18d8c6011a7f98e56ac859903c56b15e6"
+                                                "oid": "10f820b18d8c6011a7f98e56ac859903c56b15e6"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfMl8wXzA=",
                             "name": "ruby_2_0_0",
                             "target": {
                                 "oid": "073cc5e815fcf5178fe4e515fcde74dc3597adeb",
@@ -1256,7 +1123,6 @@
                                         "name": "usa",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/17790?v=4",
-                                        "url": "https://github.com/unak",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1270,32 +1136,27 @@
                                         "name": "usa",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/17790?v=4",
-                                        "url": "https://github.com/unak",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "ff58ba88488fdcbbb385575804206ca82c78fc95",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/ff58ba88488fdcbbb385575804206ca82c78fc95",
-                                    "commitResourcePath": "/ruby/ruby/commit/ff58ba88488fdcbbb385575804206ca82c78fc95"
+                                    "oid": "ff58ba88488fdcbbb385575804206ca82c78fc95"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "0bdadc5b7e4b77ced3acbf0ff3e436a4b945c9ed",
-                                                "url": "https://github.com/ruby/ruby/commit/0bdadc5b7e4b77ced3acbf0ff3e436a4b945c9ed",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/0bdadc5b7e4b77ced3acbf0ff3e436a4b945c9ed"
+                                                "oid": "0bdadc5b7e4b77ced3acbf0ff3e436a4b945c9ed"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfMl8x",
                             "name": "ruby_2_1",
                             "target": {
                                 "oid": "6d728bdae9de565ad9d0b2fee2d4c2a33c6f4eac",
@@ -1311,7 +1172,6 @@
                                         "name": null,
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/29403229?v=4",
-                                        "url": "https://github.com/matzbot",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1325,32 +1185,27 @@
                                         "name": null,
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/29403229?v=4",
-                                        "url": "https://github.com/matzbot",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "58e899f9a686eafe5a8287d3ddef0c57975f0ba8",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/58e899f9a686eafe5a8287d3ddef0c57975f0ba8",
-                                    "commitResourcePath": "/ruby/ruby/commit/58e899f9a686eafe5a8287d3ddef0c57975f0ba8"
+                                    "oid": "58e899f9a686eafe5a8287d3ddef0c57975f0ba8"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "6968f3a0fd1e06a057376948e3747dc7307e6a1a",
-                                                "url": "https://github.com/ruby/ruby/commit/6968f3a0fd1e06a057376948e3747dc7307e6a1a",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/6968f3a0fd1e06a057376948e3747dc7307e6a1a"
+                                                "oid": "6968f3a0fd1e06a057376948e3747dc7307e6a1a"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfMl8y",
                             "name": "ruby_2_2",
                             "target": {
                                 "oid": "bbda1a027475bf7ce5e1a9583a7b55d0be71c8fe",
@@ -1366,7 +1221,6 @@
                                         "name": "usa",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/17790?v=4",
-                                        "url": "https://github.com/unak",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1380,32 +1234,27 @@
                                         "name": "usa",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/17790?v=4",
-                                        "url": "https://github.com/unak",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "8dafb58b6ec6a18c1516d31ba53036af6128f4ea",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/8dafb58b6ec6a18c1516d31ba53036af6128f4ea",
-                                    "commitResourcePath": "/ruby/ruby/commit/8dafb58b6ec6a18c1516d31ba53036af6128f4ea"
+                                    "oid": "8dafb58b6ec6a18c1516d31ba53036af6128f4ea"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "a45622669bb1ff18d3ee9b411128acd839c4263e",
-                                                "url": "https://github.com/ruby/ruby/commit/a45622669bb1ff18d3ee9b411128acd839c4263e",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/a45622669bb1ff18d3ee9b411128acd839c4263e"
+                                                "oid": "a45622669bb1ff18d3ee9b411128acd839c4263e"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfMl8z",
                             "name": "ruby_2_3",
                             "target": {
                                 "oid": "d32a6d37fe32beffd44e95dd062513cabcc86acb",
@@ -1421,7 +1270,6 @@
                                         "name": "usa",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/17790?v=4",
-                                        "url": "https://github.com/unak",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1435,142 +1283,125 @@
                                         "name": "usa",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/17790?v=4",
-                                        "url": "https://github.com/unak",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "63277f9e1251cbcfae60e2d10350b181633e0b56",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/63277f9e1251cbcfae60e2d10350b181633e0b56",
-                                    "commitResourcePath": "/ruby/ruby/commit/63277f9e1251cbcfae60e2d10350b181633e0b56"
+                                    "oid": "63277f9e1251cbcfae60e2d10350b181633e0b56"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "32c00d78a6e94203507bfa57a60ab5a005af6d7b",
-                                                "url": "https://github.com/ruby/ruby/commit/32c00d78a6e94203507bfa57a60ab5a005af6d7b",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/32c00d78a6e94203507bfa57a60ab5a005af6d7b"
+                                                "oid": "32c00d78a6e94203507bfa57a60ab5a005af6d7b"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfMl80",
                             "name": "ruby_2_4",
                             "target": {
-                                "oid": "753aa75319282297c41a02d9932b5d88ba575112",
-                                "message": "bump up teeny version to 2.4.5.\n\ngit-svn-id: svn+ssh://ci.ruby-lang.org/ruby/branches/ruby_2_4@63036 b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
-                                "authoredDate": "2018-03-29T12:15:11Z",
+                                "oid": "c0e77089b2f3c5358562d2fe58e74cc91f8813da",
+                                "message": "Fix path checks for case insensitive filesystem\n\nsee https://github.com/rubygems/rubygems/pull/2211\n[ruby-core:86745] [Backport #14721]\n\n\ngit-svn-id: svn+ssh://ci.ruby-lang.org/ruby/branches/ruby_2_4@63809 b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
+                                "authoredDate": "2018-06-30T13:24:21Z",
                                 "author": {
-                                    "name": "nagachika",
-                                    "email": "nagachika@b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
-                                    "date": "2018-03-29T12:15:11Z",
+                                    "name": "usa",
+                                    "email": "usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
+                                    "date": "2018-06-30T13:24:21Z",
                                     "user": {
-                                        "id": "MDQ6VXNlcjIxOTc2",
-                                        "login": "nagachika",
-                                        "name": "nagachika",
+                                        "id": "MDQ6VXNlcjE3Nzkw",
+                                        "login": "unak",
+                                        "name": "usa",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/21976?v=4",
-                                        "url": "https://github.com/nagachika",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/17790?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
-                                    "name": "nagachika",
-                                    "email": "nagachika@b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
-                                    "date": "2018-03-29T12:15:11Z",
+                                    "name": "usa",
+                                    "email": "usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
+                                    "date": "2018-06-30T13:24:21Z",
                                     "user": {
-                                        "id": "MDQ6VXNlcjIxOTc2",
-                                        "login": "nagachika",
-                                        "name": "nagachika",
+                                        "id": "MDQ6VXNlcjE3Nzkw",
+                                        "login": "unak",
+                                        "name": "usa",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/21976?v=4",
-                                        "url": "https://github.com/nagachika",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/17790?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "70925d147f803e744447e7d2dcdf9e494bbf784c",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/70925d147f803e744447e7d2dcdf9e494bbf784c",
-                                    "commitResourcePath": "/ruby/ruby/commit/70925d147f803e744447e7d2dcdf9e494bbf784c"
+                                    "oid": "a811d42a9fd5235d72e38466969d54a2da6ed1ed"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "c461bdc3c5243d4b0ea1f47b78fa67eac0d355db",
-                                                "url": "https://github.com/ruby/ruby/commit/c461bdc3c5243d4b0ea1f47b78fa67eac0d355db",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/c461bdc3c5243d4b0ea1f47b78fa67eac0d355db"
+                                                "oid": "9796be14ac1bf0af31861f995d35d9740a01aad1"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfMl81",
                             "name": "ruby_2_5",
                             "target": {
-                                "oid": "4b1fbbe92a758416294c3f336bb8e22bab3f1ff0",
-                                "message": "merge revision(s) 63048: [Backport #14654]\n\n\tResurvey performance of RDoc by frozen_string_literal: true [Bug #14654]\n\ngit-svn-id: svn+ssh://ci.ruby-lang.org/ruby/branches/ruby_2_5@63049 b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
-                                "authoredDate": "2018-03-31T13:50:56Z",
+                                "oid": "fcb4a3d88fa38589239281b1b670b95fba47b277",
+                                "message": "merge revision(s) 63304: [Backport #14713]\n\n\tio.c: workaround for EPROTOTYPE\n\n\t* io.c (internal_write_func, internal_writev_func): retry at\n\t  unexpected EPROTOTYPE on macOS, to get rid of a kernel bug.\n\t  [ruby-core:86690] [Bug #14713]\n\n\t* ext/socket/init.c (rsock_{sendto,send,write}_blocking): ditto.\n\ngit-svn-id: svn+ssh://ci.ruby-lang.org/ruby/branches/ruby_2_5@63826 b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
+                                "authoredDate": "2018-07-02T09:15:33Z",
                                 "author": {
-                                    "name": "naruse",
-                                    "email": "naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
-                                    "date": "2018-03-31T13:50:56Z",
+                                    "name": "nagachika",
+                                    "email": "nagachika@b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
+                                    "date": "2018-07-02T09:15:33Z",
                                     "user": {
-                                        "id": "MDQ6VXNlcjEzNDIz",
-                                        "login": "nurse",
-                                        "name": "NARUSE, Yui",
+                                        "id": "MDQ6VXNlcjIxOTc2",
+                                        "login": "nagachika",
+                                        "name": "nagachika",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/13423?v=4",
-                                        "url": "https://github.com/nurse",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/21976?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
-                                    "name": "naruse",
-                                    "email": "naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
-                                    "date": "2018-03-31T13:50:56Z",
+                                    "name": "nagachika",
+                                    "email": "nagachika@b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
+                                    "date": "2018-07-02T09:15:33Z",
                                     "user": {
-                                        "id": "MDQ6VXNlcjEzNDIz",
-                                        "login": "nurse",
-                                        "name": "NARUSE, Yui",
+                                        "id": "MDQ6VXNlcjIxOTc2",
+                                        "login": "nagachika",
+                                        "name": "nagachika",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/13423?v=4",
-                                        "url": "https://github.com/nurse",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/21976?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "5c54c5ce253676579a522c3ee083d317a0c3ca45",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/5c54c5ce253676579a522c3ee083d317a0c3ca45",
-                                    "commitResourcePath": "/ruby/ruby/commit/5c54c5ce253676579a522c3ee083d317a0c3ca45"
+                                    "oid": "0d8ebfab3a5c757ad26df8cfbc0a57ada506a404"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "2ba6862f77e8b62fd08357a6a1f2e28546eb4eca",
-                                                "url": "https://github.com/ruby/ruby/commit/2ba6862f77e8b62fd08357a6a1f2e28546eb4eca",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/2ba6862f77e8b62fd08357a6a1f2e28546eb4eca"
+                                                "oid": "4a625f839ccd9f226fcef95499c4b48702cc0b69"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnRlc3R1bml0",
                             "name": "testunit",
                             "target": {
                                 "oid": "664a7128d124c06547eebe9f8707e24df7f93022",
@@ -1586,7 +1417,6 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1600,87 +1430,76 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "94f4ebe521d1cf7c6f177769ffcf324827242377",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/94f4ebe521d1cf7c6f177769ffcf324827242377",
-                                    "commitResourcePath": "/ruby/ruby/commit/94f4ebe521d1cf7c6f177769ffcf324827242377"
+                                    "oid": "94f4ebe521d1cf7c6f177769ffcf324827242377"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "f945cfa73ca8db4d32dc242556a0aa19130279f6",
-                                                "url": "https://github.com/ruby/ruby/commit/f945cfa73ca8db4d32dc242556a0aa19130279f6",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/f945cfa73ca8db4d32dc242556a0aa19130279f6"
+                                                "oid": "f945cfa73ca8db4d32dc242556a0aa19130279f6"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnRydW5r",
                             "name": "trunk",
                             "target": {
-                                "oid": "fb2acec9439a023396cca3245d4dabb12a78f1da",
-                                "message": "* 2018-05-06\n\ngit-svn-id: svn+ssh://ci.ruby-lang.org/ruby/trunk@63343 b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
-                                "authoredDate": "2018-05-06T09:53:35Z",
+                                "oid": "a70d5ff0aba89e889c7b63e80be2384306c33e83",
+                                "message": "* 2018-07-15\n\ngit-svn-id: svn+ssh://ci.ruby-lang.org/ruby/trunk@63967 b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
+                                "authoredDate": "2018-07-14T17:04:57Z",
                                 "author": {
                                     "name": "svn",
                                     "email": "svn@b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
-                                    "date": "2018-05-06T09:53:35Z",
+                                    "date": "2018-07-14T17:04:57Z",
                                     "user": {
                                         "id": "MDQ6VXNlcjI5NDAzMjI5",
                                         "login": "matzbot",
                                         "name": null,
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/29403229?v=4",
-                                        "url": "https://github.com/matzbot",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
                                     "name": "svn",
                                     "email": "svn@b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
-                                    "date": "2018-05-06T09:53:35Z",
+                                    "date": "2018-07-14T17:04:57Z",
                                     "user": {
                                         "id": "MDQ6VXNlcjI5NDAzMjI5",
                                         "login": "matzbot",
                                         "name": null,
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/29403229?v=4",
-                                        "url": "https://github.com/matzbot",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "ae6a241b4a38642b36fe939628569ac83de9413b",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/ae6a241b4a38642b36fe939628569ac83de9413b",
-                                    "commitResourcePath": "/ruby/ruby/commit/ae6a241b4a38642b36fe939628569ac83de9413b"
+                                    "oid": "52ea6210e5a28493e85d0b06623aee46665d5998"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "2ad7fb6dc16baee28c3840bce6d43cc6698aaa6c",
-                                                "url": "https://github.com/ruby/ruby/commit/2ad7fb6dc16baee28c3840bce6d43cc6698aaa6c",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/2ad7fb6dc16baee28c3840bce6d43cc6698aaa6c"
+                                                "oid": "91061e74e442351c79385c9e287532579ec4e3fc"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnVubGFiZWxlZC0xLjEuMQ==",
                             "name": "unlabeled-1.1.1",
                             "target": {
                                 "oid": "666bf8a75bf41f80c4f5a6c9f4cb4872d5b80d4d",
@@ -1696,7 +1515,6 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1710,32 +1528,27 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "8aaf2aa5b92ddc50ffc40ebed5b092cc259c8dd7",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/8aaf2aa5b92ddc50ffc40ebed5b092cc259c8dd7",
-                                    "commitResourcePath": "/ruby/ruby/commit/8aaf2aa5b92ddc50ffc40ebed5b092cc259c8dd7"
+                                    "oid": "8aaf2aa5b92ddc50ffc40ebed5b092cc259c8dd7"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "18e7ca4a316b7df8e2c4153ceaa7dfa35c1d9e94",
-                                                "url": "https://github.com/ruby/ruby/commit/18e7ca4a316b7df8e2c4153ceaa7dfa35c1d9e94",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/18e7ca4a316b7df8e2c4153ceaa7dfa35c1d9e94"
+                                                "oid": "18e7ca4a316b7df8e2c4153ceaa7dfa35c1d9e94"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnVubGFiZWxlZC0xLjM5LjI=",
                             "name": "unlabeled-1.39.2",
                             "target": {
                                 "oid": "288c19744a4c72bdfa9f726b2cb81d67ae6d7361",
@@ -1751,7 +1564,6 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1765,32 +1577,27 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "0217a1d86ee79d97945c037788835eeadd849007",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/0217a1d86ee79d97945c037788835eeadd849007",
-                                    "commitResourcePath": "/ruby/ruby/commit/0217a1d86ee79d97945c037788835eeadd849007"
+                                    "oid": "0217a1d86ee79d97945c037788835eeadd849007"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "57cf603496ac64d705e05721f80c40754db4bad5",
-                                                "url": "https://github.com/ruby/ruby/commit/57cf603496ac64d705e05721f80c40754db4bad5",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/57cf603496ac64d705e05721f80c40754db4bad5"
+                                                "oid": "57cf603496ac64d705e05721f80c40754db4bad5"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnYxXzBy",
                             "name": "v1_0r",
                             "target": {
                                 "oid": "a16bdad1d39d899978bfd33e50b4f4b2938b4985",
@@ -1806,7 +1613,6 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1820,32 +1626,27 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "b3c086e437cab449f90ba637710daed0ddfec4c4",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/b3c086e437cab449f90ba637710daed0ddfec4c4",
-                                    "commitResourcePath": "/ruby/ruby/commit/b3c086e437cab449f90ba637710daed0ddfec4c4"
+                                    "oid": "b3c086e437cab449f90ba637710daed0ddfec4c4"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "49e27ff4f67767b9d9f4775afdcebf59f7381a8a",
-                                                "url": "https://github.com/ruby/ruby/commit/49e27ff4f67767b9d9f4775afdcebf59f7381a8a",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/49e27ff4f67767b9d9f4775afdcebf59f7381a8a"
+                                                "oid": "49e27ff4f67767b9d9f4775afdcebf59f7381a8a"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnYxXzFkZXY=",
                             "name": "v1_1dev",
                             "target": {
                                 "oid": "c999445f9415e008486ad527bece25170931a7a2",
@@ -1861,7 +1662,6 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1875,32 +1675,27 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "515b7c169ce2cd30fe085c5d861f5fad59aa76f7",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/515b7c169ce2cd30fe085c5d861f5fad59aa76f7",
-                                    "commitResourcePath": "/ruby/ruby/commit/515b7c169ce2cd30fe085c5d861f5fad59aa76f7"
+                                    "oid": "515b7c169ce2cd30fe085c5d861f5fad59aa76f7"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "6d583574ab87c7cd18b66382c6892b545167bff6",
-                                                "url": "https://github.com/ruby/ruby/commit/6d583574ab87c7cd18b66382c6892b545167bff6",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/6d583574ab87c7cd18b66382c6892b545167bff6"
+                                                "oid": "6d583574ab87c7cd18b66382c6892b545167bff6"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OnYxXzFy",
                             "name": "v1_1r",
                             "target": {
                                 "oid": "95c36c725a69cc1e1d01aa7924befa7025f2b172",
@@ -1916,7 +1711,6 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1930,32 +1724,27 @@
                                         "name": "Urabe, Shyouhei",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/15377?v=4",
-                                        "url": "https://github.com/shyouhei",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "a9d2113ccb7fbc2bdba67ee1f61303083056804c",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/a9d2113ccb7fbc2bdba67ee1f61303083056804c",
-                                    "commitResourcePath": "/ruby/ruby/commit/a9d2113ccb7fbc2bdba67ee1f61303083056804c"
+                                    "oid": "a9d2113ccb7fbc2bdba67ee1f61303083056804c"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "36ce8c9ee08a0575405ca4ec68bc072330995a12",
-                                                "url": "https://github.com/ruby/ruby/commit/36ce8c9ee08a0575405ca4ec68bc072330995a12",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/36ce8c9ee08a0575405ca4ec68bc072330995a12"
+                                                "oid": "36ce8c9ee08a0575405ca4ec68bc072330995a12"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNTM4NzQ2OndpbjMyLXVuaWNvZGUtdGVzdA==",
                             "name": "win32-unicode-test",
                             "target": {
                                 "oid": "d1010584b9a7dd49f50bccb4483bb2c3f3a0c0ee",
@@ -1971,7 +1760,6 @@
                                         "name": "usa",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/17790?v=4",
-                                        "url": "https://github.com/unak",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1985,26 +1773,22 @@
                                         "name": "usa",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/17790?v=4",
-                                        "url": "https://github.com/unak",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "03e5ef574521a193361afd1caf95332aa7db0d6b",
-                                    "commitUrl": "https://github.com/ruby/ruby/commit/03e5ef574521a193361afd1caf95332aa7db0d6b",
-                                    "commitResourcePath": "/ruby/ruby/commit/03e5ef574521a193361afd1caf95332aa7db0d6b"
+                                    "oid": "03e5ef574521a193361afd1caf95332aa7db0d6b"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "75f35328fa450b6058f533a471fa9826142d7aa7",
-                                                "url": "https://github.com/ruby/ruby/commit/75f35328fa450b6058f533a471fa9826142d7aa7",
-                                                "commitUrl": "https://github.com/ruby/ruby/commit/75f35328fa450b6058f533a471fa9826142d7aa7"
+                                                "oid": "75f35328fa450b6058f533a471fa9826142d7aa7"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     }

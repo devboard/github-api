@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnk1Mzg3NDY=",
             "name": "ruby",
             "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Mzc="
+                },
                 "edges": [
                     {
                         "node": {
@@ -662,20 +666,20 @@
                                     "state": "FAILURE",
                                     "contexts": [
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE3MjU2ODU3",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTMxNTgxMDg2",
                                             "context": "continuous-integration/travis-ci/push",
                                             "description": "The Travis CI build failed",
                                             "state": "FAILURE",
-                                            "targetUrl": "https://travis-ci.org/ruby/ruby/builds/375455748?utm_source=github_status&utm_medium=notification",
-                                            "createdAt": "2018-05-06T06:34:32Z",
+                                            "targetUrl": "https://travis-ci.org/ruby/ruby/builds/396735735?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-06-26T07:01:08Z",
                                             "creator": {
-                                                "id": "MDQ6VXNlcjMxMjQ=",
-                                                "login": "tenderlove",
-                                                "name": "Aaron Patterson",
+                                                "id": "MDQ6VXNlcjEzNDIz",
+                                                "login": "nurse",
+                                                "name": "NARUSE, Yui",
                                                 "__typename": "User",
-                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/3124?v=4",
-                                                "url": "https://github.com/tenderlove",
-                                                "isSiteAdmin": true
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/13423?v=4",
+                                                "url": "https://github.com/nurse",
+                                                "isSiteAdmin": false
                                             }
                                         }
                                     ]
@@ -694,20 +698,20 @@
                                     "state": "SUCCESS",
                                     "contexts": [
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE2MTE4NjM5",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyOTE0Nzc1",
                                             "context": "continuous-integration/travis-ci/push",
                                             "description": "The Travis CI build passed",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://travis-ci.org/ruby/ruby/builds/375192521?utm_source=github_status&utm_medium=notification",
-                                            "createdAt": "2018-05-05T06:36:05Z",
+                                            "targetUrl": "https://travis-ci.org/ruby/ruby/builds/404064898?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-07-15T07:09:56Z",
                                             "creator": {
-                                                "id": "MDQ6VXNlcjMxMjQ=",
-                                                "login": "tenderlove",
-                                                "name": "Aaron Patterson",
+                                                "id": "MDQ6VXNlcjEzNDIz",
+                                                "login": "nurse",
+                                                "name": "NARUSE, Yui",
                                                 "__typename": "User",
-                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/3124?v=4",
-                                                "url": "https://github.com/tenderlove",
-                                                "isSiteAdmin": true
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/13423?v=4",
+                                                "url": "https://github.com/nurse",
+                                                "isSiteAdmin": false
                                             }
                                         }
                                     ]
@@ -720,18 +724,35 @@
                             "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfMl80",
                             "name": "ruby_2_4",
                             "target": {
-                                "oid": "753aa75319282297c41a02d9932b5d88ba575112",
+                                "oid": "c0e77089b2f3c5358562d2fe58e74cc91f8813da",
                                 "status": {
-                                    "id": "MDY6U3RhdHVzNTM4NzQ2Ojc1M2FhNzUzMTkyODIyOTdjNDFhMDJkOTkzMmI1ZDg4YmE1NzUxMTI=",
-                                    "state": "SUCCESS",
+                                    "id": "MDY6U3RhdHVzNTM4NzQ2OmMwZTc3MDg5YjJmM2M1MzU4NTYyZDJmZTU4ZTc0Y2M5MWY4ODEzZGE=",
+                                    "state": "FAILURE",
                                     "contexts": [
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0NzcxODE2ODIy",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyOTE0NjE4",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build failed",
+                                            "state": "FAILURE",
+                                            "targetUrl": "https://travis-ci.org/ruby/ruby/builds/404064551?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-07-15T07:09:36Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjEzNDIz",
+                                                "login": "nurse",
+                                                "name": "NARUSE, Yui",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/13423?v=4",
+                                                "url": "https://github.com/nurse",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTU0MjE3MTk2",
                                             "context": "continuous-integration/appveyor/branch",
                                             "description": "AppVeyor build succeeded",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://ci.appveyor.com/project/ruby/ruby/build/1.0.8045",
-                                            "createdAt": "2018-03-29T12:26:22Z",
+                                            "targetUrl": "https://ci.appveyor.com/project/ruby/ruby/build/1.0.8747",
+                                            "createdAt": "2018-06-30T13:42:13Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjEyMzAx",
                                                 "login": "hsbt",
@@ -740,23 +761,6 @@
                                                 "avatarUrl": "https://avatars1.githubusercontent.com/u/12301?v=4",
                                                 "url": "https://github.com/hsbt",
                                                 "isSiteAdmin": false
-                                            }
-                                        },
-                                        {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE2MTE4NTgz",
-                                            "context": "continuous-integration/travis-ci/push",
-                                            "description": "The Travis CI build passed",
-                                            "state": "SUCCESS",
-                                            "targetUrl": "https://travis-ci.org/ruby/ruby/builds/375192332?utm_source=github_status&utm_medium=notification",
-                                            "createdAt": "2018-05-05T06:35:59Z",
-                                            "creator": {
-                                                "id": "MDQ6VXNlcjMxMjQ=",
-                                                "login": "tenderlove",
-                                                "name": "Aaron Patterson",
-                                                "__typename": "User",
-                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/3124?v=4",
-                                                "url": "https://github.com/tenderlove",
-                                                "isSiteAdmin": true
                                             }
                                         }
                                     ]
@@ -769,18 +773,18 @@
                             "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfMl81",
                             "name": "ruby_2_5",
                             "target": {
-                                "oid": "4b1fbbe92a758416294c3f336bb8e22bab3f1ff0",
+                                "oid": "fcb4a3d88fa38589239281b1b670b95fba47b277",
                                 "status": {
-                                    "id": "MDY6U3RhdHVzNTM4NzQ2OjRiMWZiYmU5MmE3NTg0MTYyOTRjM2YzMzZiYjhlMjJiYWIzZjFmZjA=",
+                                    "id": "MDY6U3RhdHVzNTM4NzQ2OmZjYjRhM2Q4OGZhMzg1ODkyMzkyODFiMWI2NzBiOTVmYmE0N2IyNzc=",
                                     "state": "FAILURE",
                                     "contexts": [
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0Nzc5MDMyOTIx",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTU3MzI5ODAz",
                                             "context": "continuous-integration/appveyor/branch",
                                             "description": "AppVeyor build failed",
                                             "state": "FAILURE",
-                                            "targetUrl": "https://ci.appveyor.com/project/ruby/ruby/build/1.0.8056",
-                                            "createdAt": "2018-03-31T14:15:42Z",
+                                            "targetUrl": "https://ci.appveyor.com/project/ruby/ruby/build/1.0.8759",
+                                            "createdAt": "2018-07-02T10:34:58Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjEyMzAx",
                                                 "login": "hsbt",
@@ -792,20 +796,20 @@
                                             }
                                         },
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE3NDQ0MzI2",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyMDEwNzA3",
                                             "context": "continuous-integration/travis-ci/push",
                                             "description": "The Travis CI build passed",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://travis-ci.org/ruby/ruby/builds/375496760?utm_source=github_status&utm_medium=notification",
-                                            "createdAt": "2018-05-06T10:38:57Z",
+                                            "targetUrl": "https://travis-ci.org/ruby/ruby/builds/403873864?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-07-14T11:12:59Z",
                                             "creator": {
-                                                "id": "MDQ6VXNlcjMxMjQ=",
-                                                "login": "tenderlove",
-                                                "name": "Aaron Patterson",
+                                                "id": "MDQ6VXNlcjEzNDIz",
+                                                "login": "nurse",
+                                                "name": "NARUSE, Yui",
                                                 "__typename": "User",
-                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/3124?v=4",
-                                                "url": "https://github.com/tenderlove",
-                                                "isSiteAdmin": true
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/13423?v=4",
+                                                "url": "https://github.com/nurse",
+                                                "isSiteAdmin": false
                                             }
                                         }
                                     ]
@@ -850,18 +854,18 @@
                             "id": "MDM6UmVmNTM4NzQ2OnRydW5r",
                             "name": "trunk",
                             "target": {
-                                "oid": "fb2acec9439a023396cca3245d4dabb12a78f1da",
+                                "oid": "a70d5ff0aba89e889c7b63e80be2384306c33e83",
                                 "status": {
-                                    "id": "MDY6U3RhdHVzNTM4NzQ2OmZiMmFjZWM5NDM5YTAyMzM5NmNjYTMyNDVkNGRhYmIxMmE3OGYxZGE=",
+                                    "id": "MDY6U3RhdHVzNTM4NzQ2OmE3MGQ1ZmYwYWJhODllODg5YzdiNjNlODBiZTIzODQzMDZjMzNlODM=",
                                     "state": "SUCCESS",
                                     "contexts": [
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE3NDI2MDMx",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyMzI3MDUw",
                                             "context": "continuous-integration/appveyor/branch",
                                             "description": "AppVeyor build succeeded",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://ci.appveyor.com/project/ruby/ruby/build/1.0.8323",
-                                            "createdAt": "2018-05-06T10:15:23Z",
+                                            "targetUrl": "https://ci.appveyor.com/project/ruby/ruby/build/1.0.8886",
+                                            "createdAt": "2018-07-14T17:26:35Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjEyMzAx",
                                                 "login": "hsbt",
@@ -873,20 +877,20 @@
                                             }
                                         },
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE3NDE4MjEz",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyOTEyMjY4",
                                             "context": "continuous-integration/travis-ci/push",
                                             "description": "The Travis CI build passed",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://travis-ci.org/ruby/ruby/builds/375489510?utm_source=github_status&utm_medium=notification",
-                                            "createdAt": "2018-05-06T10:06:34Z",
+                                            "targetUrl": "https://travis-ci.org/ruby/ruby/builds/404064044?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-07-15T07:06:06Z",
                                             "creator": {
-                                                "id": "MDQ6VXNlcjMxMjQ=",
-                                                "login": "tenderlove",
-                                                "name": "Aaron Patterson",
+                                                "id": "MDQ6VXNlcjEzNDIz",
+                                                "login": "nurse",
+                                                "name": "NARUSE, Yui",
                                                 "__typename": "User",
-                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/3124?v=4",
-                                                "url": "https://github.com/tenderlove",
-                                                "isSiteAdmin": true
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/13423?v=4",
+                                                "url": "https://github.com/nurse",
+                                                "isSiteAdmin": false
                                             }
                                         }
                                     ]
