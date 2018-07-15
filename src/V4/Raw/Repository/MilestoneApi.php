@@ -19,13 +19,14 @@ class MilestoneApi
         $this->clientFactory = $clientFactory;
     }
 
-    public function allMilestones(RepoFullName $fullName, InstallationCredentials $credentials): array
+    public function allMilestones(RepoFullName $fullName, InstallationCredentials $credentials, $cursor = null): array
     {
         $queryDefinition = file_get_contents(__DIR__.'/milestones.graphql');
 
         $variables = [
-            'owner' => $fullName->getOwner()->__toString(),
-            'name'  => $fullName->getRepoName()->__toString(),
+            'owner'  => $fullName->getOwner()->__toString(),
+            'name'   => $fullName->getRepoName()->__toString(),
+            'cursor' => $cursor,
         ];
         $client = $this->clientFactory->createAppAndUserAuthenticatedClient($credentials);
 
@@ -41,8 +42,12 @@ class MilestoneApi
     {
         $queryDefinition = file_get_contents(__DIR__.'/milestones.graphql');
 
-        $variables = ['owner' => (string) $query->getOwnerName(), 'name' => (string) $query->getRepoName()];
-        $client    = $this->clientFactory->createAppAndUserAuthenticatedClient($query->getCredentials());
+        $variables = [
+            'owner'  => (string) $query->getOwnerName(),
+            'name'   => (string) $query->getRepoName(),
+            'cursor' => null,
+        ];
+        $client = $this->clientFactory->createAppAndUserAuthenticatedClient($query->getCredentials());
 
         $data = $client->graphql()->execute($queryDefinition, $variables);
 

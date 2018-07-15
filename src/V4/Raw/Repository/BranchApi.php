@@ -19,13 +19,14 @@ class BranchApi
         $this->clientFactory = $clientFactory;
     }
 
-    public function allBranches(RepoFullName $fullName, InstallationCredentials $credentials): array
+    public function allBranches(RepoFullName $fullName, InstallationCredentials $credentials, $cursor = null): array
     {
         $queryDefinition = file_get_contents(__DIR__.'/branches.graphql');
 
         $variables = [
-            'owner' => $fullName->getOwner()->__toString(),
-            'name'  => $fullName->getRepoName()->__toString(),
+            'owner'  => $fullName->getOwner()->__toString(),
+            'name'   => $fullName->getRepoName()->__toString(),
+            'cursor' => $cursor,
         ];
         $client = $this->clientFactory->createAppAndUserAuthenticatedClient($credentials);
 
@@ -41,8 +42,12 @@ class BranchApi
     {
         $queryDefinition = file_get_contents(__DIR__.'/branches.graphql');
 
-        $variables = ['owner' => (string) $query->getOwnerName(), 'name' => (string) $query->getRepoName()];
-        $client    = $this->clientFactory->createAppAndUserAuthenticatedClient($query->getCredentials());
+        $variables = [
+            'owner'  => (string) $query->getOwnerName(),
+            'name'   => (string) $query->getRepoName(),
+            'cursor' => null,
+        ];
+        $client = $this->clientFactory->createAppAndUserAuthenticatedClient($query->getCredentials());
 
         $data = $client->graphql()->execute($queryDefinition, $variables);
 
