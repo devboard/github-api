@@ -54,6 +54,23 @@ query ($owner: String!, $name: String!) {
                                     }
                                 }
                             }
+                            signature {
+                                email
+                                isValid
+                                payload
+                                signature
+                                signer {
+                                    id
+                                    login
+                                    name
+                                    __typename
+                                    avatarUrl
+                                    url
+                                    isSiteAdmin
+                                }
+                                state
+                                wasSignedByGitHub
+                            }
                         }
                     }
                 }
