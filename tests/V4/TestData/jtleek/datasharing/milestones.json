@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnkxNDIwNDM0Mg==",
             "name": "datasharing",
             "milestones": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": null
+                },
                 "edges": []
             }
         }
