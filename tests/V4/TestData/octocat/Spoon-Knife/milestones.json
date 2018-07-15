@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnkxMzAwMTky",
             "name": "Spoon-Knife",
             "milestones": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": null
+                },
                 "edges": []
             }
         }
