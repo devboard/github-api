@@ -1,123 +1,134 @@
 {
     "data": {
         "repository": {
-            "id": "MDEwOlJlcG9zaXRvcnkxODY0MzYz",
-            "name": "composer",
             "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Mg=="
+                },
                 "edges": [
                     {
                         "node": {
-                            "id": "MDM6UmVmMTg2NDM2MzoxLjY=",
                             "name": "1.6",
                             "target": {
-                                "oid": "b540ce264c6396a4fb491c861f29dcb0fb5ed737",
-                                "message": "Update changelog",
-                                "authoredDate": "2018-05-04T09:44:55Z",
+                                "oid": "bbee0a6d857a4a06b1830430959fecc233e4b59d",
+                                "message": "Merge pull request #7428 from epieddy/bugfix/ziparchive-closing\n\nClosing the ZipArchive in ArtifactRepository::getComposerInformation()",
+                                "authoredDate": "2018-07-02T15:52:54Z",
                                 "author": {
-                                    "name": "Jordi Boggiano",
-                                    "email": "j.boggiano@seld.be",
-                                    "date": "2018-05-04T09:44:55Z",
+                                    "name": "Rob",
+                                    "email": "alcohol@users.noreply.github.com",
+                                    "date": "2018-07-02T17:52:54+02:00",
                                     "user": {
-                                        "id": "MDQ6VXNlcjE4MzY3OA==",
-                                        "login": "Seldaek",
-                                        "name": "Jordi Boggiano",
+                                        "id": "MDQ6VXNlcjIxNDE0",
+                                        "login": "alcohol",
+                                        "name": "Rob",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/183678?v=4",
-                                        "url": "https://github.com/Seldaek",
+                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/21414?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
-                                    "name": "Jordi Boggiano",
-                                    "email": "j.boggiano@seld.be",
-                                    "date": "2018-05-04T11:44:55+02:00",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjE4MzY3OA==",
-                                        "login": "Seldaek",
-                                        "name": "Jordi Boggiano",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/183678?v=4",
-                                        "url": "https://github.com/Seldaek",
-                                        "isSiteAdmin": false
-                                    }
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-07-02T17:52:54+02:00",
+                                    "user": null
                                 },
                                 "tree": {
-                                    "oid": "b1aa45eb4a5b7f889f502c35184dc573ee9b2740",
-                                    "commitUrl": "https://github.com/composer/composer/commit/b1aa45eb4a5b7f889f502c35184dc573ee9b2740",
-                                    "commitResourcePath": "/composer/composer/commit/b1aa45eb4a5b7f889f502c35184dc573ee9b2740"
+                                    "oid": "659bf2ce5ac0cc8e824f34f9c7f004347f276672"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "e697293cd93a8c47bded63c0f2a04f2c68306fae",
-                                                "url": "https://github.com/composer/composer/commit/e697293cd93a8c47bded63c0f2a04f2c68306fae",
-                                                "commitUrl": "https://github.com/composer/composer/commit/e697293cd93a8c47bded63c0f2a04f2c68306fae"
+                                                "oid": "f92e15b032675e05898fee17eead52e6db9e5f99"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "9355ebd3f67bd91d4595fddd856e4b344f5512ec"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 659bf2ce5ac0cc8e824f34f9c7f004347f276672\nparent f92e15b032675e05898fee17eead52e6db9e5f99\nparent 9355ebd3f67bd91d4595fddd856e4b344f5512ec\nauthor Rob <alcohol@users.noreply.github.com> 1530546774 +0200\ncommitter GitHub <noreply@github.com> 1530546774 +0200\n\nMerge pull request #7428 from epieddy/bugfix/ziparchive-closing\n\nClosing the ZipArchive in ArtifactRepository::getComposerInformation()",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbOkpWCRBK7hj4Ov3rIwAAdHIIAJ1vU+Wz3qwzSAbULVIGa5TF\nkimk04yMneHzmK9GepHsmn/U07DJ9dlkTcL59JqdwV/f2Xfs5/X5eYqX2fBY0lSP\n5rsVqy/0GPcHT7xRG7JNMFTOVXnsf4VIgd4dHWZn2eKmgEBjbHsVHyhkWvYn0X0S\n0ggwOU/4gRf2XeG8HjcwFDxEs5MzGTxq9W3D3YJo4pggcw4GTWTEZjziphUSaVvg\ngaN98HJ3PrCGKXPBFqs/dH4i7mnIBgapdLwDsb80ITM9PO7+dBT8SSFq6KjZfspH\nguUqLi7Vmk8/OCEWuZTeaw8b3390RajHoPDzHbf/Kr2SJL82dOBAGm8mz4YwiYs=\n=ZnRh\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTg2NDM2MzptYXN0ZXI=",
                             "name": "master",
                             "target": {
-                                "oid": "22025f2e29dbcae962efaec49e3c8677edde8a6f",
-                                "message": "Merge branch '1.6'",
-                                "authoredDate": "2018-05-04T09:47:45Z",
+                                "oid": "006c921abde5a9fa5ec682014265e3203a0987b1",
+                                "message": "Merge pull request #7467 from staabm/less-count\n\nUse variable to call count() less often",
+                                "authoredDate": "2018-07-12T20:08:52Z",
                                 "author": {
-                                    "name": "Jordi Boggiano",
-                                    "email": "j.boggiano@seld.be",
-                                    "date": "2018-05-04T09:47:45Z",
+                                    "name": "Rob",
+                                    "email": "alcohol@users.noreply.github.com",
+                                    "date": "2018-07-12T22:08:52+02:00",
                                     "user": {
-                                        "id": "MDQ6VXNlcjE4MzY3OA==",
-                                        "login": "Seldaek",
-                                        "name": "Jordi Boggiano",
+                                        "id": "MDQ6VXNlcjIxNDE0",
+                                        "login": "alcohol",
+                                        "name": "Rob",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/183678?v=4",
-                                        "url": "https://github.com/Seldaek",
+                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/21414?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
-                                    "name": "Jordi Boggiano",
-                                    "email": "j.boggiano@seld.be",
-                                    "date": "2018-05-04T11:47:45+02:00",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjE4MzY3OA==",
-                                        "login": "Seldaek",
-                                        "name": "Jordi Boggiano",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/183678?v=4",
-                                        "url": "https://github.com/Seldaek",
-                                        "isSiteAdmin": false
-                                    }
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-07-12T22:08:52+02:00",
+                                    "user": null
                                 },
                                 "tree": {
-                                    "oid": "9ca54c4190f91d2cf48e8e4b5805c68b108a8d6d",
-                                    "commitUrl": "https://github.com/composer/composer/commit/9ca54c4190f91d2cf48e8e4b5805c68b108a8d6d",
-                                    "commitResourcePath": "/composer/composer/commit/9ca54c4190f91d2cf48e8e4b5805c68b108a8d6d"
+                                    "oid": "7c18d28d7bb7c47b3f5675883def368a18b67b64"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "4ebb747e12f0aa56cb6e13eef48395798e0db5e1",
-                                                "url": "https://github.com/composer/composer/commit/4ebb747e12f0aa56cb6e13eef48395798e0db5e1",
-                                                "commitUrl": "https://github.com/composer/composer/commit/4ebb747e12f0aa56cb6e13eef48395798e0db5e1"
+                                                "oid": "68d468d683c09a9a0e9356dacfa812f297e776fa"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "b540ce264c6396a4fb491c861f29dcb0fb5ed737",
-                                                "url": "https://github.com/composer/composer/commit/b540ce264c6396a4fb491c861f29dcb0fb5ed737",
-                                                "commitUrl": "https://github.com/composer/composer/commit/b540ce264c6396a4fb491c861f29dcb0fb5ed737"
+                                                "oid": "50565cb0c8bbdc9be17e6c1452b4f856a28b3be0"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 7c18d28d7bb7c47b3f5675883def368a18b67b64\nparent 68d468d683c09a9a0e9356dacfa812f297e776fa\nparent 50565cb0c8bbdc9be17e6c1452b4f856a28b3be0\nauthor Rob <alcohol@users.noreply.github.com> 1531426132 +0200\ncommitter GitHub <noreply@github.com> 1531426132 +0200\n\nMerge pull request #7467 from staabm/less-count\n\nUse variable to call count() less often",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbR7VUCRBK7hj4Ov3rIwAAdHIIAGV4oH06FkIcS1sqmzbJunay\nrcGC9t/OuxdXaEq3Os+xQHaulqfJK7HWl9B3n2fWBqlKIzh+CTCkjIfQxzj7Ug3h\n22IkJmxn7UDnoWAb5rJTrqjR0WQDfrUxo+G5GnPJqVmz7cIVzcoGUZiP/+zrBbna\ngBguRNukXH8gBNowUMAmiKhVWkEywXn/vfaIV6ASLNuhfOrClV4I1N/f74cSluS2\nehy04lZTsjiOc+tWc7sJ3u9jcWRbA9CxDUm9RLiKSzmqnJL5OnxcXnATpP3F25go\nnvj1JscuVeYajLDYGT2lfImmbomqByzT9Y5HqIcQ4RMXOwg2VGYk/OyzB+WGN58=\n=xrAJ\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }

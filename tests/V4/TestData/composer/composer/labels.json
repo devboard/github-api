@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnkxODY0MzYz",
             "name": "composer",
             "labels": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Y3Vyc29yOnYyOpHOHD4z9Q=="
+                },
                 "edges": [
                     {
                         "node": {
