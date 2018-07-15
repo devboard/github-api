@@ -1,15 +1,16 @@
 parameters:
 	bootstrap: tests/bootstrap.php
 	ignoreErrors:
-	    - '#Parameter .* Mockery\\MockInterface given.#'
-	    - '#Call to an undefined method Mockery\\ExpectationInterface|Mockery\\HigherOrderMessage::andReturn().#'
-	    - '#Call to an undefined method DevboardLib\\GitHubApi\\Auth\\GitHubApp\\JwtTokenBuilder|Mockery\\MockInterface::shouldReceive().#'
-	    - '#Parameter \#1 \$json of function json_decode expects string, string|false given.#'
-	    - '#Method Tests\\DevboardLib\\GitHubApi\\V3\\TestData\\.*FileContent() should return string but returns string|false.#'
-	    - '#Call to an undefined static method DevboardLib\\GitHub\\Account\\AccountType::BOT().#'
+		- '#Parameter .* Mockery\\MockInterface given.#'
+		- '#Call to an undefined method Mockery\\ExpectationInterface|Mockery\\HigherOrderMessage::andReturn().#'
+		- '#Call to an undefined method DevboardLib\\GitHubApi\\Auth\\GitHubApp\\JwtTokenBuilder|Mockery\\MockInterface::shouldReceive().#'
+		- '#Parameter \#1 \$json of function json_decode expects string, string|false given.#'
+		- '#Method Tests\\DevboardLib\\GitHubApi\\V3\\TestData\\.*FileContent() should return string but returns string|false.#'
+		- '#Call to an undefined static method DevboardLib\\GitHub\\Account\\AccountType::BOT().#'
 	includes:
-	    - vendor/phpstan/phpstan-phpunit/extension.neon
-	    - vendor/phpstan/phpstan-phpunit/rules.neon
+		- vendor/phpstan/phpstan-phpunit/extension.neon
+		- vendor/phpstan/phpstan-phpunit/rules.neon
+		- vendor/phpstan/phpstan-strict-rules/rules.neon
 
 
 
