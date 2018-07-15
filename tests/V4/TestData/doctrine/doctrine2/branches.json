@@ -1,0 +1,1071 @@
+{
+    "data": {
+        "repository": {
+            "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "MTk="
+                },
+                "edges": [
+                    {
+                        "node": {
+                            "name": "2.0.x",
+                            "target": {
+                                "oid": "b67d400e940b7bd0c99e37b2f6112f8dc1ac7710",
+                                "message": "Merge pull request #334 from hhamon/command_fixes\n\nCommand fixes",
+                                "authoredDate": "2012-04-11T17:38:34Z",
+                                "author": {
+                                    "name": "Guilherme Blanco",
+                                    "email": "guilhermeblanco@gmail.com",
+                                    "date": "2012-04-11T10:38:34-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjIwODg4Mw==",
+                                        "login": "guilhermeblanco",
+                                        "name": "Guilherme Blanco",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/208883?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Guilherme Blanco",
+                                    "email": "guilhermeblanco@gmail.com",
+                                    "date": "2012-04-11T10:38:34-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjIwODg4Mw==",
+                                        "login": "guilhermeblanco",
+                                        "name": "Guilherme Blanco",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/208883?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "6493025993e1c7b0b86c4147a3fe344157fa31ff"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "6df1cc2b564a24310acc6ad3f0602093bc3baf84"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "2b841f869dc882f4e352ca4158a65cf64b61ce0a"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "2.1.x",
+                            "target": {
+                                "oid": "1c0f88f2b398a9709d32c6d62896c4db9f9f3c9a",
+                                "message": "Merge pull request #402 from Ocramius/DDC-1925-2.1.x\n\nDDC-1925 for 2.1.x",
+                                "authoredDate": "2012-07-29T10:09:12Z",
+                                "author": {
+                                    "name": "Benjamin Eberlei",
+                                    "email": "kontakt@beberlei.de",
+                                    "date": "2012-07-29T03:09:12-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjI2OTM2",
+                                        "login": "beberlei",
+                                        "name": "Benjamin Eberlei",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/26936?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Benjamin Eberlei",
+                                    "email": "kontakt@beberlei.de",
+                                    "date": "2012-07-29T03:09:12-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjI2OTM2",
+                                        "login": "beberlei",
+                                        "name": "Benjamin Eberlei",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/26936?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "0cecd6ec432d697d5104353340a3bed4d46e5c3c"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "ab851ab91464596b8b3f2d25644764e360d704b7"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "8ac09030bc2fd68537cbef66c3784641d0951fa7"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "2.2",
+                            "target": {
+                                "oid": "200c6fa3b92294d50b84d5d239a7b2339d318b4b",
+                                "message": "Merge branch 'DDC-2148' into 2.2",
+                                "authoredDate": "2012-11-21T13:49:23Z",
+                                "author": {
+                                    "name": "Benjamin Eberlei",
+                                    "email": "kontakt@beberlei.de",
+                                    "date": "2012-11-21T14:49:23+01:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjI2OTM2",
+                                        "login": "beberlei",
+                                        "name": "Benjamin Eberlei",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/26936?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Benjamin Eberlei",
+                                    "email": "kontakt@beberlei.de",
+                                    "date": "2012-11-21T14:49:23+01:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjI2OTM2",
+                                        "login": "beberlei",
+                                        "name": "Benjamin Eberlei",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/26936?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "922776128479235f1e6df076581f689fb0664857"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "37a458274e6d6a2ad96e5a22d7c442275d6d8df9"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "1b5f051f2133085783e97ffbcf1959bd0f61f696"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "2.3",
+                            "target": {
+                                "oid": "c2135b38216c6c8a410e764792aa368e946f2ae5",
+                                "message": "Fix wrong version",
+                                "authoredDate": "2014-06-03T19:53:45Z",
+                                "author": {
+                                    "name": "Benjamin Eberlei",
+                                    "email": "kontakt@beberlei.de",
+                                    "date": "2014-06-03T21:53:45+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjI2OTM2",
+                                        "login": "beberlei",
+                                        "name": "Benjamin Eberlei",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/26936?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Benjamin Eberlei",
+                                    "email": "kontakt@beberlei.de",
+                                    "date": "2014-06-03T21:53:45+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjI2OTM2",
+                                        "login": "beberlei",
+                                        "name": "Benjamin Eberlei",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/26936?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "00cbd86ac2a9c5aeb5d65bf23be358dbdfb2dcd7"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "d932eb0b27d32a05b150652d0e4f2ad239a01d97"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "2.4",
+                            "target": {
+                                "oid": "ea713a0b01267745e245cf52a0c569425deb170e",
+                                "message": "Bump version to 2.4.9",
+                                "authoredDate": "2015-08-31T13:19:01Z",
+                                "author": {
+                                    "name": "Benjamin Eberlei",
+                                    "email": "kontakt@beberlei.de",
+                                    "date": "2015-08-31T15:19:01+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjI2OTM2",
+                                        "login": "beberlei",
+                                        "name": "Benjamin Eberlei",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/26936?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Benjamin Eberlei",
+                                    "email": "kontakt@beberlei.de",
+                                    "date": "2015-08-31T15:19:01+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjI2OTM2",
+                                        "login": "beberlei",
+                                        "name": "Benjamin Eberlei",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/26936?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "214ff0c62fe0920a77ec462adb4f9999aa7b7a28"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "5aedac1e5c5caaeac14798822c70325dc242d467"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "2.5",
+                            "target": {
+                                "oid": "19db7510a7b49605a9139fc2964342a98a682a8c",
+                                "message": "Bumping development version to v2.5.15-DEV",
+                                "authoredDate": "2017-12-17T03:03:07Z",
+                                "author": {
+                                    "name": "Lu\u00eds Cobucci",
+                                    "email": "lcobucci@gmail.com",
+                                    "date": "2017-12-17T04:03:07+01:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjIwMTk2Mw==",
+                                        "login": "lcobucci",
+                                        "name": "Lu\u00eds Cobucci",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/201963?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Lu\u00eds Cobucci",
+                                    "email": "lcobucci@gmail.com",
+                                    "date": "2017-12-17T04:03:07+01:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjIwMTk2Mw==",
+                                        "login": "lcobucci",
+                                        "name": "Lu\u00eds Cobucci",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/201963?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "848e89ca7bb392892eda934c1cd20d87389c35f5"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "810a7baf81462a5ddf10e8baa8cb94b6eec02754"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "lcobucci@gmail.com",
+                                    "isValid": true,
+                                    "payload": "tree 848e89ca7bb392892eda934c1cd20d87389c35f5\nparent 810a7baf81462a5ddf10e8baa8cb94b6eec02754\nauthor Lu\u00eds Cobucci <lcobucci@gmail.com> 1513479787 +0100\ncommitter Lu\u00eds Cobucci <lcobucci@gmail.com> 1513479787 +0100\n\nBumping development version to v2.5.15-DEV\n",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQJHBAABCgAxFiEEeN/prH9rRNCQC9MQ7GHF8BdQ7TwFAlo13msTHGxjb2J1Y2Np\nQGdtYWlsLmNvbQAKCRDsYcXwF1DtPAGJD/4iZigMoJCKGfJ0xGqPnt3RefLsEM7Q\nvEQtTdDHaI5B+ebRO9OimhWZp8Yab15GfE+UGrnMW5oeSO+miVBsc0LwSkUNMd1X\nzP/WDki4HRHzrJhkw+sCdjB0z8Q+l3upmMFkEisO0XzaC0w/95BrS2/hFwv4QVtX\n5CFQqYckV1QTrS0hxYvQPbtbuqoFA6g4w4TSMoW1rlCaE6/YHJZW+UW1g0RA4jA2\n6UzShr0HBbSYNOzjQv+mIGe48fO5CI0f4OICO5mbUODNOhCqgCVVUvwQ1YgmKyVm\n7vqOJCar+pNaf35jTo4kxSHPSBMSnHYzQT4gMKpRryseHCld81ptFDd+Z5HOYaEe\nLK+BoZMT0jVrU4NkRVjK6dcR9bHEt1PRr0cHohDtffb+E6e9pUlwDtsQyoN62dDn\nJ6vvEb/2eu+fuDKlgddjo7pu/ltnBkdUH7rtP+PH7JxvjiUmJTq52+CRttognq+L\n9eE4rDZp9uoWqmOAfTtrnlpw87mt2CS5KX0Hrg3xwOL/ZEjhoLn8qZmHDPhId99G\n9jaVEFTKym+ueblBkF7RhJflmkn+pFNz4yYqrWWb51QVc27o3tGqdWlp4KQ+JB1N\nY7wcI59P6HxCy5tJ/YHDSXiDFJ+4vZGTCesTrEeGQkJXgAXAEprXOWRmYPKRUhNn\nvOhrQzJ3fnQhxQ==\n=Ynqw\n-----END PGP SIGNATURE-----",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjIwMTk2Mw==",
+                                        "login": "lcobucci",
+                                        "name": "Lu\u00eds Cobucci",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/201963?v=4",
+                                        "url": "https://github.com/lcobucci",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": false
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "2.6",
+                            "target": {
+                                "oid": "96f166a7e90149adb1357c5db73c615407ea394e",
+                                "message": "Merge pull request #7307 from Majkl578/remaining-deprecations\n\nFix remaining usages of deprecated ClassLoader and Inflector from doctrine/common",
+                                "authoredDate": "2018-07-13T05:27:10Z",
+                                "author": {
+                                    "name": "Lu\u00eds Cobucci",
+                                    "email": "lcobucci@gmail.com",
+                                    "date": "2018-07-13T07:27:10+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjIwMTk2Mw==",
+                                        "login": "lcobucci",
+                                        "name": "Lu\u00eds Cobucci",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/201963?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-07-13T07:27:10+02:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "f99447ba1895c600f96cc3b44e73b83e77fe859b"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "43d308116d364349c78d4b2bf3e04c3956d73b46"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "f4b775323d3deec9ab30193bea9bbb18803a43f0"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree f99447ba1895c600f96cc3b44e73b83e77fe859b\nparent 43d308116d364349c78d4b2bf3e04c3956d73b46\nparent f4b775323d3deec9ab30193bea9bbb18803a43f0\nauthor Lu\u00eds Cobucci <lcobucci@gmail.com> 1531459630 +0200\ncommitter GitHub <noreply@github.com> 1531459630 +0200\n\nMerge pull request #7307 from Majkl578/remaining-deprecations\n\nFix remaining usages of deprecated ClassLoader and Inflector from doctrine/common",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbSDguCRBK7hj4Ov3rIwAAdHIIALD/paCvzABSTHmUQP475yIA\nsQFjkeQ2J8jrTSWCoxH4eOFI9unPEaCHQbmR34pwo4SEs+yKbGDUo6WIMtxhOmBr\npf1fUlGS4T6+dBkZcNgtXV3BRGyuynttfpQSoen/0O90B0ZyNJ90VPDmVfmnxIZq\nAToVZ94N/h605cUxMiEqa2KRYXPuHj0HSwP8HxOfkHDsod1LdwKklPEUprxzaUoP\nahReoeQyeKvi4e15AB9B9Chr4wPiIxNOuACdAKvn1NU/ZHUtv4YxWciVYO7L6evL\nAWzOo/PCRqFtMmhUHWNVbwO258Lcn1/sDWG8irolWnKFBGFu0EQpYlco2OMwIy0=\n=PJcN\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "2.7",
+                            "target": {
+                                "oid": "e814f675cb78850df9b688ea33a5470b2949cb23",
+                                "message": "Merge pull request #7281 from Majkl578/sync-2.7\n\nSync 2.7 with 2.6",
+                                "authoredDate": "2018-07-03T08:58:06Z",
+                                "author": {
+                                    "name": "Marco Pivetta",
+                                    "email": "ocramius@gmail.com",
+                                    "date": "2018-07-03T10:58:06+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                        "login": "Ocramius",
+                                        "name": "Marco Pivetta",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-07-03T10:58:06+02:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "8c2c9c8843a8318f218c87735f158efd842e1390"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "4f6d47b88a84896dadaadd18212df6bb504f2e97"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "915b152467119c6ecc5e6a79e6499481f0aae1f9"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 8c2c9c8843a8318f218c87735f158efd842e1390\nparent 4f6d47b88a84896dadaadd18212df6bb504f2e97\nparent 915b152467119c6ecc5e6a79e6499481f0aae1f9\nauthor Marco Pivetta <ocramius@gmail.com> 1530608286 +0200\ncommitter GitHub <noreply@github.com> 1530608286 +0200\n\nMerge pull request #7281 from Majkl578/sync-2.7\n\nSync 2.7 with 2.6",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbOzqeCRBK7hj4Ov3rIwAAdHIIAEQ8RALn89jRvEowmF1/4baM\nGx7/lMwQ1g+Uw3KOYi2BpuPZT4rtVoyXpT9OxwELPf5Ex2x9nVY55N1OuF8P0nSc\nhjRQ3fQO+eGRbLdHq+aQeMN519vw/oaxSLan6LwprO7XkpHEHrUnqFPy5z9jxrEK\nzHnXpjI67aQqc0RS5xtWiFlP6PBFxwoXJP4+Od9nyBwSQiAtVLEgql+pF86rzIit\n0wpVy2j6qudc9FuuVqGU6XHCfOPUek40ILA9NmGt3mOXzmm7Pcqv4FnQTzNB71WC\nZGBfB7uMsFfuJSc0IEhgQUJ8mYpZIe3KR6vQFkpD4yA7AipC0DdvSrLckqF8jzk=\n=GlqP\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "DDC-2363_cascade-removal-triggering-one-to-one-fetch-join-during-flush",
+                            "target": {
+                                "oid": "832e9d259942127d5489776a59e481c54f4223aa",
+                                "message": "DDC-2363 #625 simplified test to use fixed identifiers",
+                                "authoredDate": "2018-01-01T19:41:56Z",
+                                "author": {
+                                    "name": "Marco Pivetta",
+                                    "email": "ocramius@gmail.com",
+                                    "date": "2018-01-01T20:41:56+01:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                        "login": "Ocramius",
+                                        "name": "Marco Pivetta",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Marco Pivetta",
+                                    "email": "ocramius@gmail.com",
+                                    "date": "2018-01-01T20:41:56+01:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                        "login": "Ocramius",
+                                        "name": "Marco Pivetta",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "dd31c2ed8cee421e0960c51de6a90086e92645f1"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "683f80a22bc83584eb4c0a670a6449e2debc1940"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "bug/#6189-paginator-result-mappings-replaced",
+                            "target": {
+                                "oid": "bb75d18cab86564402222c384c0bc1f4cc336474",
+                                "message": "#6189 proof of concept (invalid, but shows the fix) as explained by @nikolajlovenhardt\n\nThis is not a valid patch, as we don't want to make\n`Query#getResultSetMapping()` publicly available to consumers.\n\nWill need to find alternative approaches.",
+                                "authoredDate": "2016-12-23T13:06:54Z",
+                                "author": {
+                                    "name": "Marco Pivetta",
+                                    "email": "ocramius@gmail.com",
+                                    "date": "2016-12-23T14:06:54+01:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                        "login": "Ocramius",
+                                        "name": "Marco Pivetta",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Marco Pivetta",
+                                    "email": "ocramius@gmail.com",
+                                    "date": "2016-12-23T14:06:54+01:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                        "login": "Ocramius",
+                                        "name": "Marco Pivetta",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "51655954d23d037047689d3b81ab715f7c017e25"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "5c70b904693c5e1ee85f4b73deef81dac5be621f"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "cmf-refactoring",
+                            "target": {
+                                "oid": "9ca760fbac75882291e18ec5d24eb1017249cc08",
+                                "message": "Removed unused methods",
+                                "authoredDate": "2018-05-09T02:51:08Z",
+                                "author": {
+                                    "name": "Guilherme Blanco",
+                                    "email": "guilhermeblanco@gmail.com",
+                                    "date": "2018-05-08T22:51:08-04:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjIwODg4Mw==",
+                                        "login": "guilhermeblanco",
+                                        "name": "Guilherme Blanco",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/208883?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Guilherme Blanco",
+                                    "email": "guilhermeblanco@gmail.com",
+                                    "date": "2018-05-08T22:51:08-04:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjIwODg4Mw==",
+                                        "login": "guilhermeblanco",
+                                        "name": "Guilherme Blanco",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/208883?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "6f147d46f8d6a51ff2f7f95ae7cc35ed0178297c"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "3f8d5d92ca68baa98aada82b344794db8dd02c25"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "config-filter-params",
+                            "target": {
+                                "oid": "ea745184505751d288e2bbdb3c90a021004afa41",
+                                "message": "Support filter parameters in Configuration\n\nSee: doctrine/mongodb-odm#908",
+                                "authoredDate": "2014-07-01T16:08:45Z",
+                                "author": {
+                                    "name": "Jeremy Mikola",
+                                    "email": "jmikola@gmail.com",
+                                    "date": "2014-07-01T12:08:45-04:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjI0NDY2Mw==",
+                                        "login": "jmikola",
+                                        "name": "Jeremy Mikola",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/244663?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Jeremy Mikola",
+                                    "email": "jmikola@gmail.com",
+                                    "date": "2014-07-25T12:46:39-04:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjI0NDY2Mw==",
+                                        "login": "jmikola",
+                                        "name": "Jeremy Mikola",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/244663?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "f90aadff426022bce85fc3b6ca4c7690cd7ee26d"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "a06949d14f4b7310db2cfe2988416bf0e43c5c23"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "custom-collections",
+                            "target": {
+                                "oid": "0f18fa2e6eebe7dba4881e8090ea463025467d7e",
+                                "message": "Fixed missing Selectable implementation.",
+                                "authoredDate": "2015-01-20T04:33:44Z",
+                                "author": {
+                                    "name": "Guilherme Blanco",
+                                    "email": "guilhermeblanco@gmail.com",
+                                    "date": "2015-01-20T04:33:44Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjIwODg4Mw==",
+                                        "login": "guilhermeblanco",
+                                        "name": "Guilherme Blanco",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/208883?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Guilherme Blanco",
+                                    "email": "guilhermeblanco@gmail.com",
+                                    "date": "2015-01-20T04:33:44Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjIwODg4Mw==",
+                                        "login": "guilhermeblanco",
+                                        "name": "Guilherme Blanco",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/208883?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "331434faf67c1d57e02a08bf258c6c70c5c29ccd"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "fc2a33e45a323e2d451ed8c277217a6bf24c38d1"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "develop-pre-2016-07-08",
+                            "target": {
+                                "oid": "9265784fc366e5db67bc13285b781a7449961491",
+                                "message": "Breaking everything with start migration to use ClassMetadataBuilder in Mapping Drivers",
+                                "authoredDate": "2016-07-05T15:13:43Z",
+                                "author": {
+                                    "name": "Guilherme Blanco",
+                                    "email": "guilhermeblanco@gmail.com",
+                                    "date": "2016-07-05T15:13:43Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjIwODg4Mw==",
+                                        "login": "guilhermeblanco",
+                                        "name": "Guilherme Blanco",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/208883?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Guilherme Blanco",
+                                    "email": "guilhermeblanco@gmail.com",
+                                    "date": "2016-07-05T15:13:43Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjIwODg4Mw==",
+                                        "login": "guilhermeblanco",
+                                        "name": "Guilherme Blanco",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/208883?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "837fdf83ad15d0c1ded5927431a7b0bc1a534ef7"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "bb021adc0aa105fc73fe0c13533f29b56778883b"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "feature/#6722-initialize-proxies-with-their-collection-properties",
+                            "target": {
+                                "oid": "4b7018c4bfdcb6f7e90d4e2a9a419d820beda91d",
+                                "message": "#6722 ensuring that the `UnitOfWork` crawls over `ToMany` association fields of proxies whilst not attempting to fetch lazy fields",
+                                "authoredDate": "2017-12-18T18:59:34Z",
+                                "author": {
+                                    "name": "Marco Pivetta",
+                                    "email": "ocramius@gmail.com",
+                                    "date": "2017-12-18T19:59:34+01:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                        "login": "Ocramius",
+                                        "name": "Marco Pivetta",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Marco Pivetta",
+                                    "email": "ocramius@gmail.com",
+                                    "date": "2017-12-18T19:59:34+01:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                        "login": "Ocramius",
+                                        "name": "Marco Pivetta",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "5d90a24215149ebbdb73b3b49d8c93233a8338ca"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "0a43dc8e1e57dad11a41eeb2f3fc4c3ab3ac830b"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "ocramius@gmail.com",
+                                    "isValid": true,
+                                    "payload": "tree 5d90a24215149ebbdb73b3b49d8c93233a8338ca\nparent 0a43dc8e1e57dad11a41eeb2f3fc4c3ab3ac830b\nauthor Marco Pivetta <ocramius@gmail.com> 1513623574 +0100\ncommitter Marco Pivetta <ocramius@gmail.com> 1513623574 +0100\n\n#6722 ensuring that the `UnitOfWork` crawls over `ToMany` association fields of proxies whilst not attempting to fetch lazy fields\n",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1\n\niQEcBAABAgAGBQJaOBAWAAoJEEFn0zN/2dYpKJEH/1NBqPauBJeP+u4icIN5WYxM\ni0Ezsnqs6KvWoV+jmgeJHm7OjWlFmomlsjCgyu9SyCcl5bVxeM2WI80Rh0Zl+nMu\nsJIRH+SrGmBhT+hBu+46lDTmB0s637MYc16XJISByoFaDZR9/jgGhHU4NseSjU+b\n6lYv1LmHy+/xzCTh+Fb6R+tBml9Wj3mDG4se6hC1S4IqyEVvnI+Hlzx8lZWXjBuk\nuHZWTYsWWvrjhTZzetXJKMxVf1xSeiVM0VTNK5zsDyTSbiLOFefj/bgeJyoD2gqY\nsHrSvYs+HdWRe/4yIK9FRpg+MGhDTqIRWdl4v2AjtmD3/yKogt5gSbiBLTq8Pr4=\n=fhJ8\n-----END PGP SIGNATURE-----",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                        "login": "Ocramius",
+                                        "name": "Marco Pivetta",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                        "url": "https://github.com/Ocramius",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": false
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "fix/#5923-disambiguate-identifier-hashing",
+                            "target": {
+                                "oid": "e8cde85b74593167d4c065f39eeabcb771f81c1d",
+                                "message": "Adding test for #5923 that documents why `array_values()` is used in  identity map lookups (via hash)",
+                                "authoredDate": "2016-07-07T21:22:23Z",
+                                "author": {
+                                    "name": "Marco Pivetta",
+                                    "email": "ocramius@gmail.com",
+                                    "date": "2016-07-07T23:22:23+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                        "login": "Ocramius",
+                                        "name": "Marco Pivetta",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Lu\u00eds Cobucci",
+                                    "email": "lcobucci@gmail.com",
+                                    "date": "2017-07-23T10:58:37+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjIwMTk2Mw==",
+                                        "login": "lcobucci",
+                                        "name": "Lu\u00eds Cobucci",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/201963?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "a2119ce8cc0bc585362a2aca80066b216cd4c96e"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "3cd9eb37a6261bf1cc98be0390801e7c3f638f1c"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "lcobucci@gmail.com",
+                                    "isValid": true,
+                                    "payload": "tree a2119ce8cc0bc585362a2aca80066b216cd4c96e\nparent 3cd9eb37a6261bf1cc98be0390801e7c3f638f1c\nauthor Marco Pivetta <ocramius@gmail.com> 1467926543 +0200\ncommitter Lu\u00eds Cobucci <lcobucci@gmail.com> 1500800317 +0200\n\nAdding test for #5923 that documents why `array_values()` is used in  identity map lookups (via hash)\n",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIcBAABCgAGBQJZdGU9AAoJEOxhxfAXUO08Gg0QAIEMy3jZzYU7HUmjbA1vLl7H\niV1f6bLX5eqRjEo++wytnImiQ594ZG2ruGQ/jUHmJW6paIL8ZKtXSz9Apn0P8c1f\nDCaeIhcC8Oe0pu3wJAnQxhoJcBkQ2QMt8uDwYRTY+hThP1C6jj3wAMCTxJUhRL4g\ng5TTcmdixsXvmr1kkBcnROsRNwejBU66fxHRuFr/8sjQWaq52K62p9HXU3YV93j1\nwp/YejbIITdT4YCpkJTAD5TAqb9bJZUrGCeajRQIwKFDhh9t6UvJy5PyBNtp6xDm\nkKlzxar8UZnB7xNaCHT8aG4CP2gyNUlxkhYAOFUQQa7Ap7KR+Cn4J48SoBh2KKih\nse/h77+9xY7lgXKp+U1lhY9hsu5LAq2EXY5n8GGQ/loIdkb2JgV/HafTEC7ApT7i\nWrnWB9BdnDQqZ5/gsPIV8/vL81gP2McwonpBMXsTi471ggBRsAtsGExGbhirDEWm\nmRfLFChmeg7jLkXOYpd8pKNGLtuyUi9JS18SQMJF/jCHyp351rpOV8u4Cpx5Jkb2\nL17pCJbOzXHsLTdUnWSzxFTu86ulhCsJzDA1x/dqxoVXDut3Jd5RiCuiT3smnYpa\n/4nxjoHNVLtwmmCQYaHroHtMtFMZ/SqLVikbK87oFCcWR6W9ZlQB8zDg3mCfh1Os\nAaJuK94J9PCjDF3GzSzp\n=TQvn\n-----END PGP SIGNATURE-----",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjIwMTk2Mw==",
+                                        "login": "lcobucci",
+                                        "name": "Lu\u00eds Cobucci",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/201963?v=4",
+                                        "url": "https://github.com/lcobucci",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": false
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "fix/#6638-#6648-one-to-one-association-being-unwillingly-refreshed",
+                            "target": {
+                                "oid": "7510e848f01885e6db5d9aeb1eed009b13612e1e",
+                                "message": "#6638 #6648 simplified patch to only reuse the new `UnitOfWork#getOrCreateEntity()` API",
+                                "authoredDate": "2017-08-28T23:06:49Z",
+                                "author": {
+                                    "name": "Marco Pivetta",
+                                    "email": "ocramius@gmail.com",
+                                    "date": "2017-08-29T01:06:49+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                        "login": "Ocramius",
+                                        "name": "Marco Pivetta",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Marco Pivetta",
+                                    "email": "ocramius@gmail.com",
+                                    "date": "2017-08-29T01:06:49+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                        "login": "Ocramius",
+                                        "name": "Marco Pivetta",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "3e32cbf7d4a8d3f26bd1f1cb0a2b55c0ef0adb2c"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "62373fb34d68aa75a02337ce861581b3ed658a16"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "ocramius@gmail.com",
+                                    "isValid": true,
+                                    "payload": "tree 3e32cbf7d4a8d3f26bd1f1cb0a2b55c0ef0adb2c\nparent 62373fb34d68aa75a02337ce861581b3ed658a16\nauthor Marco Pivetta <ocramius@gmail.com> 1503961609 +0200\ncommitter Marco Pivetta <ocramius@gmail.com> 1503961609 +0200\n\n#6638 #6648 simplified patch to only reuse the new `UnitOfWork#getOrCreateEntity()` API\n",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1\n\niQEcBAABAgAGBQJZpKIJAAoJEEFn0zN/2dYpzfkH/i04PB4j/b5Sb9+psJJxNIJM\nW7EfH9mn9cFv7B15H8cBNX6MnIJl4zReL5Qm6Vz0NfZ2V5oGGvH5sASlCNFksO3t\nTMlTRdJfYGjNh3U9j1VoB8rI/1s7uiN07H6F99a+YvgW0bgIyETnVoklkwph9L87\nuJ78CGzedW3px3/UZXQ1M0nZsDPMrKtiA9NV7BR6vha6+M5Rd/tJLNFA2GYRlytx\nlrHMUCEeWcDYgThzwGuBOc46zVFZpGAdgTqjUKgY4UIgji7swZd25kz5mgu6O+tD\nRNsyYdBtW9nwKd/yiVeUv6FkSOZPrBxoKAZLd9mxCg+uOw9j4LxQ0uOruY4T9vA=\n=elqJ\n-----END PGP SIGNATURE-----",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                        "login": "Ocramius",
+                                        "name": "Marco Pivetta",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                        "url": "https://github.com/Ocramius",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": false
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "hotfix/#1342-paginator-functional-test-integration-take2",
+                            "target": {
+                                "oid": "d00aa33490f0c579deeb6fafd42a9b04f8d28e25",
+                                "message": "Merge branch 'hotfix/#1337-fix-oracle-postgresql-paginator-sorting-issues' into hotfix/#1342-paginator-functional-test-integration",
+                                "authoredDate": "2015-03-24T00:03:51Z",
+                                "author": {
+                                    "name": "Marco Pivetta",
+                                    "email": "ocramius@gmail.com",
+                                    "date": "2015-03-24T00:03:51Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                        "login": "Ocramius",
+                                        "name": "Marco Pivetta",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Marco Pivetta",
+                                    "email": "ocramius@gmail.com",
+                                    "date": "2015-03-24T00:03:51Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                        "login": "Ocramius",
+                                        "name": "Marco Pivetta",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "a6c330fb115559019cbb107c6c705830f6b1581b"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "870f5960c0ff77b00225b18746f617ad95aec805"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "4c84f544931edec5b9dce346b150c0fbd7220de4"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "master",
+                            "target": {
+                                "oid": "b361aa438e97430be99b666f4186903362405eb1",
+                                "message": "Merge pull request #7308 from janvernieuwe/patch-1\n\nUpdate Bug.md",
+                                "authoredDate": "2018-07-13T13:39:32Z",
+                                "author": {
+                                    "name": "Michael Moravec",
+                                    "email": "github.com@majkl.me",
+                                    "date": "2018-07-13T15:39:32+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE0NDE4MQ==",
+                                        "login": "Majkl578",
+                                        "name": "Michael Moravec",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/144181?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-07-13T15:39:32+02:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "4741c6e662eeb9ba4289b31fdcc31fffc742c457"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "39c5dcb79dafbeb8679dbe94a7fffd6365881176"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "396b7f671850916103708054d99c375042b2956a"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 4741c6e662eeb9ba4289b31fdcc31fffc742c457\nparent 39c5dcb79dafbeb8679dbe94a7fffd6365881176\nparent 396b7f671850916103708054d99c375042b2956a\nauthor Michael Moravec <github.com@majkl.me> 1531489172 +0200\ncommitter GitHub <noreply@github.com> 1531489172 +0200\n\nMerge pull request #7308 from janvernieuwe/patch-1\n\nUpdate Bug.md",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbSKuVCRBK7hj4Ov3rIwAAdHIIAGh53Px9lU7VPZhP76ur3ZxW\nRrrAMH1Bu9HmG6s+jfxJChw39yjDBgMeg71of6Z5OVr8V7Gxfjiw4pUZT2+xVmVx\njbBt33QucAMp/qSpz6u9jekFsvahqvQGiEXOs6jU4bvc3UgNARBCZ8xVaBnRvbXL\nkO9sGIxPA2ar4Hb1DuJM4ksEeads5dGGGXcVfAWBemQIPPZhcqi71M5HBQi/LpA2\nLQ6QRMBXqlPDrLPh38qa/rW81RSKeUtw7uur94BIxBorz5SZlWnoRAZx3ekTgzp7\nSw7I5+e4f1gCUWGrG0VLDMvAHW1Hh378/vRcP7W4RT41UmXXFzzTTopALT6bw/U=\n=SkQ4\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

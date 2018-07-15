@@ -1453,43 +1453,43 @@
                         "node": {
                             "name": "trunk",
                             "target": {
-                                "oid": "a70d5ff0aba89e889c7b63e80be2384306c33e83",
-                                "message": "* 2018-07-15\n\ngit-svn-id: svn+ssh://ci.ruby-lang.org/ruby/trunk@63967 b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
-                                "authoredDate": "2018-07-14T17:04:57Z",
+                                "oid": "7b98385dd1da7f9e8f664ab7a7bf8bae3cfa926d",
+                                "message": "node.h: remove unused macro nd_compile_option\n\nFollow up of r61610\n\ngit-svn-id: svn+ssh://ci.ruby-lang.org/ruby/trunk@63973 b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
+                                "authoredDate": "2018-07-15T11:45:59Z",
                                 "author": {
-                                    "name": "svn",
-                                    "email": "svn@b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
-                                    "date": "2018-07-14T17:04:57Z",
+                                    "name": "ktsj",
+                                    "email": "ktsj@b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
+                                    "date": "2018-07-15T11:45:59Z",
                                     "user": {
-                                        "id": "MDQ6VXNlcjI5NDAzMjI5",
-                                        "login": "matzbot",
-                                        "name": null,
+                                        "id": "MDQ6VXNlcjMyMTE3",
+                                        "login": "k-tsj",
+                                        "name": "Kazuki Tsujimoto",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/29403229?v=4",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/32117?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
-                                    "name": "svn",
-                                    "email": "svn@b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
-                                    "date": "2018-07-14T17:04:57Z",
+                                    "name": "ktsj",
+                                    "email": "ktsj@b2dd03c8-39d4-4d8f-98ff-823fe69b080e",
+                                    "date": "2018-07-15T11:45:59Z",
                                     "user": {
-                                        "id": "MDQ6VXNlcjI5NDAzMjI5",
-                                        "login": "matzbot",
-                                        "name": null,
+                                        "id": "MDQ6VXNlcjMyMTE3",
+                                        "login": "k-tsj",
+                                        "name": "Kazuki Tsujimoto",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/29403229?v=4",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/32117?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "52ea6210e5a28493e85d0b06623aee46665d5998"
+                                    "oid": "4e2d6a7c3a23fbd512025c3bc08118217ec23992"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "91061e74e442351c79385c9e287532579ec4e3fc"
+                                                "oid": "a343f6609e5accfd20c5a6c66df63d62d759520e"
                                             }
                                         }
                                     ]

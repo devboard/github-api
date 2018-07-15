@@ -1,0 +1,767 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnk1OTc4ODc=",
+            "name": "doctrine2",
+            "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "MTk="
+                },
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNTk3ODg3OjIuMC54",
+                            "name": "2.0.x",
+                            "target": {
+                                "oid": "b67d400e940b7bd0c99e37b2f6112f8dc1ac7710",
+                                "status": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNTk3ODg3OjIuMS54",
+                            "name": "2.1.x",
+                            "target": {
+                                "oid": "1c0f88f2b398a9709d32c6d62896c4db9f9f3c9a",
+                                "status": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNTk3ODg3OjIuMg==",
+                            "name": "2.2",
+                            "target": {
+                                "oid": "200c6fa3b92294d50b84d5d239a7b2339d318b4b",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNTk3ODg3OjIwMGM2ZmEzYjkyMjk0ZDUwYjg0ZDVkMjM5YTdiMjMzOWQzMThiNGI=",
+                                    "state": "SUCCESS",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQxOTE0Mzk3",
+                                            "context": "default",
+                                            "description": "The Travis build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/3298527",
+                                            "createdAt": "2012-11-21T14:40:47Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjI2OTM2",
+                                                "login": "beberlei",
+                                                "name": "Benjamin Eberlei",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/26936?v=4",
+                                                "url": "https://github.com/beberlei",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNTk3ODg3OjIuMw==",
+                            "name": "2.3",
+                            "target": {
+                                "oid": "c2135b38216c6c8a410e764792aa368e946f2ae5",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNTk3ODg3OmMyMTM1YjM4MjE2YzZjOGE0MTBlNzY0NzkyYWEzNjhlOTQ2ZjJhZTU=",
+                                    "state": "SUCCESS",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQxMzQ3MDg2NTU=",
+                                            "context": "continuous-integration/travis-ci",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/26698908",
+                                            "createdAt": "2014-11-30T15:46:51Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjI2OTM2",
+                                                "login": "beberlei",
+                                                "name": "Benjamin Eberlei",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/26936?v=4",
+                                                "url": "https://github.com/beberlei",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNTk3ODg3OjIuNA==",
+                            "name": "2.4",
+                            "target": {
+                                "oid": "ea713a0b01267745e245cf52a0c569425deb170e",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNTk3ODg3OmVhNzEzYTBiMDEyNjc3NDVlMjQ1Y2Y1MmEwYzU2OTQyNWRlYjE3MGU=",
+                                    "state": "SUCCESS",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQyOTY5ODc2MjQ=",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/78041602",
+                                            "createdAt": "2015-08-31T13:41:13Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjI2OTM2",
+                                                "login": "beberlei",
+                                                "name": "Benjamin Eberlei",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/26936?v=4",
+                                                "url": "https://github.com/beberlei",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNTk3ODg3OjIuNQ==",
+                            "name": "2.5",
+                            "target": {
+                                "oid": "19db7510a7b49605a9139fc2964342a98a682a8c",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNTk3ODg3OjE5ZGI3NTEwYTdiNDk2MDVhOTEzOWZjMjk2NDM0MmE5OGE2ODJhOGM=",
+                                    "state": "SUCCESS",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0NDE5ODMwNTgw",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/317554899?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2017-12-17T03:19:27Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjIwMTk2Mw==",
+                                                "login": "lcobucci",
+                                                "name": "Lu\u00eds Cobucci",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/201963?v=4",
+                                                "url": "https://github.com/lcobucci",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNTk3ODg3OjIuNg==",
+                            "name": "2.6",
+                            "target": {
+                                "oid": "96f166a7e90149adb1357c5db73c615407ea394e",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNTk3ODg3Ojk2ZjE2NmE3ZTkwMTQ5YWRiMTM1N2M1ZGI3M2M2MTU0MDdlYTM5NGU=",
+                                    "state": "FAILURE",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjA2OTM5NTAz",
+                                            "context": "Scrutinizer",
+                                            "description": "Failure condition met",
+                                            "state": "FAILURE",
+                                            "targetUrl": "https://scrutinizer-ci.com/g/doctrine/doctrine2/inspections/abfd6e7d-1ab7-41d9-a4e1-a6402c6ee4a7",
+                                            "createdAt": "2018-07-13T05:27:47Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                                "login": "Ocramius",
+                                                "name": "Marco Pivetta",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                                "url": "https://github.com/Ocramius",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyNzE0MjY4",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/404032798?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-07-15T01:42:05Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE0NDE4MQ==",
+                                                "login": "Majkl578",
+                                                "name": "Michael Moravec",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/144181?v=4",
+                                                "url": "https://github.com/Majkl578",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNTk3ODg3OjIuNw==",
+                            "name": "2.7",
+                            "target": {
+                                "oid": "e814f675cb78850df9b688ea33a5470b2949cb23",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNTk3ODg3OmU4MTRmNjc1Y2I3ODg1MGRmOWI2ODhlYTMzYTU0NzBiMjk0OWNiMjM=",
+                                    "state": "SUCCESS",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTYyNDI4MzMz",
+                                            "context": "Scrutinizer",
+                                            "description": "3 updated code elements",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://scrutinizer-ci.com/g/doctrine/doctrine2/inspections/d538ff07-8a50-4db9-adab-d0ac3776051e",
+                                            "createdAt": "2018-07-03T09:17:24Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                                "login": "Ocramius",
+                                                "name": "Marco Pivetta",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                                "url": "https://github.com/Ocramius",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTYyNDAzNDU1",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/399484651?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-07-03T09:11:46Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE0NDE4MQ==",
+                                                "login": "Majkl578",
+                                                "name": "Michael Moravec",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/144181?v=4",
+                                                "url": "https://github.com/Majkl578",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNTk3ODg3OkREQy0yMzYzX2Nhc2NhZGUtcmVtb3ZhbC10cmlnZ2VyaW5nLW9uZS10by1vbmUtZmV0Y2gtam9pbi1kdXJpbmctZmx1c2g=",
+                            "name": "DDC-2363_cascade-removal-triggering-one-to-one-fetch-join-during-flush",
+                            "target": {
+                                "oid": "832e9d259942127d5489776a59e481c54f4223aa",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNTk3ODg3OjgzMmU5ZDI1OTk0MjEyN2Q1NDg5Nzc2YTU5ZTQ4MWM1NGY0MjIzYWE=",
+                                    "state": "FAILURE",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0NDU0NDk5NTMz",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build failed",
+                                            "state": "FAILURE",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/323880576?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-01-02T04:54:10Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                                "login": "Ocramius",
+                                                "name": "Marco Pivetta",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                                "url": "https://github.com/Ocramius",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNTk3ODg3OmJ1Zy8jNjE4OS1wYWdpbmF0b3ItcmVzdWx0LW1hcHBpbmdzLXJlcGxhY2Vk",
+                            "name": "bug/#6189-paginator-result-mappings-replaced",
+                            "target": {
+                                "oid": "bb75d18cab86564402222c384c0bc1f4cc336474",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNTk3ODg3OmJiNzVkMThjYWI4NjU2NDQwMjIyMmMzODRjMGJjMWY0Y2MzMzY0NzQ=",
+                                    "state": "SUCCESS",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ5MjcwNDEyMTE=",
+                                            "context": "Scrutinizer",
+                                            "description": "1 new issues, 6 updated code elements",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://scrutinizer-ci.com/g/doctrine/doctrine2/inspections/73177427-bc9d-442c-80ef-9da6becdb863",
+                                            "createdAt": "2016-12-23T13:45:51Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                                "login": "Ocramius",
+                                                "name": "Marco Pivetta",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                                "url": "https://github.com/Ocramius",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ5MjcwNTM4OTI=",
+                                            "context": "continuous-integration/travis-ci/pr",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/186334410",
+                                            "createdAt": "2016-12-23T13:56:49Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                                "login": "Ocramius",
+                                                "name": "Marco Pivetta",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                                "url": "https://github.com/Ocramius",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ5MjcwNDQyNTQ=",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/186334381",
+                                            "createdAt": "2016-12-23T13:48:31Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                                "login": "Ocramius",
+                                                "name": "Marco Pivetta",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                                "url": "https://github.com/Ocramius",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNTk3ODg3OmNtZi1yZWZhY3RvcmluZw==",
+                            "name": "cmf-refactoring",
+                            "target": {
+                                "oid": "9ca760fbac75882291e18ec5d24eb1017249cc08",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNTk3ODg3OjljYTc2MGZiYWM3NTg4MjI5MWUxOGVjNWQyNGViMTAxNzI0OWNjMDg=",
+                                    "state": "FAILURE",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTI4NjY5MzA3",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build failed",
+                                            "state": "FAILURE",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/376654384?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-05-09T03:18:46Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjIwODg4Mw==",
+                                                "login": "guilhermeblanco",
+                                                "name": "Guilherme Blanco",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/208883?v=4",
+                                                "url": "https://github.com/guilhermeblanco",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNTk3ODg3OmNvbmZpZy1maWx0ZXItcGFyYW1z",
+                            "name": "config-filter-params",
+                            "target": {
+                                "oid": "ea745184505751d288e2bbdb3c90a021004afa41",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNTk3ODg3OmVhNzQ1MTg0NTA1NzUxZDI4OGUyYmJkYjNjOTBhMDIxMDA0YWZhNDE=",
+                                    "state": "SUCCESS",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ4NDI3NTgyNA==",
+                                            "context": "continuous-integration/travis-ci",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/30859599",
+                                            "createdAt": "2014-07-25T17:40:38Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjI0NDY2Mw==",
+                                                "login": "jmikola",
+                                                "name": "Jeremy Mikola",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/244663?v=4",
+                                                "url": "https://github.com/jmikola",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNTk3ODg3OmN1c3RvbS1jb2xsZWN0aW9ucw==",
+                            "name": "custom-collections",
+                            "target": {
+                                "oid": "0f18fa2e6eebe7dba4881e8090ea463025467d7e",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNTk3ODg3OjBmMThmYTJlNmVlYmU3ZGJhNDg4MWU4MDkwZWE0NjMwMjU0NjdkN2U=",
+                                    "state": "FAILURE",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQxNTM3MTI4OTk=",
+                                            "context": "continuous-integration/travis-ci",
+                                            "description": "The Travis CI build could not complete due to an error",
+                                            "state": "ERROR",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/47606166",
+                                            "createdAt": "2015-01-20T04:43:33Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjIwODg4Mw==",
+                                                "login": "guilhermeblanco",
+                                                "name": "Guilherme Blanco",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/208883?v=4",
+                                                "url": "https://github.com/guilhermeblanco",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNTk3ODg3OmRldmVsb3AtcHJlLTIwMTYtMDctMDg=",
+                            "name": "develop-pre-2016-07-08",
+                            "target": {
+                                "oid": "9265784fc366e5db67bc13285b781a7449961491",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNTk3ODg3OjkyNjU3ODRmYzM2NmU1ZGI2N2JjMTMyODViNzgxYTc0NDk5NjE0OTE=",
+                                    "state": "FAILURE",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ2NDE1ODkzMTA=",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build failed",
+                                            "state": "FAILURE",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/143194362",
+                                            "createdAt": "2016-07-07T23:23:21Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjIwODg4Mw==",
+                                                "login": "guilhermeblanco",
+                                                "name": "Guilherme Blanco",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/208883?v=4",
+                                                "url": "https://github.com/guilhermeblanco",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNTk3ODg3OmZlYXR1cmUvIzY3MjItaW5pdGlhbGl6ZS1wcm94aWVzLXdpdGgtdGhlaXItY29sbGVjdGlvbi1wcm9wZXJ0aWVz",
+                            "name": "feature/#6722-initialize-proxies-with-their-collection-properties",
+                            "target": {
+                                "oid": "4b7018c4bfdcb6f7e90d4e2a9a419d820beda91d",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNTk3ODg3OjRiNzAxOGM0YmZkY2I2ZjdlOTBkNGUyYTlhNDE5ZDgyMGJlZGE5MWQ=",
+                                    "state": "FAILURE",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0NDI0NDA2OTc2",
+                                            "context": "Scrutinizer",
+                                            "description": "Failure condition met",
+                                            "state": "FAILURE",
+                                            "targetUrl": "https://scrutinizer-ci.com/g/doctrine/doctrine2/inspections/d094e6e8-5ace-4e69-a755-3e6f4a175ce2",
+                                            "createdAt": "2017-12-18T22:14:08Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                                "login": "Ocramius",
+                                                "name": "Marco Pivetta",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                                "url": "https://github.com/Ocramius",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0NDIzOTg4NDgx",
+                                            "context": "continuous-integration/travis-ci/pr",
+                                            "description": "The Travis CI build failed",
+                                            "state": "FAILURE",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/318266209?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2017-12-18T20:19:49Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                                "login": "Ocramius",
+                                                "name": "Marco Pivetta",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                                "url": "https://github.com/Ocramius",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0NDIzOTc3OTQ2",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build failed",
+                                            "state": "FAILURE",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/318266152?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2017-12-18T20:16:52Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                                "login": "Ocramius",
+                                                "name": "Marco Pivetta",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                                "url": "https://github.com/Ocramius",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNTk3ODg3OmZpeC8jNTkyMy1kaXNhbWJpZ3VhdGUtaWRlbnRpZmllci1oYXNoaW5n",
+                            "name": "fix/#5923-disambiguate-identifier-hashing",
+                            "target": {
+                                "oid": "e8cde85b74593167d4c065f39eeabcb771f81c1d",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNTk3ODg3OmU4Y2RlODViNzQ1OTMxNjdkNGMwNjVmMzllZWFiY2I3NzFmODFjMWQ=",
+                                    "state": "FAILURE",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQxMzk5ODk0MTY0",
+                                            "context": "Scrutinizer",
+                                            "description": "Failure condition met",
+                                            "state": "FAILURE",
+                                            "targetUrl": "https://scrutinizer-ci.com/g/doctrine/doctrine2/inspections/b31b96bc-59f0-47a8-8637-9decb0d5f88d",
+                                            "createdAt": "2017-07-23T09:19:48Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                                "login": "Ocramius",
+                                                "name": "Marco Pivetta",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                                "url": "https://github.com/Ocramius",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQxMzk5ODk1OTk5",
+                                            "context": "continuous-integration/travis-ci/pr",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/256547480?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2017-07-23T09:23:09Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjIwMTk2Mw==",
+                                                "login": "lcobucci",
+                                                "name": "Lu\u00eds Cobucci",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/201963?v=4",
+                                                "url": "https://github.com/lcobucci",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQxMzk5ODkzNTA3",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/256547466?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2017-07-23T09:18:39Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjIwMTk2Mw==",
+                                                "login": "lcobucci",
+                                                "name": "Lu\u00eds Cobucci",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/201963?v=4",
+                                                "url": "https://github.com/lcobucci",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNTk3ODg3OmZpeC8jNjYzOC0jNjY0OC1vbmUtdG8tb25lLWFzc29jaWF0aW9uLWJlaW5nLXVud2lsbGluZ2x5LXJlZnJlc2hlZA==",
+                            "name": "fix/#6638-#6648-one-to-one-association-being-unwillingly-refreshed",
+                            "target": {
+                                "oid": "7510e848f01885e6db5d9aeb1eed009b13612e1e",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNTk3ODg3Ojc1MTBlODQ4ZjAxODg1ZTZkYjVkOWFlYjFlZWQwMDliMTM2MTJlMWU=",
+                                    "state": "FAILURE",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQxNDk3NTM5MjI2",
+                                            "context": "continuous-integration/travis-ci/pr",
+                                            "description": "The Travis CI build could not complete due to an error",
+                                            "state": "ERROR",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/269386054?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2017-08-28T23:20:01Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                                "login": "Ocramius",
+                                                "name": "Marco Pivetta",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                                "url": "https://github.com/Ocramius",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQxNDk3NTI0ODY4",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build could not complete due to an error",
+                                            "state": "ERROR",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/269385985?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2017-08-28T23:13:27Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                                "login": "Ocramius",
+                                                "name": "Marco Pivetta",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                                "url": "https://github.com/Ocramius",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQxNDk3NjQ4Mzgw",
+                                            "context": "Scrutinizer",
+                                            "description": "Failure condition met",
+                                            "state": "FAILURE",
+                                            "targetUrl": "https://scrutinizer-ci.com/g/doctrine/doctrine2/inspections/79cfb045-b9d5-4a60-93fb-022fc2919556",
+                                            "createdAt": "2017-08-29T00:10:31Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                                "login": "Ocramius",
+                                                "name": "Marco Pivetta",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                                "url": "https://github.com/Ocramius",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNTk3ODg3OmhvdGZpeC8jMTM0Mi1wYWdpbmF0b3ItZnVuY3Rpb25hbC10ZXN0LWludGVncmF0aW9uLXRha2Uy",
+                            "name": "hotfix/#1342-paginator-functional-test-integration-take2",
+                            "target": {
+                                "oid": "d00aa33490f0c579deeb6fafd42a9b04f8d28e25",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNTk3ODg3OmQwMGFhMzM0OTBmMGM1NzlkZWViNmZhZmQ0MmE5YjA0ZjhkMjhlMjU=",
+                                    "state": "SUCCESS",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQxODc5MjcyNDA=",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/55573814",
+                                            "createdAt": "2015-03-24T00:22:51Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                                "login": "Ocramius",
+                                                "name": "Marco Pivetta",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                                "url": "https://github.com/Ocramius",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNTk3ODg3Om1hc3Rlcg==",
+                            "name": "master",
+                            "target": {
+                                "oid": "b361aa438e97430be99b666f4186903362405eb1",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNTk3ODg3OmIzNjFhYTQzOGU5NzQzMGJlOTliNjY2ZjQxODY5MDMzNjI0MDVlYjE=",
+                                    "state": "SUCCESS",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjA4NjIyMDYw",
+                                            "context": "Scrutinizer",
+                                            "description": "No new issues",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://scrutinizer-ci.com/g/doctrine/doctrine2/inspections/4cae3f85-b911-46ca-890a-cc2c734fc42b",
+                                            "createdAt": "2018-07-13T13:40:14Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE1NDI1Ng==",
+                                                "login": "Ocramius",
+                                                "name": "Marco Pivetta",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/154256?v=4",
+                                                "url": "https://github.com/Ocramius",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyNDczNTkw",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/doctrine/doctrine2/builds/403980091?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-07-14T20:16:35Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE0NDE4MQ==",
+                                                "login": "Majkl578",
+                                                "name": "Michael Moravec",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars2.githubusercontent.com/u/144181?v=4",
+                                                "url": "https://github.com/Majkl578",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

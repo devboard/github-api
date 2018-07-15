@@ -2416,8 +2416,25 @@
                                 "oid": "fe7d1d9447a31562acb26aad7a9ffca60686c38a",
                                 "status": {
                                     "id": "MDY6U3RhdHVzNDU3MTcyNTA6ZmU3ZDFkOTQ0N2EzMTU2MmFjYjI2YWFkN2E5ZmZjYTYwNjg2YzM4YQ==",
-                                    "state": "SUCCESS",
+                                    "state": "FAILURE",
                                     "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEzMzg3NjY2",
+                                            "context": "kokoro",
+                                            "description": "Kokoro build finished",
+                                            "state": "ERROR",
+                                            "targetUrl": "https://fusion.corp.google.com/runanalysis/info/prod%3Atensorflow%2Frelease%2Fubuntu%2Fgpu_py2_mkl%2Fnightly/prod%3Atensorflow%2Frelease%2Fubuntu%2Fgpu_py2_mkl%2Fnightly/KOKORO/e88c346d-bb99-467a-9270-d26913b5fd54/1531664234247/prod%3Atensorflow%2Frelease%2Fubuntu%2Fgpu_py2_mkl%2Fnightly%20Build%20%2356/Targets",
+                                            "createdAt": "2018-07-15T16:47:41Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjI0NDQzMTA4",
+                                                "login": "kokoro-team",
+                                                "name": null,
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/24443108?v=4",
+                                                "url": "https://github.com/kokoro-team",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
                                         {
                                             "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyNDkwMzE0",
                                             "context": "Android Demo App",
@@ -2680,23 +2697,6 @@
                                             "state": "SUCCESS",
                                             "targetUrl": "https://source.cloud.google.com/results/invocations/52d182df-9519-4293-a213-eb24f6ae348b",
                                             "createdAt": "2018-07-14T21:13:54Z",
-                                            "creator": {
-                                                "id": "MDQ6VXNlcjI0NDQzMTA4",
-                                                "login": "kokoro-team",
-                                                "name": null,
-                                                "__typename": "User",
-                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/24443108?v=4",
-                                                "url": "https://github.com/kokoro-team",
-                                                "isSiteAdmin": false
-                                            }
-                                        },
-                                        {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyOTI5Mzg5",
-                                            "context": "kokoro",
-                                            "description": "Kokoro build finished",
-                                            "state": "SUCCESS",
-                                            "targetUrl": "https://fusion.corp.google.com/runanalysis/info/prod%3Atensorflow%2Frelease%2Fwindows%2Fgpu_py36_cmake%2Fnightly/prod%3Atensorflow%2Frelease%2Fwindows%2Fgpu_py36_cmake%2Fnightly/KOKORO/d5d0cbae-4370-4b25-8dd9-7fdc5ab9325f/1531628645770/prod%3Atensorflow%2Frelease%2Fwindows%2Fgpu_py36_cmake%2Fnightly%20Build%20%2362/Targets",
-                                            "createdAt": "2018-07-15T07:31:07Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjI0NDQzMTA4",
                                                 "login": "kokoro-team",

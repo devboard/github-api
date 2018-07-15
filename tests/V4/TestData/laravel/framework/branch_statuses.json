@@ -1,0 +1,687 @@
+{
+    "data": {
+        "repository": {
+            "id": "MDEwOlJlcG9zaXRvcnk3NTQ4OTg2",
+            "name": "framework",
+            "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "MTM="
+                },
+                "edges": [
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNzU0ODk4Njo0LjA=",
+                            "name": "4.0",
+                            "target": {
+                                "oid": "7be5f82453edb3db13c8b85d1769481200123f1e",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNzU0ODk4Njo3YmU1ZjgyNDUzZWRiM2RiMTNjOGI4NWQxNzY5NDgxMjAwMTIzZjFl",
+                                    "state": "FAILURE",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ3OTgyMzAwMg==",
+                                            "context": "continuous-integration/travis-ci",
+                                            "description": "The Travis CI build failed",
+                                            "state": "FAILURE",
+                                            "targetUrl": "https://travis-ci.org/laravel/framework/builds/29782020",
+                                            "createdAt": "2014-07-12T17:51:07Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNzU0ODk4Njo0LjE=",
+                            "name": "4.1",
+                            "target": {
+                                "oid": "2b092f8d12eb26929687c3ecfb13b626fba6fe6d",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNzU0ODk4NjoyYjA5MmY4ZDEyZWIyNjkyOTY4N2MzZWNmYjEzYjYyNmZiYTZmZTZk",
+                                    "state": "SUCCESS",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ5OTk3NDcxMw==",
+                                            "context": "continuous-integration/travis-ci",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/laravel/framework/builds/34738042",
+                                            "createdAt": "2014-09-08T18:52:25Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNzU0ODk4Njo0LjI=",
+                            "name": "4.2",
+                            "target": {
+                                "oid": "7d9e7068c49f945385673014d4cba4de28accd5e",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNzU0ODk4Njo3ZDllNzA2OGM0OWY5NDUzODU2NzMwMTRkNGNiYTRkZTI4YWNjZDVl",
+                                    "state": "FAILURE",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTc4NzQzMzE2",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build failed",
+                                            "state": "FAILURE",
+                                            "targetUrl": "https://travis-ci.org/laravel/framework/builds/400921574?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-07-06T15:00:54Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNzU0ODk4Njo1LjA=",
+                            "name": "5.0",
+                            "target": {
+                                "oid": "262b813fc88810071f8282722a89eb5199cb398a",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNzU0ODk4NjoyNjJiODEzZmM4ODgxMDA3MWY4MjgyNzIyYTg5ZWI1MTk5Y2IzOThh",
+                                    "state": "FAILURE",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ2NjExOTI2NzY=",
+                                            "context": "continuous-integration/styleci/pr",
+                                            "description": "The StyleCI analysis has failed - 14 files need addressing",
+                                            "state": "FAILURE",
+                                            "targetUrl": "https://styleci.io/analyses/z32der",
+                                            "createdAt": "2016-07-21T01:00:47Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTIwNTgwNTc=",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/laravel/framework/builds/116913823",
+                                            "createdAt": "2016-03-18T14:34:40Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNzU0ODk4Njo1LjE=",
+                            "name": "5.1",
+                            "target": {
+                                "oid": "e32e92706fe3ba26aef496d23a452750a4653725",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNzU0ODk4NjplMzJlOTI3MDZmZTNiYTI2YWVmNDk2ZDIzYTQ1Mjc1MGE0NjUzNzI1",
+                                    "state": "FAILURE",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjA2MzM0OTc3",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build failed",
+                                            "state": "FAILURE",
+                                            "targetUrl": "https://travis-ci.org/laravel/framework/builds/403360788?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-07-13T00:31:03Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0MzAwNDU3OTYw",
+                                            "context": "continuous-integration/styleci/push",
+                                            "description": "The StyleCI analysis has passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://styleci.io/analyses/860ama",
+                                            "createdAt": "2017-11-05T20:38:36Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNzU0ODk4Njo1LjI=",
+                            "name": "5.2",
+                            "target": {
+                                "oid": "69a980e9d62ef17b4a0be46e73e0a26018100fc9",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNzU0ODk4Njo2OWE5ODBlOWQ2MmVmMTdiNGEwYmU0NmU3M2UwYTI2MDE4MTAwZmM5",
+                                    "state": "FAILURE",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTI3MTY3NTU4",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build failed",
+                                            "state": "FAILURE",
+                                            "targetUrl": "https://travis-ci.org/laravel/framework/builds/376523168?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-05-08T19:50:33Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE1MTgyOQ==",
+                                                "login": "mattstauffer",
+                                                "name": "Matt Stauffer",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/151829?v=4",
+                                                "url": "https://github.com/mattstauffer",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTI3MTM1MDQx",
+                                            "context": "continuous-integration/styleci/push",
+                                            "description": "The analysis has passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://styleci.io/analyses/zYdWkG",
+                                            "createdAt": "2018-05-08T19:43:32Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNzU0ODk4Njo1LjM=",
+                            "name": "5.3",
+                            "target": {
+                                "oid": "2906b572aa83ff46b8ad57093dd0e859c0ff783f",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNzU0ODk4NjoyOTA2YjU3MmFhODNmZjQ2YjhhZDU3MDkzZGQwZTg1OWMwZmY3ODNm",
+                                    "state": "SUCCESS",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0NTEyMTU5ODQ1",
+                                            "context": "continuous-integration/styleci/push",
+                                            "description": "The StyleCI analysis has passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://styleci.io/analyses/qJmx6D",
+                                            "createdAt": "2018-01-19T13:48:29Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0NTEyMTg5MTQ5",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/laravel/framework/builds/330816452?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-01-19T13:57:11Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNzU0ODk4Njo1LjQ=",
+                            "name": "5.4",
+                            "target": {
+                                "oid": "8a74cf931b9df281707cef973ee9fba5b18793e8",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNzU0ODk4Njo4YTc0Y2Y5MzFiOWRmMjgxNzA3Y2VmOTczZWU5ZmJhNWIxODc5M2U4",
+                                    "state": "SUCCESS",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTEzNTU4MTU4",
+                                            "context": "continuous-integration/styleci/pr",
+                                            "description": "The analysis has passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://github.styleci.io/analyses/zDJNBL?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                            "createdAt": "2018-06-21T12:03:38Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0Mzg4MjAzNTA0",
+                                            "context": "continuous-integration/styleci/push",
+                                            "description": "The StyleCI analysis has passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://styleci.io/analyses/87xR5k",
+                                            "createdAt": "2017-12-07T13:59:38Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0NDU0NDc3Mzkz",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/laravel/framework/builds/323988898?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-01-02T04:27:18Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE1MTgyOQ==",
+                                                "login": "mattstauffer",
+                                                "name": "Matt Stauffer",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/151829?v=4",
+                                                "url": "https://github.com/mattstauffer",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNzU0ODk4Njo1LjU=",
+                            "name": "5.5",
+                            "target": {
+                                "oid": "02be861ac3471cded2329aa0865529346fb3c0b5",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNzU0ODk4NjowMmJlODYxYWMzNDcxY2RlZDIzMjlhYTA4NjU1MjkzNDZmYjNjMGI1",
+                                    "state": "FAILURE",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEzMTE2MDc4",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build failed",
+                                            "state": "FAILURE",
+                                            "targetUrl": "https://travis-ci.org/laravel/framework/builds/404106442?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-07-15T11:44:38Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MDU4Mjk3Nzk3",
+                                            "context": "continuous-integration/styleci/push",
+                                            "description": "The analysis has passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://github.styleci.io/analyses/qJe9Nv",
+                                            "createdAt": "2018-06-08T13:45:29Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNzU0ODk4Njo1LjY=",
+                            "name": "5.6",
+                            "target": {
+                                "oid": "89fc8607d0b58dabdcb198452393b898af77bbe8",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNzU0ODk4Njo4OWZjODYwN2QwYjU4ZGFiZGNiMTk4NDUyMzkzYjg5OGFmNzdiYmU4",
+                                    "state": "SUCCESS",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEzNDI5MjY2",
+                                            "context": "continuous-integration/styleci/push",
+                                            "description": "The analysis has passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://github.styleci.io/analyses/8PA6gR?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                            "createdAt": "2018-07-15T17:35:05Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEzNDMxMDk3",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/laravel/framework/builds/404176284?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-07-15T17:37:03Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNzU0ODk4NjphbGxvdy1ndWVzdHM=",
+                            "name": "allow-guests",
+                            "target": {
+                                "oid": "4bb9c194ec39429f63f6aa4f6e4de505fa720b82",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNzU0ODk4Njo0YmI5YzE5NGVjMzk0MjlmNjNmNmFhNGY2ZTRkZTUwNWZhNzIwYjgy",
+                                    "state": "SUCCESS",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MDczOTg1MzU0",
+                                            "context": "continuous-integration/styleci/pr",
+                                            "description": "The analysis has passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://github.styleci.io/analyses/8QwK4Z",
+                                            "createdAt": "2018-06-12T19:45:54Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MDczOTc4Njkx",
+                                            "context": "continuous-integration/styleci/push",
+                                            "description": "The analysis has passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://github.styleci.io/analyses/8KdQKQ",
+                                            "createdAt": "2018-06-12T19:44:39Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MDc0MDE5MTU2",
+                                            "context": "continuous-integration/travis-ci/pr",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/laravel/framework/builds/391430275?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-06-12T19:52:11Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MDczOTk3OTk0",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/laravel/framework/builds/391429640?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-06-12T19:48:24Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNzU0ODk4NjptYXN0ZXI=",
+                            "name": "master",
+                            "target": {
+                                "oid": "7b2e13047bb31a97e60da25a63c5a28380c5baab",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNzU0ODk4Njo3YjJlMTMwNDdiYjMxYTk3ZTYwZGEyNWE2M2M1YTI4MzgwYzViYWFi",
+                                    "state": "SUCCESS",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEzNDI5NTYz",
+                                            "context": "continuous-integration/styleci/push",
+                                            "description": "The analysis has passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://github.styleci.io/analyses/8wlK5K?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                            "createdAt": "2018-07-15T17:35:24Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEzNDMzMDM5",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://travis-ci.org/laravel/framework/builds/404176341?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-07-15T17:39:11Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmNzU0ODk4NjpwYXNzd29yZC1yZXNldA==",
+                            "name": "password-reset",
+                            "target": {
+                                "oid": "c9e98b230114c736b680a2dc48b501e06b6d1a71",
+                                "status": {
+                                    "id": "MDY6U3RhdHVzNzU0ODk4NjpjOWU5OGIyMzAxMTRjNzM2YjY4MGEyZGM0OGI1MDFlMDZiNmQxYTcx",
+                                    "state": "FAILURE",
+                                    "contexts": [
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0NzU4NDk5NjE0",
+                                            "context": "continuous-integration/travis-ci/pr",
+                                            "description": "The Travis CI build failed",
+                                            "state": "FAILURE",
+                                            "targetUrl": "https://travis-ci.org/laravel/framework/builds/358604616?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-03-26T20:59:45Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE1MTgyOQ==",
+                                                "login": "mattstauffer",
+                                                "name": "Matt Stauffer",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/151829?v=4",
+                                                "url": "https://github.com/mattstauffer",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0NzU4NDkxNTQ5",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build failed",
+                                            "state": "FAILURE",
+                                            "targetUrl": "https://travis-ci.org/laravel/framework/builds/358603972?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-03-26T20:58:00Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjE1MTgyOQ==",
+                                                "login": "mattstauffer",
+                                                "name": "Matt Stauffer",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/151829?v=4",
+                                                "url": "https://github.com/mattstauffer",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0NzU4NDc5NzY2",
+                                            "context": "continuous-integration/styleci/pr",
+                                            "description": "The analysis has passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://styleci.io/analyses/zOB73l",
+                                            "createdAt": "2018-03-26T20:55:25Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        },
+                                        {
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0NzU4NDc1MTUx",
+                                            "context": "continuous-integration/styleci/push",
+                                            "description": "The analysis has passed",
+                                            "state": "SUCCESS",
+                                            "targetUrl": "https://styleci.io/analyses/86OkVa",
+                                            "createdAt": "2018-03-26T20:54:27Z",
+                                            "creator": {
+                                                "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                                "login": "taylorotwell",
+                                                "name": "Taylor Otwell",
+                                                "__typename": "User",
+                                                "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                                "url": "https://github.com/taylorotwell",
+                                                "isSiteAdmin": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

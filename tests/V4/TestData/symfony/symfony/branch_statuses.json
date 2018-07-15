@@ -409,15 +409,15 @@
                                 "oid": "13a40033da354c03fd61efa8e69fac9b67e120c2",
                                 "status": {
                                     "id": "MDY6U3RhdHVzNDU4MDU4OjEzYTQwMDMzZGEzNTRjMDNmZDYxZWZhOGU2OWZhYzliNjdlMTIwYzI=",
-                                    "state": "PENDING",
+                                    "state": "FAILURE",
                                     "contexts": [
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyOTI0ODY2",
-                                            "context": "continuous-integration/appveyor/branch",
-                                            "description": "Waiting for AppVeyor build to complete",
-                                            "state": "PENDING",
-                                            "targetUrl": "https://ci.appveyor.com/project/fabpot/symfony/build/1.0.38626",
-                                            "createdAt": "2018-07-15T07:24:50Z",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyOTMzNDA5",
+                                            "context": "continuous-integration/travis-ci/push",
+                                            "description": "The Travis CI build could not complete due to an error",
+                                            "state": "ERROR",
+                                            "targetUrl": "https://travis-ci.org/symfony/symfony/builds/404067702?utm_source=github_status&utm_medium=notification",
+                                            "createdAt": "2018-07-15T07:37:38Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjQ3MzEz",
                                                 "login": "fabpot",
@@ -429,12 +429,12 @@
                                             }
                                         },
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyOTI0ODgz",
-                                            "context": "continuous-integration/travis-ci/push",
-                                            "description": "The Travis CI build is in progress",
-                                            "state": "PENDING",
-                                            "targetUrl": "https://travis-ci.org/symfony/symfony/builds/404067702?utm_source=github_status&utm_medium=notification",
-                                            "createdAt": "2018-07-15T07:24:50Z",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyOTI5Nzk3",
+                                            "context": "continuous-integration/appveyor/branch",
+                                            "description": "AppVeyor build failed",
+                                            "state": "FAILURE",
+                                            "targetUrl": "https://ci.appveyor.com/project/fabpot/symfony/build/1.0.38626",
+                                            "createdAt": "2018-07-15T07:31:49Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjQ3MzEz",
                                                 "login": "fabpot",
@@ -752,15 +752,15 @@
                                 "oid": "25df3e32cb7ba6a4f4f956aeb732ccdb619dea80",
                                 "status": {
                                     "id": "MDY6U3RhdHVzNDU4MDU4OjI1ZGYzZTMyY2I3YmE2YTRmNGY5NTZhZWI3MzJjY2RiNjE5ZGVhODA=",
-                                    "state": "PENDING",
+                                    "state": "FAILURE",
                                     "contexts": [
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyOTI2NTIz",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyOTMzNzM2",
                                             "context": "continuous-integration/appveyor/branch",
-                                            "description": "Waiting for AppVeyor build to complete",
-                                            "state": "PENDING",
+                                            "description": "AppVeyor build failed",
+                                            "state": "FAILURE",
                                             "targetUrl": "https://ci.appveyor.com/project/fabpot/symfony/build/1.0.38628",
-                                            "createdAt": "2018-07-15T07:27:12Z",
+                                            "createdAt": "2018-07-15T07:38:05Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjQ3MzEz",
                                                 "login": "fabpot",
@@ -772,12 +772,12 @@
                                             }
                                         },
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyOTI2NTAy",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyOTM3NTkw",
                                             "context": "continuous-integration/travis-ci/push",
-                                            "description": "The Travis CI build is in progress",
-                                            "state": "PENDING",
+                                            "description": "The Travis CI build failed",
+                                            "state": "FAILURE",
                                             "targetUrl": "https://travis-ci.org/symfony/symfony/builds/404067998?utm_source=github_status&utm_medium=notification",
-                                            "createdAt": "2018-07-15T07:27:10Z",
+                                            "createdAt": "2018-07-15T07:43:44Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjQ3MzEz",
                                                 "login": "fabpot",

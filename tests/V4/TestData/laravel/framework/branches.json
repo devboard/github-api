@@ -1,0 +1,693 @@
+{
+    "data": {
+        "repository": {
+            "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "MTM="
+                },
+                "edges": [
+                    {
+                        "node": {
+                            "name": "4.0",
+                            "target": {
+                                "oid": "7be5f82453edb3db13c8b85d1769481200123f1e",
+                                "message": "Update version.",
+                                "authoredDate": "2014-07-12T17:43:27Z",
+                                "author": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylorotwell@gmail.com",
+                                    "date": "2014-07-12T12:43:27-05:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylorotwell@gmail.com",
+                                    "date": "2014-07-12T12:43:27-05:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "ae185ef94047b8f86b06e82e4201612c6cf0d2bb"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "a5b01397334dd1c5e5d33e6d5a6d374942ef4de1"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "4.1",
+                            "target": {
+                                "oid": "2b092f8d12eb26929687c3ecfb13b626fba6fe6d",
+                                "message": "Merge pull request #5687 from GrahamCampbell/patch-1\n\nRelease 4.1.31",
+                                "authoredDate": "2014-09-08T18:40:03Z",
+                                "author": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylorotwell@gmail.com",
+                                    "date": "2014-09-08T13:40:03-05:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylorotwell@gmail.com",
+                                    "date": "2014-09-08T13:40:03-05:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "c06d9fe667b530c91a894daf603abe8858ac96a2"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "7ede44bfe2eab81d96527b0e11776136bc2feefc"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "8d699c2773a16b21e7f90272d6b672beb1b8fddc"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "4.2",
+                            "target": {
+                                "oid": "7d9e7068c49f945385673014d4cba4de28accd5e",
+                                "message": "remove extra word from phpdoc (#24765)",
+                                "authoredDate": "2018-07-06T14:54:44Z",
+                                "author": {
+                                    "name": "Atef Ben Ali",
+                                    "email": "atefBB@users.noreply.github.com",
+                                    "date": "2018-07-06T15:54:44+01:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjEwOTY2OTI1",
+                                        "login": "atefBB",
+                                        "name": "Atef Ben Ali",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/10966925?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2018-07-06T09:54:44-05:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "33f1f896b6814cdb6bfc8ae32a7dd209e5645d08"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "7bfe4a10387d726569856bb4ceaec576e60ae7bb"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "5.0",
+                            "target": {
+                                "oid": "262b813fc88810071f8282722a89eb5199cb398a",
+                                "message": "Merge pull request #12780 from laravel/revert-12764-5.0-rand\n\nRevert \"[5.0] Ensure openssl's vulnerable random generation is not used\"",
+                                "authoredDate": "2016-03-18T14:24:24Z",
+                                "author": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylorotwell@gmail.com",
+                                    "date": "2016-03-18T09:24:24-05:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylorotwell@gmail.com",
+                                    "date": "2016-03-18T09:24:24-05:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "ced2d81a84696e36a7414c8f67bcbdccf1241cec"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "21934081c47acd1fcebace66c39a110d0cf3f592"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "665e02f989e3de7a9f9953e0c01655ec3ab4a4eb"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "5.1",
+                            "target": {
+                                "oid": "e32e92706fe3ba26aef496d23a452750a4653725",
+                                "message": "Apply fixes from StyleCI (#21965)",
+                                "authoredDate": "2017-11-05T20:38:30Z",
+                                "author": {
+                                    "name": "Graham Campbell",
+                                    "email": "graham@alt-three.com",
+                                    "date": "2017-11-05T20:38:30Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjI4Mjk2MDA=",
+                                        "login": "GrahamCampbell",
+                                        "name": "Graham Campbell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/2829600?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2017-11-05T14:38:30-06:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "e03b4ceb07cd033a7601df190c1b9bac7d136afa"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "9f178aa29d00ccc005c8c080b42aca7f025a09e4"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "5.2",
+                            "target": {
+                                "oid": "69a980e9d62ef17b4a0be46e73e0a26018100fc9",
+                                "message": "Apply fixes from StyleCI (#24151)",
+                                "authoredDate": "2018-05-08T19:43:26Z",
+                                "author": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2018-05-08T14:43:26-05:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-05-08T14:43:26-05:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "b3ead9050d8bce76e07db12a4245db4f00d2a08e"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "63c8841aa8c000d9259ea6e8683073e9dfc3af83"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree b3ead9050d8bce76e07db12a4245db4f00d2a08e\nparent 63c8841aa8c000d9259ea6e8683073e9dfc3af83\nauthor Taylor Otwell <taylor@laravel.com> 1525808606 -0500\ncommitter GitHub <noreply@github.com> 1525808606 -0500\n\nApply fixes from StyleCI (#24151)\n\n",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJa8f3eCRBK7hj4Ov3rIwAAdHIIAKnqDjGb3XeBZNmgpQl6FHTe\nB3aAvSe1WzMLLcNmw9PlHUKje/+b0/KvSd5lAstzBiQXbd6M0dOnBmHSAWfI9HHC\nQewIOOS0P3Y5O1ruBdsEDOu7ILl0VNkQ45Ymo19U5eykP6iXjDN85duva1xS9pYL\nvZD3UomOUv5LMvoqnC8/lIC2FRMbdDrC1ucg9HsVIIUO9qOJEJ98Rb3nOKIgOsbZ\nu8Y/CLklcBm/pjvgcgaQ1MPv7XmKudG9rKHrRmMsb54h1mNIqPcoxfhFBRf0YXTh\n1RWVKoF7XZKmQOVjGArYKoudYH9DMj5yaUPCIi4uRuFI6prvce0YC2f0zhZ5v4k=\n=mmz7\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "5.3",
+                            "target": {
+                                "oid": "2906b572aa83ff46b8ad57093dd0e859c0ff783f",
+                                "message": "Update SoftDeletingScope.php (#22858)\n\nFix for PHP 7.2 backported from 5.5 branch",
+                                "authoredDate": "2018-01-19T13:47:22Z",
+                                "author": {
+                                    "name": "Jon Nicholson",
+                                    "email": "drjonnicholson@users.noreply.github.com",
+                                    "date": "2018-01-19T13:47:22Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjc2ODg4Mzc=",
+                                        "login": "drjonnicholson",
+                                        "name": "Jon Nicholson",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/7688837?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2018-01-19T07:47:22-06:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "8757fd05f948faa4f28646a431da1ab7d7cd7321"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "617c7665d22ce0007f5da31b8ca0ab9b985fb8b5"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "5.4",
+                            "target": {
+                                "oid": "8a74cf931b9df281707cef973ee9fba5b18793e8",
+                                "message": "Apply fixes from StyleCI (#22344)",
+                                "authoredDate": "2017-12-07T13:59:34Z",
+                                "author": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2017-12-07T07:59:34-06:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2017-12-07T07:59:34-06:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "fb9ff2f29a850cec6f3c91939c06c5807670d4c9"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "1fa9dacf143ff93b9ab192684cf06bf5f14f0848"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree fb9ff2f29a850cec6f3c91939c06c5807670d4c9\nparent 1fa9dacf143ff93b9ab192684cf06bf5f14f0848\nauthor Taylor Otwell <taylor@laravel.com> 1512655174 -0600\ncommitter GitHub <noreply@github.com> 1512655174 -0600\n\nApply fixes from StyleCI (#22344)\n\n",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJaKUlGCRBK7hj4Ov3rIwAAdHIIAGTHHkh3/XpQMxF/CBzLlqYD\nHbqYfkun6rKDhxWEB7oRSesTq5Xpk3G9k3NggxW042MlDa6IuVDQmYwseAcTobLq\nBUCgRvZ9dhtoEttMKIdm+Fqg342C4SqlFt4iUWPlh7caidcFRVUeJJ9TBMm9sTB1\nXhwXQnMCGuoSLlyNUVrC9lXpaoEJ9LlNXh0dvmFQFGqyLORvrufR1iK2/K79cJGc\ngLpw+PGcmud38jRyUwhvKJpfWLHVsKwpahZDYgwgZiNrMxCge0pVlxWim52PEPbi\nqa91FTCubbmUgnbq8W8aB7OHfWeSbagSRsp01xuQTVfRMKgxIZa5WuDPxZvSDV8=\n=/uuo\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "5.5",
+                            "target": {
+                                "oid": "02be861ac3471cded2329aa0865529346fb3c0b5",
+                                "message": "Fix type of $path in loadViewsFrom docblock (#24504)",
+                                "authoredDate": "2018-06-08T13:45:23Z",
+                                "author": {
+                                    "name": "nrdmn",
+                                    "email": "n+github@nirf.de",
+                                    "date": "2018-06-08T15:45:23+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjExNzgzMDk1",
+                                        "login": "nrdmn",
+                                        "name": "",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/11783095?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2018-06-08T08:45:23-05:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "d59ea772f0d75b29adc1192b4307123458377100"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "1dd851e09fa59a18a3d0038a74cd79187015a973"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "5.6",
+                            "target": {
+                                "oid": "89fc8607d0b58dabdcb198452393b898af77bbe8",
+                                "message": "add methods to policy stub",
+                                "authoredDate": "2018-07-15T17:34:48Z",
+                                "author": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2018-07-15T12:34:48-05:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2018-07-15T12:34:48-05:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "4b6dffdf83da7d1bf8eb68943aedf6e5aa63b085"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "8e2d32c2b6b6aff7b966abc714a391e136abb41b"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "allow-guests",
+                            "target": {
+                                "oid": "4bb9c194ec39429f63f6aa4f6e4de505fa720b82",
+                                "message": "tests",
+                                "authoredDate": "2018-06-12T19:43:49Z",
+                                "author": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2018-06-12T14:43:49-05:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2018-06-12T14:43:49-05:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "491e156bd7c93cdba11354293d5db6cd35cfede7"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "6197db7f3cfc8086d6beb486800b0d107cb9e2ce"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "master",
+                            "target": {
+                                "oid": "7b2e13047bb31a97e60da25a63c5a28380c5baab",
+                                "message": "Merge branch '5.6'",
+                                "authoredDate": "2018-07-15T17:35:13Z",
+                                "author": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2018-07-15T12:35:13-05:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2018-07-15T12:35:13-05:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "b5256085a87007d901bb46ad494d0339ea6e3947"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "5bafdb9cad9ff74a7d81b36c1bfbf87c406b2512"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "89fc8607d0b58dabdcb198452393b898af77bbe8"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "password-reset",
+                            "target": {
+                                "oid": "c9e98b230114c736b680a2dc48b501e06b6d1a71",
+                                "message": "Apply fixes from StyleCI (#23705)",
+                                "authoredDate": "2018-03-26T20:54:22Z",
+                                "author": {
+                                    "name": "Taylor Otwell",
+                                    "email": "taylor@laravel.com",
+                                    "date": "2018-03-26T13:54:22-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ2MzIzMA==",
+                                        "login": "taylorotwell",
+                                        "name": "Taylor Otwell",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/463230?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-03-26T13:54:22-07:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "7fd3d4b4576223a2d96ccea6eba010fb572e00dd"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "4d6c6ba28c150aa75be8dc272919d0a4254dda33"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 7fd3d4b4576223a2d96ccea6eba010fb572e00dd\nparent 4d6c6ba28c150aa75be8dc272919d0a4254dda33\nauthor Taylor Otwell <taylor@laravel.com> 1522097662 -0700\ncommitter GitHub <noreply@github.com> 1522097662 -0700\n\nApply fixes from StyleCI (#23705)\n\n",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJauV3+CRBK7hj4Ov3rIwAAdHIIAIHqV3cXGY+62G0tbCOMHonq\ntTse8rkUl7TinXwAeyBdchTqzG/3VTS2o19Os8S/0nCuiTgOUaHnPN2keBnt9mCr\nU0KW3UDJ4+XutbU6kREAjZtrejYqtrwaItMPGQWzEiWq1ilNlg7jZUG3Twsam8av\nChyPwtJDRAkTjRJ9G3MNnkj6rABs58u/BBiw7VT43fRnUa46vdtEYziPFRlH4QEa\nO6r/Q79CWqmiOLGnTDCUGx39NwvQPVfaOZYthDICyzehYGH3y7ECCjE4lYxzAO/V\niCZ7dcvGgrwdAQBJVygRLC5bi3grxhPEYvuyuhwO/hXsYtEUcI7J2JRANPX+OyU=\n=ra62\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
