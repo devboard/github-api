@@ -3,7 +3,6 @@ query ($owner: String!, $name: String!) {
         refs(refPrefix: "refs/heads/", first: 100) {
             edges {
                 node {
-                    id
                     name
                     target {
                         ... on Commit {
