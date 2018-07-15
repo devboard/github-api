@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnkxODY0MzYz",
             "name": "composer",
             "milestones": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Y3Vyc29yOnYyOpHOAC61zQ=="
+                },
                 "edges": [
                     {
                         "node": {
@@ -24,7 +28,7 @@
                             },
                             "closedAt": null,
                             "createdAt": "2012-04-02T22:46:53Z",
-                            "updatedAt": "2018-04-13T09:07:57Z"
+                            "updatedAt": "2018-05-15T13:57:10Z"
                         }
                     },
                     {
@@ -68,7 +72,7 @@
                             },
                             "closedAt": null,
                             "createdAt": "2012-05-13T10:21:25Z",
-                            "updatedAt": "2018-05-03T16:17:25Z"
+                            "updatedAt": "2018-06-06T10:52:54Z"
                         }
                     },
                     {
@@ -112,7 +116,7 @@
                             },
                             "closedAt": null,
                             "createdAt": "2012-08-18T15:15:20Z",
-                            "updatedAt": "2018-04-13T10:49:48Z"
+                            "updatedAt": "2018-06-01T08:03:29Z"
                         }
                     },
                     {
@@ -398,7 +402,7 @@
                             },
                             "closedAt": null,
                             "createdAt": "2017-08-06T15:29:25Z",
-                            "updatedAt": "2018-05-04T09:18:46Z"
+                            "updatedAt": "2018-06-09T14:21:44Z"
                         }
                     },
                     {
@@ -420,7 +424,7 @@
                             },
                             "closedAt": null,
                             "createdAt": "2018-01-24T14:17:32Z",
-                            "updatedAt": "2018-04-13T14:30:33Z"
+                            "updatedAt": "2018-06-06T12:02:16Z"
                         }
                     }
                 ]
