@@ -1,8 +1,8 @@
-query ($owner: String!, $name: String!) {
+query ($owner: String!, $name: String!, $cursor: String) {
     repository(owner: $owner, name: $name) {
         id
         name
-        labels(first: 100) {
+        labels(first: 100, after: $cursor) {
             pageInfo {
                 hasNextPage
                 endCursor
