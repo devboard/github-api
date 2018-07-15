@@ -1,13 +1,14 @@
 {
     "data": {
         "repository": {
-            "id": "MDEwOlJlcG9zaXRvcnk0NTgwNTg=",
-            "name": "symfony",
             "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "MTc="
+                },
                 "edges": [
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU4MDU4OjIuMA==",
                             "name": "2.0",
                             "target": {
                                 "oid": "3968f00539be5e14bfcb681a3bb2429a7cacb349",
@@ -16,14 +17,13 @@
                                 "author": {
                                     "name": "Fabien Potencier",
                                     "email": "fabien.potencier@gmail.com",
-                                    "date": "2013-10-10T06:56:48Z",
+                                    "date": "2013-10-10T08:56:48+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjQ3MzEz",
                                         "login": "fabpot",
                                         "name": "Fabien Potencier",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -37,32 +37,27 @@
                                         "name": "Fabien Potencier",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "e2de1d83319f1b536eb4e60b071256f217398aad",
-                                    "commitUrl": "https://github.com/symfony/symfony/commit/e2de1d83319f1b536eb4e60b071256f217398aad",
-                                    "commitResourcePath": "/symfony/symfony/commit/e2de1d83319f1b536eb4e60b071256f217398aad"
+                                    "oid": "e2de1d83319f1b536eb4e60b071256f217398aad"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "40a77c10cfd7e1f2cd5b5a891da97ae3640dd7fb",
-                                                "url": "https://github.com/symfony/symfony/commit/40a77c10cfd7e1f2cd5b5a891da97ae3640dd7fb",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/40a77c10cfd7e1f2cd5b5a891da97ae3640dd7fb"
+                                                "oid": "40a77c10cfd7e1f2cd5b5a891da97ae3640dd7fb"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU4MDU4OjIuMQ==",
                             "name": "2.1",
                             "target": {
                                 "oid": "fc0a09a2052e9275c16b5ab7af426935fe432f39",
@@ -71,14 +66,13 @@
                                 "author": {
                                     "name": "Fabien Potencier",
                                     "email": "fabien.potencier@gmail.com",
-                                    "date": "2013-10-10T11:03:57Z",
+                                    "date": "2013-10-10T13:03:57+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjQ3MzEz",
                                         "login": "fabpot",
                                         "name": "Fabien Potencier",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -92,32 +86,27 @@
                                         "name": "Fabien Potencier",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "8da7a2ed9b3c90c5def4a8bb060d9c300d4f5546",
-                                    "commitUrl": "https://github.com/symfony/symfony/commit/8da7a2ed9b3c90c5def4a8bb060d9c300d4f5546",
-                                    "commitResourcePath": "/symfony/symfony/commit/8da7a2ed9b3c90c5def4a8bb060d9c300d4f5546"
+                                    "oid": "8da7a2ed9b3c90c5def4a8bb060d9c300d4f5546"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "7306194876f531e0d169e6914217051e546c6a30",
-                                                "url": "https://github.com/symfony/symfony/commit/7306194876f531e0d169e6914217051e546c6a30",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/7306194876f531e0d169e6914217051e546c6a30"
+                                                "oid": "7306194876f531e0d169e6914217051e546c6a30"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU4MDU4OjIuMg==",
                             "name": "2.2",
                             "target": {
                                 "oid": "c07227e5b3c28a429cd2fa2be705284059b613db",
@@ -126,14 +115,13 @@
                                 "author": {
                                     "name": "Fabien Potencier",
                                     "email": "fabien.potencier@gmail.com",
-                                    "date": "2013-12-23T15:45:07Z",
+                                    "date": "2013-12-23T16:45:07+01:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjQ3MzEz",
                                         "login": "fabpot",
                                         "name": "Fabien Potencier",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -147,39 +135,32 @@
                                         "name": "Fabien Potencier",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "00469c6234eca4857f28055dfc9b8b4596cf37b7",
-                                    "commitUrl": "https://github.com/symfony/symfony/commit/00469c6234eca4857f28055dfc9b8b4596cf37b7",
-                                    "commitResourcePath": "/symfony/symfony/commit/00469c6234eca4857f28055dfc9b8b4596cf37b7"
+                                    "oid": "00469c6234eca4857f28055dfc9b8b4596cf37b7"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "6a9c223b066a2553b8f59fd26f84ea630eff403c",
-                                                "url": "https://github.com/symfony/symfony/commit/6a9c223b066a2553b8f59fd26f84ea630eff403c",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/6a9c223b066a2553b8f59fd26f84ea630eff403c"
+                                                "oid": "6a9c223b066a2553b8f59fd26f84ea630eff403c"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "2e4670d4d9decb25bb330d35522676bf38b23f10",
-                                                "url": "https://github.com/symfony/symfony/commit/2e4670d4d9decb25bb330d35522676bf38b23f10",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/2e4670d4d9decb25bb330d35522676bf38b23f10"
+                                                "oid": "2e4670d4d9decb25bb330d35522676bf38b23f10"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU4MDU4OjIuMw==",
                             "name": "2.3",
                             "target": {
                                 "oid": "0baa58d4e4bb006c4ae68f75833b586bd3cb6e6f",
@@ -188,14 +169,13 @@
                                 "author": {
                                     "name": "Fabien Potencier",
                                     "email": "fabien.potencier@gmail.com",
-                                    "date": "2016-05-30T08:41:31Z",
+                                    "date": "2016-05-30T10:41:31+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjQ3MzEz",
                                         "login": "fabpot",
                                         "name": "Fabien Potencier",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -209,39 +189,32 @@
                                         "name": "Fabien Potencier",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "1db522ab5fde2b25b4f37e3fb1ebfc859f060547",
-                                    "commitUrl": "https://github.com/symfony/symfony/commit/1db522ab5fde2b25b4f37e3fb1ebfc859f060547",
-                                    "commitResourcePath": "/symfony/symfony/commit/1db522ab5fde2b25b4f37e3fb1ebfc859f060547"
+                                    "oid": "1db522ab5fde2b25b4f37e3fb1ebfc859f060547"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "91635a805480bf635c9ef2aa7243c17b25524742",
-                                                "url": "https://github.com/symfony/symfony/commit/91635a805480bf635c9ef2aa7243c17b25524742",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/91635a805480bf635c9ef2aa7243c17b25524742"
+                                                "oid": "91635a805480bf635c9ef2aa7243c17b25524742"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "7143b2974cc2b47542df987901db0e2eda33a8d5",
-                                                "url": "https://github.com/symfony/symfony/commit/7143b2974cc2b47542df987901db0e2eda33a8d5",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/7143b2974cc2b47542df987901db0e2eda33a8d5"
+                                                "oid": "7143b2974cc2b47542df987901db0e2eda33a8d5"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU4MDU4OjIuNA==",
                             "name": "2.4",
                             "target": {
                                 "oid": "daed178afd4700dd18f4fb0ea6b72dcfd9a4792a",
@@ -250,14 +223,13 @@
                                 "author": {
                                     "name": "Fabien Potencier",
                                     "email": "fabien.potencier@gmail.com",
-                                    "date": "2014-09-28T17:03:37Z",
+                                    "date": "2014-09-28T19:03:37+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjQ3MzEz",
                                         "login": "fabpot",
                                         "name": "Fabien Potencier",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -271,32 +243,27 @@
                                         "name": "Fabien Potencier",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "552524b5afa5ce07d36cc2348e090b04211bf834",
-                                    "commitUrl": "https://github.com/symfony/symfony/commit/552524b5afa5ce07d36cc2348e090b04211bf834",
-                                    "commitResourcePath": "/symfony/symfony/commit/552524b5afa5ce07d36cc2348e090b04211bf834"
+                                    "oid": "552524b5afa5ce07d36cc2348e090b04211bf834"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "7d01c90fc146ed86603f3fd5e7c0ec4d9fd910bb",
-                                                "url": "https://github.com/symfony/symfony/commit/7d01c90fc146ed86603f3fd5e7c0ec4d9fd910bb",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/7d01c90fc146ed86603f3fd5e7c0ec4d9fd910bb"
+                                                "oid": "7d01c90fc146ed86603f3fd5e7c0ec4d9fd910bb"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU4MDU4OjIuNQ==",
                             "name": "2.5",
                             "target": {
                                 "oid": "5c83d12f2fbe93622e6ae2aad72f4033adbebe36",
@@ -305,14 +272,13 @@
                                 "author": {
                                     "name": "Fabien Potencier",
                                     "email": "fabien.potencier@gmail.com",
-                                    "date": "2015-05-26T23:43:20Z",
+                                    "date": "2015-05-27T01:43:20+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjQ3MzEz",
                                         "login": "fabpot",
                                         "name": "Fabien Potencier",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -326,32 +292,27 @@
                                         "name": "Fabien Potencier",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "daf684bfe08188e27e6fd159f7623632565c00d0",
-                                    "commitUrl": "https://github.com/symfony/symfony/commit/daf684bfe08188e27e6fd159f7623632565c00d0",
-                                    "commitResourcePath": "/symfony/symfony/commit/daf684bfe08188e27e6fd159f7623632565c00d0"
+                                    "oid": "daf684bfe08188e27e6fd159f7623632565c00d0"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "4e601ff4312b58c416c76ebfc544e0aa2c1fc277",
-                                                "url": "https://github.com/symfony/symfony/commit/4e601ff4312b58c416c76ebfc544e0aa2c1fc277",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/4e601ff4312b58c416c76ebfc544e0aa2c1fc277"
+                                                "oid": "4e601ff4312b58c416c76ebfc544e0aa2c1fc277"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU4MDU4OjIuNg==",
                             "name": "2.6",
                             "target": {
                                 "oid": "240e9648af3daa5ed19580fdec74d768e30692a6",
@@ -360,14 +321,13 @@
                                 "author": {
                                     "name": "Fabien Potencier",
                                     "email": "fabien.potencier@gmail.com",
-                                    "date": "2016-01-14T10:11:35Z",
+                                    "date": "2016-01-14T11:11:35+01:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjQ3MzEz",
                                         "login": "fabpot",
                                         "name": "Fabien Potencier",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -381,163 +341,149 @@
                                         "name": "Fabien Potencier",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "a1959b26cae0fcbfc350253dad02ae49583724bb",
-                                    "commitUrl": "https://github.com/symfony/symfony/commit/a1959b26cae0fcbfc350253dad02ae49583724bb",
-                                    "commitResourcePath": "/symfony/symfony/commit/a1959b26cae0fcbfc350253dad02ae49583724bb"
+                                    "oid": "a1959b26cae0fcbfc350253dad02ae49583724bb"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "e05da262eb963da58d9a803277b82a3e902e5fb5",
-                                                "url": "https://github.com/symfony/symfony/commit/e05da262eb963da58d9a803277b82a3e902e5fb5",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/e05da262eb963da58d9a803277b82a3e902e5fb5"
+                                                "oid": "e05da262eb963da58d9a803277b82a3e902e5fb5"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "a651f54c9f1bfa026631193aa8aa41c737d7d123",
-                                                "url": "https://github.com/symfony/symfony/commit/a651f54c9f1bfa026631193aa8aa41c737d7d123",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/a651f54c9f1bfa026631193aa8aa41c737d7d123"
+                                                "oid": "a651f54c9f1bfa026631193aa8aa41c737d7d123"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU4MDU4OjIuNw==",
                             "name": "2.7",
                             "target": {
-                                "oid": "3afdf464cb9d6494f3df4ee3d10e6d880bea4c6e",
-                                "message": "minor #27171 [Form][minor] Fixed typo RecursiveIterator -> RecursiveIteratorIterator (vudaltsov)\n\nThis PR was merged into the 2.7 branch.\n\nDiscussion\n----------\n\n[Form][minor] Fixed typo RecursiveIterator -> RecursiveIteratorIterator\n\n| Q             | A\n| ------------- | ---\n| Branch?       | 2.7\n| Bug fix?      | no\n| New feature?  | no\n| BC breaks?    | no\n| Deprecations? |no\n| Tests pass?   | no\n| Fixed tickets |\n| License       | MIT\n| Doc PR        |\n\nCommits\n-------\n\nb11dccebd2 Fixed typo RecursiveIterator -> RecursiveIteratorIterator",
-                                "authoredDate": "2018-05-06T14:41:18Z",
+                                "oid": "34d6116e2b80351c5a6f591285a4e9381b0dd127",
+                                "message": "Merge pull request #27374 from fabpot/release-2.7.48\n\nreleased v2.7.48",
+                                "authoredDate": "2018-05-25T11:46:22Z",
                                 "author": {
-                                    "name": "Nicolas Grekas",
-                                    "email": "nicolas.grekas@gmail.com",
-                                    "date": "2018-05-06T14:41:18Z",
+                                    "name": "Fabien Potencier",
+                                    "email": "fabien@potencier.org",
+                                    "date": "2018-05-25T13:46:22+02:00",
                                     "user": {
-                                        "id": "MDQ6VXNlcjI0MzY3NA==",
-                                        "login": "nicolas-grekas",
-                                        "name": "Nicolas Grekas",
+                                        "id": "MDQ6VXNlcjQ3MzEz",
+                                        "login": "fabpot",
+                                        "name": "Fabien Potencier",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/243674?v=4",
-                                        "url": "https://github.com/nicolas-grekas",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
-                                    "name": "Nicolas Grekas",
-                                    "email": "nicolas.grekas@gmail.com",
-                                    "date": "2018-05-06T07:41:18-07:00",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjI0MzY3NA==",
-                                        "login": "nicolas-grekas",
-                                        "name": "Nicolas Grekas",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/243674?v=4",
-                                        "url": "https://github.com/nicolas-grekas",
-                                        "isSiteAdmin": false
-                                    }
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-05-25T13:46:22+02:00",
+                                    "user": null
                                 },
                                 "tree": {
-                                    "oid": "ff60aa69010fcfe9d9e9c7de12fce30922d66442",
-                                    "commitUrl": "https://github.com/symfony/symfony/commit/ff60aa69010fcfe9d9e9c7de12fce30922d66442",
-                                    "commitResourcePath": "/symfony/symfony/commit/ff60aa69010fcfe9d9e9c7de12fce30922d66442"
+                                    "oid": "172921c9b2128946c492741b34d023a8592beda4"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "ffb07c6a99d57fe501838ffb3f0f1b8bc808c0b6",
-                                                "url": "https://github.com/symfony/symfony/commit/ffb07c6a99d57fe501838ffb3f0f1b8bc808c0b6",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/ffb07c6a99d57fe501838ffb3f0f1b8bc808c0b6"
+                                                "oid": "ab32125187e67b9d356d918754dc4e636da9f5db"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "b11dccebd2781447ba0e9c852aa3e4549d82ec9b",
-                                                "url": "https://github.com/symfony/symfony/commit/b11dccebd2781447ba0e9c852aa3e4549d82ec9b",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/b11dccebd2781447ba0e9c852aa3e4549d82ec9b"
+                                                "oid": "81564555d81e4955b12b41837ae7cbae6fed907d"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 172921c9b2128946c492741b34d023a8592beda4\nparent ab32125187e67b9d356d918754dc4e636da9f5db\nparent 81564555d81e4955b12b41837ae7cbae6fed907d\nauthor Fabien Potencier <fabien@potencier.org> 1527248782 +0200\ncommitter GitHub <noreply@github.com> 1527248782 +0200\n\nMerge pull request #27374 from fabpot/release-2.7.48\n\nreleased v2.7.48",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbB/eOCRBK7hj4Ov3rIwAAdHIIAFCZqlR4j2RYb82LSftHl87Z\nnx+Z3KyHsPX8G3dfd5V7zL0jLUZ6hyiplO1merRy9HinC8uHzn/ja0WDEIwrr5YK\nmqeb7ifwwYWHGIBdQnIiJb5S+CEk6NGIZQg2VYjpj3o/qgbIDyWp3qLX1dm5CqoD\nJjv2XSluxerBAXAzZIGWtWrdcoxTguPEpuqgyNmyh/Zl69jmzzwR5kqvB+ya6l6a\nxbSdrEwX2bjaBw2PPTD+w22EJxzUPh4W1hw6YbjbZntm7UJmXPDahP6jHoZrAGL8\ndaD29fPjEYL3jYe8NF2gT8HhcLcrzYx8ey7C10OABKf1F7OBUKcylVAdPgY1T80=\n=G9tl\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU4MDU4OjIuOA==",
                             "name": "2.8",
                             "target": {
-                                "oid": "087c667b83e32916ba3493f9e6c4ebc16009d048",
-                                "message": "Merge branch '2.7' into 2.8\n\n* 2.7:\n  Remove symfony/polyfill-ctype where not needed\n  Use symfony/polyfill-ctype\n  [Form] fixes instance variable phpdoc in FormRegistry class",
-                                "authoredDate": "2018-05-01T22:52:40Z",
+                                "oid": "13a40033da354c03fd61efa8e69fac9b67e120c2",
+                                "message": "minor #27954 [Form] Fix PHPDoc for FormConfigBuilder $dataClass argument (emodric)\n\nThis PR was merged into the 2.8 branch.\n\nDiscussion\n----------\n\n[Form] Fix PHPDoc for FormConfigBuilder $dataClass argument\n\n| Q             | A\n| ------------- | ---\n| Branch?       | 2.8\n| Bug fix?      | no\n| New feature?  | no\n| BC breaks?    | no\n| Deprecations? | no\n| Tests pass?   | yes\n| Fixed tickets | N/A\n| License       | MIT\n| Doc PR        | N/A\n\n`$dataClass` constructor argument of `FormConfigBuilder` obviously allows `null` as its value and it even has a `?string` typehint in `master` branch, so this fixes the PHPDoc typehint to match.\n\nCommits\n-------\n\n9854a26981 [Form] Fix PHPDoc for FormConfigBuilder $dataClass argument",
+                                "authoredDate": "2018-07-15T07:24:14Z",
                                 "author": {
-                                    "name": "Nicolas Grekas",
-                                    "email": "nicolas.grekas@gmail.com",
-                                    "date": "2018-05-01T22:52:40Z",
+                                    "name": "Fabien Potencier",
+                                    "email": "fabien@potencier.org",
+                                    "date": "2018-07-15T09:24:14+02:00",
                                     "user": {
-                                        "id": "MDQ6VXNlcjI0MzY3NA==",
-                                        "login": "nicolas-grekas",
-                                        "name": "Nicolas Grekas",
+                                        "id": "MDQ6VXNlcjQ3MzEz",
+                                        "login": "fabpot",
+                                        "name": "Fabien Potencier",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/243674?v=4",
-                                        "url": "https://github.com/nicolas-grekas",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
-                                    "name": "Nicolas Grekas",
-                                    "email": "nicolas.grekas@gmail.com",
-                                    "date": "2018-05-01T15:52:40-07:00",
+                                    "name": "Fabien Potencier",
+                                    "email": "fabien@potencier.org",
+                                    "date": "2018-07-15T09:24:14+02:00",
                                     "user": {
-                                        "id": "MDQ6VXNlcjI0MzY3NA==",
-                                        "login": "nicolas-grekas",
-                                        "name": "Nicolas Grekas",
+                                        "id": "MDQ6VXNlcjQ3MzEz",
+                                        "login": "fabpot",
+                                        "name": "Fabien Potencier",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/243674?v=4",
-                                        "url": "https://github.com/nicolas-grekas",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "d4d1f3e223b6d09e47e9fc6ccf06792bad58a838",
-                                    "commitUrl": "https://github.com/symfony/symfony/commit/d4d1f3e223b6d09e47e9fc6ccf06792bad58a838",
-                                    "commitResourcePath": "/symfony/symfony/commit/d4d1f3e223b6d09e47e9fc6ccf06792bad58a838"
+                                    "oid": "97656109135c9711136d986e8cd30375263a4667"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "6dcdb58dafa5dadffee2363c8e084e0aaf100a5a",
-                                                "url": "https://github.com/symfony/symfony/commit/6dcdb58dafa5dadffee2363c8e084e0aaf100a5a",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/6dcdb58dafa5dadffee2363c8e084e0aaf100a5a"
+                                                "oid": "091f9ff386ddd3a3a4cdc2c9873a66458a3a548e"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "046f0920c08c6777df97be296bf5e0efbb08aa82",
-                                                "url": "https://github.com/symfony/symfony/commit/046f0920c08c6777df97be296bf5e0efbb08aa82",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/046f0920c08c6777df97be296bf5e0efbb08aa82"
+                                                "oid": "9854a269813a0ab2a7dc13a3cb7a5bb3e487c956"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU4MDU4OjMuMA==",
                             "name": "3.0",
                             "target": {
                                 "oid": "5478a9d20d181e8d5a0ef532906e67b6d4d7bd79",
@@ -546,14 +492,13 @@
                                 "author": {
                                     "name": "Fabien Potencier",
                                     "email": "fabien.potencier@gmail.com",
-                                    "date": "2016-07-30T09:29:03Z",
+                                    "date": "2016-07-30T05:29:03-04:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjQ3MzEz",
                                         "login": "fabpot",
                                         "name": "Fabien Potencier",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -567,32 +512,27 @@
                                         "name": "Fabien Potencier",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "010f95521f3156c14f672e68bea85bb1b6952aa4",
-                                    "commitUrl": "https://github.com/symfony/symfony/commit/010f95521f3156c14f672e68bea85bb1b6952aa4",
-                                    "commitResourcePath": "/symfony/symfony/commit/010f95521f3156c14f672e68bea85bb1b6952aa4"
+                                    "oid": "010f95521f3156c14f672e68bea85bb1b6952aa4"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "634fb8c018532c820debd2678e452a735b9f438e",
-                                                "url": "https://github.com/symfony/symfony/commit/634fb8c018532c820debd2678e452a735b9f438e",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/634fb8c018532c820debd2678e452a735b9f438e"
+                                                "oid": "634fb8c018532c820debd2678e452a735b9f438e"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU4MDU4OjMuMQ==",
                             "name": "3.1",
                             "target": {
                                 "oid": "96e7dede3ddc9e3b3392f5cc93e26eca77545a89",
@@ -601,14 +541,13 @@
                                 "author": {
                                     "name": "Fabien Potencier",
                                     "email": "fabien.potencier@gmail.com",
-                                    "date": "2017-01-28T02:53:38Z",
+                                    "date": "2017-01-27T18:53:38-08:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjQ3MzEz",
                                         "login": "fabpot",
                                         "name": "Fabien Potencier",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -619,34 +558,28 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "7ccb6576014cb9d22b74c3ce9dd29997fb669939",
-                                    "commitUrl": "https://github.com/symfony/symfony/commit/7ccb6576014cb9d22b74c3ce9dd29997fb669939",
-                                    "commitResourcePath": "/symfony/symfony/commit/7ccb6576014cb9d22b74c3ce9dd29997fb669939"
+                                    "oid": "7ccb6576014cb9d22b74c3ce9dd29997fb669939"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "dba3e75fb283e02ca4c0f8dae9c740d7c3b224ee",
-                                                "url": "https://github.com/symfony/symfony/commit/dba3e75fb283e02ca4c0f8dae9c740d7c3b224ee",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/dba3e75fb283e02ca4c0f8dae9c740d7c3b224ee"
+                                                "oid": "dba3e75fb283e02ca4c0f8dae9c740d7c3b224ee"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "3b108a146b50e136cb9191c6b22b933d8379c833",
-                                                "url": "https://github.com/symfony/symfony/commit/3b108a146b50e136cb9191c6b22b933d8379c833",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/3b108a146b50e136cb9191c6b22b933d8379c833"
+                                                "oid": "3b108a146b50e136cb9191c6b22b933d8379c833"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU4MDU4OjMuMg==",
                             "name": "3.2",
                             "target": {
                                 "oid": "fc9f9470e81e6fb59bd826d8040b961f7ed30f94",
@@ -655,14 +588,13 @@
                                 "author": {
                                     "name": "Fabien Potencier",
                                     "email": "fabien@potencier.org",
-                                    "date": "2017-11-16T18:00:05Z",
+                                    "date": "2017-11-16T19:00:05+01:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjQ3MzEz",
                                         "login": "fabpot",
                                         "name": "Fabien Potencier",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -673,269 +605,318 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "7b28867b0291322f06eeaa92f12c0e5e74d4f3ee",
-                                    "commitUrl": "https://github.com/symfony/symfony/commit/7b28867b0291322f06eeaa92f12c0e5e74d4f3ee",
-                                    "commitResourcePath": "/symfony/symfony/commit/7b28867b0291322f06eeaa92f12c0e5e74d4f3ee"
+                                    "oid": "7b28867b0291322f06eeaa92f12c0e5e74d4f3ee"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "611c272f2ab9b85fb17827ec274b57739243e0ff",
-                                                "url": "https://github.com/symfony/symfony/commit/611c272f2ab9b85fb17827ec274b57739243e0ff",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/611c272f2ab9b85fb17827ec274b57739243e0ff"
+                                                "oid": "611c272f2ab9b85fb17827ec274b57739243e0ff"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "48b0d9b9e4e30390f25d4384caf1aadc15ccbe0b",
-                                                "url": "https://github.com/symfony/symfony/commit/48b0d9b9e4e30390f25d4384caf1aadc15ccbe0b",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/48b0d9b9e4e30390f25d4384caf1aadc15ccbe0b"
+                                                "oid": "48b0d9b9e4e30390f25d4384caf1aadc15ccbe0b"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 7b28867b0291322f06eeaa92f12c0e5e74d4f3ee\nparent 611c272f2ab9b85fb17827ec274b57739243e0ff\nparent 48b0d9b9e4e30390f25d4384caf1aadc15ccbe0b\nauthor Fabien Potencier <fabien@potencier.org> 1510855205 +0100\ncommitter GitHub <noreply@github.com> 1510855205 +0100\n\nMerge pull request #25001 from fabpot/release-3.2.14\n\nreleased v3.2.14",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJaDdIlCRBK7hj4Ov3rIwAAdHIIADs6Zm1+ZIFZPpKwKdYxpNls\nVql96cMn6/ZmjUWCtp0RJWhifdLW5TsbpSOoZUctKE8VynevWOxf25eAZIHX+ha/\n9yEupCXVtwUWemppqmtI4tf74C2/pm3EiT4j+dCNIJgLIRTcWsYwZk2uWcbKS/37\nJUonUSCVRc0ik9TyS7KPWv93j/NzCuBGmhRNyv/il0XgM1GaVWMsVDvimQ0DYcU/\nRSOyoPWjgf0xyZ+5lOYkFc/nXWUQ3Wf5sTtd3tni4sMhya2ZC3Mpc0ddNJ9qYhKK\nofvhVc6WAPx/sxHJA59hnVon4NDypmiCRSUuVBJpj71aCpmtaqmg1Y8LaubBswg=\n=AMNE\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU4MDU4OjMuMw==",
                             "name": "3.3",
                             "target": {
-                                "oid": "b66afe62e86dc2d50092489ea557daee1e6d723f",
-                                "message": "bumped Symfony version to 3.3.17",
-                                "authoredDate": "2018-01-29T12:23:39Z",
+                                "oid": "4639525c796227ec36652ad97192a5eb3de74f76",
+                                "message": "Merge pull request #27377 from fabpot/release-3.3.17\n\nreleased v3.3.17",
+                                "authoredDate": "2018-05-25T12:43:13Z",
                                 "author": {
                                     "name": "Fabien Potencier",
-                                    "email": "fabien.potencier@gmail.com",
-                                    "date": "2018-01-29T12:23:39Z",
+                                    "email": "fabien@potencier.org",
+                                    "date": "2018-05-25T14:43:13+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjQ3MzEz",
                                         "login": "fabpot",
                                         "name": "Fabien Potencier",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
-                                    "name": "Fabien Potencier",
-                                    "email": "fabien.potencier@gmail.com",
-                                    "date": "2018-01-29T13:23:39+01:00",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjQ3MzEz",
-                                        "login": "fabpot",
-                                        "name": "Fabien Potencier",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
-                                        "url": "https://github.com/fabpot",
-                                        "isSiteAdmin": false
-                                    }
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-05-25T14:43:13+02:00",
+                                    "user": null
                                 },
                                 "tree": {
-                                    "oid": "673ab0c44620cb5db59842f095ac9ef4ff61fda4",
-                                    "commitUrl": "https://github.com/symfony/symfony/commit/673ab0c44620cb5db59842f095ac9ef4ff61fda4",
-                                    "commitResourcePath": "/symfony/symfony/commit/673ab0c44620cb5db59842f095ac9ef4ff61fda4"
+                                    "oid": "390272fb44a3da43402433df990ae788ae8221a9"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "98e128ccee7afff6313dc3e9cce619f6e1caedbc",
-                                                "url": "https://github.com/symfony/symfony/commit/98e128ccee7afff6313dc3e9cce619f6e1caedbc",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/98e128ccee7afff6313dc3e9cce619f6e1caedbc"
+                                                "oid": "ea4121ae55187808843ad612766614ef22c8388f"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "b8082cb94aeffd7de5333643e01784547e8d5cdb"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 390272fb44a3da43402433df990ae788ae8221a9\nparent ea4121ae55187808843ad612766614ef22c8388f\nparent b8082cb94aeffd7de5333643e01784547e8d5cdb\nauthor Fabien Potencier <fabien@potencier.org> 1527252193 +0200\ncommitter GitHub <noreply@github.com> 1527252193 +0200\n\nMerge pull request #27377 from fabpot/release-3.3.17\n\nreleased v3.3.17",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbCAThCRBK7hj4Ov3rIwAAdHIIAGN7whNPwy/bK1WbuFom86kg\nkZFW/dcwrX8Hprh2L1CEGzolbSAAtqY+UXuIfxzJSXY4K780EwRLtlpPc0QW4XZK\n6AB1/tErXjeHH2+X/jm8zx8QMQ8Xd7IBMO5VKYqtc0FMfnROJ9GgVlcRBRKAsekT\nUBehG/A9zcSdaTC4oCEoN3H8WnQQOcxxjA7GjAaH4dt4GVSSv9FTfEuROW8pqMyZ\n3Rk3/eegHUOpPwA//nr1j5B/p4CznTXkYDyUO6Sucmq+90IghYH9/Z5HU6fwPA55\nDaer7+K7Cgw0f/cTMCqvuW83FNnD1JTBwlXT+LblbOSlMDvdozdcO6K75zOBZpQ=\n=xst3\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU4MDU4OjMuNA==",
                             "name": "3.4",
                             "target": {
-                                "oid": "5aaa0d72c24c9a5434de8afe19f4a7ce6ce9d333",
-                                "message": "bug #27158 [Cache] fix logic for fetching tag versions on TagAwareAdapter (dmaicher)\n\nThis PR was squashed before being merged into the 3.4 branch (closes #27158).\n\nDiscussion\n----------\n\n[Cache] fix logic for fetching tag versions on TagAwareAdapter\n\n| Q             | A\n| ------------- | ---\n| Branch?       | 3.4\n| Bug fix?      | yes\n| New feature?  | no\n| BC breaks?    | no\n| Deprecations? | no\n| Tests pass?   | yes\n| Fixed tickets | #27147\n| License       | MIT\n| Doc PR        | -\n\nThere was a problem introduced in https://github.com/symfony/symfony/pull/27007 which breaks tag invalidation.\n\nFrom what I can see there were some cases when the actual tag versions were never fetched from the tags pool and version=0 was used.\n\n@nicolas-grekas this is my attempt of understanding the logic within `TagAwareAdapter`. Please have a look if this makes sense to you :wink:\n\nCommits\n-------\n\nd3790cadcd [Cache] fix logic for fetching tag versions on TagAwareAdapter",
-                                "authoredDate": "2018-05-05T02:07:18Z",
+                                "oid": "44ce4dd62536037f9cea4db0146541b4ab867d34",
+                                "message": "bug #27923 [Form/Profiler] Massively reducing memory footprint of form profiling pages... (VincentChalnot)\n\nThis PR was merged into the 3.4 branch.\n\nDiscussion\n----------\n\n[Form/Profiler] Massively reducing memory footprint of form profiling pages...\n\n\u2026 by removing redundant 'form' variable from view variables.\n\n| Q             | A\n| ------------- | ---\n| Branch?       | 3.4\n| Bug fix?      | yes\n| New feature?  | no\n| BC breaks?    | no\n| Deprecations? | no\n| Tests pass?   | yes\n| Fixed tickets |\n| License       | MIT\n| Doc PR        |\n\n## Problem\nWhen trying to profile large forms in web profiler, the page can get so big that the memory footprint of the web browser excedes 1Gb making everything unusable and sometimes crashing the browser.\n\nThis is especially true for \"deep\" forms as every node of the form also contains its children in the debugging infos.\n\n## Solution\nWhen removing the \"form\" view variable that actually contains duplicated contents of everything already displayed in the page, the memory footprint massively decrease making the page usable again even form very complex and deep forms.\n\nBy using CutStub, we keep a necessary level of information by providing the information that the variable is indeed here but not directly accessible in the dump.\n\nCommits\n-------\n\n5f5077f4fc [Form/Profiler] Massively reducing memory footprint of form profiling pages by removing redundant 'form' variable from view variables.",
+                                "authoredDate": "2018-07-12T06:05:38Z",
                                 "author": {
-                                    "name": "Nicolas Grekas",
-                                    "email": "nicolas.grekas@gmail.com",
-                                    "date": "2018-05-05T02:07:18Z",
+                                    "name": "Fabien Potencier",
+                                    "email": "fabien@potencier.org",
+                                    "date": "2018-07-12T08:05:38+02:00",
                                     "user": {
-                                        "id": "MDQ6VXNlcjI0MzY3NA==",
-                                        "login": "nicolas-grekas",
-                                        "name": "Nicolas Grekas",
+                                        "id": "MDQ6VXNlcjQ3MzEz",
+                                        "login": "fabpot",
+                                        "name": "Fabien Potencier",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/243674?v=4",
-                                        "url": "https://github.com/nicolas-grekas",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
-                                    "name": "Nicolas Grekas",
-                                    "email": "nicolas.grekas@gmail.com",
-                                    "date": "2018-05-04T19:07:18-07:00",
+                                    "name": "Fabien Potencier",
+                                    "email": "fabien@potencier.org",
+                                    "date": "2018-07-12T08:05:38+02:00",
                                     "user": {
-                                        "id": "MDQ6VXNlcjI0MzY3NA==",
-                                        "login": "nicolas-grekas",
-                                        "name": "Nicolas Grekas",
+                                        "id": "MDQ6VXNlcjQ3MzEz",
+                                        "login": "fabpot",
+                                        "name": "Fabien Potencier",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/243674?v=4",
-                                        "url": "https://github.com/nicolas-grekas",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "cd4a4111a23615b0c297feb56f06141b62ec6ef0",
-                                    "commitUrl": "https://github.com/symfony/symfony/commit/cd4a4111a23615b0c297feb56f06141b62ec6ef0",
-                                    "commitResourcePath": "/symfony/symfony/commit/cd4a4111a23615b0c297feb56f06141b62ec6ef0"
+                                    "oid": "e8a9e36f2e244389bb163901aacdbc3569120e35"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "278f40f48d3eaa9f963000e238e94ae4554a62ba",
-                                                "url": "https://github.com/symfony/symfony/commit/278f40f48d3eaa9f963000e238e94ae4554a62ba",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/278f40f48d3eaa9f963000e238e94ae4554a62ba"
+                                                "oid": "137753db66b21728766ba3ae8be9ed8cd4b50b5b"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "d3790cadcd35d952815826144e2d7092dd0a6add",
-                                                "url": "https://github.com/symfony/symfony/commit/d3790cadcd35d952815826144e2d7092dd0a6add",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/d3790cadcd35d952815826144e2d7092dd0a6add"
+                                                "oid": "5f5077f4fceb69347bfca62e2a7723e45b6a55d0"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU4MDU4OjQuMA==",
                             "name": "4.0",
                             "target": {
-                                "oid": "ec6c28bf1ac53be67145359b9b84aa934fc0b35c",
-                                "message": "minor #27156 [FrameworkBundle] Remove dead code (chalasr)\n\nThis PR was merged into the 4.0 branch.\n\nDiscussion\n----------\n\n[FrameworkBundle] Remove dead code\n\n| Q             | A\n| ------------- | ---\n| Branch?       | 4.0\n| Bug fix?      | no\n| New feature?  | no\n| BC breaks?    | no\n| Deprecations? | no\n| Tests pass?   | yes\n| Fixed tickets | n/a\n| License       | MIT\n| Doc PR        | n/a\n\nCommits\n-------\n\n29b3e31382 [FrameworkBundle] Remove dead code",
-                                "authoredDate": "2018-05-04T17:26:48Z",
+                                "oid": "dd16e10a7b724db0f92d0efb189975e321dca239",
+                                "message": "Merge branch '3.4' into 4.0\n\n* 3.4:\n  [Filesystem] fix lock file mode\n  [Console] fix typo in phpdoc",
+                                "authoredDate": "2018-07-09T13:26:23Z",
                                 "author": {
                                     "name": "Nicolas Grekas",
                                     "email": "nicolas.grekas@gmail.com",
-                                    "date": "2018-05-04T17:26:48Z",
+                                    "date": "2018-07-09T15:26:23+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjI0MzY3NA==",
                                         "login": "nicolas-grekas",
                                         "name": "Nicolas Grekas",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/243674?v=4",
-                                        "url": "https://github.com/nicolas-grekas",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
                                     "name": "Nicolas Grekas",
                                     "email": "nicolas.grekas@gmail.com",
-                                    "date": "2018-05-04T10:26:48-07:00",
+                                    "date": "2018-07-09T15:26:23+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjI0MzY3NA==",
                                         "login": "nicolas-grekas",
                                         "name": "Nicolas Grekas",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/243674?v=4",
-                                        "url": "https://github.com/nicolas-grekas",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "bf34eb9d4c392f8b9a603cd9d047ae183223f372",
-                                    "commitUrl": "https://github.com/symfony/symfony/commit/bf34eb9d4c392f8b9a603cd9d047ae183223f372",
-                                    "commitResourcePath": "/symfony/symfony/commit/bf34eb9d4c392f8b9a603cd9d047ae183223f372"
+                                    "oid": "3fc663b74c0691f12622ea8adbf029c9adfdd0b6"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "a488d555ffe191ac249a2effd7ce464bbca4e94c",
-                                                "url": "https://github.com/symfony/symfony/commit/a488d555ffe191ac249a2effd7ce464bbca4e94c",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/a488d555ffe191ac249a2effd7ce464bbca4e94c"
+                                                "oid": "72141443ade693cc2d6a6f180659768df20a05b8"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "29b3e31382ee75d112eae8f8fefd09fa71e716ca",
-                                                "url": "https://github.com/symfony/symfony/commit/29b3e31382ee75d112eae8f8fefd09fa71e716ca",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/29b3e31382ee75d112eae8f8fefd09fa71e716ca"
+                                                "oid": "08b7874a08666ec50d62a13fc740471ae5b95d77"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmNDU4MDU4Om1hc3Rlcg==",
-                            "name": "master",
+                            "name": "4.1",
                             "target": {
-                                "oid": "bad56805a8b7db122fbbc3caa6e4b0cc0312ced9",
-                                "message": "minor #27163 [Messenger] Rename TolerateNoHandler to AllowNoHandlerMiddleware (nicolas-grekas)\n\nThis PR was merged into the 4.1-dev branch.\n\nDiscussion\n----------\n\n[Messenger] Rename TolerateNoHandler to AllowNoHandlerMiddleware\n\n| Q             | A\n| ------------- | ---\n| Branch?       | master\n| Bug fix?      | no\n| New feature?  | no\n| BC breaks?    | no\n| Deprecations? | no\n| Tests pass?   | yes\n| Fixed tickets | -\n| License       | MIT\n| Doc PR        | -\n\nI was surprised by the word \"tolerate\", and by the missing \"middleware\" suffix.\nThis way would be less surprizing I believe.\n\nCommits\n-------\n\n5434780d58 [Messenger] Rename TolerateNoHandler to AllowNoHandlerMiddleware",
-                                "authoredDate": "2018-05-06T13:54:05Z",
+                                "oid": "25df3e32cb7ba6a4f4f956aeb732ccdb619dea80",
+                                "message": "bug #27919 [Form] Improve rendering of `file` field in bootstrap 4 (apfelbox)\n\nThis PR was squashed before being merged into the 4.1 branch (closes #27919).\n\nDiscussion\n----------\n\n[Form] Improve rendering of `file` field in bootstrap 4\n\n| Q             | A\n| ------------- | ---\n| Branch?       | 4.1+\n| Bug fix?      | yes\n| New feature?  | no\n| BC breaks?    | no\n| Deprecations? | no\n| Tests pass?   | yes\n| Fixed tickets | \u2014\n| License       | MIT\n| Doc PR        | \u2014\n\nHi \ud83d\udc4b\n\ncurrently adding a file type to a form looks weird in the bootstrap 4 form themes:\n\n```php\n$builder\n    ->add(\"pdfFile\", FileType::class, [\n        \"label\" => \"PDF\",\n    ]);\n```\n\n## Before\n\n### Vertical Form\n\n![2018-07-10 at 21 36](https://user-images.githubusercontent.com/1032411/42533175-6b88e33a-8489-11e8-927a-8e987f362913.png)\n\n### Horizontal Form\n\n![2018-07-10 at 21 37](https://user-images.githubusercontent.com/1032411/42533197-7d45944c-8489-11e8-970f-79b18a273366.png)\n\n## After\n\n### Vertical Form\n\n![2018-07-10 at 21 38](https://user-images.githubusercontent.com/1032411/42533229-8ebe44a8-8489-11e8-94e0-891403063476.png)\n\n### Horizontal Form\n\n![2018-07-10 at 21 38](https://user-images.githubusercontent.com/1032411/42533247-99782db4-8489-11e8-9f66-30a5dccdaa9d.png)\n\n## Things to consider\n\nThere are three labels here:\n\n![2018-07-10 at 21 40](https://user-images.githubusercontent.com/1032411/42533370-ecbaf63c-8489-11e8-9be8-1c8c3342c459.png)\n\n1) the actual field label. Here the `$options[\"label\"]` is used.\n2) the placeholder. Here `$options[\"attr\"][\"placeholder\"] ?? \"\"` is used **new**\n3) the label on the button. This is set in CSS actually, on an `::after` attribute.\n\nThere isn't much we can do about 3) because there is no inline HTML-way to overwrite the style of a pseudo element. So if the app developer wants to have localization in this field as well, (s)he has to set it in their CSS file [as described in the bootstrap docs](https://getbootstrap.com/docs/4.0/components/forms/#file-browser)\n\n## Todo\n\n- [x] ~~WIP because I haven't managed to get the test suite to run locally yet, so we will debug with Travis \ud83d\ude4c~~\u00a0 okay, getting them to work is really, really easy, but you just have to get over yourself and do it \ud83d\ude44\n\nCommits\n-------\n\n32ad5d9f9c [Form] Improve rendering of `file` field in bootstrap 4",
+                                "authoredDate": "2018-07-15T07:26:40Z",
                                 "author": {
-                                    "name": "Samuel ROZE",
-                                    "email": "samuel.roze@gmail.com",
-                                    "date": "2018-05-06T13:54:05Z",
+                                    "name": "Fabien Potencier",
+                                    "email": "fabien@potencier.org",
+                                    "date": "2018-07-15T09:26:40+02:00",
                                     "user": {
-                                        "id": "MDQ6VXNlcjgwNDYyNQ==",
-                                        "login": "sroze",
-                                        "name": "Samuel ROZE",
+                                        "id": "MDQ6VXNlcjQ3MzEz",
+                                        "login": "fabpot",
+                                        "name": "Fabien Potencier",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/804625?v=4",
-                                        "url": "https://github.com/sroze",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
-                                    "name": "Samuel ROZE",
-                                    "email": "samuel.roze@gmail.com",
-                                    "date": "2018-05-06T14:54:05+01:00",
+                                    "name": "Fabien Potencier",
+                                    "email": "fabien@potencier.org",
+                                    "date": "2018-07-15T09:26:40+02:00",
                                     "user": {
-                                        "id": "MDQ6VXNlcjgwNDYyNQ==",
-                                        "login": "sroze",
-                                        "name": "Samuel ROZE",
+                                        "id": "MDQ6VXNlcjQ3MzEz",
+                                        "login": "fabpot",
+                                        "name": "Fabien Potencier",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/804625?v=4",
-                                        "url": "https://github.com/sroze",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "369ee4c425624ab198654b84bdd4b5b1ff9f8229",
-                                    "commitUrl": "https://github.com/symfony/symfony/commit/369ee4c425624ab198654b84bdd4b5b1ff9f8229",
-                                    "commitResourcePath": "/symfony/symfony/commit/369ee4c425624ab198654b84bdd4b5b1ff9f8229"
+                                    "oid": "9d4f62f0bac63ef2bc5d355c3407cec917eb313f"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "cada38f520784cc3f248874ad268e76fc99ba8d9",
-                                                "url": "https://github.com/symfony/symfony/commit/cada38f520784cc3f248874ad268e76fc99ba8d9",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/cada38f520784cc3f248874ad268e76fc99ba8d9"
+                                                "oid": "10f7dcc5dccb0d8c23d539ac0ecd5c8a80e4f1ee"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "5434780d5854f7b346ae39404fcd790ff1c82e19",
-                                                "url": "https://github.com/symfony/symfony/commit/5434780d5854f7b346ae39404fcd790ff1c82e19",
-                                                "commitUrl": "https://github.com/symfony/symfony/commit/5434780d5854f7b346ae39404fcd790ff1c82e19"
+                                                "oid": "32ad5d9f9cdbc8f175953981ba7df08caf2c07b1"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "master",
+                            "target": {
+                                "oid": "eb112a5288cbee6d0125c08cf87bbcb2fa16285d",
+                                "message": "feature #27829 [DoctrineBridge] Inject the entity manager instead of the class metadata factory in DoctrineExtractor (dunglas)\n\nThis PR was squashed before being merged into the 4.2-dev branch (closes #27829).\n\nDiscussion\n----------\n\n[DoctrineBridge] Inject the entity manager instead of the class metadata factory in DoctrineExtractor\n\n| Q             | A\n| ------------- | ---\n| Branch?       | master\n| Bug fix?      | no\n| New feature?  |no <!-- don't forget to update src/**/CHANGELOG.md files -->\n| BC breaks?    | no     <!-- see https://symfony.com/bc -->\n| Deprecations? | yes <!-- don't forget to update UPGRADE-*.md and src/**/CHANGELOG.md files -->\n| Tests pass?   | yes    <!-- please add some, will be required by reviewers -->\n| Fixed tickets | n/a   <!-- #-prefixed issue number(s), if any -->\n| License       | MIT\n| Doc PR        | n/a\n\nAs explained by @stof in https://github.com/symfony/symfony/pull/27735#discussion_r199797412, injecting the `ClassMetadataFactory` directly can lead to issues when resetting the EntityManager.\n\nThis PR deprecates this usage and encourages to inject the entity manager directly.\n\nCommits\n-------\n\n3aab4a1270 [DoctrineBridge] Inject the entity manager instead of the class metadata factory in DoctrineExtractor",
+                                "authoredDate": "2018-07-13T20:22:21Z",
+                                "author": {
+                                    "name": "Fabien Potencier",
+                                    "email": "fabien@potencier.org",
+                                    "date": "2018-07-13T22:22:21+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ3MzEz",
+                                        "login": "fabpot",
+                                        "name": "Fabien Potencier",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Fabien Potencier",
+                                    "email": "fabien@potencier.org",
+                                    "date": "2018-07-13T22:22:21+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjQ3MzEz",
+                                        "login": "fabpot",
+                                        "name": "Fabien Potencier",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/47313?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "47b499b15875c70aa9322e6862c2105b56be5923"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "e37914690930818c17f487bd1704d8a24b1e9a2a"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "3aab4a12709d5bd827cebffe970f712226f22ca9"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
                             }
                         }
                     }

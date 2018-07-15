@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnk0NTgwNTg=",
             "name": "symfony",
             "labels": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Y3Vyc29yOnYyOpHONVBgpg=="
+                },
                 "edges": [
                     {
                         "node": {
