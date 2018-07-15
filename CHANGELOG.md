@@ -1,5 +1,13 @@
 CHANGELOG
 
+Version 1.5.0 [2018-07-15]:
+
+ - If there is no info about status creator, create ghost
+ - Update test data  (wp/gutenberg has more than 100 branches)
+ - If there are more branch statuses to fetch, StatusApi should handle it internally #67
+ - If there are more branches to fetch, BranchApi should handle it internally #67
+
+
 Version 1.4.1 [2018-07-15]:
 
  - Update test data from 3rd party repos (mostly without PRs :( )
