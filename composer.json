@@ -21,14 +21,14 @@
         "webmozart/assert": "^1.2"
     },
     "require-dev": {
-        "ciaranmcnulty/phpspec-typehintedmethods": "^3.0",
+        "ciaranmcnulty/phpspec-typehintedmethods": "^4.0",
         "devboard/thesting-data-source": "^1.1",
         "friendsofphp/php-cs-fixer": "dev-long-line-fixers2",
         "infection/infection": "^0.9@dev",
         "mockery/mockery": "^1.0",
         "phing/phing": "^2.16",
         "phpmd/phpmd": "^2.6",
-        "phpspec/phpspec": "^4.2",
+        "phpspec/phpspec": "^5.0",
         "phpstan/phpstan": "^0.10.0",
         "phpstan/phpstan-phpunit": "^0.10.0",
         "phpunit/phpunit": "^7.0",
