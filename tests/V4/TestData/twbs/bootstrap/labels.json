@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnkyMTI2MjQ0",
             "name": "bootstrap",
             "labels": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Y3Vyc29yOnYyOpHONVc5ng=="
+                },
                 "edges": [
                     {
                         "node": {

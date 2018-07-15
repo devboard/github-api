@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnkyMTI2MjQ0",
             "name": "bootstrap",
             "milestones": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Y3Vyc29yOnYyOpHOACGrJg=="
+                },
                 "edges": [
                     {
                         "node": {
@@ -728,7 +732,7 @@
                             },
                             "closedAt": null,
                             "createdAt": "2016-05-12T18:32:09Z",
-                            "updatedAt": "2018-04-02T10:45:00Z"
+                            "updatedAt": "2018-07-08T06:47:26Z"
                         }
                     },
                     {

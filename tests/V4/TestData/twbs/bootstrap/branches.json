@@ -1,13 +1,14 @@
 {
     "data": {
         "repository": {
-            "id": "MDEwOlJlcG9zaXRvcnkyMTI2MjQ0",
-            "name": "bootstrap",
             "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "MzM="
+                },
                 "edges": [
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDphZGQtanMtaGVscGVycw==",
                             "name": "add-js-helpers",
                             "target": {
                                 "oid": "3460baa0b88a2091f9b796cad57a97f850f61245",
@@ -16,14 +17,13 @@
                                 "author": {
                                     "name": "Troy Morehouse",
                                     "email": "troymore@nbnet.nb.ca",
-                                    "date": "2017-11-16T09:36:53Z",
+                                    "date": "2017-11-16T05:36:53-04:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjI3ODE1NjE=",
                                         "login": "tmorehouse",
                                         "name": "Troy Morehouse",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/2781561?v=4",
-                                        "url": "https://github.com/tmorehouse",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -37,32 +37,85 @@
                                         "name": "Johann-S",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/1689750?v=4",
-                                        "url": "https://github.com/Johann-S",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "aa1f260398836e24f674a1477130f04e1e232c4c",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/aa1f260398836e24f674a1477130f04e1e232c4c",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/aa1f260398836e24f674a1477130f04e1e232c4c"
+                                    "oid": "aa1f260398836e24f674a1477130f04e1e232c4c"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "0ff71243eafdae8f60d3c8efdbb8871e80b110ee",
-                                                "url": "https://github.com/twbs/bootstrap/commit/0ff71243eafdae8f60d3c8efdbb8871e80b110ee",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/0ff71243eafdae8f60d3c8efdbb8871e80b110ee"
+                                                "oid": "0ff71243eafdae8f60d3c8efdbb8871e80b110ee"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "andresgalante-dismissable-badges",
+                            "target": {
+                                "oid": "d5f7b47b27d2a2890434b4b8784b104add0624ee",
+                                "message": "Swap button in an anchor with span\n\nButtons nested within anchors are not valid",
+                                "authoredDate": "2018-07-08T23:19:48Z",
+                                "author": {
+                                    "name": "Mark Otto",
+                                    "email": "otto@github.com",
+                                    "date": "2018-07-08T16:19:48-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjk4Njgx",
+                                        "login": "mdo",
+                                        "name": "Mark Otto",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
+                                        "isSiteAdmin": true
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-07-08T16:19:48-07:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "bfd1edf336bd105e8d479abc2e2bfea79e9f1336"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "3a87d25bbc54263fed82046e5ca86e578dd3c3ac"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree bfd1edf336bd105e8d479abc2e2bfea79e9f1336\nparent 3a87d25bbc54263fed82046e5ca86e578dd3c3ac\nauthor Mark Otto <otto@github.com> 1531091988 -0700\ncommitter GitHub <noreply@github.com> 1531091988 -0700\n\nSwap button in an anchor with span\n\nButtons nested within anchors are not valid",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbQpwUCRBK7hj4Ov3rIwAAdHIIAKELdbRWph1iQdXTMMXqA+Ga\nxb+I4JyhAZMLZ1EH+oNSTYyJ9+mpUSbmMghQ8LKyx4mLXWmIcIzkNq8bnIkIa9Lh\nZnQOjiupns8oPasRgNIrpr5U1z3JgNCkI4gEZFVD2aeTaFV3IQDyUV9p/r+JR57k\niFII6zeM1mSvOM4a8Ysxlz+48VQWurP0PVPf4Y4EdJZsqP6zhUOgmmptk1E1ek9H\nAYLmABw/BEc891oMq/uJWr5TPyH+jP1WC9sZEsrfG3jNVgX/Hv1ZADREZ4+dSLBy\n+W4us94k3BqkxRHYEuLwpAliUSTH75SAQGxQui9hXhSyGt93ISgGkiKDrBUui34=\n=C95Q\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDpib29tLXRvYXN0ZWQ=",
                             "name": "boom-toasted",
                             "target": {
                                 "oid": "eb42acf10f6bc86961845446e9629a75378a317f",
@@ -71,14 +124,13 @@
                                 "author": {
                                     "name": "Mark Otto",
                                     "email": "markdotto@gmail.com",
-                                    "date": "2018-04-08T20:23:53Z",
+                                    "date": "2018-04-08T13:23:53-07:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjk4Njgx",
                                         "login": "mdo",
                                         "name": "Mark Otto",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
-                                        "url": "https://github.com/mdo",
                                         "isSiteAdmin": true
                                     }
                                 },
@@ -92,87 +144,27 @@
                                         "name": "Mark Otto",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
-                                        "url": "https://github.com/mdo",
                                         "isSiteAdmin": true
                                     }
                                 },
                                 "tree": {
-                                    "oid": "e3add08d6a7e3729f0c17ddc05117f38c13f6b05",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/e3add08d6a7e3729f0c17ddc05117f38c13f6b05",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/e3add08d6a7e3729f0c17ddc05117f38c13f6b05"
+                                    "oid": "e3add08d6a7e3729f0c17ddc05117f38c13f6b05"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "7dd67073fa0c24b331934c31786a7e7120fb188d",
-                                                "url": "https://github.com/twbs/bootstrap/commit/7dd67073fa0c24b331934c31786a7e7120fb188d",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/7dd67073fa0c24b331934c31786a7e7120fb188d"
+                                                "oid": "7dd67073fa0c24b331934c31786a7e7120fb188d"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDpleHRlbmQtZG9jcw==",
-                            "name": "extend-docs",
-                            "target": {
-                                "oid": "11db52ea199213b693ac1f0255e6fac3bba5bb6b",
-                                "message": "Stub out todos for docs page on how to extend Bootstrap",
-                                "authoredDate": "2017-06-26T21:04:30Z",
-                                "author": {
-                                    "name": "Mark Otto",
-                                    "email": "markdotto@gmail.com",
-                                    "date": "2017-06-26T21:04:30Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjk4Njgx",
-                                        "login": "mdo",
-                                        "name": "Mark Otto",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
-                                        "url": "https://github.com/mdo",
-                                        "isSiteAdmin": true
-                                    }
-                                },
-                                "committer": {
-                                    "name": "Mark Otto",
-                                    "email": "markdotto@gmail.com",
-                                    "date": "2017-06-26T14:04:30-07:00",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjk4Njgx",
-                                        "login": "mdo",
-                                        "name": "Mark Otto",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
-                                        "url": "https://github.com/mdo",
-                                        "isSiteAdmin": true
-                                    }
-                                },
-                                "tree": {
-                                    "oid": "92a2fe30413ab28c8275a9c36ba11cef65934c18",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/92a2fe30413ab28c8275a9c36ba11cef65934c18",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/92a2fe30413ab28c8275a9c36ba11cef65934c18"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "0622a59897c2482a29a270d1b57956456783af3a",
-                                                "url": "https://github.com/twbs/bootstrap/commit/0622a59897c2482a29a270d1b57956456783af3a",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/0622a59897c2482a29a270d1b57956456783af3a"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDpmbGV4LWNoZWNrcw==",
                             "name": "flex-checks",
                             "target": {
                                 "oid": "1b08ea1630a987d6f56f0c99e869896485bf230b",
@@ -181,14 +173,13 @@
                                 "author": {
                                     "name": "XhmikosR",
                                     "email": "xhmikosr@gmail.com",
-                                    "date": "2018-01-03T07:40:21Z",
+                                    "date": "2018-01-03T09:40:21+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjM0OTYyMQ==",
                                         "login": "XhmikosR",
                                         "name": "",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/349621?v=4",
-                                        "url": "https://github.com/XhmikosR",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -199,89 +190,254 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "01b08ab5cba6755fd83ca173766995e31157f873",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/01b08ab5cba6755fd83ca173766995e31157f873",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/01b08ab5cba6755fd83ca173766995e31157f873"
+                                    "oid": "01b08ab5cba6755fd83ca173766995e31157f873"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "165e1737641e3c67ff8374c1fdc97c7d521e00a3",
-                                                "url": "https://github.com/twbs/bootstrap/commit/165e1737641e3c67ff8374c1fdc97c7d521e00a3",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/165e1737641e3c67ff8374c1fdc97c7d521e00a3"
+                                                "oid": "165e1737641e3c67ff8374c1fdc97c7d521e00a3"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "1cfbb8305a5c8754e7448f3061e13b999020b69e",
-                                                "url": "https://github.com/twbs/bootstrap/commit/1cfbb8305a5c8754e7448f3061e13b999020b69e",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/1cfbb8305a5c8754e7448f3061e13b999020b69e"
+                                                "oid": "1cfbb8305a5c8754e7448f3061e13b999020b69e"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 01b08ab5cba6755fd83ca173766995e31157f873\nparent 165e1737641e3c67ff8374c1fdc97c7d521e00a3\nparent 1cfbb8305a5c8754e7448f3061e13b999020b69e\nauthor XhmikosR <xhmikosr@gmail.com> 1514965221 +0200\ncommitter GitHub <noreply@github.com> 1514965221 +0200\n\nMerge branch 'v4-dev' into flex-checks",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJaTIjlCRBK7hj4Ov3rIwAAdHIIABRc3zlLSA3z8n+djd9IMN2j\ntx8uI2hDQGbgSgbhKM8c3C7BwrLH4jY2tjaFcIqiVwx78WXd+zUiWbYuWy6rhydz\n2VYi09/aGpdITRW2q6O3Rou2mjmUhmoKX80C/21F5qiHa0M43wt7cT5JW5mx8HPi\nbN8cTtOUcl/mep1mw/rMjUVliPdhwFGfKkG6jrVUWzCnHAAM/UyAmbYXNedS6prt\nrFVvaX1K/Edo7tfN1o5iCg/zT2sP2MVLtiCfGBcApqe1SGHXdm4jxHAeswkUQhIG\n6G2fqtCf7UX5K+RFhXEeu4Zn4rE4K6cNqO0vjj3iKHtLb2awHI4RYsYkiTncmx0=\n=Ktec\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDpnaC1wYWdlcw==",
-                            "name": "gh-pages",
+                            "name": "floating-labels-cursor",
                             "target": {
-                                "oid": "aac8661d74abb85ce651745529d18f56162c3c67",
-                                "message": "examples paths",
-                                "authoredDate": "2018-05-01T16:12:26Z",
+                                "oid": "4496b6cfb1d06cc450d569fc4e524d2f6d586f24",
+                                "message": "Merge branch 'v4-dev' into floating-labels-cursor",
+                                "authoredDate": "2018-07-14T21:03:19Z",
                                 "author": {
                                     "name": "Mark Otto",
                                     "email": "markdotto@gmail.com",
-                                    "date": "2018-05-01T16:12:26Z",
+                                    "date": "2018-07-14T14:03:19-07:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjk4Njgx",
                                         "login": "mdo",
                                         "name": "Mark Otto",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
-                                        "url": "https://github.com/mdo",
                                         "isSiteAdmin": true
                                     }
                                 },
                                 "committer": {
                                     "name": "Mark Otto",
                                     "email": "markdotto@gmail.com",
-                                    "date": "2018-05-01T09:12:26-07:00",
+                                    "date": "2018-07-14T14:03:19-07:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjk4Njgx",
                                         "login": "mdo",
                                         "name": "Mark Otto",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
-                                        "url": "https://github.com/mdo",
                                         "isSiteAdmin": true
                                     }
                                 },
                                 "tree": {
-                                    "oid": "81b987d6458c12443513d2f28046a19403d6e4b4",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/81b987d6458c12443513d2f28046a19403d6e4b4",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/81b987d6458c12443513d2f28046a19403d6e4b4"
+                                    "oid": "22ab63eab001c23784d86772ea814882e09a8e8b"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "e21aa20642f58b398697a30b2b5f15422ed204c7",
-                                                "url": "https://github.com/twbs/bootstrap/commit/e21aa20642f58b398697a30b2b5f15422ed204c7",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/e21aa20642f58b398697a30b2b5f15422ed204c7"
+                                                "oid": "ae2c60b35cdcf8c41b4ea9570bdf5aa2c2d351d6"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "a5d48323a2bb4600fe6d53b5a881e1386e46e9ce"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "form-validation-icons",
+                            "target": {
+                                "oid": "5495a19b5a45f0f0853e2106f5255206e25a0456",
+                                "message": "disable to fix ci",
+                                "authoredDate": "2018-07-09T01:43:40Z",
+                                "author": {
+                                    "name": "Mark Otto",
+                                    "email": "otto@github.com",
+                                    "date": "2018-07-08T18:43:40-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjk4Njgx",
+                                        "login": "mdo",
+                                        "name": "Mark Otto",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
+                                        "isSiteAdmin": true
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-07-08T18:43:40-07:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "ed5053da7384f9f9c5fcb7e8363e8d18b5818ca5"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "8d8d3ef82a954a913826861b47651059c82ac138"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree ed5053da7384f9f9c5fcb7e8363e8d18b5818ca5\nparent 8d8d3ef82a954a913826861b47651059c82ac138\nauthor Mark Otto <otto@github.com> 1531100620 -0700\ncommitter GitHub <noreply@github.com> 1531100620 -0700\n\ndisable to fix ci",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbQr3MCRBK7hj4Ov3rIwAAdHIIAKP7zRUQX/eIFqa/1IT7Cqz6\nWN01UTHyVtAetC8yZjaZE1J7sKCXy8RNpdHug0EOg2CM7GgACTbQAiRMG27ZDnB8\nZefonAiSjOtVBDNg3J8lcmVcxJEEpdfIc+ALjIPD9pIMyIvWUdpACb78T5fT4Po7\nFSGxfMBY32VAKpEh7dDdubvD1iKlt45axO2UF6EZP+TNmNBZZVZvbIKMSFVKVJgd\nArniNNx4p4iojmjfNxlYQYiOzskNE4r+zy/hMq2A3UVETSK0V7J8vTx6ohCKPOdl\nsHEgMva3/zeAp97kyIZ3scVebuVUGoFWPPi4zMqbonyS5GLz6osuWnaiegiprBg=\n=8jMm\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDpoaWdobGlnaHQtdGFwcw==",
+                            "name": "garhbod-patch-1",
+                            "target": {
+                                "oid": "b0b28c81e50bedff322b12c13707c97982b4d455",
+                                "message": "add grid docs mention",
+                                "authoredDate": "2018-07-09T01:18:13Z",
+                                "author": {
+                                    "name": "Mark Otto",
+                                    "email": "markdotto@gmail.com",
+                                    "date": "2018-07-08T18:18:13-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjk4Njgx",
+                                        "login": "mdo",
+                                        "name": "Mark Otto",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
+                                        "isSiteAdmin": true
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Mark Otto",
+                                    "email": "markdotto@gmail.com",
+                                    "date": "2018-07-08T18:18:13-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjk4Njgx",
+                                        "login": "mdo",
+                                        "name": "Mark Otto",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
+                                        "isSiteAdmin": true
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "4037f0bef0d6daa2b89fb89c7807771402f20ce1"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "7e96979ceaa97e42844112ae9649b20cf08e89d0"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "gh-pages",
+                            "target": {
+                                "oid": "1e2583427d0f4b90b02d0a45d36d9593e608fbc7",
+                                "message": "4.1.2 docs",
+                                "authoredDate": "2018-07-12T16:39:25Z",
+                                "author": {
+                                    "name": "Mark Otto",
+                                    "email": "markdotto@gmail.com",
+                                    "date": "2018-07-12T09:39:25-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjk4Njgx",
+                                        "login": "mdo",
+                                        "name": "Mark Otto",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
+                                        "isSiteAdmin": true
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Mark Otto",
+                                    "email": "markdotto@gmail.com",
+                                    "date": "2018-07-12T09:39:25-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjk4Njgx",
+                                        "login": "mdo",
+                                        "name": "Mark Otto",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
+                                        "isSiteAdmin": true
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "67a0f7888ebd83fd41174ead3d98f80901f1edfa"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "ecb29934fc656d2439e934b5dec3c584b6c57f91"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
                             "name": "highlight-taps",
                             "target": {
                                 "oid": "d9c954585eb20adbe2b22d81e2196b9be5f926bd",
@@ -297,7 +453,6 @@
                                         "name": "Patrick H. Lauke",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/895831?v=4",
-                                        "url": "https://github.com/patrickhlauke",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -308,34 +463,44 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "24df8bf71f3962d398edae007adeb9c7fd41a744",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/24df8bf71f3962d398edae007adeb9c7fd41a744",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/24df8bf71f3962d398edae007adeb9c7fd41a744"
+                                    "oid": "24df8bf71f3962d398edae007adeb9c7fd41a744"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "bf47fc8399ba059d929d2c31585dff6dee3e6c11",
-                                                "url": "https://github.com/twbs/bootstrap/commit/bf47fc8399ba059d929d2c31585dff6dee3e6c11",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/bf47fc8399ba059d929d2c31585dff6dee3e6c11"
+                                                "oid": "bf47fc8399ba059d929d2c31585dff6dee3e6c11"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "625736b17b37b85babc15b0f4a203dc3378008ae",
-                                                "url": "https://github.com/twbs/bootstrap/commit/625736b17b37b85babc15b0f4a203dc3378008ae",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/625736b17b37b85babc15b0f4a203dc3378008ae"
+                                                "oid": "625736b17b37b85babc15b0f4a203dc3378008ae"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 24df8bf71f3962d398edae007adeb9c7fd41a744\nparent bf47fc8399ba059d929d2c31585dff6dee3e6c11\nparent 625736b17b37b85babc15b0f4a203dc3378008ae\nauthor Patrick H. Lauke <redux@splintered.co.uk> 1514585656 +0000\ncommitter GitHub <noreply@github.com> 1514585656 +0000\n\nMerge branch 'v4-dev' into highlight-taps",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJaRr43CRBK7hj4Ov3rIwAAdHIIADSYEyDU2xZiBNhFcEsRwDWr\nXseGQPUQO+CfA23ScO+c4kNQxncoMmDz3ou1XR7kFGHtdIpinp+PEOpl2G5oV8ZC\nLOrIrg7ZQBwoO9v8vEu/Zq5aonWzwfSUMpDqTNxrZ4YmZMftK3O60rnIZOhfFKCL\niZ1VDZWK4lO1xrD14EbjY4db3NaRYaIsJUDPqnfwR7gdw63RYu+uGICEFWqalomG\nXj3GE3H3wt8jqNYyzH+reXISqaIM4K/PTFq5iPO8t+BntPHR+I/+ti0g1/ZKPSdh\nLVUNlFC72pZDCDXqG1FFn4qCI63c2+Yy7InYo6rcnVEF6+mXsaY4+IhUMGXhrZw=\n=ZKEx\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDppbnB1dC1ncm91cC10ZXN0cw==",
                             "name": "input-group-tests",
                             "target": {
                                 "oid": "63924a33abf04ac22efa8ac93014b8d9cdb37702",
@@ -344,14 +509,13 @@
                                 "author": {
                                     "name": "XhmikosR",
                                     "email": "xhmikosr@gmail.com",
-                                    "date": "2018-01-21T20:21:38Z",
+                                    "date": "2018-01-21T22:21:38+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjM0OTYyMQ==",
                                         "login": "XhmikosR",
                                         "name": "",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/349621?v=4",
-                                        "url": "https://github.com/XhmikosR",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -362,34 +526,151 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "80102ade1a13c283125d595f8730662acbeb84ba",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/80102ade1a13c283125d595f8730662acbeb84ba",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/80102ade1a13c283125d595f8730662acbeb84ba"
+                                    "oid": "80102ade1a13c283125d595f8730662acbeb84ba"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "8ccb16a7afe79bed67190b655aa1a8602442cdcf",
-                                                "url": "https://github.com/twbs/bootstrap/commit/8ccb16a7afe79bed67190b655aa1a8602442cdcf",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/8ccb16a7afe79bed67190b655aa1a8602442cdcf"
+                                                "oid": "8ccb16a7afe79bed67190b655aa1a8602442cdcf"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "8374f542be7cd87ba4872727dc67e4fa8c547246",
-                                                "url": "https://github.com/twbs/bootstrap/commit/8374f542be7cd87ba4872727dc67e4fa8c547246",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/8374f542be7cd87ba4872727dc67e4fa8c547246"
+                                                "oid": "8374f542be7cd87ba4872727dc67e4fa8c547246"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 80102ade1a13c283125d595f8730662acbeb84ba\nparent 8ccb16a7afe79bed67190b655aa1a8602442cdcf\nparent 8374f542be7cd87ba4872727dc67e4fa8c547246\nauthor XhmikosR <xhmikosr@gmail.com> 1516566098 +0200\ncommitter GitHub <noreply@github.com> 1516566098 +0200\n\nMerge branch 'v4-dev' into input-group-tests",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJaZPZSCRBK7hj4Ov3rIwAAdHIIAHtjSBNI/Q3C2QZgOYBABq2g\nJ8qK3kEsWNkSXutb1Aos1LgiE3AoRTkLxwRcpdpW+HsVbpa1okyTrjlTQ1rT1SW8\nys8rX+rMobf50Upy8FKtB0iGMLT9xs/ckQgjUJpDRU8NUvNJLtae0MRfCpwKuB1+\nCEibYHJzEJxHrnxAdceuoXz3BBuIBZNY2qUZHaMDUIseNWhBuEcRiggLNIfjmGju\nqDcvlHchLaNmzCUX+wBj+VVEpWEfj7lh5bOZIX2HNA4bFk5rrfUOheDlxdQ5eaC0\npEH3UhOXkB41z+Pukg4iQ48p4ljuYF7KKeo08rIACN5VglKP7AMU1kt04qX8QqY=\n=1nb6\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDptYXN0ZXI=",
+                            "name": "input-height",
+                            "target": {
+                                "oid": "210cdf217c96ef70057663b50e327cf621e95d91",
+                                "message": "Prevent height on textareas",
+                                "authoredDate": "2018-07-14T23:17:56Z",
+                                "author": {
+                                    "name": "Mark Otto",
+                                    "email": "markd.otto@gmail.com",
+                                    "date": "2018-07-14T16:17:56-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjk4Njgx",
+                                        "login": "mdo",
+                                        "name": "Mark Otto",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
+                                        "isSiteAdmin": true
+                                    }
+                                },
+                                "committer": {
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-07-14T16:17:56-07:00",
+                                    "user": null
+                                },
+                                "tree": {
+                                    "oid": "d617290c27d3a3abd35513a5fb335534c1a104f9"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "eeb1ab85ce9c48e4e3037b68d36e8943d712377c"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree d617290c27d3a3abd35513a5fb335534c1a104f9\nparent eeb1ab85ce9c48e4e3037b68d36e8943d712377c\nauthor Mark Otto <markd.otto@gmail.com> 1531610276 -0700\ncommitter GitHub <noreply@github.com> 1531610276 -0700\n\nPrevent height on textareas",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbSoSkCRBK7hj4Ov3rIwAAdHIIABkgSTcGwXrUGjy+wDP8cx1m\nLdQHDdujtRIF0ocd0FXaLK6022drZwhraTkQVFOEYOYcWUijKaYeJSZn6BYgcZoe\nPNLBYocYZlHna0DjclMj86pgJp3W2HyuE/lcE4zrjC0p68zREeULzi3ApiJN8rsN\n3+A0gkHnJx7CzpZ3Ms/3ojow2CDfO61tcDsbTm14ptgkfPDms2/M+PUUyY0/wIFf\n/knNDphEdaAr46zz1yOEa4dembFALh6+hIg8sKaAUrQjDEs8JEBDpF0BLQuy+vTV\nXvS4rOjQ/73SXk58azlONGU1HLOBUZlLEwnj9jejF4XhLfY3YWNr1CGyLcuhZ3U=\n=Hwfm\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "malkomich-v4-dev",
+                            "target": {
+                                "oid": "c6abb8ca8405777e8a3fb29016db5cc54889ec8b",
+                                "message": "class",
+                                "authoredDate": "2018-07-08T03:21:01Z",
+                                "author": {
+                                    "name": "Mark Otto",
+                                    "email": "markdotto@gmail.com",
+                                    "date": "2018-07-07T20:21:01-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjk4Njgx",
+                                        "login": "mdo",
+                                        "name": "Mark Otto",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
+                                        "isSiteAdmin": true
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Mark Otto",
+                                    "email": "markdotto@gmail.com",
+                                    "date": "2018-07-07T20:21:01-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjk4Njgx",
+                                        "login": "mdo",
+                                        "name": "Mark Otto",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
+                                        "isSiteAdmin": true
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "a77de1113741aefe0876f6cbe6762ad5a1c4c9de"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "17a25b72c8d414c265e389def7a7bdc5779be57a"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
                             "name": "master",
                             "target": {
                                 "oid": "2c2ac3356425e192f7537227508c809a14aa5850",
@@ -398,14 +679,13 @@
                                 "author": {
                                     "name": "Craig Main",
                                     "email": "craig@palantir.co.za",
-                                    "date": "2017-10-04T07:50:46Z",
+                                    "date": "2017-10-04T10:50:46+03:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjI1NTUwNTA=",
                                         "login": "jimmymain",
                                         "name": "Jim",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/2555050?v=4",
-                                        "url": "https://github.com/jimmymain",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -419,32 +699,27 @@
                                         "name": "",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/349621?v=4",
-                                        "url": "https://github.com/XhmikosR",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "c9a5041bb5563db1672fcb798c945b172b7be1cf",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/c9a5041bb5563db1672fcb798c945b172b7be1cf",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/c9a5041bb5563db1672fcb798c945b172b7be1cf"
+                                    "oid": "c9a5041bb5563db1672fcb798c945b172b7be1cf"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "e52df5dce5b11930dd8d8a8543f8cc3a8eab7375",
-                                                "url": "https://github.com/twbs/bootstrap/commit/e52df5dce5b11930dd8d8a8543f8cc3a8eab7375",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/e52df5dce5b11930dd8d8a8543f8cc3a8eab7375"
+                                                "oid": "e52df5dce5b11930dd8d8a8543f8cc3a8eab7375"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDpyZWJvb3QtY3Vyc29y",
                             "name": "reboot-cursor",
                             "target": {
                                 "oid": "a011b8688003580877573a7375a1b58f6e550ad0",
@@ -453,14 +728,13 @@
                                 "author": {
                                     "name": "Patrick H. Lauke",
                                     "email": "redux@splintered.co.uk",
-                                    "date": "2018-04-15T23:29:06Z",
+                                    "date": "2018-04-16T00:29:06+01:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjg5NTgzMQ==",
                                         "login": "patrickhlauke",
                                         "name": "Patrick H. Lauke",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/895831?v=4",
-                                        "url": "https://github.com/patrickhlauke",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -471,88 +745,93 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "7cede60f95446d9508968e66e894bf570e04d93c",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/7cede60f95446d9508968e66e894bf570e04d93c",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/7cede60f95446d9508968e66e894bf570e04d93c"
+                                    "oid": "7cede60f95446d9508968e66e894bf570e04d93c"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "f669023a274811f4c047bdc698817fee0190ac12",
-                                                "url": "https://github.com/twbs/bootstrap/commit/f669023a274811f4c047bdc698817fee0190ac12",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/f669023a274811f4c047bdc698817fee0190ac12"
+                                                "oid": "f669023a274811f4c047bdc698817fee0190ac12"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "e000933c17b55f667dc9d6d97a44292adc532516",
-                                                "url": "https://github.com/twbs/bootstrap/commit/e000933c17b55f667dc9d6d97a44292adc532516",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/e000933c17b55f667dc9d6d97a44292adc532516"
+                                                "oid": "e000933c17b55f667dc9d6d97a44292adc532516"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 7cede60f95446d9508968e66e894bf570e04d93c\nparent f669023a274811f4c047bdc698817fee0190ac12\nparent e000933c17b55f667dc9d6d97a44292adc532516\nauthor Patrick H. Lauke <redux@splintered.co.uk> 1523834946 +0100\ncommitter GitHub <noreply@github.com> 1523834946 +0100\n\nMerge branch 'v4-dev' into reboot-cursor",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJa0+BCCRBK7hj4Ov3rIwAAdHIIAKTDvnyy7io0+r6WSdTHFpO0\nu16RBc1a8e97OgdsWVogPrT8Tj+Ir1AmuK7kjw0dlczODfmVSodIijLruuoP1lgt\n1A7HRT+tP1qG8Oil+v3RBG8Xglf7xaEFm6AuAHOTEJGWN76g0iJ4LSN0h6mfzna9\n1MmRa75QPSu9k/5PPoFgx8H67qXephKLZC7l3FViA6tOXGPgQ+MzfGR+urUiqKW/\nL7YQaGGf/RPNCvgecIDzHJSB55YrimEGIczVS3Y+remW2sQq97PGeeEq3Ff1F2XZ\nVyBpB7t9yRYygzFnxfRKkgQX9+qO2Jmr82opmc5GTZWgOqcRjW9OarMXfhcLaEY=\n=WLWw\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDpyZWxhdGl2ZS1jb2x1bW5z",
                             "name": "relative-columns",
                             "target": {
-                                "oid": "69b2b6248b67e68c6b5e440cad316174be4218ac",
-                                "message": "Merge branch 'v4-dev' into relative-columns",
-                                "authoredDate": "2018-01-11T08:50:14Z",
+                                "oid": "e792a027b6873a4a6b7b7ab8d9dfab7dcdf7a736",
+                                "message": "Remove `position: relative` from grid columns\n\nPrompted by #25254, I dug into our Git history to see why we add `position: relative` to our grid classes and mixins. Turns out, I have no idea and added it to v3 in a commit that fixed an unrelated issue\u2014see https://github.com/twbs/bootstrap/commit/0f17f9b7f7fe15bb4ce6301caa2600bfd30e63d7.",
+                                "authoredDate": "2018-01-10T05:19:42Z",
                                 "author": {
-                                    "name": "XhmikosR",
-                                    "email": "xhmikosr@gmail.com",
-                                    "date": "2018-01-11T08:50:14Z",
+                                    "name": "Mark Otto",
+                                    "email": "markd.otto@gmail.com",
+                                    "date": "2018-01-09T21:19:42-08:00",
                                     "user": {
-                                        "id": "MDQ6VXNlcjM0OTYyMQ==",
-                                        "login": "XhmikosR",
-                                        "name": "",
+                                        "id": "MDQ6VXNlcjk4Njgx",
+                                        "login": "mdo",
+                                        "name": "Mark Otto",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/349621?v=4",
-                                        "url": "https://github.com/XhmikosR",
-                                        "isSiteAdmin": false
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
+                                        "isSiteAdmin": true
                                     }
                                 },
                                 "committer": {
-                                    "name": "GitHub",
-                                    "email": "noreply@github.com",
-                                    "date": "2018-01-11T10:50:14+02:00",
-                                    "user": null
+                                    "name": "Mark Otto",
+                                    "email": "markdotto@gmail.com",
+                                    "date": "2018-07-08T16:21:41-07:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjk4Njgx",
+                                        "login": "mdo",
+                                        "name": "Mark Otto",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
+                                        "isSiteAdmin": true
+                                    }
                                 },
                                 "tree": {
-                                    "oid": "98959fade961a9ff257a8b8b53a55a7247f7a9b0",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/98959fade961a9ff257a8b8b53a55a7247f7a9b0",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/98959fade961a9ff257a8b8b53a55a7247f7a9b0"
+                                    "oid": "2029ae04ae74c9f5fb0161bc7f2d58300f8b8444"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "607220c9c7d8d4392726be02d1a98f30f7305620",
-                                                "url": "https://github.com/twbs/bootstrap/commit/607220c9c7d8d4392726be02d1a98f30f7305620",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/607220c9c7d8d4392726be02d1a98f30f7305620"
-                                            }
-                                        },
-                                        {
-                                            "node": {
-                                                "oid": "bfceedc84a75a97b1b5b26316c6368a3a5d2014a",
-                                                "url": "https://github.com/twbs/bootstrap/commit/bfceedc84a75a97b1b5b26316c6368a3a5d2014a",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/bfceedc84a75a97b1b5b26316c6368a3a5d2014a"
+                                                "oid": "cfc9c85b322bc72b80c0d2398a65febe5bb875b6"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDpzaG93LWFsbC1zaWRlYmFy",
                             "name": "show-all-sidebar",
                             "target": {
                                 "oid": "c17369d86c452f27a58816b24a693c87909d5bb3",
@@ -561,14 +840,13 @@
                                 "author": {
                                     "name": "Mark Otto",
                                     "email": "markdotto@gmail.com",
-                                    "date": "2017-12-28T19:33:07Z",
+                                    "date": "2017-12-28T11:33:07-08:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjk4Njgx",
                                         "login": "mdo",
                                         "name": "Mark Otto",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
-                                        "url": "https://github.com/mdo",
                                         "isSiteAdmin": true
                                     }
                                 },
@@ -582,32 +860,27 @@
                                         "name": "Mark Otto",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
-                                        "url": "https://github.com/mdo",
                                         "isSiteAdmin": true
                                     }
                                 },
                                 "tree": {
-                                    "oid": "c7c205c9c3c485e5fe4c1489b660d54a595087aa",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/c7c205c9c3c485e5fe4c1489b660d54a595087aa",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/c7c205c9c3c485e5fe4c1489b660d54a595087aa"
+                                    "oid": "c7c205c9c3c485e5fe4c1489b660d54a595087aa"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "ced70da441d487efb8589acbff445d6b5fa68bb9",
-                                                "url": "https://github.com/twbs/bootstrap/commit/ced70da441d487efb8589acbff445d6b5fa68bb9",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/ced70da441d487efb8589acbff445d6b5fa68bb9"
+                                                "oid": "ced70da441d487efb8589acbff445d6b5fa68bb9"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDpzcGlubmVy",
                             "name": "spinner",
                             "target": {
                                 "oid": "a84f72a29a895d57d0b7688dab68da4e9080345e",
@@ -623,7 +896,6 @@
                                         "name": "Patrick H. Lauke",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/895831?v=4",
-                                        "url": "https://github.com/patrickhlauke",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -634,34 +906,44 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "c45b4fb7d3802401d6d34d1fdec9bd4a3510bd07",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/c45b4fb7d3802401d6d34d1fdec9bd4a3510bd07",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/c45b4fb7d3802401d6d34d1fdec9bd4a3510bd07"
+                                    "oid": "c45b4fb7d3802401d6d34d1fdec9bd4a3510bd07"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "73720609591f8dc9b18778d42c81bc3c4d5e8e05",
-                                                "url": "https://github.com/twbs/bootstrap/commit/73720609591f8dc9b18778d42c81bc3c4d5e8e05",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/73720609591f8dc9b18778d42c81bc3c4d5e8e05"
+                                                "oid": "73720609591f8dc9b18778d42c81bc3c4d5e8e05"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "6431d746bccab270812a841be44f5e7829f7f367",
-                                                "url": "https://github.com/twbs/bootstrap/commit/6431d746bccab270812a841be44f5e7829f7f367",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/6431d746bccab270812a841be44f5e7829f7f367"
+                                                "oid": "6431d746bccab270812a841be44f5e7829f7f367"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree c45b4fb7d3802401d6d34d1fdec9bd4a3510bd07\nparent 73720609591f8dc9b18778d42c81bc3c4d5e8e05\nparent 6431d746bccab270812a841be44f5e7829f7f367\nauthor Patrick H. Lauke <redux@splintered.co.uk> 1520074559 +0000\ncommitter GitHub <noreply@github.com> 1520074559 +0000\n\nMerge branch 'v4-dev' into spinner",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJamn8/CRBK7hj4Ov3rIwAAdHIIACIZEtoef4Wdh160Ovl/dfTk\ndqq83YRYcdgSciUXjO/QoZhFXcmxZ/aKcdp3q9mCsSSHCmGkuJV4WMXUeWxHdPnx\nsJeDTFeCktgTNf6eK18iiriyMj6Whj33ZcAUXdFRKQWmimDLbgj0Ux4q0cxnOVoP\nINKyJUEsMG03DaiO4I+4cD6/0P1KaRvytjI9UvHPU4081R1VQ+vnI4yUlhhKHJm7\nplTn7kbDi3hISOmB5yrthsz47G86eb3dq6+Xipt8Mw6lkCXOGSa2XInywGMIXX9V\nBaYoid2qzJbSeM9calLSLRwa6CzgbRq/lf+GxFTBN8luoezCOgqtTFNwFU65UN8=\n=2vYj\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDp1bmRvLTIyNzQw",
                             "name": "undo-22740",
                             "target": {
                                 "oid": "78715a23b8effccc0ab4b6f4e4531b23d043de64",
@@ -670,14 +952,13 @@
                                 "author": {
                                     "name": "Mark Otto",
                                     "email": "markdotto@gmail.com",
-                                    "date": "2017-12-23T22:25:59Z",
+                                    "date": "2017-12-23T14:25:59-08:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjk4Njgx",
                                         "login": "mdo",
                                         "name": "Mark Otto",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
-                                        "url": "https://github.com/mdo",
                                         "isSiteAdmin": true
                                     }
                                 },
@@ -691,32 +972,27 @@
                                         "name": "Mark Otto",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
-                                        "url": "https://github.com/mdo",
                                         "isSiteAdmin": true
                                     }
                                 },
                                 "tree": {
-                                    "oid": "d5a21acf12abfed6fe05265c5b653407d72cb48a",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/d5a21acf12abfed6fe05265c5b653407d72cb48a",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/d5a21acf12abfed6fe05265c5b653407d72cb48a"
+                                    "oid": "d5a21acf12abfed6fe05265c5b653407d72cb48a"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "b3e9547c59a02675acd5ac70370797f95f0a7bcb",
-                                                "url": "https://github.com/twbs/bootstrap/commit/b3e9547c59a02675acd5ac70370797f95f0a7bcb",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/b3e9547c59a02675acd5ac70370797f95f0a7bcb"
+                                                "oid": "b3e9547c59a02675acd5ac70370797f95f0a7bcb"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDp2My1kZXY=",
                             "name": "v3-dev",
                             "target": {
                                 "oid": "9ed834a5a867fec0e73c372f02b1a87c995e19b5",
@@ -725,14 +1001,13 @@
                                 "author": {
                                     "name": "XhmikosR",
                                     "email": "xhmikosr@gmail.com",
-                                    "date": "2017-08-10T16:36:13Z",
+                                    "date": "2017-08-10T19:36:13+03:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjM0OTYyMQ==",
                                         "login": "XhmikosR",
                                         "name": "",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/349621?v=4",
-                                        "url": "https://github.com/XhmikosR",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -743,137 +1018,135 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "a140866a5f086fcc977f733cf60c12bf717301d2",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/a140866a5f086fcc977f733cf60c12bf717301d2",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/a140866a5f086fcc977f733cf60c12bf717301d2"
+                                    "oid": "a140866a5f086fcc977f733cf60c12bf717301d2"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "7e2741eb1074afc66bdf2fb5c2b65d476cf7f37e",
-                                                "url": "https://github.com/twbs/bootstrap/commit/7e2741eb1074afc66bdf2fb5c2b65d476cf7f37e",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/7e2741eb1074afc66bdf2fb5c2b65d476cf7f37e"
+                                                "oid": "7e2741eb1074afc66bdf2fb5c2b65d476cf7f37e"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDp2My40LjAtZGV2",
                             "name": "v3.4.0-dev",
                             "target": {
-                                "oid": "b3e0a8a3c42b5c8528896ba115b9ad95d8253413",
-                                "message": "dist",
-                                "authoredDate": "2018-04-09T01:38:25Z",
+                                "oid": "13bf8aeae3db71e28af69782328c22215795c169",
+                                "message": "fix(tab): remove xss",
+                                "authoredDate": "2018-05-07T07:47:01Z",
                                 "author": {
-                                    "name": "Mark Otto",
-                                    "email": "markdotto@gmail.com",
-                                    "date": "2018-04-09T01:38:25Z",
+                                    "name": "Johann-S",
+                                    "email": "johann.servoire@gmail.com",
+                                    "date": "2018-05-07T09:47:01+02:00",
                                     "user": {
-                                        "id": "MDQ6VXNlcjk4Njgx",
-                                        "login": "mdo",
-                                        "name": "Mark Otto",
+                                        "id": "MDQ6VXNlcjE2ODk3NTA=",
+                                        "login": "Johann-S",
+                                        "name": "Johann-S",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
-                                        "url": "https://github.com/mdo",
-                                        "isSiteAdmin": true
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/1689750?v=4",
+                                        "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
-                                    "name": "Mark Otto",
-                                    "email": "markdotto@gmail.com",
-                                    "date": "2018-04-08T18:38:25-07:00",
+                                    "name": "XhmikosR",
+                                    "email": "xhmikosr@gmail.com",
+                                    "date": "2018-05-07T11:22:05+03:00",
                                     "user": {
-                                        "id": "MDQ6VXNlcjk4Njgx",
-                                        "login": "mdo",
-                                        "name": "Mark Otto",
+                                        "id": "MDQ6VXNlcjM0OTYyMQ==",
+                                        "login": "XhmikosR",
+                                        "name": "",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
-                                        "url": "https://github.com/mdo",
-                                        "isSiteAdmin": true
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/349621?v=4",
+                                        "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "eff9419dfcf03838b4edf1fd819facef45f28c85",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/eff9419dfcf03838b4edf1fd819facef45f28c85",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/eff9419dfcf03838b4edf1fd819facef45f28c85"
+                                    "oid": "4dd76d11e0f3c642a8fcf5c9ffcf919673419e2f"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "30c6a8a3804e3536ec85452236a9181f3c02205a",
-                                                "url": "https://github.com/twbs/bootstrap/commit/30c6a8a3804e3536ec85452236a9181f3c02205a",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/30c6a8a3804e3536ec85452236a9181f3c02205a"
+                                                "oid": "029b85ad9b99e023df3d29489bc1fe96fd2e8795"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDp2NC1jYXJvdXNlbC1oYW1tZXI=",
                             "name": "v4-carousel-hammer",
                             "target": {
-                                "oid": "5823397b5ba2eff08e607e1f526f7483d1ba8945",
-                                "message": "Add touch support on our carousel with Hammer",
-                                "authoredDate": "2018-03-03T21:04:11Z",
+                                "oid": "f6f3efa84001c7bf86371a6d3eab271c918f532f",
+                                "message": "Merge branch 'v4-dev' into v4-carousel-hammer",
+                                "authoredDate": "2018-07-04T21:44:49Z",
                                 "author": {
-                                    "name": "Johann-S",
-                                    "email": "johann.servoire@gmail.com",
-                                    "date": "2018-03-03T21:04:11Z",
+                                    "name": "XhmikosR",
+                                    "email": "xhmikosr@gmail.com",
+                                    "date": "2018-07-05T00:44:49+03:00",
                                     "user": {
-                                        "id": "MDQ6VXNlcjE2ODk3NTA=",
-                                        "login": "Johann-S",
-                                        "name": "Johann-S",
+                                        "id": "MDQ6VXNlcjM0OTYyMQ==",
+                                        "login": "XhmikosR",
+                                        "name": "",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/1689750?v=4",
-                                        "url": "https://github.com/Johann-S",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/349621?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
-                                    "name": "Johann-S",
-                                    "email": "johann.servoire@gmail.com",
-                                    "date": "2018-04-10T09:49:58+02:00",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjE2ODk3NTA=",
-                                        "login": "Johann-S",
-                                        "name": "Johann-S",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/1689750?v=4",
-                                        "url": "https://github.com/Johann-S",
-                                        "isSiteAdmin": false
-                                    }
+                                    "name": "GitHub",
+                                    "email": "noreply@github.com",
+                                    "date": "2018-07-05T00:44:49+03:00",
+                                    "user": null
                                 },
                                 "tree": {
-                                    "oid": "4726c08ea73cc6c4ddb11c402cb7264743f22f52",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/4726c08ea73cc6c4ddb11c402cb7264743f22f52",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/4726c08ea73cc6c4ddb11c402cb7264743f22f52"
+                                    "oid": "0721f094911bc28f60fac496878952cef1833030"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "0871d69ec975b51472a451ed63ffa2af874606d2",
-                                                "url": "https://github.com/twbs/bootstrap/commit/0871d69ec975b51472a451ed63ffa2af874606d2",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/0871d69ec975b51472a451ed63ffa2af874606d2"
+                                                "oid": "f5808d9cb916fd84b30fd29401340e66aaebceda"
+                                            }
+                                        },
+                                        {
+                                            "node": {
+                                                "oid": "09d0c5de0c3ac3804c68c24842a0df03f32cb238"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 0721f094911bc28f60fac496878952cef1833030\nparent f5808d9cb916fd84b30fd29401340e66aaebceda\nparent 09d0c5de0c3ac3804c68c24842a0df03f32cb238\nauthor XhmikosR <xhmikosr@gmail.com> 1530740689 +0300\ncommitter GitHub <noreply@github.com> 1530740689 +0300\n\nMerge branch 'v4-dev' into v4-carousel-hammer",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbPT/RCRBK7hj4Ov3rIwAAdHIIAHSeLke4R3rctPZzJ/nAbnwJ\nDsFybV9pgJrVrZNoV/ncjBbXnA3uOxutu5lXdcmG4kHQoJg/QNVZYdM3IAjQ5Xlr\nrQXWf7Bctd7sKk09cKl80cKGfzAbtfAc+VavL87UkO8IZZN1Xg970VygAGnKjocR\n4/yMs9aUaWjUlTYnylOmU9nVJfNCRDIK8Eu+g3v0QQgLkfUNZuuQC0Oc/LXJxvjR\njqOKEbMtyxjIYzrzqY6/8RV1fS/UMK+GhU5kHlsLD10y9FsUmRRoGi7/E/0Xmj/b\nvVAsoHot3X1sf67eFZ6CAtwf6x5yNgprl29rDH8mX03fyAfRX7LSXW6oc1Jm5zY=\n=4s4A\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDp2NC1kZXYtYW5kcmVzLWZpeGVzLWlucHV0LWJ0bnM=",
                             "name": "v4-dev-andres-fixes-input-btns",
                             "target": {
                                 "oid": "eff8c3c3e85173720025bff0be7c0a7e394c40fe",
@@ -882,14 +1155,13 @@
                                 "author": {
                                     "name": "Andres Galante",
                                     "email": "agalante@gmail.com",
-                                    "date": "2018-04-18T12:39:53Z",
+                                    "date": "2018-04-18T09:39:53-03:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjE4MzIwMzc=",
                                         "login": "andresgalante",
                                         "name": "Andres Galante",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/1832037?v=4",
-                                        "url": "https://github.com/andresgalante",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -903,32 +1175,27 @@
                                         "name": "Andres Galante",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/1832037?v=4",
-                                        "url": "https://github.com/andresgalante",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "a869f62acdbcb9552011c0efe17d31f3703fedf1",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/a869f62acdbcb9552011c0efe17d31f3703fedf1",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/a869f62acdbcb9552011c0efe17d31f3703fedf1"
+                                    "oid": "a869f62acdbcb9552011c0efe17d31f3703fedf1"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "1470e11ade5b1fd4f494269b7b55224e07248f5d",
-                                                "url": "https://github.com/twbs/bootstrap/commit/1470e11ade5b1fd4f494269b7b55224e07248f5d",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/1470e11ade5b1fd4f494269b7b55224e07248f5d"
+                                                "oid": "1470e11ade5b1fd4f494269b7b55224e07248f5d"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDp2NC1kZXYtYW5kcmVzLXRhYmxlLWFjdGl2ZS1zdGF0ZQ==",
                             "name": "v4-dev-andres-table-active-state",
                             "target": {
                                 "oid": "8d3faa7633563eaf85f850470f31ef41373d9b3a",
@@ -937,14 +1204,13 @@
                                 "author": {
                                     "name": "XhmikosR",
                                     "email": "xhmikosr@gmail.com",
-                                    "date": "2018-01-15T07:00:52Z",
+                                    "date": "2018-01-15T09:00:52+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjM0OTYyMQ==",
                                         "login": "XhmikosR",
                                         "name": "",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/349621?v=4",
-                                        "url": "https://github.com/XhmikosR",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -955,34 +1221,44 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "cef9a4b217bb3a18f31b77e49387f36506cd9ac5",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/cef9a4b217bb3a18f31b77e49387f36506cd9ac5",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/cef9a4b217bb3a18f31b77e49387f36506cd9ac5"
+                                    "oid": "cef9a4b217bb3a18f31b77e49387f36506cd9ac5"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "05919cc0c1803c10ed7c84e096a6d24c9802e780",
-                                                "url": "https://github.com/twbs/bootstrap/commit/05919cc0c1803c10ed7c84e096a6d24c9802e780",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/05919cc0c1803c10ed7c84e096a6d24c9802e780"
+                                                "oid": "05919cc0c1803c10ed7c84e096a6d24c9802e780"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "14bd7d748939008947a635e87d0e50103a1ad8dd",
-                                                "url": "https://github.com/twbs/bootstrap/commit/14bd7d748939008947a635e87d0e50103a1ad8dd",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/14bd7d748939008947a635e87d0e50103a1ad8dd"
+                                                "oid": "14bd7d748939008947a635e87d0e50103a1ad8dd"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree cef9a4b217bb3a18f31b77e49387f36506cd9ac5\nparent 05919cc0c1803c10ed7c84e096a6d24c9802e780\nparent 14bd7d748939008947a635e87d0e50103a1ad8dd\nauthor XhmikosR <xhmikosr@gmail.com> 1515999652 +0200\ncommitter GitHub <noreply@github.com> 1515999652 +0200\n\nMerge branch 'v4-dev' into v4-dev-andres-table-active-state",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJaXFGkCRBK7hj4Ov3rIwAAdHIIAFBUhMw+XDMHxaAEaLnjtlrI\nnoyLx3/SmVHbXrBRMu+E0Xwju3ToP7ZpXhbT0LYAvDMfbQoXMIUP+LEl1hnKTwwg\nDIh73zc2q2HppsnobyS7/Q8/C7Sb6pMLsiulKuZp+Q4ObtdhUyHxlb0sPNCwaJ1J\nLhSLQFTvhyBAA1qSufA2ZDI2ip1icEXlj6BElqGZz0OOFL3KJh84jpnkXtJH15vp\nO8N6ZZ4aRfmSXx+tmOrV8MEKdY1CygRB3yvwwVzAk9rehBiIN0vH0POCeFCaAjsL\nj7GyFQ8wpnXCaYeFx3p5ZY9Ha1Z66LHOs1ShHtMSWJ0Jv23Lvv9jphbOifZPdWM=\n=Uzo4\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDp2NC1kZXYtYW5kcmVzLXRvb2x0aXAtaG9yaXpvbnRhbC1mb3Jt",
                             "name": "v4-dev-andres-tooltip-horizontal-form",
                             "target": {
                                 "oid": "f70c1e2abba89c60f893f581aa9ea2e058415570",
@@ -991,14 +1267,13 @@
                                 "author": {
                                     "name": "Andres Galante",
                                     "email": "agalante@gmail.com",
-                                    "date": "2018-03-01T11:02:26Z",
+                                    "date": "2018-03-01T08:02:26-03:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjE4MzIwMzc=",
                                         "login": "andresgalante",
                                         "name": "Andres Galante",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/1832037?v=4",
-                                        "url": "https://github.com/andresgalante",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1012,196 +1287,76 @@
                                         "name": "Andres Galante",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/1832037?v=4",
-                                        "url": "https://github.com/andresgalante",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "4fd65f0b0d2a888bcf97e667759cab76126d0579",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/4fd65f0b0d2a888bcf97e667759cab76126d0579",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/4fd65f0b0d2a888bcf97e667759cab76126d0579"
+                                    "oid": "4fd65f0b0d2a888bcf97e667759cab76126d0579"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "29f178d89129732d35ae812667709c64cdb28a6f",
-                                                "url": "https://github.com/twbs/bootstrap/commit/29f178d89129732d35ae812667709c64cdb28a6f",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/29f178d89129732d35ae812667709c64cdb28a6f"
+                                                "oid": "29f178d89129732d35ae812667709c64cdb28a6f"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDp2NC1kZXYtam9oYW5uLWNvbGxhcHNlLWxlc3MtanF1ZXJ5",
-                            "name": "v4-dev-johann-collapse-less-jquery",
+                            "name": "v4-dev-jo-bundle-plugins",
                             "target": {
-                                "oid": "4916dfc828f702a760eadd78f54f9217cde554e2",
-                                "message": "chore(bundlesize): increase bootstrap.js max size",
-                                "authoredDate": "2018-05-01T12:09:24Z",
+                                "oid": "6b1c63ec8fe9e0af85c6474bbee71e02cf178f83",
+                                "message": "feat(plugins): allow to import separate plugins",
+                                "authoredDate": "2018-06-27T09:33:07Z",
                                 "author": {
                                     "name": "Johann-S",
                                     "email": "johann.servoire@gmail.com",
-                                    "date": "2018-05-01T12:09:24Z",
+                                    "date": "2018-06-27T11:33:07+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjE2ODk3NTA=",
                                         "login": "Johann-S",
                                         "name": "Johann-S",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/1689750?v=4",
-                                        "url": "https://github.com/Johann-S",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
                                     "name": "Johann-S",
                                     "email": "johann.servoire@gmail.com",
-                                    "date": "2018-05-01T14:09:24+02:00",
+                                    "date": "2018-07-02T13:55:41+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjE2ODk3NTA=",
                                         "login": "Johann-S",
                                         "name": "Johann-S",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/1689750?v=4",
-                                        "url": "https://github.com/Johann-S",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "94b3b201208dd2043cb73f4df843f005f8c726f6",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/94b3b201208dd2043cb73f4df843f005f8c726f6",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/94b3b201208dd2043cb73f4df843f005f8c726f6"
+                                    "oid": "6a026f028050d90e4580926060e2323313ee96ed"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "f3ebc2adf49c54bc7688ece18b983d9c586a81bf",
-                                                "url": "https://github.com/twbs/bootstrap/commit/f3ebc2adf49c54bc7688ece18b983d9c586a81bf",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/f3ebc2adf49c54bc7688ece18b983d9c586a81bf"
+                                                "oid": "edc5597705be2c4ca3cb3e1d6e3bcf361d72fe9c"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDp2NC1kZXYtam9oYW5uLWNvdmVyYWxs",
-                            "name": "v4-dev-johann-coverall",
-                            "target": {
-                                "oid": "dde7a3263d36bbe3615e1ab5f9a99bfe103935b8",
-                                "message": "Merge branch 'v4-dev' into v4-dev-johann-coverall",
-                                "authoredDate": "2018-03-31T12:49:11Z",
-                                "author": {
-                                    "name": "XhmikosR",
-                                    "email": "xhmikosr@gmail.com",
-                                    "date": "2018-03-31T12:49:11Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjM0OTYyMQ==",
-                                        "login": "XhmikosR",
-                                        "name": "",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/349621?v=4",
-                                        "url": "https://github.com/XhmikosR",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
-                                    "name": "GitHub",
-                                    "email": "noreply@github.com",
-                                    "date": "2018-03-31T15:49:11+03:00",
-                                    "user": null
-                                },
-                                "tree": {
-                                    "oid": "d5210558a560dd0da7c326efd7f7a8d3eaa2b0f2",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/d5210558a560dd0da7c326efd7f7a8d3eaa2b0f2",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/d5210558a560dd0da7c326efd7f7a8d3eaa2b0f2"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "ae4f36aa17ab757a110b61ec3f08d9f751dfdf94",
-                                                "url": "https://github.com/twbs/bootstrap/commit/ae4f36aa17ab757a110b61ec3f08d9f751dfdf94",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/ae4f36aa17ab757a110b61ec3f08d9f751dfdf94"
-                                            }
-                                        },
-                                        {
-                                            "node": {
-                                                "oid": "902788efc4b7719e8206ac9c3f574f57a4c682de",
-                                                "url": "https://github.com/twbs/bootstrap/commit/902788efc4b7719e8206ac9c3f574f57a4c682de",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/902788efc4b7719e8206ac9c3f574f57a4c682de"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDp2NC1kZXYtam9oYW5uLWZpeC10b29sdGlw",
-                            "name": "v4-dev-johann-fix-tooltip",
-                            "target": {
-                                "oid": "3497089a7b4e23128ad672ba090ed9631d68d02f",
-                                "message": "fix(tooltip): get tip on placement change",
-                                "authoredDate": "2018-04-30T08:49:43Z",
-                                "author": {
-                                    "name": "Johann-S",
-                                    "email": "johann.servoire@gmail.com",
-                                    "date": "2018-04-30T08:49:43Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjE2ODk3NTA=",
-                                        "login": "Johann-S",
-                                        "name": "Johann-S",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/1689750?v=4",
-                                        "url": "https://github.com/Johann-S",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
-                                    "name": "Johann-S",
-                                    "email": "johann.servoire@gmail.com",
-                                    "date": "2018-05-02T09:33:23+02:00",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjE2ODk3NTA=",
-                                        "login": "Johann-S",
-                                        "name": "Johann-S",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/1689750?v=4",
-                                        "url": "https://github.com/Johann-S",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "tree": {
-                                    "oid": "ab911c9b42995c1eac0dd026447fb553abbb0eec",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/ab911c9b42995c1eac0dd026447fb553abbb0eec",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/ab911c9b42995c1eac0dd026447fb553abbb0eec"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "e5e6d0c86d1456ce43fb2ae84983f7cbe2e707f6",
-                                                "url": "https://github.com/twbs/bootstrap/commit/e5e6d0c86d1456ce43fb2ae84983f7cbe2e707f6",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/e5e6d0c86d1456ce43fb2ae84983f7cbe2e707f6"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDp2NC1kZXYtam9oYW5uLXNoYWRvdw==",
                             "name": "v4-dev-johann-shadow",
                             "target": {
                                 "oid": "4e87108319db49710f69437d102327b225290d81",
@@ -1210,14 +1365,13 @@
                                 "author": {
                                     "name": "Johann-S",
                                     "email": "johann.servoire@gmail.com",
-                                    "date": "2017-11-30T09:54:27Z",
+                                    "date": "2017-11-30T10:54:27+01:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjE2ODk3NTA=",
                                         "login": "Johann-S",
                                         "name": "Johann-S",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/1689750?v=4",
-                                        "url": "https://github.com/Johann-S",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1231,307 +1385,223 @@
                                         "name": "Johann-S",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/1689750?v=4",
-                                        "url": "https://github.com/Johann-S",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "9e1d11fb0a443cba0f81b4a3b0fa5d0e00b963da",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/9e1d11fb0a443cba0f81b4a3b0fa5d0e00b963da",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/9e1d11fb0a443cba0f81b4a3b0fa5d0e00b963da"
+                                    "oid": "9e1d11fb0a443cba0f81b4a3b0fa5d0e00b963da"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "2b86193591dde9402eb72babce74e28cb04e35f9",
-                                                "url": "https://github.com/twbs/bootstrap/commit/2b86193591dde9402eb72babce74e28cb04e35f9",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/2b86193591dde9402eb72babce74e28cb04e35f9"
+                                                "oid": "2b86193591dde9402eb72babce74e28cb04e35f9"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDp2NC1kZXYteG1yLWJyb2tlbi1saW5rLWNoZWNrZXI=",
-                            "name": "v4-dev-xmr-broken-link-checker",
-                            "target": {
-                                "oid": "aaa9afe016a8e3e68e3cf57343f5af400f60dcbf",
-                                "message": "Add broken-link-checker.",
-                                "authoredDate": "2017-10-28T09:32:20Z",
-                                "author": {
-                                    "name": "XhmikosR",
-                                    "email": "xhmikosr@gmail.com",
-                                    "date": "2017-10-28T09:32:20Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjM0OTYyMQ==",
-                                        "login": "XhmikosR",
-                                        "name": "",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/349621?v=4",
-                                        "url": "https://github.com/XhmikosR",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
-                                    "name": "XhmikosR",
-                                    "email": "xhmikosr@gmail.com",
-                                    "date": "2018-04-12T15:06:12+03:00",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjM0OTYyMQ==",
-                                        "login": "XhmikosR",
-                                        "name": "",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/349621?v=4",
-                                        "url": "https://github.com/XhmikosR",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "tree": {
-                                    "oid": "949e792784f8a4841c439499faec109d28f7af1e",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/949e792784f8a4841c439499faec109d28f7af1e",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/949e792784f8a4841c439499faec109d28f7af1e"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "c3caf7ee4e1e6403169ec36e1b1bef36f894c16a",
-                                                "url": "https://github.com/twbs/bootstrap/commit/c3caf7ee4e1e6403169ec36e1b1bef36f894c16a",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/c3caf7ee4e1e6403169ec36e1b1bef36f894c16a"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDp2NC1kZXYteG1yLWRlcHM=",
                             "name": "v4-dev-xmr-deps",
                             "target": {
-                                "oid": "7f52965fa6316c461776dda5f72ebdc33ff2a156",
-                                "message": "Update devDependencies and gems.\n\nDowngrade bundlesize until they make brotli optional since it doesn't work with node.js 10.x yet.\n\nSo, babel, qunit/karma-qunit and bundle-size aren't the latest versions.",
-                                "authoredDate": "2018-04-30T12:18:30Z",
+                                "oid": "263bfb6a647954101ca858147c5f36c2391f81e4",
+                                "message": "Update devDependencies.",
+                                "authoredDate": "2018-07-12T06:40:23Z",
                                 "author": {
                                     "name": "XhmikosR",
                                     "email": "xhmikosr@gmail.com",
-                                    "date": "2018-04-30T12:18:30Z",
+                                    "date": "2018-07-12T09:40:23+03:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjM0OTYyMQ==",
                                         "login": "XhmikosR",
                                         "name": "",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/349621?v=4",
-                                        "url": "https://github.com/XhmikosR",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
                                     "name": "XhmikosR",
                                     "email": "xhmikosr@gmail.com",
-                                    "date": "2018-05-06T15:30:02+03:00",
+                                    "date": "2018-07-12T10:09:29+03:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjM0OTYyMQ==",
                                         "login": "XhmikosR",
                                         "name": "",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/349621?v=4",
-                                        "url": "https://github.com/XhmikosR",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "4ba1d71489625032356cd2f78c4d2d3ba186a178",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/4ba1d71489625032356cd2f78c4d2d3ba186a178",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/4ba1d71489625032356cd2f78c4d2d3ba186a178"
+                                    "oid": "d565cd948435db7936e362bf79bcd760ad0c6a51"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "e5e6d0c86d1456ce43fb2ae84983f7cbe2e707f6",
-                                                "url": "https://github.com/twbs/bootstrap/commit/e5e6d0c86d1456ce43fb2ae84983f7cbe2e707f6",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/e5e6d0c86d1456ce43fb2ae84983f7cbe2e707f6"
+                                                "oid": "a49f5cab6fb2e106113e5ab59fdcecc7f9349301"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDp2NC1kZXYteG1yLWh1Z28=",
                             "name": "v4-dev-xmr-hugo",
                             "target": {
-                                "oid": "471d74cef0f2484870afea3bcfdd04f35a4d88e1",
-                                "message": "Update TODO.",
-                                "authoredDate": "2017-10-30T12:52:17Z",
+                                "oid": "527c130002c098c7c809cf3273d56bc299ee4301",
+                                "message": "Update node-sass for node 10.",
+                                "authoredDate": "2018-06-22T14:39:05Z",
                                 "author": {
                                     "name": "XhmikosR",
                                     "email": "xhmikosr@gmail.com",
-                                    "date": "2017-10-30T12:52:17Z",
+                                    "date": "2018-06-22T17:39:05+03:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjM0OTYyMQ==",
                                         "login": "XhmikosR",
                                         "name": "",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/349621?v=4",
-                                        "url": "https://github.com/XhmikosR",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
                                     "name": "XhmikosR",
                                     "email": "xhmikosr@gmail.com",
-                                    "date": "2018-01-11T10:55:38+02:00",
+                                    "date": "2018-06-22T17:39:05+03:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjM0OTYyMQ==",
                                         "login": "XhmikosR",
                                         "name": "",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/349621?v=4",
-                                        "url": "https://github.com/XhmikosR",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "726861bfb255c28f796cce5a0679c469c7b09841",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/726861bfb255c28f796cce5a0679c469c7b09841",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/726861bfb255c28f796cce5a0679c469c7b09841"
+                                    "oid": "ab786f7b82fb27a45c4d025924f159b4852eb700"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "dd7b9706f9a1e8a7499ae737b975ba1e0ac2265c",
-                                                "url": "https://github.com/twbs/bootstrap/commit/dd7b9706f9a1e8a7499ae737b975ba1e0ac2265c",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/dd7b9706f9a1e8a7499ae737b975ba1e0ac2265c"
+                                                "oid": "471d74cef0f2484870afea3bcfdd04f35a4d88e1"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDp2NC1kZXYteG1yLWpla3lsbC1zdHJpY3Q=",
-                            "name": "v4-dev-xmr-jekyll-strict",
+                            "name": "v4-dev-xmr-svgo-config",
                             "target": {
-                                "oid": "3df4c1476e5156e623ddcef83394b29884fac70a",
-                                "message": "Make Jekyll's config stricter.",
-                                "authoredDate": "2018-04-10T07:39:11Z",
+                                "oid": "27dbf24ac7cc33b1ae64547cabf64ad86817084c",
+                                "message": "Commit our svgo config.",
+                                "authoredDate": "2018-07-09T13:37:49Z",
                                 "author": {
                                     "name": "XhmikosR",
                                     "email": "xhmikosr@gmail.com",
-                                    "date": "2018-04-10T07:39:11Z",
+                                    "date": "2018-07-09T16:37:49+03:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjM0OTYyMQ==",
                                         "login": "XhmikosR",
                                         "name": "",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/349621?v=4",
-                                        "url": "https://github.com/XhmikosR",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
                                     "name": "XhmikosR",
                                     "email": "xhmikosr@gmail.com",
-                                    "date": "2018-04-10T10:39:22+03:00",
+                                    "date": "2018-07-09T16:37:49+03:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjM0OTYyMQ==",
                                         "login": "XhmikosR",
                                         "name": "",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/349621?v=4",
-                                        "url": "https://github.com/XhmikosR",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "1ade73e7f483c883a7209e1d520a31ff1721cbba",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/1ade73e7f483c883a7209e1d520a31ff1721cbba",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/1ade73e7f483c883a7209e1d520a31ff1721cbba"
+                                    "oid": "3857b84a58d1d45a664a0a6e0438e6ad25f6da93"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "875ed0b975a587fffcc1b0c632e1cc8f612ebc5a",
-                                                "url": "https://github.com/twbs/bootstrap/commit/875ed0b975a587fffcc1b0c632e1cc8f612ebc5a",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/875ed0b975a587fffcc1b0c632e1cc8f612ebc5a"
+                                                "oid": "cfc9c85b322bc72b80c0d2398a65febe5bb875b6"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDp2NC1kZXY=",
                             "name": "v4-dev",
                             "target": {
-                                "oid": "e5e6d0c86d1456ce43fb2ae84983f7cbe2e707f6",
-                                "message": "Fix heading levels (#26433)\n\nH3 was used without preceding H2, breaking document flow.",
-                                "authoredDate": "2018-05-01T14:34:47Z",
+                                "oid": "48c723b60fdf067363ecb289ea33435252ed2168",
+                                "message": "Fix custom range thumb style (#26385)\n\n* Fix focus box shadow of custom ranges\r\n\r\n* Put `:focus` selector right after `.custom-range`\r\n* Remove unnecessary `outline: none`\r\n\r\n* Fix box-shadow issues in IE/Edge\r\n\r\n* Better align\r\n\r\n* Fix thumb vertical positions in IE/Edge\r\n\r\n* Fix incorrect formula of thumb vertical positions in Webkit\r\n\r\n* Fix an incorrect comment\r\n\r\n* Fix incorrect box-shadow-width",
+                                "authoredDate": "2018-07-15T04:31:20Z",
                                 "author": {
-                                    "name": "Brandon",
-                                    "email": "loganb1@ohio.edu",
-                                    "date": "2018-05-01T14:34:47Z",
+                                    "name": "ysds",
+                                    "email": "fellows3@gmail.com",
+                                    "date": "2018-07-15T13:31:20+09:00",
                                     "user": {
-                                        "id": "MDQ6VXNlcjE4MjY5ODQy",
-                                        "login": "brandon-d-logan",
-                                        "name": "Brandon",
+                                        "id": "MDQ6VXNlcjQwNjU3NjU=",
+                                        "login": "ysds",
+                                        "name": "",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/18269842?v=4",
-                                        "url": "https://github.com/brandon-d-logan",
+                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/4065765?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
-                                    "name": "Patrick H. Lauke",
-                                    "email": "redux@splintered.co.uk",
-                                    "date": "2018-05-01T15:34:47+01:00",
+                                    "name": "Mark Otto",
+                                    "email": "otto@github.com",
+                                    "date": "2018-07-14T21:31:20-07:00",
                                     "user": {
-                                        "id": "MDQ6VXNlcjg5NTgzMQ==",
-                                        "login": "patrickhlauke",
-                                        "name": "Patrick H. Lauke",
+                                        "id": "MDQ6VXNlcjk4Njgx",
+                                        "login": "mdo",
+                                        "name": "Mark Otto",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/895831?v=4",
-                                        "url": "https://github.com/patrickhlauke",
-                                        "isSiteAdmin": false
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
+                                        "isSiteAdmin": true
                                     }
                                 },
                                 "tree": {
-                                    "oid": "1211627b5fd3bead8ff91c3a95fdfc44585c6e19",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/1211627b5fd3bead8ff91c3a95fdfc44585c6e19",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/1211627b5fd3bead8ff91c3a95fdfc44585c6e19"
+                                    "oid": "0d1983bd97f94d823b6e5d6f95fe29dda801435c"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "779ad9f174ea5ab7e755f6df0ec9e5912d67dd16",
-                                                "url": "https://github.com/twbs/bootstrap/commit/779ad9f174ea5ab7e755f6df0ec9e5912d67dd16",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/779ad9f174ea5ab7e755f6df0ec9e5912d67dd16"
+                                                "oid": "0fd40837e816869325e527eb292ba54d7de9c083"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDp2NC1uYXZiYXItbGV2ZXI=",
                             "name": "v4-navbar-lever",
                             "target": {
                                 "oid": "ec54cece5837319f96b6fac3e9865ecd22f74b3b",
@@ -1540,14 +1610,13 @@
                                 "author": {
                                     "name": "Mark Otto",
                                     "email": "markdotto@gmail.com",
-                                    "date": "2016-10-17T06:51:38Z",
+                                    "date": "2016-10-16T23:51:38-07:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjk4Njgx",
                                         "login": "mdo",
                                         "name": "Mark Otto",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
-                                        "url": "https://github.com/mdo",
                                         "isSiteAdmin": true
                                     }
                                 },
@@ -1561,87 +1630,76 @@
                                         "name": "Mark Otto",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
-                                        "url": "https://github.com/mdo",
                                         "isSiteAdmin": true
                                     }
                                 },
                                 "tree": {
-                                    "oid": "95f0e5a7ee698bda4a29c6f84abd61809af9f5c4",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/95f0e5a7ee698bda4a29c6f84abd61809af9f5c4",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/95f0e5a7ee698bda4a29c6f84abd61809af9f5c4"
+                                    "oid": "95f0e5a7ee698bda4a29c6f84abd61809af9f5c4"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "6e8ce0c7dc84c9373f6d760b82bea575cd5358b8",
-                                                "url": "https://github.com/twbs/bootstrap/commit/6e8ce0c7dc84c9373f6d760b82bea575cd5358b8",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/6e8ce0c7dc84c9373f6d760b82bea575cd5358b8"
+                                                "oid": "6e8ce0c7dc84c9373f6d760b82bea575cd5358b8"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDp2NC13aXRob3V0LWpxdWVyeQ==",
                             "name": "v4-without-jquery",
                             "target": {
-                                "oid": "02a99dec7b582a26b7912637ccbbb8566b30ed49",
-                                "message": "remove old references to jquery",
-                                "authoredDate": "2018-03-11T15:18:56Z",
+                                "oid": "7268f1bc3e6b304f8f84ad7639ebd484f741954b",
+                                "message": "fix(plugins): save instance in constructor",
+                                "authoredDate": "2018-06-24T20:02:03Z",
                                 "author": {
-                                    "name": "Alessandro Chitolina",
-                                    "email": "alekitto@gmail.com",
-                                    "date": "2018-03-11T15:18:56Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjEyNTcyMDY=",
-                                        "login": "alekitto",
-                                        "name": "Alessandro Chitolina",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1257206?v=4",
-                                        "url": "https://github.com/alekitto",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
                                     "name": "Johann-S",
                                     "email": "johann.servoire@gmail.com",
-                                    "date": "2018-03-18T23:03:17+01:00",
+                                    "date": "2018-06-24T22:02:03+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjE2ODk3NTA=",
                                         "login": "Johann-S",
                                         "name": "Johann-S",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/1689750?v=4",
-                                        "url": "https://github.com/Johann-S",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Johann-S",
+                                    "email": "johann.servoire@gmail.com",
+                                    "date": "2018-06-24T22:25:06+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE2ODk3NTA=",
+                                        "login": "Johann-S",
+                                        "name": "Johann-S",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/1689750?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "4f350f5c85f27aab490a6c29338fc8fa65df7c84",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/4f350f5c85f27aab490a6c29338fc8fa65df7c84",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/4f350f5c85f27aab490a6c29338fc8fa65df7c84"
+                                    "oid": "03d4f9524255368e67d900b5205c240c952afac9"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "0253ce136fef02ac7f4ed1af82421ffaa230e52b",
-                                                "url": "https://github.com/twbs/bootstrap/commit/0253ce136fef02ac7f4ed1af82421ffaa230e52b",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/0253ce136fef02ac7f4ed1af82421ffaa230e52b"
+                                                "oid": "eb163675eb7a10b7d2a051b49ed9b0c959dd2266"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMjEyNjI0NDp2YWxpZGF0aW9uLXJlcXVpcmVk",
                             "name": "validation-required",
                             "target": {
                                 "oid": "9488808e6b3607bbd721e4829588c74bb5ffdc37",
@@ -1650,14 +1708,13 @@
                                 "author": {
                                     "name": "Mark Otto",
                                     "email": "markdotto@gmail.com",
-                                    "date": "2017-11-28T22:00:03Z",
+                                    "date": "2017-11-28T14:00:03-08:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjk4Njgx",
                                         "login": "mdo",
                                         "name": "Mark Otto",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
-                                        "url": "https://github.com/mdo",
                                         "isSiteAdmin": true
                                     }
                                 },
@@ -1671,26 +1728,22 @@
                                         "name": "Mark Otto",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/98681?v=4",
-                                        "url": "https://github.com/mdo",
                                         "isSiteAdmin": true
                                     }
                                 },
                                 "tree": {
-                                    "oid": "5f0b71467896d49161af75d28120558a803c6fce",
-                                    "commitUrl": "https://github.com/twbs/bootstrap/commit/5f0b71467896d49161af75d28120558a803c6fce",
-                                    "commitResourcePath": "/twbs/bootstrap/commit/5f0b71467896d49161af75d28120558a803c6fce"
+                                    "oid": "5f0b71467896d49161af75d28120558a803c6fce"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "8aa003b11a25282c063ce6db51c932030156ccaf",
-                                                "url": "https://github.com/twbs/bootstrap/commit/8aa003b11a25282c063ce6db51c932030156ccaf",
-                                                "commitUrl": "https://github.com/twbs/bootstrap/commit/8aa003b11a25282c063ce6db51c932030156ccaf"
+                                                "oid": "8aa003b11a25282c063ce6db51c932030156ccaf"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     }
