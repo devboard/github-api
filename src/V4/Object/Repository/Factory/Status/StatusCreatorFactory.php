@@ -14,6 +14,16 @@ class StatusCreatorFactory
 {
     public function create(array $data): StatusCreator
     {
+        if ([] === $data) {
+            return new StatusCreator(
+                new AccountId(10137),
+                new AccountLogin('ghost'),
+                AccountType::BOT(),
+                new AccountAvatarUrl('https://avatars1.githubusercontent.com/u/10137?v=4'),
+                false
+            );
+        }
+
         $id = str_replace('04:User', '', base64_decode($data['id']));
 
         return new StatusCreator(
