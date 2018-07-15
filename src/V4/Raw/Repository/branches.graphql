@@ -7,7 +7,6 @@ query ($owner: String!, $name: String!) {
             }
             edges {
                 node {
-                    id
                     name
                     target {
                         ... on Commit {
