@@ -1,5 +1,14 @@
 CHANGELOG
 
+Version 1.4.0 [2018-07-15]:
+
+ - Add cursor to all existing GraphQL queries #64
+ - Update testdata with changes from #58,#59,#60
+ - We dont need branch id when fetching branches #59
+ - We dont need repository id or name when fetching branches #59
+ - Remove various urls when fetching branches #59
+ - Fetch commit signature information when fetching branches #58
+ - Add PageInfo to GraphQL queries missing it #60
 
 Version 1.3.0 [2018-07-01]:
  - Adding allBranchStatuses() && allPullRequestStatuses() + deprecating old ones
