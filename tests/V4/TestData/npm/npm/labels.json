@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnkzMjEyNzg=",
             "name": "npm",
             "labels": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Y3Vyc29yOnYyOpHONmn7og=="
+                },
                 "edges": [
                     {
                         "node": {
