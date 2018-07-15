@@ -30,7 +30,26 @@ class BranchApi
         ];
         $client = $this->clientFactory->createAppAndUserAuthenticatedClient($credentials);
 
-        $data = $client->graphql()->execute($queryDefinition, $variables);
+        $edges = [];
+
+        do {
+            $data = $client->graphql()->execute($queryDefinition, $variables);
+
+            if (false === $data['data']['repository']['refs']['pageInfo']['hasNextPage']) {
+                break;
+            }
+            // Merge edges with previous ones
+            $edges = array_merge($edges, $data['data']['repository']['refs']['edges']);
+
+            $lastId = $data['data']['repository']['refs']['pageInfo']['endCursor'];
+
+            $variables['cursor'] = $lastId;
+        } while (true);
+
+        //Merge previously gathered edges to last one
+        $data['data']['repository']['refs']['edges'] = array_merge(
+            $data['data']['repository']['refs']['edges'], $edges
+        );
 
         return $data;
     }
