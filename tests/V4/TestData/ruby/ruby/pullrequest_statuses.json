@@ -8143,13 +8143,7 @@
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MjI0MDI0MDY=",
                                 "number": 732,
-                                "headRef": {
-                                    "id": "MDM6UmVmMjQ5MjU5NDM6bWlub3ItdHlwby1pbi1wa2dfY29uZmlnLWNvbW1lbnQ=",
-                                    "target": {
-                                        "oid": "f2937082b2616a19e93ca6e0f8e6588d0f9e052c",
-                                        "status": null
-                                    }
-                                }
+                                "headRef": null
                             }
                         },
                         {
@@ -8948,26 +8942,14 @@
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MjY3ODg3MDY=",
                                 "number": 805,
-                                "headRef": {
-                                    "id": "MDM6UmVmMjg3NTgyOTQ6dHJ1bms=",
-                                    "target": {
-                                        "oid": "013ff07ad1e8e63b5a3db6a0ecdcf76b22d60f2c",
-                                        "status": null
-                                    }
-                                }
+                                "headRef": null
                             }
                         },
                         {
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MjY4MDIyNDk=",
                                 "number": 806,
-                                "headRef": {
-                                    "id": "MDM6UmVmMjg3NTgyOTQ6b3N0cnVjdC1tb2RpZmlhYmxl",
-                                    "target": {
-                                        "oid": "06576d9843fbe51cf9bc022911fff8fc92600729",
-                                        "status": null
-                                    }
-                                }
+                                "headRef": null
                             }
                         }
                     ]
@@ -9484,18 +9466,18 @@
                                 "headRef": {
                                     "id": "MDM6UmVmNTM4NzQ2OnRydW5r",
                                     "target": {
-                                        "oid": "fb2acec9439a023396cca3245d4dabb12a78f1da",
+                                        "oid": "a70d5ff0aba89e889c7b63e80be2384306c33e83",
                                         "status": {
-                                            "id": "MDY6U3RhdHVzNTM4NzQ2OmZiMmFjZWM5NDM5YTAyMzM5NmNjYTMyNDVkNGRhYmIxMmE3OGYxZGE=",
+                                            "id": "MDY6U3RhdHVzNTM4NzQ2OmE3MGQ1ZmYwYWJhODllODg5YzdiNjNlODBiZTIzODQzMDZjMzNlODM=",
                                             "state": "SUCCESS",
                                             "contexts": [
                                                 {
-                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE3NDI2MDMx",
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyMzI3MDUw",
                                                     "context": "continuous-integration/appveyor/branch",
                                                     "description": "AppVeyor build succeeded",
                                                     "state": "SUCCESS",
-                                                    "targetUrl": "https://ci.appveyor.com/project/ruby/ruby/build/1.0.8323",
-                                                    "createdAt": "2018-05-06T10:15:23Z",
+                                                    "targetUrl": "https://ci.appveyor.com/project/ruby/ruby/build/1.0.8886",
+                                                    "createdAt": "2018-07-14T17:26:35Z",
                                                     "creator": {
                                                         "id": "MDQ6VXNlcjEyMzAx",
                                                         "login": "hsbt",
@@ -9507,20 +9489,20 @@
                                                     }
                                                 },
                                                 {
-                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE3NDE4MjEz",
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyOTEyMjY4",
                                                     "context": "continuous-integration/travis-ci/push",
                                                     "description": "The Travis CI build passed",
                                                     "state": "SUCCESS",
-                                                    "targetUrl": "https://travis-ci.org/ruby/ruby/builds/375489510?utm_source=github_status&utm_medium=notification",
-                                                    "createdAt": "2018-05-06T10:06:34Z",
+                                                    "targetUrl": "https://travis-ci.org/ruby/ruby/builds/404064044?utm_source=github_status&utm_medium=notification",
+                                                    "createdAt": "2018-07-15T07:06:06Z",
                                                     "creator": {
-                                                        "id": "MDQ6VXNlcjMxMjQ=",
-                                                        "login": "tenderlove",
-                                                        "name": "Aaron Patterson",
+                                                        "id": "MDQ6VXNlcjEzNDIz",
+                                                        "login": "nurse",
+                                                        "name": "NARUSE, Yui",
                                                         "__typename": "User",
-                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/3124?v=4",
-                                                        "url": "https://github.com/tenderlove",
-                                                        "isSiteAdmin": true
+                                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/13423?v=4",
+                                                        "url": "https://github.com/nurse",
+                                                        "isSiteAdmin": false
                                                     }
                                                 }
                                             ]
@@ -9567,13 +9549,7 @@
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MzE5Mjk0OTA=",
                                 "number": 859,
-                                "headRef": {
-                                    "id": "MDM6UmVmMzI4NzAyMTY6dGVzdC1vYnNlcnZlcnM=",
-                                    "target": {
-                                        "oid": "8ca530d9a94ddc402af8f6e194edb93bd77c9c10",
-                                        "status": null
-                                    }
-                                }
+                                "headRef": null
                             }
                         },
                         {
@@ -11090,20 +11066,20 @@
                                             "state": "FAILURE",
                                             "contexts": [
                                                 {
-                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE3MjU2ODU3",
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTMxNTgxMDg2",
                                                     "context": "continuous-integration/travis-ci/push",
                                                     "description": "The Travis CI build failed",
                                                     "state": "FAILURE",
-                                                    "targetUrl": "https://travis-ci.org/ruby/ruby/builds/375455748?utm_source=github_status&utm_medium=notification",
-                                                    "createdAt": "2018-05-06T06:34:32Z",
+                                                    "targetUrl": "https://travis-ci.org/ruby/ruby/builds/396735735?utm_source=github_status&utm_medium=notification",
+                                                    "createdAt": "2018-06-26T07:01:08Z",
                                                     "creator": {
-                                                        "id": "MDQ6VXNlcjMxMjQ=",
-                                                        "login": "tenderlove",
-                                                        "name": "Aaron Patterson",
+                                                        "id": "MDQ6VXNlcjEzNDIz",
+                                                        "login": "nurse",
+                                                        "name": "NARUSE, Yui",
                                                         "__typename": "User",
-                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/3124?v=4",
-                                                        "url": "https://github.com/tenderlove",
-                                                        "isSiteAdmin": true
+                                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/13423?v=4",
+                                                        "url": "https://github.com/nurse",
+                                                        "isSiteAdmin": false
                                                     }
                                                 }
                                             ]
@@ -11164,7 +11140,7 @@
                 "pullRequests": {
                     "pageInfo": {
                         "hasNextPage": true,
-                        "endCursor": "Y3Vyc29yOnYyOpHOAw8gVA=="
+                        "endCursor": "Y3Vyc29yOnYyOpHOAxBuqA=="
                     },
                     "edges": [
                         {
@@ -11182,19 +11158,6 @@
                                     "id": "MDM6UmVmMTYyOTIyOTc6cGF0Y2gtMg==",
                                     "target": {
                                         "oid": "7d54a6ebe06cf76f710bddaad362786bed7f46b7",
-                                        "status": null
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "node": {
-                                "id": "MDExOlB1bGxSZXF1ZXN0NDM1Mjg4MTY=",
-                                "number": 1010,
-                                "headRef": {
-                                    "id": "MDM6UmVmNDE0OTM1MTI6dHJ1bms=",
-                                    "target": {
-                                        "oid": "891cac2b5d84139a663aa203bb23cce50e4485bb",
                                         "status": null
                                     }
                                 }
@@ -12284,18 +12247,18 @@
                                 "headRef": {
                                     "id": "MDM6UmVmNTM4NzQ2OnRydW5r",
                                     "target": {
-                                        "oid": "fb2acec9439a023396cca3245d4dabb12a78f1da",
+                                        "oid": "a70d5ff0aba89e889c7b63e80be2384306c33e83",
                                         "status": {
-                                            "id": "MDY6U3RhdHVzNTM4NzQ2OmZiMmFjZWM5NDM5YTAyMzM5NmNjYTMyNDVkNGRhYmIxMmE3OGYxZGE=",
+                                            "id": "MDY6U3RhdHVzNTM4NzQ2OmE3MGQ1ZmYwYWJhODllODg5YzdiNjNlODBiZTIzODQzMDZjMzNlODM=",
                                             "state": "SUCCESS",
                                             "contexts": [
                                                 {
-                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE3NDI2MDMx",
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyMzI3MDUw",
                                                     "context": "continuous-integration/appveyor/branch",
                                                     "description": "AppVeyor build succeeded",
                                                     "state": "SUCCESS",
-                                                    "targetUrl": "https://ci.appveyor.com/project/ruby/ruby/build/1.0.8323",
-                                                    "createdAt": "2018-05-06T10:15:23Z",
+                                                    "targetUrl": "https://ci.appveyor.com/project/ruby/ruby/build/1.0.8886",
+                                                    "createdAt": "2018-07-14T17:26:35Z",
                                                     "creator": {
                                                         "id": "MDQ6VXNlcjEyMzAx",
                                                         "login": "hsbt",
@@ -12307,20 +12270,20 @@
                                                     }
                                                 },
                                                 {
-                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE3NDE4MjEz",
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyOTEyMjY4",
                                                     "context": "continuous-integration/travis-ci/push",
                                                     "description": "The Travis CI build passed",
                                                     "state": "SUCCESS",
-                                                    "targetUrl": "https://travis-ci.org/ruby/ruby/builds/375489510?utm_source=github_status&utm_medium=notification",
-                                                    "createdAt": "2018-05-06T10:06:34Z",
+                                                    "targetUrl": "https://travis-ci.org/ruby/ruby/builds/404064044?utm_source=github_status&utm_medium=notification",
+                                                    "createdAt": "2018-07-15T07:06:06Z",
                                                     "creator": {
-                                                        "id": "MDQ6VXNlcjMxMjQ=",
-                                                        "login": "tenderlove",
-                                                        "name": "Aaron Patterson",
+                                                        "id": "MDQ6VXNlcjEzNDIz",
+                                                        "login": "nurse",
+                                                        "name": "NARUSE, Yui",
                                                         "__typename": "User",
-                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/3124?v=4",
-                                                        "url": "https://github.com/tenderlove",
-                                                        "isSiteAdmin": true
+                                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/13423?v=4",
+                                                        "url": "https://github.com/nurse",
+                                                        "isSiteAdmin": false
                                                     }
                                                 }
                                             ]
@@ -12355,6 +12318,13 @@
                                 "number": 1107,
                                 "headRef": null
                             }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0NTE0MDg1NTI=",
+                                "number": 1108,
+                                "headRef": null
+                            }
                         }
                     ]
                 }
@@ -12369,16 +12339,9 @@
                 "pullRequests": {
                     "pageInfo": {
                         "hasNextPage": true,
-                        "endCursor": "Y3Vyc29yOnYyOpHOA2FUjA=="
+                        "endCursor": "Y3Vyc29yOnYyOpHOA2Fp0A=="
                     },
                     "edges": [
-                        {
-                            "node": {
-                                "id": "MDExOlB1bGxSZXF1ZXN0NTE0MDg1NTI=",
-                                "number": 1108,
-                                "headRef": null
-                            }
-                        },
                         {
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0NTE0NzAxMTQ=",
@@ -12642,13 +12605,7 @@
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0NTMwODU5NzM=",
                                 "number": 1134,
-                                "headRef": {
-                                    "id": "MDM6UmVmNDc2NzYwODc6cGF0Y2gtMg==",
-                                    "target": {
-                                        "oid": "e090cdda2b287e7f4848801f6f96a2731bf8d5a7",
-                                        "status": null
-                                    }
-                                }
+                                "headRef": null
                             }
                         },
                         {
@@ -13425,6 +13382,13 @@
                                 "number": 1207,
                                 "headRef": null
                             }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0NTY3MTU3Mjg=",
+                                "number": 1208,
+                                "headRef": null
+                            }
                         }
                     ]
                 }
@@ -13439,16 +13403,9 @@
                 "pullRequests": {
                     "pageInfo": {
                         "hasNextPage": true,
-                        "endCursor": "Y3Vyc29yOnYyOpHOA9QpeA=="
+                        "endCursor": "Y3Vyc29yOnYyOpHOA9R2cQ=="
                     },
                     "edges": [
-                        {
-                            "node": {
-                                "id": "MDExOlB1bGxSZXF1ZXN0NTY3MTU3Mjg=",
-                                "number": 1208,
-                                "headRef": null
-                            }
-                        },
                         {
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0NTY4NzQ2NTc=",
@@ -13500,26 +13457,14 @@
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0NTY5MDE4MTM=",
                                 "number": 1214,
-                                "headRef": {
-                                    "id": "MDM6UmVmNDc2NzYwODc6cmVhZG1lLXN2Zy1iYWRnZQ==",
-                                    "target": {
-                                        "oid": "a200798e6739a84bbc33f4570cb83f46d77053ac",
-                                        "status": null
-                                    }
-                                }
+                                "headRef": null
                             }
                         },
                         {
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0NTY5MDM4ODg=",
                                 "number": 1215,
-                                "headRef": {
-                                    "id": "MDM6UmVmNTAxODk4ODc6dHJ1bms=",
-                                    "target": {
-                                        "oid": "eb0a6c3dd32b19b8480bb8c64318fceb52f1568b",
-                                        "status": null
-                                    }
-                                }
+                                "headRef": null
                             }
                         },
                         {
@@ -13990,20 +13935,20 @@
                                             "state": "SUCCESS",
                                             "contexts": [
                                                 {
-                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE2MTE4NjM5",
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyOTE0Nzc1",
                                                     "context": "continuous-integration/travis-ci/push",
                                                     "description": "The Travis CI build passed",
                                                     "state": "SUCCESS",
-                                                    "targetUrl": "https://travis-ci.org/ruby/ruby/builds/375192521?utm_source=github_status&utm_medium=notification",
-                                                    "createdAt": "2018-05-05T06:36:05Z",
+                                                    "targetUrl": "https://travis-ci.org/ruby/ruby/builds/404064898?utm_source=github_status&utm_medium=notification",
+                                                    "createdAt": "2018-07-15T07:09:56Z",
                                                     "creator": {
-                                                        "id": "MDQ6VXNlcjMxMjQ=",
-                                                        "login": "tenderlove",
-                                                        "name": "Aaron Patterson",
+                                                        "id": "MDQ6VXNlcjEzNDIz",
+                                                        "login": "nurse",
+                                                        "name": "NARUSE, Yui",
                                                         "__typename": "User",
-                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/3124?v=4",
-                                                        "url": "https://github.com/tenderlove",
-                                                        "isSiteAdmin": true
+                                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/13423?v=4",
+                                                        "url": "https://github.com/nurse",
+                                                        "isSiteAdmin": false
                                                     }
                                                 }
                                             ]
@@ -14485,6 +14430,13 @@
                                 "number": 1307,
                                 "headRef": null
                             }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0NjQyNTU2MDE=",
+                                "number": 1308,
+                                "headRef": null
+                            }
                         }
                     ]
                 }
@@ -14499,16 +14451,9 @@
                 "pullRequests": {
                     "pageInfo": {
                         "hasNextPage": true,
-                        "endCursor": "Y3Vyc29yOnYyOpHOBMc65A=="
+                        "endCursor": "Y3Vyc29yOnYyOpHOBNLc/Q=="
                     },
                     "edges": [
-                        {
-                            "node": {
-                                "id": "MDExOlB1bGxSZXF1ZXN0NjQyNTU2MDE=",
-                                "number": 1308,
-                                "headRef": null
-                            }
-                        },
                         {
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0NjQzNDAyNTU=",
@@ -15489,20 +15434,20 @@
                                             "state": "FAILURE",
                                             "contexts": [
                                                 {
-                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE3MjU2ODU3",
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTMxNTgxMDg2",
                                                     "context": "continuous-integration/travis-ci/push",
                                                     "description": "The Travis CI build failed",
                                                     "state": "FAILURE",
-                                                    "targetUrl": "https://travis-ci.org/ruby/ruby/builds/375455748?utm_source=github_status&utm_medium=notification",
-                                                    "createdAt": "2018-05-06T06:34:32Z",
+                                                    "targetUrl": "https://travis-ci.org/ruby/ruby/builds/396735735?utm_source=github_status&utm_medium=notification",
+                                                    "createdAt": "2018-06-26T07:01:08Z",
                                                     "creator": {
-                                                        "id": "MDQ6VXNlcjMxMjQ=",
-                                                        "login": "tenderlove",
-                                                        "name": "Aaron Patterson",
+                                                        "id": "MDQ6VXNlcjEzNDIz",
+                                                        "login": "nurse",
+                                                        "name": "NARUSE, Yui",
                                                         "__typename": "User",
-                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/3124?v=4",
-                                                        "url": "https://github.com/tenderlove",
-                                                        "isSiteAdmin": true
+                                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/13423?v=4",
+                                                        "url": "https://github.com/nurse",
+                                                        "isSiteAdmin": false
                                                     }
                                                 }
                                             ]
@@ -15703,6 +15648,13 @@
                                     }
                                 }
                             }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0ODA5Mjc5OTc=",
+                                "number": 1410,
+                                "headRef": null
+                            }
                         }
                     ]
                 }
@@ -15717,16 +15669,9 @@
                 "pullRequests": {
                     "pageInfo": {
                         "hasNextPage": true,
-                        "endCursor": "Y3Vyc29yOnYyOpHOBgRwig=="
+                        "endCursor": "Y3Vyc29yOnYyOpHOBgmakg=="
                     },
                     "edges": [
-                        {
-                            "node": {
-                                "id": "MDExOlB1bGxSZXF1ZXN0ODA5Mjc5OTc=",
-                                "number": 1410,
-                                "headRef": null
-                            }
-                        },
                         {
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0ODE1ODQ4MTY=",
@@ -16029,13 +15974,7 @@
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0ODY2MDQyODk=",
                                 "number": 1439,
-                                "headRef": {
-                                    "id": "MDM6UmVmNjkwNjk2Njc6ZmVhdHVyZS8xMjc4Ni1zdHJpbmctY2FzZWNtcC1wcmVkaWNhdGU=",
-                                    "target": {
-                                        "oid": "7a5f0ea265e907d631de4cd6f39625ddbbecf1b5",
-                                        "status": null
-                                    }
-                                }
+                                "headRef": null
                             }
                         },
                         {
@@ -16360,8 +16299,30 @@
                                 "headRef": {
                                     "id": "MDM6UmVmNDI1MTY5OTM6dHJ1bms=",
                                     "target": {
-                                        "oid": "e5158db4fdcb3b8d54be38297e6e83498f2995b6",
-                                        "status": null
+                                        "oid": "bc4ecaa6990a0fbf81e1547aa7216c5a6d0d2213",
+                                        "status": {
+                                            "id": "MDY6U3RhdHVzNDI1MTY5OTM6YmM0ZWNhYTY5OTBhMGZiZjgxZTE1NDdhYTcyMTZjNWE2ZDBkMjIxMw==",
+                                            "state": "SUCCESS",
+                                            "contexts": [
+                                                {
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTgyMTk0MTA3",
+                                                    "context": "continuous-integration/travis-ci/push",
+                                                    "description": "The Travis CI build passed",
+                                                    "state": "SUCCESS",
+                                                    "targetUrl": "https://travis-ci.com/ioquatix/ruby/builds/78370789?utm_source=github_status&utm_medium=notification",
+                                                    "createdAt": "2018-07-08T02:10:20Z",
+                                                    "creator": {
+                                                        "id": "MDQ6VXNlcjMwMDMw",
+                                                        "login": "ioquatix",
+                                                        "name": "Samuel Williams",
+                                                        "__typename": "User",
+                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/30030?v=4",
+                                                        "url": "https://github.com/ioquatix",
+                                                        "isSiteAdmin": false
+                                                    }
+                                                }
+                                            ]
+                                        }
                                     }
                                 }
                             }
@@ -16801,6 +16762,13 @@
                                     }
                                 }
                             }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTAxMjkyNjkw",
+                                "number": 1511,
+                                "headRef": null
+                            }
                         }
                     ]
                 }
@@ -16815,16 +16783,9 @@
                 "pullRequests": {
                     "pageInfo": {
                         "hasNextPage": true,
-                        "endCursor": "Y3Vyc29yOnYyOpHOBym2tA=="
+                        "endCursor": "Y3Vyc29yOnYyOpHOBy3Q9Q=="
                     },
                     "edges": [
-                        {
-                            "node": {
-                                "id": "MDExOlB1bGxSZXF1ZXN0MTAxMjkyNjkw",
-                                "number": 1511,
-                                "headRef": null
-                            }
-                        },
                         {
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MTAxNTk1NzEy",
@@ -16954,20 +16915,20 @@
                                             "state": "SUCCESS",
                                             "contexts": [
                                                 {
-                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE2MTE4NjM5",
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyOTE0Nzc1",
                                                     "context": "continuous-integration/travis-ci/push",
                                                     "description": "The Travis CI build passed",
                                                     "state": "SUCCESS",
-                                                    "targetUrl": "https://travis-ci.org/ruby/ruby/builds/375192521?utm_source=github_status&utm_medium=notification",
-                                                    "createdAt": "2018-05-05T06:36:05Z",
+                                                    "targetUrl": "https://travis-ci.org/ruby/ruby/builds/404064898?utm_source=github_status&utm_medium=notification",
+                                                    "createdAt": "2018-07-15T07:09:56Z",
                                                     "creator": {
-                                                        "id": "MDQ6VXNlcjMxMjQ=",
-                                                        "login": "tenderlove",
-                                                        "name": "Aaron Patterson",
+                                                        "id": "MDQ6VXNlcjEzNDIz",
+                                                        "login": "nurse",
+                                                        "name": "NARUSE, Yui",
                                                         "__typename": "User",
-                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/3124?v=4",
-                                                        "url": "https://github.com/tenderlove",
-                                                        "isSiteAdmin": true
+                                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/13423?v=4",
+                                                        "url": "https://github.com/nurse",
+                                                        "isSiteAdmin": false
                                                     }
                                                 }
                                             ]
@@ -17013,13 +16974,7 @@
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MTA2NzI5MTEw",
                                 "number": 1526,
-                                "headRef": {
-                                    "id": "MDM6UmVmODIyOTc4ODc6cGF0Y2gtMQ==",
-                                    "target": {
-                                        "oid": "98a600ee8bf16c904a189d825968dc234758331e",
-                                        "status": null
-                                    }
-                                }
+                                "headRef": null
                             }
                         },
                         {
@@ -17873,6 +17828,13 @@
                                     }
                                 }
                             }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTIwNDQzMTI1",
+                                "number": 1612,
+                                "headRef": null
+                            }
                         }
                     ]
                 }
@@ -17887,16 +17849,9 @@
                 "pullRequests": {
                     "pageInfo": {
                         "hasNextPage": true,
-                        "endCursor": "Y3Vyc29yOnYyOpHOCKMqjw=="
+                        "endCursor": "Y3Vyc29yOnYyOpHOCKZchg=="
                     },
                     "edges": [
-                        {
-                            "node": {
-                                "id": "MDExOlB1bGxSZXF1ZXN0MTIwNDQzMTI1",
-                                "number": 1612,
-                                "headRef": null
-                            }
-                        },
                         {
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MTIwNDUxNTIx",
@@ -18207,18 +18162,35 @@
                                 "headRef": {
                                     "id": "MDM6UmVmNTM4NzQ2OnJ1YnlfMl80",
                                     "target": {
-                                        "oid": "753aa75319282297c41a02d9932b5d88ba575112",
+                                        "oid": "c0e77089b2f3c5358562d2fe58e74cc91f8813da",
                                         "status": {
-                                            "id": "MDY6U3RhdHVzNTM4NzQ2Ojc1M2FhNzUzMTkyODIyOTdjNDFhMDJkOTkzMmI1ZDg4YmE1NzUxMTI=",
-                                            "state": "SUCCESS",
+                                            "id": "MDY6U3RhdHVzNTM4NzQ2OmMwZTc3MDg5YjJmM2M1MzU4NTYyZDJmZTU4ZTc0Y2M5MWY4ODEzZGE=",
+                                            "state": "FAILURE",
                                             "contexts": [
                                                 {
-                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0NzcxODE2ODIy",
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjEyOTE0NjE4",
+                                                    "context": "continuous-integration/travis-ci/push",
+                                                    "description": "The Travis CI build failed",
+                                                    "state": "FAILURE",
+                                                    "targetUrl": "https://travis-ci.org/ruby/ruby/builds/404064551?utm_source=github_status&utm_medium=notification",
+                                                    "createdAt": "2018-07-15T07:09:36Z",
+                                                    "creator": {
+                                                        "id": "MDQ6VXNlcjEzNDIz",
+                                                        "login": "nurse",
+                                                        "name": "NARUSE, Yui",
+                                                        "__typename": "User",
+                                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/13423?v=4",
+                                                        "url": "https://github.com/nurse",
+                                                        "isSiteAdmin": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTU0MjE3MTk2",
                                                     "context": "continuous-integration/appveyor/branch",
                                                     "description": "AppVeyor build succeeded",
                                                     "state": "SUCCESS",
-                                                    "targetUrl": "https://ci.appveyor.com/project/ruby/ruby/build/1.0.8045",
-                                                    "createdAt": "2018-03-29T12:26:22Z",
+                                                    "targetUrl": "https://ci.appveyor.com/project/ruby/ruby/build/1.0.8747",
+                                                    "createdAt": "2018-06-30T13:42:13Z",
                                                     "creator": {
                                                         "id": "MDQ6VXNlcjEyMzAx",
                                                         "login": "hsbt",
@@ -18227,23 +18199,6 @@
                                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/12301?v=4",
                                                         "url": "https://github.com/hsbt",
                                                         "isSiteAdmin": false
-                                                    }
-                                                },
-                                                {
-                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE2MTE4NTgz",
-                                                    "context": "continuous-integration/travis-ci/push",
-                                                    "description": "The Travis CI build passed",
-                                                    "state": "SUCCESS",
-                                                    "targetUrl": "https://travis-ci.org/ruby/ruby/builds/375192332?utm_source=github_status&utm_medium=notification",
-                                                    "createdAt": "2018-05-05T06:35:59Z",
-                                                    "creator": {
-                                                        "id": "MDQ6VXNlcjMxMjQ=",
-                                                        "login": "tenderlove",
-                                                        "name": "Aaron Patterson",
-                                                        "__typename": "User",
-                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/3124?v=4",
-                                                        "url": "https://github.com/tenderlove",
-                                                        "isSiteAdmin": true
                                                     }
                                                 }
                                             ]
@@ -18344,13 +18299,7 @@
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MTI2MTQ2NjQz",
                                 "number": 1653,
-                                "headRef": {
-                                    "id": "MDM6UmVmOTQ2MDcwOTI6ZHVtcC1kZWxlZ2F0b3I=",
-                                    "target": {
-                                        "oid": "d12fe4a8b207de364c2e8026c4dc9df71e867af0",
-                                        "status": null
-                                    }
-                                }
+                                "headRef": null
                             }
                         },
                         {
@@ -18777,13 +18726,7 @@
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MTM4NzE0MjU3",
                                 "number": 1692,
-                                "headRef": {
-                                    "id": "MDM6UmVmMTAyMDIyMjYwOmx1Y2FzYnVjaGFsYS1wYXRjaC0x",
-                                    "target": {
-                                        "oid": "c1bb1bb0f72631533aab845927adb25d178025c2",
-                                        "status": null
-                                    }
-                                }
+                                "headRef": null
                             }
                         },
                         {
@@ -18984,6 +18927,13 @@
                                 "number": 1711,
                                 "headRef": null
                             }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTQ1MTIwMzkw",
+                                "number": 1712,
+                                "headRef": null
+                            }
                         }
                     ]
                 }
@@ -18998,16 +18948,9 @@
                 "pullRequests": {
                     "pageInfo": {
                         "hasNextPage": true,
-                        "endCursor": "Y3Vyc29yOnYyOpHOCfuObg=="
+                        "endCursor": "Y3Vyc29yOnYyOpHOCgiVAQ=="
                     },
                     "edges": [
-                        {
-                            "node": {
-                                "id": "MDExOlB1bGxSZXF1ZXN0MTQ1MTIwMzkw",
-                                "number": 1712,
-                                "headRef": null
-                            }
-                        },
                         {
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MTQ1NjIzMDcy",
@@ -19242,13 +19185,7 @@
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MTQ5NDgyNDcz",
                                 "number": 1735,
-                                "headRef": {
-                                    "id": "MDM6UmVmMTA4ODI4MzQ3OmltcHJvdmVfYXJpdHlfZG9jdW1lbnRhdGlvbg==",
-                                    "target": {
-                                        "oid": "d51285835b7c58a2fec43cee30cceaa2414a6550",
-                                        "status": null
-                                    }
-                                }
+                                "headRef": null
                             }
                         },
                         {
@@ -19454,13 +19391,7 @@
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MTUyNzUyMDcw",
                                 "number": 1755,
-                                "headRef": {
-                                    "id": "MDM6UmVmMTA4ODI4MzQ3OmltcHJvdmVfdGVtcGZpbGVfaW50ZXJmYWNl",
-                                    "target": {
-                                        "oid": "440da7152ce68f691608fd4ec419fa05691ec341",
-                                        "status": null
-                                    }
-                                }
+                                "headRef": null
                             }
                         },
                         {
@@ -20056,6 +19987,19 @@
                                 "number": 1811,
                                 "headRef": null
                             }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTY4MzM0NTkz",
+                                "number": 1812,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTIwOTUxNzk3OnBhdGNoLTE=",
+                                    "target": {
+                                        "oid": "d9adee81cc0391502058e93f2f26822e33aa8be6",
+                                        "status": null
+                                    }
+                                }
+                            }
                         }
                     ]
                 }
@@ -20069,23 +20013,10 @@
                 "name": "ruby",
                 "pullRequests": {
                     "pageInfo": {
-                        "hasNextPage": false,
-                        "endCursor": "Y3Vyc29yOnYyOpHOCxkBjg=="
+                        "hasNextPage": true,
+                        "endCursor": "Y3Vyc29yOnYyOpHOC/jR6A=="
                     },
                     "edges": [
-                        {
-                            "node": {
-                                "id": "MDExOlB1bGxSZXF1ZXN0MTY4MzM0NTkz",
-                                "number": 1812,
-                                "headRef": {
-                                    "id": "MDM6UmVmMTIwOTUxNzk3OnBhdGNoLTE=",
-                                    "target": {
-                                        "oid": "d9adee81cc0391502058e93f2f26822e33aa8be6",
-                                        "status": null
-                                    }
-                                }
-                            }
-                        },
                         {
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MTY4NDExMDIz",
@@ -20236,13 +20167,7 @@
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MTcxOTczNzQ0",
                                 "number": 1827,
-                                "headRef": {
-                                    "id": "MDM6UmVmMTIzMjk4MDc2OnBhdGNoLTE=",
-                                    "target": {
-                                        "oid": "034935264ab08c2f0b2561b30e5b8a4bdb61192a",
-                                        "status": null
-                                    }
-                                }
+                                "headRef": null
                             }
                         },
                         {
@@ -20269,13 +20194,7 @@
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MTcyNzcxMjg0",
                                 "number": 1830,
-                                "headRef": {
-                                    "id": "MDM6UmVmMTIzODYwMjkwOnRydW5r",
-                                    "target": {
-                                        "oid": "3dd8e7a66591ff038e1516b102ce67091f0ea5d8",
-                                        "status": null
-                                    }
-                                }
+                                "headRef": null
                             }
                         },
                         {
@@ -20493,13 +20412,7 @@
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MTc3NTI2Nzg3",
                                 "number": 1850,
-                                "headRef": {
-                                    "id": "MDM6UmVmMTIxMDM0MzUzOnVwZGF0ZS1udW1lcmljLWRvY3VtZW50YXRpb24=",
-                                    "target": {
-                                        "oid": "7bf4c517021d54d68b735c9bb1223057ecb3d48d",
-                                        "status": null
-                                    }
-                                }
+                                "headRef": null
                             }
                         },
                         {
@@ -20598,13 +20511,7 @@
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MTgyOTY2ODU4",
                                 "number": 1860,
-                                "headRef": {
-                                    "id": "MDM6UmVmNzk2NTEyMzA6bGFzdF9lcnJvci1pcmI=",
-                                    "target": {
-                                        "oid": "6f3ed4e90151303a4a8567ed45ecf003e5847eee",
-                                        "status": null
-                                    }
-                                }
+                                "headRef": null
                             }
                         },
                         {
@@ -20721,8 +20628,30 @@
                                 "headRef": {
                                     "id": "MDM6UmVmNDI1MTY5OTM6dHJ1bms=",
                                     "target": {
-                                        "oid": "e5158db4fdcb3b8d54be38297e6e83498f2995b6",
-                                        "status": null
+                                        "oid": "bc4ecaa6990a0fbf81e1547aa7216c5a6d0d2213",
+                                        "status": {
+                                            "id": "MDY6U3RhdHVzNDI1MTY5OTM6YmM0ZWNhYTY5OTBhMGZiZjgxZTE1NDdhYTcyMTZjNWE2ZDBkMjIxMw==",
+                                            "state": "SUCCESS",
+                                            "contexts": [
+                                                {
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTgyMTk0MTA3",
+                                                    "context": "continuous-integration/travis-ci/push",
+                                                    "description": "The Travis CI build passed",
+                                                    "state": "SUCCESS",
+                                                    "targetUrl": "https://travis-ci.com/ioquatix/ruby/builds/78370789?utm_source=github_status&utm_medium=notification",
+                                                    "createdAt": "2018-07-08T02:10:20Z",
+                                                    "creator": {
+                                                        "id": "MDQ6VXNlcjMwMDMw",
+                                                        "login": "ioquatix",
+                                                        "name": "Samuel Williams",
+                                                        "__typename": "User",
+                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/30030?v=4",
+                                                        "url": "https://github.com/ioquatix",
+                                                        "isSiteAdmin": false
+                                                    }
+                                                }
+                                            ]
+                                        }
                                     }
                                 }
                             }
@@ -20747,7 +20676,7 @@
                                 "headRef": {
                                     "id": "MDM6UmVmNDI1MTY5OTM6dGhyZWFkLXNlbGVjdG9y",
                                     "target": {
-                                        "oid": "9d8355908dce480a00b222321a8e3bab8890a96d",
+                                        "oid": "9ba7045703360292367e8082e0ca4f70d31aeb44",
                                         "status": null
                                     }
                                 }
@@ -20758,6 +20687,550 @@
                                 "id": "MDExOlB1bGxSZXF1ZXN0MTg2MTg4MTc0",
                                 "number": 1871,
                                 "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTg3NDYxNzkx",
+                                "number": 1872,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTg3NjI1NzQ2",
+                                "number": 1873,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTg4NzMzNTUx",
+                                "number": 1874,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTMzNzIxNjc1OmlvYW5hdGlhX3VzZWxlc3NfZnJlZXpl",
+                                    "target": {
+                                        "oid": "28b34caf2231f6fb7f4489c0afdf01604e0fa004",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkwNzk2MzYz",
+                                "number": 1875,
+                                "headRef": {
+                                    "id": "MDM6UmVmODY1MTA3MjU6YnVpbGRmaXg=",
+                                    "target": {
+                                        "oid": "93d9b932701d76f308f1ed99acae79deb9d6a459",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkxMjE0OTA1",
+                                "number": 1876,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTM1MzI4Mjk4OmZpeC1sb2dnZXItZG9jdW1lbnRhdGlvbg==",
+                                    "target": {
+                                        "oid": "d870c99b8459b56439157472cafe6c42b070d16a",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkxMzA3NTAw",
+                                "number": 1877,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTI3MDA4ODcwOmRlYnVnLW5lZ290aWF0ZWQtc3NsLXZlcnNpb24=",
+                                    "target": {
+                                        "oid": "ee368e7109e195a175f78e6902f700aee9abe32c",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkyMTk3OTEz",
+                                "number": 1878,
+                                "headRef": {
+                                    "id": "MDM6UmVmNDI1MTY5OTM6bmF0aXZlLWZpYmVy",
+                                    "target": {
+                                        "oid": "ebbea8157f818df14be7fb720352320c0cf77aff",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkyMTk5Njg1",
+                                "number": 1879,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTM1Nzk3ODc3OnBvcF9zc2xfaG9zdA==",
+                                    "target": {
+                                        "oid": "f22439e2fa26f85475064d5705a451d85a5076b2",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkyNjc3MTIy",
+                                "number": 1880,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTM2MTY2ODM3OmZpeC10eXBv",
+                                    "target": {
+                                        "oid": "9b88f35fd31308a5a6c07b30f8d2a48dcb300529",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkyOTkyMDkz",
+                                "number": 1881,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkzMDYxODAx",
+                                "number": 1882,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkzMzM3NzU5",
+                                "number": 1883,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkzMzM5NTM3",
+                                "number": 1884,
+                                "headRef": {
+                                    "id": "MDM6UmVmNDc0MjA0OTA6cGF0Y2gtNg==",
+                                    "target": {
+                                        "oid": "208838a382805ef8eaab564aff881026f114a9b8",
+                                        "status": {
+                                            "id": "MDY6U3RhdHVzNDc0MjA0OTA6MjA4ODM4YTM4MjgwNWVmOGVhYWI1NjRhZmY4ODEwMjZmMTE0YTliOA==",
+                                            "state": "FAILURE",
+                                            "contexts": [
+                                                {
+                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ1MDUzMjIyOTEw",
+                                                    "context": "continuous-integration/appveyor/branch",
+                                                    "description": "AppVeyor build failed",
+                                                    "state": "FAILURE",
+                                                    "targetUrl": "https://ci.appveyor.com/project/larskanis/ruby/build/1.0.33",
+                                                    "createdAt": "2018-06-07T14:57:39Z",
+                                                    "creator": {
+                                                        "id": "MDQ6VXNlcjE3NjIzNA==",
+                                                        "login": "larskanis",
+                                                        "name": "Lars Kanis",
+                                                        "__typename": "User",
+                                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/176234?v=4",
+                                                        "url": "https://github.com/larskanis",
+                                                        "isSiteAdmin": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkzMzY3NDg3",
+                                "number": 1885,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTE4MDExMjU3OndyaXRlX3RpbWVvdXRfZG9j",
+                                    "target": {
+                                        "oid": "35c4d2786ff6aa914a8e48c5615534acd5ed3f68",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkzNDkxNTY4",
+                                "number": 1886,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkzNjgwOTkx",
+                                "number": 1887,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTIxMDM0MzUzOnVwZGF0ZS1tb2R1bGUtZG9jdW1lbnRhdGlvbg==",
+                                    "target": {
+                                        "oid": "79457110cc9d4c1b5139ee7f1616df6203ad64c0",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkzNzg5ODY4",
+                                "number": 1888,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTM2NzQ2ODA2OmFzdC1kb2Nz",
+                                    "target": {
+                                        "oid": "cfd689bd7b73b0d4ed75e26db3401cb3a207227b",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkzODAzMzgw",
+                                "number": 1889,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTA2Mzg2NzYwOmZpeF90eXBvX2luX3NpZ25hbHNfZG9j",
+                                    "target": {
+                                        "oid": "53225807e3114cf4d10b8605628f6e1701a2b2bd",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkzODIxOTA0",
+                                "number": 1890,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTA2Mzg2NzYwOnJlbW92ZV91bm5lY2Vzc2FyeV9zZW5k",
+                                    "target": {
+                                        "oid": "ba2d095c8ffc7651d00b05ed703e29793af35518",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk0MTUwOTM1",
+                                "number": 1891,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTM3MDA0ODU4OmJvb3RzdHJhcHBpbmctcnVieS1taWdodC1ub3QtaGF2ZS1taml0LWRlZmluZWQ=",
+                                    "target": {
+                                        "oid": "40ffab01cf3825ba1227b8c9dd22cccbfd9b4325",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk1MDU0OTU5",
+                                "number": 1892,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTM3NDI0Mjc0OmNsaWVudC1jZXJ0LWNoYWlu",
+                                    "target": {
+                                        "oid": "0052debe77daf1aee979274ee39c551163ef7ced",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk1MDU2Mjgz",
+                                "number": 1893,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTM3NDI0Mjc0Omh0dHAtYWxsb3ctc2VydmVybmFtZQ==",
+                                    "target": {
+                                        "oid": "a7d6274b52ca02ba7f3d93a65bd654d4d8e0814d",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk1MjMyMTE3",
+                                "number": 1894,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTM3NTA1NjA3OmludmFsaWR1cmllcnJvci1zaG91bGQtZXNjYXBlLXVyaS1zdHJpbmc=",
+                                    "target": {
+                                        "oid": "af5373f78ae7af4e8a7e660cecb19b970fe400f9",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk1NDU5OTcx",
+                                "number": 1895,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTA5NjQ4NDEwOnJiX2ludGVybl9saXQ=",
+                                    "target": {
+                                        "oid": "ffcfbfaa09af2a7003e557ea5558b17b1ae7c67b",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk1ODE1NTg0",
+                                "number": 1896,
+                                "headRef": {
+                                    "id": "MDM6UmVmNTk1MDY5OnNldC1fX0ZJTEVfX2luLWJpbmRpbmctaXJi",
+                                    "target": {
+                                        "oid": "2b074fb0bd757506c67720d04fafa9115b4944aa",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk2NDc3NTM3",
+                                "number": 1897,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTM4MTQ2ODEyOmZpeC1lbXB0eS1hcnJheS1qb2luLWVuY29kaW5n",
+                                    "target": {
+                                        "oid": "3a0c440c13500d20120920f0acadb39458b76101",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk2ODg4NjI5",
+                                "number": 1898,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTM4MzgyMDY2OmFkZF90ZXN0X2Nhc2VzX2Zvcl9odHRwcmVzcG9uc2U=",
+                                    "target": {
+                                        "oid": "876542a3ccf962f009839c9fe5d099d847b1731e",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk2OTM1MDc2",
+                                "number": 1899,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk3NjA4NTMx",
+                                "number": 1900,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk3OTc4MjUz",
+                                "number": 1901,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTA0NTU2NjU4OnVzZS1uZF9Y",
+                                    "target": {
+                                        "oid": "dba661f772b7302d93c2e0f8ec142c73345c32cf",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk4NDMyNDQ3",
+                                "number": 1902,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTE4MDExMjU3OnJ1YnlsaWJfc3BlYw==",
+                                    "target": {
+                                        "oid": "0a4f8357d5150ec9fe52883cb480f6db845a1488",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk4ODQwOTcy",
+                                "number": 1903,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTM5NTIwNjQwOnBhdGNoLTE=",
+                                    "target": {
+                                        "oid": "d950d044b6a033909446eadea93b4a51ed6fc4ed",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk4OTQ1NTUx",
+                                "number": 1904,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk5MTI1MzMx",
+                                "number": 1905,
+                                "headRef": {
+                                    "id": "MDM6UmVmODQ1MzcxOm11dGFibGVfbWF0cml4",
+                                    "target": {
+                                        "oid": "5f279637ebdca4604c5c77634bb4128bccda06eb",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk5MjEzMjc5",
+                                "number": 1906,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk5ODYyMjQ0",
+                                "number": 1907,
+                                "headRef": {
+                                    "id": "MDM6UmVmNjMzNzcyNzU6cGFjay1zdHJ1Y3Q=",
+                                    "target": {
+                                        "oid": "fb5259ded290e4667013f15a3996afe53638031c",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk5OTE4NTAw",
+                                "number": 1908,
+                                "headRef": {
+                                    "id": "MDM6UmVmNjMzNzcyNzU6aWQtdGFibGUtc29h",
+                                    "target": {
+                                        "oid": "f7af20e724c695a49416488cd2c8ae84c7989272",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk5OTIzMjAw",
+                                "number": 1909,
+                                "headRef": {
+                                    "id": "MDM6UmVmNDI1MTY5OTM6Zml4LWJ5dGVzbGljZQ==",
+                                    "target": {
+                                        "oid": "20bc99fd94ae868a94ff1b5767277dac95aa47c5",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MjAwMTkxMTUy",
+                                "number": 1910,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MjAwNjkxNzU2",
+                                "number": 1911,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTE4MDExMjU3OndpbjMyLWNsb3NlLWJlZm9yZS11bmxpbms=",
+                                    "target": {
+                                        "oid": "37d9f3671f598b9ea8b1b3adc3d4ee585624f825",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MjAwNjk5NjQ5",
+                                "number": 1912,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTE5NjQyODYzOmxhenlfZW51bV9yZWR1Y2VfYXJyYXlfY3JlYXRpb24=",
+                                    "target": {
+                                        "oid": "d7ca6cfd88f24860898f6e6a7d4bd3964dfa3dd9",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MjAwODU2MDQw",
+                                "number": 1913,
+                                "headRef": {
+                                    "id": "MDM6UmVmNjMzNzcyNzU6aW1wcm92ZS1icmFuY2UtbWlzc2VzLWZyb3plbi1jaGVjaw==",
+                                    "target": {
+                                        "oid": "6fae3cd990aa5d6521918dca8bfc132c8c6df96d",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "data": {
+            "repository": {
+                "id": "MDEwOlJlcG9zaXRvcnk1Mzg3NDY=",
+                "name": "ruby",
+                "pullRequests": {
+                    "pageInfo": {
+                        "hasNextPage": false,
+                        "endCursor": "Y3Vyc29yOnYyOpHODAJQ0w=="
+                    },
+                    "edges": [
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MjAwOTE1MzU1",
+                                "number": 1914,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTQwNjc5NTU3OmlyYl9sb2FkX3BhdGhfZXJyb3I=",
+                                    "target": {
+                                        "oid": "db0e83a839539b9724647e8ed93b481f3504b109",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MjAxNDc4MzU1",
+                                "number": 1915,
+                                "headRef": {
+                                    "id": "MDM6UmVmNjMzNzcyNzU6Y2FjaGUtbWlzc2VzLXJiLWJ1Zw==",
+                                    "target": {
+                                        "oid": "71b8b5862239934c49c0deb5ec97b2de76f3719d",
+                                        "status": null
+                                    }
+                                }
                             }
                         }
                     ]
