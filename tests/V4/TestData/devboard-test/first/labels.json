@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnk4NzYzMTUzMA==",
             "name": "first",
             "labels": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Y3Vyc29yOnYyOpHOIoiO4A=="
+                },
                 "edges": [
                     {
                         "node": {

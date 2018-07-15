@@ -1,13 +1,14 @@
 {
     "data": {
         "repository": {
-            "id": "MDEwOlJlcG9zaXRvcnk4MDU1MTQyNQ==",
-            "name": "super-library",
             "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "MQ=="
+                },
                 "edges": [
                     {
                         "node": {
-                            "id": "MDM6UmVmODA1NTE0MjU6bWFzdGVy",
                             "name": "master",
                             "target": {
                                 "oid": "5cf3f07ac9684bbb473abcc600b053d129504ed9",
@@ -16,14 +17,13 @@
                                 "author": {
                                     "name": "devboard-test",
                                     "email": "info@nulldevelopment.hr",
-                                    "date": "2017-01-31T18:59:03Z",
+                                    "date": "2017-01-31T19:59:03+01:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjEzNTA3NDEy",
                                         "login": "devboard-test",
                                         "name": null,
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/13507412?v=4",
-                                        "url": "https://github.com/devboard-test",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -37,18 +37,16 @@
                                         "name": null,
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/13507412?v=4",
-                                        "url": "https://github.com/devboard-test",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "1ac6b2160790c0bf311d19790f32f4226e56234d",
-                                    "commitUrl": "https://github.com/devboard-test/super-library/commit/1ac6b2160790c0bf311d19790f32f4226e56234d",
-                                    "commitResourcePath": "/devboard-test/super-library/commit/1ac6b2160790c0bf311d19790f32f4226e56234d"
+                                    "oid": "1ac6b2160790c0bf311d19790f32f4226e56234d"
                                 },
                                 "parents": {
                                     "edges": []
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     }

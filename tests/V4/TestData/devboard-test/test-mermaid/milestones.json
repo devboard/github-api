@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnk0OTg2OTAzNA==",
             "name": "test-mermaid",
             "milestones": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": null
+                },
                 "edges": []
             }
         }

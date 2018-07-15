@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnk4NzYzMTUyNA==",
             "name": "first",
             "milestones": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": null
+                },
                 "edges": []
             }
         }

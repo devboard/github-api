@@ -4,11 +4,13 @@
     "repositories": [
         {
             "id": 87631524,
+            "node_id": "MDEwOlJlcG9zaXRvcnk4NzYzMTUyNA==",
             "name": "first",
             "full_name": "devboard-org-test/first",
             "owner": {
                 "login": "devboard-org-test",
                 "id": 27066417,
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjI3MDY2NDE3",
                 "avatar_url": "https://avatars3.githubusercontent.com/u/27066417?v=4",
                 "gravatar_id": "",
                 "url": "https://api.github.com/users/devboard-org-test",
@@ -100,11 +102,13 @@
         },
         {
             "id": 95986230,
+            "node_id": "MDEwOlJlcG9zaXRvcnk5NTk4NjIzMA==",
             "name": "invisible-repo",
             "full_name": "devboard-org-test/invisible-repo",
             "owner": {
                 "login": "devboard-org-test",
                 "id": 27066417,
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjI3MDY2NDE3",
                 "avatar_url": "https://avatars3.githubusercontent.com/u/27066417?v=4",
                 "gravatar_id": "",
                 "url": "https://api.github.com/users/devboard-org-test",

@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnk4MDU1MTQyNQ==",
             "name": "super-library",
             "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "MQ=="
+                },
                 "edges": [
                     {
                         "node": {

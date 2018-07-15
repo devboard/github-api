@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTY0NjI=",
             "name": "lib-generix",
             "milestones": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": null
+                },
                 "edges": []
             }
         }

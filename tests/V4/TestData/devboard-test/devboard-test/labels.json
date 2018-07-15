@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnk0NDg3OTcwMA==",
             "name": "devboard-test",
             "labels": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Y3Vyc29yOnYyOpHOEIlg2w=="
+                },
                 "edges": [
                     {
                         "node": {

@@ -1,23 +1,112 @@
 {
     "data": {
         "repository": {
-            "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTY0NjI=",
-            "name": "lib-generix",
             "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "NA=="
+                },
                 "edges": [
                     {
                         "node": {
-                            "id": "MDM6UmVmMTE3MjU2NDYyOjAuNA==",
-                            "name": "0.4",
+                            "name": "check-stability",
                             "target": {
-                                "oid": "7bdebd053a42cde300e874ce737b09ebd38f6be3",
-                                "message": "Bump infection/infection from 0.7.1 to 0.8.1\n\nBumps [infection/infection](https://github.com/infection/infection) from 0.7.1 to 0.8.1.\n- [Release notes](https://github.com/infection/infection/releases)\n- [Changelog](https://github.com/infection/infection/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/infection/infection/compare/0.7.1...0.8.1)",
-                                "authoredDate": "2018-04-04T16:03:35Z",
+                                "oid": "d096a6876224c70183deff1c1d387407df97a825",
+                                "message": "Update composer.lock",
+                                "authoredDate": "2018-07-13T16:57:49Z",
+                                "author": {
+                                    "name": "Miro Svrtan",
+                                    "email": "miro@mirosvrtan.me",
+                                    "date": "2018-07-13T18:57:49+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                        "login": "msvrtan",
+                                        "name": "Miro Svrtan",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Miro Svrtan",
+                                    "email": "miro@mirosvrtan.me",
+                                    "date": "2018-07-13T18:57:49+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
+                                        "login": "msvrtan",
+                                        "name": "Miro Svrtan",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "bf067a134b1c915cd85979df045bf62d409cda2b"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "714e05baee210dfa0607e749369adc910e1f108a"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "dependabot/composer/friendsofphp/php-cs-fixer-2.12.2",
+                            "target": {
+                                "oid": "d3d70b1bc269adf41bb43872862efbf9cb1dd5ae",
+                                "message": "Bump friendsofphp/php-cs-fixer from 2.12.1 to 2.12.2\n\nBumps [friendsofphp/php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) from 2.12.1 to 2.12.2.\n- [Release notes](https://github.com/FriendsOfPHP/PHP-CS-Fixer/releases)\n- [Changelog](https://github.com/FriendsOfPHP/PHP-CS-Fixer/blob/2.12/CHANGELOG.md)\n- [Commits](https://github.com/FriendsOfPHP/PHP-CS-Fixer/compare/v2.12.1...v2.12.2)\n\nSigned-off-by: dependabot[bot] <support@dependabot.com>",
+                                "authoredDate": "2018-07-09T10:20:09Z",
                                 "author": {
                                     "name": "dependabot[bot]",
                                     "email": "support@dependabot.com",
-                                    "date": "2018-04-04T16:03:35Z",
+                                    "date": "2018-07-09T10:20:09Z",
                                     "user": {
+                                        "id": "MDQ6VXNlcjM2MjA3MTE3",
+                                        "login": "dependabot-bot",
+                                        "name": "Dependabot",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/36207117?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "dependabot[bot]",
+                                    "email": "support@dependabot.com",
+                                    "date": "2018-07-09T10:20:09Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjM2MjA3MTE3",
+                                        "login": "dependabot-bot",
+                                        "name": "Dependabot",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/36207117?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "cf33c7cd29315a3b029f9846fc87757f4b953e55"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "9a142b9fb61033978b4f67229123efe299254a6f"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "support@dependabot.com",
+                                    "isValid": true,
+                                    "payload": "tree cf33c7cd29315a3b029f9846fc87757f4b953e55\nparent 9a142b9fb61033978b4f67229123efe299254a6f\nauthor dependabot[bot] <support@dependabot.com> 1531131609 +0000\ncommitter dependabot[bot] <support@dependabot.com> 1531131609 +0000\n\nBump friendsofphp/php-cs-fixer from 2.12.1 to 2.12.2\n\nBumps [friendsofphp/php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) from 2.12.1 to 2.12.2.\n- [Release notes](https://github.com/FriendsOfPHP/PHP-CS-Fixer/releases)\n- [Changelog](https://github.com/FriendsOfPHP/PHP-CS-Fixer/blob/2.12/CHANGELOG.md)\n- [Commits](https://github.com/FriendsOfPHP/PHP-CS-Fixer/compare/v2.12.1...v2.12.2)\n\nSigned-off-by: dependabot[bot] <support@dependabot.com>",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1\n\niQIcBAABAgAGBQJbQzbZAAoJEEwPKIjJjPMxfUgP/1F7dxqvHDaW6KCaxmE5OE1j\nGqW6eJ1C13VTUSNRumMjL2ybItY+ZQ+Xksh3HWfHxT2LTN8sds+HbsmnnWaM7Eml\nduna3Upv7+1klIKfcxZ9qheCmQPS0YOT5Kl4BVQcpwRz8jlxDF5t37LBVav9G+iJ\nsnQytgEK0bT1onusn3I1I7IqpEYcq5euCiYKw3e6xuPyvVuDbBsDG6l4SPQQtMN6\nmMaA+elS76vhPlVPVBbNNL2q49CNIi5eGxDarcgakPZGrkqz2h1jsoGT/oXjbpQ2\no+Lm+V0l/EuovWP4jZeABOyvHyTZ1pukSKNkhQ0pOG4/58oihypK64bpVQ+OOzQU\n0NPXIYcvWQvwq1VuXUZe5XOR7j8+BXxglcgHGO/JL74jEpM4G+6t0A9CNTGzIY8o\n75WNWTfDagQTqMvlQ9K07ISR8yB0UhsbL+aFHBeHme0+8Xyy+Nik/eZKfMJ1WEAZ\nINXlktTbJlRr1usdRttFS6EVW6AVEnt0Sa2f+gDWoWNzl9n9zjmw9DB43tw5w+IW\naLzP2hjAjjytPBcWL8rBHCPPNoWso2wENbH06ZZ7FJhfT6IiKT+7bkEVK8C6F0Vz\nfgfl+CO5NNxBUk3YxU9c7LF05m/NJ2+ifXWzSU15HJyd1aRyMhGEcKcMPcLURlZc\naZihe3eSVfhFmuFCMmSP\n=JoLD\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
                                         "id": "MDQ6VXNlcjM2MjA3MTE3",
                                         "login": "dependabot-bot",
                                         "name": "Dependabot",
@@ -25,203 +114,124 @@
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/36207117?v=4",
                                         "url": "https://github.com/dependabot-bot",
                                         "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": false
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "dependabot/composer/phpspec/phpspec-4.3.1",
+                            "target": {
+                                "oid": "eed04a6e14a44048323219572a41021bdf5825d3",
+                                "message": "Bump phpspec/phpspec from 4.3.0 to 4.3.1\n\nBumps [phpspec/phpspec](https://github.com/phpspec/phpspec) from 4.3.0 to 4.3.1.\n- [Release notes](https://github.com/phpspec/phpspec/releases)\n- [Changelog](https://github.com/phpspec/phpspec/blob/master/CHANGES-v2.md)\n- [Commits](https://github.com/phpspec/phpspec/compare/4.3.0...4.3.1)\n\nSigned-off-by: dependabot[bot] <support@dependabot.com>",
+                                "authoredDate": "2018-07-03T10:17:09Z",
+                                "author": {
+                                    "name": "dependabot[bot]",
+                                    "email": "support@dependabot.com",
+                                    "date": "2018-07-03T10:17:09Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjM2MjA3MTE3",
+                                        "login": "dependabot-bot",
+                                        "name": "Dependabot",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/36207117?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "dependabot[bot]",
+                                    "email": "support@dependabot.com",
+                                    "date": "2018-07-03T10:17:09Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjM2MjA3MTE3",
+                                        "login": "dependabot-bot",
+                                        "name": "Dependabot",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/36207117?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "46760bed2e8c03ba9cb0f227350bfaddd6c29bbe"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "9a142b9fb61033978b4f67229123efe299254a6f"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": {
+                                    "email": "support@dependabot.com",
+                                    "isValid": true,
+                                    "payload": "tree 46760bed2e8c03ba9cb0f227350bfaddd6c29bbe\nparent 9a142b9fb61033978b4f67229123efe299254a6f\nauthor dependabot[bot] <support@dependabot.com> 1530613029 +0000\ncommitter dependabot[bot] <support@dependabot.com> 1530613029 +0000\n\nBump phpspec/phpspec from 4.3.0 to 4.3.1\n\nBumps [phpspec/phpspec](https://github.com/phpspec/phpspec) from 4.3.0 to 4.3.1.\n- [Release notes](https://github.com/phpspec/phpspec/releases)\n- [Changelog](https://github.com/phpspec/phpspec/blob/master/CHANGES-v2.md)\n- [Commits](https://github.com/phpspec/phpspec/compare/4.3.0...4.3.1)\n\nSigned-off-by: dependabot[bot] <support@dependabot.com>",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1\n\niQIcBAABAgAGBQJbO00mAAoJEEwPKIjJjPMx1EAP/Rt/btESuSkdEXvbsj6l0Fod\n1qj+Q4b/aQYioI6IE0m/3gM5lbwUZDoURfGhoKhQqmVN9kmzIJca6Oiu3upW0w53\ncFyq8Ofqs3E17sOwWJ6ckzKak7h6WYKQ01UpHWzPFoChmZ/4trLswM+BW8pZ41K7\n4cDWr7umo94G2xgbEt1lJtkz+Fp5UnFSl0mUlhVYcXCD/R4c9Nkvt2+a64dZrEEO\nX8ZBQzQMtrKcyjeHIL7ltRNKtcdNJLSs09jaf68i29lVLsfXMk81fqLKDH73dUjn\nFeG6/5OREHQ+R3vs7/w2lvrkIiDv8mr3MzD14k3FQP2XdtGP0Zr9/jkXKev08NA+\nvZa7heb7UH3Z8wD+WVPl5T/T9tf7x1y3WFPHRtyfaHkvl+BLRF941wy1nmg1at9/\n+SKfirMeUXd1S5YAgk/n2tGJhd759EEnW41Mltm7tNebU909olAnsGppvICbjM8v\nYkvZMFRn/QENnmF1jpZZadTwIINXRUnRy/W3clqQHx9vvQohZGK8HEEVQb3J6iKy\nV1grePeMBNgN8UnoFOVys7tAMKbz+IBy7v3De0alPeOAqI/qTqo7LmY48Xt8okcP\ndxnJmGIH2F1XskNL6NPx0Qq6MPh4QF9g9K6/3YovhL9LkUDTSldmLb6n9NbWtg/x\nI+CumLPC+pj3sR1J3hWL\n=Ke0M\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjM2MjA3MTE3",
+                                        "login": "dependabot-bot",
+                                        "name": "Dependabot",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/36207117?v=4",
+                                        "url": "https://github.com/dependabot-bot",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": false
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "master",
+                            "target": {
+                                "oid": "9a142b9fb61033978b4f67229123efe299254a6f",
+                                "message": "Bump slevomat/coding-standard from 4.6.2 to 4.6.3\n\nBumps [slevomat/coding-standard](https://github.com/slevomat/coding-standard) from 4.6.2 to 4.6.3.\n- [Release notes](https://github.com/slevomat/coding-standard/releases)\n- [Commits](https://github.com/slevomat/coding-standard/compare/4.6.2...4.6.3)\n\nSigned-off-by: dependabot[bot] <support@dependabot.com>",
+                                "authoredDate": "2018-07-02T10:18:19Z",
+                                "author": {
+                                    "name": "dependabot[bot]",
+                                    "email": "support@dependabot.com",
+                                    "date": "2018-07-02T10:18:19Z",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjM2MjA3MTE3",
+                                        "login": "dependabot-bot",
+                                        "name": "Dependabot",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/36207117?v=4",
+                                        "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
                                     "name": "Miro Svrtan",
                                     "email": "msvrtan@users.noreply.github.com",
-                                    "date": "2018-04-05T17:57:18+02:00",
+                                    "date": "2018-07-02T19:06:29+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjE3ODA1NzI=",
                                         "login": "msvrtan",
                                         "name": "Miro Svrtan",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
-                                        "url": "https://github.com/msvrtan",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "046e75b9da3c27106b64b40d837c0b3f86f4ad5b",
-                                    "commitUrl": "https://github.com/devboard/lib-generix/commit/046e75b9da3c27106b64b40d837c0b3f86f4ad5b",
-                                    "commitResourcePath": "/devboard/lib-generix/commit/046e75b9da3c27106b64b40d837c0b3f86f4ad5b"
+                                    "oid": "f185c16381f7cd2c49d6d8d604b5f9da2a707025"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "54b960e41dc32bf6bb819592febb361015b4c184",
-                                                "url": "https://github.com/devboard/lib-generix/commit/54b960e41dc32bf6bb819592febb361015b4c184",
-                                                "commitUrl": "https://github.com/devboard/lib-generix/commit/54b960e41dc32bf6bb819592febb361015b4c184"
+                                                "oid": "f6ea7fa774a856571049d2f713f2d9ed5be4b986"
                                             }
                                         }
                                     ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmMTE3MjU2NDYyOmNoZWNrLXN0YWJpbGl0eQ==",
-                            "name": "check-stability",
-                            "target": {
-                                "oid": "49cfbefe7410728247f31190e9fedc5d671d8fbe",
-                                "message": "Update composer.lock",
-                                "authoredDate": "2018-05-04T16:38:24Z",
-                                "author": {
-                                    "name": "Miro Svrtan",
-                                    "email": "miro@mirosvrtan.me",
-                                    "date": "2018-05-04T16:38:24Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
-                                        "login": "msvrtan",
-                                        "name": "Miro Svrtan",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
-                                        "url": "https://github.com/msvrtan",
-                                        "isSiteAdmin": false
-                                    }
                                 },
-                                "committer": {
-                                    "name": "Miro Svrtan",
-                                    "email": "miro@mirosvrtan.me",
-                                    "date": "2018-05-04T18:38:24+02:00",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
-                                        "login": "msvrtan",
-                                        "name": "Miro Svrtan",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
-                                        "url": "https://github.com/msvrtan",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "tree": {
-                                    "oid": "9a6a01d55ea4d4c238aaaf62fd4137bec7b25219",
-                                    "commitUrl": "https://github.com/devboard/lib-generix/commit/9a6a01d55ea4d4c238aaaf62fd4137bec7b25219",
-                                    "commitResourcePath": "/devboard/lib-generix/commit/9a6a01d55ea4d4c238aaaf62fd4137bec7b25219"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "dc5cf78507a2232fd327f4c5301e784f17045a93",
-                                                "url": "https://github.com/devboard/lib-generix/commit/dc5cf78507a2232fd327f4c5301e784f17045a93",
-                                                "commitUrl": "https://github.com/devboard/lib-generix/commit/dc5cf78507a2232fd327f4c5301e784f17045a93"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmMTE3MjU2NDYyOmdyYXZhdGFyLWlkLWNhbnQtYmUtZW1wdHk=",
-                            "name": "gravatar-id-cant-be-empty",
-                            "target": {
-                                "oid": "5ef253334e21a076731c00b9700f37c86c10c922",
-                                "message": "Run cs-fixer on tests folder too",
-                                "authoredDate": "2018-04-04T17:04:56Z",
-                                "author": {
-                                    "name": "Miro Svrtan",
-                                    "email": "miro@mirosvrtan.me",
-                                    "date": "2018-04-04T17:04:56Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
-                                        "login": "msvrtan",
-                                        "name": "Miro Svrtan",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
-                                        "url": "https://github.com/msvrtan",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
-                                    "name": "Miro Svrtan",
-                                    "email": "miro@mirosvrtan.me",
-                                    "date": "2018-04-04T19:05:33+02:00",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
-                                        "login": "msvrtan",
-                                        "name": "Miro Svrtan",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
-                                        "url": "https://github.com/msvrtan",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "tree": {
-                                    "oid": "ddf2cf4bbf5d9069edc0f9abc13c1ae8d7923606",
-                                    "commitUrl": "https://github.com/devboard/lib-generix/commit/ddf2cf4bbf5d9069edc0f9abc13c1ae8d7923606",
-                                    "commitResourcePath": "/devboard/lib-generix/commit/ddf2cf4bbf5d9069edc0f9abc13c1ae8d7923606"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "5e0954be10622af23a81692a4e32e55562ded0ac",
-                                                "url": "https://github.com/devboard/lib-generix/commit/5e0954be10622af23a81692a4e32e55562ded0ac",
-                                                "commitUrl": "https://github.com/devboard/lib-generix/commit/5e0954be10622af23a81692a4e32e55562ded0ac"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmMTE3MjU2NDYyOm1hc3Rlcg==",
-                            "name": "master",
-                            "target": {
-                                "oid": "e5ebbd5d00dd60c5d5411a7351d557ae1fc7f90c",
-                                "message": "Switch master to 0.5-dev",
-                                "authoredDate": "2018-04-30T19:57:17Z",
-                                "author": {
-                                    "name": "Miro Svrtan",
-                                    "email": "miro@mirosvrtan.me",
-                                    "date": "2018-04-30T19:57:17Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
-                                        "login": "msvrtan",
-                                        "name": "Miro Svrtan",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
-                                        "url": "https://github.com/msvrtan",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
-                                    "name": "Miro Svrtan",
-                                    "email": "miro@mirosvrtan.me",
-                                    "date": "2018-04-30T21:57:17+02:00",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjE3ODA1NzI=",
-                                        "login": "msvrtan",
-                                        "name": "Miro Svrtan",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
-                                        "url": "https://github.com/msvrtan",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "tree": {
-                                    "oid": "3af0ffa16a80c51f214d49dd0b68b85109e5df94",
-                                    "commitUrl": "https://github.com/devboard/lib-generix/commit/3af0ffa16a80c51f214d49dd0b68b85109e5df94",
-                                    "commitResourcePath": "/devboard/lib-generix/commit/3af0ffa16a80c51f214d49dd0b68b85109e5df94"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "7bdebd053a42cde300e874ce737b09ebd38f6be3",
-                                                "url": "https://github.com/devboard/lib-generix/commit/7bdebd053a42cde300e874ce737b09ebd38f6be3",
-                                                "commitUrl": "https://github.com/devboard/lib-generix/commit/7bdebd053a42cde300e874ce737b09ebd38f6be3"
-                                            }
-                                        }
-                                    ]
-                                }
+                                "signature": null
                             }
                         }
                     }

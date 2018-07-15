@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
             "name": "lib-git",
             "labels": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Y3Vyc29yOnYyOpHOMpe5Uw=="
+                },
                 "edges": [
                     {
                         "node": {

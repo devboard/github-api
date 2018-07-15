@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnk5NTk4NjIzMA==",
             "name": "invisible-repo",
             "labels": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Y3Vyc29yOnYyOpHOJgrxCw=="
+                },
                 "edges": [
                     {
                         "node": {

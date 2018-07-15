@@ -1,13 +1,14 @@
 {
     "data": {
         "repository": {
-            "id": "MDEwOlJlcG9zaXRvcnk4NzYzMTUyNA==",
-            "name": "first",
             "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "MQ=="
+                },
                 "edges": [
                     {
                         "node": {
-                            "id": "MDM6UmVmODc2MzE1MjQ6bWFzdGVy",
                             "name": "master",
                             "target": {
                                 "oid": "16fb2a3ea0d592a68befd7e0094561c40ae5d95d",
@@ -16,14 +17,13 @@
                                 "author": {
                                     "name": "devboard-test",
                                     "email": "info@nulldevelopment.hr",
-                                    "date": "2017-04-08T12:23:47Z",
+                                    "date": "2017-04-08T14:23:47+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjEzNTA3NDEy",
                                         "login": "devboard-test",
                                         "name": null,
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/13507412?v=4",
-                                        "url": "https://github.com/devboard-test",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -34,28 +34,23 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "1b30fd748a6f99457e99da36f4a4dcd598aae9fe",
-                                    "commitUrl": "https://github.com/devboard-org-test/first/commit/1b30fd748a6f99457e99da36f4a4dcd598aae9fe",
-                                    "commitResourcePath": "/devboard-org-test/first/commit/1b30fd748a6f99457e99da36f4a4dcd598aae9fe"
+                                    "oid": "1b30fd748a6f99457e99da36f4a4dcd598aae9fe"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "9ebdfffba490efc80730e9d33cf12add63e3b90e",
-                                                "url": "https://github.com/devboard-org-test/first/commit/9ebdfffba490efc80730e9d33cf12add63e3b90e",
-                                                "commitUrl": "https://github.com/devboard-org-test/first/commit/9ebdfffba490efc80730e9d33cf12add63e3b90e"
+                                                "oid": "9ebdfffba490efc80730e9d33cf12add63e3b90e"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "b0cca9bfd0623a7ba7865d7a0f2360e69afa4122",
-                                                "url": "https://github.com/devboard-org-test/first/commit/b0cca9bfd0623a7ba7865d7a0f2360e69afa4122",
-                                                "commitUrl": "https://github.com/devboard-org-test/first/commit/b0cca9bfd0623a7ba7865d7a0f2360e69afa4122"
+                                                "oid": "b0cca9bfd0623a7ba7865d7a0f2360e69afa4122"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     }

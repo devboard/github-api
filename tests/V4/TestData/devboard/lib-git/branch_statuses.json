@@ -4,141 +4,28 @@
             "id": "MDEwOlJlcG9zaXRvcnkxMTcyNTYyMDU=",
             "name": "lib-git",
             "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Mg=="
+                },
                 "edges": [
-                    {
-                        "node": {
-                            "id": "MDM6UmVmMTE3MjU2MjA1OjAuNA==",
-                            "name": "0.4",
-                            "target": {
-                                "oid": "bc27fea008888bfad4313533d32f959f819db96d",
-                                "status": {
-                                    "id": "MDY6U3RhdHVzMTE3MjU2MjA1OmJjMjdmZWEwMDg4ODhiZmFkNDMxMzUzM2QzMmY5NTlmODE5ZGI5NmQ=",
-                                    "state": "SUCCESS",
-                                    "contexts": [
-                                        {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0ODk1NDE1NjM1",
-                                            "context": "ci/circleci: build",
-                                            "description": "Your tests passed on CircleCI!",
-                                            "state": "SUCCESS",
-                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/183?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
-                                            "createdAt": "2018-04-30T19:57:59Z",
-                                            "creator": {
-                                                "id": "MDQ6VXNlcjE3ODA1NzI=",
-                                                "login": "msvrtan",
-                                                "name": "Miro Svrtan",
-                                                "__typename": "User",
-                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
-                                                "url": "https://github.com/msvrtan",
-                                                "isSiteAdmin": false
-                                            }
-                                        },
-                                        {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0ODk1NDIxNzE2",
-                                            "context": "ci/circleci: codecoverage_phpspec",
-                                            "description": "Your tests passed on CircleCI!",
-                                            "state": "SUCCESS",
-                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/187?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
-                                            "createdAt": "2018-04-30T19:59:22Z",
-                                            "creator": {
-                                                "id": "MDQ6VXNlcjE3ODA1NzI=",
-                                                "login": "msvrtan",
-                                                "name": "Miro Svrtan",
-                                                "__typename": "User",
-                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
-                                                "url": "https://github.com/msvrtan",
-                                                "isSiteAdmin": false
-                                            }
-                                        },
-                                        {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0ODk1NDIxNTg5",
-                                            "context": "ci/circleci: codecoverage_phpunit",
-                                            "description": "Your tests passed on CircleCI!",
-                                            "state": "SUCCESS",
-                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/186?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
-                                            "createdAt": "2018-04-30T19:59:20Z",
-                                            "creator": {
-                                                "id": "MDQ6VXNlcjE3ODA1NzI=",
-                                                "login": "msvrtan",
-                                                "name": "Miro Svrtan",
-                                                "__typename": "User",
-                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
-                                                "url": "https://github.com/msvrtan",
-                                                "isSiteAdmin": false
-                                            }
-                                        },
-                                        {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0ODk1NDIwNzA2",
-                                            "context": "ci/circleci: infection",
-                                            "description": "Your tests passed on CircleCI!",
-                                            "state": "SUCCESS",
-                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/185?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
-                                            "createdAt": "2018-04-30T19:59:09Z",
-                                            "creator": {
-                                                "id": "MDQ6VXNlcjE3ODA1NzI=",
-                                                "login": "msvrtan",
-                                                "name": "Miro Svrtan",
-                                                "__typename": "User",
-                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
-                                                "url": "https://github.com/msvrtan",
-                                                "isSiteAdmin": false
-                                            }
-                                        },
-                                        {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0Nzk3NzYyNDAy",
-                                            "context": "codecov/patch",
-                                            "description": "Coverage not affected when comparing 7b10623...bc27fea",
-                                            "state": "SUCCESS",
-                                            "targetUrl": "https://codecov.io/gh/devboard/lib-git/commit/bc27fea008888bfad4313533d32f959f819db96d",
-                                            "createdAt": "2018-04-05T16:05:40Z",
-                                            "creator": {
-                                                "id": "MDQ6VXNlcjE3ODA1NzI=",
-                                                "login": "msvrtan",
-                                                "name": "Miro Svrtan",
-                                                "__typename": "User",
-                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
-                                                "url": "https://github.com/msvrtan",
-                                                "isSiteAdmin": false
-                                            }
-                                        },
-                                        {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0Nzk3NzYyMzg4",
-                                            "context": "codecov/project",
-                                            "description": "96.42% remains the same compared to 7b10623",
-                                            "state": "SUCCESS",
-                                            "targetUrl": "https://codecov.io/gh/devboard/lib-git/commit/bc27fea008888bfad4313533d32f959f819db96d",
-                                            "createdAt": "2018-04-05T16:05:40Z",
-                                            "creator": {
-                                                "id": "MDQ6VXNlcjE3ODA1NzI=",
-                                                "login": "msvrtan",
-                                                "name": "Miro Svrtan",
-                                                "__typename": "User",
-                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/1780572?v=4",
-                                                "url": "https://github.com/msvrtan",
-                                                "isSiteAdmin": false
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
                     {
                         "node": {
                             "id": "MDM6UmVmMTE3MjU2MjA1OmNoZWNrLXN0YWJpbGl0eQ==",
                             "name": "check-stability",
                             "target": {
-                                "oid": "b740b5ffdc908adff87c9325bea43e1175b89dda",
+                                "oid": "fdff535c9c1f17903e1d589d451c6315a0d5d5b1",
                                 "status": {
-                                    "id": "MDY6U3RhdHVzMTE3MjU2MjA1OmI3NDBiNWZmZGM5MDhhZGZmODdjOTMyNWJlYTQzZTExNzViODlkZGE=",
+                                    "id": "MDY6U3RhdHVzMTE3MjU2MjA1OmZkZmY1MzVjOWMxZjE3OTAzZTFkNTg5ZDQ1MWM2MzE1YTBkNWQ1YjE=",
                                     "state": "SUCCESS",
                                     "contexts": [
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE0MDM1MjEw",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjA5NjQzMDUz",
                                             "context": "ci/circleci: build",
                                             "description": "Your tests passed on CircleCI!",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/207?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
-                                            "createdAt": "2018-05-04T16:39:06Z",
+                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/326?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                            "createdAt": "2018-07-13T16:58:49Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjE3ODA1NzI=",
                                                 "login": "msvrtan",
@@ -150,12 +37,12 @@
                                             }
                                         },
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE0MDQzNTQz",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjA5NjUzMTA3",
                                             "context": "ci/circleci: codecoverage_phpspec",
                                             "description": "Your tests passed on CircleCI!",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/210?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
-                                            "createdAt": "2018-05-04T16:41:03Z",
+                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/327?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                            "createdAt": "2018-07-13T17:00:47Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjE3ODA1NzI=",
                                                 "login": "msvrtan",
@@ -167,12 +54,12 @@
                                             }
                                         },
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE0MDQwODU3",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjA5NjUzMTY1",
                                             "context": "ci/circleci: codecoverage_phpunit",
                                             "description": "Your tests passed on CircleCI!",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/208?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
-                                            "createdAt": "2018-05-04T16:40:24Z",
+                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/328?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                            "createdAt": "2018-07-13T17:00:48Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjE3ODA1NzI=",
                                                 "login": "msvrtan",
@@ -184,12 +71,12 @@
                                             }
                                         },
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE0MDQyNjc5",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjA5NjU0OTE2",
                                             "context": "ci/circleci: infection",
                                             "description": "Your tests passed on CircleCI!",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/209?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
-                                            "createdAt": "2018-05-04T16:40:49Z",
+                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/329?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                            "createdAt": "2018-07-13T17:01:07Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjE3ODA1NzI=",
                                                 "login": "msvrtan",
@@ -201,12 +88,12 @@
                                             }
                                         },
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE0MDQ0NzE3",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjA5NjU1Mjc2",
                                             "context": "codecov/patch",
-                                            "description": "Coverage not affected when comparing 54b8f3e...b740b5f",
+                                            "description": "Coverage not affected when comparing 80b38b9...fdff535",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://codecov.io/gh/devboard/lib-git/compare/54b8f3eefb835607acfb27eba22c1f27e54dc040...b740b5ffdc908adff87c9325bea43e1175b89dda",
-                                            "createdAt": "2018-05-04T16:41:19Z",
+                                            "targetUrl": "https://codecov.io/gh/devboard/lib-git/compare/80b38b92e875e105b0852056ac6503d0930a2881...fdff535c9c1f17903e1d589d451c6315a0d5d5b1",
+                                            "createdAt": "2018-07-13T17:01:11Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjE3ODA1NzI=",
                                                 "login": "msvrtan",
@@ -218,12 +105,12 @@
                                             }
                                         },
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0OTE0MDQ0Njkz",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MjA5NjU1MzA0",
                                             "context": "codecov/project",
-                                            "description": "96.42% remains the same compared to 54b8f3e",
+                                            "description": "95.88% remains the same compared to 80b38b9",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://codecov.io/gh/devboard/lib-git/compare/54b8f3eefb835607acfb27eba22c1f27e54dc040...b740b5ffdc908adff87c9325bea43e1175b89dda",
-                                            "createdAt": "2018-05-04T16:41:19Z",
+                                            "targetUrl": "https://codecov.io/gh/devboard/lib-git/compare/80b38b92e875e105b0852056ac6503d0930a2881...fdff535c9c1f17903e1d589d451c6315a0d5d5b1",
+                                            "createdAt": "2018-07-13T17:01:12Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjE3ODA1NzI=",
                                                 "login": "msvrtan",
@@ -244,18 +131,18 @@
                             "id": "MDM6UmVmMTE3MjU2MjA1Om1hc3Rlcg==",
                             "name": "master",
                             "target": {
-                                "oid": "54b8f3eefb835607acfb27eba22c1f27e54dc040",
+                                "oid": "80b38b92e875e105b0852056ac6503d0930a2881",
                                 "status": {
-                                    "id": "MDY6U3RhdHVzMTE3MjU2MjA1OjU0YjhmM2VlZmI4MzU2MDdhY2ZiMjdlYmEyMmMxZjI3ZTU0ZGMwNDA=",
+                                    "id": "MDY6U3RhdHVzMTE3MjU2MjA1OjgwYjM4YjkyZTg3NWUxMDViMDg1MjA1NmFjNjUwM2QwOTMwYTI4ODE=",
                                     "state": "SUCCESS",
                                     "contexts": [
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0ODk1NDI4NTk0",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTI2MTAxMjgw",
                                             "context": "ci/circleci: build",
                                             "description": "Your tests passed on CircleCI!",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/188?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
-                                            "createdAt": "2018-04-30T20:00:45Z",
+                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/298?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                            "createdAt": "2018-06-25T08:49:24Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjE3ODA1NzI=",
                                                 "login": "msvrtan",
@@ -267,12 +154,12 @@
                                             }
                                         },
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0ODk1NDM4MjQx",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTI2MTA2MTA5",
                                             "context": "ci/circleci: codecoverage_phpspec",
                                             "description": "Your tests passed on CircleCI!",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/194?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
-                                            "createdAt": "2018-04-30T20:02:47Z",
+                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/300?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                            "createdAt": "2018-06-25T08:50:30Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjE3ODA1NzI=",
                                                 "login": "msvrtan",
@@ -284,12 +171,12 @@
                                             }
                                         },
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0ODk1NDM3NzAy",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTI2MTA2OTUz",
                                             "context": "ci/circleci: codecoverage_phpunit",
                                             "description": "Your tests passed on CircleCI!",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/192?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
-                                            "createdAt": "2018-04-30T20:02:40Z",
+                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/301?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                            "createdAt": "2018-06-25T08:50:40Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjE3ODA1NzI=",
                                                 "login": "msvrtan",
@@ -301,12 +188,12 @@
                                             }
                                         },
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0ODk1NDM5NjI1",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTI2MTA3MTM5",
                                             "context": "ci/circleci: infection",
                                             "description": "Your tests passed on CircleCI!",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/193?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
-                                            "createdAt": "2018-04-30T20:03:06Z",
+                                            "targetUrl": "https://circleci.com/gh/devboard/lib-git/299?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link",
+                                            "createdAt": "2018-06-25T08:50:43Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjE3ODA1NzI=",
                                                 "login": "msvrtan",
@@ -318,12 +205,12 @@
                                             }
                                         },
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0ODk1NTYyNjMy",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTI2MTA3Mzg1",
                                             "context": "codecov/patch",
-                                            "description": "Coverage not affected when comparing 94004ee...54b8f3e",
+                                            "description": "Coverage not affected when comparing 875589e...80b38b9",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://codecov.io/gh/devboard/lib-git/commit/54b8f3eefb835607acfb27eba22c1f27e54dc040",
-                                            "createdAt": "2018-04-30T20:29:51Z",
+                                            "targetUrl": "https://codecov.io/gh/devboard/lib-git/commit/80b38b92e875e105b0852056ac6503d0930a2881",
+                                            "createdAt": "2018-06-25T08:50:46Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjE3ODA1NzI=",
                                                 "login": "msvrtan",
@@ -335,12 +222,12 @@
                                             }
                                         },
                                         {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0ODk1NTYyNjUy",
+                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ1MTI2MTA3MzY0",
                                             "context": "codecov/project",
-                                            "description": "96.42% remains the same compared to 94004ee",
+                                            "description": "95.88% remains the same compared to 875589e",
                                             "state": "SUCCESS",
-                                            "targetUrl": "https://codecov.io/gh/devboard/lib-git/commit/54b8f3eefb835607acfb27eba22c1f27e54dc040",
-                                            "createdAt": "2018-04-30T20:29:52Z",
+                                            "targetUrl": "https://codecov.io/gh/devboard/lib-git/commit/80b38b92e875e105b0852056ac6503d0930a2881",
+                                            "createdAt": "2018-06-25T08:50:45Z",
                                             "creator": {
                                                 "id": "MDQ6VXNlcjE3ODA1NzI=",
                                                 "login": "msvrtan",

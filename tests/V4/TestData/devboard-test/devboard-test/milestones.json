@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnk0NDg3OTcwMA==",
             "name": "devboard-test",
             "milestones": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": null
+                },
                 "edges": []
             }
         }
