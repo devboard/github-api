@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d0a0d2d87fcb30f420a40d60f8e2ca39",
+    "content-hash": "9387600bf55efc9ad02bc90660fa9d2d",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -1383,21 +1383,21 @@
     "packages-dev": [
         {
             "name": "ciaranmcnulty/phpspec-typehintedmethods",
-            "version": "3.0.0",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ciaranmcnulty/phpspec-typehintedmethods.git",
-                "reference": "98b349d159e6daf13bb91b6edfc59d0df7f86a06"
+                "reference": "34781265b8adb20835eea5ca1fad935043b9c9a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ciaranmcnulty/phpspec-typehintedmethods/zipball/98b349d159e6daf13bb91b6edfc59d0df7f86a06",
-                "reference": "98b349d159e6daf13bb91b6edfc59d0df7f86a06",
+                "url": "https://api.github.com/repos/ciaranmcnulty/phpspec-typehintedmethods/zipball/34781265b8adb20835eea5ca1fad935043b9c9a2",
+                "reference": "34781265b8adb20835eea5ca1fad935043b9c9a2",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0",
-                "phpspec/phpspec": "^4.0",
+                "php": "^7.1",
+                "phpspec/phpspec": "^5.0",
                 "phpspec/prophecy": "^1.6"
             },
             "require-dev": {
@@ -1429,7 +1429,7 @@
                 "TDD",
                 "phpspec"
             ],
-            "time": "2017-07-31T12:37:12+00:00"
+            "time": "2018-07-15T09:56:16+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -3461,35 +3461,35 @@
         },
         {
             "name": "phpspec/phpspec",
-            "version": "4.3.1",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/phpspec.git",
-                "reference": "4474f1cb4cf9873996fc07fac6533ab9298eb6fd"
+                "reference": "33fa9932c22b64f9b05e9c4ef5d1acbdd28e8912"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/4474f1cb4cf9873996fc07fac6533ab9298eb6fd",
-                "reference": "4474f1cb4cf9873996fc07fac6533ab9298eb6fd",
+                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/33fa9932c22b64f9b05e9c4ef5d1acbdd28e8912",
+                "reference": "33fa9932c22b64f9b05e9c4ef5d1acbdd28e8912",
                 "shasum": ""
             },
             "require": {
                 "doctrine/instantiator": "^1.0.5",
                 "ext-tokenizer": "*",
-                "php": "^7.0,<7.3",
+                "php": "^7.1, <7.3",
                 "phpspec/php-diff": "^1.0.0",
-                "phpspec/prophecy": "^1.5",
+                "phpspec/prophecy": "^1.7",
                 "sebastian/exporter": "^1.0 || ^2.0 || ^3.0",
-                "symfony/console": "^3.2 || ^4.0",
-                "symfony/event-dispatcher": "^3.2 || ^4.0",
-                "symfony/finder": "^3.2 || ^4.0",
-                "symfony/process": "^3.2 || ^4.0",
-                "symfony/yaml": "^3.2 || ^4.0"
+                "symfony/console": "^3.4 || ^4.0",
+                "symfony/event-dispatcher": "^3.4 || ^4.0",
+                "symfony/finder": "^3.4 || ^4.0",
+                "symfony/process": "^3.4 || ^4.0",
+                "symfony/yaml": "^3.4 || ^4.0"
             },
             "require-dev": {
                 "behat/behat": "^3.3",
-                "phpunit/phpunit": "^5.7|^6.0",
-                "symfony/filesystem": "^3.2 || ^4.0"
+                "phpunit/phpunit": "^5.7 || ^6.0",
+                "symfony/filesystem": "^3.4 || ^4.0"
             },
             "suggest": {
                 "phpspec/nyan-formatters": "Adds Nyan formatters"
@@ -3500,7 +3500,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.3.x-dev"
+                    "dev-master": "5.0.x-dev"
                 }
             },
             "autoload": {
@@ -3538,7 +3538,7 @@
                 "testing",
                 "tests"
             ],
-            "time": "2018-07-02T17:43:33+00:00"
+            "time": "2018-07-14T05:34:46+00:00"
         },
         {
             "name": "phpspec/prophecy",
