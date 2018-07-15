@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnkxMTk4MTEwMTA=",
             "name": "tabler",
             "labels": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Y3Vyc29yOnYyOpHONVkN+g=="
+                },
                 "edges": [
                     {
                         "node": {

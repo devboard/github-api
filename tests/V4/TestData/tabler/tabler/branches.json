@@ -1,67 +1,175 @@
 {
     "data": {
         "repository": {
-            "id": "MDEwOlJlcG9zaXRvcnkxMTk4MTEwMTA=",
-            "name": "tabler",
             "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Nw=="
+                },
                 "edges": [
                     {
                         "node": {
-                            "id": "MDM6UmVmMTE5ODExMDEwOmRldg==",
-                            "name": "dev",
+                            "name": "dev-build",
                             "target": {
-                                "oid": "0d9443a84fdca1797a0cdd4c27e903fe4db01de4",
-                                "message": "Merge pull request #113 from dhayab/feat-selectgroup-vertical\n\nAdd vertical layout for selectgroup",
-                                "authoredDate": "2018-04-26T06:40:27Z",
+                                "oid": "c08021a6feccd18b8fa73d68be4a21c041c58ce1",
+                                "message": "jquery",
+                                "authoredDate": "2018-06-18T21:56:59Z",
                                 "author": {
-                                    "name": "Pawe\u0142 Kuna",
-                                    "email": "1282324+codecalm@users.noreply.github.com",
-                                    "date": "2018-04-26T06:40:27Z",
+                                    "name": "codecalm",
+                                    "email": "codecalm@gmail.com",
+                                    "date": "2018-06-18T23:56:59+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjEyODIzMjQ=",
                                         "login": "codecalm",
                                         "name": "Pawe\u0142 Kuna",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
-                                        "url": "https://github.com/codecalm",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "codecalm",
+                                    "email": "codecalm@gmail.com",
+                                    "date": "2018-06-18T23:56:59+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjEyODIzMjQ=",
+                                        "login": "codecalm",
+                                        "name": "Pawe\u0142 Kuna",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "26a962ae6ffb38c8f75dc9c0db8faa5430316f4c"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "f15acc6f164eb6d65fa82984ee40404e5064b3af"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "dev-webpack",
+                            "target": {
+                                "oid": "2190285c9f6d5e5f5a28c5978a4524718e4f228d",
+                                "message": "rollup config",
+                                "authoredDate": "2018-06-12T22:03:44Z",
+                                "author": {
+                                    "name": "codecalm",
+                                    "email": "codecalm@gmail.com",
+                                    "date": "2018-06-13T00:03:44+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjEyODIzMjQ=",
+                                        "login": "codecalm",
+                                        "name": "Pawe\u0142 Kuna",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "codecalm",
+                                    "email": "codecalm@gmail.com",
+                                    "date": "2018-06-13T00:03:44+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjEyODIzMjQ=",
+                                        "login": "codecalm",
+                                        "name": "Pawe\u0142 Kuna",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "8026fe368bf1d3e7496a876e2fef5304c055a241"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "c19cdefaca3ec869013309f36a621006eb73647a"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "dev",
+                            "target": {
+                                "oid": "c85498b58753066cc7e0d64073373cb132a76fae",
+                                "message": "Merge pull request #144 from akabraham/feature/duplicate-position\n\nRemove duplicate position property for .btn-loading:after",
+                                "authoredDate": "2018-06-12T14:06:50Z",
+                                "author": {
+                                    "name": "Pawe\u0142 Kuna",
+                                    "email": "1282324+codecalm@users.noreply.github.com",
+                                    "date": "2018-06-12T16:06:50+02:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjEyODIzMjQ=",
+                                        "login": "codecalm",
+                                        "name": "Pawe\u0142 Kuna",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
                                     "name": "GitHub",
                                     "email": "noreply@github.com",
-                                    "date": "2018-04-26T08:40:27+02:00",
+                                    "date": "2018-06-12T16:06:50+02:00",
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "25f4c9558b7a652b189a66e2c089525fc085bfbd",
-                                    "commitUrl": "https://github.com/tabler/tabler/commit/25f4c9558b7a652b189a66e2c089525fc085bfbd",
-                                    "commitResourcePath": "/tabler/tabler/commit/25f4c9558b7a652b189a66e2c089525fc085bfbd"
+                                    "oid": "80f09a4beb3aaeb57065ebc9250d1bef8f1fbd60"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "2e42505dd0ef058a7ef7bdfc5ec9a74979c2bd2b",
-                                                "url": "https://github.com/tabler/tabler/commit/2e42505dd0ef058a7ef7bdfc5ec9a74979c2bd2b",
-                                                "commitUrl": "https://github.com/tabler/tabler/commit/2e42505dd0ef058a7ef7bdfc5ec9a74979c2bd2b"
+                                                "oid": "34d197a98fe3a9d182beffeb1b8987b4ad07b2be"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "c3abea39e38d2196c69163b55c369beb52868fdf",
-                                                "url": "https://github.com/tabler/tabler/commit/c3abea39e38d2196c69163b55c369beb52868fdf",
-                                                "commitUrl": "https://github.com/tabler/tabler/commit/c3abea39e38d2196c69163b55c369beb52868fdf"
+                                                "oid": "da09e66ef7c1697aa81c50518a1c3d6aa9f2f6c3"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 80f09a4beb3aaeb57065ebc9250d1bef8f1fbd60\nparent 34d197a98fe3a9d182beffeb1b8987b4ad07b2be\nparent da09e66ef7c1697aa81c50518a1c3d6aa9f2f6c3\nauthor Pawe\u0142 Kuna <1282324+codecalm@users.noreply.github.com> 1528812410 +0200\ncommitter GitHub <noreply@github.com> 1528812410 +0200\n\nMerge pull request #144 from akabraham/feature/duplicate-position\n\nRemove duplicate position property for .btn-loading:after",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbH9N6CRBK7hj4Ov3rIwAAdHIIAFJChXDFKsmRCbc55pnnDzAl\ntZam6utVKhEUCrJUc2TXXcgzvTCwR6GNbAfdSKQagjyImUUn8DhhppSKu9OrJqXo\nvtiATBDFHpLSL4xocZKBrQRyqKz2R5TIO7G+obdv6RY99CrTSlRKsb3yizVGYXf1\n9WO72TdeuKY9K8lLPCKT9SbHzuvhvOQskFBHybxx+negjfmvE3byCh+aKH/KmTq6\ns72oywZflbbF/rwotHUXl8SeKovXL2FY+OQnI9UoeVtqc46LpULE8Q3zv2IGCym0\n8J1b7Yx0oODfg/ZQCkL8FR+hPBrbibigSbmZgR0evc0nT0EgKQu8+omFPS76LSk=\n=jKf4\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTE5ODExMDEwOmdoLXBhZ2Vz",
                             "name": "gh-pages",
                             "target": {
                                 "oid": "faa7648168e91d703f685871562d42c84b27dbac",
@@ -70,14 +178,13 @@
                                 "author": {
                                     "name": "chomik",
                                     "email": "codecalm@gmail.com",
-                                    "date": "2018-04-16T07:29:07Z",
+                                    "date": "2018-04-16T09:29:07+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjEyODIzMjQ=",
                                         "login": "codecalm",
                                         "name": "Pawe\u0142 Kuna",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
-                                        "url": "https://github.com/codecalm",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -91,32 +198,27 @@
                                         "name": "Pawe\u0142 Kuna",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
-                                        "url": "https://github.com/codecalm",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "8052f7ffa68d5249c61ed178badf2c0bfdd6d834",
-                                    "commitUrl": "https://github.com/tabler/tabler/commit/8052f7ffa68d5249c61ed178badf2c0bfdd6d834",
-                                    "commitResourcePath": "/tabler/tabler/commit/8052f7ffa68d5249c61ed178badf2c0bfdd6d834"
+                                    "oid": "8052f7ffa68d5249c61ed178badf2c0bfdd6d834"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "7e83d9702c3cd2c412b48525a6f4ff29f66dc196",
-                                                "url": "https://github.com/tabler/tabler/commit/7e83d9702c3cd2c412b48525a6f4ff29f66dc196",
-                                                "commitUrl": "https://github.com/tabler/tabler/commit/7e83d9702c3cd2c412b48525a6f4ff29f66dc196"
+                                                "oid": "7e83d9702c3cd2c412b48525a6f4ff29f66dc196"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTE5ODExMDEwOm1hc3Rlcg==",
                             "name": "master",
                             "target": {
                                 "oid": "748028000ba6603090c1f5a741e906b59ed934b2",
@@ -125,14 +227,13 @@
                                 "author": {
                                     "name": "Pawe\u0142 Kuna",
                                     "email": "1282324+codecalm@users.noreply.github.com",
-                                    "date": "2018-04-21T15:49:14Z",
+                                    "date": "2018-04-21T17:49:14+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjEyODIzMjQ=",
                                         "login": "codecalm",
                                         "name": "Pawe\u0142 Kuna",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
-                                        "url": "https://github.com/codecalm",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -143,34 +244,44 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "afb9522a985f69c3118f3aca5c973d45e10262dd",
-                                    "commitUrl": "https://github.com/tabler/tabler/commit/afb9522a985f69c3118f3aca5c973d45e10262dd",
-                                    "commitResourcePath": "/tabler/tabler/commit/afb9522a985f69c3118f3aca5c973d45e10262dd"
+                                    "oid": "afb9522a985f69c3118f3aca5c973d45e10262dd"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "a811ad1489360d0d443d9e8a0d1a0c292777c4a6",
-                                                "url": "https://github.com/tabler/tabler/commit/a811ad1489360d0d443d9e8a0d1a0c292777c4a6",
-                                                "commitUrl": "https://github.com/tabler/tabler/commit/a811ad1489360d0d443d9e8a0d1a0c292777c4a6"
+                                                "oid": "a811ad1489360d0d443d9e8a0d1a0c292777c4a6"
                                             }
                                         },
                                         {
                                             "node": {
-                                                "oid": "d7eb39c4bd43254676619eecf5bcd0a1ee8dd209",
-                                                "url": "https://github.com/tabler/tabler/commit/d7eb39c4bd43254676619eecf5bcd0a1ee8dd209",
-                                                "commitUrl": "https://github.com/tabler/tabler/commit/d7eb39c4bd43254676619eecf5bcd0a1ee8dd209"
+                                                "oid": "d7eb39c4bd43254676619eecf5bcd0a1ee8dd209"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree afb9522a985f69c3118f3aca5c973d45e10262dd\nparent a811ad1489360d0d443d9e8a0d1a0c292777c4a6\nparent d7eb39c4bd43254676619eecf5bcd0a1ee8dd209\nauthor Pawe\u0142 Kuna <1282324+codecalm@users.noreply.github.com> 1524325754 +0200\ncommitter GitHub <noreply@github.com> 1524325754 +0200\n\nMerge pull request #102 from johnunclesam/patch-1\n\n\"dimmer-content\" opacity too much.",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJa2116CRBK7hj4Ov3rIwAAdHIIAC15XlgKHEy99U7xwDYCcRuF\nFL9k2v+Tfx8cj+BmCEg4GczgH6da/z615n4kgRrrUFVG2E4G5mJCxIky8DdKXepA\nlNsGJzGv8K/DGe2f5sbqlV6uicHiR6RhqZXSYFp8BSjiuTCHUpMNmRMMv/SPmMKa\njQOxwQMMdpYlf6wh5hKWW5Egi5lg9smZEbicg/Ep7bnMSF9SLrzlmCsvc7SJU+a1\ntrXQbK9vLGqohCFFuV7FO6UqrSsKWI5jNlWpU6HgvgCzs7Ys1MAUw3aUhU5AqMby\nLuMfDWsV02z33KS7I0/F8aBR7Y+ZL8oHm207Zm98eq3EInx4YjTHCwNNR67/8Sk=\n=THkS\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTE5ODExMDEwOm5ldy1pbnB1dHM=",
                             "name": "new-inputs",
                             "target": {
                                 "oid": "74f06831f3fbd2b26d5b1599d3ac563f5250b37a",
@@ -179,14 +290,13 @@
                                 "author": {
                                     "name": "chomik",
                                     "email": "codecalm@gmail.com",
-                                    "date": "2018-04-12T11:43:16Z",
+                                    "date": "2018-04-12T13:43:16+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjEyODIzMjQ=",
                                         "login": "codecalm",
                                         "name": "Pawe\u0142 Kuna",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
-                                        "url": "https://github.com/codecalm",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -200,32 +310,27 @@
                                         "name": "Pawe\u0142 Kuna",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
-                                        "url": "https://github.com/codecalm",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "0d389aa6446497ab454dba8d8d265cd2a3e57a9d",
-                                    "commitUrl": "https://github.com/tabler/tabler/commit/0d389aa6446497ab454dba8d8d265cd2a3e57a9d",
-                                    "commitResourcePath": "/tabler/tabler/commit/0d389aa6446497ab454dba8d8d265cd2a3e57a9d"
+                                    "oid": "0d389aa6446497ab454dba8d8d265cd2a3e57a9d"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "0b0b9b1d4ba9e6f96f09dc90e86fd22f9e6f6848",
-                                                "url": "https://github.com/tabler/tabler/commit/0b0b9b1d4ba9e6f96f09dc90e86fd22f9e6f6848",
-                                                "commitUrl": "https://github.com/tabler/tabler/commit/0b0b9b1d4ba9e6f96f09dc90e86fd22f9e6f6848"
+                                                "oid": "0b0b9b1d4ba9e6f96f09dc90e86fd22f9e6f6848"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTE5ODExMDEwOnJldmVydC00My1tYXN0ZXI=",
                             "name": "revert-43-master",
                             "target": {
                                 "oid": "e3b837b4c5bf1dfb889518b2a41b3495a146c540",
@@ -234,14 +339,13 @@
                                 "author": {
                                     "name": "Pawe\u0142 Kuna",
                                     "email": "1282324+codecalm@users.noreply.github.com",
-                                    "date": "2018-04-04T08:49:01Z",
+                                    "date": "2018-04-04T10:49:01+02:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjEyODIzMjQ=",
                                         "login": "codecalm",
                                         "name": "Pawe\u0142 Kuna",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
-                                        "url": "https://github.com/codecalm",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -252,20 +356,33 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "4e9b80097d23a2d72428919e77981943e7609a1f",
-                                    "commitUrl": "https://github.com/tabler/tabler/commit/4e9b80097d23a2d72428919e77981943e7609a1f",
-                                    "commitResourcePath": "/tabler/tabler/commit/4e9b80097d23a2d72428919e77981943e7609a1f"
+                                    "oid": "4e9b80097d23a2d72428919e77981943e7609a1f"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "0f7b572b94434eee997753830b86213e1eff6d6d",
-                                                "url": "https://github.com/tabler/tabler/commit/0f7b572b94434eee997753830b86213e1eff6d6d",
-                                                "commitUrl": "https://github.com/tabler/tabler/commit/0f7b572b94434eee997753830b86213e1eff6d6d"
+                                                "oid": "0f7b572b94434eee997753830b86213e1eff6d6d"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 4e9b80097d23a2d72428919e77981943e7609a1f\nparent 0f7b572b94434eee997753830b86213e1eff6d6d\nauthor Pawe\u0142 Kuna <1282324+codecalm@users.noreply.github.com> 1522831741 +0200\ncommitter GitHub <noreply@github.com> 1522831741 +0200\n\nRevert \"Update README for content / readability \"\n",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJaxJF9CRBK7hj4Ov3rIwAAdHIIABUQPK/NcQhkJvTXKP4J+gcN\nD0tHh18fZlp1JwW/H1GzUVU4XWX+sjmMMF9jT1tM2XpO76jb+hjJ0hNSmIrc6HEB\nG+WdMRcSP+5VA9Zmh+dduGfJvG3A7kPh91QtWYfMWhKwO+INQGbMvbczx8LIhQ1B\nEAdky8HRAvaQhagwYNP79O7V9qcUmkhuVxjtw7Kelt7C8GcJvydHFRoLjrmYDyQA\n7LFdJVyLoEsc5F6L0vtPpRbOnsBoPNYmPCTgea9G4o4R2VaWw4yfxYJH1VL6HtSa\nt7ikxSEyIUFXnOF5Kgu2Deodii7mLs5RLUG3kvcgpFFu+kBpFBHm5v9nsD3m5V0=\n=d4Jy\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }

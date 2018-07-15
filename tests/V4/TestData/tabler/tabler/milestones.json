@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnkxMTk4MTEwMTA=",
             "name": "tabler",
             "milestones": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": null
+                },
                 "edges": []
             }
         }

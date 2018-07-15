@@ -7,7 +7,7 @@
                 "pullRequests": {
                     "pageInfo": {
                         "hasNextPage": false,
-                        "endCursor": "Y3Vyc29yOnYyOpHOCxmExQ=="
+                        "endCursor": "Y3Vyc29yOnYyOpHOC9y7sw=="
                     },
                     "edges": [
                         {
@@ -43,13 +43,13 @@
                                     "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
                                     "homepageUrl": "https://tabler.github.io/",
                                     "primaryLanguage": {
-                                        "name": "CSS"
+                                        "name": "JavaScript"
                                     },
                                     "mirrorUrl": null,
                                     "isArchived": false,
-                                    "forkCount": 915,
-                                    "pushedAt": "2018-05-06T19:21:13Z",
-                                    "updatedAt": "2018-05-06T21:39:07Z",
+                                    "forkCount": 1176,
+                                    "pushedAt": "2018-07-03T16:13:09Z",
+                                    "updatedAt": "2018-07-14T22:28:46Z",
                                     "createdAt": "2018-02-01T09:08:59Z"
                                 },
                                 "author": {
@@ -112,13 +112,13 @@
                                     "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
                                     "homepageUrl": "https://tabler.github.io/",
                                     "primaryLanguage": {
-                                        "name": "CSS"
+                                        "name": "JavaScript"
                                     },
                                     "mirrorUrl": null,
                                     "isArchived": false,
-                                    "forkCount": 915,
-                                    "pushedAt": "2018-05-06T19:21:13Z",
-                                    "updatedAt": "2018-05-06T21:39:07Z",
+                                    "forkCount": 1176,
+                                    "pushedAt": "2018-07-03T16:13:09Z",
+                                    "updatedAt": "2018-07-14T22:28:46Z",
                                     "createdAt": "2018-02-01T09:08:59Z"
                                 },
                                 "author": {
@@ -181,13 +181,13 @@
                                     "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
                                     "homepageUrl": "https://tabler.github.io/",
                                     "primaryLanguage": {
-                                        "name": "CSS"
+                                        "name": "JavaScript"
                                     },
                                     "mirrorUrl": null,
                                     "isArchived": false,
-                                    "forkCount": 915,
-                                    "pushedAt": "2018-05-06T19:21:13Z",
-                                    "updatedAt": "2018-05-06T21:39:07Z",
+                                    "forkCount": 1176,
+                                    "pushedAt": "2018-07-03T16:13:09Z",
+                                    "updatedAt": "2018-07-14T22:28:46Z",
                                     "createdAt": "2018-02-01T09:08:59Z"
                                 },
                                 "author": {
@@ -250,13 +250,13 @@
                                     "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
                                     "homepageUrl": "https://tabler.github.io/",
                                     "primaryLanguage": {
-                                        "name": "CSS"
+                                        "name": "JavaScript"
                                     },
                                     "mirrorUrl": null,
                                     "isArchived": false,
-                                    "forkCount": 915,
-                                    "pushedAt": "2018-05-06T19:21:13Z",
-                                    "updatedAt": "2018-05-06T21:39:07Z",
+                                    "forkCount": 1176,
+                                    "pushedAt": "2018-07-03T16:13:09Z",
+                                    "updatedAt": "2018-07-14T22:28:46Z",
                                     "createdAt": "2018-02-01T09:08:59Z"
                                 },
                                 "author": {
@@ -420,13 +420,13 @@
                                     "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
                                     "homepageUrl": "https://tabler.github.io/",
                                     "primaryLanguage": {
-                                        "name": "CSS"
+                                        "name": "JavaScript"
                                     },
                                     "mirrorUrl": null,
                                     "isArchived": false,
-                                    "forkCount": 915,
-                                    "pushedAt": "2018-05-06T19:21:13Z",
-                                    "updatedAt": "2018-05-06T21:39:07Z",
+                                    "forkCount": 1176,
+                                    "pushedAt": "2018-07-03T16:13:09Z",
+                                    "updatedAt": "2018-07-14T22:28:46Z",
                                     "createdAt": "2018-02-01T09:08:59Z"
                                 },
                                 "author": {
@@ -489,13 +489,13 @@
                                     "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
                                     "homepageUrl": "https://tabler.github.io/",
                                     "primaryLanguage": {
-                                        "name": "CSS"
+                                        "name": "JavaScript"
                                     },
                                     "mirrorUrl": null,
                                     "isArchived": false,
-                                    "forkCount": 915,
-                                    "pushedAt": "2018-05-06T19:21:13Z",
-                                    "updatedAt": "2018-05-06T21:39:07Z",
+                                    "forkCount": 1176,
+                                    "pushedAt": "2018-07-03T16:13:09Z",
+                                    "updatedAt": "2018-07-14T22:28:46Z",
                                     "createdAt": "2018-02-01T09:08:59Z"
                                 },
                                 "author": {
@@ -1338,39 +1338,7 @@
                                 "additions": 1,
                                 "changedFiles": 1,
                                 "deletions": 1,
-                                "headRepository": {
-                                    "id": "MDEwOlJlcG9zaXRvcnkxMjc5OTA0MTg=",
-                                    "owner": {
-                                        "id": "MDQ6VXNlcjE0MzEyNzAx",
-                                        "login": "realgio95",
-                                        "name": "Giovanni HoSang",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/14312701?v=4",
-                                        "url": "https://github.com/realgio95",
-                                        "isSiteAdmin": false
-                                    },
-                                    "name": "tabler",
-                                    "isPrivate": false,
-                                    "defaultBranchRef": {
-                                        "name": "master"
-                                    },
-                                    "isFork": true,
-                                    "parent": {
-                                        "id": "MDEwOlJlcG9zaXRvcnkxMTk4MTEwMTA=",
-                                        "nameWithOwner": "tabler/tabler"
-                                    },
-                                    "description": "Tabler is free and open-source HTML Dashboard UI KIt built on Bootstrap 4",
-                                    "homepageUrl": "https://tabler.github.io/",
-                                    "primaryLanguage": {
-                                        "name": "CSS"
-                                    },
-                                    "mirrorUrl": null,
-                                    "isArchived": false,
-                                    "forkCount": 0,
-                                    "pushedAt": "2018-04-04T01:38:38Z",
-                                    "updatedAt": "2018-04-04T01:37:57Z",
-                                    "createdAt": "2018-04-04T01:37:53Z"
-                                },
+                                "headRepository": null,
                                 "author": {
                                     "id": "MDQ6VXNlcjE0MzEyNzAx",
                                     "login": "realgio95",
@@ -1580,13 +1548,13 @@
                                     "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
                                     "homepageUrl": "https://tabler.github.io/",
                                     "primaryLanguage": {
-                                        "name": "CSS"
+                                        "name": "JavaScript"
                                     },
                                     "mirrorUrl": null,
                                     "isArchived": false,
-                                    "forkCount": 915,
-                                    "pushedAt": "2018-05-06T19:21:13Z",
-                                    "updatedAt": "2018-05-06T21:39:07Z",
+                                    "forkCount": 1176,
+                                    "pushedAt": "2018-07-03T16:13:09Z",
+                                    "updatedAt": "2018-07-14T22:28:46Z",
                                     "createdAt": "2018-02-01T09:08:59Z"
                                 },
                                 "author": {
@@ -2109,13 +2077,13 @@
                                     "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
                                     "homepageUrl": "https://tabler.github.io/",
                                     "primaryLanguage": {
-                                        "name": "CSS"
+                                        "name": "JavaScript"
                                     },
                                     "mirrorUrl": null,
                                     "isArchived": false,
-                                    "forkCount": 915,
-                                    "pushedAt": "2018-05-06T19:21:13Z",
-                                    "updatedAt": "2018-05-06T21:39:07Z",
+                                    "forkCount": 1176,
+                                    "pushedAt": "2018-07-03T16:13:09Z",
+                                    "updatedAt": "2018-07-14T22:28:46Z",
                                     "createdAt": "2018-02-01T09:08:59Z"
                                 },
                                 "author": {
@@ -2170,13 +2138,13 @@
                                     "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
                                     "homepageUrl": "https://tabler.github.io/",
                                     "primaryLanguage": {
-                                        "name": "CSS"
+                                        "name": "JavaScript"
                                     },
                                     "mirrorUrl": null,
                                     "isArchived": false,
-                                    "forkCount": 915,
-                                    "pushedAt": "2018-05-06T19:21:13Z",
-                                    "updatedAt": "2018-05-06T21:39:07Z",
+                                    "forkCount": 1176,
+                                    "pushedAt": "2018-07-03T16:13:09Z",
+                                    "updatedAt": "2018-07-14T22:28:46Z",
                                     "createdAt": "2018-02-01T09:08:59Z"
                                 },
                                 "author": {
@@ -2528,67 +2496,6 @@
                         },
                         {
                             "node": {
-                                "id": "MDExOlB1bGxSZXF1ZXN0MTgxMzY5ODA2",
-                                "number": 81,
-                                "title": "New inputs",
-                                "body": "[\u0623\u0630\u0643\u0627\u0631 \u0627\u0644\u0635\u0628\u0627\u062d.docx](https://github.com/tabler/tabler/files/1905576/default.docx)\r\n",
-                                "state": "CLOSED",
-                                "mergedAt": null,
-                                "mergedBy": null,
-                                "additions": 132,
-                                "changedFiles": 4,
-                                "deletions": 17,
-                                "headRepository": {
-                                    "id": "MDEwOlJlcG9zaXRvcnkxMTk4MTEwMTA=",
-                                    "owner": [],
-                                    "name": "tabler",
-                                    "isPrivate": false,
-                                    "defaultBranchRef": {
-                                        "name": "dev"
-                                    },
-                                    "isFork": false,
-                                    "parent": null,
-                                    "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
-                                    "homepageUrl": "https://tabler.github.io/",
-                                    "primaryLanguage": {
-                                        "name": "CSS"
-                                    },
-                                    "mirrorUrl": null,
-                                    "isArchived": false,
-                                    "forkCount": 915,
-                                    "pushedAt": "2018-05-06T19:21:13Z",
-                                    "updatedAt": "2018-05-06T21:39:07Z",
-                                    "createdAt": "2018-02-01T09:08:59Z"
-                                },
-                                "author": {
-                                    "id": "MDQ6VXNlcjM0MTE0NzYy",
-                                    "login": "twasil",
-                                    "name": null,
-                                    "__typename": "User",
-                                    "avatarUrl": "https://avatars2.githubusercontent.com/u/34114762?v=4",
-                                    "url": "https://github.com/twasil",
-                                    "isSiteAdmin": false
-                                },
-                                "assignees": {
-                                    "edges": []
-                                },
-                                "reviewRequests": {
-                                    "edges": []
-                                },
-                                "reviews": {
-                                    "edges": []
-                                },
-                                "labels": {
-                                    "edges": []
-                                },
-                                "milestone": null,
-                                "closedAt": "2018-04-16T07:17:41Z",
-                                "createdAt": "2018-04-13T02:15:27Z",
-                                "updatedAt": "2018-04-16T07:17:41Z"
-                            }
-                        },
-                        {
-                            "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MTgxMzc1MDI0",
                                 "number": 82,
                                 "title": "whitespace",
@@ -2708,48 +2615,8 @@
                                 "additions": 2,
                                 "changedFiles": 1,
                                 "deletions": 2,
-                                "headRepository": {
-                                    "id": "MDEwOlJlcG9zaXRvcnkxMjk5NzM1ODQ=",
-                                    "owner": {
-                                        "id": "MDQ6VXNlcjIxMjc1MjE3",
-                                        "login": "johnunclesam",
-                                        "name": null,
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/21275217?v=4",
-                                        "url": "https://github.com/johnunclesam",
-                                        "isSiteAdmin": false
-                                    },
-                                    "name": "tabler",
-                                    "isPrivate": false,
-                                    "defaultBranchRef": {
-                                        "name": "dev"
-                                    },
-                                    "isFork": true,
-                                    "parent": {
-                                        "id": "MDEwOlJlcG9zaXRvcnkxMTk4MTEwMTA=",
-                                        "nameWithOwner": "tabler/tabler"
-                                    },
-                                    "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
-                                    "homepageUrl": "https://tabler.github.io/",
-                                    "primaryLanguage": {
-                                        "name": "CSS"
-                                    },
-                                    "mirrorUrl": null,
-                                    "isArchived": false,
-                                    "forkCount": 0,
-                                    "pushedAt": "2018-04-21T15:55:01Z",
-                                    "updatedAt": "2018-04-17T22:46:08Z",
-                                    "createdAt": "2018-04-17T22:46:05Z"
-                                },
-                                "author": {
-                                    "id": "MDQ6VXNlcjIxMjc1MjE3",
-                                    "login": "johnunclesam",
-                                    "name": null,
-                                    "__typename": "User",
-                                    "avatarUrl": "https://avatars3.githubusercontent.com/u/21275217?v=4",
-                                    "url": "https://github.com/johnunclesam",
-                                    "isSiteAdmin": false
-                                },
+                                "headRepository": null,
+                                "author": null,
                                 "assignees": {
                                     "edges": []
                                 },
@@ -3179,45 +3046,21 @@
                                 "number": 126,
                                 "title": "Fix issue with broken 'tabler.svg' logo on 'Login', 'Register' and 'Forgot Password' pages",
                                 "body": "Noticed a broken Tabler logo on **Login**, **Register** and **Forgot Password** pages while I was browsing the theme.\r\n\r\nThe fix seems to be trivial, so I decided to address that since it didn't look right to show the demo with broken images.\r\n\r\nHope this would help to make things even better! \ud83d\ude03 \r\n\r\nPlease find below a comparison `before` vs. `after` for each page adjusted.\r\n\r\n## Login\r\n`before`\r\n<img width=\"510\" alt=\"image\" src=\"https://user-images.githubusercontent.com/3822219/39561200-0e737144-4e59-11e8-8345-eb163a147cb3.png\">\r\n`after`\r\n<img width=\"538\" alt=\"image\" src=\"https://user-images.githubusercontent.com/3822219/39561214-29f1b246-4e59-11e8-8e06-575182e7c287.png\">\r\n\r\n## Register\r\n`before`\r\n<img width=\"495\" alt=\"image\" src=\"https://user-images.githubusercontent.com/3822219/39561241-50ea1730-4e59-11e8-9088-9ebfb3108116.png\">\r\n`after`\r\n<img width=\"481\" alt=\"image\" src=\"https://user-images.githubusercontent.com/3822219/39561251-6350dd5a-4e59-11e8-947a-17a0873bfc6c.png\">\r\n\r\n## Forgot Password\r\n`before`\r\n<img width=\"468\" alt=\"image\" src=\"https://user-images.githubusercontent.com/3822219/39561264-7b76a310-4e59-11e8-9f9b-11f6a438928e.png\">\r\n`after`\r\n<img width=\"453\" alt=\"image\" src=\"https://user-images.githubusercontent.com/3822219/39561276-8b69a786-4e59-11e8-8072-37cbec3b64dd.png\">",
-                                "state": "OPEN",
-                                "mergedAt": null,
-                                "mergedBy": null,
+                                "state": "MERGED",
+                                "mergedAt": "2018-05-09T08:50:49Z",
+                                "mergedBy": {
+                                    "id": "MDQ6VXNlcjEyODIzMjQ=",
+                                    "login": "codecalm",
+                                    "name": "Pawe\u0142 Kuna",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
+                                    "url": "https://github.com/codecalm",
+                                    "isSiteAdmin": false
+                                },
                                 "additions": 4,
                                 "changedFiles": 4,
                                 "deletions": 4,
-                                "headRepository": {
-                                    "id": "MDEwOlJlcG9zaXRvcnkxMzE5NDUxNTE=",
-                                    "owner": {
-                                        "id": "MDQ6VXNlcjM4MjIyMTk=",
-                                        "login": "ptsurbeleu",
-                                        "name": "Pavel Tsurbeleu",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/3822219?v=4",
-                                        "url": "https://github.com/ptsurbeleu",
-                                        "isSiteAdmin": false
-                                    },
-                                    "name": "tabler",
-                                    "isPrivate": false,
-                                    "defaultBranchRef": {
-                                        "name": "dev"
-                                    },
-                                    "isFork": true,
-                                    "parent": {
-                                        "id": "MDEwOlJlcG9zaXRvcnkxMTk4MTEwMTA=",
-                                        "nameWithOwner": "tabler/tabler"
-                                    },
-                                    "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
-                                    "homepageUrl": "https://tabler.github.io/",
-                                    "primaryLanguage": {
-                                        "name": "CSS"
-                                    },
-                                    "mirrorUrl": null,
-                                    "isArchived": false,
-                                    "forkCount": 0,
-                                    "pushedAt": "2018-05-03T05:29:28Z",
-                                    "updatedAt": "2018-05-03T05:29:30Z",
-                                    "createdAt": "2018-05-03T05:19:08Z"
-                                },
+                                "headRepository": null,
                                 "author": {
                                     "id": "MDQ6VXNlcjM4MjIyMTk=",
                                     "login": "ptsurbeleu",
@@ -3240,9 +3083,9 @@
                                     "edges": []
                                 },
                                 "milestone": null,
-                                "closedAt": null,
+                                "closedAt": "2018-05-09T08:50:49Z",
                                 "createdAt": "2018-05-03T05:39:22Z",
-                                "updatedAt": "2018-05-03T20:46:50Z"
+                                "updatedAt": "2018-05-09T22:24:23Z"
                             }
                         },
                         {
@@ -3251,45 +3094,13 @@
                                 "number": 132,
                                 "title": "Fix error on serving",
                                 "body": "This fixes the following error: You have already activated public_suffix 3.0.2, but your Gemfile requires public_suffix 3.0.0. Prepending `bundle exec` to your command may solve this.",
-                                "state": "OPEN",
+                                "state": "CLOSED",
                                 "mergedAt": null,
                                 "mergedBy": null,
                                 "additions": 1,
                                 "changedFiles": 1,
                                 "deletions": 1,
-                                "headRepository": {
-                                    "id": "MDEwOlJlcG9zaXRvcnkxMzIzNjg3MzI=",
-                                    "owner": {
-                                        "id": "MDQ6VXNlcjEzMjg3OTg0",
-                                        "login": "mohe2015",
-                                        "name": "Moritz",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/13287984?v=4",
-                                        "url": "https://github.com/mohe2015",
-                                        "isSiteAdmin": false
-                                    },
-                                    "name": "tabler",
-                                    "isPrivate": false,
-                                    "defaultBranchRef": {
-                                        "name": "dev"
-                                    },
-                                    "isFork": true,
-                                    "parent": {
-                                        "id": "MDEwOlJlcG9zaXRvcnkxMTk4MTEwMTA=",
-                                        "nameWithOwner": "tabler/tabler"
-                                    },
-                                    "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
-                                    "homepageUrl": "https://tabler.github.io/",
-                                    "primaryLanguage": {
-                                        "name": "CSS"
-                                    },
-                                    "mirrorUrl": null,
-                                    "isArchived": false,
-                                    "forkCount": 0,
-                                    "pushedAt": "2018-05-06T19:20:28Z",
-                                    "updatedAt": "2018-05-06T19:18:28Z",
-                                    "createdAt": "2018-05-06T19:18:25Z"
-                                },
+                                "headRepository": null,
                                 "author": {
                                     "id": "MDQ6VXNlcjEzMjg3OTg0",
                                     "login": "mohe2015",
@@ -3312,9 +3123,461 @@
                                     "edges": []
                                 },
                                 "milestone": null,
-                                "closedAt": null,
+                                "closedAt": "2018-05-09T12:44:01Z",
                                 "createdAt": "2018-05-06T19:21:12Z",
-                                "updatedAt": "2018-05-06T19:21:12Z"
+                                "updatedAt": "2018-05-09T12:44:15Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTg3NTMyNDY3",
+                                "number": 135,
+                                "title": "Issue #122 Fix wrong link for user image in notifications popup of docs page",
+                                "body": "",
+                                "state": "OPEN",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 3,
+                                "changedFiles": 1,
+                                "deletions": 3,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMzMwNzEwMDQ=",
+                                    "owner": {
+                                        "id": "MDQ6VXNlcjgyMjIxNTg=",
+                                        "login": "sriram301296",
+                                        "name": null,
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/8222158?v=4",
+                                        "url": "https://github.com/sriram301296",
+                                        "isSiteAdmin": false
+                                    },
+                                    "name": "tabler",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "dev"
+                                    },
+                                    "isFork": true,
+                                    "parent": {
+                                        "id": "MDEwOlJlcG9zaXRvcnkxMTk4MTEwMTA=",
+                                        "nameWithOwner": "tabler/tabler"
+                                    },
+                                    "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
+                                    "homepageUrl": "https://tabler.github.io/",
+                                    "primaryLanguage": {
+                                        "name": "CSS"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-11T18:05:22Z",
+                                    "updatedAt": "2018-05-11T18:05:25Z",
+                                    "createdAt": "2018-05-11T17:47:25Z"
+                                },
+                                "author": {
+                                    "id": "MDQ6VXNlcjgyMjIxNTg=",
+                                    "login": "sriram301296",
+                                    "name": null,
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars2.githubusercontent.com/u/8222158?v=4",
+                                    "url": "https://github.com/sriram301296",
+                                    "isSiteAdmin": false
+                                },
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": []
+                                },
+                                "milestone": null,
+                                "closedAt": null,
+                                "createdAt": "2018-05-11T18:08:13Z",
+                                "updatedAt": "2018-05-11T18:08:13Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTg3NjIyMzcw",
+                                "number": 136,
+                                "title": "Datatables",
+                                "body": "Added working datatables with UI of tabler.\r\n\r\n<img width=\"1215\" alt=\"screen shot 2018-05-12 at 15 51 05\" src=\"https://user-images.githubusercontent.com/31419790/39957994-5560fb8a-55fc-11e8-9fec-c6f2895e6d07.png\">\r\n",
+                                "state": "MERGED",
+                                "mergedAt": "2018-06-12T14:06:38Z",
+                                "mergedBy": {
+                                    "id": "MDQ6VXNlcjEyODIzMjQ=",
+                                    "login": "codecalm",
+                                    "name": "Pawe\u0142 Kuna",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
+                                    "url": "https://github.com/codecalm",
+                                    "isSiteAdmin": false
+                                },
+                                "additions": 34004,
+                                "changedFiles": 39,
+                                "deletions": 4,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMzA1NDc1MjE=",
+                                    "owner": {
+                                        "id": "MDQ6VXNlcjMxNDE5Nzkw",
+                                        "login": "thiscodeworks",
+                                        "name": "Thiscode.works",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/31419790?v=4",
+                                        "url": "https://github.com/thiscodeworks",
+                                        "isSiteAdmin": false
+                                    },
+                                    "name": "tabler",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "dev"
+                                    },
+                                    "isFork": true,
+                                    "parent": {
+                                        "id": "MDEwOlJlcG9zaXRvcnkxMTk4MTEwMTA=",
+                                        "nameWithOwner": "tabler/tabler"
+                                    },
+                                    "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
+                                    "homepageUrl": "https://tabler.github.io/",
+                                    "primaryLanguage": {
+                                        "name": "JavaScript"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-18T20:22:34Z",
+                                    "updatedAt": "2018-05-18T20:22:36Z",
+                                    "createdAt": "2018-04-22T08:07:09Z"
+                                },
+                                "author": {
+                                    "id": "MDQ6VXNlcjMxNDE5Nzkw",
+                                    "login": "thiscodeworks",
+                                    "name": "Thiscode.works",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars0.githubusercontent.com/u/31419790?v=4",
+                                    "url": "https://github.com/thiscodeworks",
+                                    "isSiteAdmin": false
+                                },
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "id": "MDEzOlJldmlld1JlcXVlc3Q0MDY1NDEyOA==",
+                                                "requestedReviewer": {
+                                                    "id": "MDQ6VXNlcjEyODIzMjQ=",
+                                                    "login": "codecalm",
+                                                    "name": "Pawe\u0142 Kuna",
+                                                    "__typename": "User",
+                                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
+                                                    "url": "https://github.com/codecalm",
+                                                    "isSiteAdmin": false
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": []
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-06-12T14:06:38Z",
+                                "createdAt": "2018-05-12T13:55:34Z",
+                                "updatedAt": "2018-06-12T14:06:38Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkxMzA4MTg4",
+                                "number": 144,
+                                "title": "Remove duplicate position property for .btn-loading:after",
+                                "body": "",
+                                "state": "MERGED",
+                                "mergedAt": "2018-06-12T14:06:51Z",
+                                "mergedBy": {
+                                    "id": "MDQ6VXNlcjEyODIzMjQ=",
+                                    "login": "codecalm",
+                                    "name": "Pawe\u0142 Kuna",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
+                                    "url": "https://github.com/codecalm",
+                                    "isSiteAdmin": false
+                                },
+                                "additions": 1,
+                                "changedFiles": 1,
+                                "deletions": 2,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMzUzNjk1Nzg=",
+                                    "owner": {
+                                        "id": "MDQ6VXNlcjE4NDg1MDE=",
+                                        "login": "akabraham",
+                                        "name": "Andrew Abraham",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1848501?v=4",
+                                        "url": "https://github.com/akabraham",
+                                        "isSiteAdmin": false
+                                    },
+                                    "name": "tabler",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "dev"
+                                    },
+                                    "isFork": true,
+                                    "parent": {
+                                        "id": "MDEwOlJlcG9zaXRvcnkxMTk4MTEwMTA=",
+                                        "nameWithOwner": "tabler/tabler"
+                                    },
+                                    "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
+                                    "homepageUrl": "https://tabler.github.io/",
+                                    "primaryLanguage": {
+                                        "name": "CSS"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-30T01:18:13Z",
+                                    "updatedAt": "2018-05-30T01:05:52Z",
+                                    "createdAt": "2018-05-30T01:05:48Z"
+                                },
+                                "author": {
+                                    "id": "MDQ6VXNlcjE4NDg1MDE=",
+                                    "login": "akabraham",
+                                    "name": "Andrew Abraham",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1848501?v=4",
+                                    "url": "https://github.com/akabraham",
+                                    "isSiteAdmin": false
+                                },
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": []
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-06-12T14:06:51Z",
+                                "createdAt": "2018-05-30T01:11:49Z",
+                                "updatedAt": "2018-06-12T14:06:51Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkxMzA4OTA1",
+                                "number": 145,
+                                "title": "Add generic font fallback for .close",
+                                "body": "",
+                                "state": "MERGED",
+                                "mergedAt": "2018-06-06T07:56:13Z",
+                                "mergedBy": {
+                                    "id": "MDQ6VXNlcjEyODIzMjQ=",
+                                    "login": "codecalm",
+                                    "name": "Pawe\u0142 Kuna",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
+                                    "url": "https://github.com/codecalm",
+                                    "isSiteAdmin": false
+                                },
+                                "additions": 2,
+                                "changedFiles": 1,
+                                "deletions": 2,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMzUzNjk1Nzg=",
+                                    "owner": {
+                                        "id": "MDQ6VXNlcjE4NDg1MDE=",
+                                        "login": "akabraham",
+                                        "name": "Andrew Abraham",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1848501?v=4",
+                                        "url": "https://github.com/akabraham",
+                                        "isSiteAdmin": false
+                                    },
+                                    "name": "tabler",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "dev"
+                                    },
+                                    "isFork": true,
+                                    "parent": {
+                                        "id": "MDEwOlJlcG9zaXRvcnkxMTk4MTEwMTA=",
+                                        "nameWithOwner": "tabler/tabler"
+                                    },
+                                    "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
+                                    "homepageUrl": "https://tabler.github.io/",
+                                    "primaryLanguage": {
+                                        "name": "CSS"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-05-30T01:18:13Z",
+                                    "updatedAt": "2018-05-30T01:05:52Z",
+                                    "createdAt": "2018-05-30T01:05:48Z"
+                                },
+                                "author": {
+                                    "id": "MDQ6VXNlcjE4NDg1MDE=",
+                                    "login": "akabraham",
+                                    "name": "Andrew Abraham",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/1848501?v=4",
+                                    "url": "https://github.com/akabraham",
+                                    "isSiteAdmin": false
+                                },
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": []
+                                },
+                                "milestone": null,
+                                "closedAt": "2018-06-06T07:56:13Z",
+                                "createdAt": "2018-05-30T01:18:46Z",
+                                "updatedAt": "2018-06-06T07:56:13Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk0NTc2OTc0",
+                                "number": 152,
+                                "title": "Problem with list view in safari issue #151",
+                                "body": "dashboard.css on line 2996 there is a\r\n\r\n.dropup,\r\n.dropright,\r\n.dropdown,\r\n.dropleft {\r\n  position: relative;\r\n}\r\nthis work makes list view fixed status.",
+                                "state": "OPEN",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 19559,
+                                "changedFiles": 13,
+                                "deletions": 4,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMTk4MTEwMTA=",
+                                    "owner": [],
+                                    "name": "tabler",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "dev"
+                                    },
+                                    "isFork": false,
+                                    "parent": null,
+                                    "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
+                                    "homepageUrl": "https://tabler.github.io/",
+                                    "primaryLanguage": {
+                                        "name": "JavaScript"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 1176,
+                                    "pushedAt": "2018-07-03T16:13:09Z",
+                                    "updatedAt": "2018-07-14T22:28:46Z",
+                                    "createdAt": "2018-02-01T09:08:59Z"
+                                },
+                                "author": {
+                                    "id": "MDQ6VXNlcjI3NTQ1MDYy",
+                                    "login": "yh0438",
+                                    "name": null,
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars1.githubusercontent.com/u/27545062?v=4",
+                                    "url": "https://github.com/yh0438",
+                                    "isSiteAdmin": false
+                                },
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": []
+                                },
+                                "milestone": null,
+                                "closedAt": null,
+                                "createdAt": "2018-06-13T12:56:18Z",
+                                "updatedAt": "2018-06-18T21:57:09Z"
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk5MDE1MzQ3",
+                                "number": 158,
+                                "title": "Activating Open Collective",
+                                "body": "Hi, I'm making updates for Open Collective. Either you or a supporter signed this repo up for Open Collective. This pull request adds backers and sponsors from your Open Collective https://opencollective.com/tabler \u2764\ufe0f\n  \n  It adds two badges at the top to show the latest number of backers and sponsors. It also adds placeholders so that the avatar/logo of new backers/sponsors can automatically be shown without having to update your README.md. [[more info](https://github.com/opencollective/opencollective/wiki/Github-banner)]. See how it looks on [this repo](https://github.com/apex/apex#backers).\nWe have also added a `postinstall` script to let people know after `npm|yarn install` that you are welcoming donations (optional). [[More info](https://github.com/OpenCollective/opencollective-cli)]\nYou can also add a \"Donate\" button to your website and automatically show your backers and sponsors there with our widgets. Have a look here: https://opencollective.com/widgets\n\n  P.S: As with any pull request, feel free to comment or suggest changes. The only thing \"required\" are the placeholders on the README because we believe it's important to acknowledge the people in your community that are contributing (financially or with code!).\n\n  Thank you for your great contribution to the open source community. You are awesome! \ud83d\ude4c\n  And welcome to the open collective community! \ud83d\ude0a\n\n  Come chat with us in the #opensource channel on https://slack.opencollective.com - great place to ask questions and share best practices with other open source sustainers!\n  ",
+                                "state": "OPEN",
+                                "mergedAt": null,
+                                "mergedBy": null,
+                                "additions": 34105,
+                                "changedFiles": 50,
+                                "deletions": 24,
+                                "headRepository": {
+                                    "id": "MDEwOlJlcG9zaXRvcnkxMzk2MDg1MTM=",
+                                    "owner": [],
+                                    "name": "tabler",
+                                    "isPrivate": false,
+                                    "defaultBranchRef": {
+                                        "name": "dev"
+                                    },
+                                    "isFork": true,
+                                    "parent": {
+                                        "id": "MDEwOlJlcG9zaXRvcnkxMTk4MTEwMTA=",
+                                        "nameWithOwner": "tabler/tabler"
+                                    },
+                                    "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap 4",
+                                    "homepageUrl": "https://tabler.github.io/",
+                                    "primaryLanguage": {
+                                        "name": "JavaScript"
+                                    },
+                                    "mirrorUrl": null,
+                                    "isArchived": false,
+                                    "forkCount": 0,
+                                    "pushedAt": "2018-07-03T16:13:07Z",
+                                    "updatedAt": "2018-07-03T16:11:53Z",
+                                    "createdAt": "2018-07-03T16:11:48Z"
+                                },
+                                "author": {
+                                    "id": "MDQ6VXNlcjczMTY3MzA=",
+                                    "login": "monkeywithacupcake",
+                                    "name": "jess",
+                                    "__typename": "User",
+                                    "avatarUrl": "https://avatars3.githubusercontent.com/u/7316730?v=4",
+                                    "url": "https://github.com/monkeywithacupcake",
+                                    "isSiteAdmin": false
+                                },
+                                "assignees": {
+                                    "edges": []
+                                },
+                                "reviewRequests": {
+                                    "edges": []
+                                },
+                                "reviews": {
+                                    "edges": []
+                                },
+                                "labels": {
+                                    "edges": []
+                                },
+                                "milestone": null,
+                                "closedAt": null,
+                                "createdAt": "2018-07-03T16:13:08Z",
+                                "updatedAt": "2018-07-03T16:13:08Z"
                             }
                         }
                     ]

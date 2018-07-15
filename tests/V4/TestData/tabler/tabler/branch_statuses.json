@@ -4,36 +4,38 @@
             "id": "MDEwOlJlcG9zaXRvcnkxMTk4MTEwMTA=",
             "name": "tabler",
             "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Nw=="
+                },
                 "edges": [
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTE5ODExMDEwOmRldi1idWlsZA==",
+                            "name": "dev-build",
+                            "target": {
+                                "oid": "c08021a6feccd18b8fa73d68be4a21c041c58ce1",
+                                "status": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDM6UmVmMTE5ODExMDEwOmRldi13ZWJwYWNr",
+                            "name": "dev-webpack",
+                            "target": {
+                                "oid": "2190285c9f6d5e5f5a28c5978a4524718e4f228d",
+                                "status": null
+                            }
+                        }
+                    },
                     {
                         "node": {
                             "id": "MDM6UmVmMTE5ODExMDEwOmRldg==",
                             "name": "dev",
                             "target": {
-                                "oid": "0d9443a84fdca1797a0cdd4c27e903fe4db01de4",
-                                "status": {
-                                    "id": "MDY6U3RhdHVzMTE5ODExMDEwOjBkOTQ0M2E4NGZkY2ExNzk3YTBjZGQ0YzI3ZTkwM2ZlNGRiMDFkZTQ=",
-                                    "state": "SUCCESS",
-                                    "contexts": [
-                                        {
-                                            "id": "MDEzOlN0YXR1c0NvbnRleHQ0ODgwMjEzOTky",
-                                            "context": "buddy/pipeline/dev servers",
-                                            "description": "Build successful",
-                                            "state": "SUCCESS",
-                                            "targetUrl": "https://app.buddy.works/tabler/tabler/pipelines/pipeline/132963/execution/5ae1745d297de946eb995d38",
-                                            "createdAt": "2018-04-26T06:43:11Z",
-                                            "creator": {
-                                                "id": "MDQ6VXNlcjEyODIzMjQ=",
-                                                "login": "codecalm",
-                                                "name": "Pawe\u0142 Kuna",
-                                                "__typename": "User",
-                                                "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
-                                                "url": "https://github.com/codecalm",
-                                                "isSiteAdmin": false
-                                            }
-                                        }
-                                    ]
-                                }
+                                "oid": "c85498b58753066cc7e0d64073373cb132a76fae",
+                                "status": null
                             }
                         }
                     },

@@ -7,7 +7,7 @@
                 "pullRequests": {
                     "pageInfo": {
                         "hasNextPage": false,
-                        "endCursor": "Y3Vyc29yOnYyOpHOCxmExQ=="
+                        "endCursor": "Y3Vyc29yOnYyOpHOC9y7sw=="
                     },
                     "edges": [
                         {
@@ -17,30 +17,8 @@
                                 "headRef": {
                                     "id": "MDM6UmVmMTE5ODExMDEwOmRldg==",
                                     "target": {
-                                        "oid": "0d9443a84fdca1797a0cdd4c27e903fe4db01de4",
-                                        "status": {
-                                            "id": "MDY6U3RhdHVzMTE5ODExMDEwOjBkOTQ0M2E4NGZkY2ExNzk3YTBjZGQ0YzI3ZTkwM2ZlNGRiMDFkZTQ=",
-                                            "state": "SUCCESS",
-                                            "contexts": [
-                                                {
-                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0ODgwMjEzOTky",
-                                                    "context": "buddy/pipeline/dev servers",
-                                                    "description": "Build successful",
-                                                    "state": "SUCCESS",
-                                                    "targetUrl": "https://app.buddy.works/tabler/tabler/pipelines/pipeline/132963/execution/5ae1745d297de946eb995d38",
-                                                    "createdAt": "2018-04-26T06:43:11Z",
-                                                    "creator": {
-                                                        "id": "MDQ6VXNlcjEyODIzMjQ=",
-                                                        "login": "codecalm",
-                                                        "name": "Pawe\u0142 Kuna",
-                                                        "__typename": "User",
-                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
-                                                        "url": "https://github.com/codecalm",
-                                                        "isSiteAdmin": false
-                                                    }
-                                                }
-                                            ]
-                                        }
+                                        "oid": "c85498b58753066cc7e0d64073373cb132a76fae",
+                                        "status": null
                                     }
                                 }
                             }
@@ -52,30 +30,8 @@
                                 "headRef": {
                                     "id": "MDM6UmVmMTE5ODExMDEwOmRldg==",
                                     "target": {
-                                        "oid": "0d9443a84fdca1797a0cdd4c27e903fe4db01de4",
-                                        "status": {
-                                            "id": "MDY6U3RhdHVzMTE5ODExMDEwOjBkOTQ0M2E4NGZkY2ExNzk3YTBjZGQ0YzI3ZTkwM2ZlNGRiMDFkZTQ=",
-                                            "state": "SUCCESS",
-                                            "contexts": [
-                                                {
-                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0ODgwMjEzOTky",
-                                                    "context": "buddy/pipeline/dev servers",
-                                                    "description": "Build successful",
-                                                    "state": "SUCCESS",
-                                                    "targetUrl": "https://app.buddy.works/tabler/tabler/pipelines/pipeline/132963/execution/5ae1745d297de946eb995d38",
-                                                    "createdAt": "2018-04-26T06:43:11Z",
-                                                    "creator": {
-                                                        "id": "MDQ6VXNlcjEyODIzMjQ=",
-                                                        "login": "codecalm",
-                                                        "name": "Pawe\u0142 Kuna",
-                                                        "__typename": "User",
-                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
-                                                        "url": "https://github.com/codecalm",
-                                                        "isSiteAdmin": false
-                                                    }
-                                                }
-                                            ]
-                                        }
+                                        "oid": "c85498b58753066cc7e0d64073373cb132a76fae",
+                                        "status": null
                                     }
                                 }
                             }
@@ -139,30 +95,8 @@
                                 "headRef": {
                                     "id": "MDM6UmVmMTE5ODExMDEwOmRldg==",
                                     "target": {
-                                        "oid": "0d9443a84fdca1797a0cdd4c27e903fe4db01de4",
-                                        "status": {
-                                            "id": "MDY6U3RhdHVzMTE5ODExMDEwOjBkOTQ0M2E4NGZkY2ExNzk3YTBjZGQ0YzI3ZTkwM2ZlNGRiMDFkZTQ=",
-                                            "state": "SUCCESS",
-                                            "contexts": [
-                                                {
-                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0ODgwMjEzOTky",
-                                                    "context": "buddy/pipeline/dev servers",
-                                                    "description": "Build successful",
-                                                    "state": "SUCCESS",
-                                                    "targetUrl": "https://app.buddy.works/tabler/tabler/pipelines/pipeline/132963/execution/5ae1745d297de946eb995d38",
-                                                    "createdAt": "2018-04-26T06:43:11Z",
-                                                    "creator": {
-                                                        "id": "MDQ6VXNlcjEyODIzMjQ=",
-                                                        "login": "codecalm",
-                                                        "name": "Pawe\u0142 Kuna",
-                                                        "__typename": "User",
-                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
-                                                        "url": "https://github.com/codecalm",
-                                                        "isSiteAdmin": false
-                                                    }
-                                                }
-                                            ]
-                                        }
+                                        "oid": "c85498b58753066cc7e0d64073373cb132a76fae",
+                                        "status": null
                                     }
                                 }
                             }
@@ -187,30 +121,8 @@
                                 "headRef": {
                                     "id": "MDM6UmVmMTE5ODExMDEwOmRldg==",
                                     "target": {
-                                        "oid": "0d9443a84fdca1797a0cdd4c27e903fe4db01de4",
-                                        "status": {
-                                            "id": "MDY6U3RhdHVzMTE5ODExMDEwOjBkOTQ0M2E4NGZkY2ExNzk3YTBjZGQ0YzI3ZTkwM2ZlNGRiMDFkZTQ=",
-                                            "state": "SUCCESS",
-                                            "contexts": [
-                                                {
-                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0ODgwMjEzOTky",
-                                                    "context": "buddy/pipeline/dev servers",
-                                                    "description": "Build successful",
-                                                    "state": "SUCCESS",
-                                                    "targetUrl": "https://app.buddy.works/tabler/tabler/pipelines/pipeline/132963/execution/5ae1745d297de946eb995d38",
-                                                    "createdAt": "2018-04-26T06:43:11Z",
-                                                    "creator": {
-                                                        "id": "MDQ6VXNlcjEyODIzMjQ=",
-                                                        "login": "codecalm",
-                                                        "name": "Pawe\u0142 Kuna",
-                                                        "__typename": "User",
-                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
-                                                        "url": "https://github.com/codecalm",
-                                                        "isSiteAdmin": false
-                                                    }
-                                                }
-                                            ]
-                                        }
+                                        "oid": "c85498b58753066cc7e0d64073373cb132a76fae",
+                                        "status": null
                                     }
                                 }
                             }
@@ -326,13 +238,7 @@
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MTc5MjYxNDk2",
                                 "number": 40,
-                                "headRef": {
-                                    "id": "MDM6UmVmMTI3OTkwNDE4OnBhdGNoLTE=",
-                                    "target": {
-                                        "oid": "67375652e2b406c06055bf25a34b48ff17e12938",
-                                        "status": null
-                                    }
-                                }
+                                "headRef": null
                             }
                         },
                         {
@@ -586,41 +492,6 @@
                         },
                         {
                             "node": {
-                                "id": "MDExOlB1bGxSZXF1ZXN0MTgxMzY5ODA2",
-                                "number": 81,
-                                "headRef": {
-                                    "id": "MDM6UmVmMTE5ODExMDEwOm5ldy1pbnB1dHM=",
-                                    "target": {
-                                        "oid": "74f06831f3fbd2b26d5b1599d3ac563f5250b37a",
-                                        "status": {
-                                            "id": "MDY6U3RhdHVzMTE5ODExMDEwOjc0ZjA2ODMxZjNmYmQyYjI2ZDViMTU5OWQzYWM1NjNmNTI1MGIzN2E=",
-                                            "state": "SUCCESS",
-                                            "contexts": [
-                                                {
-                                                    "id": "MDEzOlN0YXR1c0NvbnRleHQ0ODI1MjY4MzE4",
-                                                    "context": "buddy/pipeline/dev servers",
-                                                    "description": "Build successful",
-                                                    "state": "SUCCESS",
-                                                    "targetUrl": "https://app.buddy.works/tabler/tabler/pipelines/pipeline/132963/execution/5acf6ef9297de928dafd9493",
-                                                    "createdAt": "2018-04-12T14:41:01Z",
-                                                    "creator": {
-                                                        "id": "MDQ6VXNlcjEyODIzMjQ=",
-                                                        "login": "codecalm",
-                                                        "name": "Pawe\u0142 Kuna",
-                                                        "__typename": "User",
-                                                        "avatarUrl": "https://avatars1.githubusercontent.com/u/1282324?v=4",
-                                                        "url": "https://github.com/codecalm",
-                                                        "isSiteAdmin": false
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MTgxMzc1MDI0",
                                 "number": 82,
                                 "headRef": {
@@ -702,10 +573,24 @@
                             "node": {
                                 "id": "MDExOlB1bGxSZXF1ZXN0MTg1NjIxMDU1",
                                 "number": 126,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTg2MjIxNzY1",
+                                "number": 132,
+                                "headRef": null
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTg3NTMyNDY3",
+                                "number": 135,
                                 "headRef": {
-                                    "id": "MDM6UmVmMTMxOTQ1MTUxOmRldg==",
+                                    "id": "MDM6UmVmMTMzMDcxMDA0OmRldg==",
                                     "target": {
-                                        "oid": "ad91c0b32ce68dd89724ff98dce6f02f91404804",
+                                        "oid": "1e632cc53dfcb46388e504960f66ee295d70387c",
                                         "status": null
                                     }
                                 }
@@ -713,12 +598,64 @@
                         },
                         {
                             "node": {
-                                "id": "MDExOlB1bGxSZXF1ZXN0MTg2MjIxNzY1",
-                                "number": 132,
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTg3NjIyMzcw",
+                                "number": 136,
                                 "headRef": {
-                                    "id": "MDM6UmVmMTMyMzY4NzMyOnBhdGNoLTE=",
+                                    "id": "MDM6UmVmMTMwNTQ3NTIxOmRldg==",
                                     "target": {
-                                        "oid": "00482c041fb0b619a937204ddb935485339f7322",
+                                        "oid": "b00f928ec91e216315156b57231ce9c43a2a4117",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkxMzA4MTg4",
+                                "number": 144,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTM1MzY5NTc4OmZlYXR1cmUvZHVwbGljYXRlLXBvc2l0aW9u",
+                                    "target": {
+                                        "oid": "da09e66ef7c1697aa81c50518a1c3d6aa9f2f6c3",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTkxMzA4OTA1",
+                                "number": 145,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTM1MzY5NTc4OmZlYXR1cmUvY2xvc2UtZm9udC1mYW1pbHktZmFsbGJhY2s=",
+                                    "target": {
+                                        "oid": "d96eb6f7f7c78a331d537902d03179ac0cfcbd4b",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk0NTc2OTc0",
+                                "number": 152,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTE5ODExMDEwOmRldi1idWlsZA==",
+                                    "target": {
+                                        "oid": "c08021a6feccd18b8fa73d68be4a21c041c58ce1",
+                                        "status": null
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "node": {
+                                "id": "MDExOlB1bGxSZXF1ZXN0MTk5MDE1MzQ3",
+                                "number": 158,
+                                "headRef": {
+                                    "id": "MDM6UmVmMTM5NjA4NTEzOm9wZW5jb2xsZWN0aXZl",
+                                    "target": {
+                                        "oid": "6bb511ebdff8ff6f03c2e317cf66a0a8a7c995e9",
                                         "status": null
                                     }
                                 }
