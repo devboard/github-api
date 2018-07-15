@@ -26,7 +26,6 @@ query ($owner: String!, $name: String!) {
                                     name
                                     __typename
                                     avatarUrl
-                                    url
                                     isSiteAdmin
                                 }
                             }
@@ -40,21 +39,16 @@ query ($owner: String!, $name: String!) {
                                     name
                                     __typename
                                     avatarUrl
-                                    url
                                     isSiteAdmin
                                 }
                             }
                             tree {
                                 oid
-                                commitUrl
-                                commitResourcePath
                             }
                             parents(first: 100) {
                                 edges {
                                     node {
                                         oid
-                                        url
-                                        commitUrl
                                     }
                                 }
                             }
