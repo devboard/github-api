@@ -1,5 +1,9 @@
 CHANGELOG
 
+Version 1.4.1 [2018-07-15]:
+
+ - Update test data from 3rd party repos (mostly without PRs :( )
+
 Version 1.4.0 [2018-07-15]:
 
  - Add cursor to all existing GraphQL queries #64
