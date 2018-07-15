@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
             "name": "react",
             "labels": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Y3Vyc29yOnYyOpHOOFXSNw=="
+                },
                 "edges": [
                     {
                         "node": {
@@ -381,6 +385,15 @@
                             "color": "3B5998",
                             "isDefault": false,
                             "url": "https://github.com/facebook/react/labels/mentorship"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "MDU6TGFiZWw5NDUxNDg0NzE=",
+                            "name": "Component: ReactIs",
+                            "color": "1d76db",
+                            "isDefault": false,
+                            "url": "https://github.com/facebook/react/labels/Component%3A%20ReactIs"
                         }
                     }
                 ]
