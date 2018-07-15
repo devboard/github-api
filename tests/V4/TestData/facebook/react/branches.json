@@ -1,13 +1,14 @@
 {
     "data": {
         "repository": {
-            "id": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
-            "name": "react",
             "refs": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "MjE="
+                },
                 "edges": [
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6MC4zLXN0YWJsZQ==",
                             "name": "0.3-stable",
                             "target": {
                                 "oid": "f7c56d77dfbb1f7b8217f04e00ff71a26537c9a8",
@@ -16,14 +17,13 @@
                                 "author": {
                                     "name": "Pete Hunt",
                                     "email": "pete.hunt@fb.com",
-                                    "date": "2013-07-03T01:27:15Z",
+                                    "date": "2013-07-02T18:27:15-07:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjIzOTc0Mg==",
                                         "login": "petehunt",
                                         "name": "Pete Hunt",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/239742?v=4",
-                                        "url": "https://github.com/petehunt",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -37,32 +37,27 @@
                                         "name": "Paul O\u2019Shannessy",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/8445?v=4",
-                                        "url": "https://github.com/zpao",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "5c8513add30597db510fb0dc5917cc94ed4afbd1",
-                                    "commitUrl": "https://github.com/facebook/react/commit/5c8513add30597db510fb0dc5917cc94ed4afbd1",
-                                    "commitResourcePath": "/facebook/react/commit/5c8513add30597db510fb0dc5917cc94ed4afbd1"
+                                    "oid": "5c8513add30597db510fb0dc5917cc94ed4afbd1"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "5cdc55664d96cf9518756c706e481a21dffd8d7d",
-                                                "url": "https://github.com/facebook/react/commit/5cdc55664d96cf9518756c706e481a21dffd8d7d",
-                                                "commitUrl": "https://github.com/facebook/react/commit/5cdc55664d96cf9518756c706e481a21dffd8d7d"
+                                                "oid": "5cdc55664d96cf9518756c706e481a21dffd8d7d"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6MC40LXN0YWJsZQ==",
                             "name": "0.4-stable",
                             "target": {
                                 "oid": "283f4a8b04db6bbd177e94404476cabaf569d3a7",
@@ -71,14 +66,13 @@
                                 "author": {
                                     "name": "Paul O\u2019Shannessy",
                                     "email": "paul@oshannessy.com",
-                                    "date": "2013-12-18T06:00:17Z",
+                                    "date": "2013-12-17T22:00:17-08:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjg0NDU=",
                                         "login": "zpao",
                                         "name": "Paul O\u2019Shannessy",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/8445?v=4",
-                                        "url": "https://github.com/zpao",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -92,32 +86,27 @@
                                         "name": "Paul O\u2019Shannessy",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/8445?v=4",
-                                        "url": "https://github.com/zpao",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "6249614297a6e289ae643b4eedf3b17b10fc422a",
-                                    "commitUrl": "https://github.com/facebook/react/commit/6249614297a6e289ae643b4eedf3b17b10fc422a",
-                                    "commitResourcePath": "/facebook/react/commit/6249614297a6e289ae643b4eedf3b17b10fc422a"
+                                    "oid": "6249614297a6e289ae643b4eedf3b17b10fc422a"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "393a889aaceb761f058b09a701f889fa8f8b4e64",
-                                                "url": "https://github.com/facebook/react/commit/393a889aaceb761f058b09a701f889fa8f8b4e64",
-                                                "commitUrl": "https://github.com/facebook/react/commit/393a889aaceb761f058b09a701f889fa8f8b4e64"
+                                                "oid": "393a889aaceb761f058b09a701f889fa8f8b4e64"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6MC41LXN0YWJsZQ==",
                             "name": "0.5-stable",
                             "target": {
                                 "oid": "7b809ffbc4cdbb9858ba36ec341b4767c7a8543e",
@@ -126,14 +115,13 @@
                                 "author": {
                                     "name": "Paul O\u2019Shannessy",
                                     "email": "paul@oshannessy.com",
-                                    "date": "2013-12-19T00:16:52Z",
+                                    "date": "2013-12-18T16:16:52-08:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjg0NDU=",
                                         "login": "zpao",
                                         "name": "Paul O\u2019Shannessy",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/8445?v=4",
-                                        "url": "https://github.com/zpao",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -147,32 +135,27 @@
                                         "name": "Paul O\u2019Shannessy",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/8445?v=4",
-                                        "url": "https://github.com/zpao",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "3106d68b31b859e69a846b63776ea32954844ae1",
-                                    "commitUrl": "https://github.com/facebook/react/commit/3106d68b31b859e69a846b63776ea32954844ae1",
-                                    "commitResourcePath": "/facebook/react/commit/3106d68b31b859e69a846b63776ea32954844ae1"
+                                    "oid": "3106d68b31b859e69a846b63776ea32954844ae1"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "e6912a7a4abafeacad000a74a95055365ec6d12b",
-                                                "url": "https://github.com/facebook/react/commit/e6912a7a4abafeacad000a74a95055365ec6d12b",
-                                                "commitUrl": "https://github.com/facebook/react/commit/e6912a7a4abafeacad000a74a95055365ec6d12b"
+                                                "oid": "e6912a7a4abafeacad000a74a95055365ec6d12b"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6MC44LXN0YWJsZQ==",
                             "name": "0.8-stable",
                             "target": {
                                 "oid": "56517a54234379239113a663d2805f75a38b11ab",
@@ -181,14 +164,13 @@
                                 "author": {
                                     "name": "Ben Alpert",
                                     "email": "spicyjalapeno@gmail.com",
-                                    "date": "2014-02-13T04:45:17Z",
+                                    "date": "2014-02-12T20:45:17-08:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjY4MjA=",
                                         "login": "sophiebits",
                                         "name": "Sophie Alpert",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/6820?v=4",
-                                        "url": "https://github.com/sophiebits",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -202,32 +184,27 @@
                                         "name": "Paul O\u2019Shannessy",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/8445?v=4",
-                                        "url": "https://github.com/zpao",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "620a366418020e224a42dcf74dc06896c7f81024",
-                                    "commitUrl": "https://github.com/facebook/react/commit/620a366418020e224a42dcf74dc06896c7f81024",
-                                    "commitResourcePath": "/facebook/react/commit/620a366418020e224a42dcf74dc06896c7f81024"
+                                    "oid": "620a366418020e224a42dcf74dc06896c7f81024"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "ec58683389eb5da453ebc191f238798ed92d77bf",
-                                                "url": "https://github.com/facebook/react/commit/ec58683389eb5da453ebc191f238798ed92d77bf",
-                                                "commitUrl": "https://github.com/facebook/react/commit/ec58683389eb5da453ebc191f238798ed92d77bf"
+                                                "oid": "ec58683389eb5da453ebc191f238798ed92d77bf"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6MC45LXN0YWJsZQ==",
                             "name": "0.9-stable",
                             "target": {
                                 "oid": "b1f66edf4e90527468987eafbaf50a410febdcc9",
@@ -236,14 +213,13 @@
                                 "author": {
                                     "name": "Paul O\u2019Shannessy",
                                     "email": "paul@oshannessy.com",
-                                    "date": "2014-03-19T05:06:43Z",
+                                    "date": "2014-03-18T22:06:43-07:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjg0NDU=",
                                         "login": "zpao",
                                         "name": "Paul O\u2019Shannessy",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/8445?v=4",
-                                        "url": "https://github.com/zpao",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -257,32 +233,27 @@
                                         "name": "Paul O\u2019Shannessy",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/8445?v=4",
-                                        "url": "https://github.com/zpao",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "3a180b048e5a17707245c3ebc87c0068676a270f",
-                                    "commitUrl": "https://github.com/facebook/react/commit/3a180b048e5a17707245c3ebc87c0068676a270f",
-                                    "commitResourcePath": "/facebook/react/commit/3a180b048e5a17707245c3ebc87c0068676a270f"
+                                    "oid": "3a180b048e5a17707245c3ebc87c0068676a270f"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "1133a938e9dcfbef3739f4f094c13371abd6a1ea",
-                                                "url": "https://github.com/facebook/react/commit/1133a938e9dcfbef3739f4f094c13371abd6a1ea",
-                                                "commitUrl": "https://github.com/facebook/react/commit/1133a938e9dcfbef3739f4f094c13371abd6a1ea"
+                                                "oid": "1133a938e9dcfbef3739f4f094c13371abd6a1ea"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6MC4xMC1zdGFibGU=",
                             "name": "0.10-stable",
                             "target": {
                                 "oid": "d5b409002b425d2242da0d9bacfad68278856400",
@@ -291,14 +262,13 @@
                                 "author": {
                                     "name": "Ben Alpert",
                                     "email": "spicyjalapeno@gmail.com",
-                                    "date": "2014-07-13T20:09:50Z",
+                                    "date": "2014-07-13T13:09:50-07:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjY4MjA=",
                                         "login": "sophiebits",
                                         "name": "Sophie Alpert",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/6820?v=4",
-                                        "url": "https://github.com/sophiebits",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -312,32 +282,27 @@
                                         "name": "Sophie Alpert",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/6820?v=4",
-                                        "url": "https://github.com/sophiebits",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "6a83c4ba758327d969f509a7da37fc5aa64fbffc",
-                                    "commitUrl": "https://github.com/facebook/react/commit/6a83c4ba758327d969f509a7da37fc5aa64fbffc",
-                                    "commitResourcePath": "/facebook/react/commit/6a83c4ba758327d969f509a7da37fc5aa64fbffc"
+                                    "oid": "6a83c4ba758327d969f509a7da37fc5aa64fbffc"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "9d4baa12a6941afec20cf4779a74df2d7021cfb8",
-                                                "url": "https://github.com/facebook/react/commit/9d4baa12a6941afec20cf4779a74df2d7021cfb8",
-                                                "commitUrl": "https://github.com/facebook/react/commit/9d4baa12a6941afec20cf4779a74df2d7021cfb8"
+                                                "oid": "9d4baa12a6941afec20cf4779a74df2d7021cfb8"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6MC4xMS1zdGFibGU=",
                             "name": "0.11-stable",
                             "target": {
                                 "oid": "f6fcf385c9fd0df2ad666bc7765c127bd5e1528d",
@@ -346,14 +311,13 @@
                                 "author": {
                                     "name": "Christopher Chedeau",
                                     "email": "vjeux@fb.com",
-                                    "date": "2014-10-27T16:43:06Z",
+                                    "date": "2014-10-27T09:43:06-07:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjE5NzU5Nw==",
                                         "login": "vjeux",
                                         "name": "Christopher Chedeau",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/197597?v=4",
-                                        "url": "https://github.com/vjeux",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -367,32 +331,27 @@
                                         "name": "Paul O\u2019Shannessy",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/8445?v=4",
-                                        "url": "https://github.com/zpao",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "9e281e4f182c65f3b3358376af97c4f6042113ec",
-                                    "commitUrl": "https://github.com/facebook/react/commit/9e281e4f182c65f3b3358376af97c4f6042113ec",
-                                    "commitResourcePath": "/facebook/react/commit/9e281e4f182c65f3b3358376af97c4f6042113ec"
+                                    "oid": "9e281e4f182c65f3b3358376af97c4f6042113ec"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "a154c95ed8e00a08edf6722b9efe24ff9b782088",
-                                                "url": "https://github.com/facebook/react/commit/a154c95ed8e00a08edf6722b9efe24ff9b782088",
-                                                "commitUrl": "https://github.com/facebook/react/commit/a154c95ed8e00a08edf6722b9efe24ff9b782088"
+                                                "oid": "a154c95ed8e00a08edf6722b9efe24ff9b782088"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6MC4xMi1zdGFibGU=",
                             "name": "0.12-stable",
                             "target": {
                                 "oid": "0fc0871c89963ecaeb1476b82156c2399e765e8e",
@@ -401,14 +360,13 @@
                                 "author": {
                                     "name": "Paul O\u2019Shannessy",
                                     "email": "paul@oshannessy.com",
-                                    "date": "2015-03-04T20:30:29Z",
+                                    "date": "2015-03-04T12:30:29-08:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjg0NDU=",
                                         "login": "zpao",
                                         "name": "Paul O\u2019Shannessy",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/8445?v=4",
-                                        "url": "https://github.com/zpao",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -422,32 +380,27 @@
                                         "name": "Paul O\u2019Shannessy",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars1.githubusercontent.com/u/8445?v=4",
-                                        "url": "https://github.com/zpao",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "5f2b54416e6e4706f8478a05326becacc6e232fa",
-                                    "commitUrl": "https://github.com/facebook/react/commit/5f2b54416e6e4706f8478a05326becacc6e232fa",
-                                    "commitResourcePath": "/facebook/react/commit/5f2b54416e6e4706f8478a05326becacc6e232fa"
+                                    "oid": "5f2b54416e6e4706f8478a05326becacc6e232fa"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "40336d81442882272b73cbb3c2b587d24d3f2da3",
-                                                "url": "https://github.com/facebook/react/commit/40336d81442882272b73cbb3c2b587d24d3f2da3",
-                                                "commitUrl": "https://github.com/facebook/react/commit/40336d81442882272b73cbb3c2b587d24d3f2da3"
+                                                "oid": "40336d81442882272b73cbb3c2b587d24d3f2da3"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6MC4xMy1zdGFibGU=",
                             "name": "0.13-stable",
                             "target": {
                                 "oid": "76c87da026bdab63b5b109e3c073a1db74896ed6",
@@ -456,14 +409,13 @@
                                 "author": {
                                     "name": "Jim",
                                     "email": "jsfb@github",
-                                    "date": "2015-10-01T00:25:15Z",
+                                    "date": "2015-09-30T17:25:15-07:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjk1OTU5ODU=",
                                         "login": "jimfb",
                                         "name": "Jim",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/9595985?v=4",
-                                        "url": "https://github.com/jimfb",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -477,32 +429,27 @@
                                         "name": "Jim",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars3.githubusercontent.com/u/9595985?v=4",
-                                        "url": "https://github.com/jimfb",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "efb6bd1057390aa878cc72e64c2bb561c6ae40c7",
-                                    "commitUrl": "https://github.com/facebook/react/commit/efb6bd1057390aa878cc72e64c2bb561c6ae40c7",
-                                    "commitResourcePath": "/facebook/react/commit/efb6bd1057390aa878cc72e64c2bb561c6ae40c7"
+                                    "oid": "efb6bd1057390aa878cc72e64c2bb561c6ae40c7"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "fcc51bc523ec15138d74103fe3b0742b9e8a7ade",
-                                                "url": "https://github.com/facebook/react/commit/fcc51bc523ec15138d74103fe3b0742b9e8a7ade",
-                                                "commitUrl": "https://github.com/facebook/react/commit/fcc51bc523ec15138d74103fe3b0742b9e8a7ade"
+                                                "oid": "fcc51bc523ec15138d74103fe3b0742b9e8a7ade"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6MC4xNC1zdGFibGU=",
                             "name": "0.14-stable",
                             "target": {
                                 "oid": "894d20744cba99383ffd847dbd5b6e0800355a5c",
@@ -511,14 +458,13 @@
                                 "author": {
                                     "name": "Dan Abramov",
                                     "email": "gaearon@fb.com",
-                                    "date": "2017-04-12T15:40:02Z",
+                                    "date": "2017-04-12T16:40:02+01:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjgxMDQzOA==",
                                         "login": "gaearon",
                                         "name": "Dan Abramov",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/810438?v=4",
-                                        "url": "https://github.com/gaearon",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -532,32 +478,27 @@
                                         "name": "Dan Abramov",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/810438?v=4",
-                                        "url": "https://github.com/gaearon",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "7b0567c10f320973aa1cf78314bb312e7837c9b6",
-                                    "commitUrl": "https://github.com/facebook/react/commit/7b0567c10f320973aa1cf78314bb312e7837c9b6",
-                                    "commitResourcePath": "/facebook/react/commit/7b0567c10f320973aa1cf78314bb312e7837c9b6"
+                                    "oid": "7b0567c10f320973aa1cf78314bb312e7837c9b6"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "e1208624eb4d022ad3862fdf59b75c40d431e113",
-                                                "url": "https://github.com/facebook/react/commit/e1208624eb4d022ad3862fdf59b75c40d431e113",
-                                                "commitUrl": "https://github.com/facebook/react/commit/e1208624eb4d022ad3862fdf59b75c40d431e113"
+                                                "oid": "e1208624eb4d022ad3862fdf59b75c40d431e113"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6MTUtc3RhYmxl",
                             "name": "15-stable",
                             "target": {
                                 "oid": "571a9208d5133e8737f565fe60b762d201f0d37c",
@@ -566,14 +507,13 @@
                                 "author": {
                                     "name": "Dan Abramov",
                                     "email": "dan.abramov@gmail.com",
-                                    "date": "2017-09-26T10:39:18Z",
+                                    "date": "2017-09-26T11:39:18+01:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjgxMDQzOA==",
                                         "login": "gaearon",
                                         "name": "Dan Abramov",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/810438?v=4",
-                                        "url": "https://github.com/gaearon",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -584,27 +524,23 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "913d08534eb057265fd610a23a2b30db2e9ae30b",
-                                    "commitUrl": "https://github.com/facebook/react/commit/913d08534eb057265fd610a23a2b30db2e9ae30b",
-                                    "commitResourcePath": "/facebook/react/commit/913d08534eb057265fd610a23a2b30db2e9ae30b"
+                                    "oid": "913d08534eb057265fd610a23a2b30db2e9ae30b"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "f1a8b33a0210854632cdd7cd9a87f68bba949de3",
-                                                "url": "https://github.com/facebook/react/commit/f1a8b33a0210854632cdd7cd9a87f68bba949de3",
-                                                "commitUrl": "https://github.com/facebook/react/commit/f1a8b33a0210854632cdd7cd9a87f68bba949de3"
+                                                "oid": "f1a8b33a0210854632cdd7cd9a87f68bba949de3"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6MTUuNi1kZXY=",
                             "name": "15.6-dev",
                             "target": {
                                 "oid": "5530c7565b729894276b959a0aa44e1487080a65",
@@ -613,14 +549,13 @@
                                 "author": {
                                     "name": "Brian Vaughn",
                                     "email": "brian.david.vaughn@gmail.com",
-                                    "date": "2018-01-19T23:13:26Z",
+                                    "date": "2018-01-19T15:13:26-08:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjI5NTk3",
                                         "login": "bvaughn",
                                         "name": "Brian Vaughn",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/29597?v=4",
-                                        "url": "https://github.com/bvaughn",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -631,27 +566,39 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "7505b603003a7f0c24048587776185a5c18e223d",
-                                    "commitUrl": "https://github.com/facebook/react/commit/7505b603003a7f0c24048587776185a5c18e223d",
-                                    "commitResourcePath": "/facebook/react/commit/7505b603003a7f0c24048587776185a5c18e223d"
+                                    "oid": "7505b603003a7f0c24048587776185a5c18e223d"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "4c75c5bf58dfa5e654ecfbdeb598655443e7733b",
-                                                "url": "https://github.com/facebook/react/commit/4c75c5bf58dfa5e654ecfbdeb598655443e7733b",
-                                                "commitUrl": "https://github.com/facebook/react/commit/4c75c5bf58dfa5e654ecfbdeb598655443e7733b"
+                                                "oid": "4c75c5bf58dfa5e654ecfbdeb598655443e7733b"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree 7505b603003a7f0c24048587776185a5c18e223d\nparent 4c75c5bf58dfa5e654ecfbdeb598655443e7733b\nauthor Brian Vaughn <brian.david.vaughn@gmail.com> 1516403606 -0800\ncommitter GitHub <noreply@github.com> 1516403606 -0800\n\nRFC 6: createReactClass updates (#12036)\n\n* Added UNSAFE_ methods to create-class HAS_MANY list\r\n* Added warning for UNSAFE_componentWillRecieveProps misspelling\r\n* Bumping create-react-class package version\r\n* Added support for static getDerivedStateFromProps mixins",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJaYnuWCRBK7hj4Ov3rIwAAdHIIAA8O5W+3siXbQJk8yUVn9/mA\nVkMn6NvEmyhHoLn6UQLEVlPhRKWBBXpLcC0r9iI7SX1034l58OJUBasxmIjGVyHW\nJPvhEtdlLt9Fq3za/j/Gj1wdYgEAKXobBtwHlzHN1ZsUi0izfyo3b4RPshSmSlco\nzi6x926Rp7KA3lozxmmnij9fcgwAtO8isHJxCOrlg9UEkJAHN0MUDz3du/13sd4K\niApPD8GwmzUKRz/sLNWbwjO1xKsv9FZ/h0Dmh3uIO+8uPnQXzavFU4FieVEgmut8\n3uXSFKLOZg+WblfsJ9gkKZuaViPxV0rqqV18lbU8cKfI15QnRAWCQQGBTjB/vxU=\n=5K13\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6YXV4Y2xpY2s=",
                             "name": "auxclick",
                             "target": {
                                 "oid": "ed60efb64ed75a888f21a9ac4150553306371f06",
@@ -660,14 +607,13 @@
                                 "author": {
                                     "name": "Jason Quense",
                                     "email": "monastic.panic@gmail.com",
-                                    "date": "2018-01-05T18:13:00Z",
+                                    "date": "2018-01-05T13:13:00-05:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjMzOTI4Ng==",
                                         "login": "jquense",
                                         "name": "Jason Quense",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/339286?v=4",
-                                        "url": "https://github.com/jquense",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -681,126 +627,62 @@
                                         "name": "Jason Quense",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/339286?v=4",
-                                        "url": "https://github.com/jquense",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "c46ea91d2f6516bb5f177d1151931f1d71595c90",
-                                    "commitUrl": "https://github.com/facebook/react/commit/c46ea91d2f6516bb5f177d1151931f1d71595c90",
-                                    "commitResourcePath": "/facebook/react/commit/c46ea91d2f6516bb5f177d1151931f1d71595c90"
+                                    "oid": "c46ea91d2f6516bb5f177d1151931f1d71595c90"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "94d55f8ea7ecf7b1964d214729bfe10e8b75724c",
-                                                "url": "https://github.com/facebook/react/commit/94d55f8ea7ecf7b1964d214729bfe10e8b75724c",
-                                                "commitUrl": "https://github.com/facebook/react/commit/94d55f8ea7ecf7b1964d214729bfe10e8b75724c"
+                                                "oid": "94d55f8ea7ecf7b1964d214729bfe10e8b75724c"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6ZmFjdHM=",
                             "name": "facts",
                             "target": {
-                                "oid": "cab90aff865363267b7b374042d01e575128e082",
-                                "message": "Adding facts for 999b656ed1c94b00fcfd043f54e18ade7553dee0",
-                                "authoredDate": "2018-04-19T16:33:06Z",
+                                "oid": "7aa685535026d0179da4685fce481366d1c7e418",
+                                "message": "Adding facts for 659a29cecf74301532354261369e9048aac6e20f",
+                                "authoredDate": "2018-07-13T01:49:56Z",
                                 "author": {
                                     "name": "facts-tracker",
                                     "email": "facts-tracker@no-reply.github.com",
-                                    "date": "2018-04-19T16:33:06Z",
+                                    "date": "2018-07-12T18:49:56-07:00",
                                     "user": null
                                 },
                                 "committer": {
                                     "name": "facts-tracker",
                                     "email": "facts-tracker@no-reply.github.com",
-                                    "date": "2018-04-19T09:33:06-07:00",
+                                    "date": "2018-07-12T18:49:56-07:00",
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "c86128dc5824f7b2a0bc1368e543913c74b6aa10",
-                                    "commitUrl": "https://github.com/facebook/react/commit/c86128dc5824f7b2a0bc1368e543913c74b6aa10",
-                                    "commitResourcePath": "/facebook/react/commit/c86128dc5824f7b2a0bc1368e543913c74b6aa10"
+                                    "oid": "57c41b67c5b548a651d68841a0a9390e7b35928e"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "177781df074b7b8af55a1c64c6bcb532ef6052bf",
-                                                "url": "https://github.com/facebook/react/commit/177781df074b7b8af55a1c64c6bcb532ef6052bf",
-                                                "commitUrl": "https://github.com/facebook/react/commit/177781df074b7b8af55a1c64c6bcb532ef6052bf"
+                                                "oid": "da261e0d73d4e245d8daa822e471e746e76350c1"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6Zml4LXNpbXVsYXRlLW5hdGl2ZS1ldmVudC10eXBl",
-                            "name": "fix-simulate-native-event-type",
-                            "target": {
-                                "oid": "30faaf142d403442fb85a108665af50300da503a",
-                                "message": "Set correct event type on fake TestUtils events\n\nThis commit fixes an issue where events generated by the test utils\nhad no type. These events are not real DOM Event objects, and their\nconstructor never assigned the provided event type property.\n\nAdditionally, it looks like the Event object was being constructed\nwith the top level type (`topClick` vs `click`). This commit ensures\nthat ReactTestUtils.Simulate and ReactTestUtils.SimulateNative\ncorrectly assign the event type.",
-                                "authoredDate": "2017-11-15T12:11:03Z",
-                                "author": {
-                                    "name": "Nathan Hunzaker",
-                                    "email": "nate.hunzaker@gmail.com",
-                                    "date": "2017-11-15T12:11:03Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjU5MDkwNA==",
-                                        "login": "nhunzaker",
-                                        "name": "Nathan Hunzaker",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/590904?v=4",
-                                        "url": "https://github.com/nhunzaker",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
-                                    "name": "Nathan Hunzaker",
-                                    "email": "nate.hunzaker@gmail.com",
-                                    "date": "2017-11-15T07:33:09-05:00",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjU5MDkwNA==",
-                                        "login": "nhunzaker",
-                                        "name": "Nathan Hunzaker",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/590904?v=4",
-                                        "url": "https://github.com/nhunzaker",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "tree": {
-                                    "oid": "03872612f0532cfed596b8acbeb94a7e9d62d840",
-                                    "commitUrl": "https://github.com/facebook/react/commit/03872612f0532cfed596b8acbeb94a7e9d62d840",
-                                    "commitResourcePath": "/facebook/react/commit/03872612f0532cfed596b8acbeb94a7e9d62d840"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "634b70a78b684c24bd8c8254a795ec02ba317d88",
-                                                "url": "https://github.com/facebook/react/commit/634b70a78b684c24bd8c8254a795ec02ba317d88",
-                                                "commitUrl": "https://github.com/facebook/react/commit/634b70a78b684c24bd8c8254a795ec02ba317d88"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6Z2FlYXJvbi1wYXRjaC0x",
                             "name": "gaearon-patch-1",
                             "target": {
                                 "oid": "a3c700c5915ada3370e610bdae2f2b30c44de55f",
@@ -809,14 +691,13 @@
                                 "author": {
                                     "name": "Dan Abramov",
                                     "email": "dan.abramov@gmail.com",
-                                    "date": "2018-04-16T15:25:44Z",
+                                    "date": "2018-04-16T16:25:44+01:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjgxMDQzOA==",
                                         "login": "gaearon",
                                         "name": "Dan Abramov",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/810438?v=4",
-                                        "url": "https://github.com/gaearon",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -827,27 +708,39 @@
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "b66d3962ce5ce78dceb918be606da832eb112a16",
-                                    "commitUrl": "https://github.com/facebook/react/commit/b66d3962ce5ce78dceb918be606da832eb112a16",
-                                    "commitResourcePath": "/facebook/react/commit/b66d3962ce5ce78dceb918be606da832eb112a16"
+                                    "oid": "b66d3962ce5ce78dceb918be606da832eb112a16"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "1e97a71a829e698ddac0a5e15fbdec97d35ed2bc",
-                                                "url": "https://github.com/facebook/react/commit/1e97a71a829e698ddac0a5e15fbdec97d35ed2bc",
-                                                "commitUrl": "https://github.com/facebook/react/commit/1e97a71a829e698ddac0a5e15fbdec97d35ed2bc"
+                                                "oid": "1e97a71a829e698ddac0a5e15fbdec97d35ed2bc"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree b66d3962ce5ce78dceb918be606da832eb112a16\nparent 1e97a71a829e698ddac0a5e15fbdec97d35ed2bc\nauthor Dan Abramov <dan.abramov@gmail.com> 1523892344 +0100\ncommitter GitHub <noreply@github.com> 1523892344 +0100\n\nAdd 16.3.2 changelog",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJa1MB4CRBK7hj4Ov3rIwAAdHIIAIwL8HeiIOkx/yX5bo2GrutY\nCHkewS3FNe3CxYO0Xibsk7tw/QyMG31jOWkPrX/KRcHjzXwYHe6j/JVHBvGSlM3B\n+vyNGDOCET5+Goqv6zd6Ybyxatk1w/MWcmrusaSltxusdz4KfBmAvAfmlfyG6u/Y\nCDHXEMl/dmffJjIcutuycCIkmRzMVXA2/2f8I5Iq1fGthvYFxKVgGuhjgOJql8Mx\nEXQSKqmCvOqk9LUOhIYKOBwv9vUh5hd7S+YGFs7C3KSc7bbB9tmM7HcqEidcKpbt\nRXWbHX3+vDceUlUghT9BMKQ2rf/VYrDpNYX5bSp8YtP2wDXIwtQWFDmljCkqn1Y=\n=Dm47\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6Z2gtcGFnZXM=",
                             "name": "gh-pages",
                             "target": {
                                 "oid": "d027eca037f06f682f667597bd68a0cd638e4f2e",
@@ -856,14 +749,13 @@
                                 "author": {
                                     "name": "Brian Vaughn",
                                     "email": "brian.david.vaughn@gmail.com",
-                                    "date": "2017-09-29T15:37:03Z",
+                                    "date": "2017-09-29T08:37:03-07:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjI5NTk3",
                                         "login": "bvaughn",
                                         "name": "Brian Vaughn",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/29597?v=4",
-                                        "url": "https://github.com/bvaughn",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -877,32 +769,76 @@
                                         "name": "Brian Vaughn",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars0.githubusercontent.com/u/29597?v=4",
-                                        "url": "https://github.com/bvaughn",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "92dc4c6da9296f3e179d4d798b958fa880a997c4",
-                                    "commitUrl": "https://github.com/facebook/react/commit/92dc4c6da9296f3e179d4d798b958fa880a997c4",
-                                    "commitResourcePath": "/facebook/react/commit/92dc4c6da9296f3e179d4d798b958fa880a997c4"
+                                    "oid": "92dc4c6da9296f3e179d4d798b958fa880a997c4"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "c96fbd43c40f1c0fb72ade7001613a4bdf652e42",
-                                                "url": "https://github.com/facebook/react/commit/c96fbd43c40f1c0fb72ade7001613a4bdf652e42",
-                                                "commitUrl": "https://github.com/facebook/react/commit/c96fbd43c40f1c0fb72ade7001613a4bdf652e42"
+                                                "oid": "c96fbd43c40f1c0fb72ade7001613a4bdf652e42"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6bGF6eS1yYWYtd2FybmluZw==",
+                            "name": "is-renderable",
+                            "target": {
+                                "oid": "efe8e670af1ee930447d169795cabbcbeabb8b1a",
+                                "message": "add isNode to react-is",
+                                "authoredDate": "2018-06-27T16:38:51Z",
+                                "author": {
+                                    "name": "Jason Quense",
+                                    "email": "monastic.panic@gmail.com",
+                                    "date": "2018-06-27T12:38:51-04:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjMzOTI4Ng==",
+                                        "login": "jquense",
+                                        "name": "Jason Quense",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/339286?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "committer": {
+                                    "name": "Jason Quense",
+                                    "email": "monastic.panic@gmail.com",
+                                    "date": "2018-06-27T12:38:51-04:00",
+                                    "user": {
+                                        "id": "MDQ6VXNlcjMzOTI4Ng==",
+                                        "login": "jquense",
+                                        "name": "Jason Quense",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars2.githubusercontent.com/u/339286?v=4",
+                                        "isSiteAdmin": false
+                                    }
+                                },
+                                "tree": {
+                                    "oid": "3f238e1b3f3bb1036f5c42f51785c8168c00f71b"
+                                },
+                                "parents": {
+                                    "edges": [
+                                        {
+                                            "node": {
+                                                "oid": "3297102de6692a675aad239061eed7aa822115fe"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "signature": null
+                            }
+                        }
+                    },
+                    {
+                        "node": {
                             "name": "lazy-raf-warning",
                             "target": {
                                 "oid": "a756039cb04adf85bd5d7966f686334ac7889c02",
@@ -911,14 +847,13 @@
                                 "author": {
                                     "name": "Jason Quense",
                                     "email": "monastic.panic@gmail.com",
-                                    "date": "2017-10-05T16:25:33Z",
+                                    "date": "2017-10-05T12:25:33-04:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjMzOTI4Ng==",
                                         "login": "jquense",
                                         "name": "Jason Quense",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/339286?v=4",
-                                        "url": "https://github.com/jquense",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -932,244 +867,85 @@
                                         "name": "Jason Quense",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/339286?v=4",
-                                        "url": "https://github.com/jquense",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "13588c2f306e0a56b362d0a79c0086e54a1f1c58",
-                                    "commitUrl": "https://github.com/facebook/react/commit/13588c2f306e0a56b362d0a79c0086e54a1f1c58",
-                                    "commitResourcePath": "/facebook/react/commit/13588c2f306e0a56b362d0a79c0086e54a1f1c58"
+                                    "oid": "13588c2f306e0a56b362d0a79c0086e54a1f1c58"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "793a87e3d3113f3b8aa847d014376d72a4a45e7e",
-                                                "url": "https://github.com/facebook/react/commit/793a87e3d3113f3b8aa847d014376d72a4a45e7e",
-                                                "commitUrl": "https://github.com/facebook/react/commit/793a87e3d3113f3b8aa847d014376d72a4a45e7e"
+                                                "oid": "793a87e3d3113f3b8aa847d014376d72a4a45e7e"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6bG9jYWwtbGlzdGVuZXJz",
-                            "name": "local-listeners",
-                            "target": {
-                                "oid": "68b42c20592cd658f2e08ab72840308b047ab0a1",
-                                "message": "Use consistent invocation of listenTo(). Move event support checks.\n\nThis commit corrects the use of listenTo() when attaching change\nevents. It additionally moves the logic to check for wheel, scroll,\nand other support, to BrowserEventConstants.",
-                                "authoredDate": "2017-11-16T01:13:27Z",
-                                "author": {
-                                    "name": "Nathan Hunzaker",
-                                    "email": "nate.hunzaker@gmail.com",
-                                    "date": "2017-11-16T01:13:27Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjU5MDkwNA==",
-                                        "login": "nhunzaker",
-                                        "name": "Nathan Hunzaker",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/590904?v=4",
-                                        "url": "https://github.com/nhunzaker",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
-                                    "name": "Nathan Hunzaker",
-                                    "email": "nate.hunzaker@gmail.com",
-                                    "date": "2017-11-15T20:15:30-05:00",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjU5MDkwNA==",
-                                        "login": "nhunzaker",
-                                        "name": "Nathan Hunzaker",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/590904?v=4",
-                                        "url": "https://github.com/nhunzaker",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "tree": {
-                                    "oid": "c9b838baa361702cc89961cc126f63650f4a42bc",
-                                    "commitUrl": "https://github.com/facebook/react/commit/c9b838baa361702cc89961cc126f63650f4a42bc",
-                                    "commitResourcePath": "/facebook/react/commit/c9b838baa361702cc89961cc126f63650f4a42bc"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "85fd3ed6c0ae80277f2546b800f7d8c23e2e7d2d",
-                                                "url": "https://github.com/facebook/react/commit/85fd3ed6c0ae80277f2546b800f7d8c23e2e7d2d",
-                                                "commitUrl": "https://github.com/facebook/react/commit/85fd3ed6c0ae80277f2546b800f7d8c23e2e7d2d"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6bWFzdGVy",
                             "name": "master",
                             "target": {
-                                "oid": "25dda90c1ecb0c662ab06e2c80c1ee31e0ae9d36",
-                                "message": "Mark context consumers with PerformedWork effect on render (#12729)\n\n* Mark new component types with PerformedWork effect\r\n\r\n* Don't do it for ForwardRef\r\n\r\nSince this has some overhead and ForwardRef is likely going to be used around context, let's skip it.\r\nWe don't highlight ForwardRef alone in DevTools anyway.",
-                                "authoredDate": "2018-05-02T15:35:16Z",
+                                "oid": "43ffae2d1750ee32409e140e41ea562ff46d2516",
+                                "message": "Suspending inside a constructor outside of strict mode (#13200)\n\n* Suspending inside a constructor outside of strict mode\r\n\r\nOutside of strict mode, suspended components commit in an incomplete\r\nstate, then are synchronously deleted in a subsequent commit. If a\r\ncomponent suspends inside the constructor, it mounts without\r\nan instance.\r\n\r\nThis breaks at least one invariant: during deletion, we assume that\r\nevery mounted component has an instance, and check the instance for\r\nthe existence of `componentWillUnmount`.\r\n\r\nRather than add a redundant check to the deletion of every class\r\ncomponent, components that suspend inside their constructor and outside\r\nof strict mode are turned into empty functional components before they\r\nare mounted. This is a bit weird, but it's an edge case, and the empty\r\ncomponent will be synchronously unmounted regardless.\r\n\r\n* Do not fire lifecycles of a suspended component\r\n\r\nIn non-strict mode, suspended components commit, but their lifecycles\r\nshould not fire.",
+                                "authoredDate": "2018-07-13T18:24:03Z",
                                 "author": {
-                                    "name": "Dan Abramov",
-                                    "email": "dan.abramov@gmail.com",
-                                    "date": "2018-05-02T15:35:16Z",
+                                    "name": "Andrew Clark",
+                                    "email": "acdlite@me.com",
+                                    "date": "2018-07-13T11:24:03-07:00",
                                     "user": {
-                                        "id": "MDQ6VXNlcjgxMDQzOA==",
-                                        "login": "gaearon",
-                                        "name": "Dan Abramov",
+                                        "id": "MDQ6VXNlcjM2MjQwOTg=",
+                                        "login": "acdlite",
+                                        "name": "Andrew Clark",
                                         "__typename": "User",
-                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/810438?v=4",
-                                        "url": "https://github.com/gaearon",
+                                        "avatarUrl": "https://avatars0.githubusercontent.com/u/3624098?v=4",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "committer": {
                                     "name": "GitHub",
                                     "email": "noreply@github.com",
-                                    "date": "2018-05-02T16:35:16+01:00",
+                                    "date": "2018-07-13T11:24:03-07:00",
                                     "user": null
                                 },
                                 "tree": {
-                                    "oid": "dc73d540725a24475a53eeee5d6caa241bbd6707",
-                                    "commitUrl": "https://github.com/facebook/react/commit/dc73d540725a24475a53eeee5d6caa241bbd6707",
-                                    "commitResourcePath": "/facebook/react/commit/dc73d540725a24475a53eeee5d6caa241bbd6707"
+                                    "oid": "bb6e296d97e183a8cbf2bd4b0b2f435525a91f91"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "ad7cd686670d8e519789fb226d8ff9175fb69370",
-                                                "url": "https://github.com/facebook/react/commit/ad7cd686670d8e519789fb226d8ff9175fb69370",
-                                                "commitUrl": "https://github.com/facebook/react/commit/ad7cd686670d8e519789fb226d8ff9175fb69370"
+                                                "oid": "659a29cecf74301532354261369e9048aac6e20f"
                                             }
                                         }
                                     ]
+                                },
+                                "signature": {
+                                    "email": "noreply@github.com",
+                                    "isValid": true,
+                                    "payload": "tree bb6e296d97e183a8cbf2bd4b0b2f435525a91f91\nparent 659a29cecf74301532354261369e9048aac6e20f\nauthor Andrew Clark <acdlite@me.com> 1531506243 -0700\ncommitter GitHub <noreply@github.com> 1531506243 -0700\n\nSuspending inside a constructor outside of strict mode (#13200)\n\n* Suspending inside a constructor outside of strict mode\r\n\r\nOutside of strict mode, suspended components commit in an incomplete\r\nstate, then are synchronously deleted in a subsequent commit. If a\r\ncomponent suspends inside the constructor, it mounts without\r\nan instance.\r\n\r\nThis breaks at least one invariant: during deletion, we assume that\r\nevery mounted component has an instance, and check the instance for\r\nthe existence of `componentWillUnmount`.\r\n\r\nRather than add a redundant check to the deletion of every class\r\ncomponent, components that suspend inside their constructor and outside\r\nof strict mode are turned into empty functional components before they\r\nare mounted. This is a bit weird, but it's an edge case, and the empty\r\ncomponent will be synchronously unmounted regardless.\r\n\r\n* Do not fire lifecycles of a suspended component\r\n\r\nIn non-strict mode, suspended components commit, but their lifecycles\r\nshould not fire.\r\n",
+                                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbSO5DCRBK7hj4Ov3rIwAAdHIIAC7tkHC1pR7BuLmbcY/Ew9QR\nfiU7Y0VsCl/IxYia9Xs5fONJ5irbPj8N13fq3Ng5Bxeuvhr2Za1khNHbd22mXIxA\nW45uMtw8ZlsDAwpBZT7IdoCNMn95GsKAHts0YTBWqSQcR6oBSnuokXBthPsO37ZQ\ntd1grGAEauYkT07lpajoj4zlEMpXvKN6lROA5RyGZgzJRUYUPfr6GfbDhpd0WT8L\nINgKlEd7XB92OgHj46ehERJmNgoDVgPCciY5TXtzPPu7WiTvJB+gsqAnd7q6D3LX\nBV0B/IOeYF8DT7Jq+W8ygYqh/OzGshy7QDn4cpETQ5DboYGuAg+HI4Kg0rrRrww=\n=hXZ0\n-----END PGP SIGNATURE-----\n",
+                                    "signer": {
+                                        "id": "MDQ6VXNlcjE5ODY0NDQ3",
+                                        "login": "web-flow",
+                                        "name": "GitHub Web Flow",
+                                        "__typename": "User",
+                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+                                        "url": "https://github.com/web-flow",
+                                        "isSiteAdmin": false
+                                    },
+                                    "state": "VALID",
+                                    "wasSignedByGitHub": true
                                 }
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6bmgtbG9hZC1ldmVudHM=",
-                            "name": "nh-load-events",
-                            "target": {
-                                "oid": "3fdb5b4655ce80d2eb21d01c4d429edbd88c4cdc",
-                                "message": "Remove duplicate event keys",
-                                "authoredDate": "2017-12-12T01:20:55Z",
-                                "author": {
-                                    "name": "Nathan Hunzaker",
-                                    "email": "nate.hunzaker@gmail.com",
-                                    "date": "2017-12-12T01:20:55Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjU5MDkwNA==",
-                                        "login": "nhunzaker",
-                                        "name": "Nathan Hunzaker",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/590904?v=4",
-                                        "url": "https://github.com/nhunzaker",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
-                                    "name": "Nathan Hunzaker",
-                                    "email": "nate.hunzaker@gmail.com",
-                                    "date": "2017-12-11T20:20:55-05:00",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjU5MDkwNA==",
-                                        "login": "nhunzaker",
-                                        "name": "Nathan Hunzaker",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/590904?v=4",
-                                        "url": "https://github.com/nhunzaker",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "tree": {
-                                    "oid": "3cc2694bf8c40709a1b0175667c4328e6a0a86ed",
-                                    "commitUrl": "https://github.com/facebook/react/commit/3cc2694bf8c40709a1b0175667c4328e6a0a86ed",
-                                    "commitResourcePath": "/facebook/react/commit/3cc2694bf8c40709a1b0175667c4328e6a0a86ed"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "d54d6202713f6343fdf7f58d45066f298c8cb657",
-                                                "url": "https://github.com/facebook/react/commit/d54d6202713f6343fdf7f58d45066f298c8cb657",
-                                                "commitUrl": "https://github.com/facebook/react/commit/d54d6202713f6343fdf7f58d45066f298c8cb657"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6bmgtc2Nyb2xsLWZpeA==",
-                            "name": "nh-scroll-fix",
-                            "target": {
-                                "oid": "c8ff4ae6e4cdda50e2c2e099ac527a513ef547c0",
-                                "message": "Add test coverage for doubly nested event handlers",
-                                "authoredDate": "2017-12-14T12:14:35Z",
-                                "author": {
-                                    "name": "Nathan Hunzaker",
-                                    "email": "nate.hunzaker@gmail.com",
-                                    "date": "2017-12-14T12:14:35Z",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjU5MDkwNA==",
-                                        "login": "nhunzaker",
-                                        "name": "Nathan Hunzaker",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/590904?v=4",
-                                        "url": "https://github.com/nhunzaker",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "committer": {
-                                    "name": "Nathan Hunzaker",
-                                    "email": "nate.hunzaker@gmail.com",
-                                    "date": "2017-12-14T07:14:35-05:00",
-                                    "user": {
-                                        "id": "MDQ6VXNlcjU5MDkwNA==",
-                                        "login": "nhunzaker",
-                                        "name": "Nathan Hunzaker",
-                                        "__typename": "User",
-                                        "avatarUrl": "https://avatars3.githubusercontent.com/u/590904?v=4",
-                                        "url": "https://github.com/nhunzaker",
-                                        "isSiteAdmin": false
-                                    }
-                                },
-                                "tree": {
-                                    "oid": "7188a2b84e21bc5b223ad785a18c67423926be02",
-                                    "commitUrl": "https://github.com/facebook/react/commit/7188a2b84e21bc5b223ad785a18c67423926be02",
-                                    "commitResourcePath": "/facebook/react/commit/7188a2b84e21bc5b223ad785a18c67423926be02"
-                                },
-                                "parents": {
-                                    "edges": [
-                                        {
-                                            "node": {
-                                                "oid": "0fe646970e3ec8e8a5b96d07d1bdd76557b48fed",
-                                                "url": "https://github.com/facebook/react/commit/0fe646970e3ec8e8a5b96d07d1bdd76557b48fed",
-                                                "commitUrl": "https://github.com/facebook/react/commit/0fe646970e3ec8e8a5b96d07d1bdd76557b48fed"
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6cG9jLWV2ZW50LXJlZ2lzdHJhdGlvbg==",
                             "name": "poc-event-registration",
                             "target": {
                                 "oid": "2f5d455e44343aaf4a6a079e34b0e2bf569088b5",
@@ -1178,14 +954,13 @@
                                 "author": {
                                     "name": "Jason Quense",
                                     "email": "monastic.panic@gmail.com",
-                                    "date": "2018-01-08T15:36:24Z",
+                                    "date": "2018-01-08T10:36:24-05:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjMzOTI4Ng==",
                                         "login": "jquense",
                                         "name": "Jason Quense",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/339286?v=4",
-                                        "url": "https://github.com/jquense",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1199,32 +974,27 @@
                                         "name": "Jason Quense",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/339286?v=4",
-                                        "url": "https://github.com/jquense",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "23b8119959e5f8ef0a981b5b59e715656e8ef2c1",
-                                    "commitUrl": "https://github.com/facebook/react/commit/23b8119959e5f8ef0a981b5b59e715656e8ef2c1",
-                                    "commitResourcePath": "/facebook/react/commit/23b8119959e5f8ef0a981b5b59e715656e8ef2c1"
+                                    "oid": "23b8119959e5f8ef0a981b5b59e715656e8ef2c1"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "26185759e4f05025b1fdbe5e238a44aefe5669d4",
-                                                "url": "https://github.com/facebook/react/commit/26185759e4f05025b1fdbe5e238a44aefe5669d4",
-                                                "commitUrl": "https://github.com/facebook/react/commit/26185759e4f05025b1fdbe5e238a44aefe5669d4"
+                                                "oid": "26185759e4f05025b1fdbe5e238a44aefe5669d4"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     },
                     {
                         "node": {
-                            "id": "MDM6UmVmMTAyNzAyNTA6cmFkaW8tY2xpY2s=",
                             "name": "radio-click",
                             "target": {
                                 "oid": "7b1bbe6befc269e62abccafd5e14777278fa0100",
@@ -1233,14 +1003,13 @@
                                 "author": {
                                     "name": "Jason Quense",
                                     "email": "monastic.panic@gmail.com",
-                                    "date": "2018-04-18T21:21:42Z",
+                                    "date": "2018-04-18T17:21:42-04:00",
                                     "user": {
                                         "id": "MDQ6VXNlcjMzOTI4Ng==",
                                         "login": "jquense",
                                         "name": "Jason Quense",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/339286?v=4",
-                                        "url": "https://github.com/jquense",
                                         "isSiteAdmin": false
                                     }
                                 },
@@ -1254,26 +1023,22 @@
                                         "name": "Jason Quense",
                                         "__typename": "User",
                                         "avatarUrl": "https://avatars2.githubusercontent.com/u/339286?v=4",
-                                        "url": "https://github.com/jquense",
                                         "isSiteAdmin": false
                                     }
                                 },
                                 "tree": {
-                                    "oid": "efd5d73db90c6cc7a929455a0547538128bd0f55",
-                                    "commitUrl": "https://github.com/facebook/react/commit/efd5d73db90c6cc7a929455a0547538128bd0f55",
-                                    "commitResourcePath": "/facebook/react/commit/efd5d73db90c6cc7a929455a0547538128bd0f55"
+                                    "oid": "efd5d73db90c6cc7a929455a0547538128bd0f55"
                                 },
                                 "parents": {
                                     "edges": [
                                         {
                                             "node": {
-                                                "oid": "0887c7d56cb9b83f36dcb490b4245d7bc33bda1f",
-                                                "url": "https://github.com/facebook/react/commit/0887c7d56cb9b83f36dcb490b4245d7bc33bda1f",
-                                                "commitUrl": "https://github.com/facebook/react/commit/0887c7d56cb9b83f36dcb490b4245d7bc33bda1f"
+                                                "oid": "0887c7d56cb9b83f36dcb490b4245d7bc33bda1f"
                                             }
                                         }
                                     ]
-                                }
+                                },
+                                "signature": null
                             }
                         }
                     }

@@ -4,6 +4,10 @@
             "id": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
             "name": "react",
             "milestones": {
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Y3Vyc29yOnYyOpHOACzTnA=="
+                },
                 "edges": [
                     {
                         "node": {
