@@ -40,6 +40,30 @@ jobs:
           paths:
             - /var/www/vendor
 
+  deprecations_check:
+    docker:
+      - image: msvrtan/square:0.2.2
+    working_directory: /var/www
+    parallel: 1
+    steps:
+      - checkout
+
+      - run:
+          name: Disable xdebug
+          command: ./etc/circleci2/disable-xdebug.sh
+
+      - run:
+          name: Composer install
+          command: composer install --prefer-dist --no-interaction
+
+      - run:
+          name: Add phpstan deprecation rules
+          command: sed -i.bak $'s/includes:/includes:\\\n\t- vendor\/phpstan\/phpstan-deprecation-rules\/rules.neon/g' phpstan.neon
+
+      - run:
+          name: PHPStan
+          command: ./vendor/bin/phing phpstan
+
   infection:
     docker:
       - image: msvrtan/square:0.2.1
@@ -97,6 +121,9 @@ workflows:
   build-and-deploy:
     jobs:
       - build
+      - deprecations_check:
+         requires:
+           - build
       - infection:
          requires:
            - build
