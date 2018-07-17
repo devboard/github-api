@@ -186,16 +186,16 @@
         },
         {
             "name": "devboard/lib-github",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/lib-github.git",
-                "reference": "9bc2c8d65b2ffe360c23ed3b507ecf94c7269083"
+                "reference": "8e1069cb5e322d7ecb87b5748c66062ea7c7b8bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/lib-github/zipball/9bc2c8d65b2ffe360c23ed3b507ecf94c7269083",
-                "reference": "9bc2c8d65b2ffe360c23ed3b507ecf94c7269083",
+                "url": "https://api.github.com/repos/devboard/lib-github/zipball/8e1069cb5e322d7ecb87b5748c66062ea7c7b8bb",
+                "reference": "8e1069cb5e322d7ecb87b5748c66062ea7c7b8bb",
                 "shasum": ""
             },
             "require": {
@@ -215,6 +215,7 @@
                 "phpspec/phpspec": "^4.2",
                 "phpstan/phpstan": "^0.10.0",
                 "phpstan/phpstan-phpunit": "^0.10.0",
+                "phpstan/phpstan-strict-rules": "^0.10.0",
                 "phpunit/phpunit": "^7.0",
                 "slevomat/coding-standard": "^4.0",
                 "squizlabs/php_codesniffer": "^3.1"
@@ -230,7 +231,7 @@
                 "proprietary"
             ],
             "description": "Devboard lib for GitHub",
-            "time": "2018-06-25T08:51:58+00:00"
+            "time": "2018-07-16T09:11:21+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1976,16 +1977,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/infection/infection.git",
-                "reference": "8fd9e65b36de02c4882b8daa06ce092945e8004c"
+                "reference": "f2f9461b1550565261ae1e038bb6dd3c648684ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/infection/infection/zipball/8fd9e65b36de02c4882b8daa06ce092945e8004c",
-                "reference": "8fd9e65b36de02c4882b8daa06ce092945e8004c",
+                "url": "https://api.github.com/repos/infection/infection/zipball/f2f9461b1550565261ae1e038bb6dd3c648684ac",
+                "reference": "f2f9461b1550565261ae1e038bb6dd3c648684ac",
                 "shasum": ""
             },
             "require": {
                 "composer/xdebug-handler": "^1.1",
+                "ext-dom": "*",
                 "nikic/php-parser": "^4.0",
                 "ocramius/package-versions": "^1.2",
                 "padraic/phar-updater": "^1.0.4",
@@ -2052,7 +2054,7 @@
                 "testing",
                 "unit testing"
             ],
-            "time": "2018-07-11T04:53:33+00:00"
+            "time": "2018-07-17T18:55:16+00:00"
         },
         {
             "name": "jean85/pretty-package-versions",
@@ -3461,16 +3463,16 @@
         },
         {
             "name": "phpspec/phpspec",
-            "version": "5.0.0",
+            "version": "5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/phpspec.git",
-                "reference": "33fa9932c22b64f9b05e9c4ef5d1acbdd28e8912"
+                "reference": "b37c5a0659d8a405b820737099cf619b29b3a40e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/33fa9932c22b64f9b05e9c4ef5d1acbdd28e8912",
-                "reference": "33fa9932c22b64f9b05e9c4ef5d1acbdd28e8912",
+                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/b37c5a0659d8a405b820737099cf619b29b3a40e",
+                "reference": "b37c5a0659d8a405b820737099cf619b29b3a40e",
                 "shasum": ""
             },
             "require": {
@@ -3538,7 +3540,7 @@
                 "testing",
                 "tests"
             ],
-            "time": "2018-07-14T05:34:46+00:00"
+            "time": "2018-07-17T09:51:17+00:00"
         },
         {
             "name": "phpspec/prophecy",
