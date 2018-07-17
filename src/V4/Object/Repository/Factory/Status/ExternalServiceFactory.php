@@ -22,8 +22,10 @@ use DevboardLib\GitHub\Status\StatusContext;
  */
 class ExternalServiceFactory
 {
+    /** @var array */
     private static $regex = ['|^ci/circleci|' => CircleCi::class, '|^codecov|' => CodeCovIo::class];
 
+    /** @var array */
     private static $text = [
         'coverage/coveralls'                     => CoverallsIo::class,
         'continuous-integration/travis-ci/pr'    => TravisCi::class,

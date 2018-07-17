@@ -16,6 +16,7 @@ use Tests\DevboardLib\GitHubApi\V3\TestData\TestDataProvider;
  */
 class InstallationFactoryTest extends TestCase
 {
+    /** @var InstallationFactory */
     private $sut;
 
     public function setUp(): void

@@ -18,6 +18,7 @@ use PHPUnit\Framework\TestCase;
  */
 class GitHubClientFactoryTest extends TestCase
 {
+    /** @var GitHubClientFactory */
     private $sut;
 
     /** @var MockInterface|JwtTokenBuilder */
