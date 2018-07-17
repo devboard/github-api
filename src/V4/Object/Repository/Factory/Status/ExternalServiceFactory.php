@@ -17,6 +17,9 @@ use DevboardLib\GitHub\External\Service\ContinuousIntegration\TravisCi;
 use DevboardLib\GitHub\External\Service\UnknownService;
 use DevboardLib\GitHub\Status\StatusContext;
 
+/**
+ * @deprecated Remove in version 2.0, please use the one from lib-github!
+ */
 class ExternalServiceFactory
 {
     private static $regex = ['|^ci/circleci|' => CircleCi::class, '|^codecov|' => CodeCovIo::class];
