@@ -9,6 +9,7 @@ use DevboardLib\GitHubApi\Auth\GitHubApp\JwtTokenBuilder;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 use DevboardLib\GitHubApi\V3\Installation\InstallationRepositoriesApi;
+use Generator;
 use Github\Api\Apps;
 use Github\Client;
 use Mockery;
@@ -54,7 +55,7 @@ class InstallationRepositoriesApiTest extends TestCase
      * @group        unit
      * @dataProvider provideInstallationRepositoriesData
      */
-    public function testAllInstallationRepositories($data): void
+    public function testAllInstallationRepositories(array $data): void
     {
         $clientFactory = Mockery::mock(GitHubClientFactory::class);
         $client        = Mockery::mock(Client::class);
@@ -105,7 +106,7 @@ class InstallationRepositoriesApiTest extends TestCase
      * @group        unit
      * @dataProvider provideInstallationRepositoriesData
      */
-    public function testInstallationFactory($data): void
+    public function testInstallationFactory(array $data): void
     {
         $clientFactory = Mockery::mock(GitHubClientFactory::class);
         $client        = Mockery::mock(Client::class);
@@ -123,7 +124,7 @@ class InstallationRepositoriesApiTest extends TestCase
         self::assertContainsOnlyInstancesOf(GitHubRepo::class, $results);
     }
 
-    public function provideInstallationRepositoriesData()
+    public function provideInstallationRepositoriesData(): Generator
     {
         $finder = new Finder();
 

@@ -23,7 +23,7 @@ class RepoOwnerFactoryTest extends TestCase
         self::assertInstanceOf(RepoOwner::class, $sut->create($data));
     }
 
-    public function provideData()
+    public function provideData(): array
     {
         $provider = new TestDataProvider();
 

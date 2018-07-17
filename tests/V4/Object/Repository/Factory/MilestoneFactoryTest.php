@@ -6,6 +6,7 @@ namespace Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory;
 
 use DevboardLib\GitHub\GitHubMilestone;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\MilestoneFactory;
+use Generator;
 use PHPUnit\Framework\TestCase;
 use Tests\DevboardLib\GitHubApi\V4\TestData\TestDataProvider;
 
@@ -31,7 +32,7 @@ class MilestoneFactoryTest extends TestCase
         self::assertInstanceOf(GitHubMilestone::class, $sender);
     }
 
-    public function provideData()
+    public function provideData(): Generator
     {
         $provider = new TestDataProvider();
 

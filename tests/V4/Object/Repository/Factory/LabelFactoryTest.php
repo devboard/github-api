@@ -6,6 +6,7 @@ namespace Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory;
 
 use DevboardLib\GitHub\GitHubLabel;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\LabelFactory;
+use Generator;
 use PHPUnit\Framework\TestCase;
 use Tests\DevboardLib\GitHubApi\V4\TestData\TestDataProvider;
 
@@ -31,7 +32,7 @@ class LabelFactoryTest extends TestCase
         self::assertInstanceOf(GitHubLabel::class, $sender);
     }
 
-    public function provideData()
+    public function provideData(): Generator
     {
         $provider = new TestDataProvider();
 

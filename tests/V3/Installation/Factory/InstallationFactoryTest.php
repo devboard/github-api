@@ -31,7 +31,7 @@ class InstallationFactoryTest extends TestCase
         self::assertInstanceOf(GitHubInstallation::class, $sender);
     }
 
-    public function provideData()
+    public function provideData(): array
     {
         $provider = new TestDataProvider();
 

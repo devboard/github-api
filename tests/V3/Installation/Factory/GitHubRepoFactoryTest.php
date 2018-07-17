@@ -27,7 +27,7 @@ class GitHubRepoFactoryTest extends TestCase
         self::assertInstanceOf(GitHubRepo::class, $sut->create($data));
     }
 
-    public function provideData()
+    public function provideData(): array
     {
         $provider = new TestDataProvider();
 

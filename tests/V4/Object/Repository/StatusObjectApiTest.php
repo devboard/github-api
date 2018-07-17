@@ -11,6 +11,7 @@ use DevboardLib\GitHubApi\Query\Repository\Request\AllPullRequestStatusesQuery;
 use DevboardLib\GitHubApi\Query\Repository\Result\AllPullRequestStatusesResult;
 use DevboardLib\GitHubApi\V4\Object\Repository\StatusObjectApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\StatusApi;
+use Generator;
 use Mockery;
 use PHPUnit\Framework\TestCase;
 use Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory\StatusFactoryTest;
@@ -24,7 +25,7 @@ class StatusObjectApiTest extends TestCase
     /**
      * @dataProvider provideBranchesData
      */
-    public function testGetBranches(AllBranchStatusesQuery $query, $inputData): void
+    public function testGetBranches(AllBranchStatusesQuery $query, array $inputData): void
     {
         $api = Mockery::mock(StatusApi::class);
         $api->shouldReceive('handleAllBranchStatusesQuery')->andReturn($inputData);
@@ -36,7 +37,7 @@ class StatusObjectApiTest extends TestCase
         self::assertNotEmpty($result->getBranchStatusCollections());
     }
 
-    public function provideBranchesData()
+    public function provideBranchesData(): Generator
     {
         $provider     = new TestDataProvider();
         $repoFullName = RepoFullName::createFromString('who/cares');
@@ -51,7 +52,7 @@ class StatusObjectApiTest extends TestCase
     /**
      * @dataProvider providePullRequestsData
      */
-    public function testGetPullRequests(AllPullRequestStatusesQuery $query, $inputData): void
+    public function testGetPullRequests(AllPullRequestStatusesQuery $query, array $inputData): void
     {
         $api = Mockery::mock(StatusApi::class);
         $api->shouldReceive('handleAllPullRequestStatusesQuery')->andReturn($inputData);
@@ -63,7 +64,7 @@ class StatusObjectApiTest extends TestCase
         self::assertInstanceOf(AllPullRequestStatusesResult::class, $result);
     }
 
-    public function providePullRequestsData()
+    public function providePullRequestsData(): Generator
     {
         $provider     = new TestDataProvider();
         $repoFullName = RepoFullName::createFromString('who/cares');

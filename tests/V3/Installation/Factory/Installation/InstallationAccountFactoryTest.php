@@ -30,7 +30,7 @@ class InstallationAccountFactoryTest extends TestCase
         self::assertInstanceOf(InstallationAccount::class, $sender);
     }
 
-    public function provideData()
+    public function provideData(): array
     {
         $provider = new TestDataProvider();
 
