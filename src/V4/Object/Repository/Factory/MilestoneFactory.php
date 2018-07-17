@@ -42,7 +42,7 @@ class MilestoneFactory
             $closedAt = new MilestoneClosedAt($data['closedAt']);
         }
 
-        $id = str_replace('09:Milestone', '', base64_decode($data['id']));
+        $id = str_replace('09:Milestone', '', base64_decode($data['id'], true));
 
         return new GitHubMilestone(
             new MilestoneId((int) $id),
@@ -69,7 +69,7 @@ class MilestoneFactory
                 false
             );
         }
-        $id = str_replace('04:User', '', base64_decode($data['id']));
+        $id = str_replace('04:User', '', base64_decode($data['id'], true));
 
         return new MilestoneCreator(
             new AccountId((int) $id),

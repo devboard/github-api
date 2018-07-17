@@ -24,7 +24,7 @@ class StatusCreatorFactory
             );
         }
 
-        $id = str_replace('04:User', '', base64_decode($data['id']));
+        $id = str_replace('04:User', '', base64_decode($data['id'], true));
 
         return new StatusCreator(
             new AccountId((int) $id),
