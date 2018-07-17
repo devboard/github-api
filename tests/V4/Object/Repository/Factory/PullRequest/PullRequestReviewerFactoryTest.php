@@ -18,13 +18,13 @@ class PullRequestReviewerFactoryTest extends TestCase
     /** @var PullRequestReviewerFactory */
     private $sut;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->sut = self::instance();
     }
 
     /** @dataProvider provideData */
-    public function testPullRequestReviewerFactory(array $data)
+    public function testPullRequestReviewerFactory(array $data): void
     {
         $sender = $this->sut->create($data);
 

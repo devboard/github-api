@@ -13,7 +13,7 @@ use DevboardLib\GitHubApi\V4\Raw\Repository\MilestoneApi;
  */
 class MilestoneApiTest extends BaseTestCase
 {
-    public function testFetch()
+    public function testFetch(): void
     {
         if (false === getenv('GITHUB_TEST_USER_ID')) {
             self::markTestSkipped('No user id');

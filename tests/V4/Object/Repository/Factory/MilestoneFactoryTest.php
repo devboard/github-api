@@ -18,13 +18,13 @@ class MilestoneFactoryTest extends TestCase
     /** @var MilestoneFactory */
     private $sut;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->sut = self::instance();
     }
 
     /** @dataProvider provideData */
-    public function testMilestoneFactory(array $data)
+    public function testMilestoneFactory(array $data): void
     {
         $sender = $this->sut->create($data);
 

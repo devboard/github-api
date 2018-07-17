@@ -39,7 +39,7 @@ class TestDataRetrieverV4Test extends TestCase
     /** @var GitHubClientFactory */
     private $clientFactory;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
@@ -76,7 +76,7 @@ class TestDataRetrieverV4Test extends TestCase
     }
 
     /** @dataProvider provideRepositoriesData */
-    public function testBranchesFetch(InstallationId $installationId, RepoFullName $repoFullName)
+    public function testBranchesFetch(InstallationId $installationId, RepoFullName $repoFullName): void
     {
         $api = new BranchApi($this->clientFactory);
 
@@ -90,7 +90,7 @@ class TestDataRetrieverV4Test extends TestCase
     }
 
     /** @dataProvider provideRepositoriesData */
-    public function testLabelsFetch(InstallationId $installationId, RepoFullName $repoFullName)
+    public function testLabelsFetch(InstallationId $installationId, RepoFullName $repoFullName): void
     {
         $api   = new LabelApi($this->clientFactory);
         $query = new AllLabelsQuery($repoFullName, new InstallationCredentials($installationId, $this->userId));
@@ -102,7 +102,7 @@ class TestDataRetrieverV4Test extends TestCase
     }
 
     /** @dataProvider provideRepositoriesData */
-    public function testMilestonesFetch(InstallationId $installationId, RepoFullName $repoFullName)
+    public function testMilestonesFetch(InstallationId $installationId, RepoFullName $repoFullName): void
     {
         $api   = new MilestoneApi($this->clientFactory);
         $query = new AllMilestonesQuery($repoFullName, new InstallationCredentials($installationId, $this->userId));
@@ -114,7 +114,7 @@ class TestDataRetrieverV4Test extends TestCase
     }
 
     /** @dataProvider provideRepositoriesData */
-    public function testPullRequestsFetch(InstallationId $installationId, RepoFullName $repoFullName)
+    public function testPullRequestsFetch(InstallationId $installationId, RepoFullName $repoFullName): void
     {
         $api = new PullRequestApi($this->clientFactory);
 
@@ -128,7 +128,7 @@ class TestDataRetrieverV4Test extends TestCase
     }
 
     /** @dataProvider provideRepositoriesData */
-    public function testStatusBranchesFetch(InstallationId $installationId, RepoFullName $repoFullName)
+    public function testStatusBranchesFetch(InstallationId $installationId, RepoFullName $repoFullName): void
     {
         $api = new StatusApi($this->clientFactory);
 
@@ -142,7 +142,7 @@ class TestDataRetrieverV4Test extends TestCase
     }
 
     /** @dataProvider provideRepositoriesData */
-    public function testStatusPullRequestFetch(InstallationId $installationId, RepoFullName $repoFullName)
+    public function testStatusPullRequestFetch(InstallationId $installationId, RepoFullName $repoFullName): void
     {
         $api = new StatusApi($this->clientFactory);
 

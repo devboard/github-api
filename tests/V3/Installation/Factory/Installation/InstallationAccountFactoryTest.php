@@ -17,13 +17,13 @@ class InstallationAccountFactoryTest extends TestCase
 {
     private $sut;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->sut = new InstallationAccountFactory();
     }
 
     /** @dataProvider provideData */
-    public function testInstallationAccountFactory(array $data)
+    public function testInstallationAccountFactory(array $data): void
     {
         $sender = $this->sut->create($data['account']);
 

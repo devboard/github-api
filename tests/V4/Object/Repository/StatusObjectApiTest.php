@@ -24,7 +24,7 @@ class StatusObjectApiTest extends TestCase
     /**
      * @dataProvider provideBranchesData
      */
-    public function testGetBranches(AllBranchStatusesQuery $query, $inputData)
+    public function testGetBranches(AllBranchStatusesQuery $query, $inputData): void
     {
         $api = Mockery::mock(StatusApi::class);
         $api->shouldReceive('handleAllBranchStatusesQuery')->andReturn($inputData);
@@ -51,7 +51,7 @@ class StatusObjectApiTest extends TestCase
     /**
      * @dataProvider providePullRequestsData
      */
-    public function testGetPullRequests(AllPullRequestStatusesQuery $query, $inputData)
+    public function testGetPullRequests(AllPullRequestStatusesQuery $query, $inputData): void
     {
         $api = Mockery::mock(StatusApi::class);
         $api->shouldReceive('handleAllPullRequestStatusesQuery')->andReturn($inputData);

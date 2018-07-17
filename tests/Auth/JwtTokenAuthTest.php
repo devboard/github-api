@@ -19,43 +19,43 @@ class JwtTokenAuthTest extends TestCase
     /** @var JwtTokenAuth */
     private $jwtTokenAuth;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->token        = 'token';
         $this->jwtTokenAuth = new JwtTokenAuth($this->token);
     }
 
-    public function testGetTokenOrLogin()
+    public function testGetTokenOrLogin(): void
     {
         self::assertEquals($this->token, $this->jwtTokenAuth->getTokenOrLogin());
     }
 
-    public function testGetToken()
+    public function testGetToken(): void
     {
         self::assertEquals($this->token, $this->jwtTokenAuth->getToken());
     }
 
-    public function testGetLogin()
+    public function testGetLogin(): void
     {
         self::assertNull($this->jwtTokenAuth->getLogin());
     }
 
-    public function testGetPassword()
+    public function testGetPassword(): void
     {
         self::assertNull($this->jwtTokenAuth->getPassword());
     }
 
-    public function testGetAuthMethod()
+    public function testGetAuthMethod(): void
     {
         self::assertEquals('jwt', $this->jwtTokenAuth->getAuthMethod());
     }
 
-    public function testSerialize()
+    public function testSerialize(): void
     {
         self::assertEquals($this->token, $this->jwtTokenAuth->serialize());
     }
 
-    public function testDeserialize()
+    public function testDeserialize(): void
     {
         self::assertEquals($this->jwtTokenAuth, JwtTokenAuth::deserialize($this->token));
     }

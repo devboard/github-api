@@ -20,13 +20,13 @@ class CommitFactoryTest extends TestCase
     /** @var CommitFactory */
     private $sut;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->sut = self::instance();
     }
 
     /** @dataProvider provideData */
-    public function testCommitFactory(array $data)
+    public function testCommitFactory(array $data): void
     {
         $sender = $this->sut->createFromBranchData($data);
 

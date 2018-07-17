@@ -16,7 +16,7 @@ use PHPUnit\Framework\TestCase;
  */
 class TestDataRetrieverV3Test extends TestCase
 {
-    public function testInstallationFetch()
+    public function testInstallationFetch(): void
     {
         $token = getenv('GITHUB_TEST_TOKEN');
 
@@ -35,7 +35,7 @@ class TestDataRetrieverV3Test extends TestCase
         $this->writeJson('devboard-test', 'installations.json', $data);
     }
 
-    public function testInstallationRepositoriesFetch()
+    public function testInstallationRepositoriesFetch(): void
     {
         $appId          = getenv('GITHUB_TEST_APP_ID');
         $privateKeyPath = getenv('GITHUB_TEST_APP_PRIVATE_KEY_PATH');

@@ -14,7 +14,7 @@ use DevboardLib\GitHubApi\V4\Raw\Repository\StatusApi;
  */
 class StatusApiTest extends BaseTestCase
 {
-    public function testGetBranches()
+    public function testGetBranches(): void
     {
         if (false === getenv('GITHUB_TEST_USER_ID')) {
             self::markTestSkipped('No user id');
@@ -29,7 +29,7 @@ class StatusApiTest extends BaseTestCase
         self::assertNotNull($data);
     }
 
-    public function testGetPullRequests()
+    public function testGetPullRequests(): void
     {
         if (false === getenv('GITHUB_TEST_USER_ID')) {
             self::markTestSkipped('No user id');

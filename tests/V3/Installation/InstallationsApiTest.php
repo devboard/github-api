@@ -25,7 +25,7 @@ class InstallationsApiTest extends TestCase
     /**
      * @group live
      */
-    public function testAllUserInstallationsLive()
+    public function testAllUserInstallationsLive(): void
     {
         $token = getenv('GITHUB_TEST_TOKEN');
 
@@ -46,7 +46,7 @@ class InstallationsApiTest extends TestCase
      * @group        unit
      * @dataProvider provideInstallationsData
      */
-    public function testAllUserInstallations($data)
+    public function testAllUserInstallations($data): void
     {
         $token          = new JwtTokenAuth('123');
         $clientFactory  = Mockery::mock(GitHubClientFactory::class);
@@ -67,7 +67,7 @@ class InstallationsApiTest extends TestCase
     /**
      * @group live
      */
-    public function testInstallationFactoryLive()
+    public function testInstallationFactoryLive(): void
     {
         $token = getenv('GITHUB_TEST_TOKEN');
 
@@ -89,7 +89,7 @@ class InstallationsApiTest extends TestCase
      * @group        unit
      * @dataProvider provideInstallationsData
      */
-    public function testInstallationFactory($data)
+    public function testInstallationFactory($data): void
     {
         $token          = new JwtTokenAuth('123');
         $clientFactory  = Mockery::mock(GitHubClientFactory::class);

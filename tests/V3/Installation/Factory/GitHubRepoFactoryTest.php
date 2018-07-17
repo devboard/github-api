@@ -20,7 +20,7 @@ use Tests\DevboardLib\GitHubApi\V3\TestData\TestDataProvider;
 class GitHubRepoFactoryTest extends TestCase
 {
     /** @dataProvider provideData */
-    public function testFactoryReturnsGitHubRepoInstance(array $data)
+    public function testFactoryReturnsGitHubRepoInstance(array $data): void
     {
         $sut = self::instance();
 
