@@ -13,7 +13,7 @@ class LabelFactory
 {
     public function create(array $data): GitHubLabel
     {
-        $id = str_replace('05:Label', '', base64_decode($data['id']));
+        $id = str_replace('05:Label', '', base64_decode($data['id'], true));
 
         return new GitHubLabel(
             new LabelId((int) $id),

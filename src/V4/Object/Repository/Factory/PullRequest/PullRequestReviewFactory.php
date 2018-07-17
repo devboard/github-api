@@ -33,7 +33,7 @@ class PullRequestReviewFactory
             $submittedAt = new PullRequestReviewSubmittedAt($data['submittedAt']);
         }
 
-        $id = str_replace('017:PullRequestReview', '', base64_decode($data['id']));
+        $id = str_replace('017:PullRequestReview', '', base64_decode($data['id'], true));
 
         return new GitHubPullRequestReview(
             new PullRequestReviewId((int) $id),
@@ -53,7 +53,7 @@ class PullRequestReviewFactory
             $authorAssociation = new PullRequestReviewAuthorAssociation($association);
         }
 
-        $id = str_replace('04:User', '', base64_decode($data['id']));
+        $id = str_replace('04:User', '', base64_decode($data['id'], true));
 
         return new PullRequestReviewAuthor(
             new AccountId((int) $id),

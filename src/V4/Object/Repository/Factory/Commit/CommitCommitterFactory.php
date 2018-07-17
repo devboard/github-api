@@ -25,7 +25,7 @@ class CommitCommitterFactory
         if (null === $data['user']) {
             $committerDetails = null;
         } else {
-            $id               = str_replace('04:User', '', base64_decode($data['user']['id']));
+            $id               = str_replace('04:User', '', base64_decode($data['user']['id'], true));
             $committerDetails = new CommitCommitterDetails(
                 new UserId((int) $id),
                 new UserLogin($data['user']['login']),

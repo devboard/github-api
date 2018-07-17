@@ -18,7 +18,7 @@ class PullRequestAssigneeFactory
 {
     public function create(array $data): PullRequestAssignee
     {
-        $id = str_replace('04:User', '', base64_decode($data['id']));
+        $id = str_replace('04:User', '', base64_decode($data['id'], true));
 
         return new PullRequestAssignee(
             new AccountId((int) $id),

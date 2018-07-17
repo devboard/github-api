@@ -30,7 +30,7 @@ class PullRequestAuthorFactory
             );
         }
 
-        $id = str_replace('04:User', '', base64_decode($data['id']));
+        $id = str_replace('04:User', '', base64_decode($data['id'], true));
 
         if (null === $association) {
             $authorAssociation = null;

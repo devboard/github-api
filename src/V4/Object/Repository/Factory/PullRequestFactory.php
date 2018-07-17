@@ -41,7 +41,7 @@ class PullRequestFactory
         } else {
             $closedAt = new PullRequestClosedAt($data['closedAt']);
         }
-        $id = str_replace('011:PullRequest', '', base64_decode($data['id']));
+        $id = str_replace('011:PullRequest', '', base64_decode($data['id'], true));
 
         return new GitHubPullRequest(
             new PullRequestId((int) $id),

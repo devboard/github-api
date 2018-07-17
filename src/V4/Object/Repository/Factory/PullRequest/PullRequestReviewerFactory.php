@@ -18,7 +18,7 @@ class PullRequestReviewerFactory
 {
     public function create(array $data): PullRequestReviewer
     {
-        $id = str_replace('04:User', '', base64_decode($data['id']));
+        $id = str_replace('04:User', '', base64_decode($data['id'], true));
 
         return new PullRequestReviewer(
             new AccountId((int) $id),
