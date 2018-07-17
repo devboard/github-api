@@ -27,7 +27,7 @@ class MilestoneFactory
 {
     public function create(?array $data): ?GitHubMilestone
     {
-        if (true === empty($data)) {
+        if ([] === $data || null === $data) {
             return null;
         }
 
@@ -60,7 +60,7 @@ class MilestoneFactory
 
     public function createCreator(?array $data): MilestoneCreator
     {
-        if (empty($data)) {
+        if ([] === $data || null === $data) {
             return new MilestoneCreator(
                 new AccountId(10137),
                 new AccountLogin('ghost'),
