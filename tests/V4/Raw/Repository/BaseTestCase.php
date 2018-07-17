@@ -10,7 +10,7 @@ use PHPUnit\Framework\TestCase;
 
 abstract class BaseTestCase extends TestCase
 {
-    protected function getClientFactory()
+    protected function getClientFactory(): GitHubClientFactory
     {
         if (false === getenv('GITHUB_TEST_APP_ID')) {
             self::markTestSkipped('No AppId');
