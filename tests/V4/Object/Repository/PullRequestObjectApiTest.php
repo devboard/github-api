@@ -10,6 +10,7 @@ use DevboardLib\GitHubApi\Query\Repository\Request\AllPullRequestsQuery;
 use DevboardLib\GitHubApi\Query\Repository\Result\AllPullRequestsResult;
 use DevboardLib\GitHubApi\V4\Object\Repository\PullRequestObjectApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\PullRequestApi;
+use Generator;
 use Mockery;
 use PHPUnit\Framework\TestCase;
 use Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequestDetailedResponseFactoryTest;
@@ -23,7 +24,7 @@ class PullRequestObjectApiTest extends TestCase
     /**
      * @dataProvider provideData
      */
-    public function testGetPullRequests(AllPullRequestsQuery $query, $inputData): void
+    public function testGetPullRequests(AllPullRequestsQuery $query, array $inputData): void
     {
         $api = Mockery::mock(PullRequestApi::class);
         $api->shouldReceive('handleAllPullRequestsQuery')->andReturn($inputData);
@@ -35,7 +36,7 @@ class PullRequestObjectApiTest extends TestCase
         self::assertInstanceOf(AllPullRequestsResult::class, $result);
     }
 
-    public function provideData()
+    public function provideData(): Generator
     {
         $provider     = new TestDataProvider();
         $repoFullName = RepoFullName::createFromString('who/cares');

@@ -9,6 +9,7 @@ use DevboardLib\GitHubApi\Auth\GitHubApp\JwtTokenBuilder;
 use DevboardLib\GitHubApi\Auth\JwtTokenAuth;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 use DevboardLib\GitHubApi\V3\Installation\InstallationsApi;
+use Generator;
 use Github\Api\CurrentUser;
 use Github\Client;
 use Mockery;
@@ -46,7 +47,7 @@ class InstallationsApiTest extends TestCase
      * @group        unit
      * @dataProvider provideInstallationsData
      */
-    public function testAllUserInstallations($data): void
+    public function testAllUserInstallations(array $data): void
     {
         $token          = new JwtTokenAuth('123');
         $clientFactory  = Mockery::mock(GitHubClientFactory::class);
@@ -89,7 +90,7 @@ class InstallationsApiTest extends TestCase
      * @group        unit
      * @dataProvider provideInstallationsData
      */
-    public function testInstallationFactory($data): void
+    public function testInstallationFactory(array $data): void
     {
         $token          = new JwtTokenAuth('123');
         $clientFactory  = Mockery::mock(GitHubClientFactory::class);
@@ -108,7 +109,7 @@ class InstallationsApiTest extends TestCase
         self::assertContainsOnlyInstancesOf(GitHubInstallation::class, $results);
     }
 
-    public function provideInstallationsData()
+    public function provideInstallationsData(): Generator
     {
         $content = file_get_contents(__DIR__.'/../TestData/devboard-test/installations.json');
         yield [json_decode($content, true)];

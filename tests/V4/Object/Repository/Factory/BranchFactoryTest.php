@@ -10,6 +10,7 @@ use DevboardLib\GitHubApi\V4\Object\Repository\Factory\BranchFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\Commit\CommitAuthorFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\Commit\CommitCommitterFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\CommitFactory;
+use Generator;
 use PHPUnit\Framework\TestCase;
 use Tests\DevboardLib\GitHubApi\V4\TestData\TestDataProvider;
 
@@ -37,7 +38,7 @@ class BranchFactoryTest extends TestCase
         self::assertInstanceOf(GitHubBranch::class, $sender);
     }
 
-    public function provideData()
+    public function provideData(): Generator
     {
         $provider = new TestDataProvider();
 

@@ -23,7 +23,7 @@ class RepoTimestampsFactoryTest extends TestCase
         self::assertInstanceOf(RepoTimestamps::class, $sut->create($data));
     }
 
-    public function provideData()
+    public function provideData(): array
     {
         $provider = new TestDataProvider();
 

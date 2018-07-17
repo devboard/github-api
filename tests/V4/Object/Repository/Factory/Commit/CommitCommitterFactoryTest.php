@@ -6,6 +6,7 @@ namespace Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory\Commit;
 
 use DevboardLib\GitHub\Commit\CommitCommitter;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\Commit\CommitCommitterFactory;
+use Generator;
 use PHPUnit\Framework\TestCase;
 use Tests\DevboardLib\GitHubApi\V4\TestData\TestDataProvider;
 
@@ -31,7 +32,7 @@ class CommitCommitterFactoryTest extends TestCase
         self::assertInstanceOf(CommitCommitter::class, $sender);
     }
 
-    public function provideData()
+    public function provideData(): Generator
     {
         $provider = new TestDataProvider();
 

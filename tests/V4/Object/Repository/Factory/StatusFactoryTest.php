@@ -8,6 +8,7 @@ use DevboardLib\GitHub\GitHubStatus;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\Status\ExternalServiceFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\Status\StatusCreatorFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\StatusFactory;
+use Generator;
 use PHPUnit\Framework\TestCase;
 use Tests\DevboardLib\GitHubApi\V4\TestData\TestDataProvider;
 
@@ -33,7 +34,7 @@ class StatusFactoryTest extends TestCase
         self::assertInstanceOf(GitHubStatus::class, $sender);
     }
 
-    public function provideData()
+    public function provideData(): Generator
     {
         $provider = new TestDataProvider();
 

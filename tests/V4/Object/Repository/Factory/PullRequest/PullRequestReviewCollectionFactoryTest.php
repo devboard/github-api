@@ -7,6 +7,7 @@ namespace Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequest;
 use DevboardLib\GitHub\GitHubPullRequestReviewCollection;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequest\PullRequestReviewCollectionFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequest\PullRequestReviewFactory;
+use Generator;
 use PHPUnit\Framework\TestCase;
 use Tests\DevboardLib\GitHubApi\V4\TestData\TestDataProvider;
 
@@ -32,7 +33,7 @@ class PullRequestReviewCollectionFactoryTest extends TestCase
         self::assertInstanceOf(GitHubPullRequestReviewCollection::class, $sender);
     }
 
-    public function provideData()
+    public function provideData(): Generator
     {
         $provider = new TestDataProvider();
 

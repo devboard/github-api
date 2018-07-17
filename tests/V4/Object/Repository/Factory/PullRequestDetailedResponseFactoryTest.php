@@ -7,6 +7,7 @@ namespace Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory;
 use DevboardLib\GitHubApi\Query\Repository\Result\Response\PullRequestDetailedResponse;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\MilestoneFactory;
 use DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequestDetailedResponseFactory;
+use Generator;
 use PHPUnit\Framework\TestCase;
 use Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequest\PullRequestAssigneeCollectionFactoryTest;
 use Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory\PullRequest\PullRequestRequestedReviewerCollectionFactoryTest;
@@ -35,7 +36,7 @@ class PullRequestDetailedResponseFactoryTest extends TestCase
         self::assertInstanceOf(PullRequestDetailedResponse::class, $sender);
     }
 
-    public function provideData()
+    public function provideData(): Generator
     {
         $provider = new TestDataProvider();
 

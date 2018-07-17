@@ -9,6 +9,7 @@ use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
 use DevboardLib\GitHubApi\Query\Repository\Request\AllLabelsQuery;
 use DevboardLib\GitHubApi\V4\Object\Repository\LabelObjectApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\LabelApi;
+use Generator;
 use Mockery;
 use PHPUnit\Framework\TestCase;
 use Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory\LabelFactoryTest;
@@ -22,7 +23,7 @@ class LabelObjectApiTest extends TestCase
     /**
      * @dataProvider provideData
      */
-    public function testGetLabels(AllLabelsQuery $query, $inputData): void
+    public function testGetLabels(AllLabelsQuery $query, array $inputData): void
     {
         $api = Mockery::mock(LabelApi::class);
         $api->shouldReceive('handleAllLabelsQuery')->andReturn($inputData);
@@ -34,7 +35,7 @@ class LabelObjectApiTest extends TestCase
         self::assertNotEmpty($result->getLabels());
     }
 
-    public function provideData()
+    public function provideData(): Generator
     {
         $provider     = new TestDataProvider();
         $repoFullName = RepoFullName::createFromString('who/cares');

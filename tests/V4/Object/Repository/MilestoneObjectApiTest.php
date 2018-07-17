@@ -10,6 +10,7 @@ use DevboardLib\GitHubApi\Query\Repository\Request\AllMilestonesQuery;
 use DevboardLib\GitHubApi\Query\Repository\Result\AllMilestonesResult;
 use DevboardLib\GitHubApi\V4\Object\Repository\MilestoneObjectApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\MilestoneApi;
+use Generator;
 use Mockery;
 use PHPUnit\Framework\TestCase;
 use Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory\MilestoneFactoryTest;
@@ -23,7 +24,7 @@ class MilestoneObjectApiTest extends TestCase
     /**
      * @dataProvider provideData
      */
-    public function testGetMilestones(AllMilestonesQuery $query, $inputData): void
+    public function testGetMilestones(AllMilestonesQuery $query, array $inputData): void
     {
         $api = Mockery::mock(MilestoneApi::class);
         $api->shouldReceive('handleAllMilestonesQuery')->andReturn($inputData);
@@ -35,7 +36,7 @@ class MilestoneObjectApiTest extends TestCase
         self::assertInstanceOf(AllMilestonesResult::class, $result);
     }
 
-    public function provideData()
+    public function provideData(): Generator
     {
         $provider     = new TestDataProvider();
         $repoFullName = RepoFullName::createFromString('who/cares');

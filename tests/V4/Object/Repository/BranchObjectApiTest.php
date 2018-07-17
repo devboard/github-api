@@ -9,6 +9,7 @@ use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
 use DevboardLib\GitHubApi\Query\Repository\Request\AllBranchesQuery;
 use DevboardLib\GitHubApi\V4\Object\Repository\BranchObjectApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\BranchApi;
+use Generator;
 use Mockery;
 use PHPUnit\Framework\TestCase;
 use Tests\DevboardLib\GitHubApi\V4\Object\Repository\Factory\BranchFactoryTest;
@@ -23,7 +24,7 @@ class BranchObjectApiTest extends TestCase
     /**
      * @dataProvider provideData
      */
-    public function testGetBranches(AllBranchesQuery $query, $inputData): void
+    public function testGetBranches(AllBranchesQuery $query, array $inputData): void
     {
         $api = Mockery::mock(BranchApi::class);
         $api->shouldReceive('handleAllBranchesQuery')->andReturn($inputData);
@@ -35,7 +36,7 @@ class BranchObjectApiTest extends TestCase
         self::assertNotEmpty($result->getBranches());
     }
 
-    public function provideData()
+    public function provideData(): Generator
     {
         $provider     = new TestDataProvider();
         $repoFullName = RepoFullName::createFromString('who/cares');
