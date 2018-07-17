@@ -20,7 +20,7 @@ class RepoOwnerFactoryTest extends TestCase
     {
         $sut = new RepoOwnerFactory();
 
-        $this->assertInstanceOf(RepoOwner::class, $sut->create($data));
+        self::assertInstanceOf(RepoOwner::class, $sut->create($data));
     }
 
     public function provideData()

@@ -20,7 +20,7 @@ class RepoStatsFactoryTest extends TestCase
     {
         $sut = new RepoStatsFactory();
 
-        $this->assertInstanceOf(RepoStats::class, $sut->create($data));
+        self::assertInstanceOf(RepoStats::class, $sut->create($data));
     }
 
     public function provideData()
