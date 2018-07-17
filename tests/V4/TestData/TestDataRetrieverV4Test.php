@@ -176,6 +176,7 @@ class TestDataRetrieverV4Test extends TestCase
         }
     }
 
+    /** @param mixed $data */
     private function writeJson(string $vendor, string $filename, $data): void
     {
         //BitMask: pretty print and no escaped slashes
