@@ -10,6 +10,7 @@ parameters:
 		- '#Call to static method PHPUnit\\Framework\\Assert::assertNotNull\(\) with array will always evaluate to true.#'
 		- '#Call to static method PHPUnit\\Framework\\Assert::assertInstanceOf\(\) with .* and .* will always evaluate to true.#'
 		- '#Method .* has parameter \$cursor with no typehint specified.#'
+		- '#Parameter \#2 \$userId of class DevboardLib\\GitHubApi\\Credentials\\InstallationCredentials constructor expects DevboardLib\\GitHub\\User\\UserId|null, DevboardLib\\GitHub\\Account\\AccountId|null given.#'
 includes:
 	- vendor/phpstan/phpstan-phpunit/extension.neon
 	- vendor/phpstan/phpstan-phpunit/rules.neon
