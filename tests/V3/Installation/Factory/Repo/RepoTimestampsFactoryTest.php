@@ -16,7 +16,7 @@ use Tests\DevboardLib\GitHubApi\V3\TestData\TestDataProvider;
 class RepoTimestampsFactoryTest extends TestCase
 {
     /** @dataProvider provideData */
-    public function testFactoryReturnsRepoTimestampsInstance(array $data)
+    public function testFactoryReturnsRepoTimestampsInstance(array $data): void
     {
         $sut = new RepoTimestampsFactory();
 

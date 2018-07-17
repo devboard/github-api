@@ -24,7 +24,7 @@ class InstallationRepositoriesApiTest extends TestCase
     /**
      * @group live
      */
-    public function testAllInstallationRepositoriesLive()
+    public function testAllInstallationRepositoriesLive(): void
     {
         $appId          = getenv('GITHUB_TEST_APP_ID');
         $privateKeyPath = getenv('GITHUB_TEST_APP_PRIVATE_KEY_PATH');
@@ -54,7 +54,7 @@ class InstallationRepositoriesApiTest extends TestCase
      * @group        unit
      * @dataProvider provideInstallationRepositoriesData
      */
-    public function testAllInstallationRepositories($data)
+    public function testAllInstallationRepositories($data): void
     {
         $clientFactory = Mockery::mock(GitHubClientFactory::class);
         $client        = Mockery::mock(Client::class);
@@ -74,7 +74,7 @@ class InstallationRepositoriesApiTest extends TestCase
     /**
      * @group live
      */
-    public function testInstallationFactoryLive()
+    public function testInstallationFactoryLive(): void
     {
         $appId          = getenv('GITHUB_TEST_APP_ID');
         $privateKeyPath = getenv('GITHUB_TEST_APP_PRIVATE_KEY_PATH');
@@ -105,7 +105,7 @@ class InstallationRepositoriesApiTest extends TestCase
      * @group        unit
      * @dataProvider provideInstallationRepositoriesData
      */
-    public function testInstallationFactory($data)
+    public function testInstallationFactory($data): void
     {
         $clientFactory = Mockery::mock(GitHubClientFactory::class);
         $client        = Mockery::mock(Client::class);

@@ -23,20 +23,20 @@ class GitHubClientFactoryTest extends TestCase
     /** @var MockInterface|JwtTokenBuilder */
     private $jwtTokenBuilder;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->jwtTokenBuilder = Mockery::mock(JwtTokenBuilder::class);
         $this->sut             = new GitHubClientFactory($this->jwtTokenBuilder);
     }
 
-    public function testCreate()
+    public function testCreate(): void
     {
         $result = $this->sut->create();
 
         self::assertInstanceOf(Client::class, $result);
     }
 
-    public function testCreateAuthenticatedClient()
+    public function testCreateAuthenticatedClient(): void
     {
         $authMethod = new JwtTokenAuth('123');
 
@@ -45,7 +45,7 @@ class GitHubClientFactoryTest extends TestCase
         self::assertInstanceOf(Client::class, $result);
     }
 
-    public function testCreateAppAuthenticatedClient()
+    public function testCreateAppAuthenticatedClient(): void
     {
         $authMethod = new JwtTokenAuth('123');
         $this->jwtTokenBuilder->shouldReceive('create')->andReturn($authMethod);

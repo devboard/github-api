@@ -22,13 +22,13 @@ class BranchFactoryTest extends TestCase
     /** @var BranchFactory */
     private $sut;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->sut = self::instance();
     }
 
     /** @dataProvider provideData */
-    public function testBranchFactory(array $data)
+    public function testBranchFactory(array $data): void
     {
         $repoFullName = RepoFullName::createFromString('aaa/todo');
 

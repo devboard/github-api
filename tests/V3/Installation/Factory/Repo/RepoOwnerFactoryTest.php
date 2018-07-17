@@ -16,7 +16,7 @@ use Tests\DevboardLib\GitHubApi\V3\TestData\TestDataProvider;
 class RepoOwnerFactoryTest extends TestCase
 {
     /** @dataProvider provideData */
-    public function testFactoryReturnsGitHubRepoStatsInstance(array $data)
+    public function testFactoryReturnsGitHubRepoStatsInstance(array $data): void
     {
         $sut = new RepoOwnerFactory();
 

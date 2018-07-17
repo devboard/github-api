@@ -22,7 +22,7 @@ class LabelObjectApiTest extends TestCase
     /**
      * @dataProvider provideData
      */
-    public function testGetLabels(AllLabelsQuery $query, $inputData)
+    public function testGetLabels(AllLabelsQuery $query, $inputData): void
     {
         $api = Mockery::mock(LabelApi::class);
         $api->shouldReceive('handleAllLabelsQuery')->andReturn($inputData);

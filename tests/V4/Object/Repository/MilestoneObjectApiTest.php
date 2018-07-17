@@ -23,7 +23,7 @@ class MilestoneObjectApiTest extends TestCase
     /**
      * @dataProvider provideData
      */
-    public function testGetMilestones(AllMilestonesQuery $query, $inputData)
+    public function testGetMilestones(AllMilestonesQuery $query, $inputData): void
     {
         $api = Mockery::mock(MilestoneApi::class);
         $api->shouldReceive('handleAllMilestonesQuery')->andReturn($inputData);

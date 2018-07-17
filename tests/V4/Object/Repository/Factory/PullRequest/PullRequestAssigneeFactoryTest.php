@@ -18,13 +18,13 @@ class PullRequestAssigneeFactoryTest extends TestCase
     /** @var PullRequestAssigneeFactory */
     private $sut;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->sut = self::instance();
     }
 
     /** @dataProvider provideData */
-    public function testPullRequestAssigneeFactory(array $data)
+    public function testPullRequestAssigneeFactory(array $data): void
     {
         $sender = $this->sut->create($data);
 

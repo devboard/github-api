@@ -13,7 +13,7 @@ use DevboardLib\GitHubApi\V4\Raw\Repository\BranchApi;
  */
 class BranchApiTest extends BaseTestCase
 {
-    public function testGetBranches()
+    public function testGetBranches(): void
     {
         if (false === getenv('GITHUB_TEST_USER_ID')) {
             self::markTestSkipped('No user id');

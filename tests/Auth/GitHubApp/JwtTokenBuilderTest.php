@@ -26,14 +26,14 @@ class JwtTokenBuilderTest extends TestCase
     /** @var JwtTokenBuilder */
     private $builder;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->gitHubAppId    = 1;
         $this->privateKeyPath = 'file://'.__DIR__.'/dummy-private-key.pem';
         $this->builder        = new JwtTokenBuilder($this->gitHubAppId, $this->privateKeyPath);
     }
 
-    public function testCreate()
+    public function testCreate(): void
     {
         self::assertInstanceOf(JwtTokenAuth::class, $this->builder->create());
     }

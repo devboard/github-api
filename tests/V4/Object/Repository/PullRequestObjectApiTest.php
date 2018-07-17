@@ -23,7 +23,7 @@ class PullRequestObjectApiTest extends TestCase
     /**
      * @dataProvider provideData
      */
-    public function testGetPullRequests(AllPullRequestsQuery $query, $inputData)
+    public function testGetPullRequests(AllPullRequestsQuery $query, $inputData): void
     {
         $api = Mockery::mock(PullRequestApi::class);
         $api->shouldReceive('handleAllPullRequestsQuery')->andReturn($inputData);

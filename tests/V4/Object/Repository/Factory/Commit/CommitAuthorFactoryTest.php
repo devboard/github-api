@@ -18,13 +18,13 @@ class CommitAuthorFactoryTest extends TestCase
     /** @var CommitAuthorFactory */
     private $sut;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->sut = self::instance();
     }
 
     /** @dataProvider provideData */
-    public function testCommitAuthorFactory(array $data)
+    public function testCommitAuthorFactory(array $data): void
     {
         $sender = $this->sut->createFromBranchData($data);
 

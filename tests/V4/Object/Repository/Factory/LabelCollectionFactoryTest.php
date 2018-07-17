@@ -19,13 +19,13 @@ class LabelCollectionFactoryTest extends TestCase
     /** @var LabelCollectionFactory */
     private $sut;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->sut = self::instance();
     }
 
     /** @dataProvider provideData */
-    public function testLabelCollectionFactory(array $data)
+    public function testLabelCollectionFactory(array $data): void
     {
         $sender = $this->sut->create($data);
 
