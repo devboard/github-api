@@ -9,6 +9,7 @@ parameters:
 		- '#Call to an undefined static method DevboardLib\\GitHub\\Account\\AccountType::BOT().#'
 		- '#Call to static method PHPUnit\\Framework\\Assert::assertNotNull\(\) with array will always evaluate to true.#'
 		- '#Call to static method PHPUnit\\Framework\\Assert::assertInstanceOf\(\) with .* and .* will always evaluate to true.#'
+		- '#Method .* has parameter \$cursor with no typehint specified.#'
 includes:
 	- vendor/phpstan/phpstan-phpunit/extension.neon
 	- vendor/phpstan/phpstan-phpunit/rules.neon
