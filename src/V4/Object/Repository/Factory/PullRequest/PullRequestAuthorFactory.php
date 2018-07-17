@@ -19,7 +19,7 @@ class PullRequestAuthorFactory
 {
     public function create(?array $data, ?string $association = null): PullRequestAuthor
     {
-        if (empty($data)) {
+        if ([] === $data || null === $data) {
             return new PullRequestAuthor(
                 new AccountId(10137),
                 new AccountLogin('ghost'),
