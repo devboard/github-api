@@ -176,7 +176,7 @@ class TestDataRetrieverV4Test extends TestCase
         }
     }
 
-    private function writeJson(string $vendor, string $filename, $data)
+    private function writeJson(string $vendor, string $filename, $data): void
     {
         //BitMask: pretty print and no escaped slashes
         $encodeOptions = JSON_PRETTY_PRINT + JSON_UNESCAPED_SLASHES;
