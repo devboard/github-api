@@ -6,7 +6,6 @@ parameters:
 		- '#Call to an undefined method DevboardLib\\GitHubApi\\Auth\\GitHubApp\\JwtTokenBuilder|Mockery\\MockInterface::shouldReceive().#'
 		- '#Parameter \#1 \$json of function json_decode expects string, string|false given.#'
 		- '#Method Tests\\DevboardLib\\GitHubApi\\V3\\TestData\\.*FileContent() should return string but returns string|false.#'
-		- '#Call to an undefined static method DevboardLib\\GitHub\\Account\\AccountType::BOT().#'
 		- '#Call to static method PHPUnit\\Framework\\Assert::assertNotNull\(\) with array will always evaluate to true.#'
 		- '#Call to static method PHPUnit\\Framework\\Assert::assertInstanceOf\(\) with .* and .* will always evaluate to true.#'
 		- '#Method .* has parameter \$cursor with no typehint specified.#'
