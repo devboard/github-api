@@ -1,5 +1,8 @@
 CHANGELOG
 
+Version 2.x []:
+
+
 Version 1.5.0 [2018-07-15]:
 
  - If there is no info about status creator, create ghost
