@@ -6,7 +6,6 @@ namespace DevboardLib\GitHubApi\V4\Raw\Repository;
 
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
-use DevboardLib\GitHubApi\Query\Repository\Request\AllLabelsQuery;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 
 class LabelApi
@@ -29,25 +28,6 @@ class LabelApi
             'cursor' => $cursor,
         ];
         $client = $this->clientFactory->createAppAndUserAuthenticatedClient($credentials);
-
-        $data = $client->graphql()->execute($queryDefinition, $variables);
-
-        return $data;
-    }
-
-    /**
-     * @deprecated REMOVE THIS ONE IN VERSION 2.0
-     */
-    public function handleAllLabelsQuery(AllLabelsQuery $query): array
-    {
-        $queryDefinition = file_get_contents(__DIR__.'/labels.graphql');
-
-        $variables = [
-            'owner'  => (string) $query->getOwnerName(),
-            'name'   => (string) $query->getRepoName(),
-            'cursor' => null,
-        ];
-        $client = $this->clientFactory->createAppAndUserAuthenticatedClient($query->getCredentials());
 
         $data = $client->graphql()->execute($queryDefinition, $variables);
 
