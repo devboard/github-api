@@ -6,7 +6,6 @@ namespace DevboardLib\GitHubApi\V4\Raw\Repository;
 
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
-use DevboardLib\GitHubApi\Query\Repository\Request\AllBranchesQuery;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 
 class BranchApi
@@ -50,25 +49,6 @@ class BranchApi
         $data['data']['repository']['refs']['edges'] = array_merge(
             $data['data']['repository']['refs']['edges'], $edges
         );
-
-        return $data;
-    }
-
-    /**
-     * @deprecated REMOVE THIS ONE IN VERSION 2.0
-     */
-    public function handleAllBranchesQuery(AllBranchesQuery $query): array
-    {
-        $queryDefinition = file_get_contents(__DIR__.'/branches.graphql');
-
-        $variables = [
-            'owner'  => (string) $query->getOwnerName(),
-            'name'   => (string) $query->getRepoName(),
-            'cursor' => null,
-        ];
-        $client = $this->clientFactory->createAppAndUserAuthenticatedClient($query->getCredentials());
-
-        $data = $client->graphql()->execute($queryDefinition, $variables);
 
         return $data;
     }

@@ -6,8 +6,6 @@ namespace DevboardLib\GitHubApi\V4\Raw\Repository;
 
 use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
-use DevboardLib\GitHubApi\Query\Repository\Request\AllBranchStatusesQuery;
-use DevboardLib\GitHubApi\Query\Repository\Request\AllPullRequestStatusesQuery;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 
 class StatusApi
@@ -55,25 +53,6 @@ class StatusApi
         return $data;
     }
 
-    /**
-     * @deprecated REMOVE THIS ONE IN VERSION 2.0
-     */
-    public function handleAllBranchStatusesQuery(AllBranchStatusesQuery $query): array
-    {
-        $queryDefinition = file_get_contents(__DIR__.'/branch_statuses.graphql');
-
-        $variables = [
-            'owner'  => (string) $query->getOwnerName(),
-            'name'   => (string) $query->getRepoName(),
-            'cursor' => null,
-        ];
-        $client = $this->clientFactory->createAppAndUserAuthenticatedClient($query->getCredentials());
-
-        $data = $client->graphql()->execute($queryDefinition, $variables);
-
-        return $data;
-    }
-
     public function allPullRequestStatuses(
         RepoFullName $fullName, InstallationCredentials $credentials, $cursor = null
     ): array {
@@ -89,37 +68,5 @@ class StatusApi
         $data = $client->graphql()->execute($queryDefinition, $variables);
 
         return $data;
-    }
-
-    /**
-     * @deprecated REMOVE THIS ONE IN VERSION 2.0
-     */
-    public function handleAllPullRequestStatusesQuery(AllPullRequestStatusesQuery $query): array
-    {
-        $queryDefinition = file_get_contents(__DIR__.'/pull_request_statuses.graphql');
-
-        $variables = [
-            'owner'  => (string) $query->getOwnerName(),
-            'name'   => (string) $query->getRepoName(),
-            'cursor' => null,
-        ];
-        $client = $this->clientFactory->createAppAndUserAuthenticatedClient($query->getCredentials());
-
-        $results = [];
-
-        do {
-            $data = $client->graphql()->execute($queryDefinition, $variables);
-
-            $results[] = $data;
-
-            if (false === $data['data']['repository']['pullRequests']['pageInfo']['hasNextPage']) {
-                break;
-            }
-            $lastId = $data['data']['repository']['pullRequests']['pageInfo']['endCursor'];
-
-            $variables['cursor'] = $lastId;
-        } while (true);
-
-        return $results;
     }
 }
