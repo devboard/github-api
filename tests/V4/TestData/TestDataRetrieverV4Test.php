@@ -9,12 +9,6 @@ use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHub\User\UserId;
 use DevboardLib\GitHubApi\Auth\GitHubApp\JwtTokenBuilder;
 use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
-use DevboardLib\GitHubApi\Query\Repository\Request\AllBranchesQuery;
-use DevboardLib\GitHubApi\Query\Repository\Request\AllBranchStatusesQuery;
-use DevboardLib\GitHubApi\Query\Repository\Request\AllLabelsQuery;
-use DevboardLib\GitHubApi\Query\Repository\Request\AllMilestonesQuery;
-use DevboardLib\GitHubApi\Query\Repository\Request\AllPullRequestsQuery;
-use DevboardLib\GitHubApi\Query\Repository\Request\AllPullRequestStatusesQuery;
 use DevboardLib\GitHubApi\V3\GitHubClientFactory;
 use DevboardLib\GitHubApi\V4\Raw\Repository\BranchApi;
 use DevboardLib\GitHubApi\V4\Raw\Repository\LabelApi;
@@ -80,9 +74,7 @@ class TestDataRetrieverV4Test extends TestCase
     {
         $api = new BranchApi($this->clientFactory);
 
-        $query = new AllBranchesQuery($repoFullName, new InstallationCredentials($installationId, $this->userId));
-
-        $data = $api->handleAllBranchesQuery($query);
+        $data = $api->allBranches($repoFullName, new InstallationCredentials($installationId, $this->userId));
 
         self::assertNotEmpty($data);
 
@@ -92,9 +84,9 @@ class TestDataRetrieverV4Test extends TestCase
     /** @dataProvider provideRepositoriesData */
     public function testLabelsFetch(InstallationId $installationId, RepoFullName $repoFullName): void
     {
-        $api   = new LabelApi($this->clientFactory);
-        $query = new AllLabelsQuery($repoFullName, new InstallationCredentials($installationId, $this->userId));
-        $data  = $api->handleAllLabelsQuery($query);
+        $api = new LabelApi($this->clientFactory);
+
+        $data = $api->allLabels($repoFullName, new InstallationCredentials($installationId, $this->userId));
 
         self::assertNotEmpty($data);
 
@@ -104,9 +96,9 @@ class TestDataRetrieverV4Test extends TestCase
     /** @dataProvider provideRepositoriesData */
     public function testMilestonesFetch(InstallationId $installationId, RepoFullName $repoFullName): void
     {
-        $api   = new MilestoneApi($this->clientFactory);
-        $query = new AllMilestonesQuery($repoFullName, new InstallationCredentials($installationId, $this->userId));
-        $data  = $api->handleAllMilestonesQuery($query);
+        $api = new MilestoneApi($this->clientFactory);
+
+        $data = $api->allMilestones($repoFullName, new InstallationCredentials($installationId, $this->userId));
 
         self::assertNotEmpty($data);
 
@@ -118,9 +110,7 @@ class TestDataRetrieverV4Test extends TestCase
     {
         $api = new PullRequestApi($this->clientFactory);
 
-        $query = new AllPullRequestsQuery($repoFullName, new InstallationCredentials($installationId, $this->userId));
-
-        $data = $api->handleAllPullRequestsQuery($query);
+        $data = $api->allPullRequests($repoFullName, new InstallationCredentials($installationId, $this->userId));
 
         self::assertNotEmpty($data);
 
@@ -132,9 +122,7 @@ class TestDataRetrieverV4Test extends TestCase
     {
         $api = new StatusApi($this->clientFactory);
 
-        $query = new AllBranchStatusesQuery($repoFullName, new InstallationCredentials($installationId, $this->userId));
-
-        $data = $api->handleAllBranchStatusesQuery($query);
+        $data = $api->allBranchStatuses($repoFullName, new InstallationCredentials($installationId, $this->userId));
 
         self::assertNotEmpty($data);
 
@@ -144,13 +132,10 @@ class TestDataRetrieverV4Test extends TestCase
     /** @dataProvider provideRepositoriesData */
     public function testStatusPullRequestFetch(InstallationId $installationId, RepoFullName $repoFullName): void
     {
-        $api = new StatusApi($this->clientFactory);
-
-        $query = new AllPullRequestStatusesQuery(
+        $api  = new StatusApi($this->clientFactory);
+        $data = $api->allPullRequestStatuses(
             $repoFullName, new InstallationCredentials($installationId, $this->userId)
         );
-
-        $data = $api->handleAllPullRequestStatusesQuery($query);
 
         self::assertNotEmpty($data);
 
