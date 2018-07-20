@@ -23,8 +23,8 @@ class StatusApi
         $queryDefinition = file_get_contents(__DIR__.'/branch_statuses.graphql');
 
         $variables = [
-            'owner'  => $fullName->getOwner()->__toString(),
-            'name'   => $fullName->getRepoName()->__toString(),
+            'owner'  => $fullName->getOwner()->asString(),
+            'name'   => $fullName->getRepoName()->asString(),
             'cursor' => $cursor,
         ];
         $client = $this->clientFactory->createAppAndUserAuthenticatedClient($credentials);
@@ -59,8 +59,8 @@ class StatusApi
         $queryDefinition = file_get_contents(__DIR__.'/pull_request_statuses.graphql');
 
         $variables = [
-            'owner'  => $fullName->getOwner()->__toString(),
-            'name'   => $fullName->getRepoName()->__toString(),
+            'owner'  => $fullName->getOwner()->asString(),
+            'name'   => $fullName->getRepoName()->asString(),
             'cursor' => $cursor,
         ];
         $client = $this->clientFactory->createAppAndUserAuthenticatedClient($credentials);

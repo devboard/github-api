@@ -23,8 +23,8 @@ class BranchApi
         $queryDefinition = file_get_contents(__DIR__.'/branches.graphql');
 
         $variables = [
-            'owner'  => $fullName->getOwner()->__toString(),
-            'name'   => $fullName->getRepoName()->__toString(),
+            'owner'  => $fullName->getOwner()->asString(),
+            'name'   => $fullName->getRepoName()->asString(),
             'cursor' => $cursor,
         ];
         $client = $this->clientFactory->createAppAndUserAuthenticatedClient($credentials);
