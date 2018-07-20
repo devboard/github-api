@@ -4,7 +4,8 @@ declare(strict_types=1);
 
 namespace Tests\DevboardLib\GitHubApi\V4\Raw\Repository;
 
-use DevboardLib\GitHubApi\Query\Repository\Request\AllLabelsQuery;
+use DevboardLib\GitHub\Repo\RepoFullName;
+use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
 use DevboardLib\GitHubApi\V4\Raw\Repository\LabelApi;
 
 /**
@@ -22,8 +23,10 @@ class LabelApiTest extends BaseTestCase
 
         $api = new LabelApi($this->getClientFactory());
 
-        $query = AllLabelsQuery::create('devboard/git-interfaces', 125958, $userId);
-        $data  = $api->handleAllLabelsQuery($query);
+        $data = $api->allLabels(
+            RepoFullName::createFromString('devboard/git-interfaces'),
+            InstallationCredentials::create(125958, $userId)
+        );
 
         self::assertNotNull($data);
     }

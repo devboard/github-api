@@ -4,7 +4,8 @@ declare(strict_types=1);
 
 namespace Tests\DevboardLib\GitHubApi\V4\Raw\Repository;
 
-use DevboardLib\GitHubApi\Query\Repository\Request\AllPullRequestsQuery;
+use DevboardLib\GitHub\Repo\RepoFullName;
+use DevboardLib\GitHubApi\Credentials\InstallationCredentials;
 use DevboardLib\GitHubApi\V4\Raw\Repository\PullRequestApi;
 
 /**
@@ -22,9 +23,10 @@ class PullRequestApiTest extends BaseTestCase
 
         $api = new PullRequestApi($this->getClientFactory());
 
-        $query = AllPullRequestsQuery::create('devboard/git-interfaces', 125958, $userId);
-
-        $data = $api->handleAllPullRequestsQuery($query);
+        $data = $api->allPullRequests(
+            RepoFullName::createFromString('devboard/git-interfaces'),
+            InstallationCredentials::create(125958, $userId)
+        );
 
         self::assertNotNull($data);
         self::assertEquals(1, count($data));
