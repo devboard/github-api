@@ -78,7 +78,7 @@ class TestDataRetrieverV4Test extends TestCase
 
         self::assertNotEmpty($data);
 
-        $this->writeJson($repoFullName->__toString(), 'branches.json', $data);
+        $this->writeJson($repoFullName->asString(), 'branches.json', $data);
     }
 
     /** @dataProvider provideRepositoriesData */
@@ -90,7 +90,7 @@ class TestDataRetrieverV4Test extends TestCase
 
         self::assertNotEmpty($data);
 
-        $this->writeJson($repoFullName->__toString(), 'labels.json', $data);
+        $this->writeJson($repoFullName->asString(), 'labels.json', $data);
     }
 
     /** @dataProvider provideRepositoriesData */
@@ -102,7 +102,7 @@ class TestDataRetrieverV4Test extends TestCase
 
         self::assertNotEmpty($data);
 
-        $this->writeJson($repoFullName->__toString(), 'milestones.json', $data);
+        $this->writeJson($repoFullName->asString(), 'milestones.json', $data);
     }
 
     /** @dataProvider provideRepositoriesData */
@@ -114,7 +114,7 @@ class TestDataRetrieverV4Test extends TestCase
 
         self::assertNotEmpty($data);
 
-        $this->writeJson($repoFullName->__toString(), 'pullrequests.json', $data);
+        $this->writeJson($repoFullName->asString(), 'pullrequests.json', $data);
     }
 
     /** @dataProvider provideRepositoriesData */
@@ -126,7 +126,7 @@ class TestDataRetrieverV4Test extends TestCase
 
         self::assertNotEmpty($data);
 
-        $this->writeJson($repoFullName->__toString(), 'branch_statuses.json', $data);
+        $this->writeJson($repoFullName->asString(), 'branch_statuses.json', $data);
     }
 
     /** @dataProvider provideRepositoriesData */
@@ -139,7 +139,7 @@ class TestDataRetrieverV4Test extends TestCase
 
         self::assertNotEmpty($data);
 
-        $this->writeJson($repoFullName->__toString(), 'pullrequest_statuses.json', $data);
+        $this->writeJson($repoFullName->asString(), 'pullrequest_statuses.json', $data);
     }
 
     public function provideRepositoriesData(): Generator
