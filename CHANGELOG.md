@@ -1,6 +1,15 @@
 CHANGELOG
 
-Version 2.x []:
+Version 2.0 [2018-07-20]:
+
+ - remove objects API
+ - Use `asString()` instead of deprecated `__toString()`
+ - Delete whole query namespace
+ - Cleaning V3 API from deprecated methods
+ - No need to ignore AccountType::BOT() any more in PHPStan
+ - Remove V4 Object API
+ - Switch V4 API tests from removed methods to new ones
+ - Removing deprecated API endpoints
 
 
 Version 1.5.0 [2018-07-15]:
