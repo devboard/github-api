@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e55c448c4eb707dff6b6ad0ff0b3a8aa",
+    "content-hash": "2055ae61118d1d23714bc88777f5d4d9",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -60,16 +60,16 @@
         },
         {
             "name": "devboard/git-interfaces",
-            "version": "2.0.x-dev",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/git-interfaces.git",
-                "reference": "703c85475e2e17a5067106da715b6066997f9540"
+                "reference": "7528886555d0564aa61e0c3138450c0f91a39da9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/git-interfaces/zipball/703c85475e2e17a5067106da715b6066997f9540",
-                "reference": "703c85475e2e17a5067106da715b6066997f9540",
+                "url": "https://api.github.com/repos/devboard/git-interfaces/zipball/7528886555d0564aa61e0c3138450c0f91a39da9",
+                "reference": "7528886555d0564aa61e0c3138450c0f91a39da9",
                 "shasum": ""
             },
             "require": {
@@ -89,20 +89,20 @@
                 "proprietary"
             ],
             "description": "Devboard git interfaces",
-            "time": "2018-07-20T13:57:08+00:00"
+            "time": "2018-07-20T21:09:53+00:00"
         },
         {
             "name": "devboard/lib-generix",
-            "version": "2.0.x-dev",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/lib-generix.git",
-                "reference": "f910a702753d407dc034869d671bfc4fca57355d"
+                "reference": "0869c6bf9e12609a3ae9c5ba09c1cec69eb1b2dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/lib-generix/zipball/f910a702753d407dc034869d671bfc4fca57355d",
-                "reference": "f910a702753d407dc034869d671bfc4fca57355d",
+                "url": "https://api.github.com/repos/devboard/lib-generix/zipball/0869c6bf9e12609a3ae9c5ba09c1cec69eb1b2dc",
+                "reference": "0869c6bf9e12609a3ae9c5ba09c1cec69eb1b2dc",
                 "shasum": ""
             },
             "require": {
@@ -137,25 +137,25 @@
                 "proprietary"
             ],
             "description": "Devboard lib with generix",
-            "time": "2018-07-20T15:15:28+00:00"
+            "time": "2018-07-20T21:19:49+00:00"
         },
         {
             "name": "devboard/lib-git",
-            "version": "2.0.x-dev",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/lib-git.git",
-                "reference": "48daaaa06aa8071c4de3092183ab0374d74063d9"
+                "reference": "ae8e80e8aa8123f1a945e9d142e307280514ca09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/lib-git/zipball/48daaaa06aa8071c4de3092183ab0374d74063d9",
-                "reference": "48daaaa06aa8071c4de3092183ab0374d74063d9",
+                "url": "https://api.github.com/repos/devboard/lib-git/zipball/ae8e80e8aa8123f1a945e9d142e307280514ca09",
+                "reference": "ae8e80e8aa8123f1a945e9d142e307280514ca09",
                 "shasum": ""
             },
             "require": {
-                "devboard/git-interfaces": "^2.0@dev",
-                "devboard/lib-generix": "^2.0@dev",
+                "devboard/git-interfaces": "^2.0",
+                "devboard/lib-generix": "^2.0",
                 "php": "^7.1"
             },
             "require-dev": {
@@ -186,26 +186,26 @@
                 "proprietary"
             ],
             "description": "Devboard lib for git",
-            "time": "2018-07-20T15:32:00+00:00"
+            "time": "2018-07-20T21:28:06+00:00"
         },
         {
             "name": "devboard/lib-github",
-            "version": "2.0.x-dev",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/lib-github.git",
-                "reference": "c7d5c1cc943a0ec5f39b3dda01653d58f3278c6a"
+                "reference": "29ac76fb9db1da2639f921008d9f898083eaf0b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/lib-github/zipball/c7d5c1cc943a0ec5f39b3dda01653d58f3278c6a",
-                "reference": "c7d5c1cc943a0ec5f39b3dda01653d58f3278c6a",
+                "url": "https://api.github.com/repos/devboard/lib-github/zipball/29ac76fb9db1da2639f921008d9f898083eaf0b1",
+                "reference": "29ac76fb9db1da2639f921008d9f898083eaf0b1",
                 "shasum": ""
             },
             "require": {
-                "devboard/git-interfaces": "^2.0@dev",
-                "devboard/lib-generix": "^2.0@dev",
-                "devboard/lib-git": "^2.0@dev",
+                "devboard/git-interfaces": "^2.0",
+                "devboard/lib-generix": "^2.0",
+                "devboard/lib-git": "^2.0",
                 "myclabs/php-enum": "^1.5",
                 "php": "^7.1",
                 "webmozart/assert": "^1.2"
@@ -238,7 +238,7 @@
                 "proprietary"
             ],
             "description": "Devboard lib for GitHub",
-            "time": "2018-07-20T15:37:12+00:00"
+            "time": "2018-07-20T21:35:37+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -5795,10 +5795,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "devboard/git-interfaces": 20,
-        "devboard/lib-generix": 20,
-        "devboard/lib-git": 20,
-        "devboard/lib-github": 20,
         "friendsofphp/php-cs-fixer": 20,
         "infection/infection": 20
     },
