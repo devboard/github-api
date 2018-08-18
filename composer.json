@@ -34,6 +34,7 @@
         "phpspec/phpspec": "^5.0",
         "phpstan/phpstan": "^0.10.1",
         "phpstan/phpstan-deprecation-rules": "^0.10.2",
+        "phpstan/phpstan-mockery": "^0.10.1",
         "phpstan/phpstan-phpunit": "^0.10.0",
         "phpstan/phpstan-strict-rules": "^0.10.0",
         "phpunit/phpunit": "^7.0",
