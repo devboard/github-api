@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2055ae61118d1d23714bc88777f5d4d9",
+    "content-hash": "4c1989fde9817189d9767413d69bd226",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -2036,16 +2036,16 @@
         },
         {
             "name": "infection/infection",
-            "version": "0.9.x-dev",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/infection/infection.git",
-                "reference": "98de6f13821c88dd671257d27cc7dcbca0409d2d"
+                "reference": "befd28b1adfb2468f2318010211d7ca5232c2e56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/infection/infection/zipball/98de6f13821c88dd671257d27cc7dcbca0409d2d",
-                "reference": "98de6f13821c88dd671257d27cc7dcbca0409d2d",
+                "url": "https://api.github.com/repos/infection/infection/zipball/befd28b1adfb2468f2318010211d7ca5232c2e56",
+                "reference": "befd28b1adfb2468f2318010211d7ca5232c2e56",
                 "shasum": ""
             },
             "require": {
@@ -2054,14 +2054,15 @@
                 "nikic/php-parser": "^4.0",
                 "ocramius/package-versions": "^1.2",
                 "padraic/phar-updater": "^1.0.4",
-                "php": "^7.0",
+                "php": "^7.1",
                 "pimple/pimple": "^3.2",
                 "sebastian/diff": "^1.4 || ^2.0 || ^3.0",
                 "symfony/console": "^3.2 || ^4.0",
                 "symfony/filesystem": "^3.2 || ^4.0",
                 "symfony/finder": "^3.2 || ^4.0",
                 "symfony/process": "^3.2 || ^4.0",
-                "symfony/yaml": "^3.2 || ^4.0"
+                "symfony/yaml": "^3.2 || ^4.0",
+                "webmozart/assert": "^1.3"
             },
             "conflict": {
                 "symfony/process": "3.4.2"
@@ -2117,7 +2118,7 @@
                 "testing",
                 "unit testing"
             ],
-            "time": "2018-08-09T04:45:18+00:00"
+            "time": "2018-08-11T07:36:24+00:00"
         },
         {
             "name": "jean85/pretty-package-versions",
@@ -5795,8 +5796,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "friendsofphp/php-cs-fixer": 20,
-        "infection/infection": 20
+        "friendsofphp/php-cs-fixer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
