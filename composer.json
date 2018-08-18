@@ -27,7 +27,7 @@
         "ciaranmcnulty/phpspec-typehintedmethods": "^4.0",
         "devboard/thesting-data-source": "^1.1",
         "friendsofphp/php-cs-fixer": "dev-long-line-fixers2",
-        "infection/infection": "^0.9@dev",
+        "infection/infection": "^0.10.0",
         "mockery/mockery": "^1.0",
         "phing/phing": "^2.16",
         "phpmd/phpmd": "^2.6",
